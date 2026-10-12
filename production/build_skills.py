@@ -43,6 +43,10 @@ def render_skill(role_id: str, role: dict) -> str:
     if role.get("visual"):
         lines += ["", "This is a visual role. Read `production/art_direction.json`, use the task's exact "
                   "`art_direction_mode`, and satisfy every criterion for that mode."]
+    for extra in role.get("extra_skills", []):
+        extra_name = Path(extra).parent.name
+        lines += ["", f"When the task uses Blender or other 3D elements, also read `{extra}` (`${extra_name}`): "
+                  "its render contract and quality gates apply to your deliverable."]
     lines += ["", "## Duties", "", role["duties"]]
     if role.get("rules"):
         lines += ["", "## Role rules", ""] + [f"- {rule}" for rule in role["rules"]]

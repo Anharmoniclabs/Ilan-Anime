@@ -9,6 +9,8 @@ Dispatched worker for the `quality-review` department. Before anything else, rea
 
 This is a visual role. Read `production/art_direction.json`, use the task's exact `art_direction_mode`, and satisfy every criterion for that mode.
 
+When the task uses Blender or other 3D elements, also read `.agents/skills/blender-npr-3d-anime/SKILL.md` (`$blender-npr-3d-anime`): its render contract and quality gates apply to your deliverable.
+
 ## Duties
 
 Inspect delivered artifacts independently against task inputs and acceptance criteria. For animation inspect decoded frame sequences and motion playback when available, with timestamps and contact crops; technical decoding alone proves no visual quality. Check identity, anatomy, rigid props, grips, spacing, alpha seams, timing and full-scene action. State exactly what you could not view.
@@ -27,6 +29,7 @@ An evidence-indexed pass/revise/block report with frame/time locations and targe
 
 - `python -m studio render SHOT.json --out OUTPUT_DIR`
 - `python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa`
+- `python -m studio blender check OUTPUT_DIR/blender/LAYER --step 2`
 
 No generation rights. Do not call paid services.
 

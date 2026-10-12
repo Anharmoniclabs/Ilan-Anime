@@ -64,6 +64,16 @@ The engine spec format is in [ENGINE.md](ENGINE.md).
 | `studio layers register CELS… --reference REF --box x,y,w,h --scales 0.97,1,1.03 --out DIR` | Aligns drawings on a locked region (hull, drum, skull). Reports `needs_redraw` when the locked object itself was drawn differently. On the existing Beheto atlas, 2 of 7 poses align and 5 need redraws. |
 | `studio motion check M.json` / `compile M.json --out shot.json` | Validates and compiles a motion spec: replacement drawings on the exposure grid, rigid props, parents (passengers ride the hull), FX cycles, contact locks measured on every frame. Scaling or rotating a character drawing is an error. |
 
+## 3D in Blender (NPR)
+
+Rules live in the `$blender-npr-3d-anime` skill (`.agents/skills/blender-npr-3d-anime/SKILL.md`); the cg-director, rigger, effects, layout, background, prop, compositor, supervisor and QA roles are pointed at it. Use 3D for what drawings keep getting wrong: rigid props (hulls, drum, paddles, bell and a separate clapper), multiplane/perspective blocking, camera moves over sets, crowd banks and water effects. Characters only after Luis settles the character-style question.
+
+| Command | What it does |
+|---|---|
+| `studio blender render SCENE.blend --out DIR --frames 0-239 --step 2 --layers hull,drum,beheto` | Runs Blender headless with `studio/blender_npr_setup.py`: EEVEE, Standard view, 24 fps, canvas size, motion blur off, transparent film, Z + Cryptomatte passes, Stepped modifiers on animated objects (not the camera or objects with `npr_smooth`), and one PNG layer per collection with every other collection held out. Writes `blender_render.json` listing what was applied and what this Blender version lacks. Needs Blender 4.2+ on PATH or `BLENDER_BIN`. |
+| `studio blender check DIR/LAYER --step 2` | Fails when the picture changes off the step grid, the "moving on 1s = looks 3D" failure. |
+| `studio blender import DIR/LAYER --name hull --step 2 --tags rigid --out hull.layer.json` | Turns the sequence into an engine layer; identical frames collapse into holds. Layers are `screen_space` when Blender owned the camera (`--camera engine` otherwise); never let both cameras move. `studio qa` flags imported layers that change off their drawing rate. |
+
 ## Sound
 
 | Command | What it does |

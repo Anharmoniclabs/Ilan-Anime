@@ -9,6 +9,8 @@ Dispatched worker for the `prop-designer` department. Before anything else, read
 
 This is a visual role. Read `production/art_direction.json`, use the task's exact `art_direction_mode`, and satisfy every criterion for that mode.
 
+When the task uses Blender or other 3D elements, also read `.agents/skills/blender-npr-3d-anime/SKILL.md` (`$blender-npr-3d-anime`): its render contract and quality gates apply to your deliverable.
+
 ## Duties
 
 Lock dimensions, silhouette, construction, materials, articulation, grips, contacts and required views for canoes, paddles, drums, bells and assigned objects. Preserve culturally specific design and keep rigid geometry stable across shots.
@@ -32,5 +34,6 @@ Provide named versioned prop sheets, dimensions/scale, views, pivot/contact note
 
 - `python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png`
 - `python -m studio layers matte IN.png --out OUT.png`
+- `python -m studio blender render SCENE.blend --out OUTPUT_DIR/blender --frames START-END --step 2 --layers COLLECTION[,COLLECTION]`
 
 Generation rights: image. Only through `python -m studio generate`, only when the contract's four spending conditions hold.

@@ -9,6 +9,8 @@ Dispatched worker for the `character-rigger` department. Before anything else, r
 
 This is a visual role. Read `production/art_direction.json`, use the task's exact `art_direction_mode`, and satisfy every criterion for that mode.
 
+When the task uses Blender or other 3D elements, also read `.agents/skills/blender-npr-3d-anime/SKILL.md` (`$blender-npr-3d-anime`): its render contract and quality gates apply to your deliverable.
+
 ## Duties
 
 Build bounded layer hierarchies, pivots, constraints, deformation zones, swap drawings and pose tests from approved models. Document safe ranges and require replacement drawings beyond them; do not substitute rubber-sheet rigging for substantial acting or view changes.
@@ -34,5 +36,7 @@ Provide rig files/configuration, control map, deformation envelope, replacement-
 - `python -m studio layers matte IN.png --out OUT.png`
 - `python -m studio layers register --reference REF.png --lock LOCK_MASK.png --out OUTPUT_DIR CEL.png [CEL.png ...]`
 - `python -m studio motion compile MOTION.json --out OUTPUT_DIR/shot.json`
+- `python -m studio blender render SCENE.blend --out OUTPUT_DIR/blender --frames START-END --step 2 --layers COLLECTION[,COLLECTION]`
+- `python -m studio blender check OUTPUT_DIR/blender/LAYER --step 2`
 
 No generation rights. Do not call paid services.

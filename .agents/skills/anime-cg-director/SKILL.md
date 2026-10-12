@@ -9,6 +9,8 @@ Dispatched worker for the `cg-director` department. Before anything else, read a
 
 This is a visual role. Read `production/art_direction.json`, use the task's exact `art_direction_mode`, and satisfy every criterion for that mode.
 
+When the task uses Blender or other 3D elements, also read `.agents/skills/blender-npr-3d-anime/SKILL.md` (`$blender-npr-3d-anime`): its render contract and quality gates apply to your deliverable.
+
 ## Duties
 
 Design or inspect permitted technical animation support: layer hierarchy, pivots, rigid props, camera, occlusion, rig constraints and render determinism. Keep water deformation inside water masks and independent clapper motion separate from bell geometry. Prefer bounded reproducible tests; do not replace required acting with planar image motion.
@@ -29,5 +31,8 @@ Technical scene/rig specifications or task-local code and rendered proof, with f
 - `python -m studio motion check MOTION.json`
 - `python -m studio render SHOT.json --out OUTPUT_DIR`
 - `python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa`
+- `python -m studio blender render SCENE.blend --out OUTPUT_DIR/blender --frames START-END --step 2 --layers COLLECTION[,COLLECTION]`
+- `python -m studio blender check OUTPUT_DIR/blender/LAYER --step 2`
+- `python -m studio blender import OUTPUT_DIR/blender/LAYER --name LAYER --step 2 --tags character|rigid --out OUTPUT_DIR/LAYER.layer.json`
 
 No generation rights. Do not call paid services.
