@@ -5,18 +5,48 @@
     720
   ],
   "frames": 144,
-  "status": "unrigged_reference",
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "For two more seconds the dancers hang on the wall, blue and gold, with no projector under them. Then they go. The radiators tick back to normal, 'because as far as the radiators were concerned nothing had happened'.",
+  "camera_note": "FIX · wall in darkness",
+  "drawing_rate": 3,
   "layers": [
     {
-      "name": "reference_only",
+      "name": "plate_0",
       "source": "assets/keyframes/S05-16.png",
-      "fit_canvas": true,
-      "rate": 3
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 144,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
     }
   ],
   "camera": [],
+  "post": {
+    "fade": [
+      {
+        "start": 96,
+        "end": 144,
+        "to": "black"
+      }
+    ]
+  },
   "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "HOLD_BLACK/SMASH_CUT_BLACK (cut point not stated)"
+    ],
+    "asset_slot_fx": [
+      "TRANSMITTED_LIGHT_ONLY"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

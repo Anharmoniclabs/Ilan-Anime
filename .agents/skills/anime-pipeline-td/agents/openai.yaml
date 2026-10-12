@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anime Pipeline Technical Director"
+  short_description: "Define and verify deterministic naming, paths, frame numbering, resolution, fps, color,..."
+  default_prompt: "Use $anime-pipeline-td for the dispatched ledger task."
+policy:
+  allow_implicit_invocation: false

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Studio"
-  short_description: "Coordinate bounded animation production agents"
-  default_prompt: "Use $anime-studio to delegate this shot to bounded production agents."

@@ -5,11 +5,36 @@
     720
   ],
   "frames": 192,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "JC reads it twice; the second reading is worse because they are right. Flattery he can shrug off. This named the thing he is proud of. Nine days from rent, on cafecito and spite.",
-  "layers": [],
+  "camera_note": "MS counter",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S11-03",
+        "header": "10:57:00 → 11:05:00 (192f) · MS counter · rate 3s",
+        "action": "JC reads it twice; the second reading is worse because they are right. Flattery he can shrug off. This named the thing he is proud of. Nine days from rent, on cafecito and spite.\nSOUND: VO as in the book, trimmed."
+      }
+    }
+  ],
   "camera": [],
+  "post": {},
   "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "FLATTEN",
+      "OVERLAY_SUMS"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

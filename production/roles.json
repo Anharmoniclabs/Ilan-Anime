@@ -1,152 +1,550 @@
 {
   "director": {
-    "skill": "skills/anime-director/SKILL.md",
+    "skill": ".agents/skills/anime-director/SKILL.md",
+    "title": "Anime Director",
+    "description": "Direct story intent and approve creative recommendations. Use for a delegated director task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "producer",
+    "visual": false,
+    "generate": [],
     "duties": "Establish episode intent, character motivations, emotional beats and non-negotiable style from the script and latest author corrections. Resolve contradictions explicitly; propose script revisions separately without silently changing canon.",
-    "reviewer": "producer"
+    "rules": [],
+    "handoff": "Read current script, author corrections, style references and producer constraints. Hand off intent to episode-director; route proposed canon changes to the user.",
+    "deliverables": "A beat-and-intent brief, decision log and measurable creative acceptance criteria for the assigned shots.",
+    "tools": [
+      "python -m studio status"
+    ]
   },
   "producer": {
-    "skill": "skills/anime-producer/SKILL.md",
+    "skill": ".agents/skills/anime-producer/SKILL.md",
+    "title": "Anime Producer",
+    "description": "Plan dependencies, resources and explicit approval gates. Use for a delegated producer task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "quality-review",
+    "visual": false,
+    "generate": [],
     "duties": "Translate approved scope into task dependencies, resource estimates, milestone gates and an asset-gap register. Distinguish available assets from rejected or missing assets. Propose assignments but do not spawn agents or mutate the coordinator ledger.",
-    "reviewer": "quality-review"
+    "rules": [],
+    "handoff": "Read director intent, current status, asset inventory and task ledger. Hand off the plan to the coordinator; never approve your own scope or spend.",
+    "deliverables": "A dependency plan, asset inventory, risk register and list of decisions requiring user approval.",
+    "tools": [
+      "python -m studio status",
+      "python production/asset_registry.py verify"
+    ]
   },
   "episode-director": {
-    "skill": "skills/anime-episode-director/SKILL.md",
+    "skill": ".agents/skills/anime-episode-director/SKILL.md",
+    "title": "Anime Episode Director",
+    "description": "Translate episode intent into shot-level action contracts. Use for a delegated episode-director task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "director",
+    "visual": false,
+    "generate": [],
     "duties": "Specify shot objectives, action beats, staging, continuity and exact frame counts. Preserve canonical shot identifiers and cast. Define character, prop, environmental and camera action separately so a camera move cannot stand in for acting.",
-    "reviewer": "director"
+    "rules": [],
+    "handoff": "Read approved director brief, script, episode timings and approved references. Hand off shot contracts to storyboard and animation-supervisor.",
+    "deliverables": "Shot action contracts with frame ranges, staging notes and storyboard acceptance criteria.",
+    "tools": [
+      "python -m studio status",
+      "python -m studio animatic --shots S01-11,S01-12 --out OUTPUT_DIR"
+    ]
   },
   "script-supervisor": {
-    "skill": "skills/anime-script-supervisor/SKILL.md",
+    "skill": ".agents/skills/anime-script-supervisor/SKILL.md",
+    "title": "Anime Script Supervisor",
+    "description": "Guard canonical script continuity, dialogue, shot timing, cast, props, geography, and version precedence. Use for a delegated script-supervisor task with assigned shots, source inputs, and an isolated output directory.",
+    "reviewer": "episode-director",
+    "visual": false,
+    "generate": [],
     "duties": "Maintain evidence-linked continuity for exact dialogue, cast, emotional state, geography, screen direction, props, costumes, injuries and shot timing. Resolve source precedence and log contradictions without silently rewriting canon or taking over direction.",
-    "reviewer": "episode-director"
+    "rules": [
+      "Keep 16:9, 24 fps, canonical shot IDs, and approved timing unless explicitly changed. Label proposals separately; never silently rewrite canon or promote research into canon."
+    ],
+    "handoff": "Read the current episode script, author corrections, shot data, boards, and approved model/prop records. Hand an evidence-linked continuity report and unresolved-decision list to `episode-director`.",
+    "deliverables": "Provide a shot continuity table, exact dialogue/timing references, contradiction log, and change-impact notes. State what was directly inspected and what remains unverified.",
+    "tools": [
+      "python -m studio status",
+      "python -m studio sound lines --shots SHOT_IDS --out OUTPUT_DIR/lines.json"
+    ]
   },
   "storyboard": {
-    "skill": "skills/anime-storyboard/SKILL.md",
+    "skill": ".agents/skills/anime-storyboard/SKILL.md",
+    "title": "Anime Storyboard Artist",
+    "description": "Stage readable sequential drawings and shot continuity. Use for a delegated storyboard task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "episode-director",
+    "visual": true,
+    "generate": [
+      "image"
+    ],
     "duties": "Plan sequential panels for actual action changes, camera axis, eyelines, screen direction, entrances and exits. Annotate timing, contacts and sound cues. If only textual panels are possible, label them a board plan, not completed drawings.",
-    "reviewer": "episode-director"
+    "rules": [],
+    "handoff": "Read shot contracts, layout references and canonical cast. Hand off approved boards to key-animator and art-director.",
+    "deliverables": "Numbered storyboard panels or an explicitly labeled board plan, timing annotations and continuity map.",
+    "tools": [
+      "python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png",
+      "python -m studio animatic --shots S01-11,S01-12 --out OUTPUT_DIR"
+    ]
   },
   "layout-artist": {
-    "skill": "skills/anime-layout-artist/SKILL.md",
+    "skill": ".agents/skills/anime-layout-artist/SKILL.md",
+    "title": "Anime Layout Artist",
+    "description": "Create final shot layouts for camera, perspective, scale, staging, eyelines, contacts, and layer depth. Use for a delegated layout-artist task with assigned shots, approved boards, source inputs, and an isolated output directory.",
+    "reviewer": "episode-director",
+    "visual": true,
+    "generate": [
+      "image"
+    ],
     "duties": "Translate approved boards into final camera fields, perspective, scale, ground planes, staging, eyelines, contacts, occlusion and parallax layers. Preserve the canonical Cemí visual contract; own spatial construction rather than board story choices, finished paint or animation drawings.",
-    "reviewer": "episode-director"
+    "rules": [
+      "Preserve 16:9, 24 fps, timing, current canon, Luis M. Minier's recognizable hand-drawn geometry, mature restrained anime finish, and scene-true Option B lighting. Do not invent text or turn every scene into sunset."
+    ],
+    "handoff": "Read approved boards, shot contract, continuity report, model/prop scale sheets, and art direction. Hand registered layouts and field guides to `background-painter`, `key-animator`, and `compositor`.",
+    "deliverables": "Provide registered layout drawings or precise layout specifications, camera/field data, scale references, contact anchors, layer plan, and evidence of inspected sources.",
+    "tools": [
+      "python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png",
+      "python -m studio layers split ATLAS.png --grid COLSxROWS --out OUTPUT_DIR",
+      "python -m studio layers matte IN.png --out OUT.png"
+    ]
   },
   "character-designer": {
-    "skill": "skills/anime-character-designer/SKILL.md",
+    "skill": ".agents/skills/anime-character-designer/SKILL.md",
+    "title": "Anime Character Designer",
+    "description": "Maintain identity, proportions and expression references. Use for a delegated character-designer task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "art-director",
+    "visual": true,
+    "generate": [
+      "image"
+    ],
     "duties": "Compare approved references for silhouette, age, facial landmarks, costume, materials and prop scale. Produce task-scoped model or expression sheets when authorized; identify uncertain unseen views rather than inventing canon. Keep rejected sheets separate.",
-    "reviewer": "art-director"
+    "rules": [],
+    "handoff": "Read canonical character references, script cast and shot views. Hand off identity constraints to key-animator and animation-supervisor.",
+    "deliverables": "An identity landmark specification, approved-reference map and annotated design outputs or correction list.",
+    "tools": [
+      "python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png",
+      "python -m studio layers split ATLAS.png --grid COLSxROWS --out OUTPUT_DIR",
+      "python -m studio layers matte IN.png --out OUT.png"
+    ]
   },
   "animation-supervisor": {
-    "skill": "skills/anime-animation-supervisor/SKILL.md",
+    "skill": ".agents/skills/anime-animation-supervisor/SKILL.md",
+    "title": "Anime Animation Supervisor",
+    "description": "Supervise acting, timing, contacts and stable drawings. Use for a delegated animation-supervisor task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "episode-director",
+    "visual": true,
+    "generate": [],
     "duties": "Break each shot into keys, breakdowns, holds and secondary action; specify arcs, spacing, exposure cadence, contact locks and independent moving layers. Inspect submitted animation for weight, identity drift and full-scene action coverage. Request redraws for warps instead of masking them with smaller displacement.",
-    "reviewer": "episode-director"
+    "rules": [],
+    "handoff": "Read approved boards, character sheets, action contracts and rejected-motion audit. Hand off key requirements to key-animator and approved spacing to inbetweener.",
+    "deliverables": "A motion/exposure plan or timestamped animation review with specific revision requests.",
+    "tools": [
+      "python -m studio motion check MOTION.json",
+      "python -m studio render SHOT.json --out OUTPUT_DIR",
+      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa"
+    ]
   },
   "key-animator": {
-    "skill": "skills/anime-key-animator/SKILL.md",
+    "skill": ".agents/skills/anime-key-animator/SKILL.md",
+    "title": "Anime Key Animator",
+    "description": "Draw action keys, breakdowns and stable contact poses. Use for a delegated key-animator task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "animation-supervisor",
+    "visual": true,
+    "generate": [
+      "image"
+    ],
     "duties": "Create approved-shot action keys and decisive breakdowns with stable skull, hull and prop dimensions. Mark fixed landmarks, grips, pressure, balance, silhouette and moving-view changes. Do not warp a flattened painting for substantial acting. Do not declare an unregistered atlas animation.",
-    "reviewer": "animation-supervisor"
+    "rules": [],
+    "handoff": "Read boards, motion plan, canonical model sheets and approved source images. Hand off supervisor-approved drawings to inbetweener.",
+    "deliverables": "Registered key/breakdown drawings with frame IDs, contact annotations, layer separation and an exposure proposal; otherwise a clearly labeled drawing specification.",
+    "tools": [
+      "python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png",
+      "python -m studio layers split ATLAS.png --grid COLSxROWS --out OUTPUT_DIR",
+      "python -m studio layers matte IN.png --out OUT.png",
+      "python -m studio layers register --reference REF.png --lock LOCK_MASK.png --out OUTPUT_DIR CEL.png [CEL.png ...]",
+      "python -m studio motion compile MOTION.json --out OUTPUT_DIR/shot.json",
+      "python -m studio motion check MOTION.json"
+    ]
   },
   "inbetweener": {
-    "skill": "skills/anime-inbetweener/SKILL.md",
+    "skill": ".agents/skills/anime-inbetweener/SKILL.md",
+    "title": "Anime Inbetweener",
+    "description": "Create controlled breakdown spacing between approved keys. Use for a delegated inbetweener task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "animation-supervisor",
+    "visual": true,
+    "generate": [
+      "image"
+    ],
     "duties": "Use only supervisor-approved keys. Follow spacing charts and exposure timing, preserving volume, anatomy, line character, grips and prop contacts. Flag inconsistent keys instead of averaging their errors. Avoid whole-frame optical-flow morphs for character performance.",
-    "reviewer": "animation-supervisor"
+    "rules": [],
+    "handoff": "Read approved keys, timing/spacing charts, model sheets and contact locks. Hand off numbered drawings to color-designer after supervisor review.",
+    "deliverables": "Registered in-between drawings, exposure mapping and notes on any discontinuity requiring revised keys.",
+    "tools": [
+      "python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png",
+      "python -m studio layers matte IN.png --out OUT.png",
+      "python -m studio layers register --reference REF.png --lock LOCK_MASK.png --out OUTPUT_DIR CEL.png [CEL.png ...]",
+      "python -m studio motion check MOTION.json"
+    ]
   },
   "cleanup-artist": {
-    "skill": "skills/anime-cleanup-artist/SKILL.md",
+    "skill": ".agents/skills/anime-cleanup-artist/SKILL.md",
+    "title": "Anime Cleanup Artist",
+    "description": "Clean supervisor-approved animation drawings into stable registered line art while preserving acting, anatomy, identity, contacts, and authored line character. Use for a delegated cleanup-artist task with assigned shots and an isolated output directory.",
+    "reviewer": "animation-supervisor",
+    "visual": true,
+    "generate": [],
     "duties": "Convert approved rough keys and inbetweens into registered final line art while preserving acting, volume, identity, grips, contacts, prop geometry and Luis M. Minier's variable-width ink character. Escalate inconsistent roughs instead of revising animation intent.",
-    "reviewer": "animation-supervisor"
+    "rules": [
+      "Work only from supervisor-approved keys/inbetweens; block on contradictions.",
+      "Preserve Luis M. Minier's variable-width ink, controlled texture, facial asymmetry, heavy brows, grounded eyes, distinct hair, and clean finished anime influence. Never beautify into generic same-face anime."
+    ],
+    "handoff": "Use approved keys/inbetweens, model/prop sheets, layout registrations, and line-quality target. Hand cleaned numbered drawings to `ink-paint-artist`.",
+    "deliverables": "Provide registered cleaned frames, exposure/frame mapping, line-layer manifest, correction flags, and inspected-frame evidence.",
+    "tools": [
+      "python -m studio layers matte IN.png --out OUT.png",
+      "python -m studio layers register --reference REF.png --lock LOCK_MASK.png --out OUTPUT_DIR CEL.png [CEL.png ...]"
+    ]
   },
   "ink-paint-artist": {
-    "skill": "skills/anime-ink-paint-artist/SKILL.md",
+    "skill": ".agents/skills/anime-ink-paint-artist/SKILL.md",
+    "title": "Anime Ink and Paint Artist",
+    "description": "Apply approved palettes, line finish, cel shadows, highlights, alpha, and material separation to registered cleanup drawings. Use for a delegated ink-paint-artist task with assigned shots and an isolated output directory.",
+    "reviewer": "color-designer",
+    "visual": true,
+    "generate": [],
     "duties": "Apply approved palette IDs, line finish, cel-shadow and highlight shapes, alpha edges, mattes and material separation to cleaned drawings. Check frame-to-frame fill continuity without redesigning palette, linework, lighting or composition.",
-    "reviewer": "color-designer"
+    "rules": [
+      "Block on unapproved cleanup, missing palette ID, or inconsistent registrations.",
+      "Preserve warm accurate skin pigments, material-specific colors, deep navy/steel shadows, charcoal, and selective amber/copper light according to actual illumination—not a blanket filter."
+    ],
+    "handoff": "Use approved cleanup frames, color-model sheets, scene color key, exposure map, and matte specification. Hand registered painted cels and manifest to `compositor`.",
+    "deliverables": "Provide painted cels, palette/version manifest, alpha/matte layers, automated and visual fill checks, and evidence of inspected frame ranges.",
+    "tools": [
+      "python -m studio layers matte IN.png --out OUT.png",
+      "python -m studio layers register --reference REF.png --lock LOCK_MASK.png --out OUTPUT_DIR CEL.png [CEL.png ...]",
+      "python -m studio render SHOT.json --out OUTPUT_DIR"
+    ]
   },
   "effects-animator": {
-    "skill": "skills/anime-effects-animator/SKILL.md",
+    "skill": ".agents/skills/anime-effects-animator/SKILL.md",
+    "title": "Anime Effects Animator",
+    "description": "Animate hand-drawn water, wakes, foam, atmosphere, dust, light, and resonance effects as registered independent layers. Use for a delegated effects-animator task with assigned shots and an isolated output directory.",
+    "reviewer": "animation-supervisor",
+    "visual": true,
+    "generate": [
+      "image"
+    ],
     "duties": "Animate registered water, wakes, foam, atmosphere, dust, light and resonance layers with coherent force, travel, dissipation and contact. Keep deformation inside appropriate masks and effects subordinate to character acting and scene physics.",
-    "reviewer": "animation-supervisor"
+    "rules": [
+      "Block on missing contacts, masks, timing, or approved layouts.",
+      "Preserve Luis M. Minier's graphic ink/painterly texture and restrained anime energy language. Keep effects subordinate to acting and scene physics; no generic glow overlays."
+    ],
+    "handoff": "Use approved layout, character/prop motion, contact coordinates, environment plates, and effects brief. Hand registered effect layers, mattes, and exposure data to `compositor`.",
+    "deliverables": "Provide numbered effect drawings/sequences, timing sheet, layer/matte manifest, contact checks, and playback evidence.",
+    "tools": [
+      "python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png",
+      "python -m studio layers matte IN.png --out OUT.png",
+      "python -m studio render SHOT.json --out OUTPUT_DIR"
+    ]
   },
   "cg-director": {
-    "skill": "skills/anime-cg-director/SKILL.md",
+    "skill": ".agents/skills/anime-cg-director/SKILL.md",
+    "title": "Anime CG Director",
+    "description": "Define technical scene, rig and deterministic render contracts. Use for a delegated cg-director task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "animation-supervisor",
+    "visual": true,
+    "generate": [],
     "duties": "Design or inspect permitted technical animation support: layer hierarchy, pivots, rigid props, camera, occlusion, rig constraints and render determinism. Keep water deformation inside water masks and independent clapper motion separate from bell geometry. Prefer bounded reproducible tests; do not replace required acting with planar image motion.",
-    "reviewer": "animation-supervisor"
+    "rules": [],
+    "handoff": "Read shot contracts, approved layer assets, compositor interfaces and audit. Hand off verified layers and technical settings to compositor; do not rewrite shared source files.",
+    "deliverables": "Technical scene/rig specifications or task-local code and rendered proof, with frame counts and reproducible commands.",
+    "tools": [
+      "python -m studio motion compile MOTION.json --out OUTPUT_DIR/shot.json",
+      "python -m studio motion check MOTION.json",
+      "python -m studio render SHOT.json --out OUTPUT_DIR",
+      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa"
+    ]
   },
   "character-rigger": {
-    "skill": "skills/anime-character-rigger/SKILL.md",
+    "skill": ".agents/skills/anime-character-rigger/SKILL.md",
+    "title": "Anime Character Rigger",
+    "description": "Build and validate bounded 2D character or prop rigs with explicit pivots, rigid zones, deformation limits, layer order, and pose tests. Use for a delegated character-rigger task with assigned assets and an isolated output directory.",
+    "reviewer": "cg-director",
+    "visual": true,
+    "generate": [],
     "duties": "Build bounded layer hierarchies, pivots, constraints, deformation zones, swap drawings and pose tests from approved models. Document safe ranges and require replacement drawings beyond them; do not substitute rubber-sheet rigging for substantial acting or view changes.",
-    "reviewer": "cg-director"
+    "rules": [
+      "Block on missing approved model/prop sheets, segmentation, or target actions.",
+      "Preserve Luis M. Minier's facial construction and line character. A rig is permitted support, not permission to replace substantial view changes or acting with rubber-sheet deformation."
+    ],
+    "handoff": "Use approved model/prop sheets, clean segmented art, target-pose list, layout scale, and technical format contract. Hand versioned rig, limitations, and pose-test evidence to `key-animator` or `cg-director`.",
+    "deliverables": "Provide rig files/configuration, control map, deformation envelope, replacement-drawing triggers, deterministic export notes, and visual pose tests.",
+    "tools": [
+      "python -m studio layers split ATLAS.png --grid COLSxROWS --out OUTPUT_DIR",
+      "python -m studio layers matte IN.png --out OUT.png",
+      "python -m studio layers register --reference REF.png --lock LOCK_MASK.png --out OUTPUT_DIR CEL.png [CEL.png ...]",
+      "python -m studio motion compile MOTION.json --out OUTPUT_DIR/shot.json"
+    ]
   },
   "art-director": {
-    "skill": "skills/anime-art-director/SKILL.md",
+    "skill": ".agents/skills/anime-art-director/SKILL.md",
+    "title": "Anime Art Director",
+    "description": "Set scene layout, material and lighting continuity. Use for a delegated art-director task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "director",
+    "visual": true,
+    "generate": [],
     "duties": "Derive environments and layout from approved visual language and scene lighting. Specify perspective, depth, occlusion, clean plates, textures and paint treatment. Preserve script context, including moonless BEFORE; do not impose a generic sunset or invent incidental lettering.",
-    "reviewer": "director"
+    "rules": [],
+    "handoff": "Read director brief, script environment, canonical art direction and background sources. Hand off environment and lighting constraints to character-designer, color-designer and compositor.",
+    "deliverables": "A scene art brief, layer/layout map and approved-reference comparisons or task-local artwork.",
+    "tools": [
+      "python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png",
+      "python -m studio render SHOT.json --out OUTPUT_DIR"
+    ]
   },
   "background-painter": {
-    "skill": "skills/anime-background-painter/SKILL.md",
+    "skill": ".agents/skills/anime-background-painter/SKILL.md",
+    "title": "Anime Background Painter",
+    "description": "Paint registered environments, moving-background sections, and clean plates in the approved Cemí art direction. Use for a delegated background-painter task with assigned shots, approved layouts, and an isolated output directory.",
+    "reviewer": "art-director",
+    "visual": true,
+    "generate": [
+      "image"
+    ],
     "duties": "Paint registered foreground, midground, background, occlusion and clean-plate layers from approved layouts in Luis M. Minier's canonical ink, crosshatch and painterly-color language. Preserve scene-specific lighting and do not invent incidental lettering.",
-    "reviewer": "art-director"
+    "rules": [
+      "Block on missing approved layout, source, dependency, or decision.",
+      "Preserve Luis M. Minier's organic ink, controlled crosshatching, painterly color, material texture, and scene-true Option B palette. Keep moonless scenes moonless and add lettering only when canon requires it."
+    ],
+    "handoff": "Use approved layout, art-direction/color keys, location references, and clean-plate requirements. Hand registered plates and layer metadata to `compositor`.",
+    "deliverables": "Provide shot-sized registered plates, layer/matte manifests, palette/color-space notes, source evidence, and explicit placeholders for any unpainted area.",
+    "tools": [
+      "python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png",
+      "python -m studio layers matte IN.png --out OUT.png"
+    ]
   },
   "prop-designer": {
-    "skill": "skills/anime-prop-designer/SKILL.md",
+    "skill": ".agents/skills/anime-prop-designer/SKILL.md",
+    "title": "Anime Prop Designer",
+    "description": "Design and lock production-ready props and vehicles with stable geometry, scale, materials, contacts, and required views. Use for a delegated prop-designer task with assigned assets or shots and an isolated output directory.",
+    "reviewer": "art-director",
+    "visual": true,
+    "generate": [
+      "image"
+    ],
     "duties": "Lock dimensions, silhouette, construction, materials, articulation, grips, contacts and required views for canoes, paddles, drums, bells and assigned objects. Preserve culturally specific design and keep rigid geometry stable across shots.",
-    "reviewer": "art-director"
+    "rules": [
+      "Block on missing canon, scale reference, approval, or dependency.",
+      "Preserve Luis M. Minier's organic silhouette, ink texture, grounded Caribbean/Bronx material specificity, and restrained anime polish. Do not genericize culturally specific objects."
+    ],
+    "handoff": "Use script evidence, approved references, character scale, and layout needs. Hand model sheets and contact specifications to `layout-artist`, `key-animator`, `character-rigger`, and `compositor`.",
+    "deliverables": "Provide named versioned prop sheets, dimensions/scale, views, pivot/contact notes, material palette references, and uncertainty log.",
+    "tools": [
+      "python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png",
+      "python -m studio layers matte IN.png --out OUT.png"
+    ]
   },
   "color-designer": {
-    "skill": "skills/anime-color-designer/SKILL.md",
+    "skill": ".agents/skills/anime-color-designer/SKILL.md",
+    "title": "Anime Color Designer",
+    "description": "Apply palette, stable fills and scene-specific color keys. Use for a delegated color-designer task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "art-director",
+    "visual": true,
+    "generate": [],
     "duties": "Specify palette identifiers, material colors, shadow/highlight relationships and scene-specific lighting. Check frame-to-frame fill consistency and alpha edges. Keep navy/steel shadow language and amber accents subordinate to actual scene illumination.",
-    "reviewer": "art-director"
+    "rules": [],
+    "handoff": "Read approved clean drawings, art direction and scene lighting. Hand off colored, registered cels to compositor.",
+    "deliverables": "Color keys or colored cels plus palette mapping, alpha-edge checks and continuity notes.",
+    "tools": [
+      "python -m studio layers matte IN.png --out OUT.png",
+      "python -m studio render SHOT.json --out OUTPUT_DIR",
+      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa"
+    ]
   },
   "sound-director": {
-    "skill": "skills/anime-sound-director/SKILL.md",
+    "skill": ".agents/skills/anime-sound-director/SKILL.md",
+    "title": "Anime Sound Director",
+    "description": "Plan exact dialogue, sound cues and final mix requirements. Use for a delegated sound-director task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "episode-director",
+    "visual": false,
+    "generate": [],
     "duties": "Map exact scripted dialogue, performance intent, ambience, effects and silence onto shot frame ranges. Specify stem layout, sample rate and mix targets. Track missing recordings and rights; distinguish temporary synthesized sound from final sound. Do not authorize voice cloning or paid recording.",
-    "reviewer": "episode-director"
+    "rules": [],
+    "handoff": "Read approved script, locked timing and existing audio inventory. Hand off dialogue cues to voice-performer and effects cues to sfx-artist.",
+    "deliverables": "A timed cue sheet, dialogue/performance brief, stem specification and missing-audio register.",
+    "tools": [
+      "python -m studio sound lines --shots SHOT_IDS --out OUTPUT_DIR/lines.json"
+    ]
   },
   "voice-performer": {
-    "skill": "skills/anime-voice-performer/SKILL.md",
+    "skill": ".agents/skills/anime-voice-performer/SKILL.md",
+    "title": "Anime Voice Performer",
+    "description": "Deliver authorized dialogue takes or recording directions. Use for a delegated voice-performer task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "sound-director",
+    "visual": false,
+    "generate": [
+      "voice"
+    ],
     "duties": "Preserve exact approved dialogue, character intent and cue duration. Use only an authorized voice/performance tool and voice rights. Do not impersonate or clone a real person's voice without appropriate authorization. If recording capability or consent is absent, return a blocked recording task with a useful performance brief.",
-    "reviewer": "sound-director"
+    "rules": [],
+    "handoff": "Read sound-director cue sheet, exact dialogue and authorized voice specification. Hand off dry takes to sound-director; leave final mix decisions to that role.",
+    "deliverables": "Authorized labeled takes and transcript/timing alignment, or a clearly marked recording brief and blocker; never claim audio from text alone.",
+    "tools": [
+      "python -m studio sound lines --shots SHOT_IDS --out OUTPUT_DIR/lines.json",
+      "python -m studio generate voice --task TASK_ID --line LINE_ID --out OUTPUT_DIR/LINE_ID.wav"
+    ]
   },
   "sfx-artist": {
-    "skill": "skills/anime-sfx-artist/SKILL.md",
+    "skill": ".agents/skills/anime-sfx-artist/SKILL.md",
+    "title": "Anime SFX Artist",
+    "description": "Build synchronized effects, ambience and physical sound cues. Use for a delegated sfx-artist task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "sound-director",
+    "visual": false,
+    "generate": [],
     "duties": "Create or select authorized effects for contacts, water, wakes, bells, atmosphere and scripted supernatural events. Tie events to frame/sample positions and keep stems separable. Record source/license provenance and label placeholders. Do not add unrequested music or download unapproved packs.",
-    "reviewer": "sound-director"
+    "rules": [],
+    "handoff": "Read sound cues, frame timing and available authorized audio assets. Hand off stems to sound-director and editor.",
+    "deliverables": "Task-local effects stems or a sound-design specification, cue alignment and source/rights manifest.",
+    "tools": [
+      "python -m studio sound mix MIX.json --out OUTPUT_DIR/mix.wav"
+    ]
   },
   "music-composer": {
-    "skill": "skills/anime-music-composer/SKILL.md",
+    "skill": ".agents/skills/anime-music-composer/SKILL.md",
+    "title": "Anime Music Composer",
+    "description": "Compose original, rights-cleared dramatic cues synchronized to approved scene beats and delivered as separable stems. Use for a delegated music-composer task with assigned shots, a cue brief, and an isolated output directory.",
+    "reviewer": "sound-director",
+    "visual": false,
+    "generate": [],
     "duties": "Compose original or rights-cleared music synchronized to approved dramatic beats, transitions and silence. Deliver separable stems, cue timing and provenance; support the Caribbean/Bronx identity without generic trailer scoring or cultural pastiche.",
-    "reviewer": "sound-director"
+    "rules": [
+      "Block on missing picture timing, emotional intent, rights, or approval.",
+      "Compose original material or use only documented authorized sources. Avoid generic trailer scoring and cultural pastiche; support the story's Caribbean/Bronx identity and resonance themes without overpowering dialogue or silence."
+    ],
+    "handoff": "Use approved edit/timecode, cue sheet, emotional arc, dialogue map, and sonic references with rights status. Hand synchronized full mix and stems to `mix-engineer`.",
+    "deliverables": "Provide cue audio, synchronized stems, tempo/meter map when relevant, frame/timecode cue sheet, source/right provenance, and loudness headroom notes. Label mockups and placeholders.",
+    "tools": []
   },
   "dialogue-editor": {
-    "skill": "skills/anime-dialogue-editor/SKILL.md",
+    "skill": ".agents/skills/anime-dialogue-editor/SKILL.md",
+    "title": "Anime Dialogue Editor",
+    "description": "Edit authorized dialogue recordings into clean, selected, synchronized takes with transparent repair and provenance. Use for a delegated dialogue-editor task with assigned lines or shots and an isolated output directory.",
+    "reviewer": "sound-director",
+    "visual": false,
+    "generate": [],
     "duties": "Select authorized takes, build transparent edits, preserve performance, clean documented noise and synchronize exact approved dialogue to frames. Track processing, pickups, room tone and consent; never fabricate or clone missing speech.",
-    "reviewer": "sound-director"
+    "rules": [
+      "Block on missing consent/rights, corrupt recordings, unknown sample rate, or conflicting text.",
+      "Preserve the authorized performance and exact words. Keep edits transparent; never fabricate missing speech or silently alter pronunciation, language, emotion, or meaning."
+    ],
+    "handoff": "Use authorized raw recordings, take logs, exact line list, frame/timecode map, and room tone. Hand clean consolidated dialogue clips and edit decision list to `mix-engineer`.",
+    "deliverables": "Provide sample-accurate dialogue clips/stems, take/line mapping, processing log, sync evidence, pickup list, and rights/consent reference.",
+    "tools": [
+      "python -m studio sound lines --shots SHOT_IDS --out OUTPUT_DIR/lines.json",
+      "python -m studio sound mouth TAKE.wav --rate 3 --out OUTPUT_DIR/mouth.json"
+    ]
   },
   "mix-engineer": {
-    "skill": "skills/anime-mix-engineer/SKILL.md",
+    "skill": ".agents/skills/anime-mix-engineer/SKILL.md",
+    "title": "Anime Mix Engineer",
+    "description": "Balance approved dialogue, effects, Foley, ambience, and music into synchronized review and delivery mixes without hiding missing elements. Use for a delegated mix-engineer task with assigned shots or reels and an isolated output directory.",
+    "reviewer": "sound-director",
+    "visual": false,
+    "generate": [],
     "duties": "Align and balance approved dialogue, effects, Foley, ambience and music into review and delivery mixes with separable stems, measured loudness and preserved dynamics. Do not hide missing assets, sync failures or absent recordings with processing.",
-    "reviewer": "sound-director"
+    "rules": [
+      "Block on missing approvals, offsets, rights, or required stems.",
+      "Preserve dialogue intelligibility, authored dynamics, silence, and culturally specific sound detail. Never mask absent recordings or unresolved sync with music, reverb, or loudness."
+    ],
+    "handoff": "Use locked picture/timecode, approved dialogue, SFX/Foley/ambience, music stems, mix brief, and technical target. Hand synchronized mixes and QC report to `editor`.",
+    "deliverables": "Provide full mix, required stems, sync map, processing/session manifest, measured peak/loudness values, missing-element report, and listening evidence.",
+    "tools": [
+      "python -m studio sound mix MIX.json --out OUTPUT_DIR/mix.wav"
+    ]
   },
   "compositor": {
-    "skill": "skills/anime-compositor/SKILL.md",
+    "skill": ".agents/skills/anime-compositor/SKILL.md",
+    "title": "Anime Compositor",
+    "description": "Assemble approved moving layers with exact shot timing. Use for a delegated compositor task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "animation-supervisor",
+    "visual": true,
+    "generate": [],
     "duties": "Assemble only approved registered cels, backgrounds, masks, effects and camera data. Respect exposure mappings, draw order, occlusion and rigid geometry. Check moving mattes, seams and independent wakes. Missing drawings block shot completion; holds and camera moves cannot substitute for required action.",
-    "reviewer": "animation-supervisor"
+    "rules": [],
+    "handoff": "Read approved cels, environment layers, exposure sheet and technical scene contract. Hand off reviewed preview to editor and quality-review.",
+    "deliverables": "A reproducible shot composition, preview render and frame-indexed checks of contacts, mattes and motion.",
+    "tools": [
+      "python -m studio motion compile MOTION.json --out OUTPUT_DIR/shot.json",
+      "python -m studio render SHOT.json --out OUTPUT_DIR",
+      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa"
+    ]
   },
   "editor": {
-    "skill": "skills/anime-editor/SKILL.md",
+    "skill": ".agents/skills/anime-editor/SKILL.md",
+    "title": "Anime Editor",
+    "description": "Assemble approved shots, exact timing and sound stems. Use for a delegated editor task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "episode-director",
+    "visual": true,
+    "generate": [],
     "duties": "Assemble approved shots in canonical order, respecting frame counts and authored cut rhythm. Synchronize supplied dialogue and effects; keep temporary audio clearly marked. Verify duration, transitions, aspect ratio and export settings without inventing missing coverage.",
-    "reviewer": "episode-director"
+    "rules": [],
+    "handoff": "Read approved shot renders, episode timings and sound-director stems. Hand off the assembled preview to quality-review; no publication.",
+    "deliverables": "An edit decision list, export settings, preview when inputs permit, and a missing/rejected-shot ledger.",
+    "tools": [
+      "python -m studio assemble --out OUTPUT_DIR",
+      "python -m studio animatic --shots S01-11,S01-12 --out OUTPUT_DIR"
+    ]
   },
   "pipeline-td": {
-    "skill": "skills/anime-pipeline-td/SKILL.md",
+    "skill": ".agents/skills/anime-pipeline-td/SKILL.md",
+    "title": "Anime Pipeline Technical Director",
+    "description": "Define and verify deterministic animation production contracts for naming, paths, frames, color, codecs, manifests, builds, and tool compatibility. Use for a delegated pipeline-td task with bounded systems or shots and an isolated output directory.",
+    "reviewer": "quality-review",
+    "visual": false,
+    "generate": [],
     "duties": "Define and verify deterministic naming, paths, frame numbering, resolution, fps, color, alpha, codecs, audio formats, manifests, hashes and reproducible build contracts. Diagnose interoperability without taking over art approval, scheduling or asset lifecycle decisions.",
-    "reviewer": "quality-review"
+    "rules": [
+      "Block on unspecified destructive migrations, ambiguous source of truth, missing tool, or approval.",
+      "Source assets, other tasks, coordinator ledger, and production configuration outside it are read-only unless the task explicitly assigns a path inside `output_dir`.",
+      "Preserve source artwork, rejected statuses, canonical timing, and provenance. Never report a deterministic build without reproducing it from recorded inputs."
+    ],
+    "handoff": "Use current repository schemas, representative assets, build commands, and delivery requirements. Hand contracts, validators, migration proposal, and evidence to affected departments.",
+    "deliverables": "Provide machine-readable contract/specification, validation results, reproducible command log, compatibility matrix, and explicitly scoped remediation notes.",
+    "tools": [
+      "python -m studio status",
+      "python -m studio render SHOT.json --out OUTPUT_DIR",
+      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa",
+      "python production/asset_registry.py verify"
+    ]
   },
   "asset-manager": {
-    "skill": "skills/anime-asset-manager/SKILL.md",
+    "skill": ".agents/skills/anime-asset-manager/SKILL.md",
+    "title": "Anime Asset Manager",
+    "description": "Track animation asset identities, versions, hashes, provenance, dependencies, lifecycle states, and approvals without changing creative content. Use for a delegated asset-manager task with bounded assets or shots and an isolated output directory.",
+    "reviewer": "producer",
+    "visual": false,
+    "generate": [],
     "duties": "Maintain stable asset IDs, versions, hashes, provenance, rights, dependencies, shot usage, review states and supersession links. Detect duplicates and stale references non-destructively; do not merge, delete, creatively approve or edit production assets.",
-    "reviewer": "producer"
+    "rules": [
+      "Block when identity, provenance, status authority, or dependency is ambiguous.",
+      "Do not rename, move, delete, or overwrite production assets; reject outbound symlinks.",
+      "Preserve the registry's exact distinct states: `exploratory`, `submitted`, `technical-approved`, `author-approved`, `canonical`, and terminal `rejected`. Inclusion in the repository is never evidence of approval."
+    ],
+    "handoff": "Use current manifests, task results, file metadata, provenance records, and explicit review decisions. Hand a reconciled register and discrepancies to `producer`, `pipeline-td`, and consuming roles.",
+    "deliverables": "Provide machine-readable asset register, hash/version report, dependency/usage map, provenance gaps, approval-state discrepancies, and non-destructive reconciliation proposal.",
+    "tools": [
+      "python production/asset_registry.py verify"
+    ]
   },
   "quality-review": {
-    "skill": "skills/anime-quality-review/SKILL.md",
+    "skill": ".agents/skills/anime-quality-review/SKILL.md",
+    "title": "Anime Quality Reviewer",
+    "description": "Independently inspect motion, continuity and evidence. Use for a delegated quality-review task in an animation production workflow with assigned shots, source inputs and an isolated output directory.",
+    "reviewer": "producer",
+    "visual": true,
+    "generate": [],
     "duties": "Inspect delivered artifacts independently against task inputs and acceptance criteria. For animation inspect decoded frame sequences and motion playback when available, with timestamps and contact crops; technical decoding alone proves no visual quality. Check identity, anatomy, rigid props, grips, spacing, alpha seams, timing and full-scene action. State exactly what you could not view.",
-    "reviewer": "producer"
+    "rules": [],
+    "handoff": "Read original requirements, approved references, submitted deliverables and rejected-motion audit. Return findings to producer/coordinator without editing reviewed artifacts or approving your own work.",
+    "deliverables": "An evidence-indexed pass/revise/block report with frame/time locations and targeted corrections; user approval remains separate.",
+    "tools": [
+      "python -m studio render SHOT.json --out OUTPUT_DIR",
+      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa"
+    ]
   }
 }

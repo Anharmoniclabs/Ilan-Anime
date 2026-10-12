@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Color Designer"
-  short_description: "Apply palette, stable fills and scene-specific color keys"
-  default_prompt: "Use $anime-color-designer to complete the assigned bounded production task."

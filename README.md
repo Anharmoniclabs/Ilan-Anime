@@ -6,8 +6,22 @@ Animation production workspace for **Luis M. Minier's Heralds of the Cemí**. Th
 
 ## Start here
 
+**With Codex:** open the repo and ask for `$anime-studio`. Everything runs through `python -m studio` — see [Studio runtime](docs/STUDIO_RUNTIME.md).
+
+```bash
+pip install -r requirements.txt          # numpy, Pillow (+ FFmpeg on PATH)
+python -m studio status
+python -m studio animatic                # all 128 shots, 18:50, keyframes + slates + FX tokens
+python -m studio plan production/examples/s01_11_12_pipeline.json
+python -m studio run --run s01-11-12-production --max-tasks 4   # Codex workers + independent reviewers
+```
+
 | Need | File or directory |
 |---|---|
+| Run production with Codex: runner, render, QA, sound, generation | [Studio runtime](docs/STUDIO_RUNTIME.md) |
+| Shot spec format, FX tokens, post stack | [Engine](docs/ENGINE.md) |
+| Rules every worker follows (shared by all role skills) | [Worker contract](production/WORKER_CONTRACT.md) |
+| Spending switch and caps (off by default) | [Policy](production/policy.json) |
 | Current decisions and unfinished work | [Production status](docs/STATUS.md) |
 | Bounded multi-agent production and role skills | [Production team](production/README.md) |
 | Cemí 10/10 release gates | [Studio standard](docs/STUDIO_STANDARD.md) |
@@ -21,11 +35,11 @@ Animation production workspace for **Luis M. Minier's Heralds of the Cemí**. Th
 | Author-derived art direction | [Art direction](research/earlier_cemi_pipeline/docs/ART_DIRECTION.md) |
 | Complete episode script and visual/sound bible | [Episode 1: 3:07](projects/cemi_episode_01/data/EPISODE_SCRIPT.md) |
 | All 128 shots and exact timing | [Episode JSON](projects/cemi_episode_01/data/episode.json) · [Exposure sheet](projects/cemi_episode_01/data/exposure_sheet.csv) |
-| Shot templates | [Per-shot JSON files](projects/cemi_episode_01/data/shots/) |
+| Runnable shot specs (animatic stage) | [Per-shot JSON files](projects/cemi_episode_01/data/shots/) |
 | 77 numbered keyframes | [Artwork](projects/cemi_episode_01/assets/keyframes/) |
 | Earlier character sheets and scene pack | [River asset pack](research/archive_imports/river_2026_10_11/Cemi-River-Scene/) |
 | New pose sheets, not production-approved | [Replacement cel experiments](projects/cemi_episode_01/assets/replacement_cels/) |
-| Local layer/replacement-cel compositor | [compose.py](projects/cemi_episode_01/src/compose.py) |
+| Shot engine (compositor, FX, post, writers) | [studio/engine](studio/engine/) · [compose.py wrapper](projects/cemi_episode_01/src/compose.py) |
 | Rejected mesh renderer, for reproduction only | [cel_renderer.py](projects/cemi_episode_01/src/cel_renderer.py) |
 | Why the first renders failed | [Frame audit](research/animation_audit/REPORT.md) |
 | Earlier SDXL pipeline and character bible | [Recovered source snapshot](research/earlier_cemi_pipeline/) |
@@ -34,7 +48,7 @@ Animation production workspace for **Luis M. Minier's Heralds of the Cemí**. Th
 
 ## Run the local compositor
 
-Python 3.10+ and FFmpeg are required. The local renderer does not call a video-generation service.
+Python 3.10+ and FFmpeg are required. The local renderer does not call a video-generation service. `compose.py` now delegates to `studio.engine`; `python -m studio render` is the same thing.
 
 ```bash
 cd projects/cemi_episode_01

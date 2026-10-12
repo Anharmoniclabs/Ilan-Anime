@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Character Designer"
-  short_description: "Maintain identity, proportions and expression references"
-  default_prompt: "Use $anime-character-designer to complete the assigned bounded production task."

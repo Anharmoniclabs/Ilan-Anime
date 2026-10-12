@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anime Prop Designer"
+  short_description: "Lock dimensions, silhouette, construction, materials, articulation, grips, contacts and..."
+  default_prompt: "Use $anime-prop-designer for the dispatched ledger task."
+policy:
+  allow_implicit_invocation: false

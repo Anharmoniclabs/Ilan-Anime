@@ -5,18 +5,40 @@
     720
   ],
   "frames": 96,
-  "status": "unrigged_reference",
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "'Something ticked on the nightstand.' The coin lifts half an inch, hangs, drops. Impact on wood.",
+  "camera_note": "ECU · nightstand",
+  "drawing_rate": 1,
   "layers": [
     {
-      "name": "reference_only",
+      "name": "plate_0",
       "source": "assets/keyframes/S05-13.png",
-      "fit_canvas": true,
-      "rate": 3
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 96,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
     }
   ],
   "camera": [],
+  "post": {},
   "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "FLASH_FRAME"
+    ],
+    "asset_slot_fx": [
+      "COIN_LIFT"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

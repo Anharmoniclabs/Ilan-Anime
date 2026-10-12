@@ -44,6 +44,11 @@ COMPONENTS = [
     "production/schemas/asset-registry.schema.json",
     "docs/STUDIO_STANDARD.md", "docs/ART_ACCEPTANCE.md", "docs/ASSET_PIPELINE.md",
     "docs/SHOT_PIPELINE.md", "docs/HOST_HANDOFF.md", "docs/DASHBOARD.md",
+    "production/WORKER_CONTRACT.md", "production/policy.json", "production/build_skills.py",
+    "docs/STUDIO_RUNTIME.md", "docs/ENGINE.md", ".agents/skills/anime-studio/SKILL.md",
+    "studio/cli.py", "studio/runner.py", "studio/engine/compositor.py", "studio/render.py",
+    "studio/qa.py", "studio/layers.py", "studio/motion.py", "studio/sound.py", "studio/generate.py",
+    "studio/policy.py", "studio/animatic.py",
 ]
 
 
@@ -69,6 +74,8 @@ def validate_role_contracts(root, roles_raw):
         if not isinstance(skill, str) or not (root / skill).is_file():
             raise StudioValidationError(f"{role_id}: missing skill file")
         text = (root / skill).read_text(encoding="utf-8")
+        if "production/WORKER_CONTRACT.md" not in text:
+            raise StudioValidationError(f"{role_id}: skill does not point to the shared worker contract")
         if "TODO" in text:
             raise StudioValidationError(f"{role_id}: skill contains TODO")
         if role_id in VISUAL_ROLES and "production/art_direction.json" not in text:
@@ -219,6 +226,26 @@ def validate_studio(repo):
         roles = validate_role_contracts(root, roles_raw)
     except (OSError, json.JSONDecodeError, KeyError, TypeError, StudioValidationError) as exc:
         errors.append(f"role contracts: {exc}")
+
+    try:
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("build_skills", root / "production/build_skills.py")
+        builder = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(builder)
+        stale = [str(path.relative_to(root)) for path, text in builder.outputs(root).items()
+                 if not path.exists() or path.read_text(encoding="utf-8") != text]
+        if stale:
+            errors.append(f"generated skills are stale; run python production/build_skills.py: {stale[:3]}")
+    except (OSError, KeyError, TypeError, AttributeError) as exc:
+        errors.append(f"skill generation: {exc}")
+
+    try:
+        policy = _load(root / "production/policy.json")
+        generation = policy.get("generation", {})
+        if generation.get("enabled") and not (generation.get("max_total_usd", 0) > 0):
+            errors.append("policy: generation enabled without a positive max_total_usd cap")
+    except (OSError, json.JSONDecodeError) as exc:
+        errors.append(f"policy: {exc}")
 
     try:
         validate_art_contract(_load(root / "production/art_direction.json"))

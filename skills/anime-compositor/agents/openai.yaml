@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Compositor"
-  short_description: "Assemble approved moving layers with exact shot timing"
-  default_prompt: "Use $anime-compositor to complete the assigned bounded production task."

@@ -5,18 +5,38 @@
     720
   ],
   "frames": 144,
-  "status": "unrigged_reference",
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "A hand-lettered list of things he can't explain, scrolling past. #47 circled: THE COIN.",
+  "camera_note": "INSERT · list",
+  "drawing_rate": 3,
   "layers": [
     {
-      "name": "reference_only",
+      "name": "plate_0",
       "source": "assets/keyframes/S03-07.png",
-      "fit_canvas": true,
-      "rate": 3
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 144,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
     }
   ],
   "camera": [],
+  "post": {},
   "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "HANDWRITING_CEL",
+      "SCROLL_CARD"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

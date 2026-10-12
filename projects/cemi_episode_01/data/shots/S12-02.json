@@ -5,11 +5,46 @@
     720
   ],
   "frames": 120,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "The contact-mic puck on the steel counter edge takes the train, the steamer and everything the old counter ever stood next to, and pours it into his left ear: a luminous ribbon travels counter → earbud.",
-  "layers": [],
-  "camera": [],
+  "camera_note": "ECU puck → ear",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S12-02",
+        "header": "11:51:00 → 11:56:00 (120f) · ECU puck → ear · rate 3s",
+        "action": "The contact-mic puck on the steel counter edge takes the train, the steamer and everything the old counter ever stood next to, and pours it into his left ear: a luminous ribbon travels counter → earbud.\nSOUND: Left channel loaded: stereo mix goes hard left."
+      }
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "scale": 1.0,
+      "ease": "smooth"
+    },
+    {
+      "frame": 119,
+      "scale": 1.08
+    }
+  ],
+  "post": {},
   "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "HOLD",
+      "SOUND_STREAM_CEL"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

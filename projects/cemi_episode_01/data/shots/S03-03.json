@@ -5,18 +5,49 @@
     720
   ],
   "frames": 288,
-  "status": "unrigged_reference",
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "Room inventory pan on a single wide painted BG: radiator banging with little steam puffs; dev boards and cable; a Pyrex of arroz con habichuelas that belongs to the lady on three; a chair buried in laundry; the nightstand with the coin.",
+  "camera_note": "PAN L→R · interior",
+  "drawing_rate": 3,
   "layers": [
     {
-      "name": "reference_only",
+      "name": "plate_0",
       "source": "assets/keyframes/S03-03.png",
-      "fit_canvas": true,
-      "rate": 3
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 288,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
     }
   ],
-  "camera": [],
+  "camera": [
+    {
+      "frame": 0,
+      "x": 64.0,
+      "scale": 1.12,
+      "ease": "smooth"
+    },
+    {
+      "frame": 287,
+      "x": -64.0,
+      "scale": 1.12
+    }
+  ],
+  "post": {},
   "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "CEL_OVERLAYS"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

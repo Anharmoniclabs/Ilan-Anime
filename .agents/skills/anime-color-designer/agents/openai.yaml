@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anime Color Designer"
+  short_description: "Specify palette identifiers, material colors, shadow/highlight relationships and scene-..."
+  default_prompt: "Use $anime-color-designer for the dispatched ledger task."
+policy:
+  allow_implicit_invocation: false

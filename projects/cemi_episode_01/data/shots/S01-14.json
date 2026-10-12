@@ -5,18 +5,67 @@
     720
   ],
   "frames": 216,
-  "status": "unrigged_reference",
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "She turns with it. Every body leans into the turn; the camera rolls with them. Behind them on the bank the ledger man finishes his line and closes the book.",
+  "camera_note": "ROLL 12° · WS",
+  "drawing_rate": 3,
   "layers": [
     {
-      "name": "reference_only",
+      "name": "plate_0",
       "source": "assets/keyframes/S01-14A.png",
-      "fit_canvas": true,
-      "rate": 3
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 108,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    },
+    {
+      "name": "plate_1",
+      "source": "assets/keyframes/S01-14B.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 108,
+      "out": 216,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
     }
   ],
-  "camera": [],
+  "camera": [
+    {
+      "frame": 0,
+      "scale": 1.18,
+      "angle": 0,
+      "ease": "smooth"
+    },
+    {
+      "frame": 215,
+      "scale": 1.18,
+      "angle": 12.0
+    }
+  ],
+  "post": {
+    "grade": "before"
+  },
   "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "CROSS_DISSOLVE_TO"
+    ],
+    "assumptions": [
+      "2 keyframes split the shot evenly; real cut points are unset"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

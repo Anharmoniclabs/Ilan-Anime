@@ -5,11 +5,46 @@
     720
   ],
   "frames": 192,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "He goes looking for the 'pressed place', pushing on the bruise to see if it's still there. Nothing. He listens until his ear hurts. His eyes sting over a rumba and an eraser. Super over his face: TEN BLOCKS FROM MY BUILDING. 'Nobody had ever mentioned it used to sound like this.'",
-  "layers": [],
+  "camera_note": "CU JC",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S13-11",
+        "header": "14:46:00 → 14:54:00 (192f) · CU JC · rate 3s",
+        "action": "He goes looking for the 'pressed place', pushing on the bruise to see if it's still there. Nothing. He listens until his ear hurts. His eyes sting over a rumba and an eraser. Super over his face: TEN BLOCKS FROM MY BUILDING. 'Nobody had ever mentioned it used to sound like this.'\nSOUND: Reading-room sound thins to the quietest one thing."
+      }
+    },
+    {
+      "name": "lanes",
+      "rate": 2,
+      "screen_space": true,
+      "blend": "screen",
+      "generator": {
+        "type": "lanes",
+        "lanes": 6
+      }
+    }
+  ],
   "camera": [],
+  "post": {},
   "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "EAR_PAIN_PULSE",
+      "TEARS_CEL"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

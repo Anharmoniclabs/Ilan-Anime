@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anime Producer"
+  short_description: "Translate approved scope into task dependencies, resource estimates, milestone gates an..."
+  default_prompt: "Use $anime-producer for the dispatched ledger task."
+policy:
+  allow_implicit_invocation: false

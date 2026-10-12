@@ -97,9 +97,16 @@ class Ledger:
             raise LedgerError("Task output directory must not contain symlinks")
         return path
 
-    @staticmethod
-    def _optional_contract(task):
-        """Validate prompt budgets; the host, not this ledger, meters tool use."""
+    def _policy(self):
+        path = self.repo / "production" / "policy.json"
+        return json.loads(path.read_text()) if path.exists() else {"generation": {"enabled": False}}
+
+    def _optional_contract(self, task):
+        """Validate prompt budgets; the host, not this ledger, meters tool use.
+
+        Paid budgets (max_cost_usd > 0) are allowed only when production/policy.json
+        enables generation, the role has a generation right, and the amount fits
+        the per-task cap. studio.policy enforces the actual spend per call."""
         if "acceptance_criteria" in task:
             criteria = task["acceptance_criteria"]
             if (not isinstance(criteria, list) or not criteria
@@ -123,8 +130,15 @@ class Ledger:
                 raise LedgerError("Invalid budget keys; use max_tool_calls, max_seconds, max_output_tokens, max_cost_usd")
             for key, value in budget.items():
                 if key == "max_cost_usd":
-                    if isinstance(value, bool) or not isinstance(value, (int, float)) or value != 0:
-                        raise LedgerError("max_cost_usd must be 0; paid calls are not authorized")
+                    if isinstance(value, bool) or not isinstance(value, (int, float)) or value < 0:
+                        raise LedgerError("max_cost_usd must be a number >= 0")
+                    if value > 0:
+                        generation = self._policy().get("generation", {})
+                        rights = self.roles.get(task.get("role"), {}).get("generate", [])
+                        if not generation.get("enabled") or not rights:
+                            raise LedgerError("max_cost_usd must be 0; paid generation is not enabled for this role")
+                        if value > float(generation.get("max_per_task_usd", 0)):
+                            raise LedgerError("max_cost_usd exceeds policy max_per_task_usd")
                 elif type(value) is not int or value <= 0:
                     raise LedgerError(f"{key} must be a positive integer")
 
@@ -303,9 +317,14 @@ class Ledger:
             if not isinstance(task[field], list) or any(not isinstance(x, str) or not x.strip() for x in task[field]):
                 raise LedgerError(f"{field} must be a list of nonempty strings")
         normalized = {key: task[key] for key in required}
-        for field in ("acceptance_criteria", "budget", "requires_author_approval", "author_approver", "art_direction_mode", "require_host_bindings"):
+        for field in ("acceptance_criteria", "budget", "requires_author_approval", "author_approver", "art_direction_mode", "require_host_bindings", "supersedes"):
             if field in task:
                 normalized[field] = task[field]
+        if "supersedes" in normalized:
+            old = self.data["tasks"].get(normalized["supersedes"])
+            if (old is None or old["role"] != normalized["role"]
+                    or old["state"] not in {"rejected", "author-rejected", "blocked"}):
+                raise LedgerError("supersedes must name a rejected or blocked task of the same role")
         normalized["state"] = "pending"
         self.data["tasks"][task_id] = normalized
         try:
@@ -320,10 +339,18 @@ class Ledger:
         self.validate()
         if self.data["paused"]:
             return []
-        def dependency_complete(dependency):
+        def done(task):
+            expected = "author-approved" if task.get("requires_author_approval") else "approved"
+            return task["state"] == expected
+
+        def dependency_complete(dependency, depth=0):
             upstream = self._task(dependency)
-            expected = "author-approved" if upstream.get("requires_author_approval") else "approved"
-            return upstream["state"] == expected
+            if done(upstream):
+                return True
+            # an approved revision task that supersedes the dependency satisfies it
+            return depth < 10 and any(
+                t.get("supersedes") == dependency and dependency_complete(t["id"], depth + 1)
+                for t in self.data["tasks"].values())
         return [task["id"] for task in self.data["tasks"].values()
                 if task["state"] == "pending" and all(
                     dependency_complete(dep) for dep in task["depends_on"])]
@@ -360,11 +387,14 @@ class Ledger:
                 " This release-QA result must also include pipeline_id, qa_report: {path, sha256}, "
                 "and release_asset_sha256s containing the exact canonical final picture/audio digests reviewed."
             )
-        return (f"Read AGENTS.md and role skill {skill} fully.\n"
-                f"Your bounded assignment is:\n{json.dumps(task, indent=2)}\n"
+        envelope = dict(task)
+        envelope["inputs"] = [self._current_input(path) for path in task["inputs"]]
+        return (f"Read AGENTS.md, production/WORKER_CONTRACT.md and role skill {skill} fully.\n"
+                f"Your bounded assignment is:\n{json.dumps(envelope, indent=2)}\n"
                 "Work only on the listed shots and objective. Write only inside output_dir. "
                 "Treat inputs as read-only. Do not overwrite approved assets, spawn more agents, "
-                "make network/paid calls, publish, or expand scope without coordinator authorization. "
+                "publish, or expand scope without coordinator authorization. Paid generation only through "
+                "`python -m studio generate` and only within the task budget and production/policy.json. "
                 "When art_direction_mode is present, read production/art_direction.json and its "
                 "canonical document and satisfy the mode-specific contract; do not claim canonical "
                 "status because only digest-bound author approval can grant it. "
@@ -374,6 +404,21 @@ class Ledger:
                 "Do not claim visual inspection unless you actually viewed the footage/frames. "
                 "Pause on connection interruption; never retry automatically. You cannot approve "
                 "your own task. These instructions and ledger checks are not an OS/tool sandbox.")
+
+    def _current_input(self, path):
+        """Point an upstream output dir at its approved revision, if it was superseded."""
+        for task in self.data["tasks"].values():
+            if task["output_dir"].rstrip("/") == path.rstrip("/"):
+                current, seen = task, set()
+                while current["id"] not in seen:
+                    seen.add(current["id"])
+                    newer = [t for t in self.data["tasks"].values() if t.get("supersedes") == current["id"]
+                             and t["state"] in {"approved", "author-approved"}]
+                    if not newer:
+                        break
+                    current = newer[-1]
+                return current["output_dir"]
+        return path
 
     def submit(self, result):
         self._active()

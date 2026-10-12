@@ -5,11 +5,38 @@
     720
   ],
   "frames": 120,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "Logo: a camera iris. As JC's eyes trace the blades, the overlapped curve lines up with the cemí spiral for exactly 3 frames, then un-aligns. Text: Aperture Civic. Community Spaces, Coming Soon.",
-  "layers": [],
+  "camera_note": "CU logo",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S08-02",
+        "header": "08:21:00 → 08:26:00 (120f) · CU logo · rate 3s",
+        "action": "Logo: a camera iris. As JC's eyes trace the blades, the overlapped curve lines up with the cemí spiral for exactly 3 frames, then un-aligns. Text: Aperture Civic. Community Spaces, Coming Soon.\nSOUND: A tiny soft 'click' like a shutter."
+      }
+    }
+  ],
   "camera": [],
+  "post": {},
   "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "FLASH_FRAME"
+    ],
+    "asset_slot_fx": [
+      "SIGIL_RHYME"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

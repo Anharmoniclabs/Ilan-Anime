@@ -1,6 +1,6 @@
 # Bounded animation team
 
-Start with `skills/anime-studio/SKILL.md`. Each department has an independent skill listed in `roles.json`; the coordinator spawns one real worker per ready task. Skills supply duties and review contracts. The host supplies spawning and tools. These additions do not automatically register a ChatGPT plugin or install skills in every host.
+Start with `.agents/skills/anime-studio/SKILL.md` (Codex discovers skills in `.agents/skills`). Each department's skill is **generated** from `roles.json` by `python production/build_skills.py`; shared rules live once in `WORKER_CONTRACT.md`. The Codex runner (`python -m studio run`, see `docs/STUDIO_RUNTIME.md`) starts one real `codex exec` worker per ready task and a separate reviewer session per submission.
 
 | Stage | Roles | Handoff |
 |---|---|---|
@@ -14,7 +14,7 @@ The director/producer/episode-director meeting is a coordination checkpoint, not
 
 ## Task boundaries
 
-Assign exact shot IDs, existing input paths, one objective and one output directory. No worker may overwrite source art, delegate, publish, change providers or spend money. Read-only inspection and local verification are the default budget. Generation, voice synthesis and external rendering require separately authorized available capabilities and relevant skills.
+Assign exact shot IDs, existing input paths, one objective and one output directory. No worker may overwrite source art, delegate, publish or change providers. Spending happens only through `python -m studio generate`, within `policy.json` (off by default) and the task's `max_cost_usd`.
 
 The persistent ledger validates dependencies, transitions, author gates, concurrency and submitted paths. The host-handoff registry binds ledger aliases to actual spawned agents. Neither executes a model, enforces an OS sandbox or intercepts tools. One coordinator owns each run. Hard isolation requires separate workspaces and host-level permissions.
 
@@ -46,7 +46,7 @@ In a session exposing `collaboration.spawn_agent`, pass the dispatched prompt to
 
 Use `host_handoff.py` for ledger alias, host and actual agent identity. Never silently rerun a running task after disconnect. Mark the binding interrupted, pause, ask the user, inspect existing outputs/jobs, then resume only with approval. No scheduled automation or automatic reconnection is included.
 
-Make this repository's `skills/` available through the target host's supported skill-discovery mechanism, or explicitly ask its agent to read `skills/anime-studio/SKILL.md`. Portability of the files does not guarantee every host supports multi-agent execution.
+Codex reads this repository's `.agents/skills/` automatically; for other hosts, make it available through the target host's supported skill-discovery mechanism, or explicitly ask its agent to read `skills/anime-studio/SKILL.md`. Portability of the files does not guarantee every host supports multi-agent execution.
 
 Official references checked 2026-10-12:
 

@@ -5,11 +5,37 @@
     720
   ],
   "frames": 192,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "Twenty cortados in a rhythm montage with the 4 passing and the steamer on a clean A. On number fourteen, JC realizes what bothered him about the email: it said 'building-listening'. Nobody had ever called it that. Inserts: closet, raw feed, one laptop on the fourth floor.",
-  "layers": [],
+  "camera_note": "MONTAGE",
+  "drawing_rate": 2,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S12-10",
+        "header": "13:07:00 → 13:15:00 (192f) · MONTAGE · rate 2s",
+        "action": "Twenty cortados in a rhythm montage with the 4 passing and the steamer on a clean A. On number fourteen, JC realizes what bothered him about the email: it said 'building-listening'. Nobody had ever called it that. Inserts: closet, raw feed, one laptop on the fourth floor.\nSOUND: Rhythmic cup-and-steam beat; sudden quiet on the realization."
+      }
+    }
+  ],
   "camera": [],
+  "post": {},
   "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "COUNTER_TICKER",
+      "INSERT_CLOSET",
+      "TEXT_HIGHLIGHT"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

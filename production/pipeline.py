@@ -61,6 +61,20 @@ def _roles(raw: dict) -> dict:
     return roles
 
 
+def _generation_budget(repo, roles_raw, role_id) -> float:
+    """Per-task paid budget: 0 unless policy.json enables generation for this role."""
+    if repo is None:
+        return 0
+    path = Path(repo) / "production" / "policy.json"
+    if not path.exists():
+        return 0
+    generation = json.loads(path.read_text()).get("generation", {})
+    rights = _roles(roles_raw).get(role_id, {}).get("generate", [])
+    if not generation.get("enabled") or not rights:
+        return 0
+    return float(generation.get("max_per_task_usd", 0))
+
+
 def _safe_relative(path: str, label: str) -> str:
     candidate = Path(path)
     if candidate.is_absolute() or ".." in candidate.parts or not candidate.parts:
@@ -462,7 +476,8 @@ def build_pipeline(spec: dict, template: dict, roles_raw: dict, repo: str | Path
             "output_dir": output_dir,
             "depends_on": dependencies,
             "acceptance_criteria": stage["acceptance"],
-            "budget": {"max_tool_calls": 40, "max_seconds": 3600, "max_output_tokens": 20000, "max_cost_usd": 0},
+            "budget": {"max_tool_calls": 40, "max_seconds": 3600, "max_output_tokens": 20000,
+                       "max_cost_usd": _generation_budget(repo, roles_raw, stage["role"])},
             "completion_contract": {
                 "required_artifact_kinds": stage["artifact_kinds"],
                 "required_evidence_kinds": stage["evidence_kinds"],

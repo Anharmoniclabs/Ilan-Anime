@@ -1,0 +1,148 @@
+{
+  "shot": "S01-05B",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "exploratory",
+  "_note": "Format example built from existing assets. The bell swings as a rigid prop about its suspension. There is no separate clapper drawing yet, so the audit's clapper problem stays open, and there is no character acting; `studio motion check` reports both as warnings.",
+  "elements": [
+    {
+      "name": "plate",
+      "kind": "plate",
+      "source": "assets/bg/bell_clean.png",
+      "fit": "stretch",
+      "rate": 3
+    },
+    {
+      "name": "bell",
+      "kind": "rigid",
+      "source": "assets/cels/bell.png",
+      "rate": 3,
+      "pivot": [
+        615.5023923444976,
+        104.05951115834219
+      ],
+      "keys": [
+        {
+          "frame": 0,
+          "angle": 17.0,
+          "ease": "smooth"
+        },
+        {
+          "frame": 6,
+          "angle": 10.604,
+          "ease": "smooth"
+        },
+        {
+          "frame": 12,
+          "angle": -2.78,
+          "ease": "smooth"
+        },
+        {
+          "frame": 18,
+          "angle": -13.455,
+          "ease": "smooth"
+        },
+        {
+          "frame": 24,
+          "angle": -14.168,
+          "ease": "smooth"
+        },
+        {
+          "frame": 30,
+          "angle": -5.004,
+          "ease": "smooth"
+        },
+        {
+          "frame": 36,
+          "angle": 7.1,
+          "ease": "smooth"
+        },
+        {
+          "frame": 42,
+          "angle": 13.571,
+          "ease": "smooth"
+        },
+        {
+          "frame": 48,
+          "angle": 10.244,
+          "ease": "smooth"
+        },
+        {
+          "frame": 54,
+          "angle": 0.0,
+          "ease": "smooth"
+        },
+        {
+          "frame": 60,
+          "angle": -9.647,
+          "ease": "smooth"
+        },
+        {
+          "frame": 66,
+          "angle": -12.036,
+          "ease": "smooth"
+        },
+        {
+          "frame": 72,
+          "angle": -5.93,
+          "ease": "smooth"
+        },
+        {
+          "frame": 78,
+          "angle": 3.937,
+          "ease": "smooth"
+        },
+        {
+          "frame": 84,
+          "angle": 10.496,
+          "ease": "smooth"
+        },
+        {
+          "frame": 90,
+          "angle": 9.387,
+          "ease": "smooth"
+        },
+        {
+          "frame": 96,
+          "angle": 1.827,
+          "ease": "smooth"
+        },
+        {
+          "frame": 102,
+          "angle": -6.562,
+          "ease": "smooth"
+        },
+        {
+          "frame": 108,
+          "angle": -9.907,
+          "ease": "smooth"
+        },
+        {
+          "frame": 114,
+          "angle": -6.18,
+          "ease": "smooth"
+        },
+        {
+          "frame": 120,
+          "angle": 1.62,
+          "ease": "smooth"
+        }
+      ],
+      "anchors": {
+        "suspension": [
+          615.5,
+          104.1
+        ]
+      }
+    }
+  ],
+  "camera": [],
+  "post": {
+    "grade": "before",
+    "grain": 0.35,
+    "weave": 0.3
+  }
+}

@@ -5,11 +5,50 @@
     720
   ],
   "frames": 192,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "Snap back. The pitcher is overflowing; milk runs over JC's knuckles, hot, and he didn't feel it. “JC. JC.” Manny's hand on his shoulder; the freelancer is staring; Mr. Rodríguez is already halfway across the room. JC's voice comes from 'the far side of a wall'.",
-  "layers": [],
-  "camera": [],
+  "camera_note": "CU milk → CU Manny",
+  "drawing_rate": 2,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S12-08",
+        "header": "12:41:00 → 12:49:00 (192f) · CU milk → CU Manny · rate 2s",
+        "action": "Snap back. The pitcher is overflowing; milk runs over JC's knuckles, hot, and he didn't feel it. “JC. JC.” Manny's hand on his shoulder; the freelancer is staring; Mr. Rodríguez is already halfway across the room. JC's voice comes from 'the far side of a wall'.\nSOUND: Sound returns with a slam; JC's voice delayed and muffled, then clear."
+      }
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "scale": 1.0,
+      "ease": "smooth"
+    },
+    {
+      "frame": 191,
+      "scale": 1.08
+    }
+  ],
+  "post": {},
   "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "FLASH_FRAME"
+    ],
+    "asset_slot_fx": [
+      "CLEAR",
+      "MILK_OVERFLOW_CEL",
+      "VOICE_MUFFLE"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

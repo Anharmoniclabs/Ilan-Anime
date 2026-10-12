@@ -10,3 +10,9 @@ tmp/
 *.safetensors
 *.ckpt
 *.gguf
+
+# studio outputs (large, reproducible)
+projects/cemi_episode_01/renders/animatic/
+projects/cemi_episode_01/renders/queue/
+production/runs/*/tasks/*/.codex/
+production/runs/*/reviews/*/*.events.jsonl

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Art Director"
-  short_description: "Set scene layout, material and lighting continuity"
-  default_prompt: "Use $anime-art-director to complete the assigned bounded production task."

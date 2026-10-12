@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Mix Engineer"
-  short_description: "Balance approved dialogue, music, and effects"
-  default_prompt: "Use $anime-mix-engineer to complete the assigned bounded production task."

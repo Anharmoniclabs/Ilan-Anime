@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Sound Director"
-  short_description: "Plan exact dialogue, sound cues and final mix requirements"
-  default_prompt: "Use $anime-sound-director to complete the assigned bounded production task."

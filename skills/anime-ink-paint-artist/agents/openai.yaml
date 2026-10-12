@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Ink and Paint Artist"
-  short_description: "Apply approved line, palette, and cel finishes"
-  default_prompt: "Use $anime-ink-paint-artist to complete the assigned bounded production task."
