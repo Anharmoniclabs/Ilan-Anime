@@ -1,0 +1,30 @@
+{
+  "id": "S05-09",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "status": "unrigged_reference",
+  "action": "'I felt it before I heard it': a pulse climbs the iron riser into JC's soles. Cut to a long dark window across the street. 'Across the street, I thought.' The loop arrives: dry, tuneless, the loudest thing on the block.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S05-09-A.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

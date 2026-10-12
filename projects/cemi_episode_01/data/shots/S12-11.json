@@ -1,0 +1,23 @@
+{
+  "id": "S12-11",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 216,
+  "status": "missing_art",
+  "action": "He takes a blank card and writes: Ballroom, Saturday nights, mambo bands. Ask Mamá. A yellow pushpin pins it to the empty corner of Jerome. The 4 comes through, the whole room shakes, and everybody keeps talking.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

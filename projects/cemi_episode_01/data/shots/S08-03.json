@@ -1,0 +1,23 @@
+{
+  "id": "S08-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 384,
+  "status": "missing_art",
+  "action": "Two guys in hi-vis bolting the last corner to the scaffold. The one with the ladder has headphones around his neck. “Morning.” “You guys work late?” “Nights? Nah. Union. We clock out at three-thirty. Daylight only.” JC glances at the third-floor window: dark.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

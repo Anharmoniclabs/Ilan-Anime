@@ -1,0 +1,30 @@
+{
+  "id": "S05-11",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 240,
+  "status": "unrigged_reference",
+  "action": "Pair by pair down the floor the shoulders drop and the faces empty, until the band is playing for a hall of people standing in their good clothes. The wave of stillness crosses toward the bandstand. The horns keep going.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S05-11.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

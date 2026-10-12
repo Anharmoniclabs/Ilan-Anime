@@ -1,0 +1,23 @@
+{
+  "id": "S12-02",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "missing_art",
+  "action": "The contact-mic puck on the steel counter edge takes the train, the steamer and everything the old counter ever stood next to, and pours it into his left ear: a luminous ribbon travels counter → earbud.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

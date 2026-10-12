@@ -1,0 +1,23 @@
+{
+  "id": "S13-07",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "missing_art",
+  "action": "He doesn't call her. Calling would make it a thing, and she'd pick up on the first ring. He takes out the contact mic puck instead and sets it on the oak.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "S11-06",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 576,
+  "status": "missing_art",
+  "action": "“What was that face?” “Spam.” Manny holds out his hand. JC lets him read it. “Bro. Hardware? A budget? A commission at the Armory? That's a real stage, JC.” “I'm not calling them back.” “Why.” “I can't explain it. I'm not doing it.” “Last time you couldn't explain it, it was the dude selling Hennessy out a Honda, and you were right. It'll cost you, though. Real money.” “I know.” “Just so the record reflects I tried to make you rich. Sofía's gonna make a spreadsheet. It's gonna have tabs.”",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

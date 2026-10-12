@@ -1,0 +1,30 @@
+{
+  "id": "S05-13",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 96,
+  "status": "unrigged_reference",
+  "action": "'Something ticked on the nightstand.' The coin lifts half an inch, hangs, drops. Impact on wood.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S05-13.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

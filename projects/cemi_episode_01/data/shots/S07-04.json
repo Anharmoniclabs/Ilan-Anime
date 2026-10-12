@@ -1,0 +1,30 @@
+{
+  "id": "S07-04",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 336,
+  "status": "unrigged_reference",
+  "action": "Mamá gives him 'the slow inspection that doesn't miss anything.' “Tu abuela llamó anoche. Antes de que se fuera la luz.” “She good?” “She's old, she's stubborn, she's good.” (practiced pause) “She asked if it already started.” The mangú turns to wet sand in his mouth.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S07-04.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

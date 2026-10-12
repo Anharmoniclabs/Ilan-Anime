@@ -1,0 +1,31 @@
+{
+  "id": "S01-12",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 336,
+  "status": "unrigged_reference",
+  "action": "'Nothing rose up and nothing parted.' The canoes simply move a little faster than the paddles. Blades drag and lift. Surface foam turns 90 degrees.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S01-12.png",
+      "fit_canvas": true,
+      "rate": 2
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ],
+  "motion_review": "rejected; see research/animation_audit/REPORT.md"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "S12-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 96,
+  "status": "missing_art",
+  "action": "The building shakes the way it always does. His eyes, which had no vote, go where his ear went.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

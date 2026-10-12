@@ -1,0 +1,24 @@
+{
+  "import_date": "2026-10-12",
+  "source_repository": {
+    "url": "https://github.com/Anharmoniclabs/cemi",
+    "commit": "5bc8ae64d84292746e752dfe2bd1fbd35ab1adb0",
+    "local_snapshot": "research/earlier_cemi_pipeline"
+  },
+  "archives": [
+    {
+      "filename": "cemi_training_pack.zip",
+      "sha256": "8aa2edcfbfb28189d084a9deb7064240e54b26d6adb81a44004bc5de11f81802",
+      "bytes": 3495506,
+      "imported_to": "research/archive_imports/training_2026_10_08"
+    },
+    {
+      "filename": "Cemi-River-Scene-Asset-Pack.zip",
+      "sha256": "802bfaed855acd64f55af0a72b770aaea6d013aef6799abef3afb6fbac38782f",
+      "bytes": 43997234,
+      "imported_to": "research/archive_imports/river_2026_10_11"
+    }
+  ],
+  "episode_script": "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+  "scope": "Recoverable Cemi art, animation research, script, source assets and local animation experiments; not a complete chat transcript or finished episode."
+}

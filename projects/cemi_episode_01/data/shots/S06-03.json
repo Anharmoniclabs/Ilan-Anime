@@ -1,0 +1,30 @@
+{
+  "id": "S06-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "status": "unrigged_reference",
+  "action": "The block is out: streetlights, bodega sign, the laundromat on Jerome, every window up and down. Distant city skyline glows normally beyond the block's edge.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S06-03.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

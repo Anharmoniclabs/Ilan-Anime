@@ -1,0 +1,30 @@
+{
+  "id": "S01-09",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 336,
+  "status": "unrigged_reference",
+  "action": "The canoe shrieks through mangrove roots on both sides; a paddle snaps; wood chips. The roots open into air that smells of salt 'from the wrong direction'. Cloth and hair flutter the opposite way.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S01-09.png",
+      "fit_canvas": true,
+      "rate": 2
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "S15-07",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "missing_art",
+  "action": "The merengue keeps going. The next song starts. The plate is there, in the same spot. JC looks up at the speaker over the door.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

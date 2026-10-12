@@ -1,0 +1,23 @@
+{
+  "id": "S14-08",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 672,
+  "status": "missing_art",
+  "action": "A supply closet, a beige mesh-faced box above the cubbies, a rug shaped like the United States (JC always got Nebraska). After lunch is 'quiet time': lights off, heads down. The box puts out one low even tone, like a dentist's waiting room with nobody in it. Everyone puts their heads on their arms. For six-year-old JC the whole room goes flat: air, light, his own hands. He taps the desk leg, a little rhythm, because it's the only thing his body has to push back with. A teacher writes it down; a woman with a lanyard watches with a clipboard; a letter comes home. Father reads it standing in the kitchen with his careful electric-bill face. One word: “Nivel dos.” Mamá puts the letter in the drawer for papers that matter: the lease, his father's death certificate in a folder she still hasn't opened, the school letters nobody answered. The drawer shuts from the other room.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

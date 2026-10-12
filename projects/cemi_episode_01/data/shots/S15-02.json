@@ -1,0 +1,23 @@
+{
+  "id": "S15-02",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "status": "missing_art",
+  "action": "Don Chino's bodega: an awning the color of orange soda left too long in a window; a speaker over the door he had never looked up at; two guys on milk crates at a domino table, slapping tiles in the mood to argue.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

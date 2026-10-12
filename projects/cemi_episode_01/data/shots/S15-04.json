@@ -1,0 +1,23 @@
+{
+  "id": "S15-04",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 288,
+  "status": "missing_art",
+  "action": "Cycle after cycle the men's faces dull a little (PRESS +0.08 per cycle). One slaps a tile too hard and says something he'd have been ashamed of on a normal Tuesday. The other says something back.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

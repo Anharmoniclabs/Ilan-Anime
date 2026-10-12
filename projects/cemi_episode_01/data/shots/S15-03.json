@@ -1,0 +1,23 @@
+{
+  "id": "S15-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "missing_art",
+  "action": "He stands on the sidewalk and listens on purpose. Under the song, bar after bar, a flat gray plate: the same spot, eight seconds wide, again.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

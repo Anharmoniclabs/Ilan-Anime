@@ -1,0 +1,23 @@
+{
+  "id": "S15-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "missing_art",
+  "action": "A tiny route map: library → home, avoiding the El. The bodega is on the only route. JC rationalizes; an insert of a stove burner glows red and a finger approaches. 'I am somebody who has to touch the stove to find out.'",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

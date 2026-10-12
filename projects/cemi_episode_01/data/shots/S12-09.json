@@ -1,0 +1,23 @@
+{
+  "id": "S12-09",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 432,
+  "status": "missing_art",
+  "action": "“You went somewhere.” Low, just for him; his other palm is still flat on the case and the room comes back together around it. “That wasn't a tired thing.” “It was a tired thing.” “JC.” “It was a tired thing, Manny.” He wipes the milk: his skin is pink and fine. He dumps the latte and starts another, 'performing steady'. “I didn't eat. I told my mom I'd eaten. I didn't eat.” Manny takes his hand off slowly, watches from the side of his eye.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "S01-06",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 240,
+  "status": "unrigged_reference",
+  "action": "The three children lift the blue off their arms; it peels away like vapor and leans out over the black water toward the bank. They lean with it. Amaia wants to hear one of them cry.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S01-06.png",
+      "fit_canvas": true,
+      "rate": 2
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

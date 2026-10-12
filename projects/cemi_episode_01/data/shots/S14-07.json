@@ -1,0 +1,23 @@
+{
+  "id": "S14-07",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 216,
+  "status": "missing_art",
+  "action": "The registered-agent address 'has had other names'. Rewind: Aperture Civic ← a data startup ← a consultancy ← Quiet Hours Foundation. A grainy scanned PDF: state seal; Early Calm Pilot: Final Report, 2007. A grant: four elementary schools, all in this zip code; a 'calm environment' program: ambient tones in the classrooms plus a screening tool. JC's hand stops on the table.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

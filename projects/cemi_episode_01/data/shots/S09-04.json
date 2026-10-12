@@ -1,0 +1,23 @@
+{
+  "id": "S09-04",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "status": "missing_art",
+  "action": "JC's rent math as floating numbers: café pays Friday, mural milestone, kid pays his half. Nine days. Sums orbit, cross each other out; 'it has never once come out even.' Tigueraje.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

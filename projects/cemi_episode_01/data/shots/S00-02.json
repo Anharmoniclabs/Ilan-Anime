@@ -1,0 +1,23 @@
+{
+  "id": "S00-02",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "missing_art",
+  "action": "Cream serif, wide tracking: ELLOS CUENTAN. / NOSOTROS RECORDAMOS. Small gold sub-line: They count. We remember. — ABUELA.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

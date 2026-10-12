@@ -1,0 +1,30 @@
+{
+  "id": "S05-08",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "unrigged_reference",
+  "action": "Camera drops through the floors of the building, 4th to ground, as the year numerals tick down: 2026 … 1957. The Ballroom glows at the bottom. 'One floor under my feet and almost seventy years down.'",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S05-08.png",
+      "fit_canvas": true,
+      "rate": 2
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

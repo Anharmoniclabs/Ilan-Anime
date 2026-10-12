@@ -1,0 +1,23 @@
+{
+  "id": "S12-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "missing_art",
+  "action": "Sign: HOY NO SE FÍA, MAÑANA SÍ. Behind the register a man with a mustache, a good shirt, Mr. Rodríguez's eyebrows 'half a century early'. Flyer in the window: BACK TO SCHOOL JAM — SEDGWICK — SAT.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

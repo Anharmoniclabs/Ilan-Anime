@@ -1,0 +1,30 @@
+{
+  "id": "S05-02",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "unrigged_reference",
+  "action": "The projector coughs. The cobalt 'JC' test loop breaks into static, which pulls toward the middle of the wall. The plaster surface ripples in concentric rings.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S05-02.png",
+      "fit_canvas": true,
+      "rate": 2
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "S13-09",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 168,
+  "status": "missing_art",
+  "action": "Lamp buzz expands to full orchestral lamps; tables fill with people made of light. Super: SATURDAY, 1934, judging by the hats. A pan of hats.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

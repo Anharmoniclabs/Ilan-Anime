@@ -1,0 +1,23 @@
+{
+  "id": "S11-04",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 216,
+  "status": "missing_art",
+  "action": "On the third read, at 'take it off you': the coin goes from warm to a heat he feels through the denim. The steamer whistle, sitting on a clean A (440 Hz), sags half a step flat (≈415 Hz). Manny's palm is still on the case: the note comes back.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

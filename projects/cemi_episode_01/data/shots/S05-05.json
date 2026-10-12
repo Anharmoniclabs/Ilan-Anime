@@ -1,0 +1,30 @@
+{
+  "id": "S05-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 72,
+  "status": "unrigged_reference",
+  "action": "The headphones around his neck, leaking music, tiny sound-lines. He has not put them on.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S05-05.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

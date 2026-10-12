@@ -1,0 +1,30 @@
+{
+  "id": "S09-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "unrigged_reference",
+  "action": "El Disco Café under the El. A train passes overhead and the sign shakes. Where the paint has worn, older letters come through: DISCOS QUISQUEYA.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S09-01.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

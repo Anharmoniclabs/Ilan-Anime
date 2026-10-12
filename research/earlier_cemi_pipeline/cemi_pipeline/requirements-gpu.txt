@@ -1,0 +1,9 @@
+-r requirements.txt
+# Install a compatible CUDA PyTorch build before these dependencies.
+# Match the checked-out Diffusers training example with its own requirements.
+accelerate>=1.0,<2
+transformers>=4.44,<6
+datasets>=3,<5
+peft>=0.13,<1
+safetensors>=0.4,<1
+diffusers>=0.35,<1

@@ -1,0 +1,23 @@
+{
+  "id": "S05-15",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 96,
+  "status": "missing_art",
+  "action": "Everything in the apartment goes out at once: laptop, lamp, router LEDs, fan spin-down. Black.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

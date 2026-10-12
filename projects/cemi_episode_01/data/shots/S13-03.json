@@ -1,0 +1,23 @@
+{
+  "id": "S13-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 240,
+  "status": "missing_art",
+  "action": "Sofía's text flood: that 'is this anything' email / JC / where are you / ok i'm not waiting. it's not spam. it's so much worse than spam / you in a hole. you're in a hole aren't you / i can see your location you absolute bobo. don't move. Then Denise: Hi JC! Quick heads up, the board is holding your milestone payment until our partner review next week. Just process!",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

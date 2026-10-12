@@ -1,0 +1,30 @@
+{
+  "id": "S03-02",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 96,
+  "status": "unrigged_reference",
+  "action": "Gag: the window is so close to the El that JC extends a sandwich toward the passing conductor. Frame holds on the arm as the train blurs by.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S03-02.png",
+      "fit_canvas": true,
+      "rate": 2
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

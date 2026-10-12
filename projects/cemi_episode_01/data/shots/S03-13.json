@@ -1,0 +1,30 @@
+{
+  "id": "S03-13",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "unrigged_reference",
+  "action": "2:41 AM. Manny texts from the 6 train: u alive / define alive / breathing + bad decision energy / then yes / send the kid his EP / it's not done / it's been done for a week gremlin. JC turns the phone face down: 'Nobody should be known that well at three in the morning.'",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S03-13.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

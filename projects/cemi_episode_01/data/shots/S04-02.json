@@ -1,0 +1,30 @@
+{
+  "id": "S04-02",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "status": "unrigged_reference",
+  "action": "The filter stack as three gauze panes between the pipe and the projector: SMOOTHING (a comb), GATING (a door), NOISE FLOOR (a line). The shape and the loop pass through all three unchanged.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S04-02.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

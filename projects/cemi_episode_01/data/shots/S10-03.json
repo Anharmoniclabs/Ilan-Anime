@@ -1,0 +1,23 @@
+{
+  "id": "S10-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 336,
+  "status": "missing_art",
+  "action": "Manny rests one palm flat on the drum case. The café has six noises (grinder, steamer, a stroller with a squeaky wheel, two guys on the Yankees bullpen, the freelancer's keyboard, Jerome traffic). They quit arguing and fall into one groove; you can almost hear a window click into its track; the baby, about to scream, sighs and closes her eyes. Manny doesn't notice. JC watches.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

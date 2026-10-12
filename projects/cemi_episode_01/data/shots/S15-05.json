@@ -1,0 +1,23 @@
+{
+  "id": "S15-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "missing_art",
+  "action": "A third guy comes out of the store and tells them both to lower their voices, in a voice that isn't lower. Camera circles the three; outlines go uniform, shading flattens, motion drops toward holds.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

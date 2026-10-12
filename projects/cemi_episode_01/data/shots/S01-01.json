@@ -1,0 +1,23 @@
+{
+  "id": "S01-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "status": "missing_art",
+  "action": "Black water, a hand-width of surface. A paddle blade enters, leaves, rings spread. Lower-left small caps: BEFORE.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

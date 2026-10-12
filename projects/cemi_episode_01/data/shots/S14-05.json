@@ -1,0 +1,23 @@
+{
+  "id": "S14-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 480,
+  "status": "missing_art",
+  "action": "JC tells her about the loop and puts an earbud in her hand. “That's a loop. That's every hold music in America.” “It's under everything on the block. No tune. It makes whatever it's under feel pressed flat. And the block's been mean lately.” “I've noticed it's been a long winter and the landlord on Creston is a monster.” She sets the earbud down 'like evidence'. “What I don't have is a number... I need a control. A block without it.”",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

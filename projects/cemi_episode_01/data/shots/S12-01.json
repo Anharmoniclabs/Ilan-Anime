@@ -1,0 +1,23 @@
+{
+  "id": "S12-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "missing_art",
+  "action": "11:12. The 4 hits the curve up the block and screams on the rail. Inside the café the steamer whistle lands on the same note. Two sound-ribbons merge into one line.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

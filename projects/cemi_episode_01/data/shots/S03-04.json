@@ -1,0 +1,30 @@
+{
+  "id": "S03-04",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 264,
+  "status": "unrigged_reference",
+  "action": "Dollhouse cross-section of the whole building. Colored ribbons rise through the floors: the 4 (steel white), radiator (rust), bachata (magenta), rosary (gold dots), a trumpet on six playing the same solo 'since the Obama administration'. All of them end at JC's closet.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S03-04.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

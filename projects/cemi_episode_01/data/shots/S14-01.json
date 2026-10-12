@@ -1,0 +1,23 @@
+{
+  "id": "S14-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "missing_art",
+  "action": "“You're doing the thing.” Sofía's hand hovers over his shoulder without landing. She's got the laptop open before she's sat. Gag: split card: SOFÍA (ASLEEP) / SOFÍA (PROSECUTING).",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

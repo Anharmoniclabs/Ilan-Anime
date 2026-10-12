@@ -1,0 +1,23 @@
+{
+  "id": "S13-12",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 96,
+  "status": "missing_art",
+  "action": "Back to the present: fluorescent tubes, a water stain on the ceiling shaped like Staten Island, the Mets fan going strong.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

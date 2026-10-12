@@ -1,0 +1,23 @@
+{
+  "id": "S13-02",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "missing_art",
+  "action": "The old branch on the Concourse: green-shaded lamps, oak tables rubbed shiny by ninety years of elbows, a radiator that knocks, a man in a Mets jacket snoring in 'long, generous phrases' (JC calls him a public service).",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

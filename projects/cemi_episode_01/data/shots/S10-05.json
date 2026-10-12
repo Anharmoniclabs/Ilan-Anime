@@ -1,0 +1,23 @@
+{
+  "id": "S10-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "missing_art",
+  "action": "Yari's daily text: did you eat / define eat / juan carlos. He sends a photo of the iced coffee; she replies with one skull.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

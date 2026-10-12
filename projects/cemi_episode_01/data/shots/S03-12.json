@@ -1,0 +1,30 @@
+{
+  "id": "S03-12",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "unrigged_reference",
+  "action": "The block's been mean lately: (1) Friday fight outside the bodega over a scratch-off; (2) two men who haven't spoken since JC was nine, not speaking, with reasons they can't give; (3) the super's dog bites a delivery guy, the super calls it 'a misunderstanding' as if the dog had misheard the order.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S03-12-A.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "S07-07",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "status": "unrigged_reference",
+  "action": "He heads for work down four flights. At the fourth-floor stairwell wall his hand brushes the plaster; for a frame he almost listens.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S07-07.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

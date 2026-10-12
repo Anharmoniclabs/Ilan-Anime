@@ -1,0 +1,23 @@
+{
+  "id": "S13-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 168,
+  "status": "missing_art",
+  "action": "He lays the coin beside the screen. The hooks match; the spiral turns the same way and opens in the same place. A pen draws both with one stroke: 'same handwriting'.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

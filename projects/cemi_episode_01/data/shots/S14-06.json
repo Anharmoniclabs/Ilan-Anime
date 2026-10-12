@@ -1,0 +1,23 @@
+{
+  "id": "S14-06",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 480,
+  "status": "missing_art",
+  "action": "SOUND OF THE BLOCK: in January the licensing arm gave away free in-store systems: bodega, laundromat, barbershop, two nail salons, the dentist. One page-and-a-half contract; 'community partner' decal in each window. “Name me the one inside a mile that didn't sign.” Cut to Mr. Rodríguez telling the rep to take the speaker back 'to whatever planet it came from'. He plays his own records. The radiator knocks twice, as an answer. “A control.” Sofía looks 'completely, unfairly happy': “I'm in love with a coffee shop.”",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

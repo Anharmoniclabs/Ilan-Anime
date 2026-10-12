@@ -1,0 +1,23 @@
+{
+  "id": "S13-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "missing_art",
+  "action": "Super: 2:15 PM. Library vending machine: platanitos and a ginger ale. 'That counts.' Mamá's disapproving VO: she would call it a funeral for a lunch.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

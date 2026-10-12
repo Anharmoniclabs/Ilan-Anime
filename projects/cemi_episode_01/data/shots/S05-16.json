@@ -1,0 +1,30 @@
+{
+  "id": "S05-16",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "status": "unrigged_reference",
+  "action": "For two more seconds the dancers hang on the wall, blue and gold, with no projector under them. Then they go. The radiators tick back to normal, 'because as far as the radiators were concerned nothing had happened'.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S05-16.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

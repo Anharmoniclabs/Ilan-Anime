@@ -1,0 +1,23 @@
+{
+  "id": "S00-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 96,
+  "status": "missing_art",
+  "action": "Navy field (#14202B). The cemí sigil (spiral opening into a triangle) draws itself in one continuous gold line, like a pen that never lifts.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

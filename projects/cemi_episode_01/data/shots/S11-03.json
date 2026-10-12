@@ -1,0 +1,23 @@
+{
+  "id": "S11-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "missing_art",
+  "action": "JC reads it twice; the second reading is worse because they are right. Flattery he can shrug off. This named the thing he is proud of. Nine days from rent, on cafecito and spite.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

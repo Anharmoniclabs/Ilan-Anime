@@ -1,0 +1,30 @@
+{
+  "id": "S05-06",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "unrigged_reference",
+  "action": "Hero pass: three couples in quick cuts. Footwork, a spin, a skirt flare. The cowbell hits the shoe strikes; the maple floor reflects them.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S05-06.png",
+      "fit_canvas": true,
+      "rate": 2
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

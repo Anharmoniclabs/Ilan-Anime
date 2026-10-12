@@ -1,0 +1,30 @@
+{
+  "id": "S07-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 240,
+  "status": "unrigged_reference",
+  "action": "'The Look': Mamá looks over her coffee and decides not to answer. Dissolve through JC at nine (asking where Papá goes on nights he doesn't come home) and after the fever at twelve. Same pose, same angle, three eras of warm light.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S07-05.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

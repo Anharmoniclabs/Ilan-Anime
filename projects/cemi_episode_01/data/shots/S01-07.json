@@ -1,0 +1,30 @@
+{
+  "id": "S01-07",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 168,
+  "status": "unrigged_reference",
+  "action": "A second man sits on a stump, ledger open on his knee. He never looks at the canoes. He writes one line, then another under it.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S01-07.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

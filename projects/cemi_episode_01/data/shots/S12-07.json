@@ -1,0 +1,23 @@
+{
+  "id": "S12-07",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 240,
+  "status": "missing_art",
+  "action": "At the far end, where the sun doesn't reach, a thin man in a brown suit with a small notebook. He bought nothing. He writes quickly, one mark at a time. His eyes follow the kid to the door, then the street, 'as if the street were part of the sale'. He ticks something. Then he looks up past the register, at the exact spot in the air where JC stands.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

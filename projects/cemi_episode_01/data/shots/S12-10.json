@@ -1,0 +1,23 @@
+{
+  "id": "S12-10",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "missing_art",
+  "action": "Twenty cortados in a rhythm montage with the 4 passing and the steamer on a clean A. On number fourteen, JC realizes what bothered him about the email: it said 'building-listening'. Nobody had ever called it that. Inserts: closet, raw feed, one laptop on the fourth floor.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "S12-08",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "missing_art",
+  "action": "Snap back. The pitcher is overflowing; milk runs over JC's knuckles, hot, and he didn't feel it. “JC. JC.” Manny's hand on his shoulder; the freelancer is staring; Mr. Rodríguez is already halfway across the room. JC's voice comes from 'the far side of a wall'.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

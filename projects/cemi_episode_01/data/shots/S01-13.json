@@ -1,0 +1,30 @@
+{
+  "id": "S01-13",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "status": "unrigged_reference",
+  "action": "Her son, asleep, says into her ribs in a voice too old for him: “It's turning with us. Turn with it.”",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S01-13.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

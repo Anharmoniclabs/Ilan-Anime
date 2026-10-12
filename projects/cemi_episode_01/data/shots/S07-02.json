@@ -1,0 +1,30 @@
+{
+  "id": "S07-02",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "status": "unrigged_reference",
+  "action": "Mamá turns salami with a fork. Queso frito sizzles. Mangú steam. Real food painting: background-grade cels for the food.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S07-02.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

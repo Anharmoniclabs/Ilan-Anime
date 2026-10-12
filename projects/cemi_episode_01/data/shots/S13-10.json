@@ -1,0 +1,23 @@
+{
+  "id": "S13-10",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 432,
+  "status": "missing_art",
+  "action": "A single left-to-right move past each table: a grandfather reading a Yiddish paper with his lips moving; two Irish girls splitting an apple under the table, passing a penknife; a man in a porter's cap, one finger under the line; a Puerto Rican mother steering two kids to picture books by the backs of their collars; a boy copying a world map from an atlas, tongue between teeth, while a boy a shade darker borrows his eraser without asking and returns it without thanks, and neither looks up; a librarian with spectacles on a chain stamping due dates hard enough to make the pencils jump; a hand-lettered card: FREE CONCERT, CONCOURSE PLAZA, SUNDAY, ALL WELCOME.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

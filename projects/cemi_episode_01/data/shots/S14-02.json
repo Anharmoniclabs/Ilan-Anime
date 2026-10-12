@@ -1,0 +1,23 @@
+{
+  "id": "S14-02",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "missing_art",
+  "action": "“Where'd you go?” “Nowhere. Library. I'm researching.” “With a face like somebody ran over your dog.” Flash: Sofía reading a lease aloud to a landlord; by page four he's changed the lock on his own door. 'She looks at a system and sees what it's for, and then she tells it.'",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

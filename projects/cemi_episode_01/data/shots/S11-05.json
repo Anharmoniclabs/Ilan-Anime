@@ -1,0 +1,23 @@
+{
+  "id": "S11-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "missing_art",
+  "action": "Thumb above the screen: open it, read the rest, see the number. He forwards the preview to Sofía (is this anything) and flips the phone face down. Flash: a hand gripping a small child's sleeve at a curb as a car passes. 'No. Not them.'",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

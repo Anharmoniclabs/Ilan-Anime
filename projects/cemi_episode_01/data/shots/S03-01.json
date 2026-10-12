@@ -1,0 +1,30 @@
+{
+  "id": "S03-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 168,
+  "status": "unrigged_reference",
+  "action": "Jerome Ave at night. The elevated 4 train rumbles past in strobing window-light bars across the street. Crane up the brick back wall of JC's building to a lit fourth-floor window. Super: 3:07 AM · TUESDAY · MARCH.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S03-01.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

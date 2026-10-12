@@ -1,0 +1,23 @@
+{
+  "id": "S08-02",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "status": "missing_art",
+  "action": "Logo: a camera iris. As JC's eyes trace the blades, the overlapped curve lines up with the cemí spiral for exactly 3 frames, then un-aligns. Text: Aperture Civic. Community Spaces, Coming Soon.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

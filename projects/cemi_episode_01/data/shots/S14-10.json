@@ -1,0 +1,23 @@
+{
+  "id": "S14-10",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 360,
+  "status": "missing_art",
+  "action": "Mikey lived on four and was in JC's class. JC can't remember his score; he remembers what the mothers called it: 'the three', low, in the voice they used for a man who'd gone upstate. Mikey's mother said it most. Eight-year-old Mikey puts his ear to the fourth-floor stairwell wall and says the building is humming; he stays there long after a joke would be over. “Listen,” he says. JC listens to a wall and laughs at him. The wall hums in concentric gold rings. Present: JC has a microphone clamped to his own wall.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

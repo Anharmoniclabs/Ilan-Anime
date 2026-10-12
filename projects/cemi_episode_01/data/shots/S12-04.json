@@ -1,0 +1,23 @@
+{
+  "id": "S12-04",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 168,
+  "status": "missing_art",
+  "action": "The tin ceiling stays as the anchor. Everything else changes front-to-back: mismatched chairs → a uniform set; empty bins fill with 45s in paper sleeves; two box fans appear; the air shimmers with heat. Color grade swings to warm 1973.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

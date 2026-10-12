@@ -1,0 +1,30 @@
+{
+  "id": "S07-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 528,
+  "status": "unrigged_reference",
+  "action": "Mamá: “La luz se fue a las tres y volvió a las cuatro. Con Ed says transformer. The super says Con Ed. Doña Fela on five says it was the Lord.” “What do you say?” “I say the keyboard stopped at three-oh-seven. I look at the clock when you don't sleep. Siéntate.” (Los tres golpes.)",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S07-03.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

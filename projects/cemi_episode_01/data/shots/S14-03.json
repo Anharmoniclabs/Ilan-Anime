@@ -1,0 +1,23 @@
+{
+  "id": "S14-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 384,
+  "status": "missing_art",
+  "action": "Aperture Civic: registered 2024; five-month-old gorgeous website; no employees on any record. The shell tree builds itself on screen: three shells → paper that 'turns into a lawyer's lunch' (sandwich icon) → a holding company → a youth digital-wellness nonprofit, a music-licensing outfit, a development group with permits on four buildings, including his. The Ballroom, the arts space, the mural: his. Eleven tabs; a pie chart; 'Manny owes me a dollar.'",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

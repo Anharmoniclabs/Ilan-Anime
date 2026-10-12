@@ -1,0 +1,30 @@
+{
+  "id": "S04-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "status": "unrigged_reference",
+  "action": "Digital clock flips 12:07 → 3:07. Three demitasse cups appear and empty, one per hour. The train passes three times.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S04-01.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

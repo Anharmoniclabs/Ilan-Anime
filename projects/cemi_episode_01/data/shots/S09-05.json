@@ -1,0 +1,30 @@
+{
+  "id": "S09-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 216,
+  "status": "unrigged_reference",
+  "action": "The map on butcher paper: Jerome Ave from 161st to 170th in pencil and marker, covered in index cards: Casa Fela, shoe repair, 1968–1994. Don Chino's barbershop (the line went out the door on Sundays). The Rialto, 25¢ Saturdays. A new card each week. One corner is blank.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S09-05.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

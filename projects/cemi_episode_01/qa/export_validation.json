@@ -1,0 +1,40 @@
+{
+  "Bell_motion_test.mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "duration": "5.000000",
+        "nb_frames": "120"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "duration": "5.000000",
+        "nb_frames": "236"
+      }
+    ]
+  },
+  "Cemi_SC0_Current_Turns_motion_test.mp4": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "duration": "24.000000",
+        "nb_frames": "576"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "duration": "24.000000",
+        "nb_frames": "1126"
+      }
+    ]
+  }
+}

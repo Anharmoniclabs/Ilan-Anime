@@ -1,0 +1,30 @@
+{
+  "id": "S03-11",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "unrigged_reference",
+  "action": "Second anomaly: under everything, an 8-second pressed band repeating. He hits DEL; the band returns. He deleted it 'a dozen times as garbage'. A counter of DEL presses ticks up to 12.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S03-11.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

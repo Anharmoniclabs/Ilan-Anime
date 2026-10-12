@@ -1,0 +1,30 @@
+{
+  "id": "S07-06",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 288,
+  "status": "unrigged_reference",
+  "action": "“Eat lunch. A real one. Not coffee.” “Promise.” “You said that yesterday.” “I'll mean it harder today.” The coin is warm against his hip; something that kept its mouth shut for twenty-five years clears its throat.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S07-06.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "S13-08",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "status": "missing_art",
+  "action": "Quiet check. Three sounds agree with each other: the radiator knock, the Mets fan's snore, the lamp's thin buzz. They snap together into one chord. He has never worked out why.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

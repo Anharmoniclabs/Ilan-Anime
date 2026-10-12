@@ -1,0 +1,23 @@
+{
+  "id": "S11-02",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 336,
+  "status": "missing_art",
+  "action": "The email body scrolls, key phrases glowing slightly: 'building-listening practice', 'real resources', 'Founders' Night … Kingsbridge Armory', 'no strings on the creative', 'We'd like to take it off you.' Signed Adrian Vale, Director of Community Partnerships.",
+  "layers": [],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "S01-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 168,
+  "status": "unrigged_reference",
+  "action": "Behind them on the bank the soldier torches have stopped. One soldier lifts a pole with a brass bell and rings it, hard. Cut to the bell swinging, close.",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S01-05A.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ],
+  "motion_review": "rejected; see research/animation_audit/REPORT.md"
+}

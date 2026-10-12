@@ -1,0 +1,30 @@
+{
+  "id": "S03-10",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 216,
+  "status": "unrigged_reference",
+  "action": "First anomaly: a spiral that opens into a triangle, folded in itself. It resolves from static in three places with the same proportions each time: the screech of the 4, the heater upstairs, the hiss between radio stations. Match-cuts between the three. JC loses a whole Saturday ('I fall in and send a postcard').",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S03-10.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

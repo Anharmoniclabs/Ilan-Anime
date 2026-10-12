@@ -1,0 +1,30 @@
+{
+  "id": "S01-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "status": "unrigged_reference",
+  "action": "Amaia's lips count the heads ahead. Each count lands on an empty seat. Pale outlines sit in the empty seats and fade as she looks at them (two lost at the channel, the old man who asked for water, then his wife, then nothing).",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S01-03.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

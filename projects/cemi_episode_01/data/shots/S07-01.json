@@ -1,0 +1,30 @@
+{
+  "id": "S07-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 96,
+  "status": "unrigged_reference",
+  "action": "Super: TUESDAY · MORNING. Kitchen, dawn light through the window. Radio on low, a merengue. Chair rocks on a short leg propped by a folded Con Ed bill (since 2011).",
+  "layers": [
+    {
+      "name": "reference_only",
+      "source": "assets/keyframes/S07-01.png",
+      "fit_canvas": true,
+      "rate": 3
+    }
+  ],
+  "camera": [],
+  "audio": null,
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}
