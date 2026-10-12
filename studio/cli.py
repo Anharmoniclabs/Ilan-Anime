@@ -3,7 +3,7 @@
 Production loop (Codex):  plan -> run -> (Luis) approve -> run ...
 Picture:                  animatic, render, queue, assemble, qa
 Drawings:                 layers split|matte|register, motion compile|check
-3D (Blender NPR):         blender render|check|import
+3D (Blender NPR):         blender scan|render|check|import
 Sound:                    sound lines|mouth|mix
 Paid (opt-in):            generate image|voice
 """
@@ -240,6 +240,14 @@ def cmd_generate(args):
 def cmd_blender(args):
     from studio import blender
     try:
+        if args.action == "scan":
+            from studio.scan import scan_file
+            out = args.out or str(Path(args.target).with_suffix(".scan.json"))
+            preview = str(Path(out).with_suffix(".preview.png"))
+            report = scan_file(args.target, out, preview=preview, colors=args.colors,
+                               min_region=args.min_region, ink_contrast=args.ink_contrast)
+            _print({"scan": out, "preview": preview, **report["stats"], "fidelity": report["fidelity"]})
+            return
         if args.action == "render":
             layers = [n for n in (args.layers or "").split(",") if n]
             _print(blender.render(args.target, args.out, frames=args.frames, step=args.step, layers=layers,
@@ -386,7 +394,7 @@ def main(argv=None):
     p.set_defaults(func=cmd_generate)
 
     p = sub.add_parser("blender", help="render | check | import Blender element layers (NPR contract)")
-    p.add_argument("action", choices=("render", "check", "import"))
+    p.add_argument("action", choices=("scan", "render", "check", "import"))
     p.add_argument("target", help=".blend file (render) or a rendered PNG directory (check/import)")
     p.add_argument("--out")
     p.add_argument("--frames", help="start-end inclusive (render)")
@@ -399,6 +407,9 @@ def main(argv=None):
     p.add_argument("--name")
     p.add_argument("--tags")
     p.add_argument("--no-render", action="store_true")
+    p.add_argument("--colors", type=int, default=16, help="scan: flat fill colors")
+    p.add_argument("--min-region", type=int, default=32, help="scan: smallest fill region in pixels")
+    p.add_argument("--ink-contrast", type=float, default=0.10, help="scan: lower finds more interior lines")
     p.set_defaults(func=cmd_blender)
 
     p = sub.add_parser("reference-lock", help="lock canonical source artwork to a Blender camera")
