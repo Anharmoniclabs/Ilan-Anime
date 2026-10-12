@@ -30,7 +30,7 @@ A timed cue sheet, dialogue/performance brief, stem specification and missing-au
 
 Inspect what you actually produced. State which source images, frames, audio or video you directly viewed/listened to and which checks were only automated. Never claim rendered movement from a textual specification, static sheet or successful file decode.
 
-Return a JSON object with exactly the shared result fields:
+Return the shared result fields shown below. When the task requires host bindings, also include `host_agent_id` with the exact real creator ID supplied by the coordinator; never invent this identity:
 
 ```json
 {

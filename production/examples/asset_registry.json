@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "events": [
+    {
+      "sequence": 1,
+      "at": "2026-10-12T15:00:00Z",
+      "action": "register",
+      "previous_event_hash": null,
+      "payload": {
+        "asset_id": "s01-11.beheto-drum-contact",
+        "version": 1,
+        "path": "projects/cemi_episode_01/assets/replacement_cels/beheto_eight_poses.png",
+        "sha256": "3dc796e227eb61cd5ae00a216e1cbadb1ca0a2c01830c26fde082c96c544d698",
+        "kind": "replacement-cel-sheet",
+        "mode": "work-in-progress",
+        "shots": ["S01-11"],
+        "provenance": {
+          "origin": "AnimeStudio replacement-cel pass",
+          "creator": "cemi-production-team",
+          "license": "project-owned",
+          "source_assets": [],
+          "notes": "Registration example only; this drawing remains unapproved."
+        },
+        "continuity": {
+          "character_ids": ["beheto"],
+          "costume_ids": ["beheto-river-v1"],
+          "prop_ids": ["drum-v1", "canoe-lead-v1"],
+          "time": "moonless night before first bell",
+          "location": "river lead canoe"
+        },
+        "initial_state": "exploratory",
+        "supersedes": null
+      },
+      "event_hash": "5b8a2dee58b78987538f9446af4de81c883aa796a64af3ab3388e8bb872e2547"
+    }
+  ]
+}

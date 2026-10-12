@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Asset Manager"
+  short_description: "Track asset versions, provenance, and approvals"
+  default_prompt: "Use $anime-asset-manager to complete the assigned bounded production task."

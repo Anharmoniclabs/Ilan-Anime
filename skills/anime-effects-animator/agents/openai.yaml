@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Effects Animator"
+  short_description: "Animate water, atmosphere, and resonance effects"
+  default_prompt: "Use $anime-effects-animator to complete the assigned bounded production task."

@@ -156,6 +156,17 @@ class LedgerTests(unittest.TestCase):
             task[field] = value
             with self.subTest(field=field, value=value), self.assertRaises(LedgerError):
                 self.ledger.add(task)
+        for field, value in (("requires_author_approval", "yes"),
+                             ("require_host_bindings", "yes"),
+                             ("art_direction_mode", "generic-anime")):
+            task = self.task(); task[field] = value
+            with self.subTest(field=field), self.assertRaises(LedgerError):
+                self.ledger.add(task)
+
+        task = self.task()
+        task.update(requires_author_approval=True, author_approver="someone-else")
+        with self.assertRaisesRegex(LedgerError, "luis-m-minier"):
+            self.ledger.add(task)
 
     def test_missing_unsafe_inputs_do_not_dispatch(self):
         external = tempfile.TemporaryDirectory()
@@ -180,6 +191,47 @@ class LedgerTests(unittest.TestCase):
         task.update(state="approved", result=self.result())
         with self.assertRaisesRegex(LedgerError, "review"):
             self.ledger.validate()
+
+    def test_author_gate_blocks_dependents_until_explicit_human_review(self):
+        task = self.task()
+        task.update(requires_author_approval=True, author_approver="luis-m-minier", art_direction_mode="STORY_FRAME")
+        self.ledger.add(task)
+        prompt = self.ledger.dispatch("draw", "worker")
+        self.assertIn("production/art_direction.json", prompt)
+        self.ledger.submit(self.result())
+        self.ledger.review("draw", "supervisor", "reviewer", "approve", "Technical checks pass")
+        self.ledger.add(self.task("composite", ["draw"]))
+        self.assertEqual([], self.ledger.ready())
+        with self.assertRaises(LedgerError):
+            self.ledger.author_review("draw", "someone-else", "approve", "Looks correct")
+        self.ledger.author_review("draw", "luis-m-minier", "approve", "Approved this exact story frame")
+        self.assertEqual(["composite"], self.ledger.ready())
+
+    def test_author_rejection_never_unlocks_dependency(self):
+        task = self.task()
+        task.update(requires_author_approval=True, author_approver="luis-m-minier")
+        self.ledger.add(task)
+        self.ledger.dispatch("draw", "worker")
+        self.ledger.submit(self.result())
+        self.ledger.review("draw", "supervisor", "reviewer", "approve", "Technically valid")
+        self.ledger.author_review("draw", "luis-m-minier", "reject", "Face does not match")
+        self.ledger.add(self.task("paint", ["draw"]))
+        self.assertEqual([], self.ledger.ready())
+
+    def test_persisted_author_identity_must_equal_designated_approver(self):
+        task = self.task()
+        task.update(requires_author_approval=True, author_approver="luis-m-minier")
+        self.ledger.add(task)
+        self.ledger.dispatch("draw", "worker")
+        self.ledger.submit(self.result())
+        self.ledger.review("draw", "supervisor", "reviewer", "approve", "Technical pass")
+        self.ledger.author_review("draw", "luis-m-minier", "approve", "Approved exact asset")
+        path = self.repo / "production/runs/pilot/ledger.json"
+        data = json.loads(path.read_text())
+        data["tasks"]["draw"]["author_review"]["author"] = "fabricated-author"
+        path.write_text(json.dumps(data))
+        with self.assertRaisesRegex(LedgerError, "author review"):
+            Ledger(self.repo, "pilot").validate()
 
 
 if __name__ == "__main__":

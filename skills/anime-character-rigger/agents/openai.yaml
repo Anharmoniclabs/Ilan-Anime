@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Character Rigger"
+  short_description: "Build bounded rigs with safe deformation limits"
+  default_prompt: "Use $anime-character-rigger to complete the assigned bounded production task."

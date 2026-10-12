@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Dialogue Editor"
+  short_description: "Edit authorized dialogue into synced clean takes"
+  default_prompt: "Use $anime-dialogue-editor to complete the assigned bounded production task."

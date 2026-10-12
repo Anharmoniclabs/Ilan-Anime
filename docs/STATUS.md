@@ -2,6 +2,14 @@
 
 ## Available
 
+- Thirty individually bounded production departments, each with its own skill and independent designated reviewer.
+- A versioned Cemí art-direction contract covering character, environment, story-frame and editorial modes.
+- Separate digest-bound technical and Luis M. Minier author-approval gates; rejected versions are terminal.
+- An append-only, hash-chained asset registry with provenance, continuity, supersession and canonical-only final-use links.
+- A 27-stage complete-shot pipeline covering script supervision, layout, design, hand-drawn animation, cleanup, paint, FX, full sound post, QA and final author approval.
+- A read-only loopback production dashboard and a studio-wide architecture validator.
+- A persistent agent ledger, real host-agent handoff registry, explicit interruption pause and user-controlled recovery.
+
 - Full Episode 1 script, visual bible, sound bible, effects specification and engineering contract.
 - 128 body-shot templates; 27,120 contiguous frames at 24 fps.
 - 77 numbered keyframe PNGs covering 64 shots; two rejected earlier frames kept separately.
@@ -34,6 +42,8 @@ The first replacement sheets have been generated, not completed as animation:
 Generating these sheets does not establish that they meet the production standard. They are preserved with the code and research so the next pass can continue without losing provenance.
 
 ## Still to complete
+
+The studio architecture now validates cleanly; the episode does not. System readiness and art/episode readiness are deliberately reported separately.
 
 1. Register usable cel drawings against fixed landmarks. Redraw inconsistent anatomy, hulls and grips.
 2. Complete the 24-second S01-11/S01-12 action with actual palm placement, weight, paddle drag/lift/recovery, passenger counterbalance, travelling wakes and current turn.

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Pipeline Technical Director"
+  short_description: "Enforce deterministic production pipeline contracts"
+  default_prompt: "Use $anime-pipeline-td to complete the assigned bounded production task."

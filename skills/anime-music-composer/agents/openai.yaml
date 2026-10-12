@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Music Composer"
+  short_description: "Compose original timed cues and separable stems"
+  default_prompt: "Use $anime-music-composer to complete the assigned bounded production task."

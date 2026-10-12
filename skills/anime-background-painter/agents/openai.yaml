@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Background Painter"
+  short_description: "Paint approved environments and clean plates"
+  default_prompt: "Use $anime-background-painter to complete the assigned bounded production task."

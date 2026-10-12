@@ -14,9 +14,19 @@
     "duties": "Specify shot objectives, action beats, staging, continuity and exact frame counts. Preserve canonical shot identifiers and cast. Define character, prop, environmental and camera action separately so a camera move cannot stand in for acting.",
     "reviewer": "director"
   },
+  "script-supervisor": {
+    "skill": "skills/anime-script-supervisor/SKILL.md",
+    "duties": "Maintain evidence-linked continuity for exact dialogue, cast, emotional state, geography, screen direction, props, costumes, injuries and shot timing. Resolve source precedence and log contradictions without silently rewriting canon or taking over direction.",
+    "reviewer": "episode-director"
+  },
   "storyboard": {
     "skill": "skills/anime-storyboard/SKILL.md",
     "duties": "Plan sequential panels for actual action changes, camera axis, eyelines, screen direction, entrances and exits. Annotate timing, contacts and sound cues. If only textual panels are possible, label them a board plan, not completed drawings.",
+    "reviewer": "episode-director"
+  },
+  "layout-artist": {
+    "skill": "skills/anime-layout-artist/SKILL.md",
+    "duties": "Translate approved boards into final camera fields, perspective, scale, ground planes, staging, eyelines, contacts, occlusion and parallax layers. Preserve the canonical Cemí visual contract; own spatial construction rather than board story choices, finished paint or animation drawings.",
     "reviewer": "episode-director"
   },
   "character-designer": {
@@ -39,15 +49,45 @@
     "duties": "Use only supervisor-approved keys. Follow spacing charts and exposure timing, preserving volume, anatomy, line character, grips and prop contacts. Flag inconsistent keys instead of averaging their errors. Avoid whole-frame optical-flow morphs for character performance.",
     "reviewer": "animation-supervisor"
   },
+  "cleanup-artist": {
+    "skill": "skills/anime-cleanup-artist/SKILL.md",
+    "duties": "Convert approved rough keys and inbetweens into registered final line art while preserving acting, volume, identity, grips, contacts, prop geometry and Luis M. Minier's variable-width ink character. Escalate inconsistent roughs instead of revising animation intent.",
+    "reviewer": "animation-supervisor"
+  },
+  "ink-paint-artist": {
+    "skill": "skills/anime-ink-paint-artist/SKILL.md",
+    "duties": "Apply approved palette IDs, line finish, cel-shadow and highlight shapes, alpha edges, mattes and material separation to cleaned drawings. Check frame-to-frame fill continuity without redesigning palette, linework, lighting or composition.",
+    "reviewer": "color-designer"
+  },
+  "effects-animator": {
+    "skill": "skills/anime-effects-animator/SKILL.md",
+    "duties": "Animate registered water, wakes, foam, atmosphere, dust, light and resonance layers with coherent force, travel, dissipation and contact. Keep deformation inside appropriate masks and effects subordinate to character acting and scene physics.",
+    "reviewer": "animation-supervisor"
+  },
   "cg-director": {
     "skill": "skills/anime-cg-director/SKILL.md",
     "duties": "Design or inspect permitted technical animation support: layer hierarchy, pivots, rigid props, camera, occlusion, rig constraints and render determinism. Keep water deformation inside water masks and independent clapper motion separate from bell geometry. Prefer bounded reproducible tests; do not replace required acting with planar image motion.",
     "reviewer": "animation-supervisor"
   },
+  "character-rigger": {
+    "skill": "skills/anime-character-rigger/SKILL.md",
+    "duties": "Build bounded layer hierarchies, pivots, constraints, deformation zones, swap drawings and pose tests from approved models. Document safe ranges and require replacement drawings beyond them; do not substitute rubber-sheet rigging for substantial acting or view changes.",
+    "reviewer": "cg-director"
+  },
   "art-director": {
     "skill": "skills/anime-art-director/SKILL.md",
     "duties": "Derive environments and layout from approved visual language and scene lighting. Specify perspective, depth, occlusion, clean plates, textures and paint treatment. Preserve script context, including moonless BEFORE; do not impose a generic sunset or invent incidental lettering.",
     "reviewer": "director"
+  },
+  "background-painter": {
+    "skill": "skills/anime-background-painter/SKILL.md",
+    "duties": "Paint registered foreground, midground, background, occlusion and clean-plate layers from approved layouts in Luis M. Minier's canonical ink, crosshatch and painterly-color language. Preserve scene-specific lighting and do not invent incidental lettering.",
+    "reviewer": "art-director"
+  },
+  "prop-designer": {
+    "skill": "skills/anime-prop-designer/SKILL.md",
+    "duties": "Lock dimensions, silhouette, construction, materials, articulation, grips, contacts and required views for canoes, paddles, drums, bells and assigned objects. Preserve culturally specific design and keep rigid geometry stable across shots.",
+    "reviewer": "art-director"
   },
   "color-designer": {
     "skill": "skills/anime-color-designer/SKILL.md",
@@ -69,6 +109,21 @@
     "duties": "Create or select authorized effects for contacts, water, wakes, bells, atmosphere and scripted supernatural events. Tie events to frame/sample positions and keep stems separable. Record source/license provenance and label placeholders. Do not add unrequested music or download unapproved packs.",
     "reviewer": "sound-director"
   },
+  "music-composer": {
+    "skill": "skills/anime-music-composer/SKILL.md",
+    "duties": "Compose original or rights-cleared music synchronized to approved dramatic beats, transitions and silence. Deliver separable stems, cue timing and provenance; support the Caribbean/Bronx identity without generic trailer scoring or cultural pastiche.",
+    "reviewer": "sound-director"
+  },
+  "dialogue-editor": {
+    "skill": "skills/anime-dialogue-editor/SKILL.md",
+    "duties": "Select authorized takes, build transparent edits, preserve performance, clean documented noise and synchronize exact approved dialogue to frames. Track processing, pickups, room tone and consent; never fabricate or clone missing speech.",
+    "reviewer": "sound-director"
+  },
+  "mix-engineer": {
+    "skill": "skills/anime-mix-engineer/SKILL.md",
+    "duties": "Align and balance approved dialogue, effects, Foley, ambience and music into review and delivery mixes with separable stems, measured loudness and preserved dynamics. Do not hide missing assets, sync failures or absent recordings with processing.",
+    "reviewer": "sound-director"
+  },
   "compositor": {
     "skill": "skills/anime-compositor/SKILL.md",
     "duties": "Assemble only approved registered cels, backgrounds, masks, effects and camera data. Respect exposure mappings, draw order, occlusion and rigid geometry. Check moving mattes, seams and independent wakes. Missing drawings block shot completion; holds and camera moves cannot substitute for required action.",
@@ -78,6 +133,16 @@
     "skill": "skills/anime-editor/SKILL.md",
     "duties": "Assemble approved shots in canonical order, respecting frame counts and authored cut rhythm. Synchronize supplied dialogue and effects; keep temporary audio clearly marked. Verify duration, transitions, aspect ratio and export settings without inventing missing coverage.",
     "reviewer": "episode-director"
+  },
+  "pipeline-td": {
+    "skill": "skills/anime-pipeline-td/SKILL.md",
+    "duties": "Define and verify deterministic naming, paths, frame numbering, resolution, fps, color, alpha, codecs, audio formats, manifests, hashes and reproducible build contracts. Diagnose interoperability without taking over art approval, scheduling or asset lifecycle decisions.",
+    "reviewer": "quality-review"
+  },
+  "asset-manager": {
+    "skill": "skills/anime-asset-manager/SKILL.md",
+    "duties": "Maintain stable asset IDs, versions, hashes, provenance, rights, dependencies, shot usage, review states and supersession links. Detect duplicates and stale references non-destructively; do not merge, delete, creatively approve or edit production assets.",
+    "reviewer": "producer"
   },
   "quality-review": {
     "skill": "skills/anime-quality-review/SKILL.md",

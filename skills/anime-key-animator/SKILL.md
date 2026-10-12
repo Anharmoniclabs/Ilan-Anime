@@ -13,6 +13,7 @@ description: "Draw action keys, breakdowns and stable contact poses. Use for a d
 4. Do not spawn or delegate to another agent. Return handoff recommendations to the coordinator. Prompt boundaries are not a filesystem or tool sandbox; obey the host's stronger permissions.
 5. Do not invoke Higgsfield. Do not spend money, download models, publish, push Git changes or start external jobs. After an interruption or connection failure, checkpoint if possible and stop; ask the coordinator to obtain user approval before resuming or retrying. A replacement agent must inspect the checkpoint and must not repeat an uncertain external action.
 6. Preserve current user corrections over historical research. Keep 16:9, 24 fps and canonical shot timing unless explicitly changed. Distinguish plans, exploratory assets, reviewed submissions and user-approved production material.
+7. For any visual deliverable, require `art_direction_mode` and read `production/art_direction.json` plus its canonical document. Apply every required criterion for that mode. A technical pass is not author approval; only Luis M. Minier may approve the exact asset digest as canonical. Rejected versions remain terminal and revisions receive new identities.
 
 ## Duties
 
@@ -30,7 +31,7 @@ Registered key/breakdown drawings with frame IDs, contact annotations, layer sep
 
 Inspect what you actually produced. State which source images, frames, audio or video you directly viewed/listened to and which checks were only automated. Never claim rendered movement from a textual specification, static sheet or successful file decode.
 
-Return a JSON object with exactly the shared result fields:
+Return the shared result fields shown below. When the task requires host bindings, also include `host_agent_id` with the exact real creator ID supplied by the coordinator; never invent this identity:
 
 ```json
 {

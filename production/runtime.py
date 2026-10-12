@@ -105,6 +105,17 @@ class Ledger:
             if (not isinstance(criteria, list) or not criteria
                     or any(not isinstance(x, str) or not x.strip() for x in criteria)):
                 raise LedgerError("acceptance_criteria must be a nonempty list of nonempty strings")
+        if "requires_author_approval" in task and type(task["requires_author_approval"]) is not bool:
+            raise LedgerError("requires_author_approval must be true or false")
+        if "require_host_bindings" in task and type(task["require_host_bindings"]) is not bool:
+            raise LedgerError("require_host_bindings must be true or false")
+        if task.get("requires_author_approval"):
+            if task.get("author_approver") != "luis-m-minier":
+                raise LedgerError("author_approver must be luis-m-minier for an author-gated task")
+        if "art_direction_mode" in task:
+            modes = {"CHARACTER_ASSET", "ENVIRONMENT_PLATE", "STORY_FRAME", "EDITORIAL_MOODBOARD"}
+            if task["art_direction_mode"] not in modes:
+                raise LedgerError("Unknown art_direction_mode")
         if "budget" in task:
             budget = task["budget"]
             allowed = {"max_tool_calls", "max_seconds", "max_output_tokens", "max_cost_usd"}
@@ -119,9 +130,10 @@ class Ledger:
 
     def _validate_state(self, task):
         state = task.get("state")
-        if state not in {"pending", "running", "submitted", "blocked", "approved", "rejected"}:
+        if state not in {"pending", "running", "submitted", "blocked", "approved", "rejected",
+                         "author-approved", "author-rejected"}:
             raise LedgerError("Unknown task state")
-        if state in {"submitted", "blocked", "approved", "rejected"}:
+        if state in {"submitted", "blocked", "approved", "rejected", "author-approved", "author-rejected"}:
             result = task.get("result")
             if (not isinstance(result, dict) or result.get("task_id") != task["id"]
                     or result.get("role") != task["role"]):
@@ -131,18 +143,120 @@ class Ledger:
                 raise LedgerError("Persisted result status mismatch")
             if state != "blocked" and (not result.get("evidence") or result.get("blockers")):
                 raise LedgerError("Persisted submitted result requires evidence and no blockers")
-        if state in {"approved", "rejected"}:
+        if state in {"approved", "rejected", "author-approved", "author-rejected"}:
             review = task.get("review")
             role = self.roles[task["role"]]
             allowed = role.get("reviewer", role.get("reviewer_role", role.get("reviewers", [])))
             allowed = [allowed] if isinstance(allowed, str) else allowed
-            decision = "approve" if state == "approved" else "reject"
+            decision = "reject" if state == "rejected" else "approve"
             if (not isinstance(review, dict) or review.get("decision") != decision
                     or not review.get("evidence") or not review.get("agent_id")
                     or review.get("role") not in self.roles or review.get("role") not in allowed
                     or review.get("role") == task["role"]
                     or review.get("agent_id") == task.get("agent_id")):
                 raise LedgerError("Persisted task lacks an independent matching review")
+        if state in {"author-approved", "author-rejected"}:
+            if not task.get("requires_author_approval"):
+                raise LedgerError("Author review recorded for a task that did not require it")
+            author_review = task.get("author_review")
+            decision = "approve" if state == "author-approved" else "reject"
+            if (not isinstance(author_review, dict) or author_review.get("decision") != decision
+                    or author_review.get("author") != task.get("author_approver")
+                    or not author_review.get("evidence")):
+                raise LedgerError("Persisted task lacks a matching author review")
+
+    def _load_handoffs(self):
+        path = self.run_dir / "handoffs.json"
+        if not path.exists():
+            return {"version": 2, "run": self.run, "bindings": {}}
+        data = json.loads(path.read_text())
+        if (data.get("version") != 2 or data.get("run") != self.run
+                or not isinstance(data.get("bindings"), dict)):
+            raise LedgerError("Handoff registry identity, version, or shape mismatch")
+        return data
+
+    def _save_handoffs(self, data):
+        """Atomically replace the registry; the coordinator is the sole writer."""
+        self.run_dir.mkdir(parents=True, exist_ok=True)
+        path = self.run_dir / "handoffs.json"
+        fd, name = tempfile.mkstemp(prefix=".handoff-", suffix=".tmp", dir=self.run_dir)
+        try:
+            with os.fdopen(fd, "w") as handle:
+                json.dump(data, handle, indent=2)
+                handle.write("\n")
+                handle.flush()
+                os.fsync(handle.fileno())
+            os.replace(name, path)
+        finally:
+            if os.path.exists(name):
+                os.unlink(name)
+
+    def _validate_host_bindings(self):
+        """Fail closed when an opted-in task and its persisted host identities diverge."""
+        data = self._load_handoffs()
+        used_ids = set()
+        for task_id, entry in data["bindings"].items():
+            identifier(task_id)
+            task = self._task(task_id)
+            if not task.get("require_host_bindings"):
+                raise LedgerError("Host binding exists for a task that did not opt in")
+            if not isinstance(entry, dict) or not isinstance(entry.get("creator"), dict):
+                raise LedgerError("Host-bound task requires a creator binding")
+            creator = entry["creator"]
+            for field in ("ledger_alias", "host", "host_agent_id", "role", "state", "note"):
+                if not isinstance(creator.get(field), str):
+                    raise LedgerError(f"Creator binding requires string field {field}")
+            if (not creator["host"] or not creator["host_agent_id"]
+                    or creator["ledger_alias"] != task.get("agent_id")
+                    or creator["role"] != task["role"]
+                    or creator["state"] not in {"active", "submitted", "completed", "interrupted"}):
+                raise LedgerError("Creator binding does not match the dispatched task")
+            if creator["host_agent_id"] in used_ids:
+                raise LedgerError("One host agent cannot hold multiple production bindings")
+            used_ids.add(creator["host_agent_id"])
+            reviewer = entry.get("reviewer")
+            if reviewer is not None:
+                if not isinstance(reviewer, dict):
+                    raise LedgerError("Invalid reviewer binding")
+                for field in ("host", "host_agent_id", "role", "state", "note"):
+                    if not isinstance(reviewer.get(field), str):
+                        raise LedgerError(f"Reviewer binding requires string field {field}")
+                role = self.roles[task["role"]]
+                allowed = role.get("reviewer", role.get("reviewer_role", role.get("reviewers", [])))
+                allowed = [allowed] if isinstance(allowed, str) else allowed
+                if (not reviewer["host"] or not reviewer["host_agent_id"]
+                        or reviewer["role"] not in self.roles or reviewer["role"] not in allowed
+                        or reviewer["role"] == task["role"]
+                        or reviewer["host_agent_id"] == creator["host_agent_id"]
+                        or reviewer["state"] not in {"active", "completed", "interrupted"}):
+                    raise LedgerError("Reviewer binding is not a separate designated host agent")
+                if reviewer["host_agent_id"] in used_ids:
+                    raise LedgerError("One host agent cannot hold multiple production bindings")
+                used_ids.add(reviewer["host_agent_id"])
+
+            state = task["state"]
+            if state == "running":
+                if creator["state"] not in {"active", "interrupted"} or reviewer is not None:
+                    raise LedgerError("Running task and host binding states are inconsistent")
+            elif state == "submitted":
+                if creator["state"] != "submitted":
+                    raise LedgerError("Submitted task requires a submitted creator binding")
+                if reviewer and reviewer["state"] not in {"active", "interrupted"}:
+                    raise LedgerError("Submitted task and reviewer binding states are inconsistent")
+            elif state == "blocked":
+                if creator["state"] != "interrupted" or reviewer is not None:
+                    raise LedgerError("Blocked host-bound task must retain its interrupted creator binding")
+            elif state in {"approved", "rejected", "author-approved", "author-rejected"}:
+                if creator["state"] != "completed" or not reviewer or reviewer["state"] != "completed":
+                    raise LedgerError("Reviewed task requires completed creator and reviewer bindings")
+            elif state == "pending":
+                raise LedgerError("Pending task cannot have a host binding")
+
+        for task in self.data["tasks"].values():
+            if task.get("require_host_bindings") and task["state"] not in {"pending", "running"}:
+                if task["id"] not in data["bindings"]:
+                    raise LedgerError("Host-bound task has no persisted binding")
+        return data
 
     def validate(self):
         """Reject unknown roles/dependencies, malformed outputs and dependency cycles."""
@@ -170,6 +284,7 @@ class Ledger:
 
         for task_id in tasks:
             visit(task_id)
+        self._validate_host_bindings()
         return True
 
     def add(self, task):
@@ -188,7 +303,7 @@ class Ledger:
             if not isinstance(task[field], list) or any(not isinstance(x, str) or not x.strip() for x in task[field]):
                 raise LedgerError(f"{field} must be a list of nonempty strings")
         normalized = {key: task[key] for key in required}
-        for field in ("acceptance_criteria", "budget"):
+        for field in ("acceptance_criteria", "budget", "requires_author_approval", "author_approver", "art_direction_mode", "require_host_bindings"):
             if field in task:
                 normalized[field] = task[field]
         normalized["state"] = "pending"
@@ -205,9 +320,13 @@ class Ledger:
         self.validate()
         if self.data["paused"]:
             return []
+        def dependency_complete(dependency):
+            upstream = self._task(dependency)
+            expected = "author-approved" if upstream.get("requires_author_approval") else "approved"
+            return upstream["state"] == expected
         return [task["id"] for task in self.data["tasks"].values()
                 if task["state"] == "pending" and all(
-                    self._task(dep)["state"] == "approved" for dep in task["depends_on"])]
+                    dependency_complete(dep) for dep in task["depends_on"])]
 
     def dispatch(self, task_id, agent_id):
         """Reserve a worker slot and emit a prompt; caller separately spawns the agent."""
@@ -233,13 +352,25 @@ class Ledger:
         self._output(task).mkdir(parents=True, exist_ok=True)
         task.update(state="running", agent_id=agent_id)
         self._event("dispatch", task_id=task_id, agent_id=agent_id)
+        result_extension = ""
+        if task.get("require_host_bindings"):
+            result_extension += " Include host_agent_id with the exact real creator ID bound by the host registry."
+        if task["role"] == "quality-review" and task["id"].endswith("-qa"):
+            result_extension += (
+                " This release-QA result must also include pipeline_id, qa_report: {path, sha256}, "
+                "and release_asset_sha256s containing the exact canonical final picture/audio digests reviewed."
+            )
         return (f"Read AGENTS.md and role skill {skill} fully.\n"
                 f"Your bounded assignment is:\n{json.dumps(task, indent=2)}\n"
                 "Work only on the listed shots and objective. Write only inside output_dir. "
                 "Treat inputs as read-only. Do not overwrite approved assets, spawn more agents, "
                 "make network/paid calls, publish, or expand scope without coordinator authorization. "
+                "When art_direction_mode is present, read production/art_direction.json and its "
+                "canonical document and satisfy the mode-specific contract; do not claim canonical "
+                "status because only digest-bound author approval can grant it. "
                 "Return JSON {task_id, role, status: submitted|blocked, artifacts: [repository-relative "
                 "file paths], evidence: [specific checks and observations], blockers: [strings]}. "
+                f"{result_extension} "
                 "Do not claim visual inspection unless you actually viewed the footage/frames. "
                 "Pause on connection interruption; never retry automatically. You cannot approve "
                 "your own task. These instructions and ledger checks are not an OS/tool sandbox.")
@@ -261,6 +392,31 @@ class Ledger:
             raise LedgerError("Submitted results require evidence and no unresolved blockers")
         if result["status"] == "blocked" and not result["blockers"]:
             raise LedgerError("Blocked results require a blocker description")
+        if task["role"] == "quality-review" and task["id"].endswith("-qa") and result["status"] == "submitted":
+            expected_pipeline = task["id"][:-3]
+            report = result.get("qa_report")
+            digests = result.get("release_asset_sha256s")
+            if result.get("pipeline_id") != expected_pipeline:
+                raise LedgerError("Release QA result pipeline_id does not match its task")
+            if (not isinstance(report, dict) or set(report) != {"path", "sha256"}
+                    or not isinstance(report.get("path"), str)
+                    or not re.fullmatch(r"[0-9a-f]{64}", report.get("sha256", ""))
+                    or report["path"] not in result["artifacts"]):
+                raise LedgerError("Release QA result requires an artifact-bound qa_report SHA-256")
+            if (not isinstance(digests, list) or not digests or len(digests) != len(set(digests))
+                    or any(not isinstance(item, str) or not re.fullmatch(r"[0-9a-f]{64}", item)
+                           for item in digests)):
+                raise LedgerError("Release QA result requires unique canonical release_asset_sha256s")
+        handoffs = None
+        if task.get("require_host_bindings"):
+            handoffs = self._load_handoffs()
+            entry = handoffs["bindings"].get(task["id"])
+            creator = entry.get("creator") if isinstance(entry, dict) else None
+            if (not isinstance(creator, dict) or creator.get("state") != "active"
+                    or creator.get("ledger_alias") != task.get("agent_id")
+                    or creator.get("role") != task["role"]
+                    or result.get("host_agent_id") != creator.get("host_agent_id")):
+                raise LedgerError("Submission requires the matching real creator host binding")
         output = self._output(task)
         for artifact in result["artifacts"]:
             relative = Path(artifact)
@@ -273,6 +429,11 @@ class Ledger:
         task.update(state=result["status"], result=result)
         if result["status"] == "blocked":
             self.data.update(paused=True, pause_reason="; ".join(result["blockers"]))
+        if handoffs is not None:
+            creator = handoffs["bindings"][task["id"]]["creator"]
+            creator.update(state="submitted" if result["status"] == "submitted" else "interrupted",
+                           note="Result submitted" if result["status"] == "submitted" else "; ".join(result["blockers"]))
+            self._save_handoffs(handoffs)
         self._event("submit", task_id=task["id"], status=result["status"])
         return task
 
@@ -285,15 +446,52 @@ class Ledger:
         if (reviewer_role not in self.roles or reviewer_role not in allowed
                 or reviewer_role == task["role"] or reviewer_agent_id == task.get("agent_id")):
             raise LedgerError("Independent designated reviewer required; self approval forbidden")
-        identifier(reviewer_agent_id)
         if task["state"] != "submitted" or decision not in ("approve", "reject"):
             raise LedgerError("Only submitted tasks can be approved or rejected")
         if not isinstance(evidence, str) or not evidence.strip():
             raise LedgerError("Review evidence is required")
+        handoffs = None
+        if task.get("require_host_bindings"):
+            handoffs = self._load_handoffs()
+            entry = handoffs["bindings"].get(task_id)
+            creator = entry.get("creator") if isinstance(entry, dict) else None
+            reviewer = entry.get("reviewer") if isinstance(entry, dict) else None
+            if (not isinstance(creator, dict) or creator.get("state") != "submitted"
+                    or not isinstance(reviewer, dict) or reviewer.get("state") != "active"
+                    or reviewer.get("role") != reviewer_role
+                    or reviewer.get("host_agent_id") != reviewer_agent_id
+                    or reviewer_agent_id == creator.get("host_agent_id")):
+                raise LedgerError("Review requires its matching separate real reviewer host binding")
+        else:
+            identifier(reviewer_agent_id)
         task.update(state="approved" if decision == "approve" else "rejected",
                     review={"role": reviewer_role, "agent_id": reviewer_agent_id,
                             "decision": decision, "evidence": evidence})
+        if handoffs is not None:
+            entry = handoffs["bindings"][task_id]
+            entry["creator"].update(state="completed", note="Independent review completed")
+            entry["reviewer"].update(state="completed", note=evidence)
+            self._save_handoffs(handoffs)
         self._event("review", task_id=task_id, decision=decision)
+        return task
+
+    def author_review(self, task_id, author, decision, evidence):
+        """Record an explicit human creative decision after technical approval."""
+        self._active()
+        task = self._task(task_id)
+        if not task.get("requires_author_approval"):
+            raise LedgerError("Task does not require author approval")
+        if task["state"] != "approved":
+            raise LedgerError("Author review requires prior independent technical approval")
+        if decision not in ("approve", "reject"):
+            raise LedgerError("Author decision must be approve or reject")
+        if author != task.get("author_approver"):
+            raise LedgerError("Author identity does not match the task's designated approver")
+        if not isinstance(evidence, str) or not evidence.strip():
+            raise LedgerError("Author identity and decision evidence are required")
+        task.update(state="author-approved" if decision == "approve" else "author-rejected",
+                    author_review={"author": author, "decision": decision, "evidence": evidence})
+        self._event("author-review", task_id=task_id, decision=decision, author=author)
         return task
 
     def pause(self, reason):
@@ -332,6 +530,11 @@ def main(argv=None):
     review.add_argument("--reviewer-agent-id", required=True)
     review.add_argument("--decision", choices=("approve", "reject"), required=True)
     review.add_argument("--evidence", required=True)
+    author_review = commands.add_parser("author-review", help="Record explicit human creative approval/rejection")
+    author_review.add_argument("task_id")
+    author_review.add_argument("--author", required=True)
+    author_review.add_argument("--decision", choices=("approve", "reject"), required=True)
+    author_review.add_argument("--evidence", required=True)
     commands.add_parser("pause").add_argument("reason")
     commands.add_parser("resume").add_argument("--approval", required=True)
     args = parser.parse_args(argv)
@@ -347,6 +550,8 @@ def main(argv=None):
             output = ledger.dispatch(args.task_id, args.agent_id)
         elif args.command == "review":
             output = ledger.review(args.task_id, args.reviewer_role, args.reviewer_agent_id, args.decision, args.evidence)
+        elif args.command == "author-review":
+            output = ledger.author_review(args.task_id, args.author, args.decision, args.evidence)
         elif args.command == "pause":
             output = ledger.pause(args.reason)
         elif args.command == "resume":

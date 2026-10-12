@@ -10,6 +10,12 @@ Animation production workspace for **Luis M. Minier's Heralds of the Cemí**. Th
 |---|---|
 | Current decisions and unfinished work | [Production status](docs/STATUS.md) |
 | Bounded multi-agent production and role skills | [Production team](production/README.md) |
+| Cemí 10/10 release gates | [Studio standard](docs/STUDIO_STANDARD.md) |
+| Machine-checkable art contract | [Art acceptance](docs/ART_ACCEPTANCE.md) |
+| Immutable asset versions and approvals | [Asset pipeline](docs/ASSET_PIPELINE.md) |
+| Complete drawing-to-final shot DAG | [Shot pipeline](docs/SHOT_PIPELINE.md) |
+| Real host-agent bindings and interruption recovery | [Host handoff](docs/HOST_HANDOFF.md) |
+| Local production dashboard | [Dashboard](docs/DASHBOARD.md) |
 | Full production workflow | [Episode workflow](projects/cemi_episode_01/README.md) |
 | Research and decisions from the beginning | [Research history](research/HISTORY.md) |
 | Author-derived art direction | [Art direction](research/earlier_cemi_pipeline/docs/ART_DIRECTION.md) |
