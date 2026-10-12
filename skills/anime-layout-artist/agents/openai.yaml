@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Layout Artist"
-  short_description: "Build final shot staging and perspective layouts"
-  default_prompt: "Use $anime-layout-artist to complete the assigned bounded production task."

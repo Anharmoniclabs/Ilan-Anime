@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Voice Performer"
-  short_description: "Deliver authorized dialogue takes or recording directions"
-  default_prompt: "Use $anime-voice-performer to complete the assigned bounded production task."

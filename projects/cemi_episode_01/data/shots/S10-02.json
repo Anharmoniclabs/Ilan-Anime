@@ -5,11 +5,46 @@
     720
   ],
   "frames": 216,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "Quick intro vignettes: nine-year-old Manny hits a city trash can with two pencils so clean a grown man stops to listen; Manny at six-three doing a salsa step like a refrigerator; “allergic to emotions.”",
-  "layers": [],
+  "camera_note": "BIO CARDS",
+  "drawing_rate": 2,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S10-02",
+        "header": "09:49:00 → 09:58:00 (216f) · BIO CARDS · rate 2s",
+        "action": "Quick intro vignettes: nine-year-old Manny hits a city trash can with two pencils so clean a grown man stops to listen; Manny at six-three doing a salsa step like a refrigerator; “allergic to emotions.”\nSOUND: Pencil-on-trash-can groove, tight."
+      }
+    },
+    {
+      "name": "speed_lines",
+      "rate": 2,
+      "screen_space": true,
+      "generator": {
+        "type": "speed_lines",
+        "direction": "radial",
+        "seed": "S10-02"
+      }
+    }
+  ],
   "camera": [],
+  "post": {},
   "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "SMEAR_CEL",
+      "VIGNETTE_CARDS"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

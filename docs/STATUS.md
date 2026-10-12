@@ -1,5 +1,15 @@
 # Production status — 12 October 2026
 
+## Runtime added 12 October 2026 (studio v2)
+
+- `python -m studio`: Codex agent runner (separate worker and reviewer sessions, revisions, author gates, pause-on-interrupt), render queue with checkpoints and assembly, automated QA flags with repair tasks, layer split/matte/registration, motion specs with contact locks, dialogue worklist, mouth exposures, loudness mix, and opt-in paid image/voice generation (off, $0 caps).
+- Engine v2 replaces the v1 compositor: pivot-correct scale/rotation without clipping, parent transforms, multiplane parallax, blend modes, PRESS as a style state, 10 FX generators and the film post stack. BT.709-tagged review files and lossless FFV1 masters.
+- All 128 shot specs are now runnable animatic specs (keyframe holds under scripted camera moves, slates for the 64 shots without art, FX tokens). The animatic locks timing; it is **not** animation.
+- Skills moved to `.agents/skills/` (Codex discovery) and are generated from `roles.json`; per-skill boilerplate now lives once in `production/WORKER_CONTRACT.md`.
+- Registration of the Beheto atlas against the drum body: poses 3 and 4 align; 2, 5, 6, 7 and 8 need redraws (drum geometry differs, not just position).
+
+Still blocked on Luis: the three S01-11/12 timing conflicts, adding the original pencil portraits (tier-1 identity source), deciding which keyframes are approved, and any spend.
+
 ## Available
 
 - Local ComfyUI image-generation adapter with optional LoRA/ControlNet, loopback-only transport, paid/custom-node-disabled launcher, durable manual recovery and exploratory asset registration. HTTP contract tested with a synthetic server; no real GPU/model generation has run. See [setup and limits](COMFY_LOCAL.md).

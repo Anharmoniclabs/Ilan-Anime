@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anime Key Animator"
+  short_description: "Create approved-shot action keys and decisive breakdowns with stable skull, hull and pr..."
+  default_prompt: "Use $anime-key-animator for the dispatched ledger task."
+policy:
+  allow_implicit_invocation: false

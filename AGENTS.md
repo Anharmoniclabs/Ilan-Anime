@@ -1,19 +1,29 @@
-# AnimeStudio project guidance
+# AnimeStudio project guidance (Codex)
 
-For multi-agent production, read `skills/anime-studio/SKILL.md` and use roles in `production/roles.json`. Spawn real workers only when the host provides delegation; never represent role-play as agents. On connection interruption, pause and ask before resuming. No automatic retries or provider switching.
+This repo produces **Heralds of the Cemí, Episode 1** by Luis M. Minier. User instructions in the active conversation take precedence over this file.
 
-Every visual task must declare one mode from `production/art_direction.json`, read the canonical art direction, and preserve Luis M. Minier's exact drawing-derived identity and finish. Independent technical review and Luis's approval of the exact asset digest are separate gates. Rejected versions never become upstream production material.
+## How work runs here
 
-Use the asset registry for stable IDs, hashes, provenance, continuity, status and final-use links. Use the complete-shot pipeline for production dependencies; do not skip layout, cleanup, paint, effects, sound, QA or author gates because an output file exists. Architecture tests do not establish episode or visual readiness.
+- Coordinator: use the `$anime-studio` skill (`.agents/skills/anime-studio/SKILL.md`). Production runs go through `python -m studio` (see `docs/STUDIO_RUNTIME.md`).
+- Workers and reviewers: the runner starts each as its own `codex exec` session with a role skill (`$anime-<role>`) and the shared `production/WORKER_CONTRACT.md`. Role skills are generated from `production/roles.json` by `python production/build_skills.py`; edit roles.json, not the generated files.
+- One coordinator writes a run's ledger. On interruption the runner pauses; ask Luis before resuming. No automatic retries, provider switching or scheduled reruns.
+- Never role-play several agents in one response. If Codex delegation isn't available, say so.
 
-Read `README.md`, `docs/STATUS.md`, and `research/animation_audit/REPORT.md` before changing animation. User instructions in the active conversation take precedence.
+## Before changing animation
 
-- Preserve the source artwork and rejected experiments; write new iterations separately.
-- The current mesh videos are rejected, not a production baseline to expand blindly.
-- Do not claim finished animation from still keyframes, camera pans, warped paintings, unregistered sprite atlases, or technical test results.
-- Keep faces, props, hulls and contact points stable. Use replacement drawings for substantial actions and view the resulting frame sequences.
-- Follow original shot IDs and script timing. The user requested 16:9 despite the historical script's 4:3 format.
+Read `README.md`, `docs/STATUS.md` and `research/animation_audit/REPORT.md`.
+
+- Preserve source artwork and rejected experiments; write new iterations separately.
+- The mesh videos are rejected, not a baseline to expand.
+- Do not claim finished animation from still keyframes, camera pans, warped paintings, unregistered sprite atlases, technical tests or the animatic.
+- Keep faces, props, hulls and contact points stable. Use registered replacement drawings for substantial actions (`studio layers register`, `studio motion check`) and look at the frames.
+- Follow original shot IDs and script timing. Output is 16:9 at 24 fps (Luis's request; the historical script says 4:3).
 - Track partial coverage, missing assets, unrecorded voices and rejected work explicitly.
-- Do not start paid generation, cloud GPU training, or model downloads merely because archived research describes them.
-- Source imports under `research/` contain older proposals. Current author corrections and the current episode script supersede conflicting historical staging.
-- Never commit credentials, Library transport helpers, signed URLs, or unrelated personal context.
+- Source imports under `research/` hold older proposals; current author corrections and the current script win.
+
+## Money and approval
+
+- Paid generation (images, voices) only via `python -m studio generate`, only when `production/policy.json` enables it, the role has the right and the task budget allows. Agents never edit policy.json, raise caps or run `python -m studio approve`.
+- Generated work is `exploratory` until an independent reviewer approves it technically **and** Luis approves the exact file.
+- No voice cloning or imitation of real people; AI voices are disclosed in the credits.
+- Never commit credentials, API keys, signed URLs or unrelated personal context.

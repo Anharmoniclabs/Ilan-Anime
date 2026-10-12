@@ -5,11 +5,39 @@
     720
   ],
   "frames": 384,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "A kid, fifteen or sixteen, shell-toe Adidas, a milk crate on his hip, puts down two copies of the same record. “Dos iguales? You got two turntables?” “Todavía no.” He pays in quarters and leaves with the crate. The counterman shakes his head, smiling, as if told a good lie.",
-  "layers": [],
+  "camera_note": "LOW ANGLE counter",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S12-06",
+        "header": "12:15:00 → 12:31:00 (384f) · LOW ANGLE counter · rate 3s",
+        "action": "A kid, fifteen or sixteen, shell-toe Adidas, a milk crate on his hip, puts down two copies of the same record. “Dos iguales? You got two turntables?” “Todavía no.” He pays in quarters and leaves with the crate. The counterman shakes his head, smiling, as if told a good lie.\nSOUND: Quarters on the counter, spinning."
+      }
+    }
+  ],
   "camera": [],
+  "post": {},
   "audio": null,
+  "notes": {
+    "needs_separated_layers_fx": [
+      "MOUTH_FLAP"
+    ],
+    "asset_slot_fx": [
+      "QUARTERS_SPIN_CEL",
+      "SHOE_INSERT"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

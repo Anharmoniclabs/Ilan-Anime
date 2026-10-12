@@ -5,11 +5,36 @@
     720
   ],
   "frames": 144,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "Don Chino's bodega: an awning the color of orange soda left too long in a window; a speaker over the door he had never looked up at; two guys on milk crates at a domino table, slapping tiles in the mood to argue.",
-  "layers": [],
+  "camera_note": "WS · bodega",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S15-02",
+        "header": "17:40:00 → 17:46:00 (144f) · WS · bodega · rate 3s",
+        "action": "Don Chino's bodega: an awning the color of orange soda left too long in a window; a speaker over the door he had never looked up at; two guys on milk crates at a domino table, slapping tiles in the mood to argue.\nSOUND: Merengue, bright: accordion, güira, horns."
+      }
+    }
+  ],
   "camera": [],
+  "post": {},
   "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "AWNING_ORANGE",
+      "SPEAKER_INSERT"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

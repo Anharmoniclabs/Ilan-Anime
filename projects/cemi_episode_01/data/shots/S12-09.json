@@ -5,11 +5,39 @@
     720
   ],
   "frames": 432,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "“You went somewhere.” Low, just for him; his other palm is still flat on the case and the room comes back together around it. “That wasn't a tired thing.” “It was a tired thing.” “JC.” “It was a tired thing, Manny.” He wipes the milk: his skin is pink and fine. He dumps the latte and starts another, 'performing steady'. “I didn't eat. I told my mom I'd eaten. I didn't eat.” Manny takes his hand off slowly, watches from the side of his eye.",
-  "layers": [],
+  "camera_note": "OTS dialogue",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S12-09",
+        "header": "12:49:00 → 13:07:00 (432f) · OTS dialogue · rate 3s",
+        "action": "“You went somewhere.” Low, just for him; his other palm is still flat on the case and the room comes back together around it. “That wasn't a tired thing.” “It was a tired thing.” “JC.” “It was a tired thing, Manny.” He wipes the milk: his skin is pink and fine. He dumps the latte and starts another, 'performing steady'. “I didn't eat. I told my mom I'd eaten. I didn't eat.” Manny takes his hand off slowly, watches from the side of his eye.\nSOUND: Café noises braiding back together."
+      }
+    }
+  ],
   "camera": [],
+  "post": {},
   "audio": null,
+  "notes": {
+    "needs_separated_layers_fx": [
+      "MOUTH_FLAP"
+    ],
+    "asset_slot_fx": [
+      "HOLD",
+      "SIX_NOISES_REKNIT"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

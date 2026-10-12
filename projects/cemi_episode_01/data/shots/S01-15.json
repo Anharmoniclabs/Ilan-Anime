@@ -5,18 +5,39 @@
     720
   ],
   "frames": 96,
-  "status": "unrigged_reference",
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "Black. The clap of the book rings into a keyboard clack (match to S03).",
+  "camera_note": "FIX · black",
+  "drawing_rate": 3,
   "layers": [
     {
-      "name": "reference_only",
+      "name": "plate_0",
       "source": "assets/keyframes/S01-15.png",
-      "fit_canvas": true,
-      "rate": 3
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 96,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
     }
   ],
   "camera": [],
+  "post": {
+    "grade": "before"
+  },
   "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "MATCH_SOUND"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

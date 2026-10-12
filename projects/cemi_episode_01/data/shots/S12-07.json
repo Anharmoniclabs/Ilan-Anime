@@ -5,11 +5,57 @@
     720
   ],
   "frames": 240,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "At the far end, where the sun doesn't reach, a thin man in a brown suit with a small notebook. He bought nothing. He writes quickly, one mark at a time. His eyes follow the kid to the door, then the street, 'as if the street were part of the sale'. He ticks something. Then he looks up past the register, at the exact spot in the air where JC stands.",
-  "layers": [],
-  "camera": [],
+  "camera_note": "WHIP-PAN · MS",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S12-07",
+        "header": "12:31:00 → 12:41:00 (240f) · WHIP-PAN · MS · rate 3s",
+        "action": "At the far end, where the sun doesn't reach, a thin man in a brown suit with a small notebook. He bought nothing. He writes quickly, one mark at a time. His eyes follow the kid to the door, then the street, 'as if the street were part of the sale'. He ticks something. Then he looks up past the register, at the exact spot in the air where JC stands.\nSOUND: Pen tick placed forward. At the eye-lock, a cut to silence."
+      }
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "x": 0,
+      "scale": 1.12,
+      "ease": "hold"
+    },
+    {
+      "frame": 233,
+      "x": 0,
+      "scale": 1.12,
+      "ease": "ease_in"
+    },
+    {
+      "frame": 239,
+      "x": -640.0,
+      "scale": 1.12
+    }
+  ],
+  "post": {},
   "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "DOUBLE_EXPOSURE",
+      "FLASH_FRAME"
+    ],
+    "asset_slot_fx": [
+      "WHIP_PAN"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

@@ -5,11 +5,50 @@
     720
   ],
   "frames": 168,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "Lamp buzz expands to full orchestral lamps; tables fill with people made of light. Super: SATURDAY, 1934, judging by the hats. A pan of hats.",
-  "layers": [],
+  "camera_note": "DISSOLVE · ECHO",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S13-09",
+        "header": "14:21:00 → 14:28:00 (168f) · DISSOLVE · ECHO · rate 3s",
+        "action": "Lamp buzz expands to full orchestral lamps; tables fill with people made of light. Super: SATURDAY, 1934, judging by the hats. A pan of hats.\nSOUND: Lamp buzz fades into five languages."
+      }
+    }
+  ],
   "camera": [],
+  "post": {
+    "grade": [
+      {
+        "frame": 0,
+        "grade": "present"
+      },
+      {
+        "frame": 84,
+        "grade": "1934",
+        "blend": 24
+      }
+    ]
+  },
   "audio": null,
+  "notes": {
+    "needs_separated_layers_fx": [
+      "LIGHT_FIGURE"
+    ],
+    "assumptions": [
+      "WIPE_ERA placed at mid-shot over 24f"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

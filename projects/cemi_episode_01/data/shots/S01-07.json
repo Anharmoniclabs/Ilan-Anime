@@ -5,18 +5,43 @@
     720
   ],
   "frames": 168,
-  "status": "unrigged_reference",
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "A second man sits on a stump, ledger open on his knee. He never looks at the canoes. He writes one line, then another under it.",
+  "camera_note": "MS low angle",
+  "drawing_rate": 3,
   "layers": [
     {
-      "name": "reference_only",
+      "name": "plate_0",
       "source": "assets/keyframes/S01-07.png",
-      "fit_canvas": true,
-      "rate": 3
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 168,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
     }
   ],
   "camera": [],
+  "post": {
+    "grade": "before"
+  },
   "audio": null,
+  "notes": {
+    "needs_separated_layers_fx": [
+      "CEL_SHADE"
+    ],
+    "asset_slot_fx": [
+      "FIX_HOLD",
+      "INSERT_CU"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

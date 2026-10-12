@@ -5,18 +5,51 @@
     720
   ],
   "frames": 120,
-  "status": "unrigged_reference",
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "The projector coughs. The cobalt 'JC' test loop breaks into static, which pulls toward the middle of the wall. The plaster surface ripples in concentric rings.",
+  "camera_note": "WS room → CU wall",
+  "drawing_rate": 2,
   "layers": [
     {
-      "name": "reference_only",
+      "name": "plate_0",
       "source": "assets/keyframes/S05-02.png",
-      "fit_canvas": true,
-      "rate": 2
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 120,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
     }
   ],
-  "camera": [],
+  "camera": [
+    {
+      "frame": 0,
+      "scale": 1.0,
+      "ease": "smooth"
+    },
+    {
+      "frame": 119,
+      "scale": 1.08
+    }
+  ],
+  "post": {},
   "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "SHOCKWAVE_RING"
+    ],
+    "asset_slot_fx": [
+      "PLASTER_CRACK",
+      "STATIC_PULL"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

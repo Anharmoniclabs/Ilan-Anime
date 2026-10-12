@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anime Asset Manager"
+  short_description: "Maintain stable asset IDs, versions, hashes, provenance, rights, dependencies, shot usa..."
+  default_prompt: "Use $anime-asset-manager for the dispatched ledger task."
+policy:
+  allow_implicit_invocation: false

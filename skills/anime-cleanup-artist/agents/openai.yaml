@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Cleanup Artist"
-  short_description: "Clean approved animation drawings without drift"
-  default_prompt: "Use $anime-cleanup-artist to complete the assigned bounded production task."

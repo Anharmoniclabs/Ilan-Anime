@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Script Supervisor"
-  short_description: "Guard canon, continuity, dialogue, and timing"
-  default_prompt: "Use $anime-script-supervisor to complete the assigned bounded production task."

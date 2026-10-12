@@ -5,11 +5,48 @@
     720
   ],
   "frames": 144,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "JC thanks him 'like a normal person' and walks toward the train. His heart does something rude: a heartbeat pulse in the frame edges.",
-  "layers": [],
-  "camera": [],
+  "camera_note": "TRACK · walk",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S08-04",
+        "header": "08:42:00 → 08:48:00 (144f) · TRACK · walk · rate 3s",
+        "action": "JC thanks him 'like a normal person' and walks toward the train. His heart does something rude: a heartbeat pulse in the frame edges.\nSOUND: Footsteps; heartbeat low."
+      }
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "x": 64.0,
+      "scale": 1.12,
+      "ease": "smooth"
+    },
+    {
+      "frame": 143,
+      "x": -64.0,
+      "scale": 1.12
+    }
+  ],
+  "post": {},
   "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "HEARTBEAT_PUMP",
+      "PAN_WITH_WALK"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

@@ -5,18 +5,45 @@
     720
   ],
   "frames": 192,
-  "status": "unrigged_reference",
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "Second anomaly: under everything, an 8-second pressed band repeating. He hits DEL; the band returns. He deleted it 'a dozen times as garbage'. A counter of DEL presses ticks up to 12.",
+  "camera_note": "FIX · laptop UI",
+  "drawing_rate": 3,
   "layers": [
     {
-      "name": "reference_only",
+      "name": "plate_0",
       "source": "assets/keyframes/S03-11.png",
-      "fit_canvas": true,
-      "rate": 3
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 192,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
     }
   ],
   "camera": [],
+  "post": {
+    "press": 0.15
+  },
   "audio": null,
+  "notes": {
+    "needs_separated_layers_fx": [
+      "UI_LAPTOP"
+    ],
+    "asset_slot_fx": [
+      "UI_COUNTER"
+    ],
+    "assumptions": [
+      "PRESS limited to UI in script; applied globally in animatic"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

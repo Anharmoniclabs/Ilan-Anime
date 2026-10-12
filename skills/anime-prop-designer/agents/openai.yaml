@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Prop Designer"
-  short_description: "Lock production-ready props and vehicles"
-  default_prompt: "Use $anime-prop-designer to complete the assigned bounded production task."

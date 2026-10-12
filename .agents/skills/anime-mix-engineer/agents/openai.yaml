@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anime Mix Engineer"
+  short_description: "Align and balance approved dialogue, effects, Foley, ambience and music into review and..."
+  default_prompt: "Use $anime-mix-engineer for the dispatched ledger task."
+policy:
+  allow_implicit_invocation: false

@@ -5,11 +5,39 @@
     720
   ],
   "frames": 192,
+  "fps": 24,
   "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
   "action": "He stands on the sidewalk and listens on purpose. Under the song, bar after bar, a flat gray plate: the same spot, eight seconds wide, again.",
-  "layers": [],
+  "camera_note": "CU JC · eyes closed",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S15-03",
+        "header": "17:46:00 → 17:54:00 (192f) · CU JC · eyes closed · rate 3s",
+        "action": "He stands on the sidewalk and listens on purpose. Under the song, bar after bar, a flat gray plate: the same spot, eight seconds wide, again.\nSOUND: The song continues; the 8s plate is nearly inaudible but felt."
+      }
+    }
+  ],
   "camera": [],
+  "post": {},
   "audio": null,
+  "notes": {
+    "needs_separated_layers_fx": [
+      "SOUND_RIBBON"
+    ],
+    "asset_slot_fx": [
+      "LOOP_RING",
+      "PLATE_CEL"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
   "required_layers": [
     "clean_background",
     "body",

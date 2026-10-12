@@ -1,4 +1,0 @@
-interface:
-  display_name: "Anime Quality Reviewer"
-  short_description: "Independently inspect motion, continuity and evidence"
-  default_prompt: "Use $anime-quality-review to complete the assigned bounded production task."
