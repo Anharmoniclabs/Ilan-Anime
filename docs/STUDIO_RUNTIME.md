@@ -74,6 +74,42 @@ Rules live in the `$blender-npr-3d-anime` skill (`.agents/skills/blender-npr-3d-
 | `studio blender check DIR/LAYER --step 2` | Fails when the picture changes off the step grid, the "moving on 1s = looks 3D" failure. |
 | `studio blender import DIR/LAYER --name hull --step 2 --tags rigid --out hull.layer.json` | Turns the sequence into an engine layer; identical frames collapse into holds. Layers are `screen_space` when Blender owned the camera (`--camera engine` otherwise); never let both cameras move. `studio qa` flags imported layers that change off their drawing rate. |
 
+### Reference-locked 2D to Blender
+
+The no-paid-service `reference-lock` workflow treats a supplied JPG/PNG as
+canonical artwork. By default it copies and hashes the source and builds one
+approved backplate; it does not infer hidden geometry. Install the existing
+requirements, then run from the repository root:
+
+```bash
+python -m studio reference-lock init --image /path/to/storefront.png --out /path/to/storefront-scene --camera orthographic
+python -m studio reference-lock validate /path/to/storefront-scene/manifest.json
+python -m studio reference-lock blender-script /path/to/storefront-scene/manifest.json --out /path/to/storefront-scene/reference_lock.py
+blender -b --python /path/to/storefront-scene/reference_lock.py
+```
+
+The final command saves an editable `reference_lock.blend` next to the script.
+`--camera perspective` selects a calibrated perspective camera; optional
+`--width W --height H` must preserve the source aspect ratio. The default
+`camera_locked` result is visually faithful only from that fixed reference
+camera and is not full 3D reconstruction.
+
+For a 2.5D parallax shot, author and register separate same-size layer images
+and masks (for example, distinct foreground, window, reflection, and rain
+passes), copy them under the output `assets/` directory, add their relative
+paths, SHA-256 digests, unique ascending back-to-front depths, parallax values,
+mode, and approval state to `manifest.json`. Change `workflow` to `2.5d` and
+the camera to `{"mode": "perspective", "locked": false}`; validate again and
+generate the Blender script. Use `sha256sum assets/layer.png assets/mask.png`
+to record asset digests; every mask must match its image dimensions. Depth
+cards are explicit image planes only.
+`mesh` layers require a user-authored `.blend` asset and object name (`mesh`,
+`mesh_sha256`, `mesh_object`); no geometry is inferred from the reference.
+Before approval, compare a source-camera render against the original at source
+dimensions. A single view cannot supply exact hidden sides or arbitrary new
+angles; those require authored meshes. New or generated assets remain
+exploratory until technical review and Luis's approval of the exact file.
+
 ## Sound
 
 | Command | What it does |

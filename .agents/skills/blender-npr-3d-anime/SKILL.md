@@ -23,7 +23,34 @@ Source: Noggi's course "EVERYTHING About Creating Beautiful 3D Anime (Blender + 
 
 Characters in 3D only after Luis decides the character style question (cel-separable line/flat/shadow layers vs fully rendered paintings). Identity always comes from his pencil portraits and character bible (`production/art_direction.json` tier 1 and 4). A 3D character that "looks good" but doesn't match those is a fail.
 
-Cemí style targets that change the generic advice below:
+## Reference-locked reconstruction
+
+Canonical source artwork is the reference, not just inspiration. Before work,
+record the source image's SHA-256, dimensions, and provenance. Choose one mode
+before building:
+
+- **`camera_locked`**: reproduce the supplied image from one locked orthographic
+  or calibrated perspective camera using an image plane/emission material. This
+  is a view match, not a reconstruction of hidden geometry.
+- **`2.5d`**: use only user-authored, registered image layers with explicit
+  depth and parallax. Provide reviewed masks to separate foreground, windows,
+  reflections, and rain; do not extract or invent geometry implicitly.
+- **`authored_3d`**: use user-authored meshes for new angles, with the canonical
+  source retained for alignment and source-camera comparison.
+
+Do not hallucinate or generate unapproved geometry from a flat image. New layers,
+masks, and meshes need explicit authorship, provenance, and approval status;
+unapproved elements must not appear in a final render. Before approving, render
+from the source camera at the source dimensions and perform an A/B pixel
+comparison against the canonical image. Record differences and review the
+images; technical image equality is not author approval.
+
+A single view cannot reveal exact hidden sides or support arbitrary new camera
+angles. 2.5D parallax can expose holes and only addresses authored image planes;
+new views require authored geometry and separate approval. For the default
+workflow and exact commands, see `docs/STUDIO_RUNTIME.md`.
+
+## Cemí style targets that change the generic advice below:
 
 - Line: confident, irregular, variable-width ink with controlled broken edges. Never a uniform outline.
 - Shading: two or three cel planes (lit, shadow, optional deep shadow) with navy/steel shadows and amber/copper light where the scene's actual light falls. Moonless BEFORE stays moonless.
