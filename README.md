@@ -9,6 +9,7 @@ Animation production workspace for **Luis M. Minier's Heralds of the Cemí**. Th
 | Need | File or directory |
 |---|---|
 | Current decisions and unfinished work | [Production status](docs/STATUS.md) |
+| Bounded multi-agent production and role skills | [Production team](production/README.md) |
 | Full production workflow | [Episode workflow](projects/cemi_episode_01/README.md) |
 | Research and decisions from the beginning | [Research history](research/HISTORY.md) |
 | Author-derived art direction | [Art direction](research/earlier_cemi_pipeline/docs/ART_DIRECTION.md) |

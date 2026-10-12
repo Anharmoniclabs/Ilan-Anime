@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Storyboard Artist"
+  short_description: "Stage readable sequential drawings and shot continuity"
+  default_prompt: "Use $anime-storyboard to complete the assigned bounded production task."

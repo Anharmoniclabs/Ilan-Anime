@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Animation Supervisor"
+  short_description: "Supervise acting, timing, contacts and stable drawings"
+  default_prompt: "Use $anime-animation-supervisor to complete the assigned bounded production task."

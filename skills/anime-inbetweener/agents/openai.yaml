@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Inbetweener"
+  short_description: "Create controlled breakdown spacing between approved keys"
+  default_prompt: "Use $anime-inbetweener to complete the assigned bounded production task."

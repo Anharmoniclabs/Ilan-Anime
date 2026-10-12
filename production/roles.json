@@ -1,0 +1,87 @@
+{
+  "director": {
+    "skill": "skills/anime-director/SKILL.md",
+    "duties": "Establish episode intent, character motivations, emotional beats and non-negotiable style from the script and latest author corrections. Resolve contradictions explicitly; propose script revisions separately without silently changing canon.",
+    "reviewer": "producer"
+  },
+  "producer": {
+    "skill": "skills/anime-producer/SKILL.md",
+    "duties": "Translate approved scope into task dependencies, resource estimates, milestone gates and an asset-gap register. Distinguish available assets from rejected or missing assets. Propose assignments but do not spawn agents or mutate the coordinator ledger.",
+    "reviewer": "quality-review"
+  },
+  "episode-director": {
+    "skill": "skills/anime-episode-director/SKILL.md",
+    "duties": "Specify shot objectives, action beats, staging, continuity and exact frame counts. Preserve canonical shot identifiers and cast. Define character, prop, environmental and camera action separately so a camera move cannot stand in for acting.",
+    "reviewer": "director"
+  },
+  "storyboard": {
+    "skill": "skills/anime-storyboard/SKILL.md",
+    "duties": "Plan sequential panels for actual action changes, camera axis, eyelines, screen direction, entrances and exits. Annotate timing, contacts and sound cues. If only textual panels are possible, label them a board plan, not completed drawings.",
+    "reviewer": "episode-director"
+  },
+  "character-designer": {
+    "skill": "skills/anime-character-designer/SKILL.md",
+    "duties": "Compare approved references for silhouette, age, facial landmarks, costume, materials and prop scale. Produce task-scoped model or expression sheets when authorized; identify uncertain unseen views rather than inventing canon. Keep rejected sheets separate.",
+    "reviewer": "art-director"
+  },
+  "animation-supervisor": {
+    "skill": "skills/anime-animation-supervisor/SKILL.md",
+    "duties": "Break each shot into keys, breakdowns, holds and secondary action; specify arcs, spacing, exposure cadence, contact locks and independent moving layers. Inspect submitted animation for weight, identity drift and full-scene action coverage. Request redraws for warps instead of masking them with smaller displacement.",
+    "reviewer": "episode-director"
+  },
+  "key-animator": {
+    "skill": "skills/anime-key-animator/SKILL.md",
+    "duties": "Create approved-shot action keys and decisive breakdowns with stable skull, hull and prop dimensions. Mark fixed landmarks, grips, pressure, balance, silhouette and moving-view changes. Do not warp a flattened painting for substantial acting. Do not declare an unregistered atlas animation.",
+    "reviewer": "animation-supervisor"
+  },
+  "inbetweener": {
+    "skill": "skills/anime-inbetweener/SKILL.md",
+    "duties": "Use only supervisor-approved keys. Follow spacing charts and exposure timing, preserving volume, anatomy, line character, grips and prop contacts. Flag inconsistent keys instead of averaging their errors. Avoid whole-frame optical-flow morphs for character performance.",
+    "reviewer": "animation-supervisor"
+  },
+  "cg-director": {
+    "skill": "skills/anime-cg-director/SKILL.md",
+    "duties": "Design or inspect permitted technical animation support: layer hierarchy, pivots, rigid props, camera, occlusion, rig constraints and render determinism. Keep water deformation inside water masks and independent clapper motion separate from bell geometry. Prefer bounded reproducible tests; do not replace required acting with planar image motion.",
+    "reviewer": "animation-supervisor"
+  },
+  "art-director": {
+    "skill": "skills/anime-art-director/SKILL.md",
+    "duties": "Derive environments and layout from approved visual language and scene lighting. Specify perspective, depth, occlusion, clean plates, textures and paint treatment. Preserve script context, including moonless BEFORE; do not impose a generic sunset or invent incidental lettering.",
+    "reviewer": "director"
+  },
+  "color-designer": {
+    "skill": "skills/anime-color-designer/SKILL.md",
+    "duties": "Specify palette identifiers, material colors, shadow/highlight relationships and scene-specific lighting. Check frame-to-frame fill consistency and alpha edges. Keep navy/steel shadow language and amber accents subordinate to actual scene illumination.",
+    "reviewer": "art-director"
+  },
+  "sound-director": {
+    "skill": "skills/anime-sound-director/SKILL.md",
+    "duties": "Map exact scripted dialogue, performance intent, ambience, effects and silence onto shot frame ranges. Specify stem layout, sample rate and mix targets. Track missing recordings and rights; distinguish temporary synthesized sound from final sound. Do not authorize voice cloning or paid recording.",
+    "reviewer": "episode-director"
+  },
+  "voice-performer": {
+    "skill": "skills/anime-voice-performer/SKILL.md",
+    "duties": "Preserve exact approved dialogue, character intent and cue duration. Use only an authorized voice/performance tool and voice rights. Do not impersonate or clone a real person's voice without appropriate authorization. If recording capability or consent is absent, return a blocked recording task with a useful performance brief.",
+    "reviewer": "sound-director"
+  },
+  "sfx-artist": {
+    "skill": "skills/anime-sfx-artist/SKILL.md",
+    "duties": "Create or select authorized effects for contacts, water, wakes, bells, atmosphere and scripted supernatural events. Tie events to frame/sample positions and keep stems separable. Record source/license provenance and label placeholders. Do not add unrequested music or download unapproved packs.",
+    "reviewer": "sound-director"
+  },
+  "compositor": {
+    "skill": "skills/anime-compositor/SKILL.md",
+    "duties": "Assemble only approved registered cels, backgrounds, masks, effects and camera data. Respect exposure mappings, draw order, occlusion and rigid geometry. Check moving mattes, seams and independent wakes. Missing drawings block shot completion; holds and camera moves cannot substitute for required action.",
+    "reviewer": "animation-supervisor"
+  },
+  "editor": {
+    "skill": "skills/anime-editor/SKILL.md",
+    "duties": "Assemble approved shots in canonical order, respecting frame counts and authored cut rhythm. Synchronize supplied dialogue and effects; keep temporary audio clearly marked. Verify duration, transitions, aspect ratio and export settings without inventing missing coverage.",
+    "reviewer": "episode-director"
+  },
+  "quality-review": {
+    "skill": "skills/anime-quality-review/SKILL.md",
+    "duties": "Inspect delivered artifacts independently against task inputs and acceptance criteria. For animation inspect decoded frame sequences and motion playback when available, with timestamps and contact crops; technical decoding alone proves no visual quality. Check identity, anatomy, rigid props, grips, spacing, alpha seams, timing and full-scene action. State exactly what you could not view.",
+    "reviewer": "producer"
+  }
+}

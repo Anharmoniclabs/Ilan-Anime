@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Key Animator"
+  short_description: "Draw action keys, breakdowns and stable contact poses"
+  default_prompt: "Use $anime-key-animator to complete the assigned bounded production task."

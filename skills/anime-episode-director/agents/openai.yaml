@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Episode Director"
+  short_description: "Translate episode intent into shot-level action contracts"
+  default_prompt: "Use $anime-episode-director to complete the assigned bounded production task."

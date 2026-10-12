@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime SFX Artist"
+  short_description: "Build synchronized effects, ambience and physical sound cues"
+  default_prompt: "Use $anime-sfx-artist to complete the assigned bounded production task."

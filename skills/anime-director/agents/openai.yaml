@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Director"
+  short_description: "Direct story intent and approve creative recommendations"
+  default_prompt: "Use $anime-director to complete the assigned bounded production task."

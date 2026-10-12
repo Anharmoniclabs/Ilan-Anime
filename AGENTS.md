@@ -1,5 +1,7 @@
 # AnimeStudio project guidance
 
+For multi-agent production, read `skills/anime-studio/SKILL.md` and use roles in `production/roles.json`. Spawn real workers only when the host provides delegation; never represent role-play as agents. On connection interruption, pause and ask before resuming. No automatic retries or provider switching.
+
 Read `README.md`, `docs/STATUS.md`, and `research/animation_audit/REPORT.md` before changing animation. User instructions in the active conversation take precedence.
 
 - Preserve the source artwork and rejected experiments; write new iterations separately.

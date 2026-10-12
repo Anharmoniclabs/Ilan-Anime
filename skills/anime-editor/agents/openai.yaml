@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime Editor"
+  short_description: "Assemble approved shots, exact timing and sound stems"
+  default_prompt: "Use $anime-editor to complete the assigned bounded production task."

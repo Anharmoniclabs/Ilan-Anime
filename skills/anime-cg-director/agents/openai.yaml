@@ -1,0 +1,4 @@
+interface:
+  display_name: "Anime CG Director"
+  short_description: "Define technical scene, rig and deterministic render contracts"
+  default_prompt: "Use $anime-cg-director to complete the assigned bounded production task."
