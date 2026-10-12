@@ -19,6 +19,7 @@ python -m studio run --run s01-11-12-production --max-tasks 4   # Codex workers 
 | Need | File or directory |
 |---|---|
 | Run production with Codex: runner, render, QA, sound, generation | [Studio runtime](docs/STUDIO_RUNTIME.md) |
+| Reproduce canonical artwork from a locked Blender camera; author explicit 2.5D depth | [Reference-locked workflow](docs/STUDIO_RUNTIME.md#reference-locked-2d-to-blender) |
 | Shot spec format, FX tokens, post stack | [Engine](docs/ENGINE.md) |
 | 3D that reads as 2D: Blender NPR rules and `studio blender` | [Blender NPR skill](.agents/skills/blender-npr-3d-anime/SKILL.md) |
 | Rules every worker follows (shared by all role skills) | [Worker contract](production/WORKER_CONTRACT.md) |

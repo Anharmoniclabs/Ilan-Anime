@@ -260,6 +260,19 @@ def cmd_blender(args):
         raise SystemExit(f"blender: {exc}")
 
 
+def cmd_reference_lock(args):
+    from studio import reference_lock
+    try:
+        if args.action == "init":
+            _print(reference_lock.init(args.image, args.out, camera=args.camera, width=args.width, height=args.height))
+        elif args.action == "validate":
+            _print(reference_lock.validate(args.manifest))
+        else:
+            _print(reference_lock.blender_script(args.manifest, args.out))
+    except reference_lock.ReferenceLockError as exc:
+        raise SystemExit(f"reference-lock: {exc}")
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="python -m studio", description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -387,6 +400,23 @@ def main(argv=None):
     p.add_argument("--tags")
     p.add_argument("--no-render", action="store_true")
     p.set_defaults(func=cmd_blender)
+
+    p = sub.add_parser("reference-lock", help="lock canonical source artwork to a Blender camera")
+    reference_sub = p.add_subparsers(dest="action", required=True)
+    q = reference_sub.add_parser("init", help="copy a JPG/PNG and create the default camera-locked manifest")
+    q.add_argument("--image", required=True)
+    q.add_argument("--out", required=True)
+    q.add_argument("--camera", choices=("orthographic", "perspective"), default="orthographic")
+    q.add_argument("--width", type=int)
+    q.add_argument("--height", type=int)
+    q.set_defaults(func=cmd_reference_lock)
+    q = reference_sub.add_parser("validate", help="verify manifest, source and layer asset integrity")
+    q.add_argument("manifest")
+    q.set_defaults(func=cmd_reference_lock)
+    q = reference_sub.add_parser("blender-script", help="write a standalone Blender scene-builder script")
+    q.add_argument("manifest")
+    q.add_argument("--out", required=True)
+    q.set_defaults(func=cmd_reference_lock)
 
     args = parser.parse_args(argv)
     if args.command == "blender" and args.action == "render" and not (args.out and args.frames):
