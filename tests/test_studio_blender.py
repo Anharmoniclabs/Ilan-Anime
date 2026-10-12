@@ -10,6 +10,7 @@ import tempfile
 import unittest
 
 from PIL import Image
+import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
@@ -176,3 +177,32 @@ class WiringTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ScanTests(unittest.TestCase):
+    def test_scan_rebuilds_fills_and_ink(self):
+        from PIL import ImageDraw
+        from studio import scan
+        tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, tmp)
+        img = Image.new("RGBA", (200, 150), (0, 0, 0, 0))
+        d = ImageDraw.Draw(img)
+        d.ellipse([20, 20, 120, 120], fill=(210, 150, 90, 255), outline=(20, 15, 10, 255), width=4)
+        d.rectangle([90, 40, 180, 130], fill=(60, 80, 140, 255), outline=(20, 15, 10, 255), width=3)
+        img.save(tmp / "cel.png")
+        result = scan.scan_file(tmp / "cel.png", tmp / "cel.scan.json", preview=tmp / "prev.png", colors=4)
+        self.assertGreaterEqual(result["stats"]["fills"], 2)
+        self.assertGreater(result["stats"]["strokes"], 0)
+        self.assertGreater(result["fidelity"]["coverage_iou"], 0.97)
+        self.assertLess(result["fidelity"]["mean_color_error"], 30)
+        roles = {p["role"] for p in result["palette"]}
+        self.assertEqual(roles, {"fill", "ink"})
+        self.assertTrue(all(len(pt) == 3 for s in result["strokes"] for pt in s["points"]))  # x, y, radius
+
+    def test_thin_gives_one_pixel_lines(self):
+        from studio import scan
+        mask = np.zeros((20, 40), np.uint8)
+        mask[8:13, 5:35] = 1
+        skeleton = scan.thin(mask)
+        self.assertLessEqual(skeleton[:, 20].sum(), 1)
+        self.assertEqual(len(scan.trace_skeleton(skeleton)), 1)
