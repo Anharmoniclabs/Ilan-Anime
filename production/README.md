@@ -58,3 +58,7 @@ Official references checked 2026-10-12:
 Planning is not animation. Review rendered sequences at speed and frame-step contact/occlusion transitions. Record timecodes for model drift, warping, hand/paddle contact, hull rigidity, wake movement, matte seams and unintended holds. Existing rejected footage stays rejected until a new reviewed render exists.
 
 The full release standard is `docs/STUDIO_STANDARD.md`. Art reports use `production/art_direction.json`; file promotion uses `asset_registry.py`; complete shot work uses `pipeline.py`. The local dashboard is informational and read-only. None of these tools may infer beauty or author approval from tests.
+
+## Local drawing backend
+
+The coordinator can use `python -m production.comfy.local` to submit approved-reference image jobs to self-hosted ComfyUI, collect exploratory assets into the shared registry and retain manual recovery after interruptions. See [setup, commands and limits](../docs/COMFY_LOCAL.md). This does not auto-spawn workers, approve drawings or complete animation tasks.

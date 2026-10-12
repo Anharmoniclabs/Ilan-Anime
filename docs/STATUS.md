@@ -14,6 +14,8 @@ Still blocked on Luis: the three S01-11/12 timing conflicts, adding the original
 
 ## Available
 
+- Local ComfyUI image-generation adapter with optional LoRA/ControlNet, loopback-only transport, paid/custom-node-disabled launcher, durable manual recovery and exploratory asset registration. HTTP contract tested with a synthetic server; no real GPU/model generation has run. See [setup and limits](COMFY_LOCAL.md).
+
 - Thirty individually bounded production departments, each with its own skill and independent designated reviewer.
 - A versioned Cemí art-direction contract covering character, environment, story-frame and editorial modes.
 - Separate digest-bound technical and Luis M. Minier author-approval gates; rejected versions are terminal.

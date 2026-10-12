@@ -30,6 +30,7 @@ python -m studio run --run s01-11-12-production --max-tasks 4   # Codex workers 
 | Immutable asset versions and approvals | [Asset pipeline](docs/ASSET_PIPELINE.md) |
 | Complete drawing-to-final shot DAG | [Shot pipeline](docs/SHOT_PIPELINE.md) |
 | Real host-agent bindings and interruption recovery | [Host handoff](docs/HOST_HANDOFF.md) |
+| Local ComfyUI generation without credits | [Local generation setup](docs/COMFY_LOCAL.md) |
 | Local production dashboard | [Dashboard](docs/DASHBOARD.md) |
 | Full production workflow | [Episode workflow](projects/cemi_episode_01/README.md) |
 | Research and decisions from the beginning | [Research history](research/HISTORY.md) |

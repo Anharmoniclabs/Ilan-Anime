@@ -1,0 +1,21 @@
+{
+  "job_id": "s01-11-contact-v1",
+  "shots": ["S01-11"],
+  "art_mode": "STORY_FRAME",
+  "reference": {"asset_id": "s01-11-approved-layout", "version": 1},
+  "checkpoint": "REPLACE_WITH_YOUR_LOCAL_CHECKPOINT.safetensors",
+  "license": "REPLACE_WITH_ACTUAL_MODEL_LICENSE_AND_ART_RIGHTS",
+  "seed": 307011,
+  "steps": 24,
+  "cfg": 5.0,
+  "denoise": 0.3,
+  "positive": "Cemi original artist-derived hand-inked 2D graphic-novel frame. Beheto puts both palms on the drum and leans his weight into it. Preserve the approved reference's exact face, age, skin pigment, hair, costume, drum, canoe hull, grip/contact geometry, scale and camera registration. Confident variable-width ink, controlled fine crosshatching, rich painterly washes and two or three cel-shadow planes. Scripted moonless river night, navy and steel shadows; preserve only light sources established in the reference. One action pose, no montage.",
+  "negative": "generic anime face, changed identity, changed costume, deformed hands, extra fingers, soft drum, bent canoe, shifted hull, detached palms, duplicated limbs, invented moonlight, daylight, sunset sky, dull monochrome wash, glossy 3D, sketch construction marks, text, letters, slogans, wall writing, watermark, panel grid",
+  "continuity": {
+    "character_ids": ["beheto"],
+    "costume_ids": ["beheto-river-v1"],
+    "prop_ids": ["drum-v1", "canoe-lead-v1"],
+    "time": "moonless night before first bell",
+    "location": "river lead canoe; verify against current approved layout"
+  }
+}
