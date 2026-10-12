@@ -8,6 +8,8 @@
 - Skills moved to `.agents/skills/` (Codex discovery) and are generated from `roles.json`; per-skill boilerplate now lives once in `production/WORKER_CONTRACT.md`.
 - Registration of the Beheto atlas against the drum body: poses 3 and 4 align; 2, 5, 6, 7 and 8 need redraws (drum geometry differs, not just position).
 
+- Blender NPR skill (`$blender-npr-3d-anime`) wired to nine roles, with `studio blender render|check|import`: headless renders under the NPR contract, step-grid checks and import as engine exposures. The in-Blender script is tested against a stub of the Blender API only; it has not run in a real Blender here.
+
 Still blocked on Luis: the three S01-11/12 timing conflicts, adding the original pencil portraits (tier-1 identity source), deciding which keyframes are approved, and any spend.
 
 ## Available

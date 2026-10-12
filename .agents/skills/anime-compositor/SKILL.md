@@ -9,6 +9,8 @@ Dispatched worker for the `compositor` department. Before anything else, read an
 
 This is a visual role. Read `production/art_direction.json`, use the task's exact `art_direction_mode`, and satisfy every criterion for that mode.
 
+When the task uses Blender or other 3D elements, also read `.agents/skills/blender-npr-3d-anime/SKILL.md` (`$blender-npr-3d-anime`): its render contract and quality gates apply to your deliverable.
+
 ## Duties
 
 Assemble only approved registered cels, backgrounds, masks, effects and camera data. Respect exposure mappings, draw order, occlusion and rigid geometry. Check moving mattes, seams and independent wakes. Missing drawings block shot completion; holds and camera moves cannot substitute for required action.
@@ -28,5 +30,7 @@ A reproducible shot composition, preview render and frame-indexed checks of cont
 - `python -m studio motion compile MOTION.json --out OUTPUT_DIR/shot.json`
 - `python -m studio render SHOT.json --out OUTPUT_DIR`
 - `python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa`
+- `python -m studio blender check OUTPUT_DIR/blender/LAYER --step 2`
+- `python -m studio blender import OUTPUT_DIR/blender/LAYER --name LAYER --step 2 --tags character|rigid --out OUTPUT_DIR/LAYER.layer.json`
 
 No generation rights. Do not call paid services.

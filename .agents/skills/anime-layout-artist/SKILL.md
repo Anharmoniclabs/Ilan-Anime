@@ -9,6 +9,8 @@ Dispatched worker for the `layout-artist` department. Before anything else, read
 
 This is a visual role. Read `production/art_direction.json`, use the task's exact `art_direction_mode`, and satisfy every criterion for that mode.
 
+When the task uses Blender or other 3D elements, also read `.agents/skills/blender-npr-3d-anime/SKILL.md` (`$blender-npr-3d-anime`): its render contract and quality gates apply to your deliverable.
+
 ## Duties
 
 Translate approved boards into final camera fields, perspective, scale, ground planes, staging, eyelines, contacts, occlusion and parallax layers. Preserve the canonical Cemí visual contract; own spatial construction rather than board story choices, finished paint or animation drawings.
@@ -32,5 +34,6 @@ Provide registered layout drawings or precise layout specifications, camera/fiel
 - `python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png`
 - `python -m studio layers split ATLAS.png --grid COLSxROWS --out OUTPUT_DIR`
 - `python -m studio layers matte IN.png --out OUT.png`
+- `python -m studio blender render SCENE.blend --out OUTPUT_DIR/blender --frames START-END --step 2 --layers COLLECTION[,COLLECTION]`
 
 Generation rights: image. Only through `python -m studio generate`, only when the contract's four spending conditions hold.

@@ -100,7 +100,11 @@
     "tools": [
       "python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png",
       "python -m studio layers split ATLAS.png --grid COLSxROWS --out OUTPUT_DIR",
-      "python -m studio layers matte IN.png --out OUT.png"
+      "python -m studio layers matte IN.png --out OUT.png",
+      "python -m studio blender render SCENE.blend --out OUTPUT_DIR/blender --frames START-END --step 2 --layers COLLECTION[,COLLECTION]"
+    ],
+    "extra_skills": [
+      ".agents/skills/blender-npr-3d-anime/SKILL.md"
     ]
   },
   "character-designer": {
@@ -136,7 +140,11 @@
     "tools": [
       "python -m studio motion check MOTION.json",
       "python -m studio render SHOT.json --out OUTPUT_DIR",
-      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa"
+      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa",
+      "python -m studio blender check OUTPUT_DIR/blender/LAYER --step 2"
+    ],
+    "extra_skills": [
+      ".agents/skills/blender-npr-3d-anime/SKILL.md"
     ]
   },
   "key-animator": {
@@ -239,7 +247,13 @@
     "tools": [
       "python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png",
       "python -m studio layers matte IN.png --out OUT.png",
-      "python -m studio render SHOT.json --out OUTPUT_DIR"
+      "python -m studio render SHOT.json --out OUTPUT_DIR",
+      "python -m studio blender render SCENE.blend --out OUTPUT_DIR/blender --frames START-END --step 2 --layers COLLECTION[,COLLECTION]",
+      "python -m studio blender check OUTPUT_DIR/blender/LAYER --step 2",
+      "python -m studio blender import OUTPUT_DIR/blender/LAYER --name LAYER --step 2 --tags character|rigid --out OUTPUT_DIR/LAYER.layer.json"
+    ],
+    "extra_skills": [
+      ".agents/skills/blender-npr-3d-anime/SKILL.md"
     ]
   },
   "cg-director": {
@@ -257,7 +271,13 @@
       "python -m studio motion compile MOTION.json --out OUTPUT_DIR/shot.json",
       "python -m studio motion check MOTION.json",
       "python -m studio render SHOT.json --out OUTPUT_DIR",
-      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa"
+      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa",
+      "python -m studio blender render SCENE.blend --out OUTPUT_DIR/blender --frames START-END --step 2 --layers COLLECTION[,COLLECTION]",
+      "python -m studio blender check OUTPUT_DIR/blender/LAYER --step 2",
+      "python -m studio blender import OUTPUT_DIR/blender/LAYER --name LAYER --step 2 --tags character|rigid --out OUTPUT_DIR/LAYER.layer.json"
+    ],
+    "extra_skills": [
+      ".agents/skills/blender-npr-3d-anime/SKILL.md"
     ]
   },
   "character-rigger": {
@@ -278,7 +298,12 @@
       "python -m studio layers split ATLAS.png --grid COLSxROWS --out OUTPUT_DIR",
       "python -m studio layers matte IN.png --out OUT.png",
       "python -m studio layers register --reference REF.png --lock LOCK_MASK.png --out OUTPUT_DIR CEL.png [CEL.png ...]",
-      "python -m studio motion compile MOTION.json --out OUTPUT_DIR/shot.json"
+      "python -m studio motion compile MOTION.json --out OUTPUT_DIR/shot.json",
+      "python -m studio blender render SCENE.blend --out OUTPUT_DIR/blender --frames START-END --step 2 --layers COLLECTION[,COLLECTION]",
+      "python -m studio blender check OUTPUT_DIR/blender/LAYER --step 2"
+    ],
+    "extra_skills": [
+      ".agents/skills/blender-npr-3d-anime/SKILL.md"
     ]
   },
   "art-director": {
@@ -315,7 +340,11 @@
     "deliverables": "Provide shot-sized registered plates, layer/matte manifests, palette/color-space notes, source evidence, and explicit placeholders for any unpainted area.",
     "tools": [
       "python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png",
-      "python -m studio layers matte IN.png --out OUT.png"
+      "python -m studio layers matte IN.png --out OUT.png",
+      "python -m studio blender render SCENE.blend --out OUTPUT_DIR/blender --frames START-END --step 2 --layers COLLECTION[,COLLECTION]"
+    ],
+    "extra_skills": [
+      ".agents/skills/blender-npr-3d-anime/SKILL.md"
     ]
   },
   "prop-designer": {
@@ -336,7 +365,11 @@
     "deliverables": "Provide named versioned prop sheets, dimensions/scale, views, pivot/contact notes, material palette references, and uncertainty log.",
     "tools": [
       "python -m studio generate image --task TASK_ID --prompt-file PROMPT.md --ref APPROVED.png [--ref ...] --out OUTPUT_DIR/NAME.png",
-      "python -m studio layers matte IN.png --out OUT.png"
+      "python -m studio layers matte IN.png --out OUT.png",
+      "python -m studio blender render SCENE.blend --out OUTPUT_DIR/blender --frames START-END --step 2 --layers COLLECTION[,COLLECTION]"
+    ],
+    "extra_skills": [
+      ".agents/skills/blender-npr-3d-anime/SKILL.md"
     ]
   },
   "color-designer": {
@@ -471,7 +504,12 @@
     "tools": [
       "python -m studio motion compile MOTION.json --out OUTPUT_DIR/shot.json",
       "python -m studio render SHOT.json --out OUTPUT_DIR",
-      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa"
+      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa",
+      "python -m studio blender check OUTPUT_DIR/blender/LAYER --step 2",
+      "python -m studio blender import OUTPUT_DIR/blender/LAYER --name LAYER --step 2 --tags character|rigid --out OUTPUT_DIR/LAYER.layer.json"
+    ],
+    "extra_skills": [
+      ".agents/skills/blender-npr-3d-anime/SKILL.md"
     ]
   },
   "editor": {
@@ -544,7 +582,11 @@
     "deliverables": "An evidence-indexed pass/revise/block report with frame/time locations and targeted corrections; user approval remains separate.",
     "tools": [
       "python -m studio render SHOT.json --out OUTPUT_DIR",
-      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa"
+      "python -m studio qa SHOT.json --render OUTPUT_DIR --out OUTPUT_DIR/qa",
+      "python -m studio blender check OUTPUT_DIR/blender/LAYER --step 2"
+    ],
+    "extra_skills": [
+      ".agents/skills/blender-npr-3d-anime/SKILL.md"
     ]
   }
 }

@@ -48,7 +48,8 @@ COMPONENTS = [
     "docs/STUDIO_RUNTIME.md", "docs/ENGINE.md", ".agents/skills/anime-studio/SKILL.md",
     "studio/cli.py", "studio/runner.py", "studio/engine/compositor.py", "studio/render.py",
     "studio/qa.py", "studio/layers.py", "studio/motion.py", "studio/sound.py", "studio/generate.py",
-    "studio/policy.py", "studio/animatic.py",
+    "studio/policy.py", "studio/animatic.py", "studio/blender.py", "studio/blender_npr_setup.py",
+    ".agents/skills/blender-npr-3d-anime/SKILL.md",
 ]
 
 
@@ -78,6 +79,9 @@ def validate_role_contracts(root, roles_raw):
             raise StudioValidationError(f"{role_id}: skill does not point to the shared worker contract")
         if "TODO" in text:
             raise StudioValidationError(f"{role_id}: skill contains TODO")
+        for extra in role.get("extra_skills", []):
+            if not (root / extra).is_file():
+                raise StudioValidationError(f"{role_id}: extra skill {extra} is missing")
         if role_id in VISUAL_ROLES and "production/art_direction.json" not in text:
             raise StudioValidationError(
                 f"{role_id}: visual skill does not require the machine art contract")

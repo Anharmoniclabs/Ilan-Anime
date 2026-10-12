@@ -11,7 +11,8 @@ Measures what can be measured and hands the rest to a human/agent reviewer:
 * ``matte``: drawings with contaminated edge colors (halos when composited);
 * ``freeze``: picture frozen longer than allowed outside scripted holds;
 * ``frames``: rendered length differs from the spec;
-* ``no_acting``: no character drawing changes (animatic holds included).
+* ``no_acting``: no character drawing changes (animatic holds included);
+* ``off_grid``: a rendered 3D layer changes picture off its drawing rate.
 
 Each flag carries frames/timecodes and becomes a revision task for the role
 that owns the fix. Passing QA means "no measured defect", never "approved".
@@ -27,7 +28,7 @@ from studio.engine import Compositor
 from studio.layers import _phase_shift
 from studio.paths import PROJECT, rel, resolve, timecode, write_json
 
-OWNER = {"no_acting": "key-animator", "boil": "key-animator", "lock_drift": "key-animator", "contact": "key-animator",
+OWNER = {"off_grid": "cg-director", "no_acting": "key-animator", "boil": "key-animator", "lock_drift": "key-animator", "contact": "key-animator",
          "matte": "cleanup-artist", "freeze": "animation-supervisor", "frames": "compositor"}
 
 
@@ -47,6 +48,22 @@ def acting_flags(spec):
         return [{"type": "no_acting", "layer": None, "frame": 0,
                  "detail": "no character layer changes drawing; camera or layer motion is not acting"}]
     return []
+
+
+def step_flags(spec):
+    """Rendered (e.g. Blender) layers must change drawing only on their drawing rate."""
+    flags = []
+    for layer in spec.get("layers", []):
+        rate = int(layer.get("drawing_rate", 0) or 0)
+        if rate < 2:
+            continue
+        bad = [e["start"] for e in layer.get("exposures", [])[1:] if e["start"] % rate]
+        if bad:
+            flags.append({"type": "off_grid", "layer": layer["name"], "frame": int(layer.get("in", 0)) + bad[0],
+                          "metric": {"off_grid_changes": len(bad), "drawing_rate": rate},
+                          "detail": f"{layer['name']} changes {len(bad)}x off its {rate}s grid: moves like 3D "
+                                    "on 1s; step the animation (Stepped modifier) and rerender"})
+    return flags
 
 
 def boil_flags(spec, base=PROJECT, ratio_limit=2.5, interior_limit=0.06):
@@ -148,7 +165,7 @@ def review(spec, *, base=PROJECT, motion=None, render=None, out_dir, scale=0.5, 
     """Run all checks; write qa_report.json, a flagged-frame sheet and revision task stubs."""
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
-    flags = acting_flags(spec) + boil_flags(spec, base) + matte_flags(spec, base)
+    flags = acting_flags(spec) + step_flags(spec) + boil_flags(spec, base) + matte_flags(spec, base)
     comp = Compositor(spec, base=base, quality="draft", scale=scale)
     flags += lock_drift_flags(comp, spec.get("locks", []))
     holds = [(h["start"], h["end"]) for h in spec.get("post", {}).get("harmony", [])]

@@ -3,6 +3,7 @@
 Production loop (Codex):  plan -> run -> (Luis) approve -> run ...
 Picture:                  animatic, render, queue, assemble, qa
 Drawings:                 layers split|matte|register, motion compile|check
+3D (Blender NPR):         blender render|check|import
 Sound:                    sound lines|mouth|mix
 Paid (opt-in):            generate image|voice
 """
@@ -236,6 +237,29 @@ def cmd_generate(args):
         raise SystemExit(f"generation refused: {exc}")
 
 
+def cmd_blender(args):
+    from studio import blender
+    try:
+        if args.action == "render":
+            layers = [n for n in (args.layers or "").split(",") if n]
+            _print(blender.render(args.target, args.out, frames=args.frames, step=args.step, layers=layers,
+                                  width=args.width, height=args.height, camera=args.camera,
+                                  no_render=args.no_render))
+        elif args.action == "check":
+            report = blender.check(args.target, args.step, args.start)
+            _print(report)
+            if not report["ok"]:
+                raise SystemExit(1)
+        else:
+            tags = [t for t in (args.tags or "").split(",") if t]
+            layer = blender.import_sequence(args.target, name=args.name or Path(args.target).name, rate=args.step,
+                                            tags=tags, start=args.start,
+                                            screen_space=args.camera == "blender", out=args.out)
+            _print({"layer": layer["name"], "exposures": len(layer["exposures"]), "out": args.out})
+    except blender.BlenderError as exc:
+        raise SystemExit(f"blender: {exc}")
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(prog="python -m studio", description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
@@ -348,7 +372,25 @@ def main(argv=None):
     p.add_argument("--dry-run", action="store_true")
     p.set_defaults(func=cmd_generate)
 
+    p = sub.add_parser("blender", help="render | check | import Blender element layers (NPR contract)")
+    p.add_argument("action", choices=("render", "check", "import"))
+    p.add_argument("target", help=".blend file (render) or a rendered PNG directory (check/import)")
+    p.add_argument("--out")
+    p.add_argument("--frames", help="start-end inclusive (render)")
+    p.add_argument("--step", type=int, default=2, help="drawing rate: 2 = on 2s")
+    p.add_argument("--start", type=int, default=0, help="first shot frame of the sequence")
+    p.add_argument("--layers", help="collection names to render as separate layers")
+    p.add_argument("--width", type=int, default=1280)
+    p.add_argument("--height", type=int, default=720)
+    p.add_argument("--camera", choices=("blender", "engine"), default="blender")
+    p.add_argument("--name")
+    p.add_argument("--tags")
+    p.add_argument("--no-render", action="store_true")
+    p.set_defaults(func=cmd_blender)
+
     args = parser.parse_args(argv)
+    if args.command == "blender" and args.action == "render" and not (args.out and args.frames):
+        parser.error("blender render needs --out and --frames")
     if args.command == "layers" and args.action == "register" and not args.reference:
         parser.error("layers register needs --reference")
     if args.command == "motion" and args.action == "compile" and not args.out:

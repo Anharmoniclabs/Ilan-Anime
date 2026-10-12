@@ -20,6 +20,7 @@ python -m studio run --run s01-11-12-production --max-tasks 4   # Codex workers 
 |---|---|
 | Run production with Codex: runner, render, QA, sound, generation | [Studio runtime](docs/STUDIO_RUNTIME.md) |
 | Shot spec format, FX tokens, post stack | [Engine](docs/ENGINE.md) |
+| 3D that reads as 2D: Blender NPR rules and `studio blender` | [Blender NPR skill](.agents/skills/blender-npr-3d-anime/SKILL.md) |
 | Rules every worker follows (shared by all role skills) | [Worker contract](production/WORKER_CONTRACT.md) |
 | Spending switch and caps (off by default) | [Policy](production/policy.json) |
 | Current decisions and unfinished work | [Production status](docs/STATUS.md) |
