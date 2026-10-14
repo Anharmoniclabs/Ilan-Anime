@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.new",
+    "params": {
+      "name": "S01-03 three losses draft",
+      "width": 1280,
+      "height": 720,
+      "frameRate": 24,
+      "duration": 8
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 1
+  }
+}
