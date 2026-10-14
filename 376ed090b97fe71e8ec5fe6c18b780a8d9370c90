@@ -1,0 +1,12 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "layer.setProps",
+    "params": {
+      "name": "Editable reference sheet — not rig parts",
+      "locked": false
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

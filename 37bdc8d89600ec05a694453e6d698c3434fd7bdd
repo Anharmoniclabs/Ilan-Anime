@@ -1,0 +1,54 @@
+{
+  "tool": "add_keyframe",
+  "arguments": {
+    "layer": 251,
+    "path": "transform/opacity",
+    "keys": [
+      {
+        "time": 0,
+        "value": 0
+      },
+      {
+        "time": 1.875,
+        "value": 80
+      },
+      {
+        "time": 2.75,
+        "value": 0
+      }
+    ],
+    "interpolation": "hold"
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": true,
+    "expression": null,
+    "keys": [
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 0.0,
+        "value": 0.0
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 1.875,
+        "value": 80.0
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 2.75,
+        "value": 0.0
+      }
+    ],
+    "layer": 251,
+    "match": "opacity",
+    "name": "Opacity",
+    "time": 0.0,
+    "type": "scalar",
+    "uid": 262,
+    "value": 0.0
+  }
+}

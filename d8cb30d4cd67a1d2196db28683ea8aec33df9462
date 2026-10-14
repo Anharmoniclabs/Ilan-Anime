@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.addProperty",
+    "params": {
+      "layer": 152,
+      "path": "transform/position",
+      "name": "Paddle placement"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "controls": [
+      338
+    ],
+    "mirrors": []
+  }
+}
