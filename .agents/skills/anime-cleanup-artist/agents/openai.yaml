@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Cleanup Artist"
-  short_description: "Convert approved rough keys and inbetweens into registered final line art while preserv..."
-  default_prompt: "Use $anime-cleanup-artist for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

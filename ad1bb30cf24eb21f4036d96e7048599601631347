@@ -1,0 +1,17 @@
+{
+  "paddle": {
+    "mean_frame_difference": 8.3246845612,
+    "peak_frame_difference": 22.0947,
+    "samples": 25
+  },
+  "blink": {
+    "mean_frame_difference": 1.7719292919354839,
+    "peak_frame_difference": 14.3316,
+    "samples": 31
+  },
+  "water": {
+    "mean_frame_difference": 0.09250472800000001,
+    "peak_frame_difference": 0.198467,
+    "samples": 25
+  }
+}

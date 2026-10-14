@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Episode Director"
-  short_description: "Specify shot objectives, action beats, staging, continuity and exact frame counts"
-  default_prompt: "Use $anime-episode-director for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

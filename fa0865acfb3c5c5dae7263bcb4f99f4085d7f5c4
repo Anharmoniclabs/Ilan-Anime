@@ -1,0 +1,238 @@
+{
+  "fps": 24,
+  "frames": 36,
+  "drawings": 12,
+  "duration": 1.5,
+  "size": [
+    1280,
+    720
+  ],
+  "exposures": [
+    {
+      "shot": 1,
+      "cel": 1,
+      "start_frame": 0,
+      "end_frame_exclusive": 5,
+      "source_sha256": "3155bcd9e1940f720d9d40bdcd08e77033f208982d0508766e185e72136e3218"
+    },
+    {
+      "shot": 2,
+      "cel": 1,
+      "start_frame": 5,
+      "end_frame_exclusive": 8,
+      "source_sha256": "067386e94456d406332c01e76b044e89734c6082ec2c7dcd9343a5990cd2ccb8"
+    },
+    {
+      "shot": 3,
+      "cel": 1,
+      "start_frame": 8,
+      "end_frame_exclusive": 11,
+      "source_sha256": "ed12b0e09a71b2b420022c6d37a6f408146cee23dca4119059e51fdd22f42871"
+    },
+    {
+      "shot": 4,
+      "cel": 1,
+      "start_frame": 11,
+      "end_frame_exclusive": 13,
+      "source_sha256": "b14515566392065c54ecb8e7a3f63983659a3cab6f52ef4020f0a30f283d7c08"
+    },
+    {
+      "shot": 5,
+      "cel": 1,
+      "start_frame": 13,
+      "end_frame_exclusive": 16,
+      "source_sha256": "01a8d97d7cb4b5157b2f95e1dafe21f326d0b7b04b445b56f3ab55211526cc9e"
+    },
+    {
+      "shot": 6,
+      "cel": 1,
+      "start_frame": 16,
+      "end_frame_exclusive": 18,
+      "source_sha256": "1b539eb4c0af240f0ecc4056378a1327bad75c2e71c1ab5daa52c62a9e8edeab"
+    },
+    {
+      "shot": 7,
+      "cel": 1,
+      "start_frame": 18,
+      "end_frame_exclusive": 21,
+      "source_sha256": "c1698b94abbf2b0f416d2f39f3c8e53887d6bbf19c7175e71f703dec563fc134"
+    },
+    {
+      "shot": 8,
+      "cel": 1,
+      "start_frame": 21,
+      "end_frame_exclusive": 23,
+      "source_sha256": "dae2e60341f34583413f3530438b6f55ffd7f5e31472f5efb5a92a6c8aa5aa52"
+    },
+    {
+      "shot": 9,
+      "cel": 1,
+      "start_frame": 23,
+      "end_frame_exclusive": 26,
+      "source_sha256": "56754465d114d39fac7d327e4c2d334a6be36303ed47820bc50969f4cbbfb7d1"
+    },
+    {
+      "shot": 10,
+      "cel": 1,
+      "start_frame": 26,
+      "end_frame_exclusive": 29,
+      "source_sha256": "1fe254773d59ee4b9993c56b19f6b4218929621f13b5bbe6a064c6f241bd3df4"
+    },
+    {
+      "shot": 11,
+      "cel": 1,
+      "start_frame": 29,
+      "end_frame_exclusive": 32,
+      "source_sha256": "9ba91a92f311375e020ed0f4532fa5b2cb91a4ba0cbb18bdec6c6ef54f5a8f61"
+    },
+    {
+      "shot": 12,
+      "cel": 1,
+      "start_frame": 32,
+      "end_frame_exclusive": 36,
+      "source_sha256": "f8a8afcf57a06af517a347acd985b5f7bb209f310a051302a3b307dddafea90c"
+    }
+  ],
+  "spec": {
+    "fps": 24,
+    "size": [
+      1280,
+      720
+    ],
+    "shots": [
+      {
+        "sheet": "frames/01.png",
+        "columns": 1,
+        "rows": 1,
+        "exposures": [
+          [
+            0,
+            5
+          ]
+        ]
+      },
+      {
+        "sheet": "frames/01-between.png",
+        "columns": 1,
+        "rows": 1,
+        "exposures": [
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "sheet": "frames/02.png",
+        "columns": 1,
+        "rows": 1,
+        "exposures": [
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "sheet": "frames/02-between.png",
+        "columns": 1,
+        "rows": 1,
+        "exposures": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "sheet": "frames/03.png",
+        "columns": 1,
+        "rows": 1,
+        "exposures": [
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "sheet": "frames/03-between.png",
+        "columns": 1,
+        "rows": 1,
+        "exposures": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "sheet": "frames/04.png",
+        "columns": 1,
+        "rows": 1,
+        "exposures": [
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "sheet": "frames/04-between.png",
+        "columns": 1,
+        "rows": 1,
+        "exposures": [
+          [
+            0,
+            2
+          ]
+        ]
+      },
+      {
+        "sheet": "frames/05.png",
+        "columns": 1,
+        "rows": 1,
+        "exposures": [
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "sheet": "frames/05-between.png",
+        "columns": 1,
+        "rows": 1,
+        "exposures": [
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "sheet": "frames/06.png",
+        "columns": 1,
+        "rows": 1,
+        "exposures": [
+          [
+            0,
+            3
+          ]
+        ]
+      },
+      {
+        "sheet": "frames/06-between.png",
+        "columns": 1,
+        "rows": 1,
+        "exposures": [
+          [
+            0,
+            4
+          ]
+        ]
+      }
+    ]
+  },
+  "method": "Individually generated cel drawings. Exposure holds repeat a drawing; no optical flow, camera transforms or synthesized interpolation."
+}

@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Music Composer"
-  short_description: "Compose original or rights-cleared music synchronized to approved dramatic beats, trans..."
-  default_prompt: "Use $anime-music-composer for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

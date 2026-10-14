@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime CG Director"
-  short_description: "Design or inspect permitted technical animation support: layer hierarchy, pivots, rigid..."
-  default_prompt: "Use $anime-cg-director for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

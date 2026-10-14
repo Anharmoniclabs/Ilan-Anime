@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Studio"
-  short_description: "Plan, run, review, render and assemble Heralds of the Cemí"
-  default_prompt: "Use $anime-studio to continue production of the episode."
-policy:
-  allow_implicit_invocation: true

@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Script Supervisor"
-  short_description: "Maintain evidence-linked continuity for exact dialogue, cast, emotional state, geograph..."
-  default_prompt: "Use $anime-script-supervisor for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

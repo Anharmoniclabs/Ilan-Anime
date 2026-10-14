@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Layout Artist"
-  short_description: "Translate approved boards into final camera fields, perspective, scale, ground planes,..."
-  default_prompt: "Use $anime-layout-artist for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

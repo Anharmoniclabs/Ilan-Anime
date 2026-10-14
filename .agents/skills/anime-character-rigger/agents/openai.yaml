@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Character Rigger"
-  short_description: "Build bounded layer hierarchies, pivots, constraints, deformation zones, swap drawings..."
-  default_prompt: "Use $anime-character-rigger for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

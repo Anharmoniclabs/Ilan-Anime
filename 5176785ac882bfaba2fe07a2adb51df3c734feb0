@@ -1,0 +1,8 @@
+<!doctype html><meta charset="utf-8">
+<meta name="viewport" content="width=device-width"><title>New night-canoe scene</title>
+<style>body{background:#101921;color:#ede6d6;font:17px/1.6 system-ui;max-width:1100px;margin:32px auto;padding:20px}video{width:100%;max-height:80vh;background:black}a{color:#7fb7d6}</style>
+<h1>Night journey through the mangroves</h1>
+<p>First four seconds · 4:3 · 1440×1080 · 24 fps · silent motion preview.</p>
+<video controls loop playsinline preload="metadata" poster="S01-02-middle.jpg" src="animation.mp4"></video>
+<p>Eight paddle cels, independent background/camera movement, water motion and foreground roots.</p>
+<p><a href="animation.mp4">Open video</a> · <a href="../../data/new-night-scene-preview.json">Animation settings</a></p>

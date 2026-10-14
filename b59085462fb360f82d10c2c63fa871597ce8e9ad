@@ -1,0 +1,48 @@
+{
+  "plate": "/home/alabs/Projects/AnimeMotion/river-opening/assets/Cemi-River-Scene/03-Keyframes/K01-Three-Canoes.png",
+  "plate_sha256": "889a3365d5709e6a454bbf8175813ec676ed10ce405da31eb98ddfa4a7a38cbd",
+  "canvas": [
+    1671,
+    941
+  ],
+  "frames": 192,
+  "fps": 24,
+  "duration": 8.0,
+  "regions": [
+    {
+      "name": "Dairon paddle cycle",
+      "rect": [
+        1250,
+        360,
+        400,
+        390
+      ],
+      "drawings": 12,
+      "hashes": [
+        "a2a5457d607d9b07e2e74ae8b9016349a7d662125adf6e02cc258bb1a50f0132",
+        "2b6916da8b49e5dd22e6123f09ec933ba33774fe2f058b1e9f723bc0594afed6",
+        "e5374760671618ef002f2769e8ed46fefff6306175e28f806e6e1af244675cb6",
+        "d33756eaa9894cc76697a0c5dbbe921018d3ae1b4ab30842df7756bdc2e5271a",
+        "5a80a4a70f486f81da9fe02bec79b2fbd6d4178cbeffd6f6df55f32580a6e8c6",
+        "a8524b3543b3103168cb386c2014c43930d6f3a4a0388214679b72ec8ed84445",
+        "c57a8350343ffb6a2398536542dec7d0a509cb847e3ef593060fa5c84b5866fb",
+        "3a0502d4deafe87f6e2b43f3ae7f529971d42432bcd1f4dff4c175be33c2319d",
+        "3501120c03e40dba27a6eda71a20ddbaa7e213d1be0a8c28a757e0f7334e0fc7",
+        "e233358605a8646e6e070bfbc0be1edb4c63de7d5e363ccd477c93287674cfbe",
+        "aa40054da4a5e724964cec4318ef1b89509164502832f3cb0483f2dc912ade86",
+        "5772d04bbd0f4821882e7db307fda9b9d2b203e78478846c1b1cd6039ec43538"
+      ]
+    },
+    {
+      "name": "Foreground water",
+      "rect": [
+        0,
+        770,
+        1670,
+        170
+      ],
+      "motion": "Water-only subpixel ripple; maximum displacement 2.7 source pixels."
+    }
+  ],
+  "limits": "Pixel containment and uniform registration are enforced. Drawing anatomy still requires visual review."
+}
