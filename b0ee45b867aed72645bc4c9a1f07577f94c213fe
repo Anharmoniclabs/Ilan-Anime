@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 16,
+      "rect": [
+        161,
+        354,
+        764,
+        446
+      ],
+      "content": "text",
+      "text": "background-group | 2026 | missing-dedicated-art\nThree distinct men, arguments, tile slap, PRESS drain, third returns inside; third not identified Don Chino.\nShots: S15-02, S15-04, S15-05, S15-06"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 547,
+    "story": 548
+  }
+}

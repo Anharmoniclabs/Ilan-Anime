@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 3,
+      "rect": [
+        161,
+        354,
+        764,
+        446
+      ],
+      "content": "text",
+      "text": "on-screen | childhood flashback | missing-dedicated-art\n2007 classroom PRESS; only tapping hand retains color.\nShots: S14-08"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 157,
+    "story": 158
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "review_id": "amaia-90s-master-independent-review",
+  "decision": "approve",
+  "approved_scope": "Exploratory full-body still master for further layer extraction/construction; visual usefulness only, not author identity approval or completed puppet/animation.",
+  "status": "exploratory",
+  "directly_viewed": [
+    "amaia-master.png",
+    "projects/cemi_episode_01/assets/references/author-cover-style.png"
+  ],
+  "source_rule": "Current author requests image-generation-led 1990s anime production. Cover is style reference only; Amaia costume/identity derives from character continuity, not cover tracing.",
+  "positive_findings": [
+    "Expressive grounded face, dense irregular hair detail, variable ink contours, nuanced cel planes and material texture improve substantially over rejected simple geometric puppet.",
+    "Ivory shoulder wrap, rust skirt/knot, tied long dark curls, round medallion and warm skin retain broad Amaia continuity.",
+    "Full body is intentionally framed with both feet and hands visible. No obvious duplicated limb or gross digit anomaly found at full-image inspection.",
+    "Pose is sufficiently open to plan limb separation; skin and fabric silhouettes are readable."
+  ],
+  "limitations": [
+    "One frontal view establishes neither multi-angle likeness nor turnarounds, expressions or animation stability. Exact source-pencil identity remains unverified.",
+    "The finish is useful for current anime direction but final resemblance/style lock remains the author gate.",
+    "Long hair overlaps torso; shoulder wrap/sash and skirt overlap multiple body segments; necklace is embedded with chest. Clean hidden surfaces and articulated overlap must be drawn/generated before broad motion.",
+    "Bare hands are in a specific relaxed pose, not reusable finger controls or prop grips. Knees/thighs are partly concealed by skirt; extracting this image alone cannot provide all required joints.",
+    "A 4x4 atlas may introduce scale, lighting, anatomy or accessory drift; each proposed tile must be registered against this master and independently checked."
+  ],
+  "alpha_check": {
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1536
+    ],
+    "range": [
+      0,
+      254
+    ],
+    "fully_transparent_pixels": 998609,
+    "fully_opaque_pixels": 0,
+    "very_low_alpha_pixels_1_to_8": 31907,
+    "observation": "Background haze visible in some image viewers is RGB under alpha0 at sampled locations. Subject sample alpha253; maximum254 means near-opaque rather than fully opaque. Check real alpha composites; do not flatten unseen RGB haze into output."
+  },
+  "next_handoff": "Proceed to separable atlas candidate and registration review, preserve master unchanged. Require clean alpha/overlap, stable face, matching costume and correctly connected limb anatomy before rig acceptance.",
+  "not_claimed": [
+    "Animation",
+    "Functional puppet",
+    "Final production-ready layers",
+    "Canonical character approval"
+  ],
+  "sha256": "bbfa41e8693615838e187e2cd3cb5045ebeb51db548358bc22a78e1ef24370aa"
+}

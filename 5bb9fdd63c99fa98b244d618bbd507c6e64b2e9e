@@ -1,4 +1,0 @@
-`04:18:00 → 04:24:00` (144f) · ABSTRACT · UI · rate 3s
-- **Action:** The filter stack as three gauze panes between the pipe and the projector: SMOOTHING (a comb), GATING (a door), NOISE FLOOR (a line). The shape and the loop pass through all three unchanged.
-- **FX:** `PANES_CEL(3); PASS_THROUGH(sigil,loop)`
-- **Sound:** Muffled filter hum. The sigil tone passes clear.

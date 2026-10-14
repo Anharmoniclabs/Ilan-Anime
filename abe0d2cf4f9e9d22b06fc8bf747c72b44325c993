@@ -1,0 +1,14 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.setName",
+    "params": {
+      "name": "Amaia - arm articulation and face"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 149,
+    "name": "Amaia - arm articulation and face"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 1600,
+      "name": "mouths - rounded"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

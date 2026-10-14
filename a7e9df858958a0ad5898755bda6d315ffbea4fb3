@@ -1,5 +1,0 @@
-`03:48:00 → 03:56:00` (192f) · FIX · laptop UI · rate 3s
-- **Action:** Second anomaly: under everything, an 8-second pressed band repeating. He hits DEL; the band returns. He deleted it 'a dozen times as garbage'. A counter of DEL presses ticks up to 12.
-- **FX:** `UI_LAPTOP(wave_lanes); PRESS(0.15 on UI only); UI_COUNTER`
-- **Sound:** A dry, low 8s texture under the room. Key taps.
-- **Note:** Introduces the 192-frame loop; lock LOOP_FRAMES in all later cues.

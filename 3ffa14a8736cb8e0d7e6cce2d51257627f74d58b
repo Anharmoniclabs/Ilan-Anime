@@ -1,0 +1,194 @@
+{
+  "tool": "add_keyframe",
+  "arguments": {
+    "layer": 576,
+    "path": "transform/rotation",
+    "keys": [
+      {
+        "time": 0.0,
+        "value": 8.94234212413919
+      },
+      {
+        "time": 0.125,
+        "value": 8.161980836074676
+      },
+      {
+        "time": 0.25,
+        "value": 7.41160839467883
+      },
+      {
+        "time": 0.375,
+        "value": 6.720061192060781
+      },
+      {
+        "time": 0.5,
+        "value": 6.113914999393
+      },
+      {
+        "time": 0.625,
+        "value": 5.616463674929008
+      },
+      {
+        "time": 0.75,
+        "value": 5.246823994094043
+      },
+      {
+        "time": 0.875,
+        "value": 5.019201002526268
+      },
+      {
+        "time": 1.0,
+        "value": 4.94234212413919
+      },
+      {
+        "time": 1.125,
+        "value": 5.019201002526268
+      },
+      {
+        "time": 1.25,
+        "value": 5.246823994094043
+      },
+      {
+        "time": 1.375,
+        "value": 5.616463674929008
+      },
+      {
+        "time": 1.5,
+        "value": 6.113914999393
+      },
+      {
+        "time": 1.625,
+        "value": 6.720061192060781
+      },
+      {
+        "time": 1.75,
+        "value": 7.41160839467883
+      },
+      {
+        "time": 1.875,
+        "value": 8.161980836074676
+      },
+      {
+        "time": 2.0,
+        "value": 8.94234212413919
+      }
+    ],
+    "interpolation": "hold"
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": true,
+    "expression": null,
+    "keys": [
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 0.0,
+        "value": 8.94234212413919
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 0.125,
+        "value": 8.161980836074676
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 0.25,
+        "value": 7.41160839467883
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 0.375,
+        "value": 6.720061192060781
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 0.5,
+        "value": 6.113914999393
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 0.625,
+        "value": 5.616463674929008
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 0.75,
+        "value": 5.246823994094043
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 0.875,
+        "value": 5.019201002526268
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 1.0,
+        "value": 4.94234212413919
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 1.125,
+        "value": 5.019201002526268
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 1.25,
+        "value": 5.246823994094043
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 1.375,
+        "value": 5.616463674929008
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 1.5,
+        "value": 6.113914999393
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 1.625,
+        "value": 6.720061192060781
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 1.75,
+        "value": 7.41160839467883
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 1.875,
+        "value": 8.161980836074676
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 2.0,
+        "value": 8.94234212413919
+      }
+    ],
+    "layer": 576,
+    "match": "rotation",
+    "name": "Rotation",
+    "time": 0.0,
+    "type": "scalar",
+    "uid": 588,
+    "value": 8.94234212413919
+  }
+}

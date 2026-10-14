@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 9,
+      "rect": [
+        161,
+        86,
+        764,
+        108
+      ],
+      "content": "text",
+      "text": "Puerto Rican mother"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 323,
+    "story": 324
+  }
+}

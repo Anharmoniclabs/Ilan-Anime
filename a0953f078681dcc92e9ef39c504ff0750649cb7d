@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 3602,
+      "name": "seated-son-poses - lean"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

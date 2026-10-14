@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 2,
+      "rect": [
+        161,
+        452,
+        764,
+        474
+      ],
+      "content": "text",
+      "text": "Bank torch soldiers"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 131,
+    "story": 132
+  }
+}

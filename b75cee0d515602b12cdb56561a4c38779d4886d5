@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 19,
+      "rect": [
+        161,
+        476,
+        764,
+        568
+      ],
+      "content": "text",
+      "text": "optional-implied | various | no-character-drawing-required\nNot specified; include only if stroller layout requires adult.\nShots: S10-03"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 643,
+    "story": 644
+  }
+}

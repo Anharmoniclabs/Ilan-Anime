@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 12,
+      "rect": [
+        161,
+        452,
+        764,
+        474
+      ],
+      "content": "text",
+      "text": "Baby in stroller"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 431,
+    "story": 432
+  }
+}

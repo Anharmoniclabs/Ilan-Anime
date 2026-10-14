@@ -1,0 +1,28 @@
+{
+  "tool": "set_property",
+  "arguments": {
+    "layer": 804,
+    "path": "transform/scale",
+    "value": [
+      105,
+      105
+    ]
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": false,
+    "expression": null,
+    "keys": [],
+    "layer": 804,
+    "match": "scale",
+    "name": "Scale",
+    "time": 0.0,
+    "type": "vec3",
+    "uid": 810,
+    "value": [
+      105.0,
+      105.0,
+      0.0
+    ]
+  }
+}

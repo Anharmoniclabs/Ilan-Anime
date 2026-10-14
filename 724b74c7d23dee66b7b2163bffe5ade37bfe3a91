@@ -1,5 +1,0 @@
-`06:42:00 → 06:48:00` (144f) · WS · window POV · rate 3s
-- **Action:** The block is out: streetlights, bodega sign, the laundromat on Jerome, every window up and down. Distant city skyline glows normally beyond the block's edge.
-- **FX:** `PAINTED_BG(night_block_dark); AMBIENT_GLOW(far skyline)`
-- **Sound:** Distant city hum; none on the block.
-- **Note:** [ADAPT] The far skyline lit makes the blackout read as block-sized.

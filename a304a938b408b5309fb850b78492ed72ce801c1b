@@ -1,0 +1,21 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "file.import",
+    "params": {
+      "paths": [
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/generated/mouths.png"
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comps": [],
+    "errors": [],
+    "items": [
+      1
+    ],
+    "unlabeledAlpha": [],
+    "warnings": []
+  }
+}

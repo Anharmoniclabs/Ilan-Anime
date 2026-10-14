@@ -1,0 +1,22 @@
+{
+  "tool": "set_property",
+  "arguments": {
+    "layer": 357,
+    "path": "transform/opacity",
+    "expression": "var m=thisComp.layer(\"Mouth controls\").effect(\"Slider Control\")(\"Slider\"); m>=4.5&&m<5.5?100:0"
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": false,
+    "evaluated": 0.0,
+    "expression": "var m=thisComp.layer(\"Mouth controls\").effect(\"Slider Control\")(\"Slider\"); m>=4.5&&m<5.5?100:0",
+    "keys": [],
+    "layer": 357,
+    "match": "opacity",
+    "name": "Opacity",
+    "time": 0.0,
+    "type": "scalar",
+    "uid": 368,
+    "value": 100.0
+  }
+}

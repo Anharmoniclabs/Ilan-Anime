@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 1914,
+      "name": "closed-b"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

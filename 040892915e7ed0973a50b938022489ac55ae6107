@@ -1,0 +1,215 @@
+{
+  "source_style": {
+    "file": "projects/cemi_episode_01/assets/references/author-cover-style.png",
+    "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c",
+    "scope": "style only"
+  },
+  "assets": [
+    {
+      "file": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/abuela-hands-master.png",
+      "sha256": "03b48acca87a4e9b777b91f50d5d19daee802c5e626f345632399f5e0f78c118",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/abuela-hands-prompt.txt",
+      "prompt_sha256": "bc00b72407e3c16ba4a34b0377919817319754592fce446b0b7a4f91a1fb1539",
+      "status": "exploratory",
+      "tool": "built-in image_gen",
+      "paid_api_used": false
+    },
+    {
+      "file": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/jc-master-v2.png",
+      "sha256": "63ea6611a922f448805d77f4a01df3e10d45219dd985a14a6bdafd903c8a26bf",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/jc-v2-prompt.txt",
+      "prompt_sha256": "a9503a608964131d9101c0bd1767a11b3ff71228c5d244a99865aaddf13da69e",
+      "status": "exploratory",
+      "tool": "built-in image_gen",
+      "paid_api_used": false
+    },
+    {
+      "file": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/jc-master.png",
+      "sha256": "e4609e083a908ad3127cb470e6ecb14027def90faa3c1168efead05f63ee0cdb",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/jc-prompt.txt",
+      "prompt_sha256": "f429b50b17d39100fb841d3d015804028286f7320c6c88f3e0aa113515f09828",
+      "status": "superseded",
+      "tool": "built-in image_gen",
+      "paid_api_used": false
+    },
+    {
+      "file": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/mama-master.png",
+      "sha256": "d574a084b616dfbefda4b5fa3aa124a362b8728598f83d7ef5a9e661c9556730",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/mama-prompt.txt",
+      "prompt_sha256": "dea6a37a4feb6d55a238a19efac128e8eb12751c2178b9124fe32e60c4356079",
+      "status": "exploratory",
+      "tool": "built-in image_gen",
+      "paid_api_used": false
+    },
+    {
+      "file": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/manny-master-v2.png",
+      "sha256": "736d023266a936942850ae0a5c7cd2df4fbd27efba60fd2bceb66c14a65df5f7",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/manny-v2-prompt.txt",
+      "prompt_sha256": "2b6a0a9df57fab2996c01bde4f063d0502ad0ad4cd1f15157618995e2a1a8944",
+      "status": "exploratory",
+      "tool": "built-in image_gen",
+      "paid_api_used": false
+    },
+    {
+      "file": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/manny-master.png",
+      "sha256": "a9e761a596802d9d131e01d0d76501d87d6e425e1e843cc3c5f09a299d17a252",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/manny-prompt.txt",
+      "prompt_sha256": "d999fab9e7ded7530e24b0b996dc935932ba6fe2a53681d88d6cd8dc4c1cbbaf",
+      "status": "superseded",
+      "tool": "built-in image_gen",
+      "paid_api_used": false
+    },
+    {
+      "file": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/rodriguez-master-v2.png",
+      "sha256": "cae297ecc00556c8e173b0acdbd7310b70b0bab2e7cd0668250a39d76957c320",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/rodriguez-v2-prompt.txt",
+      "prompt_sha256": "256b357424052037a6a125d1d70d058806a2d830a11c803f38fd24618a77bf4b",
+      "status": "exploratory",
+      "tool": "built-in image_gen",
+      "paid_api_used": false
+    },
+    {
+      "file": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/rodriguez-master.png",
+      "sha256": "a5adea68a029991011d9947ad6c86071fd28d93539fd0e3318d2b66e57d5ddd2",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/rodriguez-prompt.txt",
+      "prompt_sha256": "ac7ab5a52bdb52c6d53b26f7d5cfc633961debab10aef043d88c86b55dacdf87",
+      "status": "superseded",
+      "tool": "built-in image_gen",
+      "paid_api_used": false
+    },
+    {
+      "file": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/sofia-master.png",
+      "sha256": "4a2503596a619637605e5776d8e057dd8dfc777bd05ffd032ff880b04e67f17f",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/sofia-prompt.txt",
+      "prompt_sha256": "709c29038705439d06a2d3723097cb08446e1dc2e46dd9ecbc87e6562d38a17d",
+      "status": "exploratory",
+      "tool": "built-in image_gen",
+      "paid_api_used": false
+    },
+    {
+      "file": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/vale-master.png",
+      "sha256": "93b33c36e25a2901d459d956bc2f30b51545b9127c7efbca3c18b27c4897b6f9",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/vale-prompt.txt",
+      "prompt_sha256": "c1a2275f1bdb6adb5243debf797ae7dc1a6043f5304410639b68791c68aa1538",
+      "status": "exploratory",
+      "tool": "built-in image_gen",
+      "paid_api_used": false
+    },
+    {
+      "file": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/window-man-master.png",
+      "sha256": "139ed5982e8c4868dd83c4aa38977c4455e000e76bca871e518886e3123c4e47",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "prompt": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/window-man-prompt.txt",
+      "prompt_sha256": "2048b7d48bed5d6e22fcd3358cab6910f6e7f59e89e7367297e9e184d7eac092",
+      "status": "exploratory",
+      "tool": "built-in image_gen",
+      "paid_api_used": false
+    }
+  ],
+  "author_approval": false,
+  "identity_authority": "Current episode script and earlier author character bible; new proposals require exact-file author acceptance.",
+  "limits": [
+    "Native source masters are not articulated rigs.",
+    "Image edit prompts request localized changes but these v2 images are revised complete masters, not pixel-registered replacement cels.",
+    "Abuela source is elderly hand reference only: coin symbol and child receiving hand unfinished.",
+    "Vale is one proposed photo pose, not the complete nine-photo insert."
+  ]
+}

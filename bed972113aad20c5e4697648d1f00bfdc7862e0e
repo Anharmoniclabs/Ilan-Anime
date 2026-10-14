@@ -1,4 +1,0 @@
-`18:22:00 → 18:30:00` (192f) · CU JC → CU speaker · rate 3s
-- **Action:** The merengue keeps going. The next song starts. The plate is there, in the same spot. JC looks up at the speaker over the door.
-- **FX:** `SONG_CHANGE(cut on downbeat); PLATE_CEL(same position); PUSH_IN(speaker, decal)`
-- **Sound:** Next track cut in; loop unchanged.

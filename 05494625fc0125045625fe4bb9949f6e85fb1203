@@ -1,0 +1,29 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "file.import",
+    "params": {
+      "paths": [
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/generated/turnaround.png",
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/generated/body-underpaint.png",
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/generated/arms-only.png",
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/generated/arm-joints.png",
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/amaia-master.png"
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comps": [],
+    "errors": [],
+    "items": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "unlabeledAlpha": [],
+    "warnings": []
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "canvas": [
+    1024,
+    1536
+  ],
+  "status": "exploratory",
+  "fps": 24,
+  "layers": {
+    "body-control": 404,
+    "head-control": 416,
+    "Face controls": 428,
+    "pony": 442,
+    "right-thigh": 465,
+    "right-shin-foot": 493,
+    "left-thigh": 516,
+    "left-shin-foot": 544,
+    "right-upper-arm": 567,
+    "right-forearm": 595,
+    "right-hand": 623,
+    "left-upper-arm": 646,
+    "left-forearm": 674,
+    "left-hand": 702,
+    "torso": 725,
+    "skirt": 753,
+    "head-neutral": 776,
+    "head-blink": 804,
+    "head-talk": 832
+  },
+  "source": "amaia-parts-atlas.png",
+  "layout": [
+    {
+      "name": "pony",
+      "crop": [
+        998,
+        0,
+        205,
+        327
+      ],
+      "atlas_anchor": [
+        1090,
+        114
+      ],
+      "position": [
+        428,
+        220
+      ],
+      "scale": [
+        100,
+        160
+      ],
+      "parent": null,
+      "source": "parts/pony.png"
+    },
+    {
+      "name": "right-thigh",
+      "crop": [
+        68,
+        938,
+        175,
+        288
+      ],
+      "atlas_anchor": [
+        165,
+        969
+      ],
+      "position": [
+        433,
+        703
+      ],
+      "scale": [
+        145,
+        205
+      ],
+      "parent": null,
+      "source": "parts/right-thigh.png"
+    },
+    {
+      "name": "right-shin-foot",
+      "crop": [
+        1031,
+        620,
+        116,
+        304
+      ],
+      "atlas_anchor": [
+        1097,
+        650
+      ],
+      "position": [
+        370,
+        1201
+      ],
+      "scale": [
+        100,
+        105
+      ],
+      "parent": "right-thigh",
+      "source": "parts/right-shin-foot.png"
+    },
+    {
+      "name": "left-thigh",
+      "crop": [
+        710,
+        634,
+        160,
+        280
+      ],
+      "atlas_anchor": [
+        779,
+        660
+      ],
+      "position": [
+        563,
+        703
+      ],
+      "scale": [
+        145,
+        205
+      ],
+      "parent": null,
+      "source": "parts/left-thigh.png"
+    },
+    {
+      "name": "left-shin-foot",
+      "crop": [
+        423,
+        926,
+        112,
+        316
+      ],
+      "atlas_anchor": [
+        477,
+        960
+      ],
+      "position": [
+        655,
+        1201
+      ],
+      "scale": [
+        100,
+        105
+      ],
+      "parent": "left-thigh",
+      "source": "parts/left-shin-foot.png"
+    },
+    {
+      "name": "right-upper-arm",
+      "crop": [
+        58,
+        324,
+        177,
+        296
+      ],
+      "atlas_anchor": [
+        176,
+        356
+      ],
+      "position": [
+        352,
+        330
+      ],
+      "scale": [
+        100,
+        100
+      ],
+      "parent": "torso",
+      "source": "parts/right-upper-arm.png"
+    },
+    {
+      "name": "right-forearm",
+      "crop": [
+        85,
+        641,
+        142,
+        272
+      ],
+      "atlas_anchor": [
+        181,
+        674
+      ],
+      "position": [
+        287,
+        562
+      ],
+      "scale": [
+        95,
+        95
+      ],
+      "parent": "right-upper-arm",
+      "source": "parts/right-forearm.png"
+    },
+    {
+      "name": "right-hand",
+      "crop": [
+        715,
+        344,
+        133,
+        261
+      ],
+      "atlas_anchor": [
+        784,
+        370
+      ],
+      "position": [
+        234,
+        772
+      ],
+      "scale": [
+        60,
+        60
+      ],
+      "parent": "right-forearm",
+      "source": "parts/right-hand.png"
+    },
+    {
+      "name": "left-upper-arm",
+      "crop": [
+        1018,
+        324,
+        188,
+        294
+      ],
+      "atlas_anchor": [
+        1070,
+        350
+      ],
+      "position": [
+        647,
+        330
+      ],
+      "scale": [
+        95,
+        95
+      ],
+      "parent": "torso",
+      "source": "parts/left-upper-arm.png"
+    },
+    {
+      "name": "left-forearm",
+      "crop": [
+        420,
+        329,
+        138,
+        282
+      ],
+      "atlas_anchor": [
+        466,
+        352
+      ],
+      "position": [
+        724,
+        556
+      ],
+      "scale": [
+        95,
+        95
+      ],
+      "parent": "left-upper-arm",
+      "source": "parts/left-forearm.png"
+    },
+    {
+      "name": "left-hand",
+      "crop": [
+        426,
+        650,
+        130,
+        250
+      ],
+      "atlas_anchor": [
+        484,
+        678
+      ],
+      "position": [
+        771,
+        774
+      ],
+      "scale": [
+        60,
+        60
+      ],
+      "parent": "left-forearm",
+      "source": "parts/left-hand.png"
+    },
+    {
+      "name": "torso",
+      "crop": [
+        330,
+        16,
+        292,
+        296
+      ],
+      "atlas_anchor": [
+        477,
+        36
+      ],
+      "position": [
+        500,
+        246
+      ],
+      "scale": [
+        120,
+        120
+      ],
+      "parent": null,
+      "source": "parts/torso.png"
+    },
+    {
+      "name": "skirt",
+      "crop": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "atlas_anchor": [
+        520,
+        60
+      ],
+      "position": [
+        506,
+        569
+      ],
+      "scale": [
+        50,
+        55
+      ],
+      "parent": null,
+      "source": "amaia-skirt-hires.png"
+    },
+    {
+      "name": "head-neutral",
+      "crop": [
+        20,
+        8,
+        285,
+        300
+      ],
+      "atlas_anchor": [
+        176,
+        237
+      ],
+      "position": [
+        500,
+        235
+      ],
+      "scale": [
+        105,
+        105
+      ],
+      "parent": "head-control",
+      "source": "parts/head-neutral.png"
+    },
+    {
+      "name": "head-blink",
+      "crop": [
+        646,
+        940,
+        280,
+        298
+      ],
+      "atlas_anchor": [
+        791,
+        1170
+      ],
+      "position": [
+        500,
+        235
+      ],
+      "scale": [
+        105,
+        105
+      ],
+      "parent": "head-control",
+      "source": "parts/head-blink.png"
+    },
+    {
+      "name": "head-talk",
+      "crop": [
+        961,
+        939,
+        287,
+        299
+      ],
+      "atlas_anchor": [
+        1104,
+        1170
+      ],
+      "position": [
+        500,
+        235
+      ],
+      "scale": [
+        105,
+        105
+      ],
+      "parent": "head-control",
+      "source": "parts/head-talk.png"
+    }
+  ],
+  "limits": [
+    "Front view only, limited joint rotation; visible small elbow/wrist/knee shade and silhouette transitions remain.",
+    "Three registered whole-head states; not a full phoneme library or face rig.",
+    "Generated atlas limits head/arm resolution for closeups; skirt uses separate1024x1536 image at50%x55%.",
+    "Control demonstration only; no finished scene acting or full anime animation claim."
+  ],
+  "validation": {
+    "native_reopened_main": "AMAIA - editable full body",
+    "layers": 19,
+    "essential_controls": 17,
+    "paint_layers": 16,
+    "paint_hidden_alternates": [
+      "head-blink",
+      "head-talk"
+    ],
+    "demo_frames": 72,
+    "demo_fps": 24,
+    "identical_frames_in_each_three_frame_hold": true,
+    "demo_duration_seconds": 3
+  }
+}

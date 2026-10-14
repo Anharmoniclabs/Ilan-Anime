@@ -1,0 +1,14 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.openInEssentialGraphics",
+    "params": {
+      "comp": 149
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 149,
+    "name": "AMAIA - articulated candidate"
+  }
+}

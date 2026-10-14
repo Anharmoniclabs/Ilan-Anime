@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 12,
+      "rect": [
+        161,
+        110,
+        764,
+        202
+      ],
+      "content": "text",
+      "text": "on-screen | 2026 | missing-dedicated-art\nHi-vis, ladder, dialogue; DISTINCT face from window man.\nShots: S08-03, S08-04"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 415,
+    "story": 416
+  }
+}

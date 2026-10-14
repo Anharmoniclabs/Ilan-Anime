@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 1414,
+      "name": "mouths - parted"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

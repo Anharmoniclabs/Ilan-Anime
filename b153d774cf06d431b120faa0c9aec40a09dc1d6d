@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 18,
+      "rect": [
+        161,
+        208,
+        764,
+        230
+      ],
+      "content": "text",
+      "text": "Rodríguez’s mother"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 599,
+    "story": 600
+  }
+}

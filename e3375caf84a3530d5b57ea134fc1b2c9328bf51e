@@ -1,0 +1,28 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "project.delete",
+    "params": {
+      "items": [
+        "SOURCE - pony",
+        "SOURCE - right-thigh",
+        "SOURCE - right-shin-foot",
+        "SOURCE - left-thigh",
+        "SOURCE - left-shin-foot",
+        "SOURCE - right-upper-arm",
+        "SOURCE - right-forearm",
+        "SOURCE - right-hand",
+        "SOURCE - left-upper-arm",
+        "SOURCE - left-forearm",
+        "SOURCE - left-hand",
+        "SOURCE - torso",
+        "SOURCE - skirt",
+        "SOURCE - head-neutral",
+        "SOURCE - head-blink",
+        "SOURCE - head-talk"
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": 16
+}

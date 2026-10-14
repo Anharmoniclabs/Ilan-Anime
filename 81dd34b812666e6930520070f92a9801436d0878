@@ -1,0 +1,13 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.newNull",
+    "params": {
+      "name": "Mouth controls"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 231
+  }
+}

@@ -1,4 +1,0 @@
-`00:09:00 → 00:15:00` (144f) · FIX · ECU low on waterline · rate 3s
-- **Action:** Black water, a hand-width of surface. A paddle blade enters, leaves, rings spread. Lower-left small caps: BEFORE.
-- **FX:** `PAINTED_BG(night_water); WATER_CEL(rings); TEXT_SUPER(BEFORE); VIGNETTE(0.7)`
-- **Sound:** Water drip, insects. A frog stops mid-call. No music.

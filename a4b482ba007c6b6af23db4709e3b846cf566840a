@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 16,
+      "rect": [
+        161,
+        476,
+        764,
+        568
+      ],
+      "content": "text",
+      "text": "text-ui-only | various | no-character-drawing-required\nMessages only; relationship not stated in episode.\nShots: S10-05"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 553,
+    "story": 554
+  }
+}

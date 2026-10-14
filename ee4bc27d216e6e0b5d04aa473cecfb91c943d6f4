@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 9,
+      "rect": [
+        161,
+        330,
+        764,
+        352
+      ],
+      "content": "text",
+      "text": "Boy copying world map"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 335,
+    "story": 336
+  }
+}

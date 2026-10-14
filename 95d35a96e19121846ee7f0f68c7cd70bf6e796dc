@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 19,
+      "rect": [
+        161,
+        330,
+        764,
+        352
+      ],
+      "content": "text",
+      "text": "Train conductor"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 635,
+    "story": 636
+  }
+}

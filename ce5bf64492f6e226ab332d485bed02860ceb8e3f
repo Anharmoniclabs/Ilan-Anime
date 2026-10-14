@@ -1,0 +1,11 @@
+{
+  "tool": "save_document",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/arthouse-pack-v1/tasks/visuals/written-books/CHARACTER_BIBLE.designcraft"
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 13927,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/arthouse-pack-v1/tasks/visuals/written-books/CHARACTER_BIBLE.designcraft"
+  }
+}

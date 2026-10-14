@@ -1,0 +1,35 @@
+{
+  "candidate_sha256": "8a844f1098286df2dbfe2efc1d9104eeaf06a8e0b1156f66073901d6b8737802",
+  "references": {
+    "production/runs/cemi-90s-production/tasks/amaia-complete/contact-s01-13/references/02-Amaias-Son.png": "d043191190e92704882664ebc6adb33be69a6e06af769b8eed36ebb670940a95",
+    "production/runs/cemi-90s-production/tasks/amaia-complete/contact-s01-13/references/amaia-master.png": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+  },
+  "checks": {
+    "identity": "Amaia retains brown eyes, tied dark textured hair, adult narrow face and slim build from approved r2 master; face is newly drawn and requires independent likeness review. Son retains dark tousled hair and compact toddler proportions from archived reference.",
+    "costume": "Amaia white diagonal wrap, circular pendant, rust-red skirt; child white sleeveless tunic and shorts.",
+    "props_and_contact": "No props. Mother supports child across lap with two readable hands, one across thighs and one around hip/back; child cheek/mouth presses into maternal wrapped ribcage. Sleeping eyes closed. All maternal and child feet inside canvas. Hidden child arm and maternal rear forearm remain occluded in connected drawing.",
+    "composition": "Single full seated mother-and-child source cel. No montage or text. Full mother feet and skirt visible with narrow margin at right hem. Portrait asset canvas, not final shot composition.",
+    "lighting": "Neutral warm skin/cloth production light matching master. Moonless scene relighting/compositing still needed. No baked environment.",
+    "line_and_color": "Clean varying ink, detailed hair strands, full warm palette and restrained cel planes consistent with supplied r2 drawing.",
+    "neighbor_continuity": "No shot continuity or mother-child motion claimed from this single connected drawing.",
+    "script_fidelity": "Provides sleeping under-two son at ribs and seated mother suitable as S01-13 source. Does not animate child speech or mother turn."
+  },
+  "continuity": {
+    "character_ids": [
+      "amaia",
+      "amaias-son"
+    ],
+    "costume_ids": [
+      "amaia-white-wrap-rust-skirt",
+      "son-white-tunic-shorts"
+    ],
+    "prop_ids": [],
+    "time": "BEFORE; moonless night scene; neutral source asset",
+    "location": "Mangrove escape canoe; isolated source before scene assembly"
+  },
+  "limits": [
+    "Connected flattened source paint; occluded surfaces and separate articulated mother-child layers are not generated.",
+    "One still contact drawing; no speech, breathing, weight shift or performance validation.",
+    "Independent technical review and exact-digest author review pending."
+  ]
+}

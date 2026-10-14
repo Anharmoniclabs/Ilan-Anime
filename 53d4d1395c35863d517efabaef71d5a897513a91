@@ -1,0 +1,21 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addMask",
+    "params": {
+      "layer": 171,
+      "shape": "rect",
+      "rect": [
+        60,
+        100,
+        400,
+        1350
+      ],
+      "mode": "Add"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "mask": 194
+  }
+}

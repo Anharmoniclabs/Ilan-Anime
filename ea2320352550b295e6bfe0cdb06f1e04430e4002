@@ -1,0 +1,461 @@
+{
+  "tool": "get_project",
+  "arguments": {},
+  "status": "succeeded",
+  "result": {
+    "activeComp": 2,
+    "bitDepth": "8 bpc",
+    "dirty": false,
+    "items": [
+      {
+        "id": 1,
+        "label": "Lavender",
+        "name": "amaia-parts-atlas.png",
+        "parent": null,
+        "size": [
+          1254,
+          1254
+        ],
+        "type": "Image"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 2,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - pony",
+        "parent": null,
+        "size": [
+          205,
+          327
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 26,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - right-thigh",
+        "parent": null,
+        "size": [
+          175,
+          288
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 50,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - right-shin-foot",
+        "parent": null,
+        "size": [
+          116,
+          304
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 74,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - left-thigh",
+        "parent": null,
+        "size": [
+          160,
+          280
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 98,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - left-shin-foot",
+        "parent": null,
+        "size": [
+          112,
+          316
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 122,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - right-upper-arm",
+        "parent": null,
+        "size": [
+          177,
+          296
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 146,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - right-forearm",
+        "parent": null,
+        "size": [
+          142,
+          272
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 170,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - right-hand",
+        "parent": null,
+        "size": [
+          133,
+          261
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 194,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - left-upper-arm",
+        "parent": null,
+        "size": [
+          188,
+          294
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 218,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - left-forearm",
+        "parent": null,
+        "size": [
+          138,
+          282
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 242,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - left-hand",
+        "parent": null,
+        "size": [
+          130,
+          250
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 266,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - torso",
+        "parent": null,
+        "size": [
+          292,
+          296
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 290,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - skirt",
+        "parent": null,
+        "size": [
+          266,
+          331
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 314,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - head-neutral",
+        "parent": null,
+        "size": [
+          285,
+          300
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 338,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - head-blink",
+        "parent": null,
+        "size": [
+          280,
+          298
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 362,
+        "label": "Sandstone",
+        "layers": 1,
+        "name": "SOURCE - head-talk",
+        "parent": null,
+        "size": [
+          287,
+          299
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 386,
+        "label": "Sandstone",
+        "layers": 19,
+        "name": "AMAIA - editable full body",
+        "parent": null,
+        "size": [
+          1024,
+          1536
+        ],
+        "type": "Composition"
+      },
+      {
+        "id": 387,
+        "label": "Lavender",
+        "name": "pony.png",
+        "parent": null,
+        "size": [
+          205,
+          327
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 388,
+        "label": "Lavender",
+        "name": "right-thigh.png",
+        "parent": null,
+        "size": [
+          175,
+          288
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 389,
+        "label": "Lavender",
+        "name": "right-shin-foot.png",
+        "parent": null,
+        "size": [
+          116,
+          304
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 390,
+        "label": "Lavender",
+        "name": "left-thigh.png",
+        "parent": null,
+        "size": [
+          160,
+          280
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 391,
+        "label": "Lavender",
+        "name": "left-shin-foot.png",
+        "parent": null,
+        "size": [
+          112,
+          316
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 392,
+        "label": "Lavender",
+        "name": "right-upper-arm.png",
+        "parent": null,
+        "size": [
+          177,
+          296
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 393,
+        "label": "Lavender",
+        "name": "right-forearm.png",
+        "parent": null,
+        "size": [
+          142,
+          272
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 394,
+        "label": "Lavender",
+        "name": "right-hand.png",
+        "parent": null,
+        "size": [
+          133,
+          261
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 395,
+        "label": "Lavender",
+        "name": "left-upper-arm.png",
+        "parent": null,
+        "size": [
+          188,
+          294
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 396,
+        "label": "Lavender",
+        "name": "left-forearm.png",
+        "parent": null,
+        "size": [
+          138,
+          282
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 397,
+        "label": "Lavender",
+        "name": "left-hand.png",
+        "parent": null,
+        "size": [
+          130,
+          250
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 398,
+        "label": "Lavender",
+        "name": "torso.png",
+        "parent": null,
+        "size": [
+          292,
+          296
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 399,
+        "label": "Lavender",
+        "name": "skirt.png",
+        "parent": null,
+        "size": [
+          266,
+          331
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 400,
+        "label": "Lavender",
+        "name": "head-neutral.png",
+        "parent": null,
+        "size": [
+          285,
+          300
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 401,
+        "label": "Lavender",
+        "name": "head-blink.png",
+        "parent": null,
+        "size": [
+          280,
+          298
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 402,
+        "label": "Lavender",
+        "name": "head-talk.png",
+        "parent": null,
+        "size": [
+          287,
+          299
+        ],
+        "type": "Image"
+      },
+      {
+        "duration": 3.0,
+        "frameRate": 24.0,
+        "id": 1351,
+        "label": "Sandstone",
+        "layers": 19,
+        "name": "AMAIA - bounded control demonstration",
+        "parent": null,
+        "size": [
+          1024,
+          1536
+        ],
+        "type": "Composition"
+      }
+    ],
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets/amaia-puppet.ecproj",
+    "renderer": {
+      "active": "cpu",
+      "adapter": null,
+      "gpuAcceleration": true,
+      "renderer": "Mercury GPU Acceleration"
+    },
+    "selectedLayers": [],
+    "time": 0.0,
+    "undo": []
+  }
+}

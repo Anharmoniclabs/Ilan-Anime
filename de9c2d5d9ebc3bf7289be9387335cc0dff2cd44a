@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 7,
+      "rect": [
+        161,
+        476,
+        764,
+        568
+      ],
+      "content": "text",
+      "text": "on-screen | 1973 Echo | missing-dedicated-art\nShell-toes, milk crate, two identical records, quarters. Do not identify a real musician.\nShots: S12-06, S12-07"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 283,
+    "story": 284
+  }
+}

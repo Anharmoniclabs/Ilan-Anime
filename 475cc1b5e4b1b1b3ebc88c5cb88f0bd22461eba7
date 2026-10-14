@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 4,
+      "rect": [
+        161,
+        232,
+        764,
+        324
+      ],
+      "content": "text",
+      "text": "on-screen | childhood flashback | reference-only\nFever, sleeping, dirt under fingernails; coin in hand.\nShots: S03-06, S07-05"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 181,
+    "story": 182
+  }
+}

@@ -1,7 +1,0 @@
-Built-in image generation attempted for ordinary morning street walk scene using S08-03 endpoint as reference.
-No image returned. Tool rejected generated output: HTTP 400 moderation_blocked, moderation_stage output, category other.
-Request ID: 7bceef16-3b96-4da4-936e-bb290bd5a1f1.
-Exact submitted prompt saved in generation-prompt-v1.txt. No automatic retry or provider change performed. End frame not generated because start frame is unavailable.
-
-
-{}

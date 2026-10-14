@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 18,
+      "rect": [
+        161,
+        476,
+        764,
+        568
+      ],
+      "content": "text",
+      "text": "mentioned-only | various | no-character-drawing-required\nThe kid in dialogue, no shown face.\nShots: S03-13, S09-04, S10-04"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 613,
+    "story": 614
+  }
+}

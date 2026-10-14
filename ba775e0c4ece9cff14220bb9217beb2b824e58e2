@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 4,
+      "rect": [
+        161,
+        354,
+        764,
+        446
+      ],
+      "content": "text",
+      "text": "on-screen | 2026 | exploratory-master-available-not-rigged\nRosary fist, slippers, kitchen gestures, slow Look; no full wardrobe approval inferred.\nShots: S06-01, S06-02, S07-02, S07-03, S07-04, S07-05, S07-06"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 187,
+    "story": 188
+  }
+}

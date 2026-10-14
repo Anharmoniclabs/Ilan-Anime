@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 1352,
+      "name": "mouths - closed-b"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

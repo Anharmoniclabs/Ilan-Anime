@@ -1,4 +1,0 @@
-`04:46:00 → 04:51:00` (120f) · WS room → CU wall · rate 2s
-- **Action:** The projector coughs. The cobalt 'JC' test loop breaks into static, which pulls toward the middle of the wall. The plaster surface ripples in concentric rings.
-- **FX:** `STATIC_PULL(center); SHOCKWAVE_RING(wall); PLASTER_CRACK(hand-drawn, 2s)`
-- **Sound:** Static sucks inward; plaster creak.

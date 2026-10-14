@@ -1,4 +1,0 @@
-`17:54:00 → 18:06:00` (288f) · MS tiles · rate 3s
-- **Action:** Cycle after cycle the men's faces dull a little (PRESS +0.08 per cycle). One slaps a tile too hard and says something he'd have been ashamed of on a normal Tuesday. The other says something back.
-- **FX:** `PRESS(per cycle +0.08); IMPACT_FLASH(1f on slap); MOUTH_FLAP(indistinct)`
-- **Sound:** Tile slap; the words are masked by the merengue.

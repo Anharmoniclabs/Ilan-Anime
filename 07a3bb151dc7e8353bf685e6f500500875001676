@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.addProperty",
+    "params": {
+      "layer": 416,
+      "path": "transform/rotation",
+      "name": "head-control rotation"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "controls": [
+      863
+    ],
+    "mirrors": []
+  }
+}

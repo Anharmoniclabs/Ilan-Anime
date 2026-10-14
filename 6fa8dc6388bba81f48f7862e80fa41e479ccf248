@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 7,
+      "rect": [
+        161,
+        232,
+        764,
+        324
+      ],
+      "content": "text",
+      "text": "background-group | 1957 Echo | reference-only\nMusicians remain playing as dancers stop; instrument contact and period clothes.\nShots: S05-04, S05-10, S05-11"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 271,
+    "story": 272
+  }
+}

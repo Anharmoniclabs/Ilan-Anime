@@ -1,4 +1,0 @@
-`12:41:00 → 12:49:00` (192f) · CU milk → CU Manny · rate 2s
-- **Action:** Snap back. The pitcher is overflowing; milk runs over JC's knuckles, hot, and he didn't feel it. “JC. JC.” Manny's hand on his shoulder; the freelancer is staring; Mr. Rodríguez is already halfway across the room. JC's voice comes from 'the far side of a wall'.
-- **FX:** `MILK_OVERFLOW_CEL(see keys); FLASH_FRAME(1f); VOICE_MUFFLE → CLEAR`
-- **Sound:** Sound returns with a slam; JC's voice delayed and muffled, then clear.

@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 2815,
+      "name": "hands - left-cupped"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

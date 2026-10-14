@@ -1,0 +1,122 @@
+{
+  "source_name": "abuela-hands-master.png",
+  "source": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/abuela-hands-master.png",
+  "source_sha256": "03b48acca87a4e9b777b91f50d5d19daee802c5e626f345632399f5e0f78c118",
+  "directory": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/abuela-hands-master-03b48acca87a",
+  "status": "exploratory",
+  "kind": "editable-generated-master-library",
+  "size": [
+    1536,
+    1024
+  ],
+  "source_alpha": {
+    "min": 0,
+    "max": 254,
+    "zero_pixels": 1119579,
+    "partial_pixels": 453285,
+    "opaque_pixels": 0
+  },
+  "native_sha256": "04c6897906878d61bed4f7f2b45afdc33e82bd1350197efbad66dda138ade4ce",
+  "psd_sha256": "99f87907f92cc83c385b6f5f653b2248aac9f1577b7040f765f3b88a8febfb44",
+  "source_snapshot_exact": true,
+  "native_export_delta": {
+    "alpha_max_delta": 0.0,
+    "premultiplied_rgb_max_delta": 0.0
+  },
+  "psd_reopened_delta": {
+    "alpha_max_delta": 0.0,
+    "premultiplied_rgb_max_delta": 0.0
+  },
+  "native_reopened": true,
+  "psd_reopened": true,
+  "native_layers": [
+    {
+      "blend": "Normal",
+      "bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "clipped": false,
+      "fill": 1.0,
+      "hasMask": false,
+      "id": 3,
+      "kind": "Pixel",
+      "linkGroup": null,
+      "name": "Editable master \u2014 not separated rig parts",
+      "opacity": 1.0,
+      "selected": true,
+      "visible": true
+    },
+    {
+      "blend": "Normal",
+      "bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "clipped": false,
+      "fill": 1.0,
+      "hasMask": false,
+      "id": 2,
+      "kind": "Pixel",
+      "linkGroup": null,
+      "name": "Preserved generated source \u2014 exploratory",
+      "opacity": 1.0,
+      "selected": false,
+      "visible": false
+    }
+  ],
+  "psd_layers": [
+    {
+      "blend": "Normal",
+      "bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "clipped": false,
+      "fill": 1.0,
+      "hasMask": false,
+      "id": 7,
+      "kind": "Pixel",
+      "linkGroup": null,
+      "name": "Editable master \u2014 not separated rig parts",
+      "opacity": 1.0,
+      "selected": true,
+      "visible": true
+    },
+    {
+      "blend": "Normal",
+      "bounds": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "clipped": false,
+      "fill": 1.0,
+      "hasMask": false,
+      "id": 6,
+      "kind": "Pixel",
+      "linkGroup": null,
+      "name": "Preserved generated source \u2014 exploratory",
+      "opacity": 1.0,
+      "selected": false,
+      "visible": false
+    }
+  ],
+  "separated_parts": false,
+  "rigged": false,
+  "motion_validated": false,
+  "approval": "No technical or author approval inferred",
+  "limitations": [
+    "One generated source drawing, not a rig or registered pose sequence.",
+    "Hair, clothing, accessories and body overlap surfaces remain flattened within the editable layer.",
+    "Hidden surfaces, expressions, mouth shapes, alternative views and action drawings require separate artwork.",
+    "Source alpha and artwork are preserved; no matte correction is implied."
+  ]
+}

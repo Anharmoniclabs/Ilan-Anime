@@ -1,0 +1,31 @@
+{
+  "task_id": "writing",
+  "role": "script-supervisor",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/arthouse-pack-v1/tasks/writing/SCRIPT.fountain",
+    "production/runs/arthouse-pack-v1/tasks/writing/S01_SHOOTING_SCRIPT.md",
+    "production/runs/arthouse-pack-v1/tasks/writing/CHARACTER_BIBLE.md",
+    "production/runs/arthouse-pack-v1/tasks/writing/PRODUCTION_GUIDE.md",
+    "production/runs/arthouse-pack-v1/tasks/writing/storyboard-beats.json",
+    "production/runs/arthouse-pack-v1/tasks/writing/cast.json",
+    "production/runs/arthouse-pack-v1/tasks/writing/CONTINUITY_DECISIONS.md",
+    "production/runs/arthouse-pack-v1/tasks/writing/build_pack.py"
+  ],
+  "evidence": [
+    "Read production/runs/arthouse-pack-v1/ledger.json: writing is dispatched to arthouse-writing as script-supervisor; output limited to tasks/writing.",
+    "Read projects/cemi_episode_01/data/EPISODE_SCRIPT.md and episode.json; automated check confirms all 128 screenplay shot markers and every curly-quoted source dialogue string retained.",
+    "Automated comparison confirms all 15 S01 shot IDs, start frames, end frames and durations exactly match episode.json; 3,024 total S01 frames.",
+    "Read production/art_direction.json, docs/STATUS.md, docs/CRAFT_WORKBENCH.md, README.md, production/WORKER_CONTRACT.md and research/animation_audit/REPORT.md.",
+    "Read older research/earlier_cemi_pipeline/data/character_bible.txt; older details and later-episode spoilers separated from Episode 1 facts.",
+    "Directly viewed archival 01-Amaia.png and 03-Dairon.png under research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters; documented observed costumes/hair and exploratory identity status.",
+    "No motion, audio or generated images created/viewed in this writing task. No engine execution claimed."
+  ],
+  "blockers": [],
+  "open_decisions": [
+    "Original pencil portraits missing: canonical likeness approval remains unavailable.",
+    "S01-11/12 showcase duration, microbeat coverage and drawing-rate conflicts need author resolution before final exposures.",
+    "Headcount/absent-passenger count, broken-paddle owner and S01 sound bridge unresolved.",
+    "Source VO summaries/implicit dialogue attribution need recording-script review; ED final-black budget unresolved."
+  ]
+}

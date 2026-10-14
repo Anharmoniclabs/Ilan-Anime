@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 2,
+      "rect": [
+        161,
+        354,
+        764,
+        446
+      ],
+      "content": "text",
+      "text": "on-screen | BEFORE | reference-only\nLifts pole, rings brass bell; bell/clapper independent rigid props.\nShots: S01-05"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 127,
+    "story": 128
+  }
+}

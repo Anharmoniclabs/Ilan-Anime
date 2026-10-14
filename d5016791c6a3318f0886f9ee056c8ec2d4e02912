@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 18,
+      "rect": [
+        161,
+        452,
+        764,
+        474
+      ],
+      "content": "text",
+      "text": "JC’s unnamed EP client"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 611,
+    "story": 612
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.list",
+    "params": {}
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 6,
+    "controls": [
+      {
+        "id": 497,
+        "kind": "property",
+        "layer": 161,
+        "layerName": "Face controls",
+        "links": [],
+        "mirrors": [],
+        "missing": false,
+        "name": "Face: 0 neutral / 1 blink / 2 talk",
+        "path": "effects/ec.control.slider/slider",
+        "prop": 174,
+        "type": "slider",
+        "value": 0.0
+      },
+      {
+        "id": 498,
+        "kind": "property",
+        "layer": 231,
+        "layerName": "Mouth controls",
+        "links": [],
+        "mirrors": [],
+        "missing": false,
+        "name": "Mouth: 0 approved / 1 rest / 2 pressed / 3 parted / 4 open / 5 wide / 6 rounded / 7 pursed / 8 teeth / 9 tongue",
+        "path": "effects/ec.control.slider/slider",
+        "prop": 244,
+        "type": "slider",
+        "value": 0.0
+      },
+      {
+        "id": 499,
+        "kind": "property",
+        "layer": 47,
+        "layerName": "right-whole-arm",
+        "links": [],
+        "mirrors": [],
+        "missing": false,
+        "name": "right-whole-arm rotation",
+        "path": "transform/rotation",
+        "prop": 57,
+        "type": "angle",
+        "value": 0.0
+      },
+      {
+        "id": 500,
+        "kind": "property",
+        "layer": 75,
+        "layerName": "left-whole-arm",
+        "links": [],
+        "mirrors": [],
+        "missing": false,
+        "name": "left-whole-arm rotation",
+        "path": "transform/rotation",
+        "prop": 85,
+        "type": "angle",
+        "value": 0.0
+      },
+      {
+        "id": 501,
+        "kind": "property",
+        "layer": 7,
+        "layerName": "body-control",
+        "links": [],
+        "mirrors": [],
+        "missing": false,
+        "name": "Body position",
+        "path": "transform/position",
+        "prop": 11,
+        "type": "point",
+        "value": [
+          506.0,
+          561.0,
+          0.0
+        ]
+      }
+    ],
+    "name": "Amaia - whole-arm and face controls",
+    "primary": null,
+    "solo": false,
+    "supported": null
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 442,
+      "name": "pony"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

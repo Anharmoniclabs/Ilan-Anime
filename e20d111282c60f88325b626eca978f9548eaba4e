@@ -1,0 +1,369 @@
+{
+  "tool": "doc_inspect",
+  "arguments": {},
+  "status": "succeeded",
+  "result": {
+    "activeLayer": 17,
+    "canRedo": false,
+    "canUndo": false,
+    "channels": {
+      "alpha": [],
+      "colors": [
+        {
+          "name": "Red",
+          "visible": true
+        },
+        {
+          "name": "Green",
+          "visible": true
+        },
+        {
+          "name": "Blue",
+          "visible": true
+        }
+      ],
+      "composite": "RGB",
+      "compositeVisible": true,
+      "layerMaskView": null,
+      "quickMask": null,
+      "target": {
+        "kind": "composite"
+      }
+    },
+    "depth": 8,
+    "hasSelection": false,
+    "height": 1536,
+    "history": [
+      "Open"
+    ],
+    "isolatedLayers": [],
+    "lastAppliedComp": null,
+    "layerComps": [],
+    "layerMaskView": null,
+    "layers": [
+      {
+        "blend": "Normal",
+        "bounds": [
+          353,
+          0,
+          273,
+          284
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 17,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "head-talk",
+        "opacity": 1.0,
+        "selected": true,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          359,
+          0,
+          283,
+          284
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 16,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "head-blink",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          348,
+          1,
+          286,
+          286
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 15,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "head-neutral",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          264,
+          532,
+          486,
+          812
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 14,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "skirt",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          331,
+          228,
+          337,
+          349
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 13,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "torso",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          739,
+          760,
+          75,
+          146
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 12,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "left-hand",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          680,
+          538,
+          131,
+          253
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 11,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "left-forearm",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          598,
+          305,
+          178,
+          247
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 10,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "left-upper-arm",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          196,
+          761,
+          71,
+          149
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 9,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "right-hand",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          196,
+          535,
+          135,
+          254
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 8,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "right-forearm",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          234,
+          298,
+          177,
+          261
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 7,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "right-upper-arm",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          608,
+          1169,
+          104,
+          326
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 6,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "left-shin-foot",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          463,
+          660,
+          229,
+          555
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 5,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "left-thigh",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          309,
+          1169,
+          108,
+          315
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 4,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "right-shin-foot",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          294,
+          653,
+          249,
+          577
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 3,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "right-thigh",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          349,
+          38,
+          191,
+          524
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 2,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "pony",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      }
+    ],
+    "measurement": {
+      "count": 0,
+      "countGroups": 0,
+      "ruler": null,
+      "scale": "1 pixels = 1.0000 pixels"
+    },
+    "mode": "Rgb",
+    "name": "amaia-layered.psd",
+    "notes": [],
+    "quickMask": false,
+    "resolution": 72.0,
+    "revision": 1,
+    "selectedLayers": [
+      17
+    ],
+    "selectionBounds": null,
+    "timeline": null,
+    "variables": null,
+    "width": 1024
+  }
+}

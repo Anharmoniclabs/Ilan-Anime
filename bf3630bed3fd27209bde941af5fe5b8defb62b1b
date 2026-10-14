@@ -1,4 +1,0 @@
-`00:00:00 → 00:04:00` (96f) · FIX · ECU · rate 3s
-- **Action:** Navy field (#14202B). The cemí sigil (spiral opening into a triangle) draws itself in one continuous gold line, like a pen that never lifts.
-- **FX:** `SPIRAL_SIGIL(draw=3s,gold); FILM_GRAIN(0.5); GATE_WEAVE(0.3)`
-- **Sound:** Room tone only. One low hand-drum hit as the line closes.

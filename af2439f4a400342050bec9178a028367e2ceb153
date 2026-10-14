@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 8,
+      "rect": [
+        161,
+        354,
+        764,
+        446
+      ],
+      "content": "text",
+      "text": "on-screen | 1934 Echo | missing-dedicated-art\nApple and penknife handoff under table.\nShots: S13-09, S13-10"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 307,
+    "story": 308
+  }
+}

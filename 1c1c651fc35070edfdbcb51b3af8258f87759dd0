@@ -1,0 +1,632 @@
+{
+  "version": 1,
+  "run": "cemi-90s-production",
+  "paused": false,
+  "pause_reason": null,
+  "tasks": {
+    "amaia-assets": {
+      "output_dir": "production/runs/cemi-90s-production/tasks/amaia-assets",
+      "depends_on": [],
+      "shots": [
+        "S01-02"
+      ],
+      "role": "art-director",
+      "id": "amaia-assets",
+      "objective": "Generated high-quality Amaia master, registered puppet parts, native layered paint source and native functional rig with verified preview.",
+      "inputs": [
+        "production/art_direction.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md"
+      ],
+      "requires_author_approval": true,
+      "author_approver": "luis-m-minier",
+      "state": "author-rejected",
+      "agent_id": "native-drawing",
+      "result": {
+        "task_id": "amaia-assets",
+        "role": "art-director",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/cemi-90s-production/tasks/amaia-assets/amaia-puppet.ecproj",
+          "production/runs/cemi-90s-production/tasks/amaia-assets/amaia-layered.pcraft",
+          "production/runs/cemi-90s-production/tasks/amaia-assets/amaia-layered.psd",
+          "production/runs/cemi-90s-production/tasks/amaia-assets/assembled.png",
+          "production/runs/cemi-90s-production/tasks/amaia-assets/assembled-slate.png",
+          "production/runs/cemi-90s-production/tasks/amaia-assets/posed-blink.png",
+          "production/runs/cemi-90s-production/tasks/amaia-assets/posed-talk.png",
+          "production/runs/cemi-90s-production/tasks/amaia-assets/amaia-control-demo.mp4",
+          "production/runs/cemi-90s-production/tasks/amaia-assets/rig.json",
+          "production/runs/cemi-90s-production/tasks/amaia-assets/build_native_rig.py",
+          "production/runs/cemi-90s-production/tasks/amaia-assets/puppet-review.json",
+          "production/runs/cemi-90s-production/tasks/amaia-assets/amaia-master.png"
+        ],
+        "evidence": [
+          "Inspected supplied fullbody master, atlas and high-resolution skirt.",
+          "Native EffectCraft crops/masks/transforms/parenting; original generated pixels preserved, no coded vector drawing or tracing.",
+          "Directly viewed neutral assembled slate, posed blink, posed talk; corrected large elbow caps and protruding thigh strips.",
+          "Reopened final EffectCraft project: main neutral first,19layers,17essentialcontrols; reopened PhotoCraft16paintlayers neutralface visible and variants hidden.",
+          "72 native rendered frames at24fps, every three-frame exposure identical by hash; MP4 verified3s720x1080."
+        ],
+        "blockers": [],
+        "limitations": [
+          "Front view only, limited joint rotation; visible small elbow/wrist/knee shade and silhouette transitions remain.",
+          "Three registered whole-head states; not a full phoneme library or face rig.",
+          "Generated atlas limits head/arm resolution for closeups; skirt uses separate1024x1536 image at50%x55%.",
+          "Control demonstration only; no finished scene acting or full anime animation claim."
+        ]
+      },
+      "review": {
+        "role": "director",
+        "agent_id": "visual-review",
+        "decision": "approve",
+        "evidence": "Independent /root/visual_review puppet-review.json: functional preproduction asset;19native layers17controls16paint layers72frames held on threes. Visible joint transitions, bulkier arms, small shoulder debris and limited head/action range remain. No finished-animation or canonical identity approval."
+      },
+      "author_review": {
+        "author": "luis-m-minier",
+        "decision": "reject",
+        "evidence": "Author: water was great; AMAIA looks too manly and limb/joint proportions are wrong. Revise Amaia; preserve water."
+      }
+    },
+    "s01-01": {
+      "output_dir": "production/runs/cemi-90s-production/tasks/s01-01",
+      "depends_on": [],
+      "shots": [
+        "S01-01"
+      ],
+      "role": "art-director",
+      "id": "s01-01",
+      "objective": "Generated opening water plate and paddle/ripple cels composited as a6-second1920x1080 shot draft in native Craft projects; no finished episode claim.",
+      "inputs": [
+        "production/art_direction.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md"
+      ],
+      "requires_author_approval": true,
+      "author_approver": "luis-m-minier",
+      "state": "approved",
+      "agent_id": "coordinator-compositing",
+      "result": {
+        "task_id": "s01-01",
+        "role": "art-director",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/cemi-90s-production/tasks/s01-01/S01-01.ecproj",
+          "production/runs/cemi-90s-production/tasks/s01-01/S01-01.filmcraft",
+          "production/runs/cemi-90s-production/tasks/s01-01/S01-01-layered.pcraft",
+          "production/runs/cemi-90s-production/tasks/s01-01/S01-01-layered.psd",
+          "production/runs/cemi-90s-production/tasks/s01-01/S01-01-preview.mp4",
+          "production/runs/cemi-90s-production/tasks/s01-01/shot-review.json",
+          "production/runs/cemi-90s-production/tasks/s01-01/build_shot.py"
+        ],
+        "evidence": [
+          "Native generated-art composition reopened successfully; 144 frames, 1920x1080,24fps,6seconds.",
+          "Independent visual review approved bounded silent draft after ripple timing and framing corrections."
+        ],
+        "blockers": [],
+        "open_decisions": [
+          "Water contact/droplets and scripted sound remain incomplete. No final shot or author approval."
+        ]
+      },
+      "review": {
+        "role": "director",
+        "agent_id": "visual-review",
+        "decision": "approve",
+        "evidence": "Independent /root/visual_review: shot-review.json approves bounded silent native shot draft only; final action, sound and author acceptance remain open."
+      }
+    },
+    "amaia-assets-r2": {
+      "id": "amaia-assets-r2",
+      "role": "art-director",
+      "depends_on": [],
+      "output_dir": "production/runs/cemi-90s-production/tasks/amaia-assets-r2",
+      "shots": [
+        "S01-02"
+      ],
+      "objective": "Correct feminine Amaia anatomy, proportions and native layer registration from revised generated master; preserve water shot.",
+      "inputs": [
+        "production/art_direction.json"
+      ],
+      "requires_author_approval": true,
+      "author_approver": "luis-m-minier",
+      "supersedes": "amaia-assets",
+      "state": "author-approved",
+      "agent_id": "native-drawing",
+      "result": {
+        "task_id": "amaia-assets-r2",
+        "role": "art-director",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-puppet.ecproj",
+          "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-layered.pcraft",
+          "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-layered.psd",
+          "production/runs/cemi-90s-production/tasks/amaia-assets-r2/assembled.png",
+          "production/runs/cemi-90s-production/tasks/amaia-assets-r2/assembled-slate.png",
+          "production/runs/cemi-90s-production/tasks/amaia-assets-r2/posed.png",
+          "production/runs/cemi-90s-production/tasks/amaia-assets-r2/posed-talk.png",
+          "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-control-demo.mp4",
+          "production/runs/cemi-90s-production/tasks/amaia-assets-r2/rig.json",
+          "production/runs/cemi-90s-production/tasks/amaia-assets-r2/validation.json",
+          "production/runs/cemi-90s-production/tasks/amaia-assets-r2/build_native_rig.py",
+          "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "production/runs/cemi-90s-production/tasks/amaia-assets-r2/generation-provenance.json"
+        ],
+        "evidence": [
+          "Viewed master and generated blink/talk sources.",
+          "Used native masks on original coordinates at100% scale; no anatomical restretch or reassembly.",
+          "Viewed native neutral/blink/talk outputs after removing ghosted limb animation.",
+          "Native reopening, layer/visibility and frame exposure checks in validation.json."
+        ],
+        "blockers": [],
+        "limits": [
+          "Art layers editable, but shoulder/head/limb articulation not validated; hidden source artwork needs underpaint.",
+          "Demonstration contains local blink and mouth replacement only, not full-body animation.",
+          "Neutral preserves source silhouette; minor alpha antialias changes at mask boundaries."
+        ]
+      },
+      "review": {
+        "role": "director",
+        "agent_id": "visual-review",
+        "decision": "approve",
+        "evidence": "Independent visual_review puppet-review.json approves corrected anatomy/design and blink/mouth controls only. Stable body across48frames, no movingarmremnants. Wholearm/head articulation unfinished, no author acceptance asserted."
+      },
+      "author_review": {
+        "author": "luis-m-minier",
+        "decision": "approve",
+        "evidence": "Author response to exact r2 artwork/expression preview: thats perfect finish all assets. Approves revised Amaia design; does not assert finished articulation."
+      }
+    },
+    "amaia-complete": {
+      "shots": [
+        "S01-02",
+        "S01-03",
+        "S01-13",
+        "S01-14"
+      ],
+      "inputs": [
+        "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md"
+      ],
+      "objective": "Finish approved Amaia character asset set: views, expressions, phoneme mouths,hands,scene poses,hidden joint artwork and native editable asset library.",
+      "role": "art-director",
+      "output_dir": "production/runs/cemi-90s-production/tasks/amaia-complete",
+      "id": "amaia-complete",
+      "depends_on": [
+        "amaia-assets-r2"
+      ],
+      "requires_author_approval": true,
+      "author_approver": "luis-m-minier",
+      "state": "approved",
+      "agent_id": "native-drawing",
+      "result": {
+        "task_id": "amaia-complete",
+        "role": "art-director",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/cemi-90s-production/tasks/amaia-complete/native/amaia-puppet.ecproj",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/native/amaia-layered.pcraft",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/native/amaia-layered.psd",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/native/amaia-control-demo.mp4",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/native/rig.json",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/Amaia-asset-library.ecproj",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/manifest.json",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/generation-prompts.json",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-review.json",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/turnaround--front.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/turnaround--three-quarter.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/turnaround--profile.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/turnaround--back.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/expressions--neutral.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/expressions--concern.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/expressions--grief.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/expressions--resolve.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/expressions--fear.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/expressions--reassurance.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/mouths--closed-a.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/mouths--closed-b.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/mouths--parted.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/mouths--open.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/mouths--wide.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/mouths--rounded.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/mouths--pursed.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/mouths--teeth.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/mouths--tongue.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/hands--right-relaxed.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/hands--right-open.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/hands--right-cupped.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/hands--right-grip.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/hands--left-relaxed.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/hands--left-open.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/hands--left-cupped.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/hands--left-grip.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/seated-son-poses--cradle.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/seated-son-poses--look-back.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/seated-son-poses--lean.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/seated-son-poses--count.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/ribs-son-closeup--sleep-speaking.png",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/turnaround.pcraft",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/expressions.pcraft",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/mouths.pcraft",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/hands.pcraft",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/seated-son-poses.pcraft",
+          "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/ribs-son-closeup.pcraft"
+        ],
+        "evidence": [
+          "32 native-extracted named source cels;6 editable PhotoCraft/PSD sheets; native EffectCraft library reopened.",
+          "Approved r2 identity preserved; generated hidden body art removes original-arm ghosts.",
+          "Native puppet reopened neutral;48frames24fps2seconds verified on3s; mouthstates/blink and modestwholearmcontrols inspected.",
+          "All4seatedcels now have empty boundaries atalpha>10 after nativecropexclusions; nativealphaLevels removesalpha1contamination."
+        ],
+        "blockers": [],
+        "open_decisions": [
+          "Added views/son design remain exploratory beyond approved Amaia master.",
+          "Poses are source drawings and require shotregistration/inbetweens; not finished shotanimation.",
+          "Wholearmrig is limited to reviewed5degreeposes; independent elbow/knee articulation unvalidated.",
+          "Nine descriptive mouthcells include two near-duplicateclosed shapes; not a validated phoneme library."
+        ]
+      },
+      "review": {
+        "role": "director",
+        "agent_id": "visual-review",
+        "decision": "approve",
+        "evidence": "Independent visual_review library-review.json:32sourcecels6editablepaintedsheets;native5degreewholearm/blink/descriptivemouthcontrols approved technically asboundedpreproduction. Crops repaired;sonnewunapproved, nofullarticulation orregisteredshotperformance."
+      }
+    },
+    "episode1-cast": {
+      "output_dir": "production/runs/cemi-90s-production/tasks/episode1-cast",
+      "depends_on": [],
+      "role": "producer",
+      "id": "episode1-cast",
+      "shots": [],
+      "inputs": [
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/cemi-90s-production/ledger.json"
+      ],
+      "objective": "Inventory every Episode 1 on-screen character, flashback variant, anonymous/background group and text-only appearance using current script; map existing exact references and missing production assets. Deliver cast.json and self-contained reviewable HTML asset index with real reference thumbnails and precise completion states, no fake assets.",
+      "requires_author_approval": true,
+      "author_approver": "luis-m-minier",
+      "art_direction_mode": "CHARACTER_ASSET",
+      "state": "approved",
+      "agent_id": "episode1-cast",
+      "result": {
+        "task_id": "episode1-cast",
+        "role": "producer",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/cemi-90s-production/tasks/episode1-cast/cast.json",
+          "production/runs/cemi-90s-production/tasks/episode1-cast/episode1-cast.designcraft",
+          "production/runs/cemi-90s-production/tasks/episode1-cast/episode1-cast.pdf",
+          "production/runs/cemi-90s-production/tasks/episode1-cast/native-inspection.json",
+          "production/runs/cemi-90s-production/tasks/episode1-cast/build_inventory.py",
+          "production/runs/cemi-90s-production/tasks/episode1-cast/build_native_index.py"
+        ],
+        "evidence": [
+          "Read script cast notes and all 128 shot action descriptions; 81 unique entries including 67 drawable role/group/variant entries, not a people count.",
+          "All shot references have exact source-line evidence; all reference paths exist and carry SHA256.",
+          "Inspected 92 original source thumbnails across five contact sheets; no anatomy/rig approval inferred.",
+          "Native DesignCraft index reopened: 21 pages, 276 text stories, no overset detected. Viewed exported pages 1,4,5,6,7,21.",
+          "Amaia approved design inherited from ledger; four new adult masters exploratory, not rigged.",
+          "No HTML; no source or ledger changes."
+        ],
+        "blockers": [],
+        "limitations": [
+          "Inventory submitted for independent quality review, not character completion.",
+          "BEFORE losses and Ballroom figure/ribbon counts inconsistent in source script.",
+          "Thumbnail inspection does not validate animation, hidden joints, alpha or canonical identity."
+        ]
+      },
+      "review": {
+        "role": "quality-review",
+        "agent_id": "coordinator",
+        "decision": "approve",
+        "evidence": "production/character-completion-episode1/reviews/inventory-review.json: inventory/PDF planning scope only;81 role/group/era entries, references verified. Not asset or animation approval."
+      }
+    },
+    "river-character-library": {
+      "shots": [
+        "S01"
+      ],
+      "inputs": [
+        "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md"
+      ],
+      "depends_on": [],
+      "output_dir": "production/runs/cemi-90s-production/tasks/river-character-library",
+      "id": "river-character-library",
+      "objective": "Build native editable reference libraries from all twelve non-Amaia historical river character sheets. Inspect each; retain source and propose separated existing view assets only when source supports it. No invented hidden joints, pixel drawings, paid generation or claims of rig completion. Deliver per-character native PhotoCraft source projects, reference/source hashes, practical action and missing art requirements, and a visual index.",
+      "role": "character-designer",
+      "requires_author_approval": true,
+      "author_approver": "luis-m-minier",
+      "art_direction_mode": "CHARACTER_ASSET",
+      "state": "approved",
+      "agent_id": "river-character-library",
+      "result": {
+        "task_id": "river-character-library",
+        "role": "character-designer",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/cemi-90s-production/tasks/river-character-library/library-manifest.json",
+          "production/runs/cemi-90s-production/tasks/river-character-library/river-source-index.pdf",
+          "production/runs/cemi-90s-production/tasks/river-character-library/river-source-index.designcraft",
+          "production/runs/cemi-90s-production/tasks/river-character-library/verification-final.json",
+          "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/02-amaias-son.pcraft",
+          "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/03-dairon.pcraft",
+          "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/04-yara-corrected.pcraft",
+          "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/05-beheto.pcraft",
+          "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/06-seven-year-old-girl.pcraft",
+          "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/07-nine-year-old-boy.pcraft",
+          "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/08-third-lit-child-proposal.pcraft",
+          "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/09-background-survivor-1.pcraft",
+          "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/10-background-survivor-2.pcraft",
+          "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/11-background-survivor-3.pcraft",
+          "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/12-bell-bearing-soldier.pcraft",
+          "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/13-ledger-keeper.pcraft"
+        ],
+        "evidence": [
+          "Directly viewed all twelve assigned source PNGs and approved_style_reference.png. Recorded character-specific visible landmarks and S01 action requirements in twelve reference.json files.",
+          "Saved and reopened all twelve final PhotoCraft files; each has a visible editable reference layer and hidden archived source layer.",
+          "Automated verification of all final PNG exports: maximum alpha delta 0; maximum premultiplied RGB delta 0 against each source. Original PNG snapshots have exact source hashes.",
+          "Built native 12-page DesignCraft index and PDF; inspected first rendered page; automated check found zero overset stories. Directly viewed Beheto final native export.",
+          "These are preparatory source libraries, not finished character rigs. Current-script canoe assignments take precedence over historical archive arrangement."
+        ],
+        "blockers": [],
+        "remaining_for_character_completion": [
+          "Per-character separated hair/clothing/accessories and hidden joint surfaces; registered replacement drawings; motion/contact checks.",
+          "Exact-file independent review and Luis identity/author approval remain outstanding.",
+          "Third lit child remains an identity proposal; background survivors require current-script staging decisions."
+        ],
+        "superseded": [
+          "native: initial duplicate compositing changed alpha; do not use",
+          "native-alpha-preserved: incomplete correction after deterministic layer-ID mismatch; do not use"
+        ],
+        "final_native_directory": "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2"
+      },
+      "review": {
+        "role": "art-director",
+        "agent_id": "episode1_cast",
+        "decision": "approve",
+        "evidence": "Independent review: production/character-completion-episode1/reviews/independent-review.json. Approved only as twelve editable archival reference libraries; exact alpha and premultiplied pixels preserved. Not rigs, animation or canonical designs."
+      }
+    },
+    "episode1-modern-assets": {
+      "objective": "Create new exploratory Episode1 modern character masters using author-requested built-in image generation, current bible and cover style; assemble native editable source libraries and independently review. Preserve source art, no author approval inferred.",
+      "inputs": [
+        "production/art_direction.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "research/earlier_cemi_pipeline/cemi_pipeline/configs/characters.json"
+      ],
+      "shots": [
+        "S02",
+        "S03",
+        "S04",
+        "S05",
+        "S06",
+        "S07",
+        "S08",
+        "S09",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S14",
+        "S15"
+      ],
+      "depends_on": [],
+      "output_dir": "production/runs/cemi-90s-production/tasks/episode1-modern-assets",
+      "id": "episode1-modern-assets",
+      "role": "art-director",
+      "requires_author_approval": true,
+      "author_approver": "luis-m-minier",
+      "art_direction_mode": "CHARACTER_ASSET",
+      "state": "approved",
+      "agent_id": "coordinator-art",
+      "result": {
+        "task_id": "episode1-modern-assets",
+        "role": "art-director",
+        "status": "submitted",
+        "scope": "First modern principal-source design batch only; full Episode1 character completion remains unfinished",
+        "artifacts": [
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/abuela-hands-master.png",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/jc-master-v2.png",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/mama-master.png",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/manny-master-v2.png",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/rodriguez-master-v2.png",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/sofia-master.png",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/vale-master.png",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/window-man-master.png",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generation-provenance.json",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/modern-and-contact-review.json",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/modern-v2-review.json",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/abuela-hands-master-03b48acca87a/master.pcraft",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/abuela-hands-master-03b48acca87a/master.psd",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/assembly-c154e3959159.json",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/effectcraft-c154e3959159/source-library.ecproj",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/jc-master-v2-63ea6611a922/master.pcraft",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/jc-master-v2-63ea6611a922/master.psd",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/mama-master-d574a084b616/master.pcraft",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/mama-master-d574a084b616/master.psd",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/manny-master-v2-736d023266a9/master.pcraft",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/manny-master-v2-736d023266a9/master.psd",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/review-c154e3959159/page-00.png",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/review-c154e3959159/review-book.designcraft",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/review-c154e3959159/review-book.pdf",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/rodriguez-master-v2-cae297ecc005/master.pcraft",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/rodriguez-master-v2-cae297ecc005/master.psd",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/sofia-master-4a2503596a61/master.pcraft",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/sofia-master-4a2503596a61/master.psd",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/vale-master-93b33c36e25a/master.pcraft",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/vale-master-93b33c36e25a/master.psd",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/window-man-master-139ed5982e8c/master.pcraft",
+          "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/window-man-master-139ed5982e8c/master.psd"
+        ],
+        "evidence": [
+          "Eight current source drawings directly viewed and independently reviewed;11 image versions preserved,3 superseded.",
+          "All8 PhotoCraft and PSD outputs reopened with exact alpha and visible-pixel preservation.",
+          "Independent revised-source review approves JC and Manny unbranded shoes and clean-shaven stockier Rodriguez.",
+          "Native EffectCraft source library and nine-page DesignCraft review book saved; contact sheet directly inspected."
+        ],
+        "blockers": [],
+        "limitations": [
+          "No author acceptance of new designs; exact files await Luis.",
+          "No separated character rig layers, hidden joint fit, phoneme library or full-body motion proven for modern cast.",
+          "Abuela elderly hand reference only: not approved as coin-handoff scene; symbol and child hand still need work.",
+          "Vale is one photo pose, not the complete scripted nine-photo sequence.",
+          "Flashback variants, historical cast and supporting crowds remain unbuilt; see full cast inventory."
+        ]
+      },
+      "review": {
+        "role": "director",
+        "agent_id": "episode1_cast",
+        "decision": "approve",
+        "evidence": "modern-and-contact-review.json and modern-v2-review.json: first8 current source designs pass limited exploratory-source scope. Abuela hand reference only;Vale one photo pose only. No rig, animation, complete-cast or author approval."
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "amaia-assets"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "amaia-assets",
+      "agent_id": "native-drawing"
+    },
+    {
+      "action": "add",
+      "task_id": "s01-01"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "s01-01",
+      "agent_id": "coordinator-compositing"
+    },
+    {
+      "action": "submit",
+      "task_id": "s01-01",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "s01-01",
+      "decision": "approve"
+    },
+    {
+      "action": "submit",
+      "task_id": "amaia-assets",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "amaia-assets",
+      "decision": "approve"
+    },
+    {
+      "action": "author-review",
+      "task_id": "amaia-assets",
+      "decision": "reject",
+      "author": "luis-m-minier"
+    },
+    {
+      "action": "add",
+      "task_id": "amaia-assets-r2"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "amaia-assets-r2",
+      "agent_id": "native-drawing"
+    },
+    {
+      "action": "submit",
+      "task_id": "amaia-assets-r2",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "amaia-assets-r2",
+      "decision": "approve"
+    },
+    {
+      "action": "author-review",
+      "task_id": "amaia-assets-r2",
+      "decision": "approve",
+      "author": "luis-m-minier"
+    },
+    {
+      "action": "add",
+      "task_id": "amaia-complete"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "amaia-complete",
+      "agent_id": "native-drawing"
+    },
+    {
+      "action": "add",
+      "task_id": "episode1-cast"
+    },
+    {
+      "action": "add",
+      "task_id": "river-character-library"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "episode1-cast",
+      "agent_id": "episode1-cast"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "river-character-library",
+      "agent_id": "river-character-library"
+    },
+    {
+      "action": "add",
+      "task_id": "episode1-modern-assets"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "episode1-modern-assets",
+      "agent_id": "coordinator-art"
+    },
+    {
+      "action": "submit",
+      "task_id": "episode1-cast",
+      "status": "submitted"
+    },
+    {
+      "action": "submit",
+      "task_id": "river-character-library",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "river-character-library",
+      "decision": "approve"
+    },
+    {
+      "action": "review",
+      "task_id": "episode1-cast",
+      "decision": "approve"
+    },
+    {
+      "action": "submit",
+      "task_id": "amaia-complete",
+      "status": "submitted"
+    },
+    {
+      "action": "submit",
+      "task_id": "episode1-modern-assets",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "episode1-modern-assets",
+      "decision": "approve"
+    },
+    {
+      "action": "review",
+      "task_id": "amaia-complete",
+      "decision": "approve"
+    }
+  ]
+}

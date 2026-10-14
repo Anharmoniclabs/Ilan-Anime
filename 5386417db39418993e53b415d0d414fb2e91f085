@@ -1,4 +1,0 @@
-`05:41:00 → 05:51:00` (240f) · WS · long frame · rate 3s
-- **Action:** Pair by pair down the floor the shoulders drop and the faces empty, until the band is playing for a hall of people standing in their good clothes. The wave of stillness crosses toward the bandstand. The horns keep going.
-- **FX:** `STILL_WAVE(near→far, 6s); PRESS(0.6→0.9); DEPTH_FLATTEN(parallax→0)`
-- **Sound:** Music continues, drier each second; loop fills the gap.

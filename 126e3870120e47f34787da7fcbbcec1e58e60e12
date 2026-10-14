@@ -1,0 +1,15 @@
+{
+  "tool": "place_image",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+    "spread": 0,
+    "x": 28,
+    "y": 86,
+    "width": 66.66666666666667
+  },
+  "status": "succeeded",
+  "result": {
+    "asset": 51,
+    "id": 52
+  }
+}

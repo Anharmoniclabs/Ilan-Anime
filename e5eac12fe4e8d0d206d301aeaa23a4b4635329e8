@@ -1,4 +1,0 @@
-`09:58:00 → 10:12:00` (336f) · CU palm → WS · rate 3s
-- **Action:** Manny rests one palm flat on the drum case. The café has six noises (grinder, steamer, a stroller with a squeaky wheel, two guys on the Yankees bullpen, the freelancer's keyboard, Jerome traffic). They quit arguing and fall into one groove; you can almost hear a window click into its track; the baby, about to scream, sighs and closes her eyes. Manny doesn't notice. JC watches.
-- **FX:** `SOUND_RIBBON(6; amber,white,lime,red,cyan,violet); RIBBONS_BRAID(1.5s); WINDOW_CLICK_INSERT; BABY_SIGH_CU`
-- **Sound:** The six sounds start as noise, then lock into one pocket tempo. The steamer whistle sits on a clean A (440 Hz).

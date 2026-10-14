@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 2244,
+      "name": "pursed"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

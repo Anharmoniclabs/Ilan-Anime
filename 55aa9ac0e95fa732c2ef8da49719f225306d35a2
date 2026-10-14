@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 11,
+      "rect": [
+        161,
+        452,
+        764,
+        474
+      ],
+      "content": "text",
+      "text": "Smiling mural banner people"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 401,
+    "story": 402
+  }
+}

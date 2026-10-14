@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addItem",
+    "params": {
+      "item": "amaia-parts-atlas.png",
+      "position": [
+        -391,
+        303
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 195
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 17,
+      "rect": [
+        161,
+        232,
+        764,
+        324
+      ],
+      "content": "text",
+      "text": "text-ui-only | various | no-character-drawing-required\nSignature/email read; related photo entry separate.\nShots: S11-01, S11-02"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 571,
+    "story": 572
+  }
+}

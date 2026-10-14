@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 14,
+      "rect": [
+        161,
+        232,
+        764,
+        324
+      ],
+      "content": "text",
+      "text": "on-screen | brief memory | missing-dedicated-art\nTwo-frame Honda flash; seller only if needed in chosen flash composition.\nShots: S11-06"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 481,
+    "story": 482
+  }
+}
