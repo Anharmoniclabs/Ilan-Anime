@@ -1,0 +1,643 @@
+{
+  "tool": "open_project",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/S01-01-relinked-source.ecproj"
+  },
+  "status": "succeeded",
+  "result": {
+    "activeComp": 128,
+    "bitDepth": "8 bpc",
+    "dirty": false,
+    "items": [
+      {
+        "id": 1,
+        "label": "Lavender",
+        "name": "water-cels-atlas.png",
+        "parent": null,
+        "size": [
+          1536,
+          1024
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 122,
+        "label": "Lavender",
+        "name": "night-water.png",
+        "parent": null,
+        "size": [
+          1672,
+          941
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 123,
+        "label": "Lavender",
+        "name": "paddle.png",
+        "parent": null,
+        "size": [
+          245,
+          1024
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 124,
+        "label": "Lavender",
+        "name": "ripple-contact.png",
+        "parent": null,
+        "size": [
+          350,
+          205
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 125,
+        "label": "Lavender",
+        "name": "ripple-small.png",
+        "parent": null,
+        "size": [
+          530,
+          220
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 126,
+        "label": "Lavender",
+        "name": "ripple-medium.png",
+        "parent": null,
+        "size": [
+          580,
+          285
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 127,
+        "label": "Lavender",
+        "name": "ripple-large.png",
+        "parent": null,
+        "size": [
+          570,
+          305
+        ],
+        "type": "Image"
+      },
+      {
+        "duration": 6.0,
+        "frameRate": 24.0,
+        "id": 128,
+        "label": "Sandstone",
+        "layers": 56,
+        "name": "S01-01 - BEFORE - generated cel draft",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Composition"
+      },
+      {
+        "id": 340,
+        "label": "Lavender",
+        "name": "water-fx-AA.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 364,
+        "label": "Lavender",
+        "name": "water-fx-AB.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 388,
+        "label": "Lavender",
+        "name": "water-fx-AC.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 412,
+        "label": "Lavender",
+        "name": "water-fx-AD.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 436,
+        "label": "Lavender",
+        "name": "water-fx-AE.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 460,
+        "label": "Lavender",
+        "name": "water-fx-AF.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 484,
+        "label": "Lavender",
+        "name": "water-fx-AG.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 508,
+        "label": "Lavender",
+        "name": "water-fx-AH.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 532,
+        "label": "Lavender",
+        "name": "water-fx-AI.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 556,
+        "label": "Lavender",
+        "name": "water-fx-AJ.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 580,
+        "label": "Lavender",
+        "name": "water-fx-AK.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 604,
+        "label": "Lavender",
+        "name": "water-fx-AL.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 628,
+        "label": "Lavender",
+        "name": "water-fx-AM.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 652,
+        "label": "Lavender",
+        "name": "water-fx-AN.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 676,
+        "label": "Lavender",
+        "name": "water-fx-AO.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 700,
+        "label": "Lavender",
+        "name": "water-fx-AP.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 724,
+        "label": "Lavender",
+        "name": "water-fx-AQ.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 748,
+        "label": "Lavender",
+        "name": "water-fx-AR.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 772,
+        "label": "Lavender",
+        "name": "water-fx-AS.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 796,
+        "label": "Lavender",
+        "name": "water-fx-AT.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 820,
+        "label": "Lavender",
+        "name": "water-fx-AU.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 844,
+        "label": "Lavender",
+        "name": "water-fx-AV.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 868,
+        "label": "Lavender",
+        "name": "water-fx-AW.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 892,
+        "label": "Lavender",
+        "name": "water-fx-AX.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 916,
+        "label": "Lavender",
+        "name": "water-fx-AY.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 940,
+        "label": "Lavender",
+        "name": "water-fx-AZ.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 964,
+        "label": "Lavender",
+        "name": "water-fx-BA.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 988,
+        "label": "Lavender",
+        "name": "water-fx-BB.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1012,
+        "label": "Lavender",
+        "name": "water-fx-BC.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1036,
+        "label": "Lavender",
+        "name": "water-fx-BD.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1060,
+        "label": "Lavender",
+        "name": "water-fx-BE.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1084,
+        "label": "Lavender",
+        "name": "water-fx-BF.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1108,
+        "label": "Lavender",
+        "name": "water-fx-BG.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1132,
+        "label": "Lavender",
+        "name": "water-fx-BH.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1156,
+        "label": "Lavender",
+        "name": "water-fx-BI.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1180,
+        "label": "Lavender",
+        "name": "water-fx-BJ.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1204,
+        "label": "Lavender",
+        "name": "water-fx-BK.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1228,
+        "label": "Lavender",
+        "name": "water-fx-BL.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1252,
+        "label": "Lavender",
+        "name": "water-fx-BM.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1276,
+        "label": "Lavender",
+        "name": "water-fx-BN.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1300,
+        "label": "Lavender",
+        "name": "water-fx-BO.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1324,
+        "label": "Lavender",
+        "name": "water-fx-BP.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1348,
+        "label": "Lavender",
+        "name": "water-fx-BQ.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1372,
+        "label": "Lavender",
+        "name": "water-fx-BR.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1396,
+        "label": "Lavender",
+        "name": "water-fx-BS.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1420,
+        "label": "Lavender",
+        "name": "water-fx-BT.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1444,
+        "label": "Lavender",
+        "name": "water-fx-BU.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1468,
+        "label": "Lavender",
+        "name": "water-fx-BV.png",
+        "parent": null,
+        "size": [
+          1920,
+          1080
+        ],
+        "type": "Image"
+      }
+    ],
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/S01-01-relinked-source.ecproj",
+    "renderer": {
+      "active": "cpu",
+      "adapter": null,
+      "gpuAcceleration": true,
+      "renderer": "Mercury GPU Acceleration"
+    },
+    "selectedLayers": [],
+    "time": 0.0,
+    "undo": []
+  }
+}

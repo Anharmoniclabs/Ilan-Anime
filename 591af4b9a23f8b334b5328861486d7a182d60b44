@@ -1,0 +1,17 @@
+{
+  "tool": "render_frame",
+  "arguments": {
+    "time": 1.75,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/frames/000042.png",
+    "inline": false,
+    "max_side": 0
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 128,
+    "height": 1080,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/frames/000042.png",
+    "time": 1.75,
+    "width": 1920
+  }
+}

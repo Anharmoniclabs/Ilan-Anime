@@ -1,0 +1,17 @@
+{
+  "tool": "render_frame",
+  "arguments": {
+    "time": 9.958333333333334,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph/native-v1/frames/000239.png",
+    "max_side": 0,
+    "inline": false
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 1,
+    "height": 720,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph/native-v1/frames/000239.png",
+    "time": 9.958333333333334,
+    "width": 1280
+  }
+}

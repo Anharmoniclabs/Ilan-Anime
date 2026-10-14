@@ -1,0 +1,17 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "file.newSequence",
+    "params": {
+      "name": "S01-01 silent water motion",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "fromItem": 1
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "sequence": 8
+  }
+}

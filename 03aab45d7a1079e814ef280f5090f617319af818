@@ -1,0 +1,36 @@
+{
+  "tool": "get_project",
+  "arguments": {},
+  "status": "succeeded",
+  "result": {
+    "activeComp": 1,
+    "bitDepth": "8 bpc",
+    "dirty": false,
+    "items": [
+      {
+        "duration": 16.0,
+        "frameRate": 24.0,
+        "id": 1,
+        "label": "Sandstone",
+        "layers": 158,
+        "name": "S14-03 / research graph r1",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Composition"
+      }
+    ],
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/native-r1/shot.ecproj",
+    "renderer": {
+      "active": "cpu",
+      "adapter": null,
+      "gpuAcceleration": true,
+      "renderer": "Mercury GPU Acceleration"
+    },
+    "selectedLayers": [],
+    "time": 0.0,
+    "undo": []
+  }
+}

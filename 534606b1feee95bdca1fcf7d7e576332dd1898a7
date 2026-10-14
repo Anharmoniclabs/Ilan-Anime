@@ -1,0 +1,1214 @@
+{
+  "shot": "S01-01",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 144,
+  "waterline_y": 760,
+  "exposures": [
+    {
+      "start_frame": 0,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AA.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AA.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1160.9286881355024,
+        -36.838786592909564
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 3,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AB.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AB.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1160.9286881355024,
+        -36.838786592909564
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 6,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AC.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AC.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1160.9286881355024,
+        -36.838786592909564
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 9,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AD.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AD.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1160.9286881355024,
+        -36.838786592909564
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 12,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AE.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AE.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1160.9286881355024,
+        27.97602822190525
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 15,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AF.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AF.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1160.9286881355024,
+        190.0130652589423
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 18,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AG.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AG.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1160.9286881355024,
+        400.66121340709043
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 21,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AH.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AH.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1160.9286881355024,
+        611.3093615552386
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 24,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AI.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AI.svg",
+      "contact_span": [
+        1134.5270761273912,
+        1207.6041090430515
+      ],
+      "blade_tip": [
+        1160.9286881355024,
+        773.3463985922758
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 27,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AJ.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AJ.svg",
+      "contact_span": [
+        1099.975220269294,
+        1264.6645297357252
+      ],
+      "blade_tip": [
+        1160.9286881355024,
+        838.1612134070905
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 30,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AK.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AK.svg",
+      "contact_span": [
+        1083.9001697084298,
+        1304.4795209630884
+      ],
+      "blade_tip": [
+        1162.4908299364974,
+        911.8339285995736
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 33,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AL.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AL.svg",
+      "contact_span": [
+        1078.8538848549108,
+        1345.5425725108048
+      ],
+      "blade_tip": [
+        1165.997875260329,
+        1077.2452464534992
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 36,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AM.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AM.svg",
+      "contact_span": [
+        1116.9866621148892,
+        1331.2910876577664
+      ],
+      "blade_tip": [
+        1169.6810099694167,
+        1250.989522783188
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 39,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AN.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AN.svg",
+      "contact_span": [
+        1159.5426960717514,
+        1303.0125183031244
+      ],
+      "blade_tip": [
+        1171.7726303676852,
+        1349.6730358746652
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 42,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AO.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AO.svg",
+      "contact_span": [
+        1161.845434556756,
+        1298.9682560978795
+      ],
+      "blade_tip": [
+        1174.510766228336,
+        1355.629749338853
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 45,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AP.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AP.svg",
+      "contact_span": [
+        1161.1131388012247,
+        1293.0690437758822
+      ],
+      "blade_tip": [
+        1183.8078773855934,
+        1364.571128367948
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 48,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AQ.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AQ.svg",
+      "contact_span": [
+        1159.8461382657579,
+        1282.0691052392663
+      ],
+      "blade_tip": [
+        1197.0791581387482,
+        1377.324247231704
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 51,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AR.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AR.svg",
+      "contact_span": [
+        1158.2275887615344,
+        1270.2286481739707
+      ],
+      "blade_tip": [
+        1211.4829196777098,
+        1391.1524202474443
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 54,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AS.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AS.svg",
+      "contact_span": [
+        1155.0603170021816,
+        1257.4999452733528
+      ],
+      "blade_tip": [
+        1224.1797633501071,
+        1403.3310480687244
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 57,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AT.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AT.svg",
+      "contact_span": [
+        1152.5349904558927,
+        1248.8163871679517
+      ],
+      "blade_tip": [
+        1232.333348860504,
+        1411.1467429176598
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 60,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AU.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AU.svg",
+      "contact_span": [
+        1148.6247397513002,
+        1252.5486079187049
+      ],
+      "blade_tip": [
+        1234.430418239306,
+        1402.1255185205603
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 63,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AV.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AV.svg",
+      "contact_span": [
+        1115.4467903320879,
+        1296.6523280051235
+      ],
+      "blade_tip": [
+        1239.8864949045276,
+        1300.8056187134728
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 66,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AW.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AW.svg",
+      "contact_span": [
+        1088.8203732416198,
+        1347.4382337935303
+      ],
+      "blade_tip": [
+        1248.9172614899778,
+        1133.0695586971092
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 69,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AX.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AX.svg",
+      "contact_span": [
+        1116.5496811892074,
+        1354.8335774422053
+      ],
+      "blade_tip": [
+        1258.7708181896915,
+        950.0005800324399
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 72,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AY.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AY.svg",
+      "contact_span": [
+        1194.2205936494784,
+        1317.529901878961
+      ],
+      "blade_tip": [
+        1266.6975980173227,
+        802.6888146060169
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 75,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AZ.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-AZ.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1269.950273512262,
+        742.23007735682
+      ],
+      "droplets": []
+    },
+    {
+      "start_frame": 78,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BA.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BA.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1272.5428661048545,
+        684.4522995790421
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "detached-falling",
+          "x": 1272.5428661048545,
+          "y": 684.4522995790421,
+          "blade_tip": [
+            1272.5428661048545,
+            684.4522995790421
+          ]
+        }
+      ]
+    },
+    {
+      "start_frame": 81,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BB.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BB.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1279.024347586336,
+        540.0078551345978
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "detached-falling",
+          "x": 1268.0428661048545,
+          "y": 683.1022995790421,
+          "blade_tip": [
+            1279.024347586336,
+            540.0078551345978
+          ]
+        },
+        {
+          "id": 1,
+          "state": "detached-falling",
+          "x": 1279.024347586336,
+          "y": 540.0078551345978,
+          "blade_tip": [
+            1279.024347586336,
+            540.0078551345978
+          ]
+        }
+      ]
+    },
+    {
+      "start_frame": 84,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BC.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BC.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1287.450273512262,
+        352.2300773568199
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "detached-falling",
+          "x": 1263.5428661048545,
+          "y": 689.8522995790422,
+          "blade_tip": [
+            1287.450273512262,
+            352.2300773568199
+          ]
+        },
+        {
+          "id": 1,
+          "state": "detached-falling",
+          "x": 1281.724347586336,
+          "y": 538.6578551345978,
+          "blade_tip": [
+            1287.450273512262,
+            352.2300773568199
+          ]
+        },
+        {
+          "id": 2,
+          "state": "detached-falling",
+          "x": 1287.450273512262,
+          "y": 352.2300773568199,
+          "blade_tip": [
+            1287.450273512262,
+            352.2300773568199
+          ]
+        }
+      ]
+    },
+    {
+      "start_frame": 87,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BD.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BD.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1295.8761994381878,
+        164.45229957904218
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "detached-falling",
+          "x": 1259.0428661048545,
+          "y": 704.7022995790421,
+          "blade_tip": [
+            1295.8761994381878,
+            164.45229957904218
+          ]
+        },
+        {
+          "id": 1,
+          "state": "detached-falling",
+          "x": 1284.4243475863361,
+          "y": 545.4078551345979,
+          "blade_tip": [
+            1295.8761994381878,
+            164.45229957904218
+          ]
+        },
+        {
+          "id": 2,
+          "state": "detached-falling",
+          "x": 1286.100273512262,
+          "y": 350.8800773568199,
+          "blade_tip": [
+            1295.8761994381878,
+            164.45229957904218
+          ]
+        }
+      ]
+    },
+    {
+      "start_frame": 90,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BE.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BE.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1302.3576809196693,
+        20.007855134597605
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "detached-falling",
+          "x": 1254.5428661048545,
+          "y": 727.6522995790422,
+          "blade_tip": [
+            1302.3576809196693,
+            20.007855134597605
+          ]
+        },
+        {
+          "id": 1,
+          "state": "detached-falling",
+          "x": 1287.124347586336,
+          "y": 560.2578551345978,
+          "blade_tip": [
+            1302.3576809196693,
+            20.007855134597605
+          ]
+        },
+        {
+          "id": 2,
+          "state": "detached-falling",
+          "x": 1284.7502735122619,
+          "y": 357.63007735681987,
+          "blade_tip": [
+            1302.3576809196693,
+            20.007855134597605
+          ]
+        }
+      ]
+    },
+    {
+      "start_frame": 93,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BF.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BF.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "detached-falling",
+          "x": 1250.0428661048545,
+          "y": 758.7022995790421,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        },
+        {
+          "id": 1,
+          "state": "detached-falling",
+          "x": 1289.824347586336,
+          "y": 583.2078551345978,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        },
+        {
+          "id": 2,
+          "state": "detached-falling",
+          "x": 1283.400273512262,
+          "y": 372.4800773568199,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        }
+      ]
+    },
+    {
+      "start_frame": 96,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BG.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BG.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 2.8895545951619255,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "detached-falling",
+          "x": 1292.524347586336,
+          "y": 614.2578551345978,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        },
+        {
+          "id": 2,
+          "state": "detached-falling",
+          "x": 1282.0502735122618,
+          "y": 395.4300773568199,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        }
+      ]
+    },
+    {
+      "start_frame": 99,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BH.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BH.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 5.8895545951619255,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "detached-falling",
+          "x": 1295.224347586336,
+          "y": 653.4078551345978,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        },
+        {
+          "id": 2,
+          "state": "detached-falling",
+          "x": 1280.700273512262,
+          "y": 426.4800773568199,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        }
+      ]
+    },
+    {
+      "start_frame": 102,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BI.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BI.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 8.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "detached-falling",
+          "x": 1297.9243475863361,
+          "y": 700.6578551345978,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        },
+        {
+          "id": 2,
+          "state": "detached-falling",
+          "x": 1279.350273512262,
+          "y": 465.6300773568199,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        }
+      ]
+    },
+    {
+      "start_frame": 105,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BJ.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BJ.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 11.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "detached-falling",
+          "x": 1300.624347586336,
+          "y": 756.0078551345978,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        },
+        {
+          "id": 2,
+          "state": "detached-falling",
+          "x": 1278.0002735122619,
+          "y": 512.8800773568199,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        }
+      ]
+    },
+    {
+      "start_frame": 108,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BK.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BK.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 14.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "impact-ring",
+          "age": 2.7992920600664775,
+          "x": 1300.8049847322761,
+          "y": 760
+        },
+        {
+          "id": 2,
+          "state": "detached-falling",
+          "x": 1276.650273512262,
+          "y": 568.23007735682,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        }
+      ]
+    },
+    {
+      "start_frame": 111,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BL.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BL.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 17.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "impact-ring",
+          "age": 5.7992920600664775,
+          "x": 1300.8049847322761,
+          "y": 760
+        },
+        {
+          "id": 2,
+          "state": "detached-falling",
+          "x": 1275.3002735122618,
+          "y": 631.6800773568199,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        }
+      ]
+    },
+    {
+      "start_frame": 114,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BM.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BM.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 20.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "impact-ring",
+          "age": 8.799292060066477,
+          "x": 1300.8049847322761,
+          "y": 760
+        },
+        {
+          "id": 2,
+          "state": "detached-falling",
+          "x": 1273.950273512262,
+          "y": 703.23007735682,
+          "blade_tip": [
+            1304.950273512262,
+            -37.76992264318011
+          ]
+        }
+      ]
+    },
+    {
+      "start_frame": 117,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BN.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BN.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 23.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "impact-ring",
+          "age": 11.799292060066477,
+          "x": 1300.8049847322761,
+          "y": 760
+        },
+        {
+          "id": 2,
+          "state": "impact-ring",
+          "age": 0.8312183929892285,
+          "x": 1272.974321789107,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "start_frame": 120,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BO.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BO.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 26.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "impact-ring",
+          "age": 14.799292060066477,
+          "x": 1300.8049847322761,
+          "y": 760
+        },
+        {
+          "id": 2,
+          "state": "impact-ring",
+          "age": 3.8312183929892285,
+          "x": 1272.974321789107,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "start_frame": 123,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BP.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BP.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 29.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "impact-ring",
+          "age": 17.799292060066477,
+          "x": 1300.8049847322761,
+          "y": 760
+        },
+        {
+          "id": 2,
+          "state": "impact-ring",
+          "age": 6.8312183929892285,
+          "x": 1272.974321789107,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "start_frame": 126,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BQ.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BQ.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 32.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "impact-ring",
+          "age": 20.799292060066477,
+          "x": 1300.8049847322761,
+          "y": 760
+        },
+        {
+          "id": 2,
+          "state": "impact-ring",
+          "age": 9.831218392989229,
+          "x": 1272.974321789107,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "start_frame": 129,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BR.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BR.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 35.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "impact-ring",
+          "age": 23.799292060066477,
+          "x": 1300.8049847322761,
+          "y": 760
+        },
+        {
+          "id": 2,
+          "state": "impact-ring",
+          "age": 12.831218392989229,
+          "x": 1272.974321789107,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "start_frame": 132,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BS.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BS.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 38.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "impact-ring",
+          "age": 26.799292060066477,
+          "x": 1300.8049847322761,
+          "y": 760
+        },
+        {
+          "id": 2,
+          "state": "impact-ring",
+          "age": 15.831218392989229,
+          "x": 1272.974321789107,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "start_frame": 135,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BT.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BT.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 41.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "impact-ring",
+          "age": 29.799292060066477,
+          "x": 1300.8049847322761,
+          "y": 760
+        },
+        {
+          "id": 2,
+          "state": "impact-ring",
+          "age": 18.83121839298923,
+          "x": 1272.974321789107,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "start_frame": 138,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BU.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BU.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 44.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "impact-ring",
+          "age": 32.79929206006648,
+          "x": 1300.8049847322761,
+          "y": 760
+        },
+        {
+          "id": 2,
+          "state": "impact-ring",
+          "age": 21.83121839298923,
+          "x": 1272.974321789107,
+          "y": 760
+        }
+      ]
+    },
+    {
+      "start_frame": 141,
+      "frames": 3,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BV.png",
+      "svg": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/drawings/water-fx-BV.svg",
+      "contact_span": null,
+      "blade_tip": [
+        1304.950273512262,
+        -37.76992264318011
+      ],
+      "droplets": [
+        {
+          "id": 0,
+          "state": "impact-ring",
+          "age": 47.889554595161925,
+          "x": 1249.8771979975975,
+          "y": 760
+        },
+        {
+          "id": 1,
+          "state": "impact-ring",
+          "age": 35.79929206006648,
+          "x": 1300.8049847322761,
+          "y": 760
+        },
+        {
+          "id": 2,
+          "state": "impact-ring",
+          "age": 24.83121839298923,
+          "x": 1272.974321789107,
+          "y": 760
+        }
+      ]
+    }
+  ],
+  "droplet_physics": [
+    {
+      "id": 0,
+      "birth": 78,
+      "x": 1272.5428661048545,
+      "y": 684.4522995790421,
+      "vx": -1.5,
+      "vy": -1.8,
+      "g": 0.9,
+      "impact": 93.11044540483807,
+      "impact_x": 1249.8771979975975
+    },
+    {
+      "id": 1,
+      "birth": 81,
+      "x": 1279.024347586336,
+      "y": 540.0078551345978,
+      "vx": 0.9,
+      "vy": -1.8,
+      "g": 0.9,
+      "impact": 105.20070793993352,
+      "impact_x": 1300.8049847322761
+    },
+    {
+      "id": 2,
+      "birth": 84,
+      "x": 1287.450273512262,
+      "y": 352.2300773568199,
+      "vx": -0.45,
+      "vy": -1.8,
+      "g": 0.9,
+      "impact": 116.16878160701077,
+      "impact_x": 1272.974321789107
+    }
+  ],
+  "notes": "New vector effect drawings registered to native rigid paddle silhouette; each drawing held3frames. Gravity px/frame^2; impact at waterline."
+}
