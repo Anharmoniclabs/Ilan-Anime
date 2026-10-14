@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.new",
+    "params": {
+      "name": "S14-03 / research graph r1",
+      "width": 1280,
+      "height": 720,
+      "frameRate": 24,
+      "duration": 16,
+      "background": "#eee3ce"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 1
+  }
+}

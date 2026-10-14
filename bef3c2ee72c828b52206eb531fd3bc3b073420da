@@ -1,0 +1,33 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "file.interpretFootage",
+    "params": {
+      "items": [
+        219
+      ],
+      "frameRate": 24,
+      "alpha": "straight"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "items": [
+      {
+        "alpha": "Straight",
+        "fields": "Off",
+        "frameRate": 24.0,
+        "invertAlpha": false,
+        "item": 219,
+        "linearLight": false,
+        "loop": 1,
+        "matteColor": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "pixelAspect": 1.0
+      }
+    ]
+  }
+}

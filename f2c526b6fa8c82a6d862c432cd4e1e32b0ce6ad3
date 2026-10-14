@@ -1,0 +1,38 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "shape.newPath",
+    "params": {
+      "layer": 2,
+      "vertices": [
+        [
+          100,
+          100
+        ],
+        [
+          401,
+          99
+        ],
+        [
+          400,
+          181
+        ],
+        [
+          99,
+          179
+        ]
+      ],
+      "closed": true,
+      "space": "comp",
+      "fill": "#b9ced3",
+      "stroke": "#172936",
+      "strokeWidth": 3
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "group": 63,
+    "layer": 2,
+    "path": 26
+  }
+}

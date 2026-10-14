@@ -1,0 +1,279 @@
+{
+  "blendMode": "Normal",
+  "id": 175,
+  "in": 0.0,
+  "index": 1,
+  "label": "Red",
+  "name": "Effect \u2014 single title shimmer",
+  "out": 12.0,
+  "parent": null,
+  "properties": [
+    {
+      "path": "text/sourceText",
+      "type": "text",
+      "value": "HERALDS OF THE CEM\u00cd"
+    },
+    {
+      "path": "text/perChar3d",
+      "type": "bool",
+      "value": false
+    },
+    {
+      "path": "text/pathOptions/path",
+      "type": "enum",
+      "value": 0
+    },
+    {
+      "path": "text/pathOptions/reversePath",
+      "type": "bool",
+      "value": false
+    },
+    {
+      "path": "text/pathOptions/perpendicular",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "path": "text/pathOptions/forceAlignment",
+      "type": "bool",
+      "value": false
+    },
+    {
+      "path": "text/pathOptions/firstMargin",
+      "type": "scalar",
+      "value": 0.0
+    },
+    {
+      "path": "text/pathOptions/lastMargin",
+      "type": "scalar",
+      "value": 0.0
+    },
+    {
+      "path": "text/moreOptions/anchorGrouping",
+      "type": "enum",
+      "value": 0
+    },
+    {
+      "path": "text/moreOptions/groupingAlignment",
+      "type": "vec2",
+      "value": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "text/moreOptions/fillStroke",
+      "type": "enum",
+      "value": 0
+    },
+    {
+      "path": "text/moreOptions/interCharBlend",
+      "type": "enum",
+      "value": 0
+    },
+    {
+      "path": "masks/mask/path",
+      "type": "path",
+      "value": {
+        "t": "Path",
+        "v": {
+          "closed": true,
+          "in_tangents": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "out_tangents": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0
+            ]
+          ],
+          "vertices": [
+            [
+              -422.0,
+              -48.0
+            ],
+            [
+              -398.0,
+              -48.0
+            ],
+            [
+              -398.0,
+              30.0
+            ],
+            [
+              -422.0,
+              30.0
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "path": "masks/mask/feather",
+      "type": "vec2",
+      "value": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "masks/mask/opacity",
+      "type": "scalar",
+      "value": 100.0
+    },
+    {
+      "path": "masks/mask/expansion",
+      "type": "scalar",
+      "value": 0.0
+    },
+    {
+      "path": "transform/anchor",
+      "type": "vec3",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "transform/position",
+      "type": "vec3",
+      "value": [
+        640.0,
+        418.0,
+        0.0
+      ]
+    },
+    {
+      "path": "transform/scale",
+      "type": "vec3",
+      "value": [
+        100.0,
+        100.0,
+        100.0
+      ]
+    },
+    {
+      "path": "transform/orientation",
+      "type": "vec3",
+      "value": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "path": "transform/rotationX",
+      "type": "scalar",
+      "value": 0.0
+    },
+    {
+      "path": "transform/rotationY",
+      "type": "scalar",
+      "value": 0.0
+    },
+    {
+      "path": "transform/rotation",
+      "type": "scalar",
+      "value": 0.0
+    },
+    {
+      "path": "transform/opacity",
+      "type": "scalar",
+      "value": 100.0
+    },
+    {
+      "path": "materialOptions/castsShadows",
+      "type": "enum",
+      "value": 0
+    },
+    {
+      "path": "materialOptions/lightTransmission",
+      "type": "scalar",
+      "value": 0.0
+    },
+    {
+      "path": "materialOptions/acceptsShadows",
+      "type": "enum",
+      "value": 1
+    },
+    {
+      "path": "materialOptions/acceptsLights",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "path": "materialOptions/ambient",
+      "type": "scalar",
+      "value": 100.0
+    },
+    {
+      "path": "materialOptions/diffuse",
+      "type": "scalar",
+      "value": 50.0
+    },
+    {
+      "path": "materialOptions/specularIntensity",
+      "type": "scalar",
+      "value": 50.0
+    },
+    {
+      "path": "materialOptions/specularShininess",
+      "type": "scalar",
+      "value": 5.0
+    },
+    {
+      "path": "materialOptions/metal",
+      "type": "scalar",
+      "value": 100.0
+    }
+  ],
+  "start": 0.0,
+  "stretch": 100.0,
+  "switches": {
+    "adjustment": false,
+    "audio": true,
+    "collapse": false,
+    "effects": true,
+    "frame_blend": "Off",
+    "guide": false,
+    "locked": false,
+    "motion_blur": false,
+    "quality": "Best",
+    "sampling": "Bilinear",
+    "shy": false,
+    "solo": false,
+    "three_d": false,
+    "video": true
+  },
+  "time": 0.0,
+  "trackMatte": null,
+  "type": "Text"
+}

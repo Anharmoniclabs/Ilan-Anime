@@ -1,0 +1,17 @@
+{
+  "reviewer_role": "episode-director",
+  "reviewer_agent": "coordinator-motion-contract-review",
+  "decision": "approve",
+  "scope": "Planning/inventory only, not shot motion approval",
+  "evidence": [
+    "Read condensed proposed action phases for all128shots, including row/showcase conflicts.",
+    "Verified all source hashes, exact canonical starts/durations and gapless internal phase coverage.",
+    "Character/prop/effect/camera tasks remain separate; missingdrawings explicit."
+  ],
+  "limitations": [
+    "Numeric camera positions and expanded layouts are not yet authored.",
+    "Internal timing remains proposed; successful128contract coverage is not animation completion.",
+    "S01-03 fourghost memory impressions versus14to11 verbalcount remains script ambiguity; preservecurrentlivingcast and narrative memories.",
+    "S14-08 hand-only color selected by shot-row precedence."
+  ]
+}

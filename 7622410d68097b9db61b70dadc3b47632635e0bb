@@ -1,0 +1,14 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.newShape",
+    "params": {
+      "kind": "none",
+      "name": "Ink node"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 2
+  }
+}

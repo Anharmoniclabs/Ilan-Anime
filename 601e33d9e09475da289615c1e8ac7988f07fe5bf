@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 473,
+      "name": "Effect — film grain cycle 12"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

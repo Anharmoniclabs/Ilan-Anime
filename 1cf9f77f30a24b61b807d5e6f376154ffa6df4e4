@@ -1,9 +1,0 @@
-{
-  "decision": "reject",
-  "evidence": "All five MP4s independently decode at the exact 96/120/288/96/192 frames, 24 fps, 1280x720, silent. Viewed decoded samples and all QA flagged frames. S00-01 completes its connected draw-on at f72; black holds are valid. However S00-01/S00-02/S02-01 omit scripted grain and S00-01 omits gate weave; S00-02 f24–119 uppercases the English subtitle; native shot.ecproj files contain flattened full-card PNG footage layers. Detailed criterion review: production/runs/episode1-picture-motion/reviews/editorial-motion/review.md. This is not Luis’s creative approval.",
-  "repair_notes": [
-    "Add scripted grain to the three navy cards and gate weave to S00-01 in a new version, preserving timing and silent black holds.",
-    "Restore S00-02 subtitle case: They count. We remember. — ABUELA.",
-    "Supply independently editable native sigil, typography, background and effects layers; retain one shared connected path and resubmit rendered files."
-  ]
-}

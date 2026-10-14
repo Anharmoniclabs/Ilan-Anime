@@ -1,0 +1,46 @@
+{
+  "status": "submitted for independent review; exploratory",
+  "supersedes": "editorial-motion",
+  "shots": [
+    {
+      "shot": "S00-01",
+      "start_frame": 0,
+      "frames": 96,
+      "native": "S00-01/shot.ecproj",
+      "render": "S00-01/preview.mp4",
+      "visual_evidence": "S00-01/decoded-sheet.jpg"
+    },
+    {
+      "shot": "S00-02",
+      "start_frame": 96,
+      "frames": 120,
+      "native": "S00-02/shot.ecproj",
+      "render": "S00-02/preview.mp4",
+      "visual_evidence": "S00-02/decoded-sheet.jpg"
+    },
+    {
+      "shot": "S01-15",
+      "start_frame": 3144,
+      "frames": 96,
+      "native": "S01-15/shot.ecproj",
+      "render": "S01-15/preview.mp4",
+      "visual_evidence": "S01-15/decoded-sheet.jpg"
+    },
+    {
+      "shot": "S02-01",
+      "start_frame": 3240,
+      "frames": 288,
+      "native": "S02-01/shot.ecproj",
+      "render": "S02-01/preview.mp4",
+      "visual_evidence": "S02-01/decoded-sheet.jpg"
+    },
+    {
+      "shot": "S15-09",
+      "start_frame": 26928,
+      "frames": 192,
+      "native": "S15-09/shot.ecproj",
+      "render": "S15-09/preview.mp4",
+      "visual_evidence": "S15-09/decoded-sheet.jpg"
+    }
+  ]
+}

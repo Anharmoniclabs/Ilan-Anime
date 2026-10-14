@@ -1,0 +1,12 @@
+{
+  "shot": "S01-15",
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "exposures": [
+    {
+      "path": "drawings/cel-0000.png",
+      "frames": 96
+    }
+  ]
+}

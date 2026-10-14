@@ -1,0 +1,36 @@
+{
+  "task_id": "editorial-motion",
+  "role": "compositor",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-01/native-v1/preview.mp4",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-01/native-v1/shot.ecproj",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-01/native-v1/edit.filmcraft",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-01/exposures.json",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/preview.mp4",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/shot.ecproj",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/edit.filmcraft",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/exposures.json",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S02-01/native-v1/preview.mp4",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S02-01/native-v1/shot.ecproj",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S02-01/native-v1/edit.filmcraft",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S02-01/exposures.json",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S01-15/native-v1/preview.mp4",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S01-15/native-v1/shot.ecproj",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S01-15/native-v1/edit.filmcraft",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S01-15/exposures.json",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S15-09/native-v1/preview.mp4",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S15-09/native-v1/shot.ecproj",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S15-09/native-v1/edit.filmcraft",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/S15-09/exposures.json",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/shared-sigil.svg",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/shared-sigil.json",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion/verification.json"
+  ],
+  "evidence": [
+    "All five exact scripted lengths verified at24fps1280x720, silent streams.",
+    "Sigil draw-on and title dissolve/shimmer use native path/text drawings on3s; original source images unchanged.",
+    "Shared symbol replaces earlier crossed triangle; still requires independent and author visual review."
+  ],
+  "blockers": []
+}

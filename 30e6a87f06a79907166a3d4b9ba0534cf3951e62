@@ -1,0 +1,64 @@
+{
+  "id": "S00-02",
+  "size": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "frames": 120,
+  "status": "exploratory",
+  "stage": "draft",
+  "layers": [
+    {
+      "name": "cels",
+      "exposures": [
+        {
+          "start": 0,
+          "end": 3,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/inputs/drawing_bd1571ded9544fd455a019aaef84161bc32c48f922ac8b7902506ffd68cb67da_still.png"
+        },
+        {
+          "start": 3,
+          "end": 6,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/inputs/drawing_0dce6d6cefdc1512aa31ebfb2df51bf7189a720884923bb12334ad058e63f4a4_still.png"
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/inputs/drawing_2bbd001c642d37c24e61c2266c46313d83291f06376e13e176eca9b5f1fadb96_still.png"
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/inputs/drawing_5e67a583e91db521764d81b250fead51e63beed3bbd67314f9750afc059fe90a_still.png"
+        },
+        {
+          "start": 12,
+          "end": 15,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/inputs/drawing_427f0ece84a546d3fb79a4c4f2feec87cea52ba878b87fdadf2e1403aaacc504_still.png"
+        },
+        {
+          "start": 15,
+          "end": 18,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/inputs/drawing_8affbcaa96169cd4177eb7c64441e034a0b5a20ae3d88793130e1a3532c3cafc_still.png"
+        },
+        {
+          "start": 18,
+          "end": 21,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/inputs/drawing_13c8842399bdf12a9838b988a8bac92d101598eda0b22e8b15e22eede30aea40_still.png"
+        },
+        {
+          "start": 21,
+          "end": 24,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/inputs/drawing_175f11c2a5100c1b4663147dd271e4b027e9b95624829a9678872916588bf9a7_still.png"
+        },
+        {
+          "start": 24,
+          "end": 120,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/inputs/drawing_07519f9fca16db1d451a419c66220bc114840409dbdfa4bbe52292dafbedc5a9_still.png"
+        }
+      ],
+      "rate": 1
+    }
+  ]
+}

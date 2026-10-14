@@ -1,0 +1,44 @@
+{
+  "shot": "S00-02",
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "exposures": [
+    {
+      "path": "drawings/cel-0000.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0003.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0006.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0009.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0012.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0015.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0018.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0021.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0024.png",
+      "frames": 96
+    }
+  ]
+}

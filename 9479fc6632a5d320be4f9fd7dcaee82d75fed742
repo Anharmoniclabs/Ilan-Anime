@@ -1,0 +1,7 @@
+{
+  "tool": "get_layer",
+  "arguments": {},
+  "status": "failed",
+  "result": "ERROR: missing `layer`",
+  "exception": "get_layer: ERROR: missing `layer`"
+}

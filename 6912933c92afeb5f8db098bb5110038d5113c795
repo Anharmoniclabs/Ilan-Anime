@@ -1,9 +1,0 @@
-{
-  "decision": "reject",
-  "evidence": "144-frame silent 1920x1080/24fps export and manifest hashes pass. Entry, immersion, lift and detached impacts are visible across all 48 exposure samples. However, decoded f27 shows a hard capped waterline; f84 and f117 show smooth graphic ripple overlays that do not integrate with the textured water or current S01-01 reference. Studio QA sole no_acting flag at f0 was viewed and dismissed as inapplicable to this prop/FX insert. Full criterion notes: production/runs/episode1-picture-motion/reviews/water-motion/review.md. No real-time playback or Luis creative approval claimed.",
-  "repair_notes": [
-    "Refine f24\u201372 meniscus and foreground occlusion so the blade enters water without a straight capped edge; preserve rigid geometry and contact registration.",
-    "Finish f75\u2013143 ripple/drop/crown cels with irregular cel-painted highlights integrated with the water and current opening reference; preserve detached trajectories and independent layers.",
-    "Submit a new version with decoded contact/impact evidence and review at 24fps."
-  ]
-}

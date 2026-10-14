@@ -1,7 +1,0 @@
-{
-  "decision": "approve",
-  "evidence": "All requested repairs pass: S00-01 has grain and native weave; S00-02 f24/119 has the exact mixed-case subtitle; native projects contain separate editable layers. All five renders preserve exact durations, silent 24 fps output, and pure black holds. Inspected frame sheets and every QA flagged frame; flags are expected editorial holds/no acting. Detailed criteria: production/runs/episode1-picture-motion/reviews/editorial-motion-r1/review.md. Technical approval only—not Luis’s creative approval.",
-  "repair_notes": [],
-  "reviewer_role": "animation-supervisor",
-  "host_agent_id": "01a138cb-88b7-77c2-a2fb-56c06b3b7332"
-}

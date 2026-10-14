@@ -1,0 +1,17 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "file.newSequence",
+    "params": {
+      "name": "S00-01",
+      "width": 1280,
+      "height": 720,
+      "fps": 24,
+      "fromItem": 1
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "sequence": 8
+  }
+}
