@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 267986880000000,
+      "durationFrames": 120,
+      "name": "S15-01 missing",
+      "comment": "route avoiding El; bodega unavoidable; 48frame stove insert"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 144
+  }
+}

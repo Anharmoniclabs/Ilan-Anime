@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 71886528000000,
+      "durationFrames": 72,
+      "name": "S05-01 missing",
+      "comment": "anticipate; pop recoil; settle"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 51
+  }
+}

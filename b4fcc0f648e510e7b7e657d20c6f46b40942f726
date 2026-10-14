@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 2286144000000,
+      "durationFrames": 144,
+      "name": "S01-01 unreviewed",
+      "comment": "plant blade; pull and release; drop droplets; expand late ring"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 9
+  }
+}

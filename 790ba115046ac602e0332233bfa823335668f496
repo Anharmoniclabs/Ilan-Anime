@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 195338304000000,
+      "durationFrames": 432,
+      "name": "S12-09 missing",
+      "comment": "private concern; wipe hand; dump latte; start fresh; Manny releases"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 116
+  }
+}

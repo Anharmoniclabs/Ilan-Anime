@@ -1,0 +1,71 @@
+{
+  "shot": "S04-02",
+  "status": "submitted",
+  "author_approved": false,
+  "frames": 144,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "audio": false,
+  "episode_start_frame": 6192,
+  "episode_end_exclusive": 6336,
+  "clip": {
+    "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/review-matte.mp4",
+    "sha256": "92c043e29ec20f1d672955bad5e14c7c382ac30bea4c7922eeb84292f02e3aa4"
+  },
+  "native_project": {
+    "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/native-matte/shot.ecproj",
+    "sha256": "ea16a42726fb31b081e13fde6e781a64c7e5ee2e040c42b2904cefef21afafc5"
+  },
+  "shot_spec": {
+    "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/shot.json",
+    "sha256": "43a03d2cf604744a01b0787f8f29c169399e2f35d91547ab9df8b0cdf975808f"
+  },
+  "disposition": "reuse existing preserved output; no creative change",
+  "source_layers": [
+    {
+      "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/room.png",
+      "sha256": "e1a743dafb70afb21745b6648cc3e8c62194c9710de7a980e4e70e56bea7e32d"
+    },
+    {
+      "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pipe-masked.png",
+      "sha256": "093b7d58c0a62f3f3aba0b64ddb20cb24963ced30dd990d3b44da711db121d80"
+    },
+    {
+      "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/projector-masked.png",
+      "sha256": "c921ea8a2cd822bc185812770abba0a4f07c6f5ba7ef55fc64a1775572dfb735"
+    },
+    {
+      "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-1-gauze.png",
+      "sha256": "4b7606612890e14cbad29f5f7252d9574d0e2a9a4e6708f57c8c283e8fa5e2e3"
+    },
+    {
+      "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-1-label.png",
+      "sha256": "5b448cc9cbdfa62215b13b1d76e6b82d6f5fd055cde9cce27bd5b87b10279a04"
+    },
+    {
+      "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-2-gauze.png",
+      "sha256": "0df8a5115d43c1d3f7da289cdea14e34324060c988a7f637f5e6341f3dc15ec1"
+    },
+    {
+      "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-2-label.png",
+      "sha256": "837be3b79ce5f95f02e8937a4df3a1bd6995ebc7ca3798cfc359574815bced34"
+    },
+    {
+      "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-3-gauze.png",
+      "sha256": "d76e4ed315937821e0eb68630279c44389ca2b6841c98e87822fe2fd90ecdc8b"
+    },
+    {
+      "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-3-label.png",
+      "sha256": "bdcb3b281283e22ba589f77ea33e87403c924bcc7545a63ab08897a7b59d865e"
+    },
+    {
+      "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/rigid-shared-sigil.png",
+      "sha256": "69e505f4c5436174d4395f5ac1f14d6195ca0f9883389c68570a3055df132bcd"
+    },
+    {
+      "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/rigid-waveform.png",
+      "sha256": "d567f46e1ac8b1862ffbf167aea63676015a6bf6dd8acc84788a1546b5153214"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "shot": "S06-03",
+  "status": "submitted",
+  "author_approved": false,
+  "frames": 144,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "audio": false,
+  "episode_start_frame": 9648,
+  "episode_end_exclusive": 9792,
+  "clip": {
+    "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/review.mp4",
+    "sha256": "d1a84e32672f6e1429e3fb9b6d8d398e90585dc2099c85294613c5c195b6929d"
+  },
+  "native_project": {
+    "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/native/shot.ecproj",
+    "sha256": "76f4b6e360f3b64f7e7c92f869730128f27a65cf7fde9dd95642fdc1cdb997ef"
+  },
+  "shot_spec": {
+    "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/shot.json",
+    "sha256": "d8f1895b1b7d674deee3a298e1b3d918caeafd443a031d4675aacb63813a6484"
+  },
+  "disposition": "reuse existing preserved output; no creative change",
+  "source_layers": [
+    {
+      "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/blackout-plate.png",
+      "sha256": "3168e593ac3e7ccb71f95e2711dc3a795aaeb6ec645a98f9d51efcae23387f92"
+    }
+  ]
+}

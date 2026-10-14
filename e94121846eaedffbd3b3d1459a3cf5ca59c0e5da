@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 148345344000000,
+      "durationFrames": 120,
+      "name": "S10-01 missing",
+      "comment": "back into door; shoulder push; step through; settle"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 89
+  }
+}

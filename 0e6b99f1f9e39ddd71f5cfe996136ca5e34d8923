@@ -1,0 +1,12 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "clip.rename",
+    "params": {
+      "clip": 127,
+      "name": "S14-03 technical-approved"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

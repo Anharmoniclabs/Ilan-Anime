@@ -1,0 +1,65 @@
+[
+  {
+    "description": "Run JavaScript with an After Effects-style scripting object model (app, app.project, items.addComp, comp.layers.addSolid/addText/addShape/addNull/addCamera/addLight, layer.property(\"ADBE Transform Group\").property(\"ADBE Position\").setValueAtTime(t, v), Effects.addProperty(\"ADBE Gaussian Blur 2\"), expressions, markers, renderQueue…). Every edit is an undoable engine command; app.beginUndoGroup/endUndoGroup make one undo step. Returns {ok, result (last expression value), output (writeLn/$.writeln/alert text), error: {message, line, column} | null}. File access is limited to the project folder unless the user allows scripts to write files.",
+    "inputSchema": {
+      "properties": {
+        "code": {
+          "description": "JavaScript source, e.g. `var c = app.project.items.addComp(\"Main\", 1920, 1080, 1, 5, 30); c.layers.addText(\"Hi\"); c.numLayers`.",
+          "type": "string"
+        },
+        "name": {
+          "description": "Script name used in error messages (default `script`).",
+          "type": "string"
+        }
+      },
+      "required": [
+        "code"
+      ],
+      "type": "object"
+    },
+    "name": "run_script"
+  },
+  {
+    "description": "Project overview: file path, dirty flag, bit depth, every item (id, name, type Composition/Footage/Solid/Folder, size, duration, layer count), the active comp id, current time (s), selected layers and the undo stack.",
+    "inputSchema": {
+      "properties": {},
+      "required": [],
+      "type": "object"
+    },
+    "name": "get_project"
+  },
+  {
+    "description": "Open a project: `path` to an .ecproj file, `demo: true` for the built-in demo project, or `new: true` for an empty project. Returns the project overview.",
+    "inputSchema": {
+      "properties": {
+        "demo": {
+          "type": "boolean"
+        },
+        "new": {
+          "type": "boolean"
+        },
+        "path": {
+          "description": "Path of an .ecproj file.",
+          "type": "string"
+        }
+      },
+      "required": [],
+      "type": "object"
+    },
+    "name": "open_project"
+  },
+  {
+    "description": "Save the project to its current file, or to `path` (Save As, .ecproj).",
+    "inputSchema": {
+      "properties": {
+        "path": {
+          "description": "Destination .ecproj path (Save As).",
+          "type": "string"
+        }
+      },
+      "required": [],
+      "type": "object"
+    },
+    "name": "save_project"
+  }
+]

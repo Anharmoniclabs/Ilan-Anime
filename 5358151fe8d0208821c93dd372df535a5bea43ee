@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 269256960000000,
+      "durationFrames": 144,
+      "name": "S15-02 missing",
+      "comment": "establish; tile slap; speaker insert"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 135
+  }
+}

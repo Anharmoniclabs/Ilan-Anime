@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 43182720000000,
+      "durationFrames": 264,
+      "name": "S03-04 missing",
+      "comment": "reveal building; activate five sources; converge closet"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 36
+  }
+}

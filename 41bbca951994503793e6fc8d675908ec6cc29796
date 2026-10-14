@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 199910592000000,
+      "durationFrames": 192,
+      "name": "S12-10 missing",
+      "comment": "cups1to13; realize14; closet inserts; finish20"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 117
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 107194752000000,
+      "durationFrames": 96,
+      "name": "S07-01 missing",
+      "comment": "morning super; chair rocking insert; settle"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 80
+  }
+}

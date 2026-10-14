@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 184669632000000,
+      "durationFrames": 192,
+      "name": "S12-05 missing",
+      "comment": "shop reveal; brow match; sign inserts"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 112
+  }
+}

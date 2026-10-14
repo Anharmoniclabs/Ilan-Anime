@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 162062208000000,
+      "durationFrames": 120,
+      "name": "S11-01 missing",
+      "comment": "buzz reaction; header readable hold"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 102
+  }
+}

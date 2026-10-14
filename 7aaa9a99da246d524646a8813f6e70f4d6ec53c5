@@ -1,0 +1,50 @@
+{
+  "native_frames": 96,
+  "static_background_except_flash": true,
+  "flash17_white": true,
+  "settle19_95_identical": true,
+  "tracking": [
+    {
+      "frame": 1,
+      "dx": 2,
+      "dy": 0,
+      "mse": 0.006190476190476191
+    },
+    {
+      "frame": 12,
+      "dx": 0,
+      "dy": -12,
+      "mse": 0.05492063492063492
+    },
+    {
+      "frame": 15,
+      "dx": 0,
+      "dy": -12,
+      "mse": 0.05492063492063492
+    },
+    {
+      "frame": 16,
+      "dx": 0,
+      "dy": -9,
+      "mse": 0.04376984126984127
+    },
+    {
+      "frame": 18,
+      "dx": 0,
+      "dy": -1,
+      "mse": 0.009722222222222222
+    },
+    {
+      "frame": 19,
+      "dx": 0,
+      "dy": 0,
+      "mse": 0.0
+    },
+    {
+      "frame": 95,
+      "dx": 0,
+      "dy": 0,
+      "mse": 0.0
+    }
+  ]
+}

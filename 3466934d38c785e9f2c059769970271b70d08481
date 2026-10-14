@@ -1,0 +1,38 @@
+{
+  "task_id": "episode-wiring",
+  "role": "pipeline-td",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/episode1-full-picture/tasks/episode-wiring/README.md",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/wire.py",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/check.py",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/contract.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/links.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/relink-example.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/timeline.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/episode.filmcraft",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/index.html",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/validation.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/checks.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/assembly-check.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/native-validation.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/native-reopened.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/native-recipe.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/excluded-history.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/compatibility.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/command-log.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/inspection.json",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/inspection-midpoints.jpg",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/artifact-hashes.json"
+  ],
+  "evidence": [
+    "Validated 128 unique contiguous slots, 27120 frames at 24 fps, exact 16:9; verified all 128 artwork hashes and eight draft clip hashes, frame counts, presentation timestamps, durations and silent streams.",
+    "FilmCraft native project saved and reopened: 128 exact range markers, seven correctly positioned fitted clips, 121 empty slots; rejected graph excluded from placement.",
+    "Current snapshot: 120 missing-motion shots, five technical-approved editorial r1 clips, one unreviewed water r1 clip, one partial Amaia v2 clip and one rejected graph clip; no author approval inferred.",
+    "Exercised refresh twice with identical timeline SHA-256 and exercised Amaia v2 relink/native rebuild. Offline index links resolve; eight clips fully decoded.",
+    "Assembly command exited 2 before creating media; all 128 slots fail final release eligibility. Negative checks reject non-final states, changed hashes, duplicate/gapped timing, missing approval evidence, audio, wrong rate, irregular timestamps and wrong aspect.",
+    "Directly viewed eight decoded midpoint samples in inspection-midpoints.jpg; no real-time playback or browser layout inspection claimed. Missing action drawings and source limitations remain documented.",
+    "Only bounded wiring is submitted for independent review; episode animation remains incomplete."
+  ],
+  "blockers": []
+}

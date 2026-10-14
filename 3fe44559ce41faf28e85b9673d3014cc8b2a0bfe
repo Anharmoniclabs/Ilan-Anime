@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 65536128000000,
+      "durationFrames": 144,
+      "name": "S04-02 technical-approved",
+      "comment": "comb pass; door pass; line pass"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 49
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 40134528000000,
+      "durationFrames": 288,
+      "name": "S03-03 technical-approved",
+      "comment": "pan radiator; pass desk and dish; pass laundry; land coin"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 35
+  }
+}

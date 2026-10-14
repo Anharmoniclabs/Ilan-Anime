@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 134120448000000,
+      "durationFrames": 120,
+      "name": "S09-01 missing",
+      "comment": "train enters; sign shakes; old text appears"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 91
+  }
+}

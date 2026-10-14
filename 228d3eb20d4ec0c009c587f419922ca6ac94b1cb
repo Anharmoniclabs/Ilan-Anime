@@ -1,0 +1,2433 @@
+{
+  "steps": [
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.newSequence",
+        "params": {
+          "name": "Episode 1 INCOMPLETE inspection — gaps are missing motion",
+          "width": 1280,
+          "height": 720,
+          "fps": 24,
+          "video": 1,
+          "audio": 0
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 0,
+          "durationFrames": 96,
+          "name": "S00-01 technical-approved",
+          "comment": "trace spiral; open triangle; hold closed stroke"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "media_import",
+      "arguments": {
+        "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion-r1/S00-01/preview.mp4"
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.place",
+        "params": {
+          "item": 4,
+          "track": "V1",
+          "frame": 0,
+          "insert": false,
+          "sourceIn": 0,
+          "duration": 1016064000000
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.select",
+        "params": {
+          "clips": [
+            5
+          ],
+          "add": false,
+          "toggle": false
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.scaleToFrameSize",
+        "params": {}
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.rename",
+        "params": {
+          "clip": 5,
+          "name": "S00-01 technical-approved"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 1016064000000,
+          "durationFrames": 120,
+          "name": "S00-02 technical-approved",
+          "comment": "dissolve type; hold readable card"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "media_import",
+      "arguments": {
+        "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion-r1/S00-02/preview.mp4"
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.place",
+        "params": {
+          "item": 7,
+          "track": "V1",
+          "frame": 96,
+          "insert": false,
+          "sourceIn": 0,
+          "duration": 1270080000000
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.select",
+        "params": {
+          "clips": [
+            8
+          ],
+          "add": false,
+          "toggle": false
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.scaleToFrameSize",
+        "params": {}
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.rename",
+        "params": {
+          "clip": 8,
+          "name": "S00-02 technical-approved"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 2286144000000,
+          "durationFrames": 144,
+          "name": "S01-01 unreviewed",
+          "comment": "plant blade; pull and release; drop droplets; expand late ring"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "media_import",
+      "arguments": {
+        "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion-r1/S01-01-silent-preview.mp4"
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.place",
+        "params": {
+          "item": 10,
+          "track": "V1",
+          "frame": 216,
+          "insert": false,
+          "sourceIn": 0,
+          "duration": 1524096000000
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.select",
+        "params": {
+          "clips": [
+            11
+          ],
+          "add": false,
+          "toggle": false
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.scaleToFrameSize",
+        "params": {}
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.rename",
+        "params": {
+          "clip": 11,
+          "name": "S01-01 unreviewed"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 3810240000000,
+          "durationFrames": 288,
+          "name": "S01-02 missing",
+          "comment": "establish single file; plant pull recover; continue travel"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 6858432000000,
+          "durationFrames": 192,
+          "name": "S01-03 partial",
+          "comment": "look toward seat; outline appears; count and fade; look beyond"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "media_import",
+      "arguments": {
+        "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/S01-03-partial-silent-v2.mp4"
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.place",
+        "params": {
+          "item": 14,
+          "track": "V1",
+          "frame": 648,
+          "insert": false,
+          "sourceIn": 0,
+          "duration": 2032128000000
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.select",
+        "params": {
+          "clips": [
+            15
+          ],
+          "add": false,
+          "toggle": false
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.scaleToFrameSize",
+        "params": {}
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.rename",
+        "params": {
+          "clip": 15,
+          "name": "S01-03 partial"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 8890560000000,
+          "durationFrames": 168,
+          "name": "S01-04 missing",
+          "comment": "fever bodies; lightning insert; shell blue insert"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 10668672000000,
+          "durationFrames": 168,
+          "name": "S01-05 missing",
+          "comment": "soldier lift; cut bell; bell swing; clapper lag and settle"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 12446784000000,
+          "durationFrames": 240,
+          "name": "S01-06 missing",
+          "comment": "arms rise; blue separates; lean follows; hands close insert"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 14986944000000,
+          "durationFrames": 168,
+          "name": "S01-07 missing",
+          "comment": "first line; reposition nib; second line; pen close insert"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 16765056000000,
+          "durationFrames": 144,
+          "name": "S01-08 missing",
+          "comment": "girl speaks to water; Dairon plants; bow turns"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 18289152000000,
+          "durationFrames": 336,
+          "name": "S01-09 missing",
+          "comment": "squeeze roots; shaft bends only at break; chips release; emerge and reverse wind"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 21845376000000,
+          "durationFrames": 144,
+          "name": "S01-10 missing",
+          "comment": "tilt toward bell; speak first phrase; speak second phrase; hold"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 23369472000000,
+          "durationFrames": 240,
+          "name": "S01-11 missing",
+          "comment": "hover; palms contact; weight transfer; settle and ring"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 25909632000000,
+          "durationFrames": 336,
+          "name": "S01-12 missing",
+          "comment": "canoes overtake strokes; blades drag; lift and recovery; foam turn settles"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 29465856000000,
+          "durationFrames": 144,
+          "name": "S01-13 missing",
+          "comment": "closed eyes inhale; murmur; settle asleep"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 30989952000000,
+          "durationFrames": 216,
+          "name": "S01-14 missing",
+          "comment": "counterbalance; roll with lean; dissolve clerk; book shuts"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 33276096000000,
+          "durationFrames": 96,
+          "name": "S01-15 technical-approved",
+          "comment": ""
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "media_import",
+      "arguments": {
+        "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion-r1/S01-15/preview.mp4"
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.place",
+        "params": {
+          "item": 28,
+          "track": "V1",
+          "frame": 3144,
+          "insert": false,
+          "sourceIn": 0,
+          "duration": 1016064000000
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.select",
+        "params": {
+          "clips": [
+            29
+          ],
+          "add": false,
+          "toggle": false
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.scaleToFrameSize",
+        "params": {}
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.rename",
+        "params": {
+          "clip": 29,
+          "name": "S01-15 technical-approved"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 34292160000000,
+          "durationFrames": 288,
+          "name": "S02-01 technical-approved",
+          "comment": "sigil draw; title reveal; single shimmer; hold"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "media_import",
+      "arguments": {
+        "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion-r1/S02-01/preview.mp4"
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.place",
+        "params": {
+          "item": 31,
+          "track": "V1",
+          "frame": 3240,
+          "insert": false,
+          "sourceIn": 0,
+          "duration": 3048192000000
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.select",
+        "params": {
+          "clips": [
+            32
+          ],
+          "add": false,
+          "toggle": false
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.scaleToFrameSize",
+        "params": {}
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.rename",
+        "params": {
+          "clip": 32,
+          "name": "S02-01 technical-approved"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 37340352000000,
+          "durationFrames": 168,
+          "name": "S03-01 missing",
+          "comment": "train passes; crane wall; land fourth floor; super hold"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 39118464000000,
+          "durationFrames": 96,
+          "name": "S03-02 missing",
+          "comment": "arm anticipation; extend; hold gag; train clears"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 40134528000000,
+          "durationFrames": 288,
+          "name": "S03-03 technical-approved",
+          "comment": "pan radiator; pass desk and dish; pass laundry; land coin"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "media_import",
+      "arguments": {
+        "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S03-03/review.mp4"
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.place",
+        "params": {
+          "item": 36,
+          "track": "V1",
+          "frame": 3792,
+          "insert": false,
+          "sourceIn": 0,
+          "duration": 3048192000000
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.select",
+        "params": {
+          "clips": [
+            37
+          ],
+          "add": false,
+          "toggle": false
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.scaleToFrameSize",
+        "params": {}
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.rename",
+        "params": {
+          "clip": 37,
+          "name": "S03-03 technical-approved"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 43182720000000,
+          "durationFrames": 264,
+          "name": "S03-04 missing",
+          "comment": "reveal building; activate five sources; converge closet"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 45976896000000,
+          "durationFrames": 168,
+          "name": "S03-05 missing",
+          "comment": "mic insert; follow riser; roof continuation; UI legend"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 47755008000000,
+          "durationFrames": 240,
+          "name": "S03-06 missing",
+          "comment": "coin warmth; pick up; flash fever; Abuela places coin"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 50295168000000,
+          "durationFrames": 144,
+          "name": "S03-07 missing",
+          "comment": "scroll entries; arrive47; draw circle; hold"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 51819264000000,
+          "durationFrames": 144,
+          "name": "S03-08 missing",
+          "comment": "train pass; typing; timer countdown"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 53343360000000,
+          "durationFrames": 216,
+          "name": "S03-09 missing",
+          "comment": "1957; laundromat; church; vape shop; arts space and AR"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 55629504000000,
+          "durationFrames": 216,
+          "name": "S03-10 missing",
+          "comment": "train sigil; heater sigil; radio sigil"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 57915648000000,
+          "durationFrames": 192,
+          "name": "S03-11 missing",
+          "comment": "band present; delete disappear; return; counter reaches12"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 59947776000000,
+          "durationFrames": 192,
+          "name": "S03-12 missing",
+          "comment": "scratchoff dispute; silent feud; dog bite recoil"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 61979904000000,
+          "durationFrames": 192,
+          "name": "S03-13 missing",
+          "comment": "messages one to three; messages four to seven; turn face down"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 64012032000000,
+          "durationFrames": 144,
+          "name": "S04-01 missing",
+          "comment": "12:07 first cup; 1:07 second cup; 2:07 third cup; 3:07 empty cups"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 65536128000000,
+          "durationFrames": 144,
+          "name": "S04-02 technical-approved",
+          "comment": "comb pass; door pass; line pass"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "media_import",
+      "arguments": {
+        "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/review-matte.mp4"
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.place",
+        "params": {
+          "item": 50,
+          "track": "V1",
+          "frame": 6192,
+          "insert": false,
+          "sourceIn": 0,
+          "duration": 1524096000000
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.select",
+        "params": {
+          "clips": [
+            51
+          ],
+          "add": false,
+          "toggle": false
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.scaleToFrameSize",
+        "params": {}
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.rename",
+        "params": {
+          "clip": 51,
+          "name": "S04-02 technical-approved"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 67060224000000,
+          "durationFrames": 144,
+          "name": "S04-03 missing",
+          "comment": "select config; press delete; three panes fracture; dust vanishes"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 68584320000000,
+          "durationFrames": 144,
+          "name": "S04-04 missing",
+          "comment": "test loop cycles; fan and dust continue"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 70108416000000,
+          "durationFrames": 168,
+          "name": "S04-05 missing",
+          "comment": "four second hover; press Enter; reflection reaction; train passes"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 71886528000000,
+          "durationFrames": 72,
+          "name": "S05-01 missing",
+          "comment": "anticipate; pop recoil; settle"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 72648576000000,
+          "durationFrames": 120,
+          "name": "S05-02 missing",
+          "comment": "cobalt cough; static pull; concentric rings; wall crack cels"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 73918656000000,
+          "durationFrames": 144,
+          "name": "S05-03 missing",
+          "comment": "wall light opens depth; push perspective; reveal distant hall"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 75442752000000,
+          "durationFrames": 216,
+          "name": "S05-04 missing",
+          "comment": "reveal near couples; crane deeper; bandstand; date super"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 77728896000000,
+          "durationFrames": 72,
+          "name": "S05-05 missing",
+          "comment": "headphone hold; lines grow; hold leak"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 78490944000000,
+          "durationFrames": 192,
+          "name": "S05-06 missing",
+          "comment": "couple1 footwork; couple2 spin; couple3 flare"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 80523072000000,
+          "durationFrames": 120,
+          "name": "S05-07 missing",
+          "comment": "circle center; slow rotation; coin match insert"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 81793152000000,
+          "durationFrames": 120,
+          "name": "S05-08 missing",
+          "comment": "drop fourth to third; second to first; ground ballroom"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 83063232000000,
+          "durationFrames": 144,
+          "name": "S05-09 missing",
+          "comment": "pulse climbs; feet react; crosscut window"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 84587328000000,
+          "durationFrames": 192,
+          "name": "S05-10 missing",
+          "comment": "first lost step; next couple; smile slack; hand back still"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 86619456000000,
+          "durationFrames": 240,
+          "name": "S05-11 missing",
+          "comment": "near rows stop; middle rows stop; far rows stop; band remains"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 89159616000000,
+          "durationFrames": 288,
+          "name": "S05-12 missing",
+          "comment": "color detaches; streams align; whip follows exit; mark dark"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 92207808000000,
+          "durationFrames": 96,
+          "name": "S05-13 technical-approved",
+          "comment": "rest; lift; hang; drop; impact settle"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "media_import",
+      "arguments": {
+        "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/review.mp4"
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.place",
+        "params": {
+          "item": 68,
+          "track": "V1",
+          "frame": 8712,
+          "insert": false,
+          "sourceIn": 0,
+          "duration": 1016064000000
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.select",
+        "params": {
+          "clips": [
+            69
+          ],
+          "add": false,
+          "toggle": false
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.scaleToFrameSize",
+        "params": {}
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.rename",
+        "params": {
+          "clip": 69,
+          "name": "S05-13 technical-approved"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 93223872000000,
+          "durationFrames": 96,
+          "name": "S05-14 missing",
+          "comment": "hard jump cut; hand recoil; grip retained"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 94239936000000,
+          "durationFrames": 96,
+          "name": "S05-15 missing",
+          "comment": "laptop off; lamp off; router off; fan decelerates; black"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 95256000000000,
+          "durationFrames": 144,
+          "name": "S05-16 missing",
+          "comment": "residual dancers; fade48f; dark hold radiator normal"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 96780096000000,
+          "durationFrames": 120,
+          "name": "S06-01 missing",
+          "comment": "first tap; second tap; slipper hold"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 98050176000000,
+          "durationFrames": 384,
+          "name": "S06-02 missing",
+          "comment": "Mama line; JC answer; decision and command; slippers recede; stop hall end"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 102114432000000,
+          "durationFrames": 144,
+          "name": "S06-03 technical-approved",
+          "comment": "reveal local outage; hold skyline contrast"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "media_import",
+      "arguments": {
+        "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/review.mp4"
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.place",
+        "params": {
+          "item": 76,
+          "track": "V1",
+          "frame": 9648,
+          "insert": false,
+          "sourceIn": 0,
+          "duration": 1524096000000
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.select",
+        "params": {
+          "clips": [
+            77
+          ],
+          "add": false,
+          "toggle": false
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.scaleToFrameSize",
+        "params": {}
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.rename",
+        "params": {
+          "clip": 77,
+          "name": "S06-03 technical-approved"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 103638528000000,
+          "durationFrames": 192,
+          "name": "S06-04 missing",
+          "comment": "foreground sill; focus shifts; five percent push; hold man"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 105670656000000,
+          "durationFrames": 144,
+          "name": "S06-05 missing",
+          "comment": "JC retreats; four second hold; smash black"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 107194752000000,
+          "durationFrames": 96,
+          "name": "S07-01 missing",
+          "comment": "morning super; chair rocking insert; settle"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 108210816000000,
+          "durationFrames": 144,
+          "name": "S07-02 missing",
+          "comment": "fork contacts salami; flip; cheese sizzle; steam insert"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 109734912000000,
+          "durationFrames": 528,
+          "name": "S07-03 missing",
+          "comment": "Mama report; JC question; Mama clock observation; JC sits"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 115323264000000,
+          "durationFrames": 336,
+          "name": "S07-04 missing",
+          "comment": "inspection; practiced pause; question started; chewing stops"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 118879488000000,
+          "durationFrames": 240,
+          "name": "S07-05 missing",
+          "comment": "present look; nine year memory; twelve year memory; present freeze"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 121419648000000,
+          "durationFrames": 288,
+          "name": "S07-06 missing",
+          "comment": "exchange; promise joke; pocket warmth; append four items"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 124467840000000,
+          "durationFrames": 144,
+          "name": "S07-07 missing",
+          "comment": "descend; brush fourth floor wall; near listen; continue down"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 125991936000000,
+          "durationFrames": 120,
+          "name": "S08-01 missing",
+          "comment": "tilt bottom; travel banner; hold slogan"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 127262016000000,
+          "durationFrames": 120,
+          "name": "S08-02 missing",
+          "comment": "trace blades; three frame alignment; unalign; hold logo"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 128532096000000,
+          "durationFrames": 384,
+          "name": "S08-03 missing",
+          "comment": "bolt corner; greeting; nightwork denial; JC glance window"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 132596352000000,
+          "durationFrames": 144,
+          "name": "S08-04 missing",
+          "comment": "thanks; turn; walk toward train"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 134120448000000,
+          "durationFrames": 120,
+          "name": "S09-01 missing",
+          "comment": "train enters; sign shakes; old text appears"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 135390528000000,
+          "durationFrames": 120,
+          "name": "S09-02 missing",
+          "comment": "pan room; train tremor; cups settle"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 136660608000000,
+          "durationFrames": 480,
+          "name": "S09-03 missing",
+          "comment": "Rodriguez greeting; JC denial; eyebrow gag; work instruction"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 141740928000000,
+          "durationFrames": 144,
+          "name": "S09-04 missing",
+          "comment": "numbers appear; orbit; cross out; failed total"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 143265024000000,
+          "durationFrames": 216,
+          "name": "S09-05 missing",
+          "comment": "pan161st; cards appear; reach170th; blank corner"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 145551168000000,
+          "durationFrames": 264,
+          "name": "S09-06 missing",
+          "comment": "history explanation; handoff; story on paper; depart"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 148345344000000,
+          "durationFrames": 120,
+          "name": "S10-01 missing",
+          "comment": "back into door; shoulder push; step through; settle"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 149615424000000,
+          "durationFrames": 216,
+          "name": "S10-02 missing",
+          "comment": "child groove; adult refrigerator salsa; allergic emotions gag"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 151901568000000,
+          "durationFrames": 336,
+          "name": "S10-03 missing",
+          "comment": "palm settles; six sources; braid36f; baby closes eyes"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 155457792000000,
+          "durationFrames": 432,
+          "name": "S10-04 missing",
+          "comment": "check in; long night joke; EP confrontation; park invite"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 160030080000000,
+          "durationFrames": 192,
+          "name": "S10-05 missing",
+          "comment": "Yari messages; JC coffee photo; skull reply"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 162062208000000,
+          "durationFrames": 120,
+          "name": "S11-01 missing",
+          "comment": "buzz reaction; header readable hold"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 163332288000000,
+          "durationFrames": 336,
+          "name": "S11-02 missing",
+          "comment": "first read; highlight resource offer; take it off you; second read"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 166888512000000,
+          "durationFrames": 192,
+          "name": "S11-03 missing",
+          "comment": "pride response; rent numbers; unease"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 168920640000000,
+          "durationFrames": 216,
+          "name": "S11-04 missing",
+          "comment": "third read; heat rises; whistle sag cue; recover"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 171206784000000,
+          "durationFrames": 192,
+          "name": "S11-05 missing",
+          "comment": "hover; forward preview; flip; three4frame curb flashes"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 173238912000000,
+          "durationFrames": 576,
+          "name": "S11-06 missing",
+          "comment": "phone transfer; offer debate; Honda flash; cost acknowledgement"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 179335296000000,
+          "durationFrames": 120,
+          "name": "S12-01 missing",
+          "comment": "rail approach; squeal sparks; steamer line; merge"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 180605376000000,
+          "durationFrames": 120,
+          "name": "S12-02 missing",
+          "comment": "counter pickup; stream travels; left ear arrives"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 181875456000000,
+          "durationFrames": 96,
+          "name": "S12-03 missing",
+          "comment": "eyes lead; head follows; hold eyeline"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 182891520000000,
+          "durationFrames": 168,
+          "name": "S12-04 missing",
+          "comment": "present anchor; chairs replace; records fill; fans heat"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 184669632000000,
+          "durationFrames": 192,
+          "name": "S12-05 missing",
+          "comment": "shop reveal; brow match; sign inserts"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 186701760000000,
+          "durationFrames": 384,
+          "name": "S12-06 missing",
+          "comment": "place records; dialogue; pay quarters; leave; father shake smile"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 190766016000000,
+          "durationFrames": 240,
+          "name": "S12-07 missing",
+          "comment": "write ticks; follow door; follow street; look JC; eye lock"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 193306176000000,
+          "durationFrames": 192,
+          "name": "S12-08 missing",
+          "comment": "overflow; Manny touch; JC hears; Rodriguez approaches"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 195338304000000,
+          "durationFrames": 432,
+          "name": "S12-09 missing",
+          "comment": "private concern; wipe hand; dump latte; start fresh; Manny releases"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 199910592000000,
+          "durationFrames": 192,
+          "name": "S12-10 missing",
+          "comment": "cups1to13; realize14; closet inserts; finish20"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 201942720000000,
+          "durationFrames": 216,
+          "name": "S12-11 missing",
+          "comment": "write text; lift card; pin blank corner; room shakes"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 204228864000000,
+          "durationFrames": 120,
+          "name": "S13-01 missing",
+          "comment": "2:15PM super; vending fall; retrieve; drink hiss motion"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 205498944000000,
+          "durationFrames": 120,
+          "name": "S13-02 missing",
+          "comment": "establish; snore cycle; radiator knock"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 206769024000000,
+          "durationFrames": 240,
+          "name": "S13-03 missing",
+          "comment": "Sofia flood; location rebuke; Denise message; rent sums"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 209309184000000,
+          "durationFrames": 216,
+          "name": "S13-04 missing",
+          "comment": "searches; museum page; front side rear; label"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 211595328000000,
+          "durationFrames": 168,
+          "name": "S13-05 missing",
+          "comment": "coin set; align hooks; single pen stroke; hold"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 213373440000000,
+          "durationFrames": 240,
+          "name": "S13-06 missing",
+          "comment": "reach bundle; gentle stop; warning; mango exchange; freeze"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 215913600000000,
+          "durationFrames": 120,
+          "name": "S13-07 missing",
+          "comment": "phone hesitation; screen dark; puck out; place"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 217183680000000,
+          "durationFrames": 144,
+          "name": "S13-08 missing",
+          "comment": "three separate sources; converge; lock chord"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 218707776000000,
+          "durationFrames": 168,
+          "name": "S13-09 missing",
+          "comment": "lamp buzz expands; period room; light figures; pan hats"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 220485888000000,
+          "durationFrames": 432,
+          "name": "S13-10 missing",
+          "comment": "grandfather; girls apple; porter; mother kids; atlas eraser exchange; librarian stamp and notice"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 225058176000000,
+          "durationFrames": 192,
+          "name": "S13-11 missing",
+          "comment": "search for plate; strain; tears sting; super hold"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 227090304000000,
+          "durationFrames": 96,
+          "name": "S13-12 missing",
+          "comment": "1934 recedes; present furniture; stain/snorer hold"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 228106368000000,
+          "durationFrames": 120,
+          "name": "S14-01 missing",
+          "comment": "arrive hover; open before sitting; sit; asleep/prosecuting gag"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 229376448000000,
+          "durationFrames": 120,
+          "name": "S14-02 missing",
+          "comment": "question; JC denial; lease flash; return"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 230646528000000,
+          "durationFrames": 384,
+          "name": "S14-03 technical-approved",
+          "comment": "three shells; lawyer lunch; holding company; three arms; four permits"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "media_import",
+      "arguments": {
+        "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/preview.mp4"
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.place",
+        "params": {
+          "item": 134,
+          "track": "V1",
+          "frame": 21792,
+          "insert": false,
+          "sourceIn": 0,
+          "duration": 4064256000000
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.select",
+        "params": {
+          "clips": [
+            135
+          ],
+          "add": false,
+          "toggle": false
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.scaleToFrameSize",
+        "params": {}
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.rename",
+        "params": {
+          "clip": 135,
+          "name": "S14-03 technical-approved"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 234710784000000,
+          "durationFrames": 240,
+          "name": "S14-04 missing",
+          "comment": "date event; hero photo; grid9; three6frame notebook flashes"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 237250944000000,
+          "durationFrames": 480,
+          "name": "S14-05 missing",
+          "comment": "handoff; Sofia listens; skeptic debate; sets evidence; control request"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 242331264000000,
+          "durationFrames": 480,
+          "name": "S14-06 missing",
+          "comment": "six storefronts; contract decal; Rodriguez refuses; record player; Sofia joy"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 247411584000000,
+          "durationFrames": 216,
+          "name": "S14-07 missing",
+          "comment": "names rewind; 2007 report; four schools; hand stops"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 249697728000000,
+          "durationFrames": 672,
+          "name": "S14-08 missing",
+          "comment": "quiet classroom; PRESS rises6seconds; colored hand taps; teacher observer; father letter; Mama drawer"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 256810176000000,
+          "durationFrames": 216,
+          "name": "S14-09 missing",
+          "comment": "scroll rubric; highlight Level2; recognition; records request"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 259096320000000,
+          "durationFrames": 360,
+          "name": "S14-10 missing",
+          "comment": "Mikey listens; JC joins; JC laughs; harmony hold; present mic match"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 262906560000000,
+          "durationFrames": 480,
+          "name": "S14-11 missing",
+          "comment": "model explanation; half close; warning; why; vegetable joke"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 267986880000000,
+          "durationFrames": 120,
+          "name": "S15-01 missing",
+          "comment": "route avoiding El; bodega unavoidable; 48frame stove insert"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 269256960000000,
+          "durationFrames": 144,
+          "name": "S15-02 missing",
+          "comment": "establish; tile slap; speaker insert"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 270781056000000,
+          "durationFrames": 192,
+          "name": "S15-03 missing",
+          "comment": "settle eyes closed; ribbons emerge; 192frame plate persists"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 272813184000000,
+          "durationFrames": 288,
+          "name": "S15-04 missing",
+          "comment": "dull first cycle; tile slap; retort; next cycle"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 275861376000000,
+          "durationFrames": 192,
+          "name": "S15-05 missing",
+          "comment": "third emerges; gestures louder; faces flatten; holds"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 277893504000000,
+          "durationFrames": 192,
+          "name": "S15-06 missing",
+          "comment": "anger detaches; smoke sinks; two stare; third exits"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 279925632000000,
+          "durationFrames": 192,
+          "name": "S15-07 missing",
+          "comment": "new song ribbons; plate unchanged; JC looks; speaker push"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 281957760000000,
+          "durationFrames": 288,
+          "name": "S15-08 missing",
+          "comment": "pull from JC; rise facade; cross street window; 48frame dark hold; black cut"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "markers.addRange",
+        "params": {
+          "time": 285005952000000,
+          "durationFrames": 192,
+          "name": "S15-09 technical-approved",
+          "comment": ""
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "media_import",
+      "arguments": {
+        "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion-r1/S15-09/preview.mp4"
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.place",
+        "params": {
+          "item": 153,
+          "track": "V1",
+          "frame": 26928,
+          "insert": false,
+          "sourceIn": 0,
+          "duration": 2032128000000
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "timeline.select",
+        "params": {
+          "clips": [
+            154
+          ],
+          "add": false,
+          "toggle": false
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.scaleToFrameSize",
+        "params": {}
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "clip.rename",
+        "params": {
+          "clip": 154,
+          "name": "S15-09 technical-approved"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.saveAs",
+        "params": {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/tasks/episode-wiring/episode.filmcraft"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    },
+    {
+      "app": "filmcraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.open",
+        "params": {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/tasks/episode-wiring/episode.filmcraft"
+        }
+      }
+    },
+    {
+      "app": "filmcraft",
+      "tool": "sequence_inspect",
+      "arguments": {}
+    }
+  ]
+}

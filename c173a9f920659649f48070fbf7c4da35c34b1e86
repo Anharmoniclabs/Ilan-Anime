@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 234710784000000,
+      "durationFrames": 240,
+      "name": "S14-04 missing",
+      "comment": "date event; hero photo; grid9; three6frame notebook flashes"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 128
+  }
+}

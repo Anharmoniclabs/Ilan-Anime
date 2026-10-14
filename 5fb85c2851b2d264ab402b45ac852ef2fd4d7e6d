@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "run": "episode1-insert-finish",
+  "paused": false,
+  "pause_reason": null,
+  "tasks": {
+    "native-inserts": {
+      "objective": "Finish the four existing silent native shot drafts for independent review, addressing their ONLY producer-reported blocker: wrong engraved coin motif in S05-13. NEW coin-unengraved-rgba.png is genuine transparent image-tool artwork with old groove removed. Inspect it, register at same fixed silhouette/lighting as prior coin, matte/decontaminate only as needed, and apply exact shared-sigil.json/SVG projected onto coin face with shallow engraved dark groove and restrained highlight, not a floating/doubled mark. Use this new coin in a separate derivative of prior 96frame native motion: preserve exact microkeys/tremor12pxlift/flash17/bounce18/settle19, static wood contact and shadow. Never redraw or animate whole frame. Preserve original sources. For other three shots S03-03, S04-02, S06-03 reuse saved verified native outputs without creative changes, inspect actual video samples and include them through explicit delivery.json records referencing existing preserved sources; artifacts list may include your new index/review files, while index references source shots. The new review covers all4 source clips plus repairedcoin. Preserve 288,144,96,144 frames24fps1280x720 silent. Save new editable coin project/layers/MP4 and exact shot-to-clip/native index with hashes and evidence. Full original task handoff lists only coin motif blocker; do not regenerate completed room/filter/blackout shots needlessly. Submit only with evidence and empty blockers when these bounded drafts are ready for independent review; final author playback approval is separate, not a blocker to submission. If truly unresolved artwork remains, status blocked instead of submitted-with-blockers. No generation or paid calls; new blank art is already supplied. All new writes inside output_dir.",
+      "output_dir": "production/runs/episode1-insert-finish/tasks/native-inserts",
+      "depends_on": [],
+      "shots": [
+        "S03-03",
+        "S04-02",
+        "S05-13",
+        "S06-03"
+      ],
+      "id": "native-inserts",
+      "inputs": [
+        "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout",
+        "production/runs/episode1-full-picture/coin-assets",
+        "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/shared-sigil.json",
+        "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/shared-sigil.svg",
+        "production/runs/episode1-picture-motion/tasks/motion-contracts/contracts.json",
+        "production/runs/episode1-picture-motion/author-direction.json"
+      ],
+      "role": "compositor",
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "state": "approved",
+      "agent_id": "codex-native-inserts",
+      "result": {
+        "task_id": "native-inserts",
+        "role": "compositor",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-insert-finish/tasks/native-inserts/delivery.json",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/shot-native-index.json",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S03-03/delivery.json",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S04-02/delivery.json",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/delivery.json",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S06-03/delivery.json",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/native/shot.ecproj",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/review.mp4",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/shot.json",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/registration.json",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/coin-shared-engraved.png",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/engraving-projected.svg",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/native-recipe.json",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/render-saved-recipe.json",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/build.py",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/video_samples.py",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/finalize.py",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/video-checks.json",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/preservation-checks.json",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/hashes.json",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/REVIEW.md",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S03-03-decoded.jpg",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S04-02-decoded.jpg",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13-decoded.jpg",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13-repaired-decoded.jpg",
+          "production/runs/episode1-insert-finish/tasks/native-inserts/S06-03-decoded.jpg"
+        ],
+        "evidence": [
+          "Inspected supplied blank artwork and decoded samples from all four source clips plus repaired coin; enlarged repaired frames 0, 12 and 18 show one engraved shared motif and stable rim/contact.",
+          "Saved and reopened editable EffectCraft coin project; rendered all 96 native frames and encoded repaired silent MP4.",
+          "All original keys/exposures preserved; noncoin layers byte-identical; exact prior alpha retained. Native tracking confirms 2 px tremor, 12 px lift, f17 flash, f18 bounce and identical f19\u201395 settle.",
+          "Five clips fully decoded: 768 frames. Selected four preserve 288/144/96/144 frames, 24 fps, 1280x720 and no audio streams.",
+          "Delivery records reuse the three untouched source clips/native projects and select repaired coin; SHA-256 index and STORY_FRAME observations saved. Independent review and author playback approval remain separate."
+        ],
+        "blockers": []
+      },
+      "review": {
+        "role": "animation-supervisor",
+        "agent_id": "01a13990-2153-7c22-b6fd-be7cf748e8ab",
+        "decision": "approve",
+        "evidence": "Repaired S05-13/review.mp4 frames 0\u201319/48/95 show one attached engraved motif and stable rim/contact. Verified all 483 projected sigil points, preserved keys/alpha/noncoin layers, 12 px lift, f17 flash, f18 bounce and f19\u201395 settle. Inspected all four source clips plus repaired coin; selected outputs retain 288/144/96/144 frames, 24 fps, 1280\u00d7720, silence and matching hashes. QA flags were visually reviewed and explained. Detailed evidence: production/runs/episode1-insert-finish/reviews/native-inserts/REVIEW.md. Approval covers these bounded drafts, not Luis\u2019s creative approval or final playback acceptance."
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "native-inserts"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "native-inserts",
+      "agent_id": "codex-native-inserts"
+    },
+    {
+      "action": "submit",
+      "task_id": "native-inserts",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "native-inserts",
+      "decision": "approve"
+    }
+  ]
+}

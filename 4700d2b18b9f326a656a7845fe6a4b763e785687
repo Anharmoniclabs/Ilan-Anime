@@ -1,0 +1,7 @@
+{
+  "status": "stopped",
+  "completed_steps": 316,
+  "creative_status": "exploratory",
+  "error": "render_frame: ERROR: cannot write /home/alabs/Projects/Ilan-Anime/production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/native/frames/frame-0000.png: No such file or directory (os error 2)",
+  "recovery": "Inspect receipts and saved files; no automatic retry."
+}

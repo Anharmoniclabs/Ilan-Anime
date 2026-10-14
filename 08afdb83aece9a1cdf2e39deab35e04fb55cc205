@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 89159616000000,
+      "durationFrames": 288,
+      "name": "S05-12 missing",
+      "comment": "color detaches; streams align; whip follows exit; mark dark"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 66
+  }
+}

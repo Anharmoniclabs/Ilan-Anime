@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 95256000000000,
+      "durationFrames": 144,
+      "name": "S05-16 missing",
+      "comment": "residual dancers; fade48f; dark hold radiator normal"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 72
+  }
+}

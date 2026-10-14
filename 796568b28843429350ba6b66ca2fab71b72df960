@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 180605376000000,
+      "durationFrames": 120,
+      "name": "S12-02 missing",
+      "comment": "counter pickup; stream travels; left ear arrives"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 109
+  }
+}

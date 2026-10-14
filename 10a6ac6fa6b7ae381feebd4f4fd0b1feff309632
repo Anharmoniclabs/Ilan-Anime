@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 102114432000000,
+      "durationFrames": 144,
+      "name": "S06-03 missing",
+      "comment": "reveal local outage; hold skyline contrast"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 69
+  }
+}

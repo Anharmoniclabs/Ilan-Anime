@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 262906560000000,
+      "durationFrames": 480,
+      "name": "S14-11 missing",
+      "comment": "model explanation; half close; warning; why; vegetable joke"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 143
+  }
+}

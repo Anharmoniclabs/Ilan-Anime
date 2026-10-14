@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 182891520000000,
+      "durationFrames": 168,
+      "name": "S12-04 missing",
+      "comment": "present anchor; chairs replace; records fill; fans heat"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 111
+  }
+}

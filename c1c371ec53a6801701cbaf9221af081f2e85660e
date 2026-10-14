@@ -1,0 +1,13 @@
+{
+  "tool": "image_gen__imagegen",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-9630d61e-1c29-43c5-888b-8ab60922ce43.png",
+  "status": "exploratory",
+  "references": [
+    {
+      "path": "projects/cemi_episode_01/assets/references/author-cover-style.png",
+      "role": "style only",
+      "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c"
+    }
+  ],
+  "prompt": "Use case: illustration-story. Exploratory production character source for Heralds of the Cemí Episode 1. Supplied image is STYLE ONLY; never copy its faces, poster layout, text or magical effects. Finished 1990s hand-drawn 2D cel animation with confident variable-width ink, controlled fine hatching, individualized grounded expressive faces, organic asymmetry, rich painterly color and two/three shade planes, restrained navy shadow and warm amber edge light preserving skin pigment. Genuinely transparent background, clean silhouette, no ground shadow/haze, complete anatomy inside frame with generous margin, no words/logos/watermarks or panels. One adult male construction worker, tall lanky build, light olive skin, wavy brown hair, long hooked nose, scruffy stubble. Orange high-visibility vest over gray long-sleeve shirt, tan cargo work pants, hard hat, boots. Holds a simple spanner down beside body. Friendly concentrated expression. No headphones. Portrait full body."
+}

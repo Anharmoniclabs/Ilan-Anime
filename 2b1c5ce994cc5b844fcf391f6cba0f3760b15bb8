@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 186701760000000,
+      "durationFrames": 384,
+      "name": "S12-06 missing",
+      "comment": "place records; dialogue; pay quarters; leave; father shake smile"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 113
+  }
+}

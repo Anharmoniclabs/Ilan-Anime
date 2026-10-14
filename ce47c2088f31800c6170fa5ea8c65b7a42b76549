@@ -1,0 +1,19 @@
+{
+  "inflight": {},
+  "history": [
+    {
+      "at": "2026-10-14T05:11:27Z",
+      "action": "submitted",
+      "task": "episode-wiring",
+      "status": "submitted",
+      "host_agent_id": "01a138ca-2fd4-7171-a0e4-063ea35d2611"
+    },
+    {
+      "at": "2026-10-14T05:15:09Z",
+      "action": "reviewed",
+      "task": "episode-wiring",
+      "decision": "approve",
+      "reviewer": "01a138d2-9781-71c2-9cb2-bd31ea71cfa5"
+    }
+  ]
+}

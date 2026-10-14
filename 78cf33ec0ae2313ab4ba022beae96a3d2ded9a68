@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 92207808000000,
+      "durationFrames": 96,
+      "name": "S05-13 missing",
+      "comment": "rest; lift; hang; drop; impact settle"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 63
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "decision": "approve",
+  "evidence": "Technical acceptance of the bounded four-shot draft delivery. Independently decoded all four source clips plus repaired coin (768 frames); selected clips retain 288/144/96/144 frames, 24 fps, 1280x720, silence, and verified indexed hashes. Repaired S05-13/review.mp4 f0\u201319/48/95 shows one attached engraved shared motif, stable rim/contact and unchanged wood; tracking confirms 2 px tremor, 12 px lift, f17 flash, f18 bounce and f19\u201395 settle. All 483 projected sigil points match; original keys, noncoin layers and alpha are preserved. S03-03 pan, S04-02 pane traversal and S06-03 blackout samples retain the existing drafts. QA flags were inspected and explained as scripted holds/no character acting and metallic rim edge colors. Detailed observations and QA evidence: production/runs/episode1-insert-finish/reviews/native-inserts/REVIEW.md. This is not Luis\u2019s creative approval; real-time author playback remains separate.",
+  "repair_notes": []
+}

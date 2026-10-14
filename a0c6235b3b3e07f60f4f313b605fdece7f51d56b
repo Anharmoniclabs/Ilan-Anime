@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 227090304000000,
+      "durationFrames": 96,
+      "name": "S13-12 missing",
+      "comment": "1934 recedes; present furniture; stain/snorer hold"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 130
+  }
+}

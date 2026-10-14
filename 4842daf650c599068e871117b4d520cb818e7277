@@ -1,0 +1,15 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addItem",
+    "params": {
+      "item": "white-contact-flash.png",
+      "time": 0.7083333333333334,
+      "duration": 0.041666666666666664
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 147
+  }
+}
