@@ -1,8 +1,0 @@
-{
-  "path": "production/runs/episode1-picture-motion/tasks/research-graph-r1/preview.mp4",
-  "sha256": "991196773a90375254c77d68f9144cdd8aba4692f06907cdac7d4aa5bd66e9d7",
-  "native": "production/runs/episode1-picture-motion/tasks/research-graph-r1/native-r1/shot.ecproj",
-  "status": "technical-approved",
-  "task_result": "production/runs/episode1-picture-motion/tasks/research-graph-r1/result.json",
-  "review": "production/runs/episode1-picture-motion/reviews/research-graph-r1/review.json"
-}

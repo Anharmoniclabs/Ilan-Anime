@@ -1,7 +1,0 @@
-{
-  "decision": "approve",
-  "evidence": "Bounded wiring passes: independently verified 128 contiguous canonical slots, 27120 frames, 24 fps, 16:9, 128 artwork hashes and eight silent draft clips. FilmCraft reopened with seven clips, 128 markers and 121 empty slots. Refresh/relink passed; assembly refused all 128 non-final shots before creating media. Viewed decoded samples and QA-flagged frames. Detailed evidence: production/runs/episode1-full-picture/reviews/episode-wiring/review.md. No real-time playback or browser-layout inspection claimed. Approval covers wiring only—not completed animation or Luis’s creative approval.",
-  "repair_notes": [],
-  "reviewer_role": "quality-review",
-  "host_agent_id": "01a138d2-9781-71c2-9cb2-bd31ea71cfa5"
-}

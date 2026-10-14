@@ -1,8 +1,0 @@
-{
-  "path": "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/review.mp4",
-  "sha256": "0b609c7e4ac72cf979cc22f11914be57ed8ab21bfa240c19199a55a59adf302b",
-  "native": "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/native/shot.ecproj",
-  "status": "technical-approved",
-  "task_result": "production/runs/episode1-insert-finish/tasks/native-inserts/result.json",
-  "review": "production/runs/episode1-insert-finish/reviews/native-inserts/review.json"
-}

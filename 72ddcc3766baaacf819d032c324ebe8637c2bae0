@@ -1,8 +1,0 @@
-{
-  "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/review-matte.mp4",
-  "sha256": "92c043e29ec20f1d672955bad5e14c7c382ac30bea4c7922eeb84292f02e3aa4",
-  "native": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/native-matte/shot.ecproj",
-  "status": "technical-approved",
-  "task_result": "production/runs/episode1-insert-finish/tasks/native-inserts/result.json",
-  "review": "production/runs/episode1-insert-finish/reviews/native-inserts/review.json"
-}

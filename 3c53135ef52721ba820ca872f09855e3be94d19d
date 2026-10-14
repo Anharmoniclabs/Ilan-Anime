@@ -1,9 +1,0 @@
-{
-  "S01-03": {
-    "source": "User response in current session",
-    "decision": "Keep the fourteen-to-eleven count; show three losses",
-    "implementation": "Exactly three distinct empty-seat apparition/count beats. Dialogue count remains fourteen-to-eleven. Do not animate a fourth loss. This overrides conflicting count in historical action text.",
-    "sound": "Deferred to separate department; record count for future voice work.",
-    "script_cleanup": "Current Episode script and episode.json now list two channel losses plus the old man, exactly three. Historical generated frames/contracts remain preserved; this current decision takes precedence."
-  }
-}

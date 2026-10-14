@@ -1,0 +1,11 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "name": "0-0 room inventory painted plate"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

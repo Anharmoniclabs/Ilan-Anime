@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.addKey",
+    "params": {
+      "layer": "0-0 room inventory painted plate",
+      "path": "transform/position",
+      "time": 1.3333333333333333,
+      "value": [
+        689.7282229965157,
+        324.0
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": 33
+}

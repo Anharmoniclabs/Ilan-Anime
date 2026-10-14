@@ -1,7 +1,0 @@
-{
-  "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/S01-03-partial-silent-v2.mp4",
-  "native": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/edit-v2.filmcraft",
-  "status": "partial",
-  "task_result": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/result.json",
-  "sha256": "75d82d3b6d9a1a6daf83b1e4f9859ed03b2201d508a5be0d16288d2d6bf8daf5"
-}
