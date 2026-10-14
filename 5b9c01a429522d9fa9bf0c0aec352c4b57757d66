@@ -1,0 +1,24 @@
+{
+  "shot_id": "S14-04",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. Close-up same silver laptop on library oak table afternoon. Screen displays exactly nine photos in clean3x3 grid of THE SAME man Adrian Vale from image2, mature55 silverhaired longface grayovercoat. In ALL nine image thumbnails a small black notebook is visibly held in his left hand. Largest visual emphasis top-left photo: Vale in graycoat at civic ribboncutting, oversized ceremonial scissors in right hand and notebook in left. Other eight show him in varied public event compositions, SAME unmistakable face and notebook, no other named cast. Above grid ONLY the exact title 'JUNE THIRTEENTH \u00b7 FOUNDERS\u2019 NIGHT' and smaller 'THE ARMORY'. No invented dates names notes locations, no other readable text. These are anime-drawn in-world event photographs displayed on one physical screen, not real photos. All9 contained within screen, clear grid. Narrow sliver of laptop keyboard foreground, mossgreen library and brass lamp behind.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-ed625051-6537-463d-ae16-c69cc15819bf.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-01.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/vale-r2.png"
+  ],
+  "key_moment": "Nine Vale photos with persistent notebook; notebook triptych is later separate insert.",
+  "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-04.png",
+  "sha256": "6decfe7330e8583d9143e77751a4bc4b29414816e44a878d0b9acd5be088a629",
+  "size": [
+    1672,
+    941
+  ],
+  "status": "generated-story-frame",
+  "tool": "built-in image_gen",
+  "animation": false,
+  "author_approved": false,
+  "reference_hashes": {
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-01.png": "1d1900ce2c363aab86412edfa27699cc2c2446299dc8f5375d3b4489a5acf7a7",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/vale-r2.png": "c55d1187903f6dd2b6968ee0761b00a987b613ac46f98d173eb9634d176eadf4"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "shot": "S01-01",
+  "selected_moment": "Extreme close-up water only: black mangrove water seen at waterline, a wooden paddle blade just lifting free with two falling droplets and expanding rings. No shoreline, people or sky. Predawn moonless deep navy. Leave lower-left quiet space for BEFORE super added later; no text.",
+  "script": "`00:09:00 \u2192 00:15:00` (144f) \u00b7 FIX \u00b7 ECU low on waterline \u00b7 rate 3s\n- **Action:** Black water, a hand-width of surface. A paddle blade enters, leaves, rings spread. Lower-left small caps: BEFORE.\n- **FX:** `PAINTED_BG(night_water); WATER_CEL(rings); TEXT_SUPER(BEFORE); VIGNETTE(0.7)`\n- **Sound:** Water drip, insects. A frog stops mid-call. No music.",
+  "prompt": "Use case: illustration-story. Create ONE finished-color cinematic anime story frame, landscape EXACT16:9 composition, opaque fully painted environment edge-to-edge, no transparency, no borders, no collage/multi-panel. Match approved 1990s hand-drawn anime: supple clean lines, expressive soft human faces, simple broad2/3-tone cel shadows, flat warm skin colors, detailed traditionally painted environment. No western comic hatching, no photoreal3D, no glossy muscles. Attached rooftop is STYLE ONLY, never copy its setting/time/sunset; character sources lock identity, age, proportions, hair and costume. Any attached NEW adjacent frame establishes environment continuity, not duplicated action. Natural contacts/hands; rigid canoes/props remain coherent. No invented signage/logos/subtitles/captions; only exact text explicitly requested below. Single selected dramatic moment, do not combine sequential moments spatially. \nImage1: bronx-90s-anime.png; styleonly\nMOONLESS NIGHT in historical Ta\u00edno mangrove, blueblack darkness, no sun/moon disc or sunset. Extreme close-up water only: black mangrove water seen at waterline, a wooden paddle blade just lifting free with two falling droplets and expanding rings. No shoreline, people or sky. Predawn moonless deep navy. Leave lower-left quiet space for BEFORE super added later; no text.\nScript context (do not literalize audio or labels): `00:09:00 \u2192 00:15:00` (144f) \u00b7 FIX \u00b7 ECU low on waterline \u00b7 rate 3s\n- **Action:** Black water, a hand-width of surface. A paddle blade enters, leaves, rings spread. Lower-left small caps: BEFORE.\n- **FX:** `PAINTED_BG(night_water); WATER_CEL(rings); TEXT_SUPER(BEFORE); VIGNETTE(0.7)`\n- **Sound:** Water drip, insects. A frog stops mid-call. No music.",
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png"
+  ],
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-6734e8c6-d5cc-48af-9ffd-acaf626ab525.png",
+  "status": "exploratory storyframe",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-01.png",
+  "sha256": "73f1b8fe5fe72187e7492feb98816106e8b091c18bd9605e3c232177c1142343",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    }
+  ],
+  "inspection": "Directly viewed: dark water, wooden blade lifting, droplets and ripple rings. Small background root silhouettes are present despite water-only request. BEFORE super baked accurately. Native1672x941 nearly16:9, not exact raster16:9.",
+  "inspection_method": "Direct view_image of entire saved frame; PNG automated decode and dimensions check",
+  "scope": "One representative story frame; not all action beats or motion"
+}

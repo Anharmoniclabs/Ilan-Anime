@@ -1,0 +1,37 @@
+{
+  "shot": "S03-13",
+  "selected_moment": "Close phone onJC desk held in charcoalhoodie hand, screen shows simple chatlayout with exact two lines \"u alive\" and \"define alive\"; tiny time \"2:41 AM\". Othermessages need later graphiclayout. His thumb poised toturnphone facedown, no Manny physicallyinroom. Warmdesk closeup with keyboardblur.",
+  "script": "`04:04:00 \u2192 04:12:00` (192f) \u00b7 UI \u00b7 phone \u00b7 rate 3s\n- **Action:** 2:41 AM. Manny texts from the 6 train: u alive / define alive / breathing + bad decision energy / then yes / send the kid his EP / it's not done / it's been done for a week gremlin. JC turns the phone face down: 'Nobody should be known that well at three in the morning.'\n- **FX:** `UI_PHONE(chat bubbles typed on); CUT_TO_BACK_OF_PHONE`\n- **Sound:** Phone buzz; keyclicks.",
+  "prompt": "Targeted anime storyframe revision. Two tiny corrections preserve scene andhandexactly. Phoneconversation: incoming u alive leftgraybubble; outgoing define alive RIGHT-aligned bluebubble (JCreply), both readable. Time2:41AM, Mannyheader preserved. Coin on deskengraving must match secondreference singleconnected spiral opening angulartriangle, not circle insideclosedtriangle. No levitation. Same clean90s handdrawn look; exact16:9 opaque fullcolor.",
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-03.png"
+  ],
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-6448f0be-90f6-4442-8e22-58ff71410a13.png",
+  "status": "exploratory storyframe",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-13.png",
+  "sha256": "41c1faa0437b21be2f5f9c15c21dc4c2a6960bd2f12a6a87fb6a89d333aa9307",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/archive-revision-1/S03-13.png",
+      "sha256": "9300ed96e38e9a09ae569353a688e23715a88fdf0b6d11e64fff603f546c96b5",
+      "supplied_path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-13.png"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-13.png",
+      "sha256": "d01bb1ecefa404f63711c4a107c58e75c2414313f56879e2b7a15c1d654b3337"
+    }
+  ],
+  "inspection": "Revision2 directly viewed: incominggray u alive left andoutgoingblue define alive right, time2:41AM/Manny; physicalcoin now matches connectedspiraltriangle.",
+  "revision": 2,
+  "revision_instruction": "Two tiny corrections preserve scene andhandexactly. Phoneconversation: incoming u alive leftgraybubble; outgoing define alive RIGHT-aligned bluebubble (JCreply), both readable. Time2:41AM, Mannyheader preserved. Coin on deskengraving must match secondreference singleconnected spiral opening angulartriangle, not circle insideclosedtriangle. No levitation.",
+  "previous_provenance": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/archive-revision-1/S03-13.json",
+  "inspection_method": "Direct view_image of entire saved frame; PNG automated decode and dimensions check",
+  "scope": "One representative story frame; not all action beats or motion"
+}

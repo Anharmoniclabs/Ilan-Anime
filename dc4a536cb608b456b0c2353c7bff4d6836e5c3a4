@@ -1,0 +1,34 @@
+{
+  "id": "S10-02",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-100509b8-1174-4d70-9e9d-52318b645112.png",
+  "refs": [
+    {
+      "path": "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "role": "style only",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/manny-nine.png",
+      "role": "identity manny-nine",
+      "sha256": "0503e3b40891fb2f565d4d4c7e65a58f7dc9fd2a68c44a20d04c6f6a5029fe7c"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/manny-listener.png",
+      "role": "identity manny-listener",
+      "sha256": "6d98497e0cbe0238fb69cbf802bb80ee058de4754e3e329cea605fd92b76afe6"
+    }
+  ],
+  "prompt": "Finished single 16:9 cinematic anime STORY FRAME, landscape1536x864, full opaque richly painted environment edge to edge. Match approved1990s anime series: clean supple ink, expressive human anime faces, broad2/3tone cel shading, handpainted detailed backgrounds, restrained cinematic light. Rooftop image reference only for rendering STYLE, never its sunset/location/people. Character source images control exact identities/costumes/age/body proportions. Previous scene reference controls set layout only; change camera and action to this shot. NO poster, collage, panel grid, transparent cutouts, hatching-heavy comic, speech bubbles, random words/logos. Single representative childhood vignette, NOT collage: nine-year-old Manny drumming on closed galvanized city trash-can lid with two ordinary pencils, joyous precise focused pose, adult listener has stopped a few steps behind on Bronx sidewalk. Daylight, child exact approved identity and red shirt/track pants. Clear hand-pencil-lid contacts.",
+  "frame": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S10-02.png",
+  "status": "exploratory",
+  "representative_moment": "Single representative childhood vignette, NOT collage: nine-year-old Manny drumming on closed galvanized city trash-can lid with two ordinary pencils, joyous precise focused pose, adult listener has stopped a few steps behind on Bronx sidewalk. Daylight, child exact approved identity and red shirt/track pants. Clear hand-pencil-lid contacts.",
+  "motion_remaining": "All motion, dialogue, camera transitions and any other script phases still require later drawings.",
+  "sha256": "4543a5166561e7115bdd4958ffdbb79e63821213033f30d80f48d8891ca90019",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "aspect_ratio": 1.7768331562167907,
+  "visually_inspected": true
+}

@@ -1,0 +1,44 @@
+{
+  "id": "S13-09",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-991e52d5-0c17-4684-a3fb-268d5453fedb.png",
+  "refs": [
+    {
+      "path": "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "role": "style only",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/reading-room-extras-master.png",
+      "role": "identity reading-room-extras",
+      "sha256": "a26260c3c6c6a7b48bfbba0f7c24d1954fe14900a59b3f9d6e39fab84239ba84"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/yiddish-grandfather-master.png",
+      "role": "identity yiddish-grandfather",
+      "sha256": "558d0f6ed8d6daf74d956f317c7c1417293b31e97163285ffbe9c43be87bf1cf"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/porter-master.png",
+      "role": "identity porter",
+      "sha256": "b1eb809c75db298bd0e0b9715cc12a77b00a4c691300915c225621d101f74375"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-02.png",
+      "role": "set continuity only",
+      "sha256": "bcaecddd3241cd979ba108351e281e8a15b3d32c6baf3200d351b0e005fdfa98"
+    }
+  ],
+  "prompt": "Finished single 16:9 cinematic anime STORY FRAME, landscape1536x864, full opaque richly painted environment edge to edge. Match approved1990s anime series: clean supple ink, expressive human anime faces, broad2/3tone cel shading, handpainted detailed backgrounds, restrained cinematic light. Rooftop image reference only for rendering STYLE, never its sunset/location/people. Character source images control exact identities/costumes/age/body proportions. Previous scene reference controls set layout only; change camera and action to this shot. NO poster, collage, panel grid, transparent cutouts, hatching-heavy comic, speech bubbles, random words/logos. Wide representative completed1934 Echo transformation in SAME library footprint: long oak tables, tall cream windows, green brass lamps and shelves, NO fluorescent tubes/modern electronics. Several period patrons seated with hats and books, Yiddish grandfather reading newspaper and porter reading quietly. Restrained translucent warm-lit edges imply recorded people of light, human opaque faces retained, no zombies. Amber/green low-saturation period grade, daytime.",
+  "frame": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-09.png",
+  "status": "exploratory",
+  "representative_moment": "Wide representative completed1934 Echo transformation in SAME library footprint: long oak tables, tall cream windows, green brass lamps and shelves, NO fluorescent tubes/modern electronics. Several period patrons seated with hats and books, Yiddish grandfather reading newspaper and porter reading quietly. Restrained translucent warm-lit edges imply recorded people of light, human opaque faces retained, no zombies. Amber/green low-saturation period grade, daytime.",
+  "motion_remaining": "All motion, dialogue, camera transitions and any other script phases still require later drawings.",
+  "sha256": "447019f79601ee977e26f0e7e3e3892da21c4ede9473fd91a47837f0f3b4d8df",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "aspect_ratio": 1.7768331562167907,
+  "visually_inspected": true
+}

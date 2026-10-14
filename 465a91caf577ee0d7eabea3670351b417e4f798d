@@ -1,0 +1,26 @@
+{
+  "name": "ballroom-crowd-bank-b",
+  "prompt": "Four1957 Bronx Ballroom adult dance couples, EIGHT different people, one production crowd source bank on true transparent background arranged2x2, full figures/feet, pairs clearly separated. New varied supporting faces: upperleft tall darkbrown woman with natural short curls in rust-orange modest circle dress and short stocky lightbrown man in pale-blue shirt/navy trousers; upperright mediumbrown woman40 with swept pinned hair in teal dress and deepbrown balding man45 in charcoal vest/pale shirt; lowerleft pale freckled redhaired woman in cream floral skirt and olive complexion dark-haired man in tan1950s suit; lowerright older darkbrown woman60 in lavender dress and tall thin silverhaired mediumbrown man in warm brown vest. Natural anatomical partnered steps, readable joined hands, all4feet per pair fully within margins. Shoes period low heels and two-tone men's shoes, no brand marks. Good clothes and dignified joyous expressions. Finished hand-inked1990s cel animation inspired by attached cover finish ONLY, controlled hatching, bluegold rim light, natural pigment rich cel planes. Landscape1536x1024, no scene/floor/typography/collage borders. Supporting bank, not a40couple final shot.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-df3700cb-0d74-4fff-bed1-869656da8b74.png",
+  "cast_ids": [
+    "ballroom-crowd"
+  ],
+  "references": {
+    "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/references/author-cover-style.png": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c"
+  },
+  "file": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/ensemble-cast/ballroom-crowd-bank-b.png",
+  "sha256": "a69111e3e4ebc340a7c036298b5d2bd434647366232ceb3d1e6ad28166e223e9",
+  "size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "status": "exploratory",
+  "tool": "built-in image_gen",
+  "author_approved": false,
+  "rigged": false
+}

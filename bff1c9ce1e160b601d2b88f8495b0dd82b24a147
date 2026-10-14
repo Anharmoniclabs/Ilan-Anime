@@ -1,0 +1,9 @@
+{
+  "shot_id": "S14-03",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. Full-frame close-up of Sofia's silver laptop display on oak library table, perspective nearly frontal so research graph readable. Same library afternoon as reference, narrow bezel foreground only. An ordinary desktop browser with eleven small tabs. Clear restrained research diagram: top node 'APERTURE CIVIC' subtitle 'Registered 2024'; three small intermediary shell-company boxes connected down to 'HOLDING COMPANY'; branches to 'Youth digital wellness', 'Music licensing', 'Development'. Small block map with exactly four building pins at right, one labeled 'JC'. Small sandwich doodle beside shell companies, tiny pie chart. No magical holograms. Sofia teal cuff and one hand on trackpad visible lower right, no face needed. Designed legible sparse screen, handdrawn anime UI inserted in painted physical laptop. No invented company names or real business logos.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-28d64b80-900c-4296-80a1-75c6fbe7f1d4.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-01.png"
+  ],
+  "key_moment": "Shell-company graph built out on laptop; minor comedy tab line omitted."
+}

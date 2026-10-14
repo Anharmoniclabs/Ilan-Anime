@@ -1,0 +1,24 @@
+{
+  "shot_id": "S15-03",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. Close-up JC25 exact approved identity source1, curlyfade lightstubble warmbrown skin charcoalhoodie headphones resting around neck, eyes CLOSED on purpose to listen, head subtly angled, expression concentrated unease. He stands outside same bodega source2 afternoon, orangeawning and wallmounted blackspeaker high behind him, edge of domino players farbackground. Thin handpainted yellow green red sound-ribbons cross background horizontally like separate musical lines, a flat gray rectangular plate interrupts them at same horizontal position as visualmetaphor; keep subtle2D painted effect not holographic UI. Tight facial shot eyelevel, composition neck-and-head plus enough storefront to identify place, no text overlays or lyrics.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-ef28ab61-3181-4ae8-9c5d-8a3a8b6e4459.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-02.png"
+  ],
+  "key_moment": "JC deliberately listens; colored sound lanes meet the flat gray plate.",
+  "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-03.png",
+  "sha256": "cfa7bec9c31cae9887014d770be1595fc9a934a64741bb3fa92d1a286b56c5c7",
+  "size": [
+    1672,
+    941
+  ],
+  "status": "generated-story-frame",
+  "tool": "built-in image_gen",
+  "animation": false,
+  "author_approved": false,
+  "reference_hashes": {
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-02.png": "e158fa40ae98acb694a1339c512b6277b0cbb8500323489c7f6495bc1b331073"
+  }
+}

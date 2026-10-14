@@ -1,0 +1,21 @@
+{
+  "j": {
+    "id": "classmates-v2",
+    "cast_id": "classmates",
+    "target": "classmates",
+    "desc": "Preserve these exact four children, identities, outfits, chairs, separation and full-body framing. Two corrections only: (1) remove ALL brand logos/swooshes/letters/athletic symbols from shoes: make ALL shoes completely unbranded plain panels; (2) lower all four faces to rest foreheads/cheeks DOWN on folded forearms, eyes closed, quiet-time classroom posture rather than happily watching. Keep all limbs/shoes fully framed and transparent gap between every pupil. No backdrop, text, desk or extra character. Genuine transparent alpha."
+  },
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/age-variants/generated/classmates.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Preserve these exact four children, identities, outfits, chairs, separation and full-body framing. Two corrections only: (1) remove ALL brand logos/swooshes/letters/athletic symbols from shoes: make ALL shoes completely unbranded plain panels; (2) lower all four faces to rest foreheads/cheeks DOWN on folded forearms, eyes closed, quiet-time classroom posture rather than happily watching. Keep all limbs/shoes fully framed and transparent gap between every pupil. No backdrop, text, desk or extra character. Genuine transparent alpha.",
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-4083fffc-aebb-441d-870e-9907f631dbc1.png",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/age-variants/generated/classmates-v2.png",
+  "sha256": "e5dd7b567d7ee1a579b6acc913d2583bf95a970a2fe0db903d0aef4edf38e16b",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/age-variants/generated/classmates.png",
+      "sha256": "43eb2687da9c6278a0862135dae3058ff478cf68685e181434bd62eec8b59db9"
+    }
+  ]
+}

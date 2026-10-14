@@ -1,0 +1,10 @@
+{
+  "shot_id": "S15-04",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. Medium shot closer on same two domino players at SAME bodega table from image1. Yellowpolo stocky mustache man LEFT slams one domino flat onto table with clear palm/fingers contact; navyshirt graybearded creamtrouser man RIGHT snaps a sharp retort leaning forward, one open raised palm. Their faces more irritable and slightly duller than prior normalcolor image. Same blackmilkcrates, square green-topped table with orderly dominochain, same shopglass behind, orangeawning edge above, afternoon. Camera tableheight emphasizes hand-tile contact and faces, no third man yet. PRESS at earlystage: slightly reduced saturation and simpler celshadows, still normal geometry, no smoke yet. No impact text or dialogue. Preserve exact hair build wardrobe identities.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-f029bb5c-1271-4f72-bd04-60f983f17880.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-02.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/bodega-men.png"
+  ],
+  "key_moment": "First escalation: tile slap and reply, early PRESS."
+}

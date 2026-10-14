@@ -1,0 +1,35 @@
+{
+  "shot": "S03-13",
+  "selected_moment": "Close phone onJC desk held in charcoalhoodie hand, screen shows simple chatlayout with exact two lines \"u alive\" and \"define alive\"; tiny time \"2:41 AM\". Othermessages need later graphiclayout. His thumb poised toturnphone facedown, no Manny physicallyinroom. Warmdesk closeup with keyboardblur.",
+  "script": "`04:04:00 \u2192 04:12:00` (192f) \u00b7 UI \u00b7 phone \u00b7 rate 3s\n- **Action:** 2:41 AM. Manny texts from the 6 train: u alive / define alive / breathing + bad decision energy / then yes / send the kid his EP / it's not done / it's been done for a week gremlin. JC turns the phone face down: 'Nobody should be known that well at three in the morning.'\n- **FX:** `UI_PHONE(chat bubbles typed on); CUT_TO_BACK_OF_PHONE`\n- **Sound:** Phone buzz; keyclicks.",
+  "prompt": "Use case: illustration-story. Create ONE finished-color cinematic anime story frame, landscape EXACT16:9 composition, opaque fully painted environment edge-to-edge, no transparency, no borders, no collage/multi-panel. Match approved 1990s hand-drawn anime: supple clean lines, expressive soft human faces, simple broad2/3-tone cel shadows, flat warm skin colors, detailed traditionally painted environment. No western comic hatching, no photoreal3D, no glossy muscles. Attached rooftop is STYLE ONLY, never copy its setting/time/sunset; character sources lock identity, age, proportions, hair and costume. Any attached NEW adjacent frame establishes environment continuity, not duplicated action. Natural contacts/hands; rigid canoes/props remain coherent. No invented signage/logos/subtitles/captions; only exact text explicitly requested below. Single selected dramatic moment, do not combine sequential moments spatially. \nSHOT S03-13. Script context: `04:04:00 \u2192 04:12:00` (192f) \u00b7 UI \u00b7 phone \u00b7 rate 3s\n- **Action:** 2:41 AM. Manny texts from the 6 train: u alive / define alive / breathing + bad decision energy / then yes / send the kid his EP / it's not done / it's been done for a week gremlin. JC turns the phone face down: 'Nobody should be known that well at three in the morning.'\n- **FX:** `UI_PHONE(chat bubbles typed on); CUT_TO_BACK_OF_PHONE`\n- **Sound:** Phone buzz; keyclicks.\nSELECTED MOMENT: Close phone onJC desk held in charcoalhoodie hand, screen shows simple chatlayout with exact two lines \"u alive\" and \"define alive\"; tiny time \"2:41 AM\". Othermessages need later graphiclayout. His thumb poised toturnphone facedown, no Manny physicallyinroom. Warmdesk closeup with keyboardblur.\nDo not reproduce photorealistic textures from adjacent frames: use traditionally painted anime background, simple clean cel-shaded people and props. Room layout reference only. Coin reference only for spiral-opening-into-triangle engraving, NOT levitation unless explicitly scripted. Modern Bronx night except explicitly requested historical/Friday inserts. Render selected moment only.",
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-03.png"
+  ],
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-9b4052d7-28e2-4ed8-8bc0-60f0399fa5b1.png",
+  "status": "exploratory storyframe",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-13.png",
+  "sha256": "9300ed96e38e9a09ae569353a688e23715a88fdf0b6d11e64fff603f546c96b5",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "sha256": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-03.png",
+      "sha256": "729b320dc6c842e49092ac733efbee47efaf02ad68c939d41cbffd4e563f3442"
+    }
+  ],
+  "inspection": "Pending direct visual inspection"
+}

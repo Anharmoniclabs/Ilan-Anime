@@ -1,0 +1,26 @@
+{
+  "name": "ballroom-hero-couple-b",
+  "prompt": "Heralds of the Cem\u00ed Episode1 S05,1957 Ballroom hero couple B, TWO different people from other couples. Afro-Caribbean darkbrown woman late30s with short natural waved hair, round lively face, cobaltblue knee-length circle dress with modest short sleeves, low blue heels. Mediumbrown Latino man40, slightly stocky, thin1950s mustache, maroon long sleeve dress shirt and tan highwaisted trousers, black-white two-tone shoes. Elegant spin pose: man planted on his supporting foot, one arm raised holding ONE of woman's hands above her head; woman's other arm extended gracefully sideways, dress flares without exposing underwear. Correct anatomy, hands and all four feet visible. Both faces joyful, not generic hero faces. Finished hand-inked1990s cel anime quality from cover STYLE ONLY, nuanced lines/hatching, blue-gold edge light, rich natural pigment and two-three shading planes. Complete couple centered with generous margin, landscape1536x1024 genuine transparent background, no floor/reflection/scenery/captions/labels/logos, no motion blur. One readable contact pose, not a collage.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-8aa214d6-aa0c-4a0c-a931-f95514e0fe03.png",
+  "cast_ids": [
+    "ballroom-hero-couples"
+  ],
+  "references": {
+    "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/references/author-cover-style.png": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c"
+  },
+  "file": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/ensemble-cast/ballroom-hero-couple-b.png",
+  "sha256": "fe1d670e2bf99007bb0ba5d64a29cd3b14b36ded1d18766e3b86666aa3de184b",
+  "size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "status": "exploratory",
+  "tool": "built-in image_gen",
+  "author_approved": false,
+  "rigged": false
+}

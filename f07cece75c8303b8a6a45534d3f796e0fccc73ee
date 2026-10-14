@@ -1,0 +1,49 @@
+{
+  "role": "identity reference layout only; labels not for output",
+  "source_refs": [
+    {
+      "path": "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+      "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/amaia-son.png",
+      "sha256": "dfe1f6cac780ec27f3f24f09922fdfe27032477b7c813a2c0fcf5518e0df2948"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/beheto.png",
+      "sha256": "d1c97af3ea999c752df31df00c6e075fb843e834cdddc42a1959139346ba9c83"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-1.png",
+      "sha256": "ae23e57bec5dfc13a9960a105e2f75115502c0f0212f193ff1695b127f6b6571"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-2.png",
+      "sha256": "ca72dccfea0f81b8417bfea22c0d874dac5b2c6e9a88e90fca96ef3760059a86"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-3.png",
+      "sha256": "b4f899aa67c375fd9bcb6cf12f94c79d04e95ebcdaefdf221dff5c9bff610dc7"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png",
+      "sha256": "b59f3a3a48a916e6b3fa001eec74d45ae59a3afaf113dba675cb0435fc0ad0a6"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-boy-nine.png",
+      "sha256": "f7aea88e762231b8da8b7997413c31236815e83f34d173e6ab6553a357378ce3"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-child-third.png",
+      "sha256": "1f2332fd3d490ab819e22228555abc0ef1438ab65a33a1b214998a74050fd30e"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-girl-seven.png",
+      "sha256": "91c86174e5cbfc347f233d9e49a51d1c982e7ab988517cb960dcae62bfaabdfc"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/yara.png",
+      "sha256": "b0b4c0fa069e6877c103472b6d7ef3070f2d4ea6220b218bc4cc8cc32f073aa4"
+    }
+  ]
+}

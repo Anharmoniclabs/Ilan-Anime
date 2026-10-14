@@ -1,0 +1,11 @@
+{
+  "shot_id": "S14-01",
+  "prompt": "Finished cinematic frame for 1990s cel anime Heralds of the Cemi. Landscape16:9,1536x864. Image1 exact identity/costume JC25, image2 exact Sofia26 identity/costume, image3 style reference only not scene/light. Modern Bronx public library afternoon, long oak communal research table, moss-green wall panels, tall cream-framed windows with diffuse daylight, book stacks and brass reading lamps. Medium shot from BEHIND seated JC, dark hoodie/headphones his curls recognizable; Sofia enters next to him, sharp concerned eyes behind rectangular glasses, teal cardigan clawclip hair matching image2. Her one hand hovers a few inches above his shoulder without touching, other hand has just opened silver laptop on table, chair pulled out before sitting. Subtle dry humor in her posture but no cartoon gag graphic, capture actual main scene moment. Authentic supple clean anime ink, expressive restrained faces, flat two-tone cel shadows, meticulously hand-painted gouache background, muted warm daytime palette, fine film texture, no dense hatching, no glossy 3D or photorealism. Single composed shot, no panels/collage, no text/subtitles/watermark. Full opaque scene to frame edges.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-463eccf3-2c6f-4dd7-9495-7570957c13f6.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/sofia.png",
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png"
+  ],
+  "key_moment": "Sofia hand hovering before sitting, laptop open; split-card gag needs separate editorial treatment"
+}

@@ -1,0 +1,37 @@
+{
+  "shot": "S03-02",
+  "selected_moment": "Medium comedy shot from bedroom: JC25 in charcoalhoodie at open fourthfloor window extends sandwich toward passing subwaycar extraordinarily close outside. His torso stays inside; arm believable length, conductor a small anonymous darknavy uniform silhouette visible in passing cab. Horizontal motionlines outside only, dry wry JC face. Same coldnight/windowgeometry.",
+  "script": "`02:34:00 \u2192 02:38:00` (96f) \u00b7 FIX \u00b7 MS window \u00b7 rate 2s\n- **Action:** Gag: the window is so close to the El that JC extends a sandwich toward the passing conductor. Frame holds on the arm as the train blurs by.\n- **FX:** `SPEED_LINES(horizontal); CEL_SMEAR(arm)`\n- **Sound:** VO: \u201c...I could pass a sandwich to the conductor.\u201d Mam\u00e1 VO: pneumonia warning.",
+  "prompt": "Use case: illustration-story. Create ONE finished-color cinematic anime story frame, landscape EXACT16:9 composition, opaque fully painted environment edge-to-edge, no transparency, no borders, no collage/multi-panel. Match approved 1990s hand-drawn anime: supple clean lines, expressive soft human faces, simple broad2/3-tone cel shadows, flat warm skin colors, detailed traditionally painted environment. No western comic hatching, no photoreal3D, no glossy muscles. Attached rooftop is STYLE ONLY, never copy its setting/time/sunset; character sources lock identity, age, proportions, hair and costume. Any attached NEW adjacent frame establishes environment continuity, not duplicated action. Natural contacts/hands; rigid canoes/props remain coherent. No invented signage/logos/subtitles/captions; only exact text explicitly requested below. Single selected dramatic moment, do not combine sequential moments spatially. \nImage1: bronx-90s-anime.png; STYLE ONLY, change time to3AM\nImage2: jc.png; approved character identity ONLY\nImage3: S03-01.png; NEW environment geometry ONLY; do notcopy unrequested effects or people\nMODERN BRONX JC25 apartment beside JeromeAve elevated4, cold March3AM. Warmtungsten interiors against darkcoolnight. Medium comedy shot from bedroom: JC25 in charcoalhoodie at open fourthfloor window extends sandwich toward passing subwaycar extraordinarily close outside. His torso stays inside; arm believable length, conductor a small anonymous darknavy uniform silhouette visible in passing cab. Horizontal motionlines outside only, dry wry JC face. Same coldnight/windowgeometry.",
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-01.png"
+  ],
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-28bdb1b0-2c26-47c6-8ae7-1107bbe66188.png",
+  "status": "exploratory storyframe",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-02.png",
+  "sha256": "4bbcd861d5f8cd43fec26a4e457ad0449faa86f4bf460553d5859634438430a6",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "sha256": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-01.png",
+      "sha256": "798d6582e6e2b6e85c00d860d345fef9bfa4325964c7e5385cb2b31f5bb01cac"
+    }
+  ],
+  "inspection": "Directly viewed: JC reaches sandwich toward conductor across window/train gap. Contact handoff not yet depicted; arm length plausible.",
+  "inspection_method": "Direct view_image of entire saved frame; PNG automated decode and dimensions check",
+  "scope": "One representative story frame; not all action beats or motion"
+}

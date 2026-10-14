@@ -1,0 +1,26 @@
+{
+  "shot_id": "S14-06",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. A brief earlier-January flashback in El Disco Cafe, SAME physical cafe in image1: green window frames pressedtin ceiling globe pendant lights framedphotos counter espresso machine and records. Do NOT include JC. Mediumwide two-shot, Rodriguez70 from image2 behind counter, clean-shaven silverhair apron rolledblue sleeves, dismissive thick raisedeyebrows and one palm pushing the offered speaker back. Young representative from image3 stands customer side holding the plain small black speaker in both hands, awkward smile. Their hands separated clearly, speaker stable rectangular. Turntable and vinylrecords prominently behind Rodriguez establish he plays his own records. Cold winter daylight outside window, warm interior. No logos or text, no other montage/storefront panels. The definitive moment the cafe refuses the free sound system.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-3d1040ea-f194-42df-bb46-c9626bde8a7e.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S09-03.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/rodriguez.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/speaker-rep.png"
+  ],
+  "key_moment": "Cafe refusal cutaway; six storefront montage and Sofia joy reaction require separate later drawings.",
+  "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-06.png",
+  "sha256": "d8e181a876c178bcc457e78cf271b82bb51cf63d52a348b3e451d5abec0382d0",
+  "size": [
+    1672,
+    941
+  ],
+  "status": "generated-story-frame",
+  "tool": "built-in image_gen",
+  "animation": false,
+  "author_approved": false,
+  "reference_hashes": {
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S09-03.png": "b0e974ee225d0035c294f3339a16c2c9cd98e443b4341dc65c482b73674b85a7",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/rodriguez.png": "9905f8de24bf976f02de2ec3749eb6e5e9fc2d9064ba04601b416474a5ee18b0",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/speaker-rep.png": "08d669b7c461ef76f1501017c0d627e33b274be23eaf21285d4afef394df1aa6"
+  }
+}

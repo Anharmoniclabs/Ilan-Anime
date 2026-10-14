@@ -1,0 +1,34 @@
+{
+  "shot": "S01-14",
+  "selected_moment": "Wide image camera tilted12degrees with exactly3canoes sweeping turn, all11 survivors lean same direction naturally, distribution same asestablishing. Farbank small ledgerclerk closing book, not extra canoe passenger. No splitpanel. LeadDairon/Yara/Amaia+son, secondBeheto+3adults, third3children.",
+  "script": "`02:02:00 \u2192 02:11:00` (216f) \u00b7 ROLL 12\u00b0 \u00b7 WS \u00b7 rate 3s\n- **Action:** She turns with it. Every body leans into the turn; the camera rolls with them. Behind them on the bank the ledger man finishes his line and closes the book.\n- **FX:** `CAMERA_ROLL(0\u219212deg); CROSS_DISSOLVE_TO(book)`\n- **Sound:** Wood and water. Book closing: a flat clap.",
+  "prompt": "Edit first reference into one opaque finished-color16:9 cinematic story frame. Correct first image. Add missing Yara holding graybundle seated visibly BETWEEN Dairon and Amaia in LEADcanoe; extend hull to fit. Preserve Amaia and asleep son behind Yara. Exactly11 canoepeople in distribution4lead4middle3rear. All lean subtly into same turn. Remove entire invented hut, dock, furniture and extra empty boat on rightbank. Ledger man instead sits alone on a TREE STUMP on muddy bank among mangrove roots, ledger closing flat on his KNEES. Preserve periodclothes, nightlighting, composition roll, cleananime. Do not add text. Only alter requested details; maintain handdrawn1990s anime soft faces/simple broad celshadows, no photorealistic texturing or3D.",
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/references/S01-14-cast.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-02.png"
+  ],
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-e732c2c2-cf9f-45f7-a545-de1bf208aa6f.png",
+  "status": "exploratory storyframe",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-14.png",
+  "sha256": "4edcd47a0637a354aa0b328f743b1d0a4a51d0e6bcdeaadc331c745a11b5c270",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-14.png",
+      "sha256": "4edcd47a0637a354aa0b328f743b1d0a4a51d0e6bcdeaadc331c745a11b5c270"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/references/S01-14-cast.png",
+      "sha256": "9caf8e3784ec8f0ac227655d3b58c9a165c4bf46cdf9170dc09e0d433b6112af"
+    }
+  ],
+  "inspection": "Pending revised-image direct visual inspection",
+  "revision": 2,
+  "revision_instruction": "Correct first image. Add missing Yara holding graybundle seated visibly BETWEEN Dairon and Amaia in LEADcanoe; extend hull to fit. Preserve Amaia and asleep son behind Yara. Exactly11 canoepeople in distribution4lead4middle3rear. All lean subtly into same turn. Remove entire invented hut, dock, furniture and extra empty boat on rightbank. Ledger man instead sits alone on a TREE STUMP on muddy bank among mangrove roots, ledger closing flat on his KNEES. Preserve periodclothes, nightlighting, composition roll, cleananime.",
+  "original_provenance": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/archive-first-pass/S01-14.json"
+}

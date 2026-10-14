@@ -1,0 +1,32 @@
+{
+  "shot": "S03-04",
+  "selected_moment": "One dollhouse architectural cross-section of SAME sixstory brick apartment building at night, fullwidth illustration, not collagepanels. Five thin soundribbons connect sources to JC fourthfloor closet: steelwhite train outside, rust radiator, magenta bodega radio groundfloor, golddotted rosary in adjacent apartment, mutedbrass trumpet from sixthfloor room. Trumpetplayer only tiny silhouette unspecified identity. No textlabels yet. Apartment rooms believable.",
+  "script": "`02:50:00 \u2192 03:01:00` (264f) \u00b7 CUTAWAY \u00b7 building section \u00b7 rate 3s\n- **Action:** Dollhouse cross-section of the whole building. Colored ribbons rise through the floors: the 4 (steel white), radiator (rust), bachata (magenta), rosary (gold dots), a trumpet on six playing the same solo 'since the Obama administration'. All of them end at JC's closet.\n- **FX:** `CUTAWAY_BG(building_section); SOUND_RIBBON(5 sources); LABEL_CELS`\n- **Sound:** Each ribbon's sound mixes in as it's labelled. Trumpet solo repeats and cuts off mid-phrase.",
+  "prompt": "Use case: illustration-story. Create ONE finished-color cinematic anime story frame, landscape EXACT16:9 composition, opaque fully painted environment edge-to-edge, no transparency, no borders, no collage/multi-panel. Match approved 1990s hand-drawn anime: supple clean lines, expressive soft human faces, simple broad2/3-tone cel shadows, flat warm skin colors, detailed traditionally painted environment. No western comic hatching, no photoreal3D, no glossy muscles. Attached rooftop is STYLE ONLY, never copy its setting/time/sunset; character sources lock identity, age, proportions, hair and costume. Any attached NEW adjacent frame establishes environment continuity, not duplicated action. Natural contacts/hands; rigid canoes/props remain coherent. No invented signage/logos/subtitles/captions; only exact text explicitly requested below. Single selected dramatic moment, do not combine sequential moments spatially. \nImage1: bronx-90s-anime.png; STYLE ONLY, change time to3AM\nImage2: S03-01.png; NEW environment geometry ONLY; do notcopy unrequested effects or people\nMODERN BRONX JC25 apartment beside JeromeAve elevated4, cold March3AM. Warmtungsten interiors against darkcoolnight. One dollhouse architectural cross-section of SAME sixstory brick apartment building at night, fullwidth illustration, not collagepanels. Five thin soundribbons connect sources to JC fourthfloor closet: steelwhite train outside, rust radiator, magenta bodega radio groundfloor, golddotted rosary in adjacent apartment, mutedbrass trumpet from sixthfloor room. Trumpetplayer only tiny silhouette unspecified identity. No textlabels yet. Apartment rooms believable.",
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-01.png"
+  ],
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-f3e75ba7-94c6-4df2-91d8-afb49835be5c.png",
+  "status": "exploratory storyframe",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-04.png",
+  "sha256": "b9be2d4b061b9e5a78bf1e683179c5f15846a59d3b70707c77fa3cbb71a1456c",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-01.png",
+      "sha256": "798d6582e6e2b6e85c00d860d345fef9bfa4325964c7e5385cb2b31f5bb01cac"
+    }
+  ],
+  "inspection": "Directly viewed: dollhouse sound ribbons connect train, radiator, bodega, praying woman, trumpeter to JC. Gold/brass ribbons similar hue; exact floor numbering should be reviewed.",
+  "inspection_method": "Direct view_image of entire saved frame; PNG automated decode and dimensions check",
+  "scope": "One representative story frame; not all action beats or motion"
+}

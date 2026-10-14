@@ -1,0 +1,38 @@
+{
+  "id": "eraser-boy",
+  "status": "exploratory",
+  "tool": "built-in image_gen",
+  "source": "/home/alabs/.codex/generated_images/01a13832-a6e9-77c3-9ea5-4675615eb57d/exec-85b1f202-5ddd-4e40-9c3c-7f21a9b628ac.png",
+  "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/historical-cast/generated/eraser-boy-master.png",
+  "sha256": "ea5ee2e2ebd97ebb386c0163384f7a8d3e7b1f7b535dbc0ef9cbf1769886d05b",
+  "prompt": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/historical-cast/prompts/eraser-boy.txt",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/references/author-cover-style.png",
+      "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c",
+      "authority": "style-only"
+    }
+  ],
+  "image_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "transparent_pixels": 970868,
+  "opaque_pixels": 0,
+  "partial_alpha_pixels": 601996,
+  "alpha_bbox": [
+    14,
+    3,
+    996,
+    1506
+  ],
+  "approval": null,
+  "inspection": "Directly viewed: darker complexion, extended eraser hand, notebook, full seated body. Gaze turns partly toward handoff rather than remaining fully down; acting replacement will be needed.",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "near_opaque_pixels_250_255": 555325,
+  "alpha_note": "Actual transparent background; body alpha predominantly 252-254, faint low-alpha residual edges. Preserved generated pixels unchanged. No production matte approval."
+}

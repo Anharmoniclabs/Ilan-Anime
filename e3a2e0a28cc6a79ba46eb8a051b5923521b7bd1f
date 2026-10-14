@@ -1,0 +1,9 @@
+{
+  "shot_id": "S15-07-r2",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. Precise continuity correction of attached exact bodega close-up. KEEP JC face pose and gaze, orangeawning, speaker position, camera, door and daylight unchanged. Change ONLY two tiny background domino men: both now sit exhausted with heads bowed staring at tiles, mouths closed, shoulders drooped, all hands lowered onto lap or table; no gesturing/no arguing. This is AFTER anger has drained away. Remove three cartoon curved sound arcs beside speaker. In their place use very subtle thin straight yellowgreenred musical lines behind speaker, interrupted by a small flatgray rectangular patch. No extra people or newtext. Preserve exact clean anime style and whole composition.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-59e7f580-3c93-4c70-8b91-7b1496e8a5f8.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-07.png"
+  ],
+  "key_moment": "Corrected drained domino-player continuity and restrained loop visualization."
+}

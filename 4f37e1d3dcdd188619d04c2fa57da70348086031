@@ -1,0 +1,25 @@
+{
+  "j": {
+    "id": "jc-six",
+    "ref": "jc",
+    "desc": "Draw JC as a SIX-YEAR-OLD Dominican-American boy in 2007. Adult JC reference supplies family facial landmarks only: light brown skin, dark almond eyes, uneven brows, short dark curls. Strongly childlike anatomy, approximately five heads tall, soft round child cheeks, short limbs, small hands, absolutely no stubble or mature jaw, headphones or electronics. Curious alert face. Plain faded blue crew-neck long-sleeve shirt, dark school trousers, worn sneakers. Neutral three-quarter standing pose, arms apart slightly; full natural color source, PRESS treatment will be applied in compositing."
+  },
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/jc-master-v2.png",
+    "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/references/author-cover-style.png"
+  ],
+  "prompt": "Use case: illustration-story. Single isolated full-body production character master for Heralds of the Cem\u00ed Episode 1, portrait composition with head, both hands and both shoes entirely inside frame with breathing room. True transparent background, no floor, shadow haze, backdrop or checkerboard. Finished 1990s hand-inked 2D cel anime with variable ink, restrained crosshatching and painterly texture, three clear cel planes, natural skin pigmentation and restrained amber/steel edge light. Cover reference is STYLE ONLY: no copied faces, costume, text, logos, montage, FX, or scene. This is an exploratory source drawing, not a multi-view sheet. No text, branding, logos, labels or watermarks. Input images: image 1 is adult identity reference for age transformation; image 2 is style-only. Draw JC as a SIX-YEAR-OLD Dominican-American boy in 2007. Adult JC reference supplies family facial landmarks only: light brown skin, dark almond eyes, uneven brows, short dark curls. Strongly childlike anatomy, approximately five heads tall, soft round child cheeks, short limbs, small hands, absolutely no stubble or mature jaw, headphones or electronics. Curious alert face. Plain faded blue crew-neck long-sleeve shirt, dark school trousers, worn sneakers. Neutral three-quarter standing pose, arms apart slightly; full natural color source, PRESS treatment will be applied in compositing.",
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-32a0bc81-6bb9-466c-863b-562a63f69e03.png",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/age-variants/generated/jc-six.png",
+  "sha256": "aef78c066fbe9ed83afcc75fb97af70ba0bad6e145ec7061bc38b2f8bd123687",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/jc-master-v2.png",
+      "sha256": "63ea6611a922f448805d77f4a01df3e10d45219dd985a14a6bdafd903c8a26bf"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/references/author-cover-style.png",
+      "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c"
+    }
+  ]
+}

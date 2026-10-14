@@ -1,0 +1,38 @@
+{
+  "id": "thin-man-1973",
+  "status": "exploratory",
+  "tool": "built-in image_gen",
+  "source": "/home/alabs/.codex/generated_images/01a13832-a6e9-77c3-9ea5-4675615eb57d/exec-40b2199e-3f3d-4169-b2de-879e9d2cc5ff.png",
+  "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/historical-cast/generated/thin-man-1973-master.png",
+  "sha256": "230ffccd5a51e1564d3b698792b787776edb84d5ab24ea9e121315634a275878",
+  "prompt": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/historical-cast/prompts/thin-man-1973.txt",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/references/author-cover-style.png",
+      "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c",
+      "authority": "style-only"
+    }
+  ],
+  "image_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "transparent_pixels": 1119237,
+  "opaque_pixels": 0,
+  "partial_alpha_pixels": 453627,
+  "alpha_bbox": [
+    0,
+    13,
+    1004,
+    1536
+  ],
+  "approval": null,
+  "inspection": "Directly viewed: brown suit, thin build, notebook and pen, eye-lock. Remains unnamed; no identity reveal or supernatural effects.",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "near_opaque_pixels_250_255": 416236,
+  "alpha_note": "Actual transparent background; body alpha predominantly 252-254, faint low-alpha residual edges. Preserved generated pixels unchanged. No production matte approval."
+}

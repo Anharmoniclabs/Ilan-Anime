@@ -1,0 +1,722 @@
+{
+  "shots": [
+    {
+      "id": "S01-01",
+      "script": "`00:09:00 \u2192 00:15:00` (144f) \u00b7 FIX \u00b7 ECU low on waterline \u00b7 rate 3s\n- **Action:** Black water, a hand-width of surface. A paddle blade enters, leaves, rings spread. Lower-left small caps: BEFORE.\n- **FX:** `PAINTED_BG(night_water); WATER_CEL(rings); TEXT_SUPER(BEFORE); VIGNETTE(0.7)`\n- **Sound:** Water drip, insects. A frog stops mid-call. No music.",
+      "start_frame": 216,
+      "frames": 144,
+      "end_frame": 360,
+      "keyframes": [],
+      "status": "missing_art",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [],
+      "cast_reference_paths": []
+    },
+    {
+      "id": "S01-02",
+      "script": "`00:15:00 \u2192 00:27:00` (288f) \u00b7 CRANE DOWN \u00b7 WS \u00b7 rate 3s\n- **Action:** Three dugout canoes in single file down a moonless mangrove channel. Lead: Dairon paddling, Yara behind him with the cem\u00ed in stiff cloth against her chest. Amaia with her sleeping son (not yet two). Second: Beheto, drum between his knees, chest whistling every breath. Third: three children, a faint blue breath on their forearms.\n- **FX:** `MULTIPLANE(5 painted layers); TRANSMITTED_LIGHT(blue,children,0.15); FILM_GRAIN`\n- **Sound:** Paddles, hull creak. Beheto's whistling breath is the only tempo (about 2s cycle).",
+      "start_frame": 360,
+      "frames": 288,
+      "end_frame": 648,
+      "keyframes": [
+        "assets/keyframes/S01-02.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "amaia",
+        "amaia-son",
+        "dairon",
+        "yara",
+        "beheto",
+        "lit-girl-seven",
+        "lit-boy-nine",
+        "lit-child-third",
+        "canoe-survivors"
+      ],
+      "cast_reference_paths": [
+        "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/amaia-son.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/beheto.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-1.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-2.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-3.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-boy-nine.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-child-third.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-girl-seven.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/yara.png"
+      ],
+      "packed_cast_reference_paths": [
+        "production/runs/episode1-anime90s-scenes/tasks/opening/references/S01-02-cast.png"
+      ]
+    },
+    {
+      "id": "S01-03",
+      "script": "`00:27:00 \u2192 00:35:00` (192f) \u00b7 MCU \u2192 CU Amaia \u00b7 rate 3s\n- **Action:** Amaia's lips count the heads ahead. Each count lands on an empty seat. Pale outlines sit in the empty seats and fade as she looks at them (two lost at the channel, the old man who asked for water, then his wife, then nothing).\n- **FX:** `GHOST_SEATS(alpha .25\u21920); DOUBLE_EXPOSURE; CEL_SHADE(2-tone)`\n- **Sound:** VO Amaia (spare): \u201cAmaia had fourteen when they put the canoes in. By the third night she had eleven.\u201d",
+      "start_frame": 648,
+      "frames": 192,
+      "end_frame": 840,
+      "keyframes": [
+        "assets/keyframes/S01-03.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "amaia",
+        "canoe-survivors",
+        "lost-survivor-ghosts"
+      ],
+      "cast_reference_paths": [
+        "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/amaia-son.png",
+        "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/lost-ghosts-master.png"
+      ]
+    },
+    {
+      "id": "S01-04",
+      "script": "`00:35:00 \u2192 00:42:00` (168f) \u00b7 FIX \u00b7 three hard cuts \u00b7 rate 2s\n- **Action:** Memory inserts of the blue: children in fever; a flash of lightning; the color itself, 'the inside of a shell'. Each gone before she can point at it.\n- **FX:** `TRANSMITTED_LIGHT(shell_blue); FLASH_FRAME(1f); AIRBRUSH_GLOW`\n- **Sound:** Held breath. One high glass-like partial, cut dead.",
+      "start_frame": 840,
+      "frames": 168,
+      "end_frame": 1008,
+      "keyframes": [
+        "assets/keyframes/S01-04A.png",
+        "assets/keyframes/S01-04B.png",
+        "assets/keyframes/S01-04C.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "lit-girl-seven",
+        "lit-boy-nine",
+        "lit-child-third"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-girl-seven.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-boy-nine.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-child-third.png"
+      ]
+    },
+    {
+      "id": "S01-05",
+      "script": "`00:42:00 \u2192 00:49:00` (168f) \u00b7 POV Amaia \u2192 CU bell \u00b7 rate 3s\n- **Action:** Behind them on the bank the soldier torches have stopped. One soldier lifts a pole with a brass bell and rings it, hard. Cut to the bell swinging, close.\n- **FX:** `CAMERA_SHAKE(2f); SPEED_LINES(bell); CHROMA_BLEED`\n- **Sound:** The BELL: dry, inharmonic brass, no reverb tail, 3\u20135 kHz bite. Amaia feels it 'in her back teeth'. There is no song in it.",
+      "start_frame": 1008,
+      "frames": 168,
+      "end_frame": 1176,
+      "keyframes": [
+        "assets/keyframes/S01-05A.png",
+        "assets/keyframes/S01-05B.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "rejected_motion_test",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "bell-soldier",
+        "torch-soldiers"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/bell-soldier.png",
+        "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/torch-soldiers-master.png"
+      ]
+    },
+    {
+      "id": "S01-06",
+      "script": "`00:49:00 \u2192 00:59:00` (240f) \u00b7 MS \u2192 CU hands \u00b7 rate 2s\n- **Action:** The three children lift the blue off their arms; it peels away like vapor and leans out over the black water toward the bank. They lean with it. Amaia wants to hear one of them cry.\n- **FX:** `TRANSMITTED_LIGHT; AIRBRUSH_RIBBONS(blue,8); PULL_TOWARD(bank)`\n- **Sound:** Bell rings again, thinner. Children silent.",
+      "start_frame": 1176,
+      "frames": 240,
+      "end_frame": 1416,
+      "keyframes": [
+        "assets/keyframes/S01-06.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "amaia",
+        "lit-girl-seven",
+        "lit-boy-nine",
+        "lit-child-third"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-girl-seven.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-boy-nine.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-child-third.png"
+      ]
+    },
+    {
+      "id": "S01-07",
+      "script": "`00:59:00 \u2192 01:06:00` (168f) \u00b7 MS low angle \u00b7 rate 3s\n- **Action:** A second man sits on a stump, ledger open on his knee. He never looks at the canoes. He writes one line, then another under it.\n- **FX:** `FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`\n- **Sound:** Pen scratch placed forward in the mix, louder than it should be.\n- **Note:** Ledger-man is the first 'Counter'. Same pose language as the thin man (S12) and Vale's notebook (S14).",
+      "start_frame": 1416,
+      "frames": 168,
+      "end_frame": 1584,
+      "keyframes": [
+        "assets/keyframes/S01-07.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "ledger-man"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/ledger-man.png"
+      ]
+    },
+    {
+      "id": "S01-08",
+      "script": "`01:06:00 \u2192 01:12:00` (144f) \u00b7 MS side \u00b7 rate 3s\n- **Action:** The girl of seven says to the water: \u201cThere's a way under the roots.\u201d Dairon turns the bow without asking how she knew.\n- **FX:** `HOLD(cel bank)`\n- **Sound:** Her voice small and certain. Hull turn.",
+      "start_frame": 1584,
+      "frames": 144,
+      "end_frame": 1728,
+      "keyframes": [
+        "assets/keyframes/S01-08.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "dairon",
+        "lit-girl-seven"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-girl-seven.png"
+      ]
+    },
+    {
+      "id": "S01-09",
+      "script": "`01:12:00 \u2192 01:26:00` (336f) \u00b7 POV bow \u00b7 tunnel \u00b7 rate 2s\n- **Action:** The canoe shrieks through mangrove roots on both sides; a paddle snaps; wood chips. The roots open into air that smells of salt 'from the wrong direction'. Cloth and hair flutter the opposite way.\n- **FX:** `MULTIPLANE_RUSH(root layers z1\u2013z5); SPEED_BG; SPLINTER_CEL; WIND_REVERSE`\n- **Sound:** Wood scream on hull. Snap. Then sudden wide air and a wind change.",
+      "start_frame": 1728,
+      "frames": 336,
+      "end_frame": 2064,
+      "keyframes": [
+        "assets/keyframes/S01-09.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "dairon"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png"
+      ]
+    },
+    {
+      "id": "S01-10",
+      "script": "`01:26:00 \u2192 01:32:00` (144f) \u00b7 MCU boy \u00b7 bell offscreen \u00b7 rate 3s\n- **Action:** The boy of nine, head tilted toward the bell: \u201cThey know where we were. They don't know where we are.\u201d\n- **FX:** `TRANSMITTED_LIGHT(blue,rim)`\n- **Sound:** Bell far behind, now hollow.",
+      "start_frame": 2064,
+      "frames": 144,
+      "end_frame": 2208,
+      "keyframes": [
+        "assets/keyframes/S01-10.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "lit-boy-nine"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-boy-nine.png"
+      ]
+    },
+    {
+      "id": "S01-11",
+      "script": "`01:32:00 \u2192 01:42:00` (240f) \u00b7 CU Beheto \u2192 WS \u00b7 rate 2s\n- **Action:** Beheto puts both palms on the drum and leans his weight into it. The sound goes through hull, water and roots.\n- **FX:** `SHOCKWAVE_RING(water, subtle); ROOT_VEINS(gold, 0.4); WOOD_GRAIN_PULSE`\n- **Sound:** Not a boom. A deep skin-and-wood note with no attack, felt as sub.\n- **Note:** SHOWCASE CUT 0 begins.",
+      "start_frame": 2208,
+      "frames": 240,
+      "end_frame": 2448,
+      "keyframes": [
+        "assets/keyframes/S01-11.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "rejected_motion_test",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "beheto"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/beheto.png"
+      ]
+    },
+    {
+      "id": "S01-12",
+      "script": "`01:42:00 \u2192 01:56:00` (336f) \u00b7 WS \u2192 MS paddles \u00b7 rate 2s\n- **Action:** 'Nothing rose up and nothing parted.' The canoes simply move a little faster than the paddles. Blades drag and lift. Surface foam turns 90 degrees.\n- **FX:** `FLOW_TURN(foam,90deg); WATER_STREAK_CEL; WIND_STREAKS`\n- **Sound:** Water hiss rising.",
+      "start_frame": 2448,
+      "frames": 336,
+      "end_frame": 2784,
+      "keyframes": [
+        "assets/keyframes/S01-12.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "rejected_motion_test",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "dairon",
+        "beheto"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/beheto.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png"
+      ],
+      "packed_cast_reference_paths": [
+        "production/runs/episode1-anime90s-scenes/tasks/opening/references/S01-02-cast.png"
+      ]
+    },
+    {
+      "id": "S01-13",
+      "script": "`01:56:00 \u2192 02:02:00` (144f) \u00b7 CU Amaia's ribs \u00b7 rate 3s\n- **Action:** Her son, asleep, says into her ribs in a voice too old for him: \u201cIt's turning with us. Turn with it.\u201d\n- **FX:** `HOLD; EYES_CLOSED`\n- **Sound:** Child's voice with a quiet adult register layered under it.",
+      "start_frame": 2784,
+      "frames": 144,
+      "end_frame": 2928,
+      "keyframes": [
+        "assets/keyframes/S01-13.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "amaia",
+        "amaia-son"
+      ],
+      "cast_reference_paths": [
+        "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/amaia-son.png"
+      ]
+    },
+    {
+      "id": "S01-14",
+      "script": "`02:02:00 \u2192 02:11:00` (216f) \u00b7 ROLL 12\u00b0 \u00b7 WS \u00b7 rate 3s\n- **Action:** She turns with it. Every body leans into the turn; the camera rolls with them. Behind them on the bank the ledger man finishes his line and closes the book.\n- **FX:** `CAMERA_ROLL(0\u219212deg); CROSS_DISSOLVE_TO(book)`\n- **Sound:** Wood and water. Book closing: a flat clap.",
+      "start_frame": 2928,
+      "frames": 216,
+      "end_frame": 3144,
+      "keyframes": [
+        "assets/keyframes/S01-14A.png",
+        "assets/keyframes/S01-14B.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "amaia",
+        "amaia-son",
+        "dairon",
+        "yara",
+        "beheto",
+        "lit-girl-seven",
+        "lit-boy-nine",
+        "lit-child-third",
+        "canoe-survivors",
+        "ledger-man"
+      ],
+      "cast_reference_paths": [
+        "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/amaia-son.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/beheto.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-1.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-2.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-3.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/ledger-man.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-boy-nine.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-child-third.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-girl-seven.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/yara.png"
+      ],
+      "packed_cast_reference_paths": [
+        "production/runs/episode1-anime90s-scenes/tasks/opening/references/S01-14-cast.png"
+      ]
+    },
+    {
+      "id": "S01-15",
+      "script": "`02:11:00 \u2192 02:15:00` (96f) \u00b7 FIX \u00b7 black \u00b7 rate \u2014\n- **Action:** Black. The clap of the book rings into a keyboard clack (match to S03).\n- **FX:** `MATCH_SOUND`\n- **Sound:** Book clap \u2192 keyboard key.",
+      "start_frame": 3144,
+      "frames": 96,
+      "end_frame": 3240,
+      "keyframes": [
+        "assets/keyframes/S01-15.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [],
+      "cast_reference_paths": []
+    },
+    {
+      "id": "S03-01",
+      "script": "`02:27:00 \u2192 02:34:00` (168f) \u00b7 CRANE UP \u00b7 WS \u00b7 rate 3s\n- **Action:** Jerome Ave at night. The elevated 4 train rumbles past in strobing window-light bars across the street. Crane up the brick back wall of JC's building to a lit fourth-floor window. Super: 3:07 AM \u00b7 TUESDAY \u00b7 MARCH.\n- **FX:** `PAINTED_BG(night_street); TRAIN_STROBE(bars on street, 24fps); TEXT_SUPER`\n- **Sound:** The 4: rail scream, rising and falling. VO JC: \u201cI'll start with the part I'm not proud of, because my mother says if you start with the part you're proud of, God stops listening.\u201d",
+      "start_frame": 3528,
+      "frames": 168,
+      "end_frame": 3696,
+      "keyframes": [
+        "assets/keyframes/S03-01.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [],
+      "cast_reference_paths": []
+    },
+    {
+      "id": "S03-02",
+      "script": "`02:34:00 \u2192 02:38:00` (96f) \u00b7 FIX \u00b7 MS window \u00b7 rate 2s\n- **Action:** Gag: the window is so close to the El that JC extends a sandwich toward the passing conductor. Frame holds on the arm as the train blurs by.\n- **FX:** `SPEED_LINES(horizontal); CEL_SMEAR(arm)`\n- **Sound:** VO: \u201c...I could pass a sandwich to the conductor.\u201d Mam\u00e1 VO: pneumonia warning.",
+      "start_frame": 3696,
+      "frames": 96,
+      "end_frame": 3792,
+      "keyframes": [
+        "assets/keyframes/S03-02.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "jc-present",
+        "conductor"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+      ]
+    },
+    {
+      "id": "S03-03",
+      "script": "`02:38:00 \u2192 02:50:00` (288f) \u00b7 PAN L\u2192R \u00b7 interior \u00b7 rate 3s\n- **Action:** Room inventory pan on a single wide painted BG: radiator banging with little steam puffs; dev boards and cable; a Pyrex of arroz con habichuelas that belongs to the lady on three; a chair buried in laundry; the nightstand with the coin.\n- **FX:** `PAINTED_BG(room_wide); PAN_STILL; CEL_OVERLAYS(steam,fan)`\n- **Sound:** Radiator bang. Bachata from the bodega radio. A rosary clicking through the wall.",
+      "start_frame": 3792,
+      "frames": 288,
+      "end_frame": 4080,
+      "keyframes": [
+        "assets/keyframes/S03-03.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "pyrex-neighbor"
+      ],
+      "cast_reference_paths": []
+    },
+    {
+      "id": "S03-04",
+      "script": "`02:50:00 \u2192 03:01:00` (264f) \u00b7 CUTAWAY \u00b7 building section \u00b7 rate 3s\n- **Action:** Dollhouse cross-section of the whole building. Colored ribbons rise through the floors: the 4 (steel white), radiator (rust), bachata (magenta), rosary (gold dots), a trumpet on six playing the same solo 'since the Obama administration'. All of them end at JC's closet.\n- **FX:** `CUTAWAY_BG(building_section); SOUND_RIBBON(5 sources); LABEL_CELS`\n- **Sound:** Each ribbon's sound mixes in as it's labelled. Trumpet solo repeats and cuts off mid-phrase.",
+      "start_frame": 4080,
+      "frames": 264,
+      "end_frame": 4344,
+      "keyframes": [
+        "assets/keyframes/S03-04.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "trumpeter-six"
+      ],
+      "cast_reference_paths": []
+    },
+    {
+      "id": "S03-05",
+      "script": "`03:01:00 \u2192 03:08:00` (168f) \u00b7 INSERT \u00b7 closet \u00b7 rate 3s\n- **Action:** ECU: a contact mic clamped to the iron steam riser. Follow the pipe up through the wall to the roof. JC's laptop: a diegetic HUD. The mapping reads like a legend: pitch \u2192 color, rhythm \u2192 motion, loud \u2192 big. Name card: CHISMOSA.\n- **FX:** `UI_LAPTOP(chismosa); SOUND_RIBBON; TEXT_SUPER(CHISMOSA)`\n- **Sound:** Pipe hum; VO JC: \u201c...all it did was listen through the walls and tell me everybody's business.\u201d",
+      "start_frame": 4344,
+      "frames": 168,
+      "end_frame": 4512,
+      "keyframes": [
+        "assets/keyframes/S03-05.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [],
+      "cast_reference_paths": []
+    },
+    {
+      "id": "S03-06",
+      "script": "`03:08:00 \u2192 03:18:00` (240f) \u00b7 MACRO \u2192 CU \u00b7 rate 3s\n- **Action:** The coin on the nightstand: copper, spirals and hooked triangles. He picks it up; faint warm shimmer like a seat someone just left. Flash cut: JC at 12 asleep, fever, dirt under his fingernails on the fourth floor of a building with no dirt in it; Abuela sets the coin in his hand.\n- **FX:** `HEAT_SHIMMER(low); FLASHBACK_GRADE(sepia, 3s); FILM_GRAIN(\u2191)`\n- **Sound:** VO: \u201cThe coin is copper, heavy for its size...it runs warm.\u201d",
+      "start_frame": 4512,
+      "frames": 240,
+      "end_frame": 4752,
+      "keyframes": [
+        "assets/keyframes/S03-06A.png",
+        "assets/keyframes/S03-06B.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "jc-present",
+        "jc-twelve",
+        "abuela"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/abuela-hands.png",
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-twelve.png"
+      ]
+    },
+    {
+      "id": "S03-07",
+      "script": "`03:18:00 \u2192 03:24:00` (144f) \u00b7 INSERT \u00b7 list \u00b7 rate 3s\n- **Action:** A hand-lettered list of things he can't explain, scrolling past. #47 circled: THE COIN.\n- **FX:** `HANDWRITING_CEL; SCROLL_CARD`\n- **Sound:** Pen on paper.",
+      "start_frame": 4752,
+      "frames": 144,
+      "end_frame": 4896,
+      "keyframes": [
+        "assets/keyframes/S03-07.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [],
+      "cast_reference_paths": []
+    },
+    {
+      "id": "S03-08",
+      "script": "`03:24:00 \u2192 03:30:00` (144f) \u00b7 FIX \u00b7 MS desk \u00b7 rate 3s\n- **Action:** The 4 goes by; he types one line. A small diegetic timer reads 8:00 and counts down to the next train: 'the train comes, I get eight minutes'.\n- **FX:** `UI_TIMER(8:00); TRAIN_STROBE`\n- **Sound:** The 4, then keystrokes.",
+      "start_frame": 4896,
+      "frames": 144,
+      "end_frame": 5040,
+      "keyframes": [
+        "assets/keyframes/S03-08.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "jc-present"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+      ]
+    },
+    {
+      "id": "S03-09",
+      "script": "`03:30:00 \u2192 03:39:00` (216f) \u00b7 DISSOLVES \u00b7 facade \u00b7 rate 3s\n- **Action:** The ground floor of the building, four dissolves in order: Ballroom (1957 sign and doors) \u2192 laundromat \u2192 church \u2192 vape shop \u2192 current community arts space. An AR mural test is seen on a phone screen over brick.\n- **FX:** `FADE_BETWEEN(5 painted facades); UI_PHONE(AR_overlay)`\n- **Sound:** VO JC on the 'Ballroom' history. Dance-hall brass ghosted under each dissolve.",
+      "start_frame": 5040,
+      "frames": 216,
+      "end_frame": 5256,
+      "keyframes": [
+        "assets/keyframes/S03-09A.png",
+        "assets/keyframes/S03-09B.png",
+        "assets/keyframes/S03-09C.png",
+        "assets/keyframes/S03-09D.png",
+        "assets/keyframes/S03-09E.png",
+        "assets/keyframes/S03-09-AR.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [],
+      "cast_reference_paths": []
+    },
+    {
+      "id": "S03-10",
+      "script": "`03:39:00 \u2192 03:48:00` (216f) \u00b7 SPLIT \u00b7 laptop UI \u00b7 rate 3s\n- **Action:** First anomaly: a spiral that opens into a triangle, folded in itself. It resolves from static in three places with the same proportions each time: the screech of the 4, the heater upstairs, the hiss between radio stations. Match-cuts between the three. JC loses a whole Saturday ('I fall in and send a postcard').\n- **FX:** `SIGIL_FROM_STATIC; MATCH_CUT(x3); SPECTRAL_UI`\n- **Sound:** Static resolves toward a tone, three times.",
+      "start_frame": 5256,
+      "frames": 216,
+      "end_frame": 5472,
+      "keyframes": [
+        "assets/keyframes/S03-10.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "jc-present"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+      ]
+    },
+    {
+      "id": "S03-11",
+      "script": "`03:48:00 \u2192 03:56:00` (192f) \u00b7 FIX \u00b7 laptop UI \u00b7 rate 3s\n- **Action:** Second anomaly: under everything, an 8-second pressed band repeating. He hits DEL; the band returns. He deleted it 'a dozen times as garbage'. A counter of DEL presses ticks up to 12.\n- **FX:** `UI_LAPTOP(wave_lanes); PRESS(0.15 on UI only); UI_COUNTER`\n- **Sound:** A dry, low 8s texture under the room. Key taps.\n- **Note:** Introduces the 192-frame loop; lock LOOP_FRAMES in all later cues.",
+      "start_frame": 5472,
+      "frames": 192,
+      "end_frame": 5664,
+      "keyframes": [
+        "assets/keyframes/S03-11.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "jc-present"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+      ]
+    },
+    {
+      "id": "S03-12",
+      "script": "`03:56:00 \u2192 04:04:00` (192f) \u00b7 MONTAGE \u00b7 Jerome Ave \u00b7 rate 3s\n- **Action:** The block's been mean lately: (1) Friday fight outside the bodega over a scratch-off; (2) two men who haven't spoken since JC was nine, not speaking, with reasons they can't give; (3) the super's dog bites a delivery guy, the super calls it 'a misunderstanding' as if the dog had misheard the order.\n- **FX:** `HOLD_FLASH(3 cards); SPEED_LINES(fight); PRESS(0.1)`\n- **Sound:** Each vignette has the loop at -30 dB under it.",
+      "start_frame": 5664,
+      "frames": 192,
+      "end_frame": 5856,
+      "keyframes": [
+        "assets/keyframes/S03-12-A.png",
+        "assets/keyframes/S03-12-B.png",
+        "assets/keyframes/S03-12-C.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "street-fighters",
+        "feuding-men",
+        "super",
+        "delivery-worker",
+        "supers-dog"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/street-fighters.png"
+      ]
+    },
+    {
+      "id": "S03-13",
+      "script": "`04:04:00 \u2192 04:12:00` (192f) \u00b7 UI \u00b7 phone \u00b7 rate 3s\n- **Action:** 2:41 AM. Manny texts from the 6 train: u alive / define alive / breathing + bad decision energy / then yes / send the kid his EP / it's not done / it's been done for a week gremlin. JC turns the phone face down: 'Nobody should be known that well at three in the morning.'\n- **FX:** `UI_PHONE(chat bubbles typed on); CUT_TO_BACK_OF_PHONE`\n- **Sound:** Phone buzz; keyclicks.",
+      "start_frame": 5856,
+      "frames": 192,
+      "end_frame": 6048,
+      "keyframes": [
+        "assets/keyframes/S03-13.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "jc-present",
+        "ep-client"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+      ]
+    },
+    {
+      "id": "S04-01",
+      "script": "`04:12:00 \u2192 04:18:00` (144f) \u00b7 FIX \u00b7 desk, time-lapse \u00b7 rate 3s\n- **Action:** Digital clock flips 12:07 \u2192 3:07. Three demitasse cups appear and empty, one per hour. The train passes three times.\n- **FX:** `CLOCK_FLIP; CUP_APPEAR(3); TRAIN_STROBE`\n- **Sound:** Cafecito stir. The clock ticks faster each hour.",
+      "start_frame": 6048,
+      "frames": 144,
+      "end_frame": 6192,
+      "keyframes": [
+        "assets/keyframes/S04-01.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "jc-present"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+      ]
+    },
+    {
+      "id": "S04-02",
+      "script": "`04:18:00 \u2192 04:24:00` (144f) \u00b7 ABSTRACT \u00b7 UI \u00b7 rate 3s\n- **Action:** The filter stack as three gauze panes between the pipe and the projector: SMOOTHING (a comb), GATING (a door), NOISE FLOOR (a line). The shape and the loop pass through all three unchanged.\n- **FX:** `PANES_CEL(3); PASS_THROUGH(sigil,loop)`\n- **Sound:** Muffled filter hum. The sigil tone passes clear.",
+      "start_frame": 6192,
+      "frames": 144,
+      "end_frame": 6336,
+      "keyframes": [
+        "assets/keyframes/S04-02.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [],
+      "cast_reference_paths": []
+    },
+    {
+      "id": "S04-03",
+      "script": "`04:24:00 \u2192 04:30:00` (144f) \u00b7 CU hands \u00b7 screen \u00b7 rate 2s\n- **Action:** JC selects the config and deletes all of it. The three panes shatter into dust and vanish.\n- **FX:** `PANE_SHATTER_CEL; CAMERA_SHAKE(2f)`\n- **Sound:** Glass without reverb.",
+      "start_frame": 6336,
+      "frames": 144,
+      "end_frame": 6480,
+      "keyframes": [
+        "assets/keyframes/S04-03.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "jc-present"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+      ]
+    },
+    {
+      "id": "S04-04",
+      "script": "`04:30:00 \u2192 04:36:00` (144f) \u00b7 WS room \u00b7 rate 3s\n- **Action:** The projector, aimed at his bedroom wall, throws his cobalt handle test loop. The fan hums. Small reasonable voice (VO): this could fry the board.\n- **FX:** `COBALT_HANDLE_UI; PROJECTOR_BEAM(dust)`\n- **Sound:** Fan hum. VO is JC's own voice, a half-step higher and tidy.",
+      "start_frame": 6480,
+      "frames": 144,
+      "end_frame": 6624,
+      "keyframes": [
+        "assets/keyframes/S04-04.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "jc-present"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+      ]
+    },
+    {
+      "id": "S04-05",
+      "script": "`04:36:00 \u2192 04:43:00` (168f) \u00b7 ECU finger \u2192 CU face \u00b7 rate 3s\n- **Action:** A finger above the Enter key. The 4 is about to pass. His reflection in the dark screen. He hits Enter. The fan clicks. The 4 goes by.\n- **FX:** `HOLD(4s); FLASH_FRAME(1f on keypress)`\n- **Sound:** Silence. One key. Fan click.",
+      "start_frame": 6624,
+      "frames": 168,
+      "end_frame": 6792,
+      "keyframes": [
+        "assets/keyframes/S04-05.png"
+      ],
+      "status": "keyframe_available",
+      "animation_status": "not_rigged",
+      "voice_status": "not_recorded",
+      "suggested_cast_ids": [
+        "jc-present"
+      ],
+      "cast_reference_paths": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+      ]
+    }
+  ],
+  "common": "Use case: illustration-story. Create ONE finished-color cinematic anime story frame, landscape EXACT16:9 composition, opaque fully painted environment edge-to-edge, no transparency, no borders, no collage/multi-panel. Match approved 1990s hand-drawn anime: supple clean lines, expressive soft human faces, simple broad2/3-tone cel shadows, flat warm skin colors, detailed traditionally painted environment. No western comic hatching, no photoreal3D, no glossy muscles. Attached rooftop is STYLE ONLY, never copy its setting/time/sunset; character sources lock identity, age, proportions, hair and costume. Any attached NEW adjacent frame establishes environment continuity, not duplicated action. Natural contacts/hands; rigid canoes/props remain coherent. No invented signage/logos/subtitles/captions; only exact text explicitly requested below. Single selected dramatic moment, do not combine sequential moments spatially. ",
+  "moments": {
+    "S01-01": "Extreme close-up water only: black mangrove water seen at waterline, a wooden paddle blade just lifting free with two falling droplets and expanding rings. No shoreline, people or sky. Predawn moonless deep navy. Leave lower-left quiet space for BEFORE super added later; no text.",
+    "S01-02": "High oblique crane establishing shot EXACTLY THREE long dugout canoes in single file curving diagonally through narrow black mangrove channel, whole hulls readable. EXACTLY ELEVEN survivors total. Lead boat: Dairon at bow paddling, Yara behind holding bundle, Amaia behind them with her sleeping toddler against ribs (4 people). Second boat: Beheto with drum between knees plus3 supporting adult survivors (4 people). Third boat: exactly3 lit children girl7blue dress,boy9red tunic,smaller child green tunic; no adults (3 people). Low faint blue forearm glow, no bright magic. Current script staging. Dairon andYara same boat asAmaia, Beheto second, all children third.",
+    "S01-03": "Medium closeup Amaia seated in leadcanoe holding sleeping son, looking forward past empty seat with quiet counting lips. One faint elderly seated ghost silhouette on empty bench as a selected memory beat, not actual passenger. Do not assert ghost count; rest of ghosts need later drawings. Mangrove roots dark and water behind. Keep toddler face asleep.",
+    "S01-04": "ONE memory insert, not montage: close three-quarter view of same7-year-old girl in blue dress lying feverish on simple woven mat, two other lit children in soft background, faint shell-blue glow beneath skin, exhausted closed eyes. Dark humble shelter, cool storm flash at doorway. No lightning montage or panels. Later lightning/color inserts not depicted.",
+    "S01-05": "POV from water toward muddy riverbank: foreground upper-right large small-brass-bell hanging from raised wooden pole, bell tilted midring, metal clapper visibly independent. Bell soldier holds pole with credible2hand grip at bank; behind him3 torch soldiers stand still among dark mangrove roots. Sparse amber flames against moonless blue-black night; no modern light.",
+    "S01-06": "Medium side view third canoe ONLY the3 child identities seated: girl7blue dress left,boy9red middle,smaller green right. They lean silently toward bank screenright with forearms raised;8 thin restrained shell-blue vapor ribbons peel off arms across water. Bare feet inside canoe, coherent seating. No Amaia in this frame since she is in leadboat offscreen.",
+    "S01-07": "Low medium view ledger clerk alone seated on rough stump on muddy mangrove bank, open leather ledger flat across knee, one hand supports book, quill tip touches page while eyes stay lowered. Small offscreen torch warms cheek; background deep black roots. No readable text on pages. Quiet bureaucratic menace.",
+    "S01-08": "Medium side view girl7 at near thirdcanoe gunwale facing water and speaking softly, eyes resolved, mouth slightly open. Distant upper-left leadcanoe Dairon turning his bow with paddle, other boats mostly outside frame; do not put girl in Dairon boat. Quiet blue rim glow and moonless mangrove tunnel ahead.",
+    "S01-09": "Dynamic forward POV over sharp wooden canoe bow squeezing between mangrove roots on both sides, wood splinters from a paddle shaft snapping at lower right; hands ofDairon gripping shaft visible without showing face. Tight dark tunnel opening toward dark blue widerwater, no dawn/sunset. Splinters physically small, no explosion.",
+    "S01-10": "Medium closeup nine-year-old boy in red tunic seated inside thirdcanoe, head gently tilted back toward offscreen bell, lips slightly parted in serious speech, subtle blue edge light, black watery mangrove behind. Other children outof crop. Recognizable exact boy, no adult anatomy.",
+    "S01-11": "Close-to-medium Beheto in SECOND canoe, drum fixed between knees, BOTH palms flat on drumskin with fingers spread, shoulders leaning weight forward and gaunt chest bent naturally. Rigid darkwood drum, natural contact shadow under palms. Water outside hull carries single subtle ring, faint gold root-veins barely visible. No fantasy explosion.",
+    "S01-12": "Wide highwater-level view of exactly3 canoes gliding into broader darkwater with foam making subtle90degree turn; leadcanoe Dairon lifts dragging paddle, Yara clutches bundle, Amaia cradles child; secondBeheto/drum and3adults; third3children. No levitation, parted sea, or giant waves; boats sit naturally onwater. Eleven survivors same distribution asestablishing.",
+    "S01-13": "Intimate closeup Amaia ribs and sleeping toddler cradled firmly against torso, his eyes FULLY CLOSED, lips slightly parted as if murmuring, mother forearm supports his bottom and back naturally. Her offwhite wrap and rustcloth clear; dark canoe edge and moonless water background. No fullmotherface required. Toddler truly22months, not schoolchild.",
+    "S01-14": "Wide image camera tilted12degrees with exactly3canoes sweeping turn, all11 survivors lean same direction naturally, distribution same asestablishing. Farbank small ledgerclerk closing book, not extra canoe passenger. No splitpanel. LeadDairon/Yara/Amaia+son, secondBeheto+3adults, third3children.",
+    "S03-01": "Establishing nighttime JeromeAvenue Bronx, cold March3:07AM, six-story redbrown brick apartment block beside elevated4train. Warm tungsten fourthfloor window unique litfocus; train windows stripe street with light. Low angle looks up brickbackwall, steelEl structure rich handpainted detail. No sunset/no sunrise. No caption yet; super later.",
+    "S03-02": "Medium comedy shot from bedroom: JC25 in charcoalhoodie at open fourthfloor window extends sandwich toward passing subwaycar extraordinarily close outside. His torso stays inside; arm believable length, conductor a small anonymous darknavy uniform silhouette visible in passing cab. Horizontal motionlines outside only, dry wry JC face. Same coldnight/windowgeometry.",
+    "S03-03": "Single wide interior establishingplate NO characters. Match attached S05-02 roomgeometry but BEFORE supernatural activity: deskleft with laptop/projector/devboards/cables, shelvesaboveleft, clothingcovered chair leftcenter, cracked PLASTER wall center intact and unlit, trainfacingwindow right with ironradiatorbelow, plaidbed foregroundright, closet ironriser farleft. Add clear glass dish riceandbeans ondesk, coin on bedside table. Warmdesklamp and cold3AM bluewindow. Remove ALL projected static/ripple/anomaly from reference. No letters, no people.",
+    "S03-04": "One dollhouse architectural cross-section of SAME sixstory brick apartment building at night, fullwidth illustration, not collagepanels. Five thin soundribbons connect sources to JC fourthfloor closet: steelwhite train outside, rust radiator, magenta bodega radio groundfloor, golddotted rosary in adjacent apartment, mutedbrass trumpet from sixthfloor room. Trumpetplayer only tiny silhouette unspecified identity. No textlabels yet. Apartment rooms believable.",
+    "S03-05": "Macro insert in JC closet: black contactmicrophone puck mechanically clamped to rustediron steamriser, cable leads toward laptop partlyvisible lower-right showing colorful abstract soundgraph, no gibberishtext. Shallow focus with oldplaster wall, warmdesk spill and coldblue. Focus actual clamp/puck and stablepipe. CHISMOSA label/legend compositedlater.",
+    "S03-06": "Selected flashback: JC at12 asleep feverish onpillow in samebuilding bedroom, blue pajamatshirt, dirty fingernails; ONLY Abuela weathered hands enter to set coppercoin in his looselyopen palm. Coin engraved simple spiral and hookedtriangle, no letters. No grandmotherface. Soft sepia warmth, childbody notadult, quiet concerned handcontact.",
+    "S03-07": "Macro insert notebook page on scarred bedroomdesk lit bywarmlamp, one handwritten circled line EXACT text \"47. THE COIN\" clearly legible, remaining list reduced faint illegible short dashes not invented statements. Pen rests besidebook, coppercoin nearby. ONE shot, no labeloutsidepage.",
+    "S03-08": "MediumJC at SAME bedroomdesk typing, tired eyes intent on laptop, trainwindow behind casts horizontal whitebars, small diegetic timer ondesk reads EXACT \"8:00\". Charcoalhoodie, headphones aroundneck, shortcurls and narrow tiredface. No extra text or HUD floating inair.",
+    "S03-09": "Selected facade memory1957: SAME buildinggroundfloor transforms into welcoming dancehall with darkwood doubledoors and a modest period sign EXACT \"BALLROOM\". Nighttime warminterior brassgold light spills ontoBronx sidewalk. Period facade only, no modernphones/cars or montage. Other4eras/AR need laterimages.",
+    "S03-10": "Close overJC shoulder to laptop on same desk, a simple luminous spiral opens into triangle folded inward emerging from grainystatic on one graph. Three small signaltracks contained inside screen not3scene panels, all share same shapedmark. His curls/hoodie edge foreground, heater/blackwindow blurbackground. No textrequired.",
+    "S03-11": "Tight laptop/hand insert: JC fingers pressing DELETE key while screen shows flat repeating eightsecond lowwaveband that remains beneath other soundlanes. Small on-screen count EXACT \"12\". No flyingHUD or horrorface. Darkbedroom, same warmdesk and coldmonitor light.",
+    "S03-12": "Select first montagebeat ONLY: two approved streetfighters in heated argument outsideBronx cornerbodega at Fridayevening, baldman burgundyhoodie holds small blank scratchoffticket, heavy man olivejacket points accusingly. Otherneighbors avoidthem. Non-graphic tensegesture, no punches/gore. Normal warmshoplight/coldstreet, no invented signage or splitpanels. Dog/twomen separatebeats later.",
+    "S03-13": "Close phone onJC desk held in charcoalhoodie hand, screen shows simple chatlayout with exact two lines \"u alive\" and \"define alive\"; tiny time \"2:41 AM\". Othermessages need later graphiclayout. His thumb poised toturnphone facedown, no Manny physicallyinroom. Warmdesk closeup with keyboardblur.",
+    "S04-01": "Desk still-life samebedroom at3:07AM: exactlyTHREE empty small white demitassecups and saucers, digitalclock reads EXACT \"3:07\", laptop edge and crossedcables behind, trainlightbar sweeps window. Selected finaltime-lapse state, no multipleclocks or hourpanels. Warmtungsten with coldnight.",
+    "S04-02": "Stylized abstract diegetic visualization in SAME bedroom: exactly3 semi-transparent gauzelike panes in a row between ironriser left and projector right; simple comb icon, doorway icon, straightlineicon respectively. A spiraltriangle shape and low repetitive waveform pass through unchanged. No lettering, textlabels later; background roomsubdued, notcosmic sci-fi.",
+    "S04-03": "CloseJC hands atkeyboard pressing delete, laptopscreen shows3 translucentpane shapes breaking into tinyquiet lightdust atonce. Physical hands stable, no actualglass danger. Same bedroomdesk/monitor geometry and warm/coldnight lighting. No prose text.",
+    "S04-04": "Wide SAME bedroom: deskleft and shelvesleft, clothingcoveredchair leftcenter, blankplasterwallcenter, trainwindowright andradiatorbelow, plaidbedforegroundright. Projector ondesk sends narrowcobaltbeam with dust onto centerwall with EXACT simpleletters \"JC\". JChoodie seated deskleft. Warmtungsten/cold3AM night. NO static,crackedhole,ripples or dancehall yet.",
+    "S04-05": "ExtremecloseJC indexfinger hovering above ENTERkey at lowerforeground, dark laptopscreen behind catches recognizable JC tired reflection, dimtrainlight approaching inwindowreflection. Selected BEFOREkeypress hesitation; lowwarmdesk/coldblue palette. Exact keylabel \"ENTER\" ifvisible, no othertext. Tense stillsmallaction."
+  },
+  "style": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png"
+}

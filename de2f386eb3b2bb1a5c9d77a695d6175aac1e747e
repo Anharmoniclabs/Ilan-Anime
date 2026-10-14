@@ -1,0 +1,27 @@
+{
+  "shot": "S03-01",
+  "selected_moment": "Establishing nighttime JeromeAvenue Bronx, cold March3:07AM, six-story redbrown brick apartment block beside elevated4train. Warm tungsten fourthfloor window unique litfocus; train windows stripe street with light. Low angle looks up brickbackwall, steelEl structure rich handpainted detail. No sunset/no sunrise. No caption yet; super later.",
+  "script": "`02:27:00 \u2192 02:34:00` (168f) \u00b7 CRANE UP \u00b7 WS \u00b7 rate 3s\n- **Action:** Jerome Ave at night. The elevated 4 train rumbles past in strobing window-light bars across the street. Crane up the brick back wall of JC's building to a lit fourth-floor window. Super: 3:07 AM \u00b7 TUESDAY \u00b7 MARCH.\n- **FX:** `PAINTED_BG(night_street); TRAIN_STROBE(bars on street, 24fps); TEXT_SUPER`\n- **Sound:** The 4: rail scream, rising and falling. VO JC: \u201cI'll start with the part I'm not proud of, because my mother says if you start with the part you're proud of, God stops listening.\u201d",
+  "prompt": "Use case: illustration-story. Create ONE finished-color cinematic anime story frame, landscape EXACT16:9 composition, opaque fully painted environment edge-to-edge, no transparency, no borders, no collage/multi-panel. Match approved 1990s hand-drawn anime: supple clean lines, expressive soft human faces, simple broad2/3-tone cel shadows, flat warm skin colors, detailed traditionally painted environment. No western comic hatching, no photoreal3D, no glossy muscles. Attached rooftop is STYLE ONLY, never copy its setting/time/sunset; character sources lock identity, age, proportions, hair and costume. Any attached NEW adjacent frame establishes environment continuity, not duplicated action. Natural contacts/hands; rigid canoes/props remain coherent. No invented signage/logos/subtitles/captions; only exact text explicitly requested below. Single selected dramatic moment, do not combine sequential moments spatially. \nImage1: bronx-90s-anime.png; STYLE ONLY, change time to3AM\nMODERN BRONX JC25 apartment beside JeromeAve elevated4, cold March3AM. Warmtungsten interiors against darkcoolnight. Establishing nighttime JeromeAvenue Bronx, cold March3:07AM, six-story redbrown brick apartment block beside elevated4train. Warm tungsten fourthfloor window unique litfocus; train windows stripe street with light. Low angle looks up brickbackwall, steelEl structure rich handpainted detail. No sunset/no sunrise. No caption yet; super later.",
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png"
+  ],
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-1d6f98bf-0df9-4d76-a2df-f2f9cd1b2e95.png",
+  "status": "exploratory storyframe",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-01.png",
+  "sha256": "798d6582e6e2b6e85c00d860d345fef9bfa4325964c7e5385cb2b31f5bb01cac",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    }
+  ],
+  "inspection": "Directly viewed: cold blue night Bronx six-story/El establishing; added snow is not specifically scripted; no location super yet.",
+  "inspection_method": "Direct view_image of entire saved frame; PNG automated decode and dimensions check",
+  "scope": "One representative story frame; not all action beats or motion"
+}

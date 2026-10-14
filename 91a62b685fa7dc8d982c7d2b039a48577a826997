@@ -1,0 +1,44 @@
+{
+  "id": "S13-10",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-5f3010ef-d0d6-4170-b7f8-9e41ced4d431.png",
+  "refs": [
+    {
+      "path": "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "role": "style only",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/atlas-boy-master.png",
+      "role": "identity atlas-boy",
+      "sha256": "a9d64b837cbb49e7faa6c0f8e415a9f61725abc982abcd5fb3f6721d0ddaac15"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/eraser-boy-master.png",
+      "role": "identity eraser-boy",
+      "sha256": "6ada742b4085bc9fb19b9e8e7e842095de36ecf6bfb4c73b7a4a492bd6419ded"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/librarian-1934-master.png",
+      "role": "identity librarian-1934",
+      "sha256": "8f8a4534dd4de56650cd59f6a9f78a7913233c8c5b554874820253c69aed201f"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-09.png",
+      "role": "set continuity only",
+      "sha256": "447019f79601ee977e26f0e7e3e3892da21c4ede9473fd91a47837f0f3b4d8df"
+    }
+  ],
+  "prompt": "Finished single 16:9 cinematic anime STORY FRAME, landscape1536x864, full opaque richly painted environment edge to edge. Match approved1990s anime series: clean supple ink, expressive human anime faces, broad2/3tone cel shading, handpainted detailed backgrounds, restrained cinematic light. Rooftop image reference only for rendering STYLE, never its sunset/location/people. Character source images control exact identities/costumes/age/body proportions. Previous scene reference controls set layout only; change camera and action to this shot. NO poster, collage, panel grid, transparent cutouts, hatching-heavy comic, speech bubbles, random words/logos. Single representative moment from long lateral1934 reading-room track: two schoolboys side by side at oak table, atlas boy copying world map with pencil tongue between teeth, darker-skinned eraser boy borrows eraser with one hand without looking up. Librarian spectacles on chain stamps a due-date card at desk in middle background. Books, green brass lamps, tall cream windows, warm subdued daylight. Clear continuous environment not collage; subtle light-edges and pale lilac horizontal sound lane beneath boys.",
+  "frame": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-10.png",
+  "status": "exploratory",
+  "representative_moment": "Single representative moment from long lateral1934 reading-room track: two schoolboys side by side at oak table, atlas boy copying world map with pencil tongue between teeth, darker-skinned eraser boy borrows eraser with one hand without looking up. Librarian spectacles on chain stamps a due-date card at desk in middle background. Books, green brass lamps, tall cream windows, warm subdued daylight. Clear continuous environment not collage; subtle light-edges and pale lilac horizontal sound lane beneath boys.",
+  "motion_remaining": "All motion, dialogue, camera transitions and any other script phases still require later drawings.",
+  "sha256": "cb05b6820e724fce2966e3953f1fc4e93dc609a7d2f4556891b32be24429ec42",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "aspect_ratio": 1.7768331562167907,
+  "visually_inspected": true
+}

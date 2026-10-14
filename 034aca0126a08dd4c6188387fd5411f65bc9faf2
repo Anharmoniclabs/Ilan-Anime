@@ -1,0 +1,11 @@
+{
+  "name": "ballroom-crowd-bank-a",
+  "prompt": "Production crowd bank A for1957 Bronx Caribbean Ballroom in Heralds of the Cemí. FOUR DISTINCT adult dance couples, eight people total, arranged as FOUR clearly separated fullbody pairs in a spacious2x2 layout on transparent canvas; no labels/panels. All darkbrown to lightbrown Afro-Caribbean/Latino adults age25-60, different heights/builds/faces/hair, modest1950s good clothes: dresses with circle skirts and ordinary heels, collared shirts with highwaisted trousers, occasional vest, two-tone shoes. Each pair in a credible partnered mid-step pose with hands attached naturally, all feet and fingers framed, partners may overlap within pair but no overlap BETWEEN pairs. Different clothing palettes cobalt/gold, muted teal/ivory, burgundy/tan, ochre/navy. Finished hand-inked1990s cel anime matching attached cover finish ONLY, controlled hatching/natural expressive anatomy, rich color, subtle bluegold edge light. Landscape1536x1024 or larger if needed for quality. No scenery/floor/shadows, no text/logos, no additional figures. Reusable background dance source bank, not a final assembled40couple hall.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-71b3d4ac-2410-4ac9-a56f-e8a187d62649.png",
+  "cast_ids": [
+    "ballroom-crowd"
+  ],
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/references/author-cover-style.png"
+  ]
+}

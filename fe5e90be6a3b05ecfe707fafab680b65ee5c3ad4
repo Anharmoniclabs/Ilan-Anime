@@ -1,0 +1,26 @@
+{
+  "shot_id": "S14-10",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. Memory of Bronx tenement fourth-floor stairwell, two boys EIGHT YEARS OLD exact appearances from refs1Mikey and2JC. Mikey in olive sweatshirt jeans, straight darkhair presses one EAR physically against old cream plaster wall beside landing, fingertips resting lightly on wall, intensely listening far longer than a joke. JC8 curly hair navy baseballcap graytee denims shorts stands nearby at railing laughing with affectionate disbelief, looking toward Mikey. Worn gray stone stairs, dark iron railing, old glazed stairwell window soft daylight, paint scuffs and humble lived-in architecture. Four thin restrained gold handpainted concentric rings emanate from wall around ear contact as sound visual metaphor, no portal/no magic explosion. Two children only, full clothed, maintain child proportions. No adultJC, no split panels or text.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-3064d165-5ba0-4e2e-bf35-5dd75c9b4eaf.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mikey-eight.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-eight.png",
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png"
+  ],
+  "key_moment": "Mikey ear-to-wall memory; present-day microphone match cut needs additional frame.",
+  "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-10.png",
+  "sha256": "0e6ae3ae665005fe3bffa635668a3eaf8f9ccc98fbd8d6c595588410efb073e6",
+  "size": [
+    1672,
+    941
+  ],
+  "status": "generated-story-frame",
+  "tool": "built-in image_gen",
+  "animation": false,
+  "author_approved": false,
+  "reference_hashes": {
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mikey-eight.png": "73e35a3855ba5c6bc24c964700ec85f329053404bf797644d9a90ad66f065e33",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-eight.png": "7bf0bfe5c60ecf08c2c1ea7b769ac47599b0eb2050102582a66a343de7aaf053",
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+  }
+}

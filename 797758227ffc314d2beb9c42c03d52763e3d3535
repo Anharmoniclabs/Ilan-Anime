@@ -1,0 +1,10 @@
+{
+  "shot_id": "S14-02",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. Close-up Sofia now seated at library table in same set as reference1. Camera on her face at eye level, rectangular glasses and clawclip curls, teal cardigan, raised questioning eyebrow, shrewd incisive yet caring expression directed slightly offscreen left toward JC. Her mouth just beginning a dry question. Lower foreground soft edge of open laptop. Mossgreenpanels bookshelves warm daylight and brass lamp recognizable behind her, same afternoon. Main conversational moment, NOT lease flashback, no graphic/collage or written dialogue.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-ac614681-9209-4cc0-9071-c12ed26380ce.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-01.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/sofia.png"
+  ],
+  "key_moment": "Sofia questioning JC; separate brief lease vignette not included in this main keyframe."
+}
