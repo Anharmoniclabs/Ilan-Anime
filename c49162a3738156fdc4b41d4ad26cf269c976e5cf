@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "run": "episode1-amaia-finish",
+  "paused": true,
+  "pause_reason": "three-losses: rejected 3 times; needs a user decision",
+  "tasks": {
+    "three-losses": {
+      "depends_on": [],
+      "role": "key-animator",
+      "id": "three-losses",
+      "shots": [
+        "S01-03"
+      ],
+      "output_dir": "production/runs/episode1-amaia-finish/tasks/three-losses",
+      "inputs": [
+        "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration",
+        "production/runs/episode1-picture-motion/tasks/amaia-motion",
+        "production/runs/episode1-full-picture/amaia-breakdowns",
+        "production/runs/episode1-full-picture/author-decisions.json",
+        "production/runs/episode1-picture-motion/author-direction.json"
+      ],
+      "objective": "Complete and render S01-03 from saved native v2 and newly generated real drawings. User resolved continuity: keep fourteen-to-eleven, exactly THREE losses. Integrate three-seated-memories.png into three separate registered apparition layers that each fade from pale .25 to zero on three discrete counting/gaze beats; preserve exact stable source protagonist/child/hull and restore proper foreground occlusion. Exclude ghosts-placement-rejected.png entirely. New head-early.png, existing original head-down.png, and head-lower-candidate.png can supply an ordered head-lowering/return arc; assess actual landmarks and choose order, do not trust filenames. Add real drawing-based breakdowns to remove abrupt head endpoint switches, reverse actual drawing exposures on return if appropriate. No face warp or transformed head. Preserve three-frame drawing cadence, native editable camera independent of cels, 192 frames24fps16:9 silent. Frame the camera so three ghost count beats remain visible before closeup; no early crop hiding required action. Reuse native continuity-safe masking and registrations from prior worker, refine as needed. Deliver MP4, editable EffectCraft/FilmCraft, masks/layers, action timeline, registration/contact checks and decoded motion evidence. View all new input drawings and sequential decoded frames. Do not pretend real-time playback occurred; reviewer can inspect sequential evidence, later user playback approval remains separate and is not a blocker to a draft submission. No paid generation or further images in this worker. No edits to source tasks/ledger. Result submitted only if the defined production draft is ready for independent review with evidence and empty blockers; if actual missing drawings still prevent it, report blocked accurately and name missing actions. Native tool failure or interrupted external call must stop with checkpoint.",
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "state": "rejected",
+      "agent_id": "codex-three-losses",
+      "result": {
+        "task_id": "three-losses",
+        "role": "key-animator",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-amaia-finish/tasks/three-losses/S01-03-three-losses-silent-review.mp4",
+          "production/runs/episode1-amaia-finish/tasks/three-losses/native-review/shot.ecproj",
+          "production/runs/episode1-amaia-finish/tasks/three-losses/edit-review.filmcraft",
+          "production/runs/episode1-amaia-finish/tasks/three-losses/asset-manifest.json",
+          "production/runs/episode1-amaia-finish/tasks/three-losses/action-timeline-review.json",
+          "production/runs/episode1-amaia-finish/tasks/three-losses/registration/registration.json",
+          "production/runs/episode1-amaia-finish/tasks/three-losses/motion-check-review.json",
+          "production/runs/episode1-amaia-finish/tasks/three-losses/verification.json",
+          "production/runs/episode1-amaia-finish/tasks/three-losses/HANDOFF.md"
+        ],
+        "evidence": [
+          "Viewed all three usable new input drawings and all 192 final decoded frames in sequential sheets, plus enlarged head sequences; no real-time playback claimed.",
+          "Exactly three independent .25-to-zero apparition fades end at frames 42, 75 and 108; camera holds wide through frame 111. Rejected ghost placement excluded.",
+          "Landmark-ordered rest/early/down/lower head drawings reverse on return; exposures remain on threes, with refined chin masks and no head transforms or face warps.",
+          "Registration displacement below 0.1 px; sampled body, child, shoulder and hull pixels unchanged. Motion check has zero errors/contact drift; static water/props remain a documented warning.",
+          "Review MP4 fully decoded: 192 frames, 24 fps, 1280x720, eight seconds, no audio. Native reopening reproduces frames 0, 108 and 191 pixel-for-pixel; input hashes unchanged.",
+          "Editable projects, registered layers, masks and decoded evidence are indexed with hashes in asset-manifest.json. Submitted for independent review; no approval or canonical status claimed."
+        ],
+        "blockers": []
+      },
+      "review": {
+        "role": "animation-supervisor",
+        "agent_id": "01a138d8-2b2a-7780-b85e-e96ea96950d8",
+        "decision": "reject",
+        "evidence": "Frames 0, 57 and 90 show water-dominated apparitions without convincing seat contact. At frame 90, the elder leaves an angular translucent patch across the right hull. The apparition cel retains river/rail pixels, and the foreground mask omits that hull panel. Three fades, wide framing, ordered head drawings and silent 192-frame/24-fps delivery pass. Detailed criteria and QA findings: production/runs/episode1-amaia-finish/reviews/three-losses/review.md. Sequential inspection only; no creative approval inferred. | repair: Clean apparition mattes: remove baked river/rail pixels and angular cutoffs; retain readable contours at 0.25 opacity.; Correct seat contacts and hull occlusion while preserving the living figures and original hull. Report missing drawings as blockers if saved artwork cannot support this.; Preserve verified timing, framing and head arc. Resubmit editable assets, updated hashes and enlarged decoded fade evidence."
+      }
+    },
+    "three-losses-r1": {
+      "output_dir": "production/runs/episode1-amaia-finish/tasks/three-losses-r1",
+      "objective": "Complete and render S01-03 from saved native v2 and newly generated real drawings. User resolved continuity: keep fourteen-to-eleven, exactly THREE losses. Integrate three-seated-memories.png into three separate registered apparition layers that each fade from pale .25 to zero on three discrete counting/gaze beats; preserve exact stable source protagonist/child/hull and restore proper foreground occlusion. Exclude ghosts-placement-rejected.png entirely. New head-early.png, existing original head-down.png, and head-lower-candidate.png can supply an ordered head-lowering/return arc; assess actual landmarks and choose order, do not trust filenames. Add real drawing-based breakdowns to remove abrupt head endpoint switches, reverse actual drawing exposures on return if appropriate. No face warp or transformed head. Preserve three-frame drawing cadence, native editable camera independent of cels, 192 frames24fps16:9 silent. Frame the camera so three ghost count beats remain visible before closeup; no early crop hiding required action. Reuse native continuity-safe masking and registrations from prior worker, refine as needed. Deliver MP4, editable EffectCraft/FilmCraft, masks/layers, action timeline, registration/contact checks and decoded motion evidence. View all new input drawings and sequential decoded frames. Do not pretend real-time playback occurred; reviewer can inspect sequential evidence, later user playback approval remains separate and is not a blocker to a draft submission. No paid generation or further images in this worker. No edits to source tasks/ledger. Result submitted only if the defined production draft is ready for independent review with evidence and empty blockers; if actual missing drawings still prevent it, report blocked accurately and name missing actions. Native tool failure or interrupted external call must stop with checkpoint.\nRevision 1: fix only what the reviewer found (production/runs/episode1-amaia-finish/reviews/three-losses/review.json): Clean apparition mattes: remove baked river/rail pixels and angular cutoffs; retain readable contours at 0.25 opacity.; Correct seat contacts and hull occlusion while preserving the living figures and original hull. Report missing drawings as blockers if saved artwork cannot support this.; Preserve verified timing, framing and head arc. Resubmit editable assets, updated hashes and enlarged decoded fade evidence.",
+      "shots": [
+        "S01-03"
+      ],
+      "depends_on": [],
+      "id": "three-losses-r1",
+      "role": "key-animator",
+      "inputs": [
+        "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration",
+        "production/runs/episode1-picture-motion/tasks/amaia-motion",
+        "production/runs/episode1-full-picture/amaia-breakdowns",
+        "production/runs/episode1-full-picture/author-decisions.json",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "production/runs/episode1-amaia-finish/tasks/three-losses",
+        "production/runs/episode1-amaia-finish/reviews/three-losses/review.json"
+      ],
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "supersedes": "three-losses",
+      "state": "blocked",
+      "agent_id": "codex-three-losses-r1",
+      "result": {
+        "task_id": "three-losses-r1",
+        "role": "key-animator",
+        "status": "blocked",
+        "artifacts": [
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r1/HANDOFF.md",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r1/inspection.json",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r1/evidence/man-elder-overlap.png",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r1/evidence/prior-fade-1.png",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r1/evidence/prior-fade-2.png",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r1/evidence/prior-fade-3.png",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r1/evidence/woman-man-overlap.png",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r1/asset-manifest.json"
+        ],
+        "evidence": [
+          "Viewed saved translucent and RGBA ghost sources plus enlarged overlap crops: the RGBA group lacks hidden lower-body drawing portions required when preceding figures disappear.",
+          "Viewed prior decoded-review frames 24/33/42, 57/66/75 and 90/99/108 sequentially; evidence sheets document rejected footage, not a revised render or real-time playback.",
+          "Viewed all supplied head poses; preserved existing timing, framing and head arc without edits. Source hashes and RGBA measurements recorded in inspection.json.",
+          "No source-task or ledger edits, generation, native render, delegation or approval occurred."
+        ],
+        "blockers": [
+          "Missing independently complete seated young-man lap/hip/leg artwork revealed after the woman fades, and elder lower-body artwork revealed after the young man fades. Saved overlapping RGBA artwork does not contain those hidden contours; the original flattened scene contains baked river/rail pixels.",
+          "Clean individual seat-contact registration and hull occlusion remain unresolved. Matching completion drawings or complete separate cels are needed before a revised production draft can be submitted; further image generation is prohibited in this worker."
+        ]
+      }
+    },
+    "three-losses-r2": {
+      "shots": [
+        "S01-03"
+      ],
+      "output_dir": "production/runs/episode1-amaia-finish/tasks/three-losses-r2",
+      "role": "key-animator",
+      "objective": "Finish the previously blocked three-losses matte repair using NEW actual independent complete figure artwork in production/runs/episode1-full-picture/amaia-breakdowns/: ghost-woman-rgba.png, ghost-man-rgba.png, ghost-elder-rgba.png. All three are true RGBA, opaque characters on transparent background, with reconstructed independent laps/knees and no baked river/rail pixels. This specifically resolves r1 drawing blocker; do NOT reuse the overlapping ghosts-opaque-rgba or flattened group. Inspect each new cel. Static layout/scale/position registration to actual seat locations is allowed; do not animate body transforms or invent sliding characters. Preserve silhouettes, mild matte choke/decontamination where needed, arrange three complete seated memories in correct boat interior with hips anchored to bench/seat plane, restore near/front hull occlusion accurately while keeping distant diagonal gunwale BEHIND seated bodies. Do not cut figures at that far-side rail making outside-hull torsos. Keep living Amaia/child and original hull untouched. Reuse prior verified head arc, 192frame24fps timeline, camera, exactly three independent fades at frames42,75,108. User fixed count fourteen-to-eleven. Render a silent production draft with native project, individual editable ghost layers, explicit registration/contact evidence and decoded sequential samples including every fade and last elder fade. No real-time playback claim. Independent review follows. Save only inside own output; sources unchanged. No paid/new generation. If blocked on anything else, identify exact missing drawn contour with pixel evidence; do not submit unresolved blockers as submitted.",
+      "id": "three-losses-r2",
+      "inputs": [
+        "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration",
+        "production/runs/episode1-picture-motion/tasks/amaia-motion",
+        "production/runs/episode1-full-picture/amaia-breakdowns",
+        "production/runs/episode1-full-picture/author-decisions.json",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "production/runs/episode1-amaia-finish/tasks/three-losses",
+        "production/runs/episode1-amaia-finish/reviews/three-losses/review.json"
+      ],
+      "depends_on": [],
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "supersedes": "three-losses-r1",
+      "state": "rejected",
+      "agent_id": "codex-three-losses-r2",
+      "result": {
+        "task_id": "three-losses-r2",
+        "role": "key-animator",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/S01-03-three-losses-r2-silent.mp4",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/native/shot.ecproj",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/registration.json",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/action-timeline.json",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/verification.json",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/probe.json",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/motion-check.json",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/HANDOFF.md",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/layers/apparition-woman-cel.png",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/layers/apparition-young-man-cel.png",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/layers/apparition-elder-cel.png",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/masks/near-hull.png",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/contact-registration.png",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/opaque-registration-diagnostic.png",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/fade-woman.jpg",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/fade-man.jpg",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/fade-elder.jpg",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-01.jpg",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-02.jpg",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-03.jpg",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-04.jpg",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-05.jpg",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-06.jpg",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-07.jpg",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-08.jpg",
+          "production/runs/episode1-amaia-finish/tasks/three-losses-r2/asset-manifest.json"
+        ],
+        "evidence": [
+          "Inspected all three new independent RGBA cels; registered complete laps/knees with static transforms and front-hull occlusion. Far diagonal rail remains behind the bodies.",
+          "Viewed all 192 decoded frames on eight sequential sheets and enlarged samples of all three fades, including the last elder fade. No real-time playback claim.",
+          "Exactly three fades end at frames 42, 75 and 108; fourteen-to-eleven count preserved. Silent 1280x720 draft: 192 frames at 24 fps.",
+          "Native project reopened with exact pixel matches at frames 0, 42, 75, 108 and 191. Frames 108\u2013191 match the previous verified head arc and camera render exactly.",
+          "Protected living-figure and front-hull sample rectangles have zero pixel difference from the unmodified acting cels; source hashes unchanged. Motion check reports zero errors/contact drift, with existing environmental-motion warning.",
+          "Exploratory submission for independent review; no technical, author or canonical approval claimed."
+        ],
+        "blockers": []
+      },
+      "review": {
+        "role": "animation-supervisor",
+        "agent_id": "01a13988-bf3c-7322-b033-44fdfbe66bda",
+        "decision": "reject",
+        "evidence": "Frame 0 and review/opaque-registration-diagnostic.png show miniature adults beside Amaia without sufficient perspective recession. registration.json anchors all hips at y=820 but does not demonstrate actual bench support. Clean silhouettes, hull occlusion, fades ending at 42/75/108, and preserved head arc pass. Independent decoding confirms silent 192-frame/24-fps delivery. Full notes: production/runs/episode1-amaia-finish/reviews/three-losses-r2/review.md. Sequential inspection only; no creative approval. | repair: Correct static figure scale and placement against Amaia and the actual benches; demonstrate each hip\u2019s support using the ghost-free plate and opaque composite.; Recheck hull occlusion after registration. Preserve living artwork, three fade endpoints, head arc, camera and timeline; resubmit decoded contact/fade evidence."
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "three-losses"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "three-losses",
+      "agent_id": "codex-three-losses"
+    },
+    {
+      "action": "submit",
+      "task_id": "three-losses",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "three-losses",
+      "decision": "reject"
+    },
+    {
+      "action": "add",
+      "task_id": "three-losses-r1"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "three-losses-r1",
+      "agent_id": "codex-three-losses-r1"
+    },
+    {
+      "action": "submit",
+      "task_id": "three-losses-r1",
+      "status": "blocked"
+    },
+    {
+      "action": "resume",
+      "approval": "APPROVE RESUME episode1-amaia-finish"
+    },
+    {
+      "action": "add",
+      "task_id": "three-losses-r2"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "three-losses-r2",
+      "agent_id": "codex-three-losses-r2"
+    },
+    {
+      "action": "submit",
+      "task_id": "three-losses-r2",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "three-losses-r2",
+      "decision": "reject"
+    },
+    {
+      "action": "pause",
+      "reason": "three-losses: rejected 3 times; needs a user decision"
+    }
+  ]
+}

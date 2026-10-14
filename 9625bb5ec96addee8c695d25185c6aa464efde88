@@ -1,0 +1,13 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.open",
+    "params": {
+      "comp": "S01-01 - BEFORE - generated cel draft"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 128
+  }
+}
