@@ -1,0 +1,23 @@
+{
+  "reviewer": "/root/review_endpoint",
+  "method": "Independent actual-frame view_image inspection against script.txt",
+  "verdict": "approve_draft",
+  "scope": "exploratory still endpoint pair only",
+  "evidence": [
+    "Rodriguez retains white curls, strong brows, lined face, light shirt and dark apron. Cup and towel remain in plausible grips; mouth closes and expression softens without a large head lift. JC OTS, tray and cafe remain stable."
+  ],
+  "limitations": [
+    "Provisional text-derived identity is internally consistent. Scripted eyebrow close-up, long dialogue and tray action are not established by this pair."
+  ],
+  "author_approval": false,
+  "images": [
+    {
+      "path": "start/start-candidate-v1.png",
+      "sha256": "3d86c3a6772727d53fb7891df02f88f45baf3f7b8858b2aa24f09a555bee0f32"
+    },
+    {
+      "path": "end/end-candidate-v1.png",
+      "sha256": "13e11e95304716986c8a74b369dc105ad6e58e82d70be714bc5546995ecdf3d2"
+    }
+  ]
+}

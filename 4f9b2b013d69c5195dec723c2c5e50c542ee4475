@@ -1,0 +1,11 @@
+{
+  "videos": [
+    {
+      "label": "Opening sigil",
+      "status": "episode draft",
+      "path": "production/episode-first-pass/opening/S00-01.mp4",
+      "duration_seconds": 4.0,
+      "sha256": "2c19483d64e1636a32fd2636b2f6b97bb6240cbf592839b03c10a0a52e7e0679"
+    }
+  ]
+}

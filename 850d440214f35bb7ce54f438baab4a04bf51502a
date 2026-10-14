@@ -1,0 +1,70 @@
+{
+  "shot": "S01-03",
+  "start_frame": 648,
+  "end_frame_exclusive": 840,
+  "frames": 192,
+  "fps": 24,
+  "duration_seconds": 8.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "unreviewed_candidate",
+      "file": "start/start-candidate.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/keyframes/S01-03.png",
+      "sha256": "5066d777dc4c4896ff30933cd130a38210cbfd9897c0283b3a590d29528126ed"
+    },
+    "end": {
+      "state": "generated_candidate_awaiting_review",
+      "file": "end/end-candidate-v2.png",
+      "sha256": "e6bcd50705ce6df7efb387154ac09d3fd52130fe3660c28740bfef0bbb9cd141",
+      "method": "built-in image_gen reference edit",
+      "prompt_file": "end/end-candidate-v2.prompt.txt"
+    }
+  },
+  "status": "revised_draft_pending_review",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false,
+  "reference_history": [
+    {
+      "start": {
+        "state": "unreviewed_candidate",
+        "file": "start/start-candidate.png",
+        "source": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/keyframes/S01-03.png",
+        "sha256": "5066d777dc4c4896ff30933cd130a38210cbfd9897c0283b3a590d29528126ed"
+      },
+      "end": {
+        "state": "generated_candidate_awaiting_review",
+        "file": "end/end-candidate-v1.png",
+        "sha256": "e8955ffe35e19f87cc55e2e9462af0e2f82b1b188806a2dac33b088abf640863",
+        "method": "built-in image_gen reference edit",
+        "reference": "start/start-candidate.png"
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "reviewer": "/root/review_endpoint",
+      "verdict": "revise",
+      "evidence": "Left foreground merges/ambiguously crops Yara and Dairon. Preserve separate silhouettes or cleanly crop both out. Several-loss sequence needs intermediate frames.",
+      "author_approved": false,
+      "reviewed_hashes": {
+        "start": "5066d777dc4c4896ff30933cd130a38210cbfd9897c0283b3a590d29528126ed",
+        "end": "e8955ffe35e19f87cc55e2e9462af0e2f82b1b188806a2dac33b088abf640863"
+      }
+    }
+  ],
+  "draft_review": {
+    "reviewer": "/root/review_endpoint",
+    "verdict": "acceptable_for_exploratory_test",
+    "evidence": "Foreground merge repaired. Yara must leave through reframing, not dissolve. Multiple ghost losses require intermediate coverage.",
+    "author_approved": false,
+    "reviewed_hashes": {
+      "start": "5066d777dc4c4896ff30933cd130a38210cbfd9897c0283b3a590d29528126ed",
+      "end": "e6bcd50705ce6df7efb387154ac09d3fd52130fe3660c28740bfef0bbb9cd141"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "run": "image-s01-02-v1",
+  "bindings": {
+    "image": {
+      "creator": {
+        "ledger_alias": "codex-image",
+        "host": "codex",
+        "host_agent_id": "01a1324e-bb46-7840-9f05-822ee3476789",
+        "role": "layout-artist",
+        "state": "interrupted",
+        "note": "Required original pencil likeness sources are absent from the packet; docs/STATUS.md confirms they are still missing. Historical sheets are baseline-unreviewed and conflict with candidate hair, build, facial hair and costume; author identity/design resolution is required.; Candidate is 1672x941, near but not exactly 16:9. The review-existing route requires unchanged PNG bytes; an explicitly authorized composition revision is needed to satisfy exact aspect ratio.; host_agent_id: 01a1324e-bb46-7840-9f05-822ee3476789"
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "shot": "S03-04",
+  "start_frame": 4080,
+  "end_frame_exclusive": 4344,
+  "frames": 264,
+  "fps": 24,
+  "duration_seconds": 11.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "unreviewed_candidate",
+      "file": "start/start-candidate.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/keyframes/S03-04.png",
+      "sha256": "253d7a1212e1d6fc1804376049c380e96152a229a8826247e8ec2012e640ef6a"
+    },
+    "end": {
+      "state": "draft_pending_review",
+      "file": "end/end-candidate-v1.png",
+      "sha256": "3e9a0cfedff2ecb9618db0aeeb99c1f4b905d170758935504230f2e4e61034c2",
+      "method": "reference_conditioned_candidate",
+      "prompt_file": "end/end-candidate-v1.prompt.txt"
+    }
+  },
+  "status": "draft_pack_not_approved",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false,
+  "reference_history": [
+    {
+      "end": {
+        "state": "missing",
+        "file": null
+      }
+    }
+  ],
+  "independent_pair_review": {
+    "reviewer": "/root/review_endpoint",
+    "method": "Independent actual-frame view_image inspection against script.txt",
+    "verdict": "approve_draft",
+    "scope": "exploratory still endpoint pair only",
+    "evidence": [
+      "Six-level cutaway and central closet convergence remain coherent. Steel-white train, rust radiator, magenta bachata and dotted-gold rosary paths persist; cyan trumpet path disappears at endpoint, matching its cutoff."
+    ],
+    "limitations": [
+      "Five sound sources are shown initially, but ribbon travel, label timing and the trumpet cutoff need timed compositing/audio. Baked labels must remain stable if passed through video generation."
+    ],
+    "author_approval": false,
+    "images": [
+      {
+        "path": "start/start-candidate.png",
+        "sha256": "253d7a1212e1d6fc1804376049c380e96152a229a8826247e8ec2012e640ef6a"
+      },
+      {
+        "path": "end/end-candidate-v1.png",
+        "sha256": "3e9a0cfedff2ecb9618db0aeeb99c1f4b905d170758935504230f2e4e61034c2"
+      }
+    ]
+  }
+}

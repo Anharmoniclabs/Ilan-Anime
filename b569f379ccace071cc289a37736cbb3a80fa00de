@@ -1,0 +1,68 @@
+{
+  "shot": "S01-09",
+  "start_frame": 1728,
+  "end_frame_exclusive": 2064,
+  "frames": 336,
+  "fps": 24,
+  "duration_seconds": 14.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "generated_candidate_awaiting_review",
+      "file": "start/start-candidate-v2.png",
+      "sha256": "7eccf0995c24f6a9264db19f3eb70ccbdd7d11415771b1d952fffe250453ea3e",
+      "method": "built-in image_gen reference edit",
+      "prompt_file": "start/start-candidate-v2.prompt.txt"
+    },
+    "end": {
+      "state": "generated_candidate_awaiting_review",
+      "file": "end/end-candidate-v1.png",
+      "sha256": "ad46db71bbfc09b0f58065e84874885dba5043b953f6bb23d1efb7efa936746b",
+      "method": "built-in image_gen reference edit",
+      "prompt_file": "end/end-candidate-v1.prompt.txt"
+    }
+  },
+  "status": "revised_draft_pending_review",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false,
+  "reference_history": [
+    {
+      "start": {
+        "state": "unreviewed_candidate",
+        "file": "start/start-candidate.png",
+        "source": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/keyframes/S01-09.png",
+        "sha256": "dd4430757837569f2742ba1255dc738e1b5a6c8c0c41d29dd89fc84489aad380"
+      },
+      "end": {
+        "state": "missing",
+        "file": null
+      }
+    }
+  ],
+  "review_history": [
+    {
+      "reviewer": "/root/review_endpoint",
+      "verdict": "revise",
+      "evidence": "External camera conflicts with bow POV; cast extras and ambiguous breaking paddle. Rebuild start before generating end.",
+      "author_approved": false,
+      "reviewed_hashes": {
+        "start": "dd4430757837569f2742ba1255dc738e1b5a6c8c0c41d29dd89fc84489aad380",
+        "end": null
+      }
+    }
+  ],
+  "draft_review": {
+    "reviewer": "/root/review_endpoint",
+    "verdict": "acceptable_for_exploratory_test",
+    "evidence": "Forward bow POV, stable hull and hand, paddle intact to splintered, exit to open water. Root collision and reverse cloth/hair movement still need intermediate coverage.",
+    "author_approved": false,
+    "reviewed_hashes": {
+      "start": "7eccf0995c24f6a9264db19f3eb70ccbdd7d11415771b1d952fffe250453ea3e",
+      "end": "ad46db71bbfc09b0f58065e84874885dba5043b953f6bb23d1efb7efa936746b"
+    }
+  }
+}

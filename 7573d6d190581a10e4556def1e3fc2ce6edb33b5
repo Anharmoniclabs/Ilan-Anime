@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 917,
+      "name": "Water FX cel f072–074"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

@@ -1,0 +1,47 @@
+{
+  "shot": "S03-11",
+  "start_frame": 5472,
+  "end_frame_exclusive": 5664,
+  "frames": 192,
+  "fps": 24,
+  "duration_seconds": 8.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "draft_pending_review",
+      "file": "start/start-candidate-v2.png",
+      "sha256": "ed2322a8da1c0827a126f1e89ed93ad3fd359a7967df357d12ba48adb8657182",
+      "method": "reference_conditioned_candidate",
+      "prompt_file": "start/start-candidate-v2.prompt.txt"
+    },
+    "end": {
+      "state": "draft_pending_review",
+      "file": "end/end-existing-del12.png",
+      "sha256": "7ae3a23c6d38b9e4e420f6445fe4f037ffebcb786ed08351903b85ef5334d4d7",
+      "method": "reference_conditioned_candidate"
+    }
+  },
+  "status": "draft_pack_not_approved",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false,
+  "reference_history": [
+    {
+      "start": {
+        "state": "unreviewed_candidate",
+        "file": "start/start-candidate.png",
+        "source": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/keyframes/S03-11.png",
+        "sha256": "7ae3a23c6d38b9e4e420f6445fe4f037ffebcb786ed08351903b85ef5334d4d7"
+      }
+    },
+    {
+      "end": {
+        "state": "missing",
+        "file": null
+      }
+    }
+  ]
+}

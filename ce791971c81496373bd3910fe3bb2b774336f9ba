@@ -1,0 +1,8 @@
+EPISODE SHOT FOLDERS
+
+Each original shot ID has start/, end/, prompt.txt, script.txt, shot.json, references/ and output/.
+Use prompt.txt in the browser. Place downloaded clips in output/.
+Existing artwork is copied unchanged as candidate references, not approved start/end poses. Multiple storyboard panels are preserved in references/; the first and last non-AR panels are proposed endpoints only. Missing artwork is explicitly marked MISSING.txt.
+Review candidates before uploading. End image is optional in the Space; leave it empty if missing or unsuitable.
+Original images may require fitting to 16:9. Shots above 14 seconds need an authored segment plan before generation.
+No generation or spending occurred while making these folders.

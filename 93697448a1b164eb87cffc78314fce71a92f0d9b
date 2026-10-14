@@ -1,0 +1,32 @@
+{
+  "shot": "S00-02",
+  "start_frame": 96,
+  "end_frame_exclusive": 216,
+  "frames": 120,
+  "fps": 24,
+  "duration_seconds": 5.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "local_render_draft",
+      "file": "start/start-local-draft.png",
+      "source": "production/episode-first-pass/opening/S00-02.mp4",
+      "source_frame": 0,
+      "sha256": "11da0c875b6593a6c5313548ea7d3f2eafa187a4d6c8ce1608b58dd5cdc3a9db"
+    },
+    "end": {
+      "state": "local_render_draft",
+      "file": "end/end-local-draft.png",
+      "source": "production/episode-first-pass/opening/S00-02.mp4",
+      "source_frame": 119,
+      "sha256": "d3fe01e41b97dafae61c2817b26e2f8791c62715cb9ddbc9e72de5f973c24d89"
+    }
+  },
+  "status": "draft_pack_not_approved",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false
+}

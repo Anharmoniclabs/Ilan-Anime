@@ -1,0 +1,15 @@
+{
+  "shot": "S01-01",
+  "native_project": "S01-01-water-motion.ecproj",
+  "active_layers": 52,
+  "total_layers": 56,
+  "original_ripples": "four originals preserved disabled",
+  "background": "sources/night-water.png with original native scale/position",
+  "prop": "sources/paddle.png, rigid original transform keys held3frames; no deformation",
+  "foreground_matte": "Native water foreground layer175 retains y760 horizontal submersion matte",
+  "effect_drawings": "48 full1920x1080 transparent SVG+PNG cels;41unique including blank; timing in exposures.json",
+  "ring_occlusion": "Each SVG includes fullframe mask subtracting transformed blade silhouette above waterline only.",
+  "contact_registration": "Meniscus endpoints recomputed from alpha>150 blade contour at y760 using original anchor/scale/position/rotation.",
+  "typography": "Original live BEFORE text layer299 retained",
+  "style": "Night navy/steel painted background and rigid ink wood retained from author-praised draft; new restrained blue/steel tapered water marks. New opening source inspected for aesthetic; no new image generation used."
+}

@@ -1,0 +1,17 @@
+{
+  "inflight": {
+    "image": {
+      "phase": "worker",
+      "alias": "codex-image",
+      "started": "2026-10-12T22:26:08Z"
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-12T22:26:09Z",
+      "action": "paused",
+      "task": "image",
+      "reason": "codex exec failed (1) for worker: No prompt provided. Either specify one as an argument or pipe the prompt into stdin.\n"
+    }
+  ]
+}

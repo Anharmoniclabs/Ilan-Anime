@@ -1,0 +1,23 @@
+{
+  "reviewer": "/root/review_endpoint",
+  "method": "Independent actual-frame view_image inspection against script.txt",
+  "verdict": "revise",
+  "scope": "exploratory still endpoint pair or local UI plate only",
+  "evidence": [
+    "DEL counter reads 0 then 12; recurring band labeled 00:08 remains present. Laptop framing, lanes and hand are consistent."
+  ],
+  "limitations": [
+    "PRESS 0.15 exposes an FX implementation parameter as unexplained story UI. Remove this panel or replace with authored diegetic information. Twelve deletions/returns and exact 192-frame loop still need controlled animation."
+  ],
+  "author_approval": false,
+  "images": [
+    {
+      "path": "start/start-candidate-v2.png",
+      "sha256": "ed2322a8da1c0827a126f1e89ed93ad3fd359a7967df357d12ba48adb8657182"
+    },
+    {
+      "path": "end/end-existing-del12.png",
+      "sha256": "7ae3a23c6d38b9e4e420f6445fe4f037ffebcb786ed08351903b85ef5334d4d7"
+    }
+  ]
+}

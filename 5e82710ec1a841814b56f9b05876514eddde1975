@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.setSwitch",
+    "params": {
+      "layers": [
+        203,
+        227,
+        251,
+        275
+      ],
+      "switch": "video",
+      "value": false
+    }
+  },
+  "status": "succeeded",
+  "result": false
+}

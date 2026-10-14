@@ -1,0 +1,19 @@
+{
+  "id": "water-motion",
+  "role": "effects-animator",
+  "shots": [
+    "S01-01"
+  ],
+  "objective": "Complete144frame silent native waterline shot: paddle enter, immersion, withdraw, detached droplets and expandingrings; BEFORE editorialtext. Inspect old usable silentnative draft at cemi-90s-production/tasks/s01-01 but match new scene aesthetic. Reuse native project rather than recreate blindly. Fix actualcontact/droplets. Render MP424fps plusnativeproject and sampledmotionQA. No generic fullimagewarp.",
+  "output_dir": "production/runs/episode1-picture-motion/tasks/water-motion",
+  "inputs": [
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+    "production/runs/episode1-anime90s-scenes/shot-index.json",
+    "production/runs/episode1-anime90s-cast/source-index.json",
+    "production/runs/episode1-picture-motion/author-direction.json",
+    "production/runs/episode1-picture-motion/tasks/water-motion/shots.json"
+  ],
+  "depends_on": [],
+  "art_direction_mode": "STORY_FRAME",
+  "requires_author_approval": false
+}

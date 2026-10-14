@@ -1,0 +1,72 @@
+{
+  "shot": "S01-11",
+  "start_frame": 2208,
+  "end_frame_exclusive": 2448,
+  "frames": 240,
+  "fps": 24,
+  "duration_seconds": 10.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "generated_candidate_awaiting_review",
+      "file": "start/start-candidate-v2.png",
+      "sha256": "e1d1e4ced30ea317aaa7943d79b8ef5c65283b47b6d551f4bd57bc1161ab9255",
+      "method": "built-in image_gen reference edit",
+      "prompt_file": "start/start-candidate-v2.prompt.txt"
+    },
+    "end": {
+      "state": "generated_candidate_awaiting_review",
+      "file": "end/end-candidate-v2.png",
+      "sha256": "b7c530a2e397492c990d36dc5bad1d98b886e575a96cc1aa10f0c20d757e2bba",
+      "method": "built-in image_gen reference edit",
+      "prompt_file": "end/end-candidate-v2.prompt.txt"
+    }
+  },
+  "status": "revised_draft_pending_review",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false,
+  "reference_history": [
+    {
+      "start": {
+        "state": "unreviewed_candidate",
+        "file": "start/start-candidate.png",
+        "source": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/keyframes/S01-11.png",
+        "sha256": "ef0144d80aae4e39c402ea5223f4974f219a638dba0c0b709195a8a3c682ed58"
+      },
+      "end": {
+        "state": "missing",
+        "file": null
+      }
+    },
+    {
+      "start": {
+        "state": "generated_candidate_awaiting_review",
+        "file": "start/start-candidate-v2.png",
+        "sha256": "e1d1e4ced30ea317aaa7943d79b8ef5c65283b47b6d551f4bd57bc1161ab9255",
+        "method": "built-in image_gen reference edit",
+        "prompt_file": "start/start-candidate-v2.prompt.txt"
+      },
+      "end": {
+        "state": "generated_candidate_awaiting_review",
+        "file": "end/end-candidate-v1.png",
+        "sha256": "52af610f6434b09957a642f27781e83bbc8b07a3b877962b850e50b5e0435408",
+        "method": "built-in image_gen reference edit",
+        "prompt_file": "end/end-candidate-v1.prompt.txt"
+      }
+    }
+  ],
+  "draft_review": {
+    "reviewer": "/root/review_endpoint",
+    "verdict": "acceptable_for_exploratory_test",
+    "evidence": "FX corrected: faint cool water ripple, restrained root veins, no bright hull cracks. Beheto, palms, drum and hull stable.",
+    "author_approved": false,
+    "reviewed_hashes": {
+      "start": "e1d1e4ced30ea317aaa7943d79b8ef5c65283b47b6d551f4bd57bc1161ab9255",
+      "end": "b7c530a2e397492c990d36dc5bad1d98b886e575a96cc1aa10f0c20d757e2bba"
+    }
+  }
+}

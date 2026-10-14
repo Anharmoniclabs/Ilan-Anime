@@ -1,0 +1,23 @@
+{
+  "reviewer": "/root/review_endpoint",
+  "method": "Independent actual-frame view_image inspection against script.txt",
+  "verdict": "approve_draft",
+  "scope": "exploratory still endpoint pair only",
+  "evidence": [
+    "JC retains curly haircut, freckled face, hoodie and seated position. Mouth closes, eyes lower, and one index finger touches the counter for a counting gesture; hands remain readable."
+  ],
+  "limitations": [
+    "Rent figures, cross-outs and calculator timing are deliberately absent and require precise postproduction overlays. Pair alone does not perform the rent-math gag."
+  ],
+  "author_approval": false,
+  "images": [
+    {
+      "path": "start/start-candidate-v1.png",
+      "sha256": "bcf766691fcc1bb5127f8c18a632f26d3bd2ecad96d09326351ddc2ccbd5adbc"
+    },
+    {
+      "path": "end/end-candidate-v1.png",
+      "sha256": "b6ce61bf1f9b574166b77409eaeff83830582ec2e7396befacf252d4350d5e8e"
+    }
+  ]
+}

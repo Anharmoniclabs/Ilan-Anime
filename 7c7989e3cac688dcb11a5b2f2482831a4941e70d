@@ -1,0 +1,20 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addItem",
+    "params": {
+      "item": "water-fx-BF.png",
+      "time": 3.875,
+      "duration": 0.125,
+      "index": 2,
+      "position": [
+        960,
+        540
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 1085
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "videos": [
+    {
+      "label": "Opening title card",
+      "status": "episode draft",
+      "path": "production/episode-first-pass/opening/S00-02.mp4",
+      "duration_seconds": 5.0,
+      "sha256": "042018f5234b9efbd1e552994f03fa46d727bf447bd63962da8c3c0af73958e2"
+    }
+  ]
+}
