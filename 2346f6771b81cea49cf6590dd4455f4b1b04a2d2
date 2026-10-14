@@ -1,0 +1,13 @@
+{
+  "tool": "media_import",
+  "arguments": {
+    "text": "/home/alabs/Projects/Ilan-Anime/production/craft-validation/cels-v3/preview.mp4"
+  },
+  "status": "succeeded",
+  "result": {
+    "errors": [],
+    "items": [
+      1
+    ]
+  }
+}

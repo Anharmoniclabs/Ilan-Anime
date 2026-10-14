@@ -1,0 +1,14 @@
+{
+  "tool": "export",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/craft-validation/workbench-v2/prop.pdf",
+    "format": "pdf"
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 4349,
+    "format": "pdf",
+    "path": "/home/alabs/Projects/Ilan-Anime/production/craft-validation/workbench-v2/prop.pdf",
+    "warnings": []
+  }
+}

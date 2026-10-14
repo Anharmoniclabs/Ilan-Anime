@@ -1,0 +1,11 @@
+{
+  "tool": "save_project",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/character-completion-episode1/reviews/modern-slate-review.ecproj"
+  },
+  "status": "succeeded",
+  "result": {
+    "dirty": false,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/character-completion-episode1/reviews/modern-slate-review.ecproj"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "doc_open",
+  "arguments": {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/vale-master-93b33c36e25a/master.pcraft"
+  },
+  "status": "succeeded",
+  "result": {
+    "height": 1536,
+    "index": 0,
+    "layers": 2,
+    "name": "source-still.png",
+    "warnings": [],
+    "width": 1024
+  }
+}

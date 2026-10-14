@@ -1,0 +1,15 @@
+{
+  "id": "episode1-cast",
+  "role": "producer",
+  "shots": [],
+  "objective": "Inventory every Episode 1 on-screen character, flashback variant, anonymous/background group and text-only appearance using current script; map existing exact references and missing production assets. Deliver cast.json and self-contained reviewable HTML asset index with real reference thumbnails and precise completion states, no fake assets.",
+  "inputs": [
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+    "production/runs/cemi-90s-production/ledger.json"
+  ],
+  "depends_on": [],
+  "output_dir": "production/runs/cemi-90s-production/tasks/episode1-cast",
+  "art_direction_mode": "CHARACTER_ASSET",
+  "requires_author_approval": true,
+  "author_approver": "luis-m-minier"
+}

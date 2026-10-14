@@ -1,0 +1,13 @@
+{
+  "tool": "export_png",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/craft-validation/workbench-v2/board.png",
+    "scale": 1
+  },
+  "status": "succeeded",
+  "result": {
+    "height": 180,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/craft-validation/workbench-v2/board.png",
+    "width": 320
+  }
+}

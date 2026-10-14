@@ -1,0 +1,27 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "file.import",
+    "params": {
+      "paths": [
+        "/home/alabs/Projects/Ilan-Anime/production/craft-validation/cels-v1/inputs/0000.png",
+        "/home/alabs/Projects/Ilan-Anime/production/craft-validation/cels-v1/inputs/0001.png",
+        "/home/alabs/Projects/Ilan-Anime/production/craft-validation/cels-v1/inputs/0002.png",
+        "/home/alabs/Projects/Ilan-Anime/production/craft-validation/cels-v1/inputs/0003.png"
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comps": [],
+    "errors": [],
+    "items": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "unlabeledAlpha": [],
+    "warnings": []
+  }
+}

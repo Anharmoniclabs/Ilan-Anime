@@ -1,0 +1,11 @@
+{
+  "tool": "doc_export",
+  "arguments": {
+    "path": "production/craft-validation/workbench-v2/paint.png"
+  },
+  "status": "succeeded",
+  "result": {
+    "path": "production/craft-validation/workbench-v2/paint.png",
+    "warnings": []
+  }
+}

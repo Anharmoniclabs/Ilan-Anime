@@ -1,0 +1,24 @@
+{
+  "shot": "TECHNICAL-EXPOSURE-CHECK",
+  "output": "production/craft-validation/cels-v3/local-review.mp4",
+  "mode": "review",
+  "quality": "final",
+  "frames": 6,
+  "size": [
+    320,
+    180
+  ],
+  "draft": true,
+  "status": "exploratory",
+  "engine": "2.0.0",
+  "fingerprint": "2ee2545d73f20f0f65a1873d2e73a3202a3ccf6cd989d8de260ca4e67f3f9d35",
+  "inputs": {
+    "/home/alabs/Projects/Ilan-Anime/production/craft-validation/cels-v3/inputs/drawing_309433322486db730aa047d4481997ad236cda03de1ad9f134d2f3749a8e3e90_still.png": "309433322486db730aa047d4481997ad236cda03de1ad9f134d2f3749a8e3e90",
+    "/home/alabs/Projects/Ilan-Anime/production/craft-validation/cels-v3/inputs/drawing_4572a1c4bf51618da5a2ab6e19222be180326bc9b38869d22429d42ed047d162_still.png": "4572a1c4bf51618da5a2ab6e19222be180326bc9b38869d22429d42ed047d162",
+    "/home/alabs/Projects/Ilan-Anime/production/craft-validation/cels-v3/inputs/drawing_91ec383192371bd56d82fee567e9be5449ba41088dbe232d80353fe9e3ca10da_still.png": "91ec383192371bd56d82fee567e9be5449ba41088dbe232d80353fe9e3ca10da",
+    "/home/alabs/Projects/Ilan-Anime/production/craft-validation/cels-v3/inputs/drawing_afaedbcb771a1b212db3513466152dbc1b295f8b94f8a8378c037cc73526a597_still.png": "afaedbcb771a1b212db3513466152dbc1b295f8b94f8a8378c037cc73526a597"
+  },
+  "output_sha256": "99e0f552f18d2fc983e04f1772b839133ee9b93f11522b7bb46e1b7516642ce2",
+  "seconds": 0.08,
+  "truth": "A successful render proves the spec executes, not that the animation is good."
+}

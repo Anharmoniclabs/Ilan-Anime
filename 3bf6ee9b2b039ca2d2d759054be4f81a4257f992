@@ -1,0 +1,117 @@
+{
+  "task_id": "episode1-character-library-independent-review",
+  "role": "quality-review",
+  "status": "submitted",
+  "art_direction_mode": "CHARACTER_ASSET",
+  "overall_decision": "pass for bounded source/reference library and Amaia limited facial-control scope; fail as completed character rigs or animation",
+  "author_approval": false,
+  "reviews": [
+    {
+      "task": "river-character-library",
+      "decision": "pass",
+      "approved_technical_scope": "Twelve native editable full-sheet archival reference libraries, latest native-alpha-preserved-v2 files only. No production-part or animation acceptance.",
+      "evidence": [
+        "Independently reopened every one of 12 .pcraft files through PhotoCraft; re-exported into reviewer output.",
+        "Every source hash matched manifest, alpha matched exactly, and premultiplied RGB matched exactly; native hashes unchanged after read-only reopen.",
+        "Each has visible editable reference sheet plus hidden archived source; sheets are not separated body parts.",
+        "Directly viewed new exports for Dairon, Beheto, bell soldier. Earlier inventory inspected all 13 archive sheets at thumbnail scale."
+      ],
+      "defects": [
+        {
+          "severity": "production-blocking",
+          "finding": "All 12 are full-sheet references, with no registered separate views, body/clothing/prop layers, hidden joints or action sequences.",
+          "correction": "Keep library label; extract supported views and commission required hidden/contact/action drawings before rigging."
+        },
+        {
+          "severity": "identity-review",
+          "finding": "Archival ledger man costume/face differs from numbered episode keyframes; third child and residual survivor placement remain proposals.",
+          "correction": "Resolve exact design/current-script placement without importing older canoe assignments."
+        }
+      ],
+      "unverified": [
+        "Source-layer lock flag not exposed in doc_inspect layer listing; hidden status verified.",
+        "No river motion exists here to inspect."
+      ]
+    },
+    {
+      "task": "amaia-complete",
+      "decision": "pass-partial; revise for task completion",
+      "approved_technical_scope": "Saved exploratory model-view and six-piece joint artwork library plus 48-frame neutral/blink/open-mouth demonstration. Existing neutral design approval remains unchanged.",
+      "evidence": [
+        "Independent native reopen of amaia-asset-library.ecproj, amaia-controls-16x9.ecproj, amaia-joint-library.pcraft and amaia-layered.pcraft succeeded with unchanged file hashes.",
+        "All 18 delivery-hashes.json entries and all 5 asset-library source hashes match current files; approved master digest preserved.",
+        "Joint paint document has six separate paint layers. Model views are independent library assets, not registered animation cels.",
+        "Viewed front, profile, back slate exports and arm-joint slate at full displayed resolution. Hands/feet retained; shape and costume readable.",
+        "Independently checked all 48 1920x1080 source-render frames: exactly 3 unique states, identical groups of 3, all pixels below y200 fixed.",
+        "Viewed frames 0/12/15 (0.000,0.500,0.625 seconds): neutral, blink, talk. No limb action claimed."
+      ],
+      "defects": [
+        {
+          "severity": "production-blocking",
+          "finding": "Source-space arm atlas lacks master-fit registration; shoulder caps have soft/faded cut boundaries and no demonstrated overlap under rotation.",
+          "correction": "Underpaint and register shoulder/elbow/wrist overlaps, inspect extreme poses and seams against approved r2 silhouette."
+        },
+        {
+          "severity": "production-blocking",
+          "finding": "No saved reviewed mother/son cradle/contact sequence included in this review snapshot; standing views cannot establish S01-02/13 support.",
+          "correction": "Review new contact drawing separately when saved, then create supported overlap and counterbalance replacements."
+        },
+        {
+          "severity": "production-blocking",
+          "finding": "No separated dynamic hair/wrap/skirt/accessory surfaces, full phoneme library, counting glances, or seated lean sequence.",
+          "correction": "Follow missing-art.json; preserve face/skull/body/prop contacts and review actual action."
+        },
+        {
+          "severity": "scope",
+          "finding": "Frame checker has zero contact tests; body fixed for all 48 frames.",
+          "correction": "Do not present facial check as full puppet validation or scene animation."
+        }
+      ],
+      "unverified": [
+        "Three-quarter slate not directly visually inspected in this review; front/profile/back inspected.",
+        "No full-rate audiovisual playback inspected; direct frame samples plus exhaustive frame comparisons only.",
+        "New contact-s01-13 generation excluded; task is still evolving."
+      ]
+    }
+  ],
+  "artifact_hashes": {
+    "river_latest_native": {
+      "02-amaias-son": "5e21ffe1f63b50fafa180886142e5b6ea66021b901e189099803240d83a66cfb",
+      "03-dairon": "6806e675dc8abd96a939d99baa468124804ab8f8e5239df2d03db5eab5c5b373",
+      "04-yara-corrected": "0f8b97762c6d6789713eb114f4803440e408cc6bc55883c29ad8315444d239ef",
+      "05-beheto": "945d35ba223cf6a70c5379541f8a4a3ea5eb363dc885003216b0d3fead634d0a",
+      "06-seven-year-old-girl": "cd8f6ab5e04e0ffc70ab29bf51d24f94ab833458d6332ec797f6d55dbd04cdb7",
+      "07-nine-year-old-boy": "c5ef5d1d839c01264dbaed2ec5e8d9edca3d3b9467c52dba7f6b9e47bf154519",
+      "08-third-lit-child-proposal": "e04693ff499bc04e09fd3b560b93539081e2e154d5389ec5664b6c0535194aa4",
+      "09-background-survivor-1": "8b183d95da5e4afa900d12a179f63d0608c2ef6bf94d66abd8814b1c2868ebe2",
+      "10-background-survivor-2": "b3b33c51f4fc6094916a7d79d9b9cac2b3a37270f4b53c61793b3a172306e5c1",
+      "11-background-survivor-3": "3d0c3c91192d5ff0ed1279eaefa3cf0ec50cf008bb4c6ac68b1bb4d17869858c",
+      "12-bell-bearing-soldier": "b7774dde83151d5e924132da3f025c58c389d8f69d354707511f03739b1e4e59",
+      "13-ledger-keeper": "2b8a492401d70a2472de6a04fa4fedf55ae096d240807f721b348676d8f71780"
+    },
+    "amaia_saved_native": {
+      "amaia-joint-library.pcraft": "77f20ac287157ee22d4e9e4b2a33a68d11eb95d12b893b535c357d418788dbae",
+      "amaia-layered.pcraft": "986926fec052d8f09b4c2aca5bf98c835be8b983098789855925b8f6d83fc719",
+      "amaia-asset-library.ecproj": "819ee8aaab2344d8020a2e8cca0d8284c75cf769aaddccdddea43b0947450610",
+      "amaia-controls-16x9.ecproj": "55fded92fcd99b9e6f10e0e5da08f577352ec14926067efe7d5a2545ed31ec51"
+    }
+  },
+  "evidence_artifacts": [
+    "production/character-completion-episode1/reviews/native-verification.json",
+    "production/character-completion-episode1/reviews/verify_native.py"
+  ],
+  "blockers": [],
+  "source_contracts": [
+    ".agents/skills/anime-quality-review/SKILL.md",
+    "production/WORKER_CONTRACT.md",
+    "production/art_direction.json",
+    "research/animation_audit/REPORT.md"
+  ],
+  "source_hash_verification": {
+    "generated/turnaround.png": true,
+    "generated/body-underpaint.png": true,
+    "generated/arms-only.png": true,
+    "generated/arm-joints.png": true,
+    "amaia-master.png": true
+  }
+}

@@ -1,0 +1,547 @@
+[
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/abuela-hands-master.png",
+    "sha256": "03b48acca87a4e9b777b91f50d5d19daee802c5e626f345632399f5e0f78c118",
+    "size": [
+      1536,
+      1024
+    ],
+    "alpha_range": [
+      0,
+      254
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/jc-master.png",
+    "sha256": "e4609e083a908ad3127cb470e6ecb14027def90faa3c1168efead05f63ee0cdb",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_range": [
+      0,
+      254
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/mama-master.png",
+    "sha256": "d574a084b616dfbefda4b5fa3aa124a362b8728598f83d7ef5a9e661c9556730",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_range": [
+      0,
+      254
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/manny-master.png",
+    "sha256": "a9e761a596802d9d131e01d0d76501d87d6e425e1e843cc3c5f09a299d17a252",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_range": [
+      0,
+      254
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/rodriguez-master.png",
+    "sha256": "a5adea68a029991011d9947ad6c86071fd28d93539fd0e3318d2b66e57d5ddd2",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_range": [
+      0,
+      254
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/sofia-master.png",
+    "sha256": "4a2503596a619637605e5776d8e057dd8dfc777bd05ffd032ff880b04e67f17f",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_range": [
+      0,
+      254
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/vale-master.png",
+    "sha256": "93b33c36e25a2901d459d956bc2f30b51545b9127c7efbca3c18b27c4897b6f9",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_range": [
+      0,
+      254
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/window-man-master.png",
+    "sha256": "139ed5982e8c4868dd83c4aa38977c4455e000e76bca871e518886e3123c4e47",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_range": [
+      0,
+      254
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/amaia-complete/contact-s01-13/contact-source.ecproj",
+    "sha256": "bf814832c8aa4ceba2a980fb6ac3dbf3470457af59c6a31ff4b9f4025ee3159b",
+    "unchanged": true,
+    "reopened": true
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/abuela-hands-master-03b48acca87a/master.pcraft",
+    "sha256": "04c6897906878d61bed4f7f2b45afdc33e82bd1350197efbad66dda138ade4ce",
+    "unchanged": true,
+    "reopened": true,
+    "layers": [
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 3,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Editable master \u2014 not separated rig parts",
+        "opacity": 1.0,
+        "selected": true,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 2,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Preserved generated source \u2014 exploratory",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": false
+      }
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/jc-master-e4609e083a90/master.pcraft",
+    "sha256": "aa9fa6cc09dc05c10126c69bcd13308cc69e925318f586108aca4ace01940f99",
+    "unchanged": true,
+    "reopened": true,
+    "layers": [
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 3,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Editable master \u2014 not separated rig parts",
+        "opacity": 1.0,
+        "selected": true,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 2,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Preserved generated source \u2014 exploratory",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": false
+      }
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/mama-master-d574a084b616/master.pcraft",
+    "sha256": "445ce490c328e3345dceff2fe38b5cdfe472de315c45e99f27afbcac094032ca",
+    "unchanged": true,
+    "reopened": true,
+    "layers": [
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 3,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Editable master \u2014 not separated rig parts",
+        "opacity": 1.0,
+        "selected": true,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 2,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Preserved generated source \u2014 exploratory",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": false
+      }
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/manny-master-a9e761a59680/master.pcraft",
+    "sha256": "f584f3d8d661ad33c6c63eecfdb72c21b1256062e40e42879b2fa262673339d9",
+    "unchanged": true,
+    "reopened": true,
+    "layers": [
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 3,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Editable master \u2014 not separated rig parts",
+        "opacity": 1.0,
+        "selected": true,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 2,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Preserved generated source \u2014 exploratory",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": false
+      }
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/rodriguez-master-a5adea68a029/master.pcraft",
+    "sha256": "84a286a8a93d35a270f5410c669daae5544f8162f33356e4d28a94594a36a6b7",
+    "unchanged": true,
+    "reopened": true,
+    "layers": [
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 3,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Editable master \u2014 not separated rig parts",
+        "opacity": 1.0,
+        "selected": true,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 2,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Preserved generated source \u2014 exploratory",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": false
+      }
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/sofia-master-4a2503596a61/master.pcraft",
+    "sha256": "c1bc02ced6d44b2ddab7472831c9f6a80b35ceb0a2d19aa5fab6d13fb02985da",
+    "unchanged": true,
+    "reopened": true,
+    "layers": [
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 3,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Editable master \u2014 not separated rig parts",
+        "opacity": 1.0,
+        "selected": true,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 2,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Preserved generated source \u2014 exploratory",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": false
+      }
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/vale-master-93b33c36e25a/master.pcraft",
+    "sha256": "c05a88de3e50d96145c2ad02de8561d55ad5451f4528a6e66fe5a26d6cc158c3",
+    "unchanged": true,
+    "reopened": true,
+    "layers": [
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 3,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Editable master \u2014 not separated rig parts",
+        "opacity": 1.0,
+        "selected": true,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 2,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Preserved generated source \u2014 exploratory",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": false
+      }
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/window-man-master-139ed5982e8c/master.pcraft",
+    "sha256": "9b3401d256139fc14d3c8f8767b41f3ba84b43cabb47fdea55005b1d8af50515",
+    "unchanged": true,
+    "reopened": true,
+    "layers": [
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 3,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Editable master \u2014 not separated rig parts",
+        "opacity": 1.0,
+        "selected": true,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1024,
+          1536
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 2,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Preserved generated source \u2014 exploratory",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": false
+      }
+    ]
+  },
+  {
+    "path": "production/runs/cemi-90s-production/tasks/amaia-complete/contact-s01-13/contact-source.pcraft",
+    "sha256": "0822aacdfc60148a55c416779e45d7d70b2ab665a5e0f1928d4185a8baf457dd",
+    "unchanged": true,
+    "reopened": true,
+    "layers": [
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          19,
+          1012,
+          1485
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 2,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Mother and child - connected contact source",
+        "opacity": 1.0,
+        "selected": true,
+        "visible": true
+      }
+    ]
+  }
+]
