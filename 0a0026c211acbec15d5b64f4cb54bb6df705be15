@@ -1,0 +1,983 @@
+{
+  "id": "S01-03",
+  "size": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "frames": 192,
+  "stage": "motion",
+  "review_note": "Decoded-video QA adapter, not editable source. Character acting checked separately against native timeline; no_acting flag is expected for flattened video.",
+  "layers": [
+    {
+      "name": "decoded-review-video",
+      "tags": [
+        "bg"
+      ],
+      "rate": 1,
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-000.png",
+      "exposures": [
+        {
+          "start": 0,
+          "end": 1,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-000.png"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-001.png"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-002.png"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-003.png"
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-004.png"
+        },
+        {
+          "start": 5,
+          "end": 6,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-005.png"
+        },
+        {
+          "start": 6,
+          "end": 7,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-006.png"
+        },
+        {
+          "start": 7,
+          "end": 8,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-007.png"
+        },
+        {
+          "start": 8,
+          "end": 9,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-008.png"
+        },
+        {
+          "start": 9,
+          "end": 10,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-009.png"
+        },
+        {
+          "start": 10,
+          "end": 11,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-010.png"
+        },
+        {
+          "start": 11,
+          "end": 12,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-011.png"
+        },
+        {
+          "start": 12,
+          "end": 13,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-012.png"
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-013.png"
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-014.png"
+        },
+        {
+          "start": 15,
+          "end": 16,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-015.png"
+        },
+        {
+          "start": 16,
+          "end": 17,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-016.png"
+        },
+        {
+          "start": 17,
+          "end": 18,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-017.png"
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-018.png"
+        },
+        {
+          "start": 19,
+          "end": 20,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-019.png"
+        },
+        {
+          "start": 20,
+          "end": 21,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-020.png"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-021.png"
+        },
+        {
+          "start": 22,
+          "end": 23,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-022.png"
+        },
+        {
+          "start": 23,
+          "end": 24,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-023.png"
+        },
+        {
+          "start": 24,
+          "end": 25,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-024.png"
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-025.png"
+        },
+        {
+          "start": 26,
+          "end": 27,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-026.png"
+        },
+        {
+          "start": 27,
+          "end": 28,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-027.png"
+        },
+        {
+          "start": 28,
+          "end": 29,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-028.png"
+        },
+        {
+          "start": 29,
+          "end": 30,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-029.png"
+        },
+        {
+          "start": 30,
+          "end": 31,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-030.png"
+        },
+        {
+          "start": 31,
+          "end": 32,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-031.png"
+        },
+        {
+          "start": 32,
+          "end": 33,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-032.png"
+        },
+        {
+          "start": 33,
+          "end": 34,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-033.png"
+        },
+        {
+          "start": 34,
+          "end": 35,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-034.png"
+        },
+        {
+          "start": 35,
+          "end": 36,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-035.png"
+        },
+        {
+          "start": 36,
+          "end": 37,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-036.png"
+        },
+        {
+          "start": 37,
+          "end": 38,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-037.png"
+        },
+        {
+          "start": 38,
+          "end": 39,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-038.png"
+        },
+        {
+          "start": 39,
+          "end": 40,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-039.png"
+        },
+        {
+          "start": 40,
+          "end": 41,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-040.png"
+        },
+        {
+          "start": 41,
+          "end": 42,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-041.png"
+        },
+        {
+          "start": 42,
+          "end": 43,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-042.png"
+        },
+        {
+          "start": 43,
+          "end": 44,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-043.png"
+        },
+        {
+          "start": 44,
+          "end": 45,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-044.png"
+        },
+        {
+          "start": 45,
+          "end": 46,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-045.png"
+        },
+        {
+          "start": 46,
+          "end": 47,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-046.png"
+        },
+        {
+          "start": 47,
+          "end": 48,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-047.png"
+        },
+        {
+          "start": 48,
+          "end": 49,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-048.png"
+        },
+        {
+          "start": 49,
+          "end": 50,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-049.png"
+        },
+        {
+          "start": 50,
+          "end": 51,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-050.png"
+        },
+        {
+          "start": 51,
+          "end": 52,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-051.png"
+        },
+        {
+          "start": 52,
+          "end": 53,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-052.png"
+        },
+        {
+          "start": 53,
+          "end": 54,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-053.png"
+        },
+        {
+          "start": 54,
+          "end": 55,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-054.png"
+        },
+        {
+          "start": 55,
+          "end": 56,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-055.png"
+        },
+        {
+          "start": 56,
+          "end": 57,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-056.png"
+        },
+        {
+          "start": 57,
+          "end": 58,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-057.png"
+        },
+        {
+          "start": 58,
+          "end": 59,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-058.png"
+        },
+        {
+          "start": 59,
+          "end": 60,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-059.png"
+        },
+        {
+          "start": 60,
+          "end": 61,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-060.png"
+        },
+        {
+          "start": 61,
+          "end": 62,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-061.png"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-062.png"
+        },
+        {
+          "start": 63,
+          "end": 64,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-063.png"
+        },
+        {
+          "start": 64,
+          "end": 65,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-064.png"
+        },
+        {
+          "start": 65,
+          "end": 66,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-065.png"
+        },
+        {
+          "start": 66,
+          "end": 67,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-066.png"
+        },
+        {
+          "start": 67,
+          "end": 68,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-067.png"
+        },
+        {
+          "start": 68,
+          "end": 69,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-068.png"
+        },
+        {
+          "start": 69,
+          "end": 70,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-069.png"
+        },
+        {
+          "start": 70,
+          "end": 71,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-070.png"
+        },
+        {
+          "start": 71,
+          "end": 72,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-071.png"
+        },
+        {
+          "start": 72,
+          "end": 73,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-072.png"
+        },
+        {
+          "start": 73,
+          "end": 74,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-073.png"
+        },
+        {
+          "start": 74,
+          "end": 75,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-074.png"
+        },
+        {
+          "start": 75,
+          "end": 76,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-075.png"
+        },
+        {
+          "start": 76,
+          "end": 77,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-076.png"
+        },
+        {
+          "start": 77,
+          "end": 78,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-077.png"
+        },
+        {
+          "start": 78,
+          "end": 79,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-078.png"
+        },
+        {
+          "start": 79,
+          "end": 80,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-079.png"
+        },
+        {
+          "start": 80,
+          "end": 81,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-080.png"
+        },
+        {
+          "start": 81,
+          "end": 82,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-081.png"
+        },
+        {
+          "start": 82,
+          "end": 83,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-082.png"
+        },
+        {
+          "start": 83,
+          "end": 84,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-083.png"
+        },
+        {
+          "start": 84,
+          "end": 85,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-084.png"
+        },
+        {
+          "start": 85,
+          "end": 86,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-085.png"
+        },
+        {
+          "start": 86,
+          "end": 87,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-086.png"
+        },
+        {
+          "start": 87,
+          "end": 88,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-087.png"
+        },
+        {
+          "start": 88,
+          "end": 89,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-088.png"
+        },
+        {
+          "start": 89,
+          "end": 90,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-089.png"
+        },
+        {
+          "start": 90,
+          "end": 91,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-090.png"
+        },
+        {
+          "start": 91,
+          "end": 92,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-091.png"
+        },
+        {
+          "start": 92,
+          "end": 93,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-092.png"
+        },
+        {
+          "start": 93,
+          "end": 94,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-093.png"
+        },
+        {
+          "start": 94,
+          "end": 95,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-094.png"
+        },
+        {
+          "start": 95,
+          "end": 96,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-095.png"
+        },
+        {
+          "start": 96,
+          "end": 97,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-096.png"
+        },
+        {
+          "start": 97,
+          "end": 98,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-097.png"
+        },
+        {
+          "start": 98,
+          "end": 99,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-098.png"
+        },
+        {
+          "start": 99,
+          "end": 100,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-099.png"
+        },
+        {
+          "start": 100,
+          "end": 101,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-100.png"
+        },
+        {
+          "start": 101,
+          "end": 102,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-101.png"
+        },
+        {
+          "start": 102,
+          "end": 103,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-102.png"
+        },
+        {
+          "start": 103,
+          "end": 104,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-103.png"
+        },
+        {
+          "start": 104,
+          "end": 105,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-104.png"
+        },
+        {
+          "start": 105,
+          "end": 106,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-105.png"
+        },
+        {
+          "start": 106,
+          "end": 107,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-106.png"
+        },
+        {
+          "start": 107,
+          "end": 108,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-107.png"
+        },
+        {
+          "start": 108,
+          "end": 109,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-108.png"
+        },
+        {
+          "start": 109,
+          "end": 110,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-109.png"
+        },
+        {
+          "start": 110,
+          "end": 111,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-110.png"
+        },
+        {
+          "start": 111,
+          "end": 112,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-111.png"
+        },
+        {
+          "start": 112,
+          "end": 113,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-112.png"
+        },
+        {
+          "start": 113,
+          "end": 114,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-113.png"
+        },
+        {
+          "start": 114,
+          "end": 115,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-114.png"
+        },
+        {
+          "start": 115,
+          "end": 116,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-115.png"
+        },
+        {
+          "start": 116,
+          "end": 117,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-116.png"
+        },
+        {
+          "start": 117,
+          "end": 118,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-117.png"
+        },
+        {
+          "start": 118,
+          "end": 119,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-118.png"
+        },
+        {
+          "start": 119,
+          "end": 120,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-119.png"
+        },
+        {
+          "start": 120,
+          "end": 121,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-120.png"
+        },
+        {
+          "start": 121,
+          "end": 122,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-121.png"
+        },
+        {
+          "start": 122,
+          "end": 123,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-122.png"
+        },
+        {
+          "start": 123,
+          "end": 124,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-123.png"
+        },
+        {
+          "start": 124,
+          "end": 125,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-124.png"
+        },
+        {
+          "start": 125,
+          "end": 126,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-125.png"
+        },
+        {
+          "start": 126,
+          "end": 127,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-126.png"
+        },
+        {
+          "start": 127,
+          "end": 128,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-127.png"
+        },
+        {
+          "start": 128,
+          "end": 129,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-128.png"
+        },
+        {
+          "start": 129,
+          "end": 130,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-129.png"
+        },
+        {
+          "start": 130,
+          "end": 131,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-130.png"
+        },
+        {
+          "start": 131,
+          "end": 132,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-131.png"
+        },
+        {
+          "start": 132,
+          "end": 133,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-132.png"
+        },
+        {
+          "start": 133,
+          "end": 134,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-133.png"
+        },
+        {
+          "start": 134,
+          "end": 135,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-134.png"
+        },
+        {
+          "start": 135,
+          "end": 136,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-135.png"
+        },
+        {
+          "start": 136,
+          "end": 137,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-136.png"
+        },
+        {
+          "start": 137,
+          "end": 138,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-137.png"
+        },
+        {
+          "start": 138,
+          "end": 139,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-138.png"
+        },
+        {
+          "start": 139,
+          "end": 140,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-139.png"
+        },
+        {
+          "start": 140,
+          "end": 141,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-140.png"
+        },
+        {
+          "start": 141,
+          "end": 142,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-141.png"
+        },
+        {
+          "start": 142,
+          "end": 143,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-142.png"
+        },
+        {
+          "start": 143,
+          "end": 144,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-143.png"
+        },
+        {
+          "start": 144,
+          "end": 145,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-144.png"
+        },
+        {
+          "start": 145,
+          "end": 146,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-145.png"
+        },
+        {
+          "start": 146,
+          "end": 147,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-146.png"
+        },
+        {
+          "start": 147,
+          "end": 148,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-147.png"
+        },
+        {
+          "start": 148,
+          "end": 149,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-148.png"
+        },
+        {
+          "start": 149,
+          "end": 150,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-149.png"
+        },
+        {
+          "start": 150,
+          "end": 151,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-150.png"
+        },
+        {
+          "start": 151,
+          "end": 152,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-151.png"
+        },
+        {
+          "start": 152,
+          "end": 153,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-152.png"
+        },
+        {
+          "start": 153,
+          "end": 154,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-153.png"
+        },
+        {
+          "start": 154,
+          "end": 155,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-154.png"
+        },
+        {
+          "start": 155,
+          "end": 156,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-155.png"
+        },
+        {
+          "start": 156,
+          "end": 157,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-156.png"
+        },
+        {
+          "start": 157,
+          "end": 158,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-157.png"
+        },
+        {
+          "start": 158,
+          "end": 159,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-158.png"
+        },
+        {
+          "start": 159,
+          "end": 160,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-159.png"
+        },
+        {
+          "start": 160,
+          "end": 161,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-160.png"
+        },
+        {
+          "start": 161,
+          "end": 162,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-161.png"
+        },
+        {
+          "start": 162,
+          "end": 163,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-162.png"
+        },
+        {
+          "start": 163,
+          "end": 164,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-163.png"
+        },
+        {
+          "start": 164,
+          "end": 165,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-164.png"
+        },
+        {
+          "start": 165,
+          "end": 166,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-165.png"
+        },
+        {
+          "start": 166,
+          "end": 167,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-166.png"
+        },
+        {
+          "start": 167,
+          "end": 168,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-167.png"
+        },
+        {
+          "start": 168,
+          "end": 169,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-168.png"
+        },
+        {
+          "start": 169,
+          "end": 170,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-169.png"
+        },
+        {
+          "start": 170,
+          "end": 171,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-170.png"
+        },
+        {
+          "start": 171,
+          "end": 172,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-171.png"
+        },
+        {
+          "start": 172,
+          "end": 173,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-172.png"
+        },
+        {
+          "start": 173,
+          "end": 174,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-173.png"
+        },
+        {
+          "start": 174,
+          "end": 175,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-174.png"
+        },
+        {
+          "start": 175,
+          "end": 176,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-175.png"
+        },
+        {
+          "start": 176,
+          "end": 177,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-176.png"
+        },
+        {
+          "start": 177,
+          "end": 178,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-177.png"
+        },
+        {
+          "start": 178,
+          "end": 179,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-178.png"
+        },
+        {
+          "start": 179,
+          "end": 180,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-179.png"
+        },
+        {
+          "start": 180,
+          "end": 181,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-180.png"
+        },
+        {
+          "start": 181,
+          "end": 182,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-181.png"
+        },
+        {
+          "start": 182,
+          "end": 183,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-182.png"
+        },
+        {
+          "start": 183,
+          "end": 184,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-183.png"
+        },
+        {
+          "start": 184,
+          "end": 185,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-184.png"
+        },
+        {
+          "start": 185,
+          "end": 186,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-185.png"
+        },
+        {
+          "start": 186,
+          "end": 187,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-186.png"
+        },
+        {
+          "start": 187,
+          "end": 188,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-187.png"
+        },
+        {
+          "start": 188,
+          "end": 189,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-188.png"
+        },
+        {
+          "start": 189,
+          "end": 190,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-189.png"
+        },
+        {
+          "start": 190,
+          "end": 191,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-190.png"
+        },
+        {
+          "start": 191,
+          "end": 192,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/reviews/three-losses/decoded/frame-191.png"
+        }
+      ]
+    }
+  ]
+}

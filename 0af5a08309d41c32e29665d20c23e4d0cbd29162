@@ -1,0 +1,10 @@
+{
+  "decision": "reject",
+  "evidence": "Frame 0 and review/opaque-registration-diagnostic.png show miniature adults beside Amaia without sufficient perspective recession. registration.json anchors all hips at y=820 but does not demonstrate actual bench support. Clean silhouettes, hull occlusion, fades ending at 42/75/108, and preserved head arc pass. Independent decoding confirms silent 192-frame/24-fps delivery. Full notes: production/runs/episode1-amaia-finish/reviews/three-losses-r2/review.md. Sequential inspection only; no creative approval.",
+  "repair_notes": [
+    "Correct static figure scale and placement against Amaia and the actual benches; demonstrate each hip’s support using the ghost-free plate and opaque composite.",
+    "Recheck hull occlusion after registration. Preserve living artwork, three fade endpoints, head arc, camera and timeline; resubmit decoded contact/fade evidence."
+  ],
+  "reviewer_role": "animation-supervisor",
+  "host_agent_id": "01a13988-bf3c-7322-b033-44fdfbe66bda"
+}

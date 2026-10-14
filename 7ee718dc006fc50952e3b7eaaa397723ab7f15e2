@@ -1,0 +1,38 @@
+{
+  "shot": "S01-03",
+  "errors": [],
+  "warnings": [
+    "no environmental or prop action (water, wakes, props) is animated"
+  ],
+  "contacts": [
+    {
+      "contact": "Amaia-replacements.shoulder -> stable-reference.xy",
+      "max_px": 0.0,
+      "worst_frame": null,
+      "tolerance": 0.1,
+      "frames_without_points": 0
+    },
+    {
+      "contact": "Amaia-replacements.child-cheek -> stable-reference.xy",
+      "max_px": 0.0,
+      "worst_frame": null,
+      "tolerance": 0.1,
+      "frames_without_points": 0
+    },
+    {
+      "contact": "Amaia-replacements.cradle -> stable-reference.xy",
+      "max_px": 0.0,
+      "worst_frame": null,
+      "tolerance": 0.1,
+      "frames_without_points": 0
+    },
+    {
+      "contact": "Amaia-replacements.hull -> stable-reference.xy",
+      "max_px": 0.0,
+      "worst_frame": null,
+      "tolerance": 0.1,
+      "frames_without_points": 0
+    }
+  ],
+  "truth": "Passing check means timing, files and contacts are consistent; it does not approve the drawing."
+}
