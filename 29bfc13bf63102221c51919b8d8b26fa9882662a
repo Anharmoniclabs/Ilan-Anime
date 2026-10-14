@@ -1,0 +1,25 @@
+{
+  "shot": "S14-06",
+  "frames": 480,
+  "fps": 24,
+  "duration_seconds": 20.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": true,
+  "images": {
+    "start": {
+      "file": null,
+      "status": "missing"
+    },
+    "end": {
+      "file": null,
+      "status": "missing"
+    }
+  },
+  "review": {},
+  "author_approval_recorded": false,
+  "status": "current_draft_delivery_not_final_episode",
+  "image_processing": "unchanged source bytes; may require fitting to exact 16:9 before remote submission"
+}

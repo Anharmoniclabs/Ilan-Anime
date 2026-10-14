@@ -1,0 +1,11 @@
+{
+  "tool": "doc_save",
+  "arguments": {
+    "path": "production/runs/arthouse-pack-v1/tasks/visuals/native-art/amaia-puppet-atlas-v1.pcraft"
+  },
+  "status": "succeeded",
+  "result": {
+    "path": "production/runs/arthouse-pack-v1/tasks/visuals/native-art/amaia-puppet-atlas-v1.pcraft",
+    "warnings": []
+  }
+}

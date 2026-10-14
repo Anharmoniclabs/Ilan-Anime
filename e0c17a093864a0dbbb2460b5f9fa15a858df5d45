@@ -1,0 +1,27 @@
+{
+  "shot": "S03-03",
+  "frames": 288,
+  "fps": 24,
+  "duration_seconds": 12.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "images": {
+    "start": {
+      "file": "start.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S03-03/start/start-candidate.png",
+      "sha256": "13ab82624ddff0dca5ae8ff3de45fcdb824396fe35ec82a084f5d1e9cd3691a0",
+      "status": "unreviewed_or_conditional_draft"
+    },
+    "end": {
+      "file": null,
+      "status": "missing"
+    }
+  },
+  "review": {},
+  "author_approval_recorded": false,
+  "status": "current_draft_delivery_not_final_episode",
+  "image_processing": "unchanged source bytes; may require fitting to exact 16:9 before remote submission"
+}

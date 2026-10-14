@@ -1,0 +1,38 @@
+{
+  "shot": "S01-09",
+  "frames": 336,
+  "fps": 24,
+  "duration_seconds": 14.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "images": {
+    "start": {
+      "file": "start.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S01-09/start/start-candidate-v2.png",
+      "sha256": "7eccf0995c24f6a9264db19f3eb70ccbdd7d11415771b1d952fffe250453ea3e",
+      "status": "reviewed_exploratory"
+    },
+    "end": {
+      "file": "end.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S01-09/end/end-candidate-v1.png",
+      "sha256": "ad46db71bbfc09b0f58065e84874885dba5043b953f6bb23d1efb7efa936746b",
+      "status": "reviewed_exploratory"
+    }
+  },
+  "review": {
+    "reviewer": "/root/review_endpoint",
+    "verdict": "acceptable_for_exploratory_test",
+    "evidence": "Forward bow POV, stable hull and hand, paddle intact to splintered, exit to open water. Root collision and reverse cloth/hair movement still need intermediate coverage.",
+    "author_approved": false,
+    "reviewed_hashes": {
+      "start": "7eccf0995c24f6a9264db19f3eb70ccbdd7d11415771b1d952fffe250453ea3e",
+      "end": "ad46db71bbfc09b0f58065e84874885dba5043b953f6bb23d1efb7efa936746b"
+    }
+  },
+  "author_approval_recorded": false,
+  "status": "current_draft_delivery_not_final_episode",
+  "image_processing": "unchanged source bytes; may require fitting to exact 16:9 before remote submission"
+}

@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Compositor"
-  short_description: "Assemble only approved registered cels, backgrounds, masks, effects and camera data"
-  default_prompt: "Use $anime-compositor for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

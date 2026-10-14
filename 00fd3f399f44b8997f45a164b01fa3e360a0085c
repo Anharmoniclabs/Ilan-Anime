@@ -1,0 +1,44 @@
+{
+  "photocraft": {
+    "executable": "/home/alabs/.local/bin/photocraft-cli",
+    "purpose": "sketches, raster cleanup, paint and transparent cels",
+    "status": "connected",
+    "tools": 20
+  },
+  "vectorcraft": {
+    "executable": "/home/alabs/.local/bin/vectorcraft-cli",
+    "purpose": "vector cleanup, paths, props and titles",
+    "status": "connected",
+    "tools": 25
+  },
+  "effectcraft": {
+    "executable": "/home/alabs/.local/bin/effectcraft-cli",
+    "purpose": "cel exposures, compositing and effects",
+    "status": "connected",
+    "tools": 22
+  },
+  "filmcraft": {
+    "executable": "/home/alabs/.local/bin/filmcraft-cli",
+    "purpose": "shot editing, audio tracks and delivery",
+    "status": "connected",
+    "tools": 17
+  },
+  "lightcraft": {
+    "executable": "/home/alabs/.local/bin/lightcraft-cli",
+    "purpose": "reference development and grading",
+    "status": "connected",
+    "tools": 12
+  },
+  "designcraft": {
+    "executable": "/home/alabs/.local/bin/designcraft-cli",
+    "purpose": "storyboards, model-sheet and production-book layouts",
+    "status": "connected",
+    "tools": 25
+  },
+  "pdfcraft": {
+    "executable": "/home/alabs/.local/bin/printcraft-cli",
+    "purpose": "script and storyboard PDF inspection/export",
+    "status": "connected",
+    "tools": 123
+  }
+}

@@ -1,0 +1,4 @@
+`05:27:00 → 05:33:00` (144f) · INSERT → CROSSCUT · rate 3s
+- **Action:** 'I felt it before I heard it': a pulse climbs the iron riser into JC's soles. Cut to a long dark window across the street. 'Across the street, I thought.' The loop arrives: dry, tuneless, the loudest thing on the block.
+- **FX:** `PIPE_PULSE_CEL; MATCH_CUT(window across); PRESS(0.25 on audio only)`
+- **Sound:** Sub pulse up the pipe, then the 8s loop: no reverb, mono.

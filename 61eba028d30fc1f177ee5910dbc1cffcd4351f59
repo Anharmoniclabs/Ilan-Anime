@@ -1,0 +1,19 @@
+{
+  "tool": "import",
+  "arguments": {
+    "paths": [
+      "/home/alabs/Projects/Ilan-Anime/production/craft-validation/workbench-v2/paint.png"
+    ]
+  },
+  "status": "succeeded",
+  "result": {
+    "duplicates": [],
+    "failed": [],
+    "files": 1,
+    "imported": [
+      1
+    ],
+    "scanned": 1,
+    "sidecars": 0
+  }
+}

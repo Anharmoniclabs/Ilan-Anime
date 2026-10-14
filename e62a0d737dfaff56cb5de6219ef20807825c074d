@@ -1,0 +1,19 @@
+{
+  "tool": "draw_shape",
+  "arguments": {
+    "shape": "ellipse",
+    "x": 20,
+    "y": 20,
+    "width": 120,
+    "height": 120,
+    "fill": "#d9aa55"
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 2,
+    "paint": {
+      "fill": "#d9aa55"
+    },
+    "shape": "ellipse"
+  }
+}

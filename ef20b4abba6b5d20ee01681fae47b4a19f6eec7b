@@ -1,0 +1,13 @@
+{
+  "tool": "doc_new",
+  "arguments": {
+    "width": 320,
+    "height": 180,
+    "name": "Ilan technical canvas",
+    "background": "#17213c"
+  },
+  "status": "succeeded",
+  "result": {
+    "document": 0
+  }
+}

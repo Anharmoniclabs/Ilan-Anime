@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "task_id": "writing",
+  "worker_role": "script-supervisor",
+  "reviewer_role": "episode-director",
+  "reviewer_host_agent_id": "/root/writing_review",
+  "decision": "approve",
+  "approval_scope": "Technical review of the exploratory written production pack only. This is not author approval, canonical promotion, a final recording-script approval, or an animation/artwork approval.",
+  "reviewed_at_utc": "2026-10-14T00:04:55.544078+00:00",
+  "artifact_sha256": {
+    "production/runs/arthouse-pack-v1/tasks/writing/CHARACTER_BIBLE.md": "d7f18c412000863e6c249643ab63aec4f064ce377c910d76ace15de551f5fe14",
+    "production/runs/arthouse-pack-v1/tasks/writing/CONTINUITY_DECISIONS.md": "8e0a51fc4b912a59f01991ec9a710e9fcdc607db3c270a3746ee1ec21bf081e6",
+    "production/runs/arthouse-pack-v1/tasks/writing/PRODUCTION_GUIDE.md": "80902e09543041d7be50b6ca503cbaa94089327d8fa44979b2f9b338be63f99f",
+    "production/runs/arthouse-pack-v1/tasks/writing/S01_SHOOTING_SCRIPT.md": "530c8fc920e29c6a58259cb4aeb933212a9a09eff56240ae798c27be287e0ca3",
+    "production/runs/arthouse-pack-v1/tasks/writing/SCRIPT.fountain": "704ad46cd8f9bf045eae940809123a6748ac84ee2ac87d34473200c04bc503ad",
+    "production/runs/arthouse-pack-v1/tasks/writing/build_pack.py": "f4489cbc4c08143118ede8abba9d0e97bfeb9790172a6b82585182d9e6db4706",
+    "production/runs/arthouse-pack-v1/tasks/writing/cast.json": "b185dbf7b77adaa58e0b10611247ab255f8d3828976584928637a09a04315645",
+    "production/runs/arthouse-pack-v1/tasks/writing/result.json": "3b920687a6875074a105eb05816125f387b781d6ee96ac20757f3d7224457a62",
+    "production/runs/arthouse-pack-v1/tasks/writing/storyboard-beats.json": "512d7fd864cb3949de24a901ba04c24a7bfa25f8a2e08806e9bf6aa7e394cafd"
+  },
+  "evidence": [
+    "Read AGENTS.md, episode-director role skill, production/WORKER_CONTRACT.md, docs/STATUS.md, production/art_direction.json, the writing ledger envelope and writing result.json.",
+    "Independently compared all 128 episode.json shot script blocks to EPISODE_SCRIPT.md: each source block occurs verbatim in that file.",
+    "SCRIPT.fountain has exactly one source marker for each of 128 body shots. Every Action, Sound and Note field and every curly-quoted string within the body shots is preserved. ED source paragraph is retained separately. Body coverage remains 27,120 frames.",
+    "All 15 storyboard-beats.json S01 shot IDs, starts, exclusive ends and durations exactly equal episode.json. Total 3,024 frames (126 seconds), absolute [216,3240). Matching 15 shooting-script headings and ranges verified.",
+    "S01 board beats preserve lead canoe Dairon/Yara/Amaia/son, second canoe Beheto and drum, third canoe three lit children. New screen direction, staging and action beats are labeled proposals.",
+    "CHARACTER_BIBLE.md separates episode facts, older subordinate references, proposed designs and acting briefs. Includes named cast, age variants and ensemble coverage, plus practical Amaia/Dairon turnaround, contact, replacement drawing and puppet construction requirements.",
+    "PRODUCTION_GUIDE.md gives useful seven-engine handoffs, explicit project saving and receipts, registration/contact rules, exposure totals, editorial/sound requirements and independent/author gates. It distinguishes boards, setups and camera motion from finished acting.",
+    "No unsupported author/canonical approval claim found. Missing pencil likeness references, source ambiguities, no recorded voices and no final animation are explicitly acknowledged."
+  ],
+  "required_corrections": [],
+  "recording_completeness_limits": [
+    "Fountain is a source-faithful 128-shot reading companion, not a completed recording script. Some source VO is paraphrased, some speech is embedded in action, and implicit speaker assignments are editorial proposals.",
+    "Source action/sound and separately extracted dialogue intentionally duplicate some lines. Deduplicate and verify speaker attribution in a dedicated recording pass before recording or lip sync; do not voice both occurrences.",
+    "No recordings were delivered or listened to. Spoken fit against locked shot durations is untested."
+  ],
+  "unresolved_author_decisions": [
+    "S01-11/12: machine timing 576 frames / 24 seconds conflicts with source showcase 22-second label, 0–168 microbeat coverage and 2s-versus-3s character cadence. Final exposure approval remains blocked.",
+    "Canonical likeness needs original pencil portraits and approval of exact delivered design files; exploratory archival sheets cannot confer identity approval.",
+    "Resolve spoken fourteen-to-eleven headcount against eight explicitly staged people and ambiguous absent passengers; identify snapped paddle owner before subsequent grip/paddle continuity.",
+    "Resolve S01-15 sound bridge across intervening S02 title, implicit recording attribution/unfinished VO, ED final ten-second-black allocation, and source Don Chino/Fela naming relationships before affected final production."
+  ],
+  "limitations": [
+    "Full screenplay preservation here means all 128 source shot Action/Sound/Note fields and shot dialogue plus ending paragraph. It does not mean a byte-for-byte archival copy of EPISODE_SCRIPT.md: standalone scene-purpose prose, showcase choreography tables, FX-library definitions and sound reference appendix remain in the original source and must continue to be consulted.",
+    "No artwork, native engine file, motion or sound was reviewed in this writing-only assignment. Bible briefs do not prove delivery of character sheets or functioning puppets.",
+    "Review changes only this review JSON; worker outputs, ledger and approval registry are untouched. Exact-file author approval is still required for canonical promotion."
+  ]
+}

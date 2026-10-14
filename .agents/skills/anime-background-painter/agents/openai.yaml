@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Background Painter"
-  short_description: "Paint registered foreground, midground, background, occlusion and clean-plate layers fr..."
-  default_prompt: "Use $anime-background-painter for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

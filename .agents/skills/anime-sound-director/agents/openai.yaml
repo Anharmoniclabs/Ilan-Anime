@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Sound Director"
-  short_description: "Map exact scripted dialogue, performance intent, ambience, effects and silence onto sho..."
-  default_prompt: "Use $anime-sound-director for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

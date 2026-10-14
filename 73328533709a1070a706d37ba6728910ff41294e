@@ -1,0 +1,29 @@
+{
+  "scope": "Everyone in Episode1 per user clarification",
+  "complete": false,
+  "state": "awaiting_author_review_of_first_modern_source_batch",
+  "delivered": {
+    "modern_source_drawings": 8,
+    "river_reference_libraries": 12,
+    "new_amaia_contact_still": 1,
+    "amaia_partial_library_assets": 14,
+    "cast_inventory_entries": 81
+  },
+  "not_completed": [
+    "Full Episode1 character set",
+    "Historical/childhood variants and supporting cast drawing sets",
+    "Registered hidden joint/body/hair/clothing/accessory layers",
+    "Scene-specific contacts/phonemes/action replacement sequences and motion approval"
+  ],
+  "modern_manifest": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/assembly-c154e3959159.json",
+  "modern_manifest_sha256": "231f3adffbc02a781fdbb388b9fb5bda8ff925fc3a2a34d5b16c92110800c77e",
+  "review_book": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/review-c154e3959159/review-book.pdf",
+  "contact_still": "production/runs/cemi-90s-production/tasks/amaia-complete/contact-s01-13/contact-slate.png",
+  "review_reports": [
+    "production/character-completion-episode1/reviews/independent-review.json",
+    "production/character-completion-episode1/reviews/modern-and-contact-review.json",
+    "production/character-completion-episode1/reviews/modern-v2-review.json"
+  ],
+  "author_approval_granted_this_turn": false,
+  "water_modified_by_this_work": false
+}

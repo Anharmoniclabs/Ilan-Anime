@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Ink and Paint Artist"
-  short_description: "Apply approved palette IDs, line finish, cel-shadow and highlight shapes, alpha edges,..."
-  default_prompt: "Use $anime-ink-paint-artist for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

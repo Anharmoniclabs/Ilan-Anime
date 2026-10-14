@@ -1,0 +1,4 @@
+`06:11:00 → 06:15:00` (96f) · FIX · room · rate —
+- **Action:** Everything in the apartment goes out at once: laptop, lamp, router LEDs, fan spin-down. Black.
+- **FX:** `BLACKOUT_POP(sequential 3f gaps)`
+- **Sound:** Fan whine falls. Total silence for 1s.

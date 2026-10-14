@@ -1,0 +1,9 @@
+Review the eight source drawings in:
+production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/review-c154e3959159/review-book.pdf
+
+This gate accepts source designs only, never rigs or finished animation. Abuela is a hand reference, not the coin-handoff insert. Vale is one photo pose.
+
+Luis can record an acceptance from the repository root using:
+.venv/bin/python -m studio approve --run cemi-90s-production episode1-modern-assets --decision approve --evidence "Reviewed exact sources in assembly-c154e3959159.json; accept source designs only, Abuela hand reference only and Vale photo pose only" --i-am-luis
+
+Do not run this unless these exact designs are accepted. Corrections can be given by character. The agent has not run it.

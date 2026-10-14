@@ -1,0 +1,5 @@
+`18:42:00 → 18:50:00` (192f) · BLACK · rate —
+- **Action:** Black. The 8-second loop plays once, unmasked, exactly 192 frames. At the start of the next cycle, hard cut to silence.
+- **FX:** `HOLD_BLACK; LOOP_PLAY(192f); HARD_SILENCE`
+- **Sound:** THE LOOP, once. Then nothing.
+- **Note:** The only time the audience hears it clean.

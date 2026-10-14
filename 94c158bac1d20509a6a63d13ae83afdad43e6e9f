@@ -1,0 +1,216 @@
+{
+  "task_id": "modern-and-contact-independent-review",
+  "role": "quality-review",
+  "status": "submitted",
+  "art_direction_mode": "CHARACTER_ASSET",
+  "decision_summary": {
+    "approve_limited_draft_sources": [
+      "mama",
+      "sofia",
+      "vale-photo-only",
+      "window-man-silhouette",
+      "abuela-hands-reference-only",
+      "amaia-son-contact-still"
+    ],
+    "revise_clean_masters": [
+      "jc-unrequested-shoe-logo",
+      "manny-unrequested-shoe-logos",
+      "rodriguez-continuity-adaptation"
+    ],
+    "reject_story_insert": [
+      "abuela-hands-current-coin-and-no-child-handoff"
+    ]
+  },
+  "reference_precedence": [
+    "Current user corrections and script",
+    "Current character bible (adaptation details identified as such)",
+    "Author cover used ONLY for finish/style, not identity tracing"
+  ],
+  "style_reference": {
+    "path": "projects/cemi_episode_01/assets/references/author-cover-style.png",
+    "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c"
+  },
+  "entries": [
+    {
+      "id": "jc",
+      "source": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/jc-master.png",
+      "sha256": "e4609e083a908ad3127cb470e6ecb14027def90faa3c1168efead05f63ee0cdb",
+      "technical_draft_decision": "revise",
+      "accepted_scope": "Retain as exploratory design reference; not accepted as clean production master.",
+      "positive_observations": [
+        "Lean young adult, short curls/faded sides, hoodie, headphones, earbud and puck; face/hands/shoes framed; source alpha composites cleanly on slate."
+      ],
+      "defects_or_limits": [
+        "Remove unrequested Nike-like shoe swoosh under character-asset no-logo requirement.",
+        "Close-up identity remains proposed; no author approval. No separate headset/puck/cloth/hand layers or alternate views."
+      ],
+      "author_approval": false,
+      "canonical": false,
+      "rig_approval": false
+    },
+    {
+      "id": "manny",
+      "source": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/manny-master.png",
+      "sha256": "a9e761a596802d9d131e01d0d76501d87d6e425e1e843cc3c5f09a299d17a252",
+      "technical_draft_decision": "revise",
+      "accepted_scope": "Retain as exploratory design reference; not accepted as clean production master.",
+      "positive_observations": [
+        "Broad shoulders/chest, large hands, close-cropped hair, warm expression; distinguishes physique clearly from JC; full feet/hands."
+      ],
+      "defects_or_limits": [
+        "Prominent N shoe logos conflict with no-logo drawing constraint; remove before clean master acceptance.",
+        "No drum case, coffee grips, palm contact, alternate views or motion. Relative 6ft3 height needs scene registration."
+      ],
+      "author_approval": false,
+      "canonical": false,
+      "rig_approval": false
+    },
+    {
+      "id": "mama",
+      "source": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/mama-master.png",
+      "sha256": "d574a084b616dfbefda4b5fa3aa124a362b8728598f83d7ef5a9e661c9556730",
+      "technical_draft_decision": "approve",
+      "accepted_scope": "One exploratory adult neutral source drawing.",
+      "positive_observations": [
+        "Gray-streaked pulled-back hair, firm stare, blouse/slacks/slippers and rosary; plausible anatomy and fully framed extremities."
+      ],
+      "defects_or_limits": [
+        "Rosary dangles; scripted fist-click grip is not provided. Dish towel absent; needs kitchen pose variant.",
+        "Younger 2007 and JC9/12 variants missing; present face approval does not imply those."
+      ],
+      "author_approval": false,
+      "canonical": false,
+      "rig_approval": false
+    },
+    {
+      "id": "sofia",
+      "source": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/sofia-master.png",
+      "sha256": "4a2503596a619637605e5776d8e057dd8dfc777bd05ffd032ff880b04e67f17f",
+      "technical_draft_decision": "approve",
+      "accepted_scope": "One exploratory adult neutral source drawing.",
+      "positive_observations": [
+        "Sharp expression, glasses, claw clip, cardigan/jeans and readable complete silhouette; anatomy usable as draft."
+      ],
+      "defects_or_limits": [
+        "Glasses/earrings/pendant/watch are proposed adaptation details; no author approval.",
+        "Laptop, earbud receiving hand, seated dialogue, asleep/prosecuting states and lease gesture absent."
+      ],
+      "author_approval": false,
+      "canonical": false,
+      "rig_approval": false
+    },
+    {
+      "id": "rodriguez",
+      "source": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/rodriguez-master.png",
+      "sha256": "a5adea68a029991011d9947ad6c86071fd28d93539fd0e3318d2b66e57d5ddd2",
+      "technical_draft_decision": "revise",
+      "accepted_scope": "Usable aged caf\u00e9-owner exploration; not accepted as bible-consistent present-day master.",
+      "positive_observations": [
+        "Elderly facial planes, substantial brows, caf\u00e9 apron and complete hands/shoes; coherent drawing."
+      ],
+      "defects_or_limits": [
+        "Mustache contradicts clean-shaven adaptation in current bible, deliberately contrasted with mustached 1973 father. Remove or obtain explicit changed adaptation before continuity acceptance.",
+        "Build reads slim rather than stocky bible adaptation. No rag, card/marker handoff or eyebrow replacements."
+      ],
+      "author_approval": false,
+      "canonical": false,
+      "rig_approval": false
+    },
+    {
+      "id": "vale",
+      "source": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/vale-master.png",
+      "sha256": "93b33c36e25a2901d459d956bc2f30b51545b9127c7efbca3c18b27c4897b6f9",
+      "technical_draft_decision": "approve",
+      "accepted_scope": "One exploratory photograph/reference pose only.",
+      "positive_observations": [
+        "Tall slender gray-haired man, good gray coat/dark suit, small black notebook. Rigid notebook and visible grip plausible."
+      ],
+      "defects_or_limits": [
+        "Pocket-hidden hand supplies no usable hand drawing for a full rig; acceptable only to this photo pose scope.",
+        "Not the S14-04 ribbon-cutting photograph: giant scissors missing. Nine-photo coverage not supplied. Expression stern rather than courteous half-smile; author adaptation review pending."
+      ],
+      "author_approval": false,
+      "canonical": false,
+      "rig_approval": false
+    },
+    {
+      "id": "window-man",
+      "source": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/window-man-master.png",
+      "sha256": "139ed5982e8c4868dd83c4aa38977c4455e000e76bca871e518886e3123c4e47",
+      "technical_draft_decision": "approve",
+      "accepted_scope": "One unidentified distant-window silhouette source.",
+      "positive_observations": [
+        "Face withheld, headphones readable, full body present. Appropriate anonymous silhouette rather than invented Danny reveal."
+      ],
+      "defects_or_limits": [
+        "Hand detail merges into silhouette; unsuitable for hand closeups.",
+        "Flat-white window/backlight and 8-frame double exposure remain shot compositing tasks; no motion approval."
+      ],
+      "author_approval": false,
+      "canonical": false,
+      "rig_approval": false
+    },
+    {
+      "id": "abuela-hands",
+      "source": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/abuela-hands-master.png",
+      "sha256": "03b48acca87a4e9b777b91f50d5d19daee802c5e626f345632399f5e0f78c118",
+      "technical_draft_decision": "approve",
+      "accepted_scope": "Elderly hands-only design reference; REJECT as finished S03-06 coin-handoff insert.",
+      "positive_observations": [
+        "Weathered hands and housedress cuffs consistent with face-withheld requirement; thumb/finger shapes readable at source scale."
+      ],
+      "defects_or_limits": [
+        "Coin is a concentric spiral without scripted spiral-opening-into-triangle/hooks; replace with approved prop artwork before story use.",
+        "Both hands are elderly. Script S03-06 requires Abuela placing coin into 12-year-old JC\u2019s hand; child hand/contact absent.",
+        "S13-06 wrist catch and mango handoff absent. Hands/coin flattened together; no separated replacements."
+      ],
+      "author_approval": false,
+      "canonical": false,
+      "rig_approval": false
+    },
+    {
+      "id": "amaia-son-contact",
+      "source": "production/runs/cemi-90s-production/tasks/amaia-complete/contact-s01-13/candidate.png",
+      "sha256": "8a844f1098286df2dbfe2efc1d9104eeaf06a8e0b1156f66073901d6b8737802",
+      "technical_draft_decision": "approve",
+      "accepted_scope": "One newly generated seated mother/son contact source drawing for S01-13 development only.",
+      "positive_observations": [
+        "Both supporting maternal hands readable: front forearm across lap/thighs, other hand supporting child hip/back. Child eyes closed, head rests against maternal wrapped ribs.",
+        "Adult feminine slim anatomy and white diagonal wrap/rust skirt/hair tie/circular pendant consistent with approved r2 design language. Child white clothes/dark hair/toddler proportions retained.",
+        "All mother and child feet retained; no obvious extra limbs or gross contact failure in this still. Native slate composites without retained colored haze."
+      ],
+      "defects_or_limits": [
+        "New face and posed drawing do not inherit r2 exact-file author approval. Mother face looks calm/front-facing; shot-specific counting/turning concern performance not supplied.",
+        "Single connected paint drawing hides child far arm and maternal rear forearm; independent mother/child articulation, hidden overlap underpaint, breathing/speech/lean replacement cels missing.",
+        "Narrow right skirt margin; allow safe room when composing. Portrait model asset not a final 16:9 canoe shot. Neutral illumination requires moonless scene lighting treatment."
+      ],
+      "author_approval": false,
+      "canonical": false,
+      "rig_approval": false,
+      "native_hashes": {
+        "contact-source.ecproj": "bf814832c8aa4ceba2a980fb6ac3dbf3470457af59c6a31ff4b9f4025ee3159b",
+        "contact-source.pcraft": "0822aacdfc60148a55c416779e45d7d70b2ab665a5e0f1928d4185a8baf457dd",
+        "contact-source.psd": "dcf36c13230aa8622911e1c618aab097d6b90027b18f7857e411b10eafd1a5ee",
+        "contact-slate.png": "b10602a53b8af85b339e0c8eeb38270800e1b242971a4d06a4f8cede127f28dc"
+      }
+    }
+  ],
+  "technical_evidence": [
+    "Directly viewed all eight full generated source images and all eight independently composited native EffectCraft slate renders.",
+    "Directly viewed Amaia contact slate and independently reopened/re-rendered contact EffectCraft project.",
+    "Independently reopened all eight modern .pcraft masters and contact .pcraft; hashes unchanged. Modern docs contain full flattened editable source plus hidden original, not separated body parts.",
+    "Every modern source has alpha-zero corners. Native slate composites show the apparent RGB haze is not a baked visible background. No alpha matte repair performed.",
+    "Exact source and native review hashes in modern-contact-checks.json; read-only review did not modify submitted assets."
+  ],
+  "scope_limits": [
+    "No rig, animation, author approval or canonical status granted.",
+    "No video played: all reviewed outputs are still source drawings.",
+    "Native modern assembly was active; review binds exact listed hashes, not later edits."
+  ],
+  "evidence_artifacts": [
+    "production/character-completion-episode1/reviews/modern-contact-checks.json",
+    "production/character-completion-episode1/reviews/modern-slate-review.ecproj",
+    "production/character-completion-episode1/reviews/check_modern_contact.py"
+  ],
+  "blockers": []
+}

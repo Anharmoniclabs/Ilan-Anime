@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Voice Performer"
-  short_description: "Preserve exact approved dialogue, character intent and cue duration"
-  default_prompt: "Use $anime-voice-performer for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

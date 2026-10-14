@@ -1,0 +1,14 @@
+{
+  "tool": "export",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/craft-validation/workbench-v2/prop.svg",
+    "format": "svg"
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 449,
+    "format": "svg",
+    "path": "/home/alabs/Projects/Ilan-Anime/production/craft-validation/workbench-v2/prop.svg",
+    "warnings": []
+  }
+}

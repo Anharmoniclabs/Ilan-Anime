@@ -1,0 +1,26 @@
+{
+  "shot": "S14-02",
+  "start_frame": 21672,
+  "end_frame_exclusive": 21792,
+  "frames": 120,
+  "fps": 24,
+  "duration_seconds": 5.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "missing",
+      "file": null
+    },
+    "end": {
+      "state": "missing",
+      "file": null
+    }
+  },
+  "status": "draft_pack_not_approved",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false
+}

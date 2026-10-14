@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime SFX Artist"
-  short_description: "Create or select authorized effects for contacts, water, wakes, bells, atmosphere and s..."
-  default_prompt: "Use $anime-sfx-artist for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

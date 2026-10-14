@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Art Director"
-  short_description: "Derive environments and layout from approved visual language and scene lighting"
-  default_prompt: "Use $anime-art-director for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

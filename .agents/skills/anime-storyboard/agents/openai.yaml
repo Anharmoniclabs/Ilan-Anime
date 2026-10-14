@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Storyboard Artist"
-  short_description: "Plan sequential panels for actual action changes, camera axis, eyelines, screen directi..."
-  default_prompt: "Use $anime-storyboard for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

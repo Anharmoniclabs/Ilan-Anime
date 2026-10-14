@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Character Designer"
-  short_description: "Compare approved references for silhouette, age, facial landmarks, costume, materials a..."
-  default_prompt: "Use $anime-character-designer for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

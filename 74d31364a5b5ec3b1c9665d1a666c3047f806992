@@ -1,0 +1,17 @@
+{
+  "tool": "render_frame",
+  "arguments": {
+    "time": 0,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/character-completion-episode1/reviews/rodriguez-master-slate.png",
+    "max_side": 0,
+    "inline": false
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 102,
+    "height": 1536,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/character-completion-episode1/reviews/rodriguez-master-slate.png",
+    "time": 0.0,
+    "width": 1024
+  }
+}

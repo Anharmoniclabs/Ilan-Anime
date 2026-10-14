@@ -1,0 +1,4 @@
+`09:44:00 → 09:49:00` (120f) · WS door → MS · rate 3s
+- **Action:** 9:30. Manny enters backward, shouldering the door with a drum case in one hand and two iced coffees in the other. “For the labor. I'm management now. I delegate hydration.”
+- **FX:** `DOOR_BUMP_CEL; SMEAR_CEL(1f)`
+- **Sound:** Door bell. Ice rattles.

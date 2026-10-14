@@ -1,0 +1,29 @@
+{
+  "shot": "S00-01",
+  "frames": 96,
+  "fps": 24,
+  "duration_seconds": 4.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "images": {
+    "start": {
+      "file": "start.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S00-01/start/start-local-draft.png",
+      "sha256": "9d338b25d05ebcdfdf4a697e76f6f43d7262d5ab78529af5ca9a0f1fc75ff83c",
+      "status": "unreviewed_or_conditional_draft"
+    },
+    "end": {
+      "file": "end.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S00-01/end/end-local-draft.png",
+      "sha256": "d94315444a009f5170fec656afb984465125e9c0e353b919d3dcaf31417be54f",
+      "status": "unreviewed_or_conditional_draft"
+    }
+  },
+  "review": {},
+  "author_approval_recorded": false,
+  "status": "current_draft_delivery_not_final_episode",
+  "image_processing": "unchanged source bytes; may require fitting to exact 16:9 before remote submission"
+}

@@ -1,0 +1,4 @@
+`08:48:00 → 08:53:00` (120f) · WS · exterior · rate 3s
+- **Action:** El Disco Café under the El. A train passes overhead and the sign shakes. Where the paint has worn, older letters come through: DISCOS QUISQUEYA.
+- **FX:** `PAINTED_BG(cafe_exterior); TRAIN_SHAKE(CAMERA); PALIMPSEST_TEXT(fade)`
+- **Sound:** Train roar; shake; everyone inside keeps talking.

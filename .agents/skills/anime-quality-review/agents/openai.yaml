@@ -1,6 +1,0 @@
-interface:
-  display_name: "Anime Quality Reviewer"
-  short_description: "Inspect delivered artifacts independently against task inputs and acceptance criteria"
-  default_prompt: "Use $anime-quality-review for the dispatched ledger task."
-policy:
-  allow_implicit_invocation: false

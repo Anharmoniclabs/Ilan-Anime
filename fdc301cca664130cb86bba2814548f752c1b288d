@@ -1,0 +1,43 @@
+{
+  "shot": "S01-07",
+  "start_frame": 1416,
+  "end_frame_exclusive": 1584,
+  "frames": 168,
+  "fps": 24,
+  "duration_seconds": 7.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "unreviewed_candidate",
+      "file": "start.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/keyframes/S01-07.png",
+      "sha256": "d8ee48e756b44ea9fa150f9e687ed2d100038dbf8e1207b6bc1ef4a24f054347",
+      "source_file": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S01-07/start/start-candidate.png"
+    },
+    "end": {
+      "state": "generated_candidate_awaiting_review",
+      "file": "end.png",
+      "sha256": "86048c63d6b776db631e85f6f5d3e7afd4347a02c5f5e86fab77867b5384d3e6",
+      "method": "built-in image_gen reference edit",
+      "reference": "start/start-candidate.png",
+      "source_file": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S01-07/end/end-candidate-v1.png"
+    }
+  },
+  "status": "draft_pack_not_approved",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false,
+  "draft_review": {
+    "reviewer": "/root/review_endpoint",
+    "verdict": "conditional_draft",
+    "evidence": "Pair continuity matches; verify two guards against adjacent staging. Pen/page insert still needed.",
+    "author_approved": false,
+    "reviewed_hashes": {
+      "start": "d8ee48e756b44ea9fa150f9e687ed2d100038dbf8e1207b6bc1ef4a24f054347",
+      "end": "86048c63d6b776db631e85f6f5d3e7afd4347a02c5f5e86fab77867b5384d3e6"
+    }
+  }
+}

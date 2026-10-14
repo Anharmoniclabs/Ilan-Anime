@@ -1,0 +1,55 @@
+{
+  "shot": "S05-15",
+  "start_frame": 8904,
+  "end_frame_exclusive": 9000,
+  "frames": 96,
+  "fps": 24,
+  "duration_seconds": 4.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "generated_candidate_awaiting_review",
+      "file": "start.png",
+      "sha256": "92bd2cf112c5efc2faba1017fd2d28a8ade5ba7a238404a03e3b3470f49a1de9",
+      "method": "built-in image_gen reference edit",
+      "prompt_file": "start-generation-prompt.txt",
+      "source_file": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S05-15/start/start-candidate-v1.png"
+    },
+    "end": {
+      "state": "local_editorial_draft",
+      "file": "end.png",
+      "sha256": "3590e96ed0d7e133c1bbd01226ccc68ea3b11286058bf460c8c0be4dfe6bf8d3",
+      "method": "scripted pure black, ffmpeg color source",
+      "source_file": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S05-15/end/end-local-black.png"
+    }
+  },
+  "status": "draft_pack_not_approved",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false,
+  "reference_history": [
+    {
+      "start": {
+        "state": "missing",
+        "file": null
+      },
+      "end": {
+        "state": "missing",
+        "file": null
+      }
+    }
+  ],
+  "draft_review": {
+    "reviewer": "/root/review_endpoint",
+    "verdict": "acceptable_for_exploratory_test",
+    "evidence": "Wide-room setup matches character and neighboring environment. Laptop, lamp, router and fan visible. Black endpoint appropriate; shutdown offsets and fan spin-down need intermediate animation.",
+    "author_approved": false,
+    "reviewed_hashes": {
+      "start": "92bd2cf112c5efc2faba1017fd2d28a8ade5ba7a238404a03e3b3470f49a1de9",
+      "end": "3590e96ed0d7e133c1bbd01226ccc68ea3b11286058bf460c8c0be4dfe6bf8d3"
+    }
+  }
+}

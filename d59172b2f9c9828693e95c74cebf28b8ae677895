@@ -1,0 +1,16 @@
+Visual language: Complete cinematic hand-inked 2D graphic-novel animation derived from the author's drawings; not generic anime, 3D, glossy vector art or unfinished graphite.
+Line: Confident irregular variable-width ink, controlled broken edges and intentional hatching/crosshatching with clean readable silhouettes.
+Faces: Individualized angular organic construction, grounded expressive eyes, uneven bold brows, specific noses and human asymmetry; anime influence is limited to acting and polish.
+Color: Full rich color with painterly wash, paper tooth, two or three cel planes and a navy/steel versus amber split while preserving skin pigment.
+Text: No generated words, slogans, labels, meaningless graffiti, watermarks or speech-bubble dialogue. Only explicitly requested editorial typography is allowed, and accurate story signage is composited in post.
+Geometry: Faces, skulls, hands, grips, props, hulls and contact points remain stable; rigid objects stay rigid and effects remain on independent layers.
+Layers: Characters, rigid props, effects, foregrounds and backgrounds remain independently usable whenever the requested mode requires production layers.
+Match the attached reference drawings exactly for identity, costume, props and line character.
+
+`15:34:00 → 15:54:00` (480f) · OTS · earbud · rate 3s
+- **Action:** JC tells her about the loop and puts an earbud in her hand. “That's a loop. That's every hold music in America.” “It's under everything on the block. No tune. It makes whatever it's under feel pressed flat. And the block's been mean lately.” “I've noticed it's been a long winter and the landlord on Creston is a monster.” She sets the earbud down 'like evidence'. “What I don't have is a number... I need a control. A block without it.”
+- **FX:** `HOLD; MOUTH_FLAP; EARBUD_INSERT; HOLD_MUSIC_GAG(2s)`
+- **Sound:** The loop in the earbud; mid-line cut to bland hold-music for the gag.
+
+Shot S14-05: 20 seconds at 24 fps. Preserve the attached reference identities, costumes, props, palette and linework. Animate the scripted action with stable faces, hands, grips and rigid objects. Keep effects separate from body shapes. No unrequested characters or amplified glow. All exact lettering, titles, subtitles and dialogue are added in post; do not generate lettering. Reference soundtrack is temporary.
+This shot exceeds the Space maximum of 14 seconds. Author separate continuity-linked segments before submission; do not compress the full shot.
