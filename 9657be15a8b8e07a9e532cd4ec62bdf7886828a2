@@ -1,0 +1,12 @@
+{
+  "tool": "render_frame",
+  "arguments": {
+    "time": 0.0,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/native/frames/000000.png",
+    "max_side": 0,
+    "inline": false
+  },
+  "status": "failed",
+  "result": "ERROR: cannot write /home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/native/frames/000000.png: No such file or directory (os error 2)",
+  "exception": "render_frame: ERROR: cannot write /home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/native/frames/000000.png: No such file or directory (os error 2)"
+}

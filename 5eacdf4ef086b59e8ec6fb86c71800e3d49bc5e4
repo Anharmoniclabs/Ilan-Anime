@@ -1,0 +1,16 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addItem",
+    "params": {
+      "item": "blink.png",
+      "time": 3.75,
+      "duration": 0.125,
+      "index": 1
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 262
+  }
+}

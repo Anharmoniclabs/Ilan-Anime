@@ -1,0 +1,58 @@
+{
+  "reference": "production/runs/episode1-picture-motion/tasks/amaia-motion/raw/rest.png",
+  "lock": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/masks/contact-lock.png",
+  "box": null,
+  "residual_limit": 0.06,
+  "ncc_floor": 0.85,
+  "cels": [
+    {
+      "cel": "production/runs/episode1-picture-motion/tasks/amaia-motion/raw/count-a.png",
+      "output": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/registration/count-a.png",
+      "dx": -0.07,
+      "dy": 0.04,
+      "scale": 1.0,
+      "residual_before": 0.0072,
+      "residual_after": 0.0075,
+      "ncc_after": 0.9979,
+      "status": "aligned",
+      "reason": null
+    },
+    {
+      "cel": "production/runs/episode1-picture-motion/tasks/amaia-motion/raw/count-o.png",
+      "output": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/registration/count-o.png",
+      "dx": -0.05,
+      "dy": 0.04,
+      "scale": 1.0,
+      "residual_before": 0.0062,
+      "residual_after": 0.0062,
+      "ncc_after": 0.9983,
+      "status": "aligned",
+      "reason": null
+    },
+    {
+      "cel": "production/runs/episode1-picture-motion/tasks/amaia-motion/raw/blink.png",
+      "output": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/registration/blink.png",
+      "dx": -0.01,
+      "dy": 0.07,
+      "scale": 1.0,
+      "residual_before": 0.0065,
+      "residual_after": 0.0065,
+      "ncc_after": 0.9982,
+      "status": "aligned",
+      "reason": null
+    },
+    {
+      "cel": "production/runs/episode1-picture-motion/tasks/amaia-motion/raw/head-down.png",
+      "output": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/registration/head-down.png",
+      "dx": -0.01,
+      "dy": 0.05,
+      "scale": 1.0,
+      "residual_before": 0.0062,
+      "residual_after": 0.0063,
+      "ncc_after": 0.9979,
+      "status": "aligned",
+      "reason": null
+    }
+  ],
+  "truth": "Alignment fixes displacement only. needs_redraw cels must be redrawn."
+}

@@ -1,0 +1,13 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.set",
+    "params": {
+      "layer": 110,
+      "path": "transform/opacity",
+      "value": 50
+    }
+  },
+  "status": "succeeded",
+  "result": 50.0
+}

@@ -1,0 +1,14 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.setParent",
+    "params": {
+      "layers": [
+        27
+      ],
+      "parent": 97
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}
