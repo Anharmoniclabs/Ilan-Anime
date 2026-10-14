@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 11,
+      "rect": [
+        161,
+        232,
+        764,
+        324
+      ],
+      "content": "text",
+      "text": "on-screen | 2026 | reference-only\nDog bite gag; hand/body contact.\nShots: S03-12"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 391,
+    "story": 392
+  }
+}

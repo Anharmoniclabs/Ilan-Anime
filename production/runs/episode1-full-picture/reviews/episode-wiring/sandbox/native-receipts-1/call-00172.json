@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "file.saveAs",
+    "params": {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/reviews/episode-wiring/sandbox/episode.filmcraft"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "backup": null,
+    "bytes": 36877,
+    "ms": 3.4223,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/reviews/episode-wiring/sandbox/episode.filmcraft"
+  }
+}

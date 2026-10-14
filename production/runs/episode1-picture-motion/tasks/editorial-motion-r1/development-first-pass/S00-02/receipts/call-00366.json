@@ -1,0 +1,21 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "file.import",
+    "params": {
+      "paths": [
+        "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion-r1/grain/grain-0000.png"
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comps": [],
+    "errors": [],
+    "items": [
+      144
+    ],
+    "unlabeledAlpha": [],
+    "warnings": []
+  }
+}

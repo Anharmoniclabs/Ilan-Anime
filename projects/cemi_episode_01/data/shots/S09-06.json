@@ -1,0 +1,58 @@
+{
+  "id": "S09-06",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 264,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "“Your building's empty. The Ballroom. Saturday nights, mambo bands, my mother in her best shoes. I have the dates wrong, I know I do. You live upstairs. Ask your mother.” Hands over a blank card and marker. “Because when they change the block they change the story, and I want the story on paper first.” The 4 goes through, the cups rattle, he's gone to a table.",
+  "camera_note": "CU · blank card",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S09-06",
+        "header": "09:33:00 → 09:44:00 (264f) · CU · blank card · rate 3s",
+        "action": "“Your building's empty. The Ballroom. Saturday nights, mambo bands, my mother in her best shoes. I have the dates wrong, I know I do. You live upstairs. Ask your mother.” Hands over a blank card and marker. “Because when they change the block they change the story, and I want the story on paper first.” The 4 goes through, the cups rattle, he's gone to a table.\nSOUND: Train roar punctuates the line; cups."
+      }
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "scale": 1.0,
+      "ease": "smooth"
+    },
+    {
+      "frame": 263,
+      "scale": 1.08
+    }
+  ],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "HOLD",
+      "TRAIN_SHAKE"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

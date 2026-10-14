@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 132596352000000,
+      "durationFrames": 144,
+      "name": "S08-04 missing",
+      "comment": "thanks; turn; walk toward train"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 82
+  }
+}

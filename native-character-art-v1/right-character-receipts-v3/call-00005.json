@@ -1,0 +1,13 @@
+{
+  "tool": "run_command",
+  "arguments": {
+    "command": "layer.clippingMask.toggle",
+    "params": {
+      "id": 117456
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "clip": true
+  }
+}

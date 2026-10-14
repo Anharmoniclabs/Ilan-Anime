@@ -1,0 +1,5 @@
+`11:14:00 → 11:22:00` (192f) · CU thumb → flash · rate 3s
+- **Action:** Thumb above the screen: open it, read the rest, see the number. He forwards the preview to Sofía (is this anything) and flips the phone face down. Flash: a hand gripping a small child's sleeve at a curb as a car passes. 'No. Not them.'
+- **FX:** `FLASH_CUT(3 cards, 4f each); PHONE_FACE_DOWN`
+- **Sound:** Car horn dopplering; one breath.
+- **Note:** Don't show the face of whoever held the sleeve.

@@ -1,0 +1,4 @@
+`04:04:00 → 04:12:00` (192f) · UI · phone · rate 3s
+- **Action:** 2:41 AM. Manny texts from the 6 train: u alive / define alive / breathing + bad decision energy / then yes / send the kid his EP / it's not done / it's been done for a week gremlin. JC turns the phone face down: 'Nobody should be known that well at three in the morning.'
+- **FX:** `UI_PHONE(chat bubbles typed on); CUT_TO_BACK_OF_PHONE`
+- **Sound:** Phone buzz; keyclicks.

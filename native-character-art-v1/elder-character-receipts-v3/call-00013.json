@@ -1,0 +1,14 @@
+{
+  "tool": "export",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/elder-character-masked.png",
+    "format": "png"
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 455951,
+    "format": "png",
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/elder-character-masked.png",
+    "warnings": []
+  }
+}

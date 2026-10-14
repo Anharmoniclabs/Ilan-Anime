@@ -1,0 +1,31 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "file.import",
+    "params": {
+      "paths": [
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/night-water.png",
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/cels/paddle.png",
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/cels/ripple-contact.png",
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/cels/ripple-small.png",
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/cels/ripple-medium.png",
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/cels/ripple-large.png"
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comps": [],
+    "errors": [],
+    "items": [
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    "unlabeledAlpha": [],
+    "warnings": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "S09-05",
+  "frame": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S09-05-r2.png",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-df59d8bb-5ff4-40b7-8ff4-a57e0cd5d9ac.png",
+  "prompt": "Reframe the attached map scene into a tight straight-on cinematic INSERT of ONLY its physical butcher-paper map, filling nearly entire 16:9 canvas. No people, no hands, no caf\u00e9 tables or window. Show Jerome Avenue street grid from161st to170th, worn butcherpaper, colored thumbtacks, eight irregular indexcards with small shoe/barber/cinema icons. Keep one lower right corner visibly blank. Exact legible card labels: 'Casa Fela \u2014 shoe repair \u2014 1968\u20131994', 'Don Chino\u2019s barbershop', 'The Rialto \u2014 25\u00a2 Saturdays'. Clean1990s anime ink/paint background matching reference. Opaque full color, no collage or UI.",
+  "refs": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S09-05.png",
+      "role": "targeted edit",
+      "sha256": "f127877b22463605fa5c4ba6de56dd0c1b6bd3d6ddc5a981312183bda76f6fe9"
+    }
+  ],
+  "status": "exploratory",
+  "replaces": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S09-05.png",
+  "sha256": "927a1f67186b2a5b1853c54ea4c9abf03eee59cb81c6e719ee1aa2ebad76ed34",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "aspect_ratio": 1.7768331562167907,
+  "visually_inspected": true
+}

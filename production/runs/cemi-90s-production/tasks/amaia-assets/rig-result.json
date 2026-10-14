@@ -1,0 +1,31 @@
+{
+  "task_id": "amaia-native-rig",
+  "role": "character-designer",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/cemi-90s-production/tasks/amaia-assets/amaia-puppet.ecproj",
+    "production/runs/cemi-90s-production/tasks/amaia-assets/amaia-layered.pcraft",
+    "production/runs/cemi-90s-production/tasks/amaia-assets/amaia-layered.psd",
+    "production/runs/cemi-90s-production/tasks/amaia-assets/assembled.png",
+    "production/runs/cemi-90s-production/tasks/amaia-assets/assembled-slate.png",
+    "production/runs/cemi-90s-production/tasks/amaia-assets/posed-blink.png",
+    "production/runs/cemi-90s-production/tasks/amaia-assets/posed-talk.png",
+    "production/runs/cemi-90s-production/tasks/amaia-assets/amaia-control-demo.mp4",
+    "production/runs/cemi-90s-production/tasks/amaia-assets/rig.json",
+    "production/runs/cemi-90s-production/tasks/amaia-assets/build_native_rig.py"
+  ],
+  "evidence": [
+    "Inspected supplied fullbody master, atlas and high-resolution skirt.",
+    "Native EffectCraft crops/masks/transforms/parenting; original generated pixels preserved, no coded vector drawing or tracing.",
+    "Directly viewed neutral assembled slate, posed blink, posed talk; corrected large elbow caps and protruding thigh strips.",
+    "Reopened final EffectCraft project: main neutral first,19layers,17essentialcontrols; reopened PhotoCraft16paintlayers neutralface visible and variants hidden.",
+    "72 native rendered frames at24fps, every three-frame exposure identical by hash; MP4 verified3s720x1080."
+  ],
+  "blockers": [],
+  "limitations": [
+    "Front view only, limited joint rotation; visible small elbow/wrist/knee shade and silhouette transitions remain.",
+    "Three registered whole-head states; not a full phoneme library or face rig.",
+    "Generated atlas limits head/arm resolution for closeups; skirt uses separate1024x1536 image at50%x55%.",
+    "Control demonstration only; no finished scene acting or full anime animation claim."
+  ]
+}

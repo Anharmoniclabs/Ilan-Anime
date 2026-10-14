@@ -1,0 +1,8 @@
+{
+  "deterministic_sample": true,
+  "drum_body_region_changed_pixel_fraction": 0.40602,
+  "bell_layer_has_alpha": true,
+  "bell_transparent_pixel_fraction": 0.8530598958333333,
+  "camera_motion_used_in_test": false,
+  "generic_compositor_frame_rendered": true
+}

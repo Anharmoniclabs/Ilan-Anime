@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addItem",
+    "params": {
+      "item": "expressions.png",
+      "position": [
+        768.0,
+        512.0
+      ],
+      "index": 1
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 521
+  }
+}

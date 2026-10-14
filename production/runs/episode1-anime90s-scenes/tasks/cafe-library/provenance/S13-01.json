@@ -1,0 +1,29 @@
+{
+  "id": "S13-01",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-0c922f72-38a0-44c1-ac8f-953c64a6abc0.png",
+  "refs": [
+    {
+      "path": "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "role": "style only",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "role": "identity jc-present",
+      "sha256": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51"
+    }
+  ],
+  "prompt": "Finished single 16:9 cinematic anime STORY FRAME, landscape1536x864, full opaque richly painted environment edge to edge. Match approved1990s anime series: clean supple ink, expressive human anime faces, broad2/3tone cel shading, handpainted detailed backgrounds, restrained cinematic light. Rooftop image reference only for rendering STYLE, never its sunset/location/people. Character source images control exact identities/costumes/age/body proportions. Previous scene reference controls set layout only; change camera and action to this shot. NO poster, collage, panel grid, transparent cutouts, hatching-heavy comic, speech bubbles, random words/logos. Wide library entrance hallway at2:15PM, long pale tiled corridor, moss-green lower wall panels, cream walls/windows, vending machine. AdultJC stands beside machine holding small plantain-chip bag and ginger-ale can, resigned half-smile. No brand/package text, room natural afternoon daylight and cool fluorescents, complete environment.",
+  "frame": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-01.png",
+  "status": "exploratory",
+  "representative_moment": "Wide library entrance hallway at2:15PM, long pale tiled corridor, moss-green lower wall panels, cream walls/windows, vending machine. AdultJC stands beside machine holding small plantain-chip bag and ginger-ale can, resigned half-smile. No brand/package text, room natural afternoon daylight and cool fluorescents, complete environment.",
+  "motion_remaining": "All motion, dialogue, camera transitions and any other script phases still require later drawings.",
+  "sha256": "ef1cec731e768b2d3e91d11e1b7a07874af665e86de13f702794bfb5981561e5",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "aspect_ratio": 1.7768331562167907,
+  "visually_inspected": true
+}

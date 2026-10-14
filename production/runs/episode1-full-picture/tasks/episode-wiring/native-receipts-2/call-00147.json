@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 229376448000000,
+      "durationFrames": 120,
+      "name": "S14-02 missing",
+      "comment": "question; JC denial; lease flash; return"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 124
+  }
+}

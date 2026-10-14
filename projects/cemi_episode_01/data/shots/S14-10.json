@@ -1,0 +1,52 @@
+{
+  "id": "S14-10",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 360,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Mikey lived on four and was in JC's class. JC can't remember his score; he remembers what the mothers called it: 'the three', low, in the voice they used for a man who'd gone upstate. Mikey's mother said it most. Eight-year-old Mikey puts his ear to the fourth-floor stairwell wall and says the building is humming; he stays there long after a joke would be over. “Listen,” he says. JC listens to a wall and laughs at him. The wall hums in concentric gold rings. Present: JC has a microphone clamped to his own wall.",
+  "camera_note": "FLASHBACK · stairwell",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S14-10",
+        "header": "17:00:00 → 17:15:00 (360f) · FLASHBACK · stairwell · rate 3s",
+        "action": "Mikey lived on four and was in JC's class. JC can't remember his score; he remembers what the mothers called it: 'the three', low, in the voice they used for a man who'd gone upstate. Mikey's mother said it most. Eight-year-old Mikey puts his ear to the fourth-floor stairwell wall and says the building is humming; he stays there long after a joke would be over. “Listen,” he says. JC listens to a wall and laughs at him. The wall hums in concentric gold rings. Present: JC has a microphone clamped to his own wall.\nSOUND: Wall hum, soft and musical; a hush from the building."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "HARMONY_CUT"
+    ],
+    "asset_slot_fx": [
+      "MATCH_CUT",
+      "STAIRWELL_BG",
+      "WALL_RING_CEL"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

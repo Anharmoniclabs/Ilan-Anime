@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: precise-object-edit. Animation clean plate for shot S01-03. Edit supplied image with absolutely identical 1672x941 framing and camera. Remove ONLY the translucent old person seated in the right foreground. Reconstruct the empty wooden canoe seat, dark wooden gunwale, midnight water and moonless mangrove behind that ghost. Keep EVERY pixel of Amaia holding sleeping son, her face, eyes, mouth, hair, arms, clothes, necklace, child, left boat and background unchanged. No extra people. No camera change. No new lighting. Handdrawn1990s anime cel shading. Opaque full landscape frame. This will be registered under replacement animation cels, so strict unchanged lefttwo-thirds image and rigid canoe geometry required.",
+  "source": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-c34bdb15-1069-460d-b6f7-26a7007eec65.png",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/clean-plate.png",
+  "sha256": "8ba8e902eb1a2a5a883767018b90f50af99d9657683f77000a15c3b3c1f4fd38",
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-03.png"
+  ]
+}

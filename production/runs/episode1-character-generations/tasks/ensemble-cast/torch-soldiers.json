@@ -1,0 +1,26 @@
+{
+  "name": "torch-soldiers",
+  "prompt": "Production character bank for Heralds of the Cem\u00ed Episode1 S01: THREE DISTINCT torch-bearing bank soldiers, same historical costume language as attached soldier reference (padded brown doublets, simple steel morion helmets and breastplates, dark trousers/leather boots) but different faces/builds/ages. Do not copy bell or pole. Each holds ONE wooden pitch torch upright, complete hands credibly gripping shafts, restrained flames fully inside canvas. Left soldier lean clean-shaven, middle stockier with short beard, right older long narrow face. Three separate full-body people arranged left-to-right with clear empty alpha gaps, no overlapping silhouettes, entire head/boots/torches visible. Finished1990s hand-inked cel anime, natural proportions, consistent material ink shading, navy/steel with warm torch highlights preserving natural skin. TRUE transparent background, no bank/scenery/ground shadow, NO TEXT/labels/border/logo. Landscape1536x1024. Scene has no named year; do not caption one. This is a source bank for plural soldiers, not a completed shot.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-90652b17-631d-4042-84bc-5415052423cc.png",
+  "cast_ids": [
+    "torch-soldiers"
+  ],
+  "references": {
+    "/home/alabs/Projects/Ilan-Anime/research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/12-Bell-Bearing-Soldier.png": "84a948cb418750872774ae181215b61a0938eb442b943a590389788cf57c0725"
+  },
+  "file": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/ensemble-cast/torch-soldiers.png",
+  "sha256": "c72b17bd5277c01ab360cb5ff21e3ad14659669d0ed5037335d5decbcda6633e",
+  "size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "status": "exploratory",
+  "tool": "built-in image_gen",
+  "author_approved": false,
+  "rigged": false
+}

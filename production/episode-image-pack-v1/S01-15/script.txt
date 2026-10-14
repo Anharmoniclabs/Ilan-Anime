@@ -1,0 +1,4 @@
+`02:11:00 → 02:15:00` (96f) · FIX · black · rate —
+- **Action:** Black. The clap of the book rings into a keyboard clack (match to S03).
+- **FX:** `MATCH_SOUND`
+- **Sound:** Book clap → keyboard key.

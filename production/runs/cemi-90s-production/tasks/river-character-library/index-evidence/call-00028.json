@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 8,
+      "rect": [
+        25,
+        700,
+        975,
+        835
+      ],
+      "content": "text",
+      "text": "Native: 10-background-survivor-2.pcraft\nYoung lean man, short wavy dark hair, blue tunic, pale sash and tan knee trousers, paddle; kneeling stroke and expressive busts.\nRequired: Current-script canoe assignment needed before layout; seated or kneeling stroke phases with fixed shaft and hands; bracing and reverse wind.\nUnapproved historical reference. No separated joints, rig, pose registration or motion approval."
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 81,
+    "story": 82
+  }
+}

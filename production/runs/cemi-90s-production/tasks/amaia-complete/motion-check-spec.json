@@ -1,0 +1,49 @@
+{
+  "shot": "AMAIA-FACIAL-CONTROL-CHECK",
+  "size": [
+    1920,
+    1080
+  ],
+  "frames": 48,
+  "fps": 24,
+  "status": "exploratory",
+  "scope": "Facial replacement controls only. Not an episode shot or body-motion test.",
+  "elements": [
+    {
+      "name": "Amaia facial replacements",
+      "kind": "character",
+      "rate": 3,
+      "fit": "contain",
+      "poses": [
+        {
+          "frame": 0,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/widescreen-frames/0000.png"
+        },
+        {
+          "frame": 12,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/widescreen-frames/0012.png"
+        },
+        {
+          "frame": 15,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/widescreen-frames/0015.png"
+        },
+        {
+          "frame": 24,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/widescreen-frames/0024.png"
+        },
+        {
+          "frame": 30,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/widescreen-frames/0030.png"
+        },
+        {
+          "frame": 36,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/widescreen-frames/0036.png"
+        },
+        {
+          "frame": 42,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/widescreen-frames/0042.png"
+        }
+      ]
+    }
+  ]
+}

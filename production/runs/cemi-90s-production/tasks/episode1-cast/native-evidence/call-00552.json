@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 19,
+      "rect": [
+        28,
+        216,
+        148,
+        306
+      ],
+      "content": "text",
+      "text": "Text / mention /\nconditional only"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 627,
+    "story": 628
+  }
+}

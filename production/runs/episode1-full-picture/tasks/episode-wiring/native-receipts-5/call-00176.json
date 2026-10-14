@@ -1,0 +1,19 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "timeline.select",
+    "params": {
+      "clips": [
+        135
+      ],
+      "add": false,
+      "toggle": false
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "selection": [
+      135
+    ]
+  }
+}

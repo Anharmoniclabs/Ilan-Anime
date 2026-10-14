@@ -1,0 +1,4 @@
+`12:15:00 → 12:31:00` (384f) · LOW ANGLE counter · rate 3s
+- **Action:** A kid, fifteen or sixteen, shell-toe Adidas, a milk crate on his hip, puts down two copies of the same record. “Dos iguales? You got two turntables?” “Todavía no.” He pays in quarters and leaves with the crate. The counterman shakes his head, smiling, as if told a good lie.
+- **FX:** `QUARTERS_SPIN_CEL; MOUTH_FLAP; SHOE_INSERT`
+- **Sound:** Quarters on the counter, spinning.

@@ -1,0 +1,13 @@
+{
+  "tool": "image_gen__imagegen",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-6a514e35-2e23-49b6-a966-82525bbfca83.png",
+  "status": "exploratory",
+  "references": [
+    {
+      "path": "projects/cemi_episode_01/assets/references/author-cover-style.png",
+      "role": "style only",
+      "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c"
+    }
+  ],
+  "prompt": "Use case: illustration-story. Exploratory production character source for Heralds of the Cemí Episode 1. Supplied image is STYLE ONLY; never copy its faces, poster layout, text or magical effects. Finished 1990s hand-drawn 2D cel animation with confident variable-width ink, controlled fine hatching, individualized grounded expressive faces, organic asymmetry, rich painterly color and two/three shade planes, restrained navy shadow and warm amber edge light preserving skin pigment. Genuinely transparent background, clean silhouette, no ground shadow/haze, complete anatomy inside frame with generous margin, no words/logos/watermarks or panels. Two adult Bronx café customers discussing baseball, complete bodies isolated with a transparent gap, no table. One heavyset tan-brown man in a plain navy baseball cap, cream pinstriped shirt with NO insignia and dark jeans, open hand gesturing; one lean deep-brown man with short gray curls and rectangular glasses in navy sports jacket and jeans, palm raised conversationally. Distinct faces and heights. Landscape."
+}

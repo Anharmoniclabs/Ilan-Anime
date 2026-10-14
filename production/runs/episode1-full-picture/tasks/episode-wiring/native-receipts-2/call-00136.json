@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 206769024000000,
+      "durationFrames": 240,
+      "name": "S13-03 missing",
+      "comment": "Sofia flood; location rebuke; Denise message; rent sums"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 113
+  }
+}

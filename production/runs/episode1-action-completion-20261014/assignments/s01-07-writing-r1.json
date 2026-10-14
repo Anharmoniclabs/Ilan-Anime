@@ -1,0 +1,25 @@
+{
+  "id": "s01-07-writing-r1",
+  "shots": [
+    "S01-07"
+  ],
+  "inputs": [
+    "AGENTS.md",
+    "docs/STATUS.md",
+    "production/runs/episode1-picture-motion/author-direction.json",
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+    "production/runs/episode1-anime90s-scenes/shot-index.json",
+    "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+    "production/runs/episode1-action-completion-20261014/author-resume.json",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action",
+    "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+    "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.md"
+  ],
+  "objective": "Revision of rejected S01-07 writing draft, exact independent review is binding. Produce168f24fps16:9 silent true writing: two lines on ledger, down gaze, stump wide then scripted closeup. First draft four poses held9\u201318frames fails; fix with genuine registered active-stroke breakdowns and connected lift/return/landing drawings on3s (holds only when intentional pauses), stable torso/book/support hand, complete quill/cuff matte without polygon clipping. Do not translate whole arm bank for lower line creating sleeve seam; actual contact-matched lower-line drawings and page perspective. Preserve existing source and rejection. This fresh explicit image-demand revision permits at mostONE built-in imagegen call for a focused bank of needed drawing breakdowns; inspect exact saved images and review first, attach them. No paidAPI, providerfallback, opticalflow or deformation substitute. Separate new drawing layer cleanly, fixed shoulder/elbow where appropriate. Trace drawn nib path to matching handwriting increments; no generic ink appearing far from nib. Use Craft/localrender, save editable sources nativefiles compactMP4/sparse decoded evidence, remove only new reproducible frames after validating native references. One bounded revised submission; no self-approval, ledger/source/Git edits or subagents. If drawings remain inadequate report precise blocker rather than another invalid movie. Authorization Resume and continue draft production applies; finalcreativeapproval separate.",
+  "role": "key-animator",
+  "output_dir": "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1",
+  "depends_on": [],
+  "art_direction_mode": "STORY_FRAME",
+  "requires_author_approval": false,
+  "require_host_bindings": true
+}

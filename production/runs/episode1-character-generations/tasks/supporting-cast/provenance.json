@@ -1,0 +1,17 @@
+{
+  "tool": "image_gen__imagegen",
+  "status": "exploratory",
+  "references": [
+    {
+      "path": "projects/cemi_episode_01/assets/references/author-cover-style.png",
+      "role": "style only",
+      "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c"
+    }
+  ],
+  "generated": [
+    {
+      "id": "street-fighters",
+      "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-3f8ea583-72c5-4929-b69b-8ccb5f03b7c4.png"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 1,
+      "rect": [
+        161,
+        208,
+        764,
+        230
+      ],
+      "content": "text",
+      "text": "Lit girl, seven"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 89,
+    "story": 90
+  }
+}

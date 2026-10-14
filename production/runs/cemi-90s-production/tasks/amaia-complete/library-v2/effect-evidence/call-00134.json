@@ -1,0 +1,18 @@
+{
+  "tool": "render_frame",
+  "arguments": {
+    "time": 0,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/mouths--pursed.png",
+    "max_side": 0,
+    "transparent": true,
+    "inline": false
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 1661,
+    "height": 418,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/cels/mouths--pursed.png",
+    "time": 0.0,
+    "width": 418
+  }
+}

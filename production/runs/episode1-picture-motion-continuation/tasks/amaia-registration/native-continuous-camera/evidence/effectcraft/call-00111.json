@@ -1,0 +1,17 @@
+{
+  "tool": "render_frame",
+  "arguments": {
+    "time": 0.0,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/native-continuous-camera/000000.png",
+    "max_side": 0,
+    "inline": false
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 1,
+    "height": 720,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/native-continuous-camera/000000.png",
+    "time": 0.0,
+    "width": 1280
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 125991936000000,
+      "durationFrames": 120,
+      "name": "S08-01 missing",
+      "comment": "tilt bottom; travel banner; hold slogan"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 79
+  }
+}

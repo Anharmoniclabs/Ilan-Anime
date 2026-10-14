@@ -1,0 +1,4 @@
+`02:02:00 → 02:11:00` (216f) · ROLL 12° · WS · rate 3s
+- **Action:** She turns with it. Every body leans into the turn; the camera rolls with them. Behind them on the bank the ledger man finishes his line and closes the book.
+- **FX:** `CAMERA_ROLL(0→12deg); CROSS_DISSOLVE_TO(book)`
+- **Sound:** Wood and water. Book closing: a flat clap.

@@ -1,0 +1,25 @@
+{
+  "task_id": "three-losses-r1",
+  "role": "key-animator",
+  "status": "blocked",
+  "artifacts": [
+    "production/runs/episode1-amaia-finish/tasks/three-losses-r1/HANDOFF.md",
+    "production/runs/episode1-amaia-finish/tasks/three-losses-r1/inspection.json",
+    "production/runs/episode1-amaia-finish/tasks/three-losses-r1/evidence/man-elder-overlap.png",
+    "production/runs/episode1-amaia-finish/tasks/three-losses-r1/evidence/prior-fade-1.png",
+    "production/runs/episode1-amaia-finish/tasks/three-losses-r1/evidence/prior-fade-2.png",
+    "production/runs/episode1-amaia-finish/tasks/three-losses-r1/evidence/prior-fade-3.png",
+    "production/runs/episode1-amaia-finish/tasks/three-losses-r1/evidence/woman-man-overlap.png",
+    "production/runs/episode1-amaia-finish/tasks/three-losses-r1/asset-manifest.json"
+  ],
+  "evidence": [
+    "Viewed saved translucent and RGBA ghost sources plus enlarged overlap crops: the RGBA group lacks hidden lower-body drawing portions required when preceding figures disappear.",
+    "Viewed prior decoded-review frames 24/33/42, 57/66/75 and 90/99/108 sequentially; evidence sheets document rejected footage, not a revised render or real-time playback.",
+    "Viewed all supplied head poses; preserved existing timing, framing and head arc without edits. Source hashes and RGBA measurements recorded in inspection.json.",
+    "No source-task or ledger edits, generation, native render, delegation or approval occurred."
+  ],
+  "blockers": [
+    "Missing independently complete seated young-man lap/hip/leg artwork revealed after the woman fades, and elder lower-body artwork revealed after the young man fades. Saved overlapping RGBA artwork does not contain those hidden contours; the original flattened scene contains baked river/rail pixels.",
+    "Clean individual seat-contact registration and hull occlusion remain unresolved. Matching completion drawings or complete separate cels are needed before a revised production draft can be submitted; further image generation is prohibited in this worker."
+  ]
+}

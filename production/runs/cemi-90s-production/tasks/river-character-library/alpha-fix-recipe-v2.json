@@ -1,0 +1,497 @@
+{
+  "description": "Hide duplicate archive source to preserve source alpha; save corrected native projects separately.",
+  "steps": [
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/native/02-amaias-son.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "layer": 2,
+          "visible": false,
+          "locked": true
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/02-amaias-son.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/02-amaias-son.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/native/03-dairon.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "layer": 5,
+          "visible": false,
+          "locked": true
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/03-dairon.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/03-dairon.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/native/04-yara-corrected.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "layer": 8,
+          "visible": false,
+          "locked": true
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/04-yara-corrected.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/04-yara-corrected.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/native/05-beheto.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "layer": 11,
+          "visible": false,
+          "locked": true
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/05-beheto.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/05-beheto.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/native/06-seven-year-old-girl.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "layer": 14,
+          "visible": false,
+          "locked": true
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/06-seven-year-old-girl.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/06-seven-year-old-girl.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/native/07-nine-year-old-boy.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "layer": 17,
+          "visible": false,
+          "locked": true
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/07-nine-year-old-boy.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/07-nine-year-old-boy.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/native/08-third-lit-child-proposal.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "layer": 20,
+          "visible": false,
+          "locked": true
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/08-third-lit-child-proposal.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/08-third-lit-child-proposal.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/native/09-background-survivor-1.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "layer": 23,
+          "visible": false,
+          "locked": true
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/09-background-survivor-1.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/09-background-survivor-1.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/native/10-background-survivor-2.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "layer": 26,
+          "visible": false,
+          "locked": true
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/10-background-survivor-2.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/10-background-survivor-2.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/native/11-background-survivor-3.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "layer": 29,
+          "visible": false,
+          "locked": true
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/11-background-survivor-3.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/11-background-survivor-3.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/native/12-bell-bearing-soldier.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "layer": 32,
+          "visible": false,
+          "locked": true
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/12-bell-bearing-soldier.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/12-bell-bearing-soldier.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/native/13-ledger-keeper.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "layer": 35,
+          "visible": false,
+          "locked": true
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/13-ledger-keeper.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/13-ledger-keeper.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    }
+  ]
+}

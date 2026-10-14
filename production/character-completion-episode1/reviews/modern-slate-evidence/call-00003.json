@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.new",
+    "params": {
+      "name": "abuela-hands-master",
+      "width": 1536,
+      "height": 1024,
+      "frameRate": 24,
+      "duration": 1,
+      "background": "#26323e"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 2
+  }
+}

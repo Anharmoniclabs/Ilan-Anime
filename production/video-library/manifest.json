@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "truth": "Local video inventory. Draft and experiment labels are not approval.",
+  "videos": [
+    {
+      "shot": "S00-01",
+      "label": "Opening sigil",
+      "status": "episode draft",
+      "path": "production/episode-first-pass/opening/S00-01.mp4",
+      "duration_seconds": 4.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "24/1",
+      "video_codec": "h264",
+      "sha256": "2c19483d64e1636a32fd2636b2f6b97bb6240cbf592839b03c10a0a52e7e0679"
+    },
+    {
+      "shot": "S00-02",
+      "label": "Opening title card",
+      "status": "episode draft",
+      "path": "production/episode-first-pass/opening/S00-02.mp4",
+      "duration_seconds": 5.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "24/1",
+      "video_codec": "h264",
+      "sha256": "042018f5234b9efbd1e552994f03fa46d727bf447bd63962da8c3c0af73958e2"
+    },
+    {
+      "shot": "S15-09",
+      "label": "Ending loop",
+      "status": "exploratory episode draft",
+      "path": "production/episode-first-pass/ending/S15-09-review.mp4",
+      "duration_seconds": 8.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "24/1",
+      "video_codec": "h264",
+      "sha256": "83bdb5d256706de0cc21b776680a645d16ea34048e142334847bfe1a57d17c7b"
+    },
+    {
+      "shot": "S01-01",
+      "label": "User supplied paddle take",
+      "status": "motion review pending",
+      "path": "projects/cemi_episode_01/renders/minimax/S01-01-user-take-01.mp4",
+      "duration_seconds": 6.583,
+      "width": 1024,
+      "height": 576,
+      "fps": "24/1",
+      "video_codec": "h264",
+      "sha256": "ce085a9c083994d1adba0b878ccb700221bb282554daed13a21c1c31065ac164"
+    },
+    {
+      "shot": "S01-01 \u2192 S01-02",
+      "label": "Paddle-to-canoe transition",
+      "status": "transition experiment",
+      "path": "projects/cemi_episode_01/renders/minimax/S01-01-to-S01-02-user-transition-take-01.mp4",
+      "duration_seconds": 6.583,
+      "width": 1024,
+      "height": 576,
+      "fps": "24/1",
+      "video_codec": "h264",
+      "sha256": "9d2c572c78b072a1b3e7b5c01de368e883e237a2b6243c7fb3be447ef4fa78bd"
+    },
+    {
+      "shot": "S01-02",
+      "label": "Downloaded canoe motion",
+      "status": "3-second exploratory test; review flagged no character acting",
+      "path": "production/video-jobs/s01-02-test-v1/downloads/c0ea6d285b6fd03edea99f7c7edde0ce323e578d862251fd7a70b519fdfeb921/h3-1791842766679.mp4",
+      "duration_seconds": 3.05,
+      "width": 1024,
+      "height": 576,
+      "fps": "24/1",
+      "video_codec": "h264",
+      "sha256": "c0ea6d285b6fd03edea99f7c7edde0ce323e578d862251fd7a70b519fdfeb921"
+    },
+    {
+      "shot": "S01-02",
+      "label": "Canoe test review render",
+      "status": "3-second review copy",
+      "path": "production/video-jobs/s01-02-test-v1/review.mp4",
+      "duration_seconds": 3.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "24/1",
+      "video_codec": "h264",
+      "sha256": "67d2f5074f9cd72a0515497ac3387f52a0e180e65c1dec6ae682006318dea5df"
+    },
+    {
+      "shot": "S00-01 + S00-02",
+      "label": "Opening two-shot assembly",
+      "status": "9-second draft assembly",
+      "path": "production/episode-first-pass/opening/opening-picture-review.mp4",
+      "duration_seconds": 9.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "24/1",
+      "video_codec": "h264",
+      "sha256": "0e9683f6142497fd1aad744a06c17f224fe4909532dbdd97e4ed816528430c64"
+    },
+    {
+      "shot": "Unassigned",
+      "label": "Bell motion test",
+      "status": "rejected prototype; comparison only",
+      "path": "projects/cemi_episode_01/renders/Bell_motion_test.mp4",
+      "duration_seconds": 5.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "24/1",
+      "video_codec": "h264",
+      "sha256": "e6d0b73199a18ae8158b1a14c7b24a286811f54989cfd34054bc6bbbe7c84739"
+    },
+    {
+      "shot": "Unassigned",
+      "label": "Cem\u00ed current-turns motion test",
+      "status": "rejected prototype; comparison only",
+      "path": "projects/cemi_episode_01/renders/Cemi_SC0_Current_Turns_motion_test.mp4",
+      "duration_seconds": 24.0,
+      "width": 1280,
+      "height": 720,
+      "fps": "24/1",
+      "video_codec": "h264",
+      "sha256": "229a5dd694af60f85365663e287ece9290e880e62cf2613a13d4b5d39d4e7b00"
+    }
+  ]
+}

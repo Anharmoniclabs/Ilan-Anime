@@ -1,0 +1,95 @@
+[
+  {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/blink.png",
+    "sha256": "ade7f7c49fbea1daeb03865e5a9c0dfbcc4cf09f370a7401e82279f267acee52",
+    "provenance": {
+      "prompt": "Use case: precise-object-edit. Registered replacement drawing for1990s handdrawn anime animation. Output same1672x941opaque fullcanvas, identicalcamera/framing/lighting. Close ONLY BOTH Amaia eyes in a natural fullblink, single curved lash lines, samebrows. Close mouth softly. Keep identical headoutline, faceangle,nose,skin shadows, hairandear. Preserve everythingelse EXACTLY: childasleep, arms/hands/clothes/necklace/hairoutside requestedregion, rigidcanoe,water,moonlessmangrove. No people inemptyseat. No camera change. Same Amaia identity/femininefeatures andclean2tonecelcolors. Absolutely no text or labels. Change only requested actingfeatures; no repainting rest ofshot.",
+      "source": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-b364d98b-fa27-4fd3-98df-fecc059bdb73.png",
+      "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/blink.png",
+      "sha256": "ade7f7c49fbea1daeb03865e5a9c0dfbcc4cf09f370a7401e82279f267acee52",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/clean-plate.png",
+          "sha256": "8ba8e902eb1a2a5a883767018b90f50af99d9657683f77000a15c3b3c1f4fd38"
+        }
+      ]
+    }
+  },
+  {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/clean-plate.png",
+    "sha256": "8ba8e902eb1a2a5a883767018b90f50af99d9657683f77000a15c3b3c1f4fd38",
+    "provenance": {
+      "prompt": "Use case: precise-object-edit. Animation clean plate for shot S01-03. Edit supplied image with absolutely identical 1672x941 framing and camera. Remove ONLY the translucent old person seated in the right foreground. Reconstruct the empty wooden canoe seat, dark wooden gunwale, midnight water and moonless mangrove behind that ghost. Keep EVERY pixel of Amaia holding sleeping son, her face, eyes, mouth, hair, arms, clothes, necklace, child, left boat and background unchanged. No extra people. No camera change. No new lighting. Handdrawn1990s anime cel shading. Opaque full landscape frame. This will be registered under replacement animation cels, so strict unchanged lefttwo-thirds image and rigid canoe geometry required.",
+      "source": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-c34bdb15-1069-460d-b6f7-26a7007eec65.png",
+      "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/clean-plate.png",
+      "sha256": "8ba8e902eb1a2a5a883767018b90f50af99d9657683f77000a15c3b3c1f4fd38",
+      "refs": [
+        "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-03.png"
+      ]
+    }
+  },
+  {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/count-a.png",
+    "sha256": "b982aa851498f2c5045be808fc6d22dfe0d01694bdd12c743da6fc8761b079a7",
+    "provenance": {
+      "prompt": "Use case: precise-object-edit. Registered replacement drawing for1990s handdrawn anime animation. Output same1672x941opaque fullcanvas, identicalcamera/framing/lighting. Change ONLY Amaia mouth into a small softly open counting A syllable, upperlip lowered, small dark interior. No teeth grin. Her eyes glance slightly farther screenright, move iris within same sockets; do not move skull or brows. Preserve everythingelse EXACTLY: childasleep, arms/hands/clothes/necklace/hairoutside requestedregion, rigidcanoe,water,moonlessmangrove. No people inemptyseat. No camera change. Same Amaia identity/femininefeatures andclean2tonecelcolors. Absolutely no text or labels. Change only requested actingfeatures; no repainting rest ofshot.",
+      "source": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-f1240e0f-20ca-4f57-a3e3-55a597a2f73f.png",
+      "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/count-a.png",
+      "sha256": "b982aa851498f2c5045be808fc6d22dfe0d01694bdd12c743da6fc8761b079a7",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/clean-plate.png",
+          "sha256": "8ba8e902eb1a2a5a883767018b90f50af99d9657683f77000a15c3b3c1f4fd38"
+        }
+      ]
+    }
+  },
+  {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/count-o.png",
+    "sha256": "e1c25827fa6d484165312599320de748ba611458c3d49466f2c8b014753b5831",
+    "provenance": {
+      "prompt": "Use case: precise-object-edit. Registered replacement drawing for1990s handdrawn anime animation. Output same1672x941opaque fullcanvas, identicalcamera/framing/lighting. Change ONLY Amaia mouth into a small round O counting syllable, lips naturally pursed, dark small opening. Her pupils shift a little downward toward the next empty seat. Keep skull sockets andheadfixed. Preserve everythingelse EXACTLY: childasleep, arms/hands/clothes/necklace/hairoutside requestedregion, rigidcanoe,water,moonlessmangrove. No people inemptyseat. No camera change. Same Amaia identity/femininefeatures andclean2tonecelcolors. Absolutely no text or labels. Change only requested actingfeatures; no repainting rest ofshot.",
+      "source": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-b9f995c1-4e5f-47c7-b317-0e3f87c51bb2.png",
+      "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/count-o.png",
+      "sha256": "e1c25827fa6d484165312599320de748ba611458c3d49466f2c8b014753b5831",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/clean-plate.png",
+          "sha256": "8ba8e902eb1a2a5a883767018b90f50af99d9657683f77000a15c3b3c1f4fd38"
+        }
+      ]
+    }
+  },
+  {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/head-down.png",
+    "sha256": "97921710cd75d7ae8c27c0b838369f0bc8aabcb5f1f6ec8131678971f7c1e681",
+    "provenance": {
+      "prompt": "Use case: precise-object-edit. Registered replacement drawing for1990s handdrawn anime animation. Output same1672x941opaque fullcanvas, identicalcamera/framing/lighting. Draw a restrained new HEAD POSE: Amaia lowers her chin about5degrees and directs eyes downward/right toward next emptyseat, mouth softly closed. Re-draw head/face/hair coherently with unchanged skullsize, no squash or rubberwarp. Neck contact stays at same shoulders. Preserve entirebody,child,hands,necklace,background exactly. Movement only herhead above collarbone; no chin overlap with child. Preserve everythingelse EXACTLY: childasleep, arms/hands/clothes/necklace/hairoutside requestedregion, rigidcanoe,water,moonlessmangrove. No people inemptyseat. No camera change. Same Amaia identity/femininefeatures andclean2tonecelcolors. Absolutely no text or labels. Change only requested actingfeatures; no repainting rest ofshot.",
+      "source": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-4e0d8c24-baaa-44c9-8c32-873f9c22cfef.png",
+      "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/head-down.png",
+      "sha256": "97921710cd75d7ae8c27c0b838369f0bc8aabcb5f1f6ec8131678971f7c1e681",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/clean-plate.png",
+          "sha256": "8ba8e902eb1a2a5a883767018b90f50af99d9657683f77000a15c3b3c1f4fd38"
+        }
+      ]
+    }
+  },
+  {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/rest.png",
+    "sha256": "e985d519e4e1d2c4814afc8779c79cea33623bb4fe9da0df39d9e3c16033d6c9",
+    "provenance": {
+      "prompt": "Use case: precise-object-edit. Registered replacement drawing for1990s handdrawn anime animation. Output same1672x941opaque fullcanvas, identicalcamera/framing/lighting. Close ONLY Amaia lips softly into a neutral counting pause; same eye direction right, same skull andhead position. Lips two simple clean drawn lines, no smile. Preserve everythingelse EXACTLY: childasleep, arms/hands/clothes/necklace/hairoutside requestedregion, rigidcanoe,water,moonlessmangrove. No people inemptyseat. No camera change. Same Amaia identity/femininefeatures andclean2tonecelcolors. Absolutely no text or labels. Change only requested actingfeatures; no repainting rest ofshot.",
+      "source": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-8a550d99-592d-4778-a18d-6e28ce1b9548.png",
+      "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/rest.png",
+      "sha256": "e985d519e4e1d2c4814afc8779c79cea33623bb4fe9da0df39d9e3c16033d6c9",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/clean-plate.png",
+          "sha256": "8ba8e902eb1a2a5a883767018b90f50af99d9657683f77000a15c3b3c1f4fd38"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "removed_reproducible_render_frames": 168,
+  "bytes": 135740139,
+  "preserved": [
+    "action-sheet.png",
+    "layers/",
+    "cels/",
+    "native/inputs/",
+    "native/shot.ecproj",
+    "native/edit.filmcraft",
+    "native/preview.mp4",
+    "decoded-sequence.jpg"
+  ],
+  "reason": "Avoid duplicate frame-cache bloat; rerender from exact cels/native project.",
+  "native_project_reference_check": "shot.ecproj JSON references native/inputs/*; no /frames/ references.",
+  "reproduce_command": ".venv/bin/python -m studio craft cels production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/exposures.json --out production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native-rerender"
+}

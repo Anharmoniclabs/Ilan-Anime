@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 279925632000000,
+      "durationFrames": 192,
+      "name": "S15-07 missing",
+      "comment": "new song ribbons; plate unchanged; JC looks; speaker push"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 142
+  }
+}

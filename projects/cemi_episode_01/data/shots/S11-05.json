@@ -1,0 +1,60 @@
+{
+  "id": "S11-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Thumb above the screen: open it, read the rest, see the number. He forwards the preview to Sofía (is this anything) and flips the phone face down. Flash: a hand gripping a small child's sleeve at a curb as a car passes. 'No. Not them.'",
+  "camera_note": "CU thumb → flash",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S11-05",
+        "header": "11:14:00 → 11:22:00 (192f) · CU thumb → flash · rate 3s",
+        "action": "Thumb above the screen: open it, read the rest, see the number. He forwards the preview to Sofía (is this anything) and flips the phone face down. Flash: a hand gripping a small child's sleeve at a curb as a car passes. 'No. Not them.'\nSOUND: Car horn dopplering; one breath."
+      }
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "scale": 1.0,
+      "ease": "smooth"
+    },
+    {
+      "frame": 191,
+      "scale": 1.08
+    }
+  ],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "FLASH_CUT"
+    ],
+    "asset_slot_fx": [
+      "PHONE_FACE_DOWN"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

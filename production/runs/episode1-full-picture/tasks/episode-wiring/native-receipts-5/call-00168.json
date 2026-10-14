@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 225058176000000,
+      "durationFrames": 192,
+      "name": "S13-11 missing",
+      "comment": "search for plate; strain; tears sting; super hold"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 129
+  }
+}

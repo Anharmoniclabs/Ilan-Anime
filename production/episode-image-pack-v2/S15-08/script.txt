@@ -1,0 +1,4 @@
+`18:30:00 → 18:42:00` (288f) · PULL-BACK · crane · rate 3s
+- **Action:** He is small under the orange awning. Camera rises up the building to the dark third-floor window across the street; the netting moves. Cut to black.
+- **FX:** `CRANE_UP; PAINTED_BG(facade); DARK_WINDOW_HOLD(2s)`
+- **Sound:** The song fades out, leaving only the loop.

@@ -1,0 +1,19 @@
+{
+  "tool": "doc_open",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/arthouse-pack-v1/tasks/visuals/production-book-v2/arthouse-art-book.pdf"
+  },
+  "status": "succeeded",
+  "result": {
+    "dirty": false,
+    "doc": 1,
+    "editable": true,
+    "encrypted": false,
+    "name": "arthouse-art-book.pdf",
+    "pages": 5,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/arthouse-pack-v1/tasks/visuals/production-book-v2/arthouse-art-book.pdf",
+    "read_only_reason": null,
+    "redo": null,
+    "undo": null
+  }
+}

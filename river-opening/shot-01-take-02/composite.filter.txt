@@ -1,0 +1,1 @@
+[0:v]format=gbrp,setsar=1[plate];[1:v]format=rgba[masked1];[plate][masked1]overlay=1250:360:format=rgb:shortest=1[out1];[2:v]format=rgba[masked2];[out1][masked2]overlay=0:770:format=rgb:shortest=1[out2];[out2]pad=ceil(iw/2)*2:ceil(ih/2)*2:0:0,setsar=1,format=yuv420p[final]

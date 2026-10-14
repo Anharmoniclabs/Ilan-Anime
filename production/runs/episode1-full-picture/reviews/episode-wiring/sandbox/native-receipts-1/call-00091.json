@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 98050176000000,
+      "durationFrames": 384,
+      "name": "S06-02 missing",
+      "comment": "Mama line; JC answer; decision and command; slippers recede; stop hall end"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 68
+  }
+}

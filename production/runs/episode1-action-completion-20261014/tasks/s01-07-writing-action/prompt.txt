@@ -1,0 +1,13 @@
+Use case: identity-preserve.
+Create ONE precisely registered 3 by 3 animation production cel sheet, 3072 by 1536 pixels, nine equal 1024 by 512 panels, no gaps, no borders, no labels, no text. Reference image is the exact current shot S01-07, Counter on stump in dark mangrove, brown beret and dark brown doublet with white cuff, warm light from left. This is NOT a scene redesign.
+Every panel is the EXACT SAME CLOSEUP crop from the attached image: left edge at original x300, top y340, right x1000, bottom y690. Thus view just the dark torso, his right writing forearm entering from left, quill, open leather ledger across knees, supporting left hand at right, and lap. No face/head in this crop. Lock ledger corners, hinge, page shape, supporting left hand and all costume behind moving writing arm to exactly identical coordinates in every panel. Hand remains anatomically coherent, distinct five fingers, fingers maintain firm quill grip, same quill length. Clear broad two-tone 1990s hand-inked cel shading, amber edge light from left, brown costume and naturally warm skin. No captions, no generated words on page; simple tiny ink strokes only in specifically described writing poses.
+Row 1 col 1: CLEAN PLATE. Remove the writing right forearm, right hand and quill only, revealing dark doublet and blank ledger underneath. Keep supporting left hand and entire ledger fixed.
+Row 1 col 2: writing right forearm, hand, quill at start of a line near left of visible ledger page. Nib touching paper.
+Row 1 col 3: hand wrist and forearm move naturally to middle of that same line, elbow stays planted left; nib touching paper.
+Row 2 col 1: hand moves farther right, nib at end of first line. 
+Row 2 col 2: wrist rotates up, quill nib lifted about a centimetre from page; same elbow planted.
+Row 2 col 3: hand returns left with nib lifted above beginning of second line slightly lower on page.
+Row 3 col 1: nib touching beginning of second line, wrist turned subtly compared first line.
+Row 3 col 2: hand and wrist at middle of second line below first; nib touching page.
+Row 3 col 3: hand wrist and forearm finish far right at end of second line below first; nib touching page.
+This must be a consistent sequential animation source sheet of replacement arm drawings. Keep every fixed book and sleeve origin landmark identical across all 9 panels. Movements must be visible and deliberate but plausible writing range, never change camera or redesign book. Use only the supplied exact shot reference.

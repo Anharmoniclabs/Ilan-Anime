@@ -1,0 +1,26 @@
+{
+  "shot_id": "S05-04-r2",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-04-r2.png",
+  "status": "exploratory",
+  "sha256": "e56a76b7357fe213ba60f278a27a632dadebb99b7c1f8fbd9bb3a3e3a2ce4086",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-04-r2.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-04.png",
+      "sha256": "6e780561bfd2e6aeb83332050eb8064692c7dddb747323ae99c808908f58f8af"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-06.png",
+      "sha256": "6471ca1c951ac6dc772cefd77cad4a9f9d9ba12dd27a29f9a6b4663e83e7a59e"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Crane/pan/dancecycles, date super and music; exactfortycouples needs layoutcount.",
+  "inspection": "Directly viewed: crowdnow translucentbluegold includingfourbandmusicians; likenessretained. Exactabout40couples notcount-verified; frontfigures deliberatelycroppedbywidecamera.",
+  "directly_viewed": true
+}

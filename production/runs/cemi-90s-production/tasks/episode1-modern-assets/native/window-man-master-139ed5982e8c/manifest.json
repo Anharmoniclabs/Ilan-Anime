@@ -1,0 +1,122 @@
+{
+  "source_name": "window-man-master.png",
+  "source": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/window-man-master.png",
+  "source_sha256": "139ed5982e8c4868dd83c4aa38977c4455e000e76bca871e518886e3123c4e47",
+  "directory": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/window-man-master-139ed5982e8c",
+  "status": "exploratory",
+  "kind": "editable-generated-master-library",
+  "size": [
+    1024,
+    1536
+  ],
+  "source_alpha": {
+    "min": 0,
+    "max": 254,
+    "zero_pixels": 1115718,
+    "partial_pixels": 457146,
+    "opaque_pixels": 0
+  },
+  "native_sha256": "9b3401d256139fc14d3c8f8767b41f3ba84b43cabb47fdea55005b1d8af50515",
+  "psd_sha256": "939bdbe634016a2df103a576562a597cf6ada89d4e41a239828bb385420584ef",
+  "source_snapshot_exact": true,
+  "native_export_delta": {
+    "alpha_max_delta": 0.0,
+    "premultiplied_rgb_max_delta": 0.0
+  },
+  "psd_reopened_delta": {
+    "alpha_max_delta": 0.0,
+    "premultiplied_rgb_max_delta": 0.0
+  },
+  "native_reopened": true,
+  "psd_reopened": true,
+  "native_layers": [
+    {
+      "blend": "Normal",
+      "bounds": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "clipped": false,
+      "fill": 1.0,
+      "hasMask": false,
+      "id": 3,
+      "kind": "Pixel",
+      "linkGroup": null,
+      "name": "Editable master \u2014 not separated rig parts",
+      "opacity": 1.0,
+      "selected": true,
+      "visible": true
+    },
+    {
+      "blend": "Normal",
+      "bounds": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "clipped": false,
+      "fill": 1.0,
+      "hasMask": false,
+      "id": 2,
+      "kind": "Pixel",
+      "linkGroup": null,
+      "name": "Preserved generated source \u2014 exploratory",
+      "opacity": 1.0,
+      "selected": false,
+      "visible": false
+    }
+  ],
+  "psd_layers": [
+    {
+      "blend": "Normal",
+      "bounds": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "clipped": false,
+      "fill": 1.0,
+      "hasMask": false,
+      "id": 7,
+      "kind": "Pixel",
+      "linkGroup": null,
+      "name": "Editable master \u2014 not separated rig parts",
+      "opacity": 1.0,
+      "selected": true,
+      "visible": true
+    },
+    {
+      "blend": "Normal",
+      "bounds": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "clipped": false,
+      "fill": 1.0,
+      "hasMask": false,
+      "id": 6,
+      "kind": "Pixel",
+      "linkGroup": null,
+      "name": "Preserved generated source \u2014 exploratory",
+      "opacity": 1.0,
+      "selected": false,
+      "visible": false
+    }
+  ],
+  "separated_parts": false,
+  "rigged": false,
+  "motion_validated": false,
+  "approval": "No technical or author approval inferred",
+  "limitations": [
+    "One generated source drawing, not a rig or registered pose sequence.",
+    "Hair, clothing, accessories and body overlap surfaces remain flattened within the editable layer.",
+    "Hidden surfaces, expressions, mouth shapes, alternative views and action drawings require separate artwork.",
+    "Source alpha and artwork are preserved; no matte correction is implied."
+  ]
+}

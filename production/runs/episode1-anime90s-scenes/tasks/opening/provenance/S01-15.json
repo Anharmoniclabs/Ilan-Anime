@@ -1,0 +1,16 @@
+{
+  "shot": "S01-15",
+  "output": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-15.png",
+  "sha256": "0f52608dd021e7069ef19f9d8f46f6d651aaf5cbac5154465092de3574cf8514",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "mode": "RGB",
+  "tool": "Pillow native solid editorial black",
+  "prompt": "Script requires black. Native solidblack1920x1080; no illustration generation.",
+  "references": [],
+  "inspection": "Automated allpixels black; native editorial card.",
+  "inspection_method": "Direct view_image of entire saved frame; PNG automated decode and dimensions check",
+  "scope": "One representative story frame; not all action beats or motion"
+}

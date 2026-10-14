@@ -1,0 +1,50 @@
+{
+  "status": "blocked-on-action-source-drawings",
+  "user_authorization": "Resume and continue draft production",
+  "scope": "Full Episode 1 picture and all actions; silent picture per existing author direction",
+  "run": "episode1-action-completion-20261014",
+  "baseline": {
+    "shots": 128,
+    "frames": 27120,
+    "fps": 24,
+    "technical_approved_draft_shots": 10,
+    "other_linked_drafts": 2,
+    "missing_motion_clips": 116
+  },
+  "current_work": {
+    "S01-07": "First seven-second draft rejected. Correction produced36cells but only4px/6px net nib advance, reversals,41px lift/return jump and clipped feathers. No corrected movie rendered.",
+    "S01-03": "New seat plate independently rejected as three-adult solution; requires valid adult contact layout first. Sources preserved.",
+    "S01-02": "Two paddle source sheets failed coherent grip/pose/paddle geometry; no valid stroke or motion clip produced."
+  },
+  "scope_limits": [
+    "No finished episode claimed",
+    "No Git upload in this production turn",
+    "Paid generation remains disabled",
+    "No inferred creative approval"
+  ],
+  "corrections": [
+    {
+      "task": "s01-02-canoe-action",
+      "field": "alpha",
+      "correction": "Saved candidate does have RGBA alpha,49.84 percent fully transparent. Earlier submitted ledger evidence wrongly called it opaque. Actual unresolved defects are clipped blades, grip loss and pose/pelvis inconsistency."
+    }
+  ],
+  "new_technically_approved_motion_shots": 0,
+  "completed_reviews": [
+    "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+    "production/runs/episode1-action-completion-20261014/reviews/amaia-seat-plate/review.json"
+  ],
+  "ledger_paused": true,
+  "task_outcomes": {
+    "blocked": 4,
+    "rejected": 2
+  },
+  "next_required_work": [
+    "S01-02: individually controlled contact-matched stroke drawings with invariant paddle and pelvis, followed by clean plates and secondary acting. Two multi-pose generation attempts failed.",
+    "S01-03: valid three-adult pelvis/thigh/seat layout before further detailed painting; full lower bodies and hull occlusion also needed.",
+    "S01-07: individually registered writing/contact and lift/landing drawings against one fixed page; both generated banks fail required action."
+  ],
+  "generation": "Five built-in imagegen calls produced saved candidates across tasks; no paid API enabled.",
+  "production_media_promoted": false,
+  "git_uploads_by_this_pass": false
+}

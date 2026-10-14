@@ -1,0 +1,18 @@
+{
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "rgba_cutout_requirement_pass": "alpha present; silhouette matte not approved",
+  "visual_inspection": "Viewed generated image and exact references. Eight poses change elbows/torso; several paddle blade tips stop at panel boundaries; pelvis/knee geometry varies; seventh pose leaves one hand on knee, violating maintained shaft grip. Preview showed gradient RGB backing, but pixel inspection confirms that backing is transparent (49.84% alpha zero); the preview alone does not establish opaque background. No complete rigid prop or registered cels.",
+  "generation_calls": 1,
+  "registration_performed": false,
+  "shot_rendered": false,
+  "frame_coverage_accepted": 0,
+  "alpha_zero_fraction": 0.4983634948730469
+}

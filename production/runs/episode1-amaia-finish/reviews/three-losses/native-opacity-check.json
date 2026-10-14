@@ -1,0 +1,65 @@
+[
+  {
+    "layer": "apparition-elder-cel.png",
+    "opacity_keys": [
+      {
+        "frame": 0.0,
+        "value": 25.0
+      },
+      {
+        "frame": 90.0,
+        "value": 25.0
+      },
+      {
+        "frame": 108.0,
+        "value": 0.0
+      },
+      {
+        "frame": 191.0,
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "layer": "apparition-young-man-cel.png",
+    "opacity_keys": [
+      {
+        "frame": 0.0,
+        "value": 25.0
+      },
+      {
+        "frame": 57.0,
+        "value": 25.0
+      },
+      {
+        "frame": 75.0,
+        "value": 0.0
+      },
+      {
+        "frame": 191.0,
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "layer": "apparition-woman-cel.png",
+    "opacity_keys": [
+      {
+        "frame": 0.0,
+        "value": 25.0
+      },
+      {
+        "frame": 24.0,
+        "value": 25.0
+      },
+      {
+        "frame": 42.0,
+        "value": 0.0
+      },
+      {
+        "frame": 191.0,
+        "value": 0.0
+      }
+    ]
+  }
+]

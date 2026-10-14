@@ -1,0 +1,62 @@
+{
+  "id": "S13-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Super: 2:15 PM. Library vending machine: platanitos and a ginger ale. 'That counts.' Mamá's disapproving VO: she would call it a funeral for a lunch.",
+  "camera_note": "WS · vending machine",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S13-01",
+        "header": "13:24:00 → 13:29:00 (120f) · WS · vending machine · rate 3s",
+        "action": "Super: 2:15 PM. Library vending machine: platanitos and a ginger ale. 'That counts.' Mamá's disapproving VO: she would call it a funeral for a lunch.\nSOUND: Machine thump; ginger-ale hiss."
+      }
+    },
+    {
+      "name": "super",
+      "rate": 3,
+      "screen_space": true,
+      "generator": {
+        "type": "text",
+        "text": [
+          "2:15 PM"
+        ],
+        "font": "serif",
+        "size": 26,
+        "tracking": 0.3,
+        "align": "left",
+        "position": [
+          76.8,
+          633.6
+        ]
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {},
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

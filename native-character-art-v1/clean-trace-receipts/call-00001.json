@@ -1,0 +1,17 @@
+{
+  "tool": "run_command",
+  "arguments": {
+    "command": "file.new",
+    "params": {
+      "name": "Cemi - supplied art direction - editable trace",
+      "width": 1672,
+      "height": 941,
+      "units": "Pixels"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "index": 1,
+    "previewMode": "default"
+  }
+}

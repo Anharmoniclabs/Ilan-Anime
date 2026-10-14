@@ -1,0 +1,4 @@
+`06:21:00 → 06:26:00` (120f) · FIX · door · rate 3s
+- **Action:** Darkness. Two taps on the door: one to ask, one to tell you what she decided. Slippers show as shadows under the door.
+- **FX:** `SHADOW_CEL(door gap); CHROMA_BLEED`
+- **Sound:** Two taps: first rising, second falling. Rosary clicks.

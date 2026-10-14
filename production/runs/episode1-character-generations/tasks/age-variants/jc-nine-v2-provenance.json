@@ -1,0 +1,21 @@
+{
+  "j": {
+    "id": "jc-nine-v2",
+    "cast_id": "jc-nine",
+    "target": "jc-nine",
+    "desc": "Change ONLY arms/hands: remove BOTH hands from the hoodie pocket, let both arms hang slightly out from torso with both complete child hands and fingers visible. Keep the exact boy identity, nine-year-old anatomy, curly hair, expression, hoodie, jeans, sneakers, full-body framing, ink and cel colors. Preserve genuine transparency. No text or logos."
+  },
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/age-variants/generated/jc-nine.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Change ONLY arms/hands: remove BOTH hands from the hoodie pocket, let both arms hang slightly out from torso with both complete child hands and fingers visible. Keep the exact boy identity, nine-year-old anatomy, curly hair, expression, hoodie, jeans, sneakers, full-body framing, ink and cel colors. Preserve genuine transparency. No text or logos.",
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-5b8dbf25-0ace-4ad1-96a7-5bb86d87353b.png",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/age-variants/generated/jc-nine-v2.png",
+  "sha256": "2b137cfb7d613ae2caa9973f2ba871658599535c827e7c1170a77692c975421b",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/age-variants/generated/jc-nine.png",
+      "sha256": "e5efc1a5f7c50f42b1e88a9dc416e2b7b878c095cf88118d38ee0cffec42b3c8"
+    }
+  ]
+}

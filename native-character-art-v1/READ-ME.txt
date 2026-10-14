@@ -1,0 +1,30 @@
+Native character reconstruction tests — NOT A FINISHED REDRAW
+
+The author-supplied ART-DIRECTION.png is the locked visual reference for this task.
+No new AI image generation was used in these tests.
+
+Method: VectorCraft imageTrace.makeAndExpand created native editable color paths.
+SVG exports were spatially filtered and reopened in VectorCraft. Native draw_path
+and layer.clippingMask.toggle created editable silhouette boundaries. The original
+is embedded in each masked native file on a hidden, locked reference layer.
+
+These are auto-traced reconstructions, NOT hand-drawn character assets. The full
+trace contains 480,577 paths. The 64-color simplified conversion was rejected for
+loss of facial and ink detail. Character studies retain poster effects/background
+contamination, rough clipping edges and incomplete/occluded anatomy. They have no
+independent eye, mouth, hair, garment, hand or rig controls. They do not satisfy
+the requested full character control. Do not import them as canonical assets.
+
+Current inspection candidates:
+center-character-masked.vectorcraft
+elder-character-masked.vectorcraft
+right-character-masked.vectorcraft
+
+Earlier unmasked files are failed clipping experiments, retained for evidence.
+All build scripts and native command receipts are in this directory.
+
+Still required: deliberate redraw into semantically separated ink, flat colors,
+shadows, face/expression features, hair, garments, limbs and props; independent
+resonance layers; resolve unseen anatomy from author references; technical review
+and author approval before production use. Preserve the supplied likeness and
+hand-inked finish. Prior generated character designs are not the identity source.

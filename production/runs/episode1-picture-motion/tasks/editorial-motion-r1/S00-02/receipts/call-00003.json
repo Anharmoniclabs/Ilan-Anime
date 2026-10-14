@@ -1,0 +1,24 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.newText",
+    "params": {
+      "name": "Spanish — line 1",
+      "text": "ELLOS CUENTAN.",
+      "font": "DejaVu Serif",
+      "size": 40,
+      "tracking": 180,
+      "fill": "#EDE6D6",
+      "justify": "center",
+      "position": [
+        640,
+        282
+      ],
+      "allCaps": false
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 27
+  }
+}

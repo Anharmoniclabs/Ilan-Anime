@@ -1,0 +1,23 @@
+{
+  "task_id": "amaia-seat-repair",
+  "role": "key-animator",
+  "status": "blocked",
+  "host_agent_id": "/root/amaia_seat_repair",
+  "artifacts": [
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/registration_probe.py",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/registration-probe.json",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/seat-support-source-diagnostic.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/adult-scale-probe-opaque.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/adult-scale-probe-quarter-alpha.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/HANDOFF.md"
+  ],
+  "evidence": [
+    "Directly viewed three-losses-r2/sources/rest.png: only short bench edge and low diagonal plank, not three independent adult seat supports at the rejected anchors.",
+    "Directly viewed all three original ghost-*-rgba.png source figures and prior contact-registration.png; supplied contours are complete but prior adult scale is too small.",
+    "Rendered and directly viewed adult-scale-probe-opaque.jpg and adult-scale-probe-quarter-alpha.jpg: enlargement to .75 yields overlap/right-edge cropping without establishing seat support.",
+    "registration-probe.json records exact source SHA256, static transforms and unresolved anchors. No new movie or sequential-motion review claimed."
+  ],
+  "blockers": [
+    "Missing perspective-correct three-adult seat/contact artwork matched to S01-03 original Amaia/child/hull composition. Existing source plate provides no independently visible support for all three figures. Envelope prohibits new generation; need dedicated seating plate/contact-matched source artwork or newly staged memory insert."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "background": "../assets/Cemi-River-Scene/02-Backgrounds/BG01-Mangrove-River.png",
+  "fleet": "assets/fleet-cel.png",
+  "duration": 8,
+  "fps": 24,
+  "camera_pan": 104,
+  "boat_start_x": 20,
+  "boat_travel": 220,
+  "boat_y": 145,
+  "bob_pixels": 2.5,
+  "fleet_width": 1080
+}

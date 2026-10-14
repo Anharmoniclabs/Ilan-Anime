@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 194,
+      "name": "turnaround - back"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

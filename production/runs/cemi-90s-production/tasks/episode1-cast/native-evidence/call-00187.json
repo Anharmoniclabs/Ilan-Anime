@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 6,
+      "rect": [
+        161,
+        476,
+        764,
+        568
+      ],
+      "content": "text",
+      "text": "background-group | 1957 Echo | reference-only\nSix hero figures; footwork/spin/skirt flare, slack smile and hand on partner back. Subset of total crowd.\nShots: S05-06, S05-10"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 253,
+    "story": 254
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "reviewer": "Codex visual inspection",
+  "user_approval": false,
+  "sample": "One fresh full conversion of Downloads/10.png; existing models for 10.png, 11.png and 12.png reopened in Blender and visually inspected.",
+  "tool_result": "pass on sampled runs",
+  "visual_score_out_of_10": 4,
+  "front_score_out_of_10": 6,
+  "side_score_out_of_10": 3,
+  "back_score_out_of_10": 2,
+  "scope": "Subjective static-display quality assessment; not a benchmark, rigging test or autonomous model evaluation.",
+  "findings": [
+    "Front preserves recognizable outfit, pose and much of the face.",
+    "Tablet silhouette is warped; hands and props are not cleanly separated.",
+    "Face and hair detail are soft; face projection stretches at oblique views.",
+    "Side textures stretch and rear surfaces are lumpy with blurred color.",
+    "Packed 2048x2048 albedo, UVs and zero nonmanifold base-mesh edges passed technical checks.",
+    "No armatures; static display meshes only."
+  ],
+  "next_steps": [
+    "Correct face, hands, feet and prop geometry on a versioned Blender mesh.",
+    "Create consistent side/back reference art before refining unseen surfaces.",
+    "Repaint/rebake side and rear textures after geometry correction.",
+    "Require visual acceptance of multiple views separately from technical validation."
+  ]
+}

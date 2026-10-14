@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 19,
+      "rect": [
+        161,
+        110,
+        764,
+        202
+      ],
+      "content": "text",
+      "text": "mentioned-only | various | no-character-drawing-required\nPyrex ownership, no required visible person.\nShots: S03-03"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 625,
+    "story": 626
+  }
+}

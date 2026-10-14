@@ -1,0 +1,3 @@
+acceptable_for_exploratory_test
+Foreground merge repaired. Yara must leave through reframing, not dissolve. Multiple ghost losses require intermediate coverage.
+Exploratory still-pair review only; no author or animation approval.

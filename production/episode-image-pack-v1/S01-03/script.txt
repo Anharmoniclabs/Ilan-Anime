@@ -1,0 +1,4 @@
+`00:27:00 → 00:35:00` (192f) · MCU → CU Amaia · rate 3s
+- **Action:** Amaia's lips count the heads ahead. Each count lands on an empty seat. Pale outlines sit in the empty seats and fade as she looks at them (two lost at the channel, the old man who asked for water, then his wife, then nothing).
+- **FX:** `GHOST_SEATS(alpha .25→0); DOUBLE_EXPOSURE; CEL_SHADE(2-tone)`
+- **Sound:** VO Amaia (spare): “Amaia had fourteen when they put the canoes in. By the third night she had eleven.”

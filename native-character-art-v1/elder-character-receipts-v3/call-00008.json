@@ -1,0 +1,13 @@
+{
+  "tool": "run_command",
+  "arguments": {
+    "command": "layer.new",
+    "params": {
+      "name": "REFERENCE - original direction - hidden and locked"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 119455
+  }
+}

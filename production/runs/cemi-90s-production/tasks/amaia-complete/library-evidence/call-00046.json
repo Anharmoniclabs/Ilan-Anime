@@ -1,0 +1,56 @@
+{
+  "tool": "get_comp",
+  "arguments": {},
+  "status": "succeeded",
+  "result": {
+    "background": [
+      0.14901961386203766,
+      0.19607843458652496,
+      0.24313725531101227
+    ],
+    "duration": 2.0,
+    "frameRate": 24.0,
+    "height": 1536,
+    "id": 112,
+    "layers": [
+      {
+        "blendMode": "Normal",
+        "id": 113,
+        "in": 0.0,
+        "index": 1,
+        "label": "Lavender",
+        "name": "view-profile",
+        "out": 2.0,
+        "parent": null,
+        "start": 0.0,
+        "stretch": 100.0,
+        "switches": {
+          "adjustment": false,
+          "audio": true,
+          "collapse": false,
+          "effects": true,
+          "frame_blend": "Off",
+          "guide": false,
+          "locked": false,
+          "motion_blur": false,
+          "quality": "Best",
+          "sampling": "Bilinear",
+          "shy": false,
+          "solo": false,
+          "three_d": false,
+          "video": true
+        },
+        "trackMatte": null,
+        "type": "Footage"
+      }
+    ],
+    "name": "view-profile",
+    "preserveFrameRate": false,
+    "preserveResolution": false,
+    "width": 1024,
+    "workArea": [
+      0.0,
+      2.0
+    ]
+  }
+}

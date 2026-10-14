@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.new",
+    "params": {
+      "name": "S15-09 revision 1",
+      "width": 1280,
+      "height": 720,
+      "frameRate": 24,
+      "duration": 8.0
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 1
+  }
+}

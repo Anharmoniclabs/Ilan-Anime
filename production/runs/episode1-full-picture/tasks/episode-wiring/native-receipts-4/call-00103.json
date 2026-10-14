@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 127262016000000,
+      "durationFrames": 120,
+      "name": "S08-02 missing",
+      "comment": "trace blades; three frame alignment; unalign; hold logo"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 80
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addItem",
+    "params": {
+      "item": "steam-clear.png",
+      "time": 7.5,
+      "duration": 0.125
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 1467
+  }
+}

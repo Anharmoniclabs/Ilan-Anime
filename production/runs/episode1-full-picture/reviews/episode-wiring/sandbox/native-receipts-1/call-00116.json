@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 160030080000000,
+      "durationFrames": 192,
+      "name": "S10-05 missing",
+      "comment": "Yari messages; JC coffee photo; skull reply"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 93
+  }
+}

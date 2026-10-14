@@ -1,0 +1,205 @@
+{
+  "chapter": 1,
+  "characters": [
+    {
+      "id": "amaia",
+      "name": "Amaia",
+      "aliases": [],
+      "description": "Taíno woman leading a night river escape by canoe; mother of a son not yet two; has stopped saying the names of the lost. Physical appearance unspecified.",
+      "source_pages": [11, 12],
+      "evidence": "Amaia had started the night with fourteen."
+    },
+    {
+      "id": "dairon",
+      "name": "Dairon",
+      "aliases": [],
+      "description": "Amaia's brother; leads the first canoe through the mangroves; described as having spent all his fear. Physical appearance unspecified.",
+      "source_pages": [11, 12],
+      "evidence": "Her brother Dairon took the lead canoe through the mangroves"
+    },
+    {
+      "id": "yara",
+      "name": "Yara",
+      "aliases": [],
+      "description": "Rides behind Dairon carrying the wrapped cemí against her chest. Physical appearance unspecified.",
+      "source_pages": [11],
+      "evidence": "Yara rode behind him with the wrapped cemí against her chest"
+    },
+    {
+      "id": "beheto",
+      "name": "Beheto",
+      "aliases": [],
+      "description": "Drummer in the second canoe; lungs rattle when he breathes hard; his timing 'had never once been wrong'; plays the asking rhythm to the river. Physical appearance otherwise unspecified.",
+      "source_pages": [11, 12],
+      "evidence": "Beheto, whose lungs rattled when he breathed hard and whose timing had never once been wrong"
+    },
+    {
+      "id": "behique",
+      "name": "The behique",
+      "aliases": [],
+      "description": "Mentioned-only shamanic figure who calls the three glowing children 'the lit ones'. Physical appearance unspecified.",
+      "source_pages": [11],
+      "evidence": "The behique called them the lit ones."
+    },
+    {
+      "id": "lit-children",
+      "name": "The lit ones (three children)",
+      "aliases": ["the lit ones"],
+      "description": "Collective ensemble of three children in the third canoe who emit a thin blue light when they flinch; includes a seven-year-old girl who speaks to the water and a nine-year-old who hears the bell. Third child's identity unspecified.",
+      "source_pages": [11, 12],
+      "evidence": "In the third, three children sat so still it was worse than crying."
+    },
+    {
+      "id": "amaias-son",
+      "name": "Amaia's son",
+      "aliases": [],
+      "description": "Amaia's son, not yet two, who sleeps against her ribs and speaks in a voice too old for him. Physical appearance otherwise unspecified.",
+      "source_pages": [11, 12],
+      "evidence": "Her own son, not yet two, slept against her ribs."
+    },
+    {
+      "id": "bell-man",
+      "name": "The man with the brass bell",
+      "aliases": [],
+      "description": "One of the pursuers on the bank; carries a small brass bell on a pole and rings it; the sound is flat and wrong. Physical appearance otherwise unspecified.",
+      "source_pages": [11, 12],
+      "evidence": "One carried a small brass bell on a pole and rang it"
+    },
+    {
+      "id": "book-man",
+      "name": "The man with the book",
+      "aliases": [],
+      "description": "Pursuer sitting on a stump writing in a book as the canoes slide away; counts the escapees 'the way you count sacks'. Physical appearance otherwise unspecified.",
+      "source_pages": [12],
+      "evidence": "Another man sat on a stump with a book across his knee and wrote in it as the canoes slid away"
+    },
+    {
+      "id": "pursuers",
+      "name": "The trailing men",
+      "aliases": [],
+      "description": "Collective ensemble of men who trailed the fleeing families for two months and stop on the bank. Physical appearance unspecified.",
+      "source_pages": [11],
+      "evidence": "the men who had trailed them for two months had stopped."
+    },
+    {
+      "id": "juan-carlos",
+      "name": "Juan Carlos",
+      "aliases": ["the narrator", "Me"],
+      "description": "First-person narrator; a broke software/mural artist living on the fourth floor over Jerome Avenue; builds the Chismosa module; breaks it at 3:07 a.m. Physical appearance unspecified.",
+      "source_pages": [12, 13, 14, 15, 16, 17],
+      "evidence": "“Juan Carlos.” Through the wood, not a question."
+    },
+    {
+      "id": "mama",
+      "name": "Mamá (narrator's mother)",
+      "aliases": ["my mother", "Má"],
+      "description": "Lives two rooms over; prays the rosary in her sleep; knocks twice and decides not to ask questions. Physical appearance unspecified.",
+      "source_pages": [13, 17],
+      "evidence": "“Acuéstate,” she said finally."
+    },
+    {
+      "id": "grandmother",
+      "name": "The narrator's grandmother",
+      "aliases": [],
+      "description": "Mentioned-only; gave the narrator the coin at twelve; calls its markings señales viejas. Physical appearance unspecified.",
+      "source_pages": [13],
+      "evidence": "my grandmother calls señales viejas, old signs"
+    },
+    {
+      "id": "manny",
+      "name": "Manny",
+      "aliases": [],
+      "description": "The narrator's friend; texts at 2:41 while riding the 6 home from a quince in Mott Haven; knows the narrator too accurately. Physical appearance unspecified.",
+      "source_pages": [14, 15],
+      "evidence": "Manny texted at 2:41, riding the 6 home from a quince in Mott Haven."
+    },
+    {
+      "id": "ballroom-dancers",
+      "name": "The Ballroom dancers",
+      "aliases": [],
+      "description": "Collective ensemble of roughly forty couples of light, men in two-tone shoes, women with skirts catching air, dancing in the 1957 Ballroom; they go still when the eight-second loop hits. Individual dancers unnamed.",
+      "source_pages": [15, 16, 17],
+      "evidence": "Couples. Forty, maybe, built out of nothing but light and the shape of light"
+    },
+    {
+      "id": "ballroom-band",
+      "name": "The Ballroom band",
+      "aliases": [],
+      "description": "Collective ensemble heard in the vision: horn section, unhurried cowbell player, shoes on wood; keeps playing as the dancers freeze. Members unnamed.",
+      "source_pages": [15, 16],
+      "evidence": "a horn section, a cowbell somebody was riding without any hurry"
+    },
+    {
+      "id": "man-across-street",
+      "name": "The man in the lit window",
+      "aliases": [],
+      "description": "Unmoving figure with headphones standing in the third-floor window of the empty building across the street, facing the narrator's building during the blackout. Physical appearance otherwise unspecified.",
+      "source_pages": [17],
+      "evidence": "A man stood in it, not moving, headphones on, facing our building"
+    },
+    {
+      "id": "mentioned-neighbors",
+      "name": "Mentioned Bronx neighbors and locals",
+      "aliases": [],
+      "description": "Mentioned-only collective: the lady on three (Pyrex owner), two guys not speaking since a bodega fight, the super and his biting dog, a bitten delivery guy, a kid on the stoop, a kid awaiting his EP, a laughing woman in the Ballroom. Physical appearances unspecified.",
+      "source_pages": [13, 14, 15, 16],
+      "evidence": "Two guys I’d known since I was nine, not speaking."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "before-river-escape",
+      "name": "BEFORE: The river escape at night",
+      "description": "Historical BEFORE section, 1957-era Taíno flight: three canoes slip through mangroves by night; pursuers ring a brass bell and write in a book from the bank; the lit children flinch blue; Beheto's drum asks the river; the current turns and the river gives them to the sea.",
+      "characters": ["amaia", "dairon", "yara", "beheto", "behique", "lit-children", "amaias-son", "bell-man", "book-man", "pursuers"],
+      "source_pages": [11, 12],
+      "evidence": "Before any of this there was a river, and a woman who was done counting."
+    },
+    {
+      "id": "narrator-confession-0307",
+      "name": "3:07: The confession and the room",
+      "description": "The narrator admits breaking the software on purpose at 3:07 a.m., then sets the room: fourth floor over Jerome Avenue, the 4 train, the cracked window, the coin on the nightstand and its señales viejas.",
+      "characters": ["juan-carlos", "grandmother", "mentioned-neighbors"],
+      "source_pages": [12, 13],
+      "evidence": "At 3:07 on a Tuesday morning in March, I took a perfectly good piece of software and broke it on purpose."
+    },
+    {
+      "id": "chismosa-and-the-block",
+      "name": "Chismosa, the spiral, and the eight-second loop",
+      "description": "The narrator explains the Ballroom mural gig, the Chismosa module listening to the steam riser, the recurring spiral-and-triangle shape, the ugly eight-second loop, and the block's little-mean month.",
+      "characters": ["juan-carlos", "mentioned-neighbors"],
+      "source_pages": [14],
+      "evidence": "I called it Chismosa, because all it did was listen to the building and tell me the gossip."
+    },
+    {
+      "id": "manny-text-and-breaking-the-module",
+      "name": "Manny's text and deleting the filter stack",
+      "description": "Manny texts at 2:41; after three cafecitos the narrator deletes Chismosa's entire filter stack and points the raw feed at the projector; ears pop, the air gets heavy, and the static pulls into a point.",
+      "characters": ["juan-carlos", "manny"],
+      "source_pages": [14, 15],
+      "evidence": "I opened the config and deleted all of it."
+    },
+    {
+      "id": "ballroom-vision",
+      "name": "The Ballroom, 1957: ECHO vision",
+      "description": "ECHO section: the wall opens into the 1957 Ballroom; forty light-built couples dance around the inlaid spiral and triangle; the eight-second loop comes up the pipe and flattens the dancers one pair at a time while the band keeps playing; the coin lifts off the nightstand, hot.",
+      "characters": ["juan-carlos", "ballroom-dancers", "ballroom-band", "mentioned-neighbors"],
+      "source_pages": [15, 16],
+      "evidence": "They were dancing in the Ballroom, in my building, a floor under my feet and almost seventy years down"
+    },
+    {
+      "id": "blackout-and-mama",
+      "name": "Blackout, Mamá's knock, and the lit window",
+      "description": "The apartment cuts out; the dancers stay lit two seconds more, then go; Mamá knocks and decides not to ask; the whole block is dark except one third-floor window in the empty building across the street, where a man with headphones stands facing them.",
+      "characters": ["juan-carlos", "mama", "man-across-street"],
+      "source_pages": [16, 17],
+      "evidence": "The whole block was dark."
+    }
+  ],
+  "non_scene_pages": [
+    {
+      "page": 18,
+      "reason": "Project file listing (directory tree of the studio project), not manuscript narrative; no scene or character content."
+    }
+  ]
+}

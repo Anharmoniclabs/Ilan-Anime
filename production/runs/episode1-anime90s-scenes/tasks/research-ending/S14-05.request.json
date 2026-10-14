@@ -1,0 +1,11 @@
+{
+  "shot_id": "S14-05",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. Over-the-shoulder intimate medium shot at same oak research table in same afternoon library. Foreground left JC in exact darkhoodie holding out a single small wired earbud in his open palm toward Sofia. Sofia in tealcardigan glasses faces him on right, one hand reaching to take earbud, skeptical thoughtful expression. Earbud and two separate anatomically clear hands center emphasis. Open silver laptop between them at edge without obscuring hands, screen angled away no readable text. Both characters match attached sources, SAME curls/face/build. Shallow compositional separation but painted background not photographic blur; mossgreen panels warm brasslamp windowdaylight. Tense ordinary conversation, no speech bubbles or written dialogue or sound visualization.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-875a7578-6309-4f16-b5fa-fa54aa451a37.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-01.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/sofia.png"
+  ],
+  "key_moment": "JC offers earbud; subsequent laying it down and hold-music gag require later keyframes."
+}

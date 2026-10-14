@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.addKey",
+    "params": {
+      "layer": "1-30 radiator drawn steam on threes",
+      "path": "transform/position",
+      "time": 3.75,
+      "value": [
+        663.8606271777004,
+        324.0
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": 1
+}

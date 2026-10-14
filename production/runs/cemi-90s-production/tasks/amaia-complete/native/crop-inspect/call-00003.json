@@ -1,0 +1,16 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.new",
+    "params": {
+      "name": "Hand detail",
+      "width": 120,
+      "height": 160,
+      "background": "#26323e"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 2
+  }
+}

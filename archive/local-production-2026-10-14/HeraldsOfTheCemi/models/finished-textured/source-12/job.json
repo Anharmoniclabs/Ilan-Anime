@@ -1,0 +1,46 @@
+{
+  "kind": "mesh-finish",
+  "status": "generated",
+  "model": "TripoSR + source artwork projection",
+  "backend": "local-blender",
+  "image": "sources/character-images/12.png",
+  "input_sha256": "2fd21bbc4d0a7415c93c6ff82d23c1b4588380edd8f473757db386cbc5ec0447",
+  "source_mesh_sha256": "78edd92141bf652d8da91771eab3e9a7a63f0ef22314ced4a01e1fe8c5794003",
+  "output": "models/finished-textured/source-12/source-12.glb",
+  "blend": "models/finished-textured/source-12/source-12.blend",
+  "commands": [
+    [
+      "/home/alabs/.local/opt/TripoSR/.venv/bin/python",
+      "/home/alabs/Projects/NESSA/scripts/prepare_character_texture.py",
+      "/home/alabs/Projects/HeraldsOfTheCemi/sources/character-images/12.png",
+      "/home/alabs/Projects/HeraldsOfTheCemi/models/finished-textured/source-12"
+    ],
+    [
+      "/home/alabs/.local/bin/blender",
+      "--background",
+      "--factory-startup",
+      "--threads",
+      "2",
+      "--python-exit-code",
+      "1",
+      "--python",
+      "/home/alabs/Projects/NESSA/scripts/finish_character.py",
+      "--",
+      "/home/alabs/Projects/HeraldsOfTheCemi/models/triposr/12/0/mesh.glb",
+      "/home/alabs/Projects/HeraldsOfTheCemi/sources/character-images/12.png",
+      "/home/alabs/Projects/HeraldsOfTheCemi/models/finished-textured/source-12"
+    ]
+  ],
+  "cwd": "/home/alabs/Projects/HeraldsOfTheCemi",
+  "started_at": 1791483426.1662133,
+  "timeout": 900,
+  "pid": 7926,
+  "mesh": {
+    "primitives": 1,
+    "vertices": 66480,
+    "bytes": 7227244,
+    "validation": "GLB structure and geometry counts; visual review required"
+  },
+  "sha256": "9e4748a8421f4b78d45a87fa6372cb2e9cdf1f1faa049672b81b24d275830871",
+  "seconds": 115.76679110527039
+}

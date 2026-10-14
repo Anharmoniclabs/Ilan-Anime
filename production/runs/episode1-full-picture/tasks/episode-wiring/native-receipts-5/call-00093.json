@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 81793152000000,
+      "durationFrames": 120,
+      "name": "S05-08 missing",
+      "comment": "drop fourth to third; second to first; ground ballroom"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 62
+  }
+}

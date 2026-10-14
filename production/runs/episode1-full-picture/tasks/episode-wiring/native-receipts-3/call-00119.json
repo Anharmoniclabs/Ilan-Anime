@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 166888512000000,
+      "durationFrames": 192,
+      "name": "S11-03 missing",
+      "comment": "pride response; rent numbers; unease"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 96
+  }
+}

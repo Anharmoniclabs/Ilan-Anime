@@ -1,0 +1,21 @@
+{
+  "tool": "set_property",
+  "arguments": {
+    "layer": 55,
+    "path": "masks/#1/expansion",
+    "value": 10
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": false,
+    "expression": null,
+    "keys": [],
+    "layer": 55,
+    "match": "expansion",
+    "name": "Mask Expansion",
+    "time": 0.0,
+    "type": "scalar",
+    "uid": 82,
+    "value": 10.0
+  }
+}

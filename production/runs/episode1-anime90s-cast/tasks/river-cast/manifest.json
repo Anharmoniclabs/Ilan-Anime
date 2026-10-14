@@ -1,0 +1,245 @@
+{
+  "task_id": "river-cast",
+  "status": "exploratory",
+  "source_count": 12,
+  "entries": [
+    {
+      "id": "amaia-son",
+      "cast_id": "amaia-son",
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/amaia-son.png",
+      "sha256": "dfe1f6cac780ec27f3f24f09922fdfe27032477b7c813a2c0fcf5518e0df2948",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/amaia-son.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/river-cast/amaia-son-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory"
+    },
+    {
+      "id": "beheto",
+      "cast_id": "beheto",
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/beheto.png",
+      "sha256": "d1c97af3ea999c752df31df00c6e075fb843e834cdddc42a1959139346ba9c83",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/beheto.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/river-cast/beheto-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory"
+    },
+    {
+      "id": "bell-soldier",
+      "cast_id": "bell-soldier",
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/bell-soldier.png",
+      "sha256": "591e342be10ad0e941d60c046ad445a267158f1f878d02e24015c3dc311b510d",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/bell-soldier.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/river-cast/bell-soldier-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory"
+    },
+    {
+      "id": "canoe-survivor-1",
+      "cast_id": "canoe-survivors",
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-1.png",
+      "sha256": "ae23e57bec5dfc13a9960a105e2f75115502c0f0212f193ff1695b127f6b6571",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/canoe-survivor-1.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/river-cast/canoe-survivor-1-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory"
+    },
+    {
+      "id": "canoe-survivor-2",
+      "cast_id": "canoe-survivors",
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-2.png",
+      "sha256": "ca72dccfea0f81b8417bfea22c0d874dac5b2c6e9a88e90fca96ef3760059a86",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/canoe-survivor-2.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/river-cast/canoe-survivor-2-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory"
+    },
+    {
+      "id": "canoe-survivor-3",
+      "cast_id": "canoe-survivors",
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-3.png",
+      "sha256": "b4f899aa67c375fd9bcb6cf12f94c79d04e95ebcdaefdf221dff5c9bff610dc7",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/canoe-survivor-3.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/river-cast/canoe-survivor-3-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory"
+    },
+    {
+      "id": "dairon",
+      "cast_id": "dairon",
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png",
+      "sha256": "b59f3a3a48a916e6b3fa001eec74d45ae59a3afaf113dba675cb0435fc0ad0a6",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/dairon.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/river-cast/dairon-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory"
+    },
+    {
+      "id": "ledger-man",
+      "cast_id": "ledger-man",
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/ledger-man.png",
+      "sha256": "907fbd555c51a7f58b8dc910d45c16d86a0f5f05b1210089bcac17c552a1e92c",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/ledger-man.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/river-cast/ledger-man-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory"
+    },
+    {
+      "id": "lit-boy-nine",
+      "cast_id": "lit-boy-nine",
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-boy-nine.png",
+      "sha256": "f7aea88e762231b8da8b7997413c31236815e83f34d173e6ab6553a357378ce3",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/lit-boy-nine.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/river-cast/lit-boy-nine-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory"
+    },
+    {
+      "id": "lit-child-third",
+      "cast_id": "lit-child-third",
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-child-third.png",
+      "sha256": "1f2332fd3d490ab819e22228555abc0ef1438ab65a33a1b214998a74050fd30e",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/lit-child-third.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/river-cast/lit-child-third-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory"
+    },
+    {
+      "id": "lit-girl-seven",
+      "cast_id": "lit-girl-seven",
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-girl-seven.png",
+      "sha256": "91c86174e5cbfc347f233d9e49a51d1c982e7ab988517cb960dcae62bfaabdfc",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/lit-girl-seven.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/river-cast/lit-girl-seven-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory"
+    },
+    {
+      "id": "yara",
+      "cast_id": "yara",
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/yara.png",
+      "sha256": "b0b4c0fa069e6877c103472b6d7ef3070f2d4ea6220b218bc4cc8cc32f073aa4",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/yara.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/river-cast/yara-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory"
+    }
+  ],
+  "notes": [
+    "12 newly generated individual river sources, 12 built-in calls. Approved Amaia preserved without edits.",
+    "Only rooftop90s reference and approved Amaia r2 attached. Prior river sheets inspected via costume-reading-1/2.jpg for identity/costume only, never attached.",
+    "All12 directly inspected as gray-composited contact sheets review-1/2.jpg. Clean90s anime faces, clear contour and simple cel fills maintained; full figures including feet are visible. No obvious crop or generated lettering.",
+    "Amaia son is seated sleepy source, stone in hand. Sleeping mother-child contacts are not completed. Dairon and Beheto are standing neutral masters without paddle/drum, not their scripted action. Yara holds gray wrapped bundle.",
+    "Three supporting survivors retain proposed old costume silhouettes; current script canoe staging still governs and no seats assigned. Smaller third child age5 is adaptation proposal; script leaves exact age unspecified.",
+    "Bell soldier contains pole and bell, grip and prop separation still need production work. Ledger man holds closed ledger and quill; seated writing action not yet drawn.",
+    "Genuine alpha checked; RGB backdrop haze is transparent on gray composites. Exact matte cleanup still belongs to native assembly.",
+    "No separated hidden joint surfaces, registered atlas, contact/motion checks, puppet or animation approval. All outputs exploratory source generation only."
+  ]
+}

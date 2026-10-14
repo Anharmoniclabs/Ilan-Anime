@@ -1,0 +1,65 @@
+{
+  "scope": "targeted action and contact audit; not full playback",
+  "findings": [
+    {
+      "shot": "S05-06",
+      "source": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-06.png",
+        "sha256": "6471ca1c951ac6dc772cefd77cad4a9f9d9ba12dd27a29f9a6b4663e83e7a59e",
+        "selected_moment": "Directly viewed tool output: all3hero couples recognizable; heroB spin, full feet, strong translucent gold-blue effect and floor visible through legs. Band remains more opaque; this is one representative angle not3cuts."
+      },
+      "directly_viewed": true,
+      "finding": "Selected image places all three hero couples in one tableau. Need three independently composed timed cuts with footwork, full spin and flare, hand/back/foot contact keys and corresponding reflection drawings. A scale/pan over this image cannot satisfy the dance."
+    },
+    {
+      "shot": "S05-12",
+      "source": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-12.png",
+        "sha256": "ca8f210ebd34ca385050dbbe7a61e292f9b94e56d95b82394340782cc6568724",
+        "selected_moment": "Directly viewed: good intact-wall transmitted ballroom, gray-white dancers, bluegold streams flow consistently right toward real window. Exact40ribbons not count-verified; stream destination oppositebuilding not shown and sigil remains somewhat light."
+      },
+      "directly_viewed": true,
+      "finding": "Selected image captures outgoing ribbons but floor motif is an unregistered spiral and apparent ballroom is one flattened projection. Need registered inlay, 40 individually identifiable ribbon departures, gray-white dancer states and destination window continuation."
+    },
+    {
+      "shot": "S12-08",
+      "source": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S12-08.png",
+        "sha256": "6478967b6a08379bdf9577a7b615b4d5e9901ec64effdcff5c77aa2c4dde1f47",
+        "selected_moment": null
+      },
+      "directly_viewed": true,
+      "finding": "Pitcher overflow exists but selected visible milk largely runs down pitcher rather than over JC knuckles. New contact drawings must show rim-to-knuckle flow and late heat reaction while Manny shoulder contact stays fixed. Also retain separate Rodriguez approach/freelancer stare."
+    },
+    {
+      "shot": "S13-10",
+      "source": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-10.png",
+        "sha256": "cb05b6820e724fce2966e3953f1fc4e93dc609a7d2f4556891b32be24429ec42",
+        "selected_moment": null
+      },
+      "directly_viewed": true,
+      "finding": "Selected frame covers atlas/eraser boys and librarian only; it does not provide remaining grandfather, girls, porter, mother/kids lanes or a wide lateral plate. Figures appear substantially solid; separate recorded-light treatment needed. Build eraser grip/rub/return and stamp bounce keys."
+    },
+    {
+      "shot": "S14-08",
+      "source": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-08-r3.png",
+        "sha256": "975ac58725aae475ebb27cb3ee1d62daa937eb6470227a5439325ac96e139e39",
+        "selected_moment": "PRESS memory; only tapping hand retains full color. Desaturated clipboard correction."
+      },
+      "directly_viewed": true,
+      "finding": "Selected r3 depicts flattened classroom and colored tapping hand. Preserve current hand-only color instruction; new pre-PRESS normal states, actual tap contact to desk leg, teacher writing, observer and later family letter/drawer sequence remain required."
+    },
+    {
+      "shot": "S15-06",
+      "source": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-06.png",
+        "sha256": "e999e48f5c70b0a1ed6bd422638e6a7b3d75858e6d52f8c87f71c94d0b8fe6ea",
+        "selected_moment": "Exhausted players under strong PRESS, mediator returning inside, anger vapor draining."
+      },
+      "directly_viewed": true,
+      "finding": "Selected frame shows slumped endpoint and smoke connection to speaker. Need preceding anger detachment/draining, seated settle, third man handle contact and doorway passage. Preserve awning/table footprint when restoring any merchandise detail."
+    }
+  ]
+}

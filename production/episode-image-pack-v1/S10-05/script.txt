@@ -1,0 +1,4 @@
+`10:30:00 → 10:38:00` (192f) · UI · phone · rate 3s
+- **Action:** Yari's daily text: did you eat / define eat / juan carlos. He sends a photo of the iced coffee; she replies with one skull.
+- **FX:** `UI_PHONE(bubbles); EMOJI_CEL`
+- **Sound:** Phone buzz and whoosh.

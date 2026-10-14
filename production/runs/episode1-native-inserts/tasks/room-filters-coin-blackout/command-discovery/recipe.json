@@ -1,0 +1,11 @@
+{
+  "steps": [
+    {
+      "app": "effectcraft",
+      "tool": "list_commands",
+      "arguments": {
+        "schemas": true
+      }
+    }
+  ]
+}

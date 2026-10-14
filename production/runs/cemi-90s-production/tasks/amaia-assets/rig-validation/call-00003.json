@@ -1,0 +1,16 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.list",
+    "params": {}
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 2,
+    "controls": [],
+    "name": "SOURCE - pony",
+    "primary": null,
+    "solo": false,
+    "supported": null
+  }
+}

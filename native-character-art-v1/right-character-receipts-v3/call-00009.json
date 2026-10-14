@@ -1,0 +1,28 @@
+{
+  "tool": "run_command",
+  "arguments": {
+    "command": "file.place",
+    "params": {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/ART-DIRECTION.png",
+      "rect": [
+        0,
+        0,
+        1672,
+        941
+      ],
+      "link": false
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "format": "png",
+    "height": 941.0,
+    "ids": [
+      117459
+    ],
+    "linked": false,
+    "name": "ART-DIRECTION.png",
+    "warnings": [],
+    "width": 1672.0
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "version": 1,
+  "run": "arthouse-pack-v1",
+  "paused": false,
+  "pause_reason": null,
+  "tasks": {
+    "writing": {
+      "output_dir": "production/runs/arthouse-pack-v1/tasks/writing",
+      "role": "script-supervisor",
+      "inputs": [
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/art_direction.json",
+        "docs/STATUS.md"
+      ],
+      "id": "writing",
+      "objective": "Produce exploratory source-faithful screenplay companion, full-cast character design bible, internal production guide and S01 storyboard beats for Heralds of the Cemi. Preserve canon.",
+      "depends_on": [],
+      "shots": [
+        "S01-01",
+        "S01-02",
+        "S01-03",
+        "S01-04",
+        "S01-05",
+        "S01-06",
+        "S01-07",
+        "S01-08",
+        "S01-09",
+        "S01-10",
+        "S01-11",
+        "S01-12",
+        "S01-13",
+        "S01-14",
+        "S01-15"
+      ],
+      "requires_author_approval": true,
+      "author_approver": "luis-m-minier",
+      "state": "approved",
+      "agent_id": "arthouse-writing",
+      "result": {
+        "task_id": "writing",
+        "role": "script-supervisor",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/arthouse-pack-v1/tasks/writing/SCRIPT.fountain",
+          "production/runs/arthouse-pack-v1/tasks/writing/S01_SHOOTING_SCRIPT.md",
+          "production/runs/arthouse-pack-v1/tasks/writing/CHARACTER_BIBLE.md",
+          "production/runs/arthouse-pack-v1/tasks/writing/PRODUCTION_GUIDE.md",
+          "production/runs/arthouse-pack-v1/tasks/writing/storyboard-beats.json",
+          "production/runs/arthouse-pack-v1/tasks/writing/cast.json",
+          "production/runs/arthouse-pack-v1/tasks/writing/CONTINUITY_DECISIONS.md",
+          "production/runs/arthouse-pack-v1/tasks/writing/build_pack.py"
+        ],
+        "evidence": [
+          "Read production/runs/arthouse-pack-v1/ledger.json: writing is dispatched to arthouse-writing as script-supervisor; output limited to tasks/writing.",
+          "Read projects/cemi_episode_01/data/EPISODE_SCRIPT.md and episode.json; automated check confirms all 128 screenplay shot markers and every curly-quoted source dialogue string retained.",
+          "Automated comparison confirms all 15 S01 shot IDs, start frames, end frames and durations exactly match episode.json; 3,024 total S01 frames.",
+          "Read production/art_direction.json, docs/STATUS.md, docs/CRAFT_WORKBENCH.md, README.md, production/WORKER_CONTRACT.md and research/animation_audit/REPORT.md.",
+          "Read older research/earlier_cemi_pipeline/data/character_bible.txt; older details and later-episode spoilers separated from Episode 1 facts.",
+          "Directly viewed archival 01-Amaia.png and 03-Dairon.png under research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters; documented observed costumes/hair and exploratory identity status.",
+          "No motion, audio or generated images created/viewed in this writing task. No engine execution claimed."
+        ],
+        "blockers": [],
+        "open_decisions": [
+          "Original pencil portraits missing: canonical likeness approval remains unavailable.",
+          "S01-11/12 showcase duration, microbeat coverage and drawing-rate conflicts need author resolution before final exposures.",
+          "Headcount/absent-passenger count, broken-paddle owner and S01 sound bridge unresolved.",
+          "Source VO summaries/implicit dialogue attribution need recording-script review; ED final-black budget unresolved."
+        ]
+      },
+      "review": {
+        "role": "episode-director",
+        "agent_id": "writing-review",
+        "decision": "approve",
+        "evidence": "Independent host /root/writing_review: reviews/writing-review.json; technical exploratory writing only; no author approval."
+      }
+    },
+    "visuals": {
+      "output_dir": "production/runs/arthouse-pack-v1/tasks/visuals",
+      "role": "art-director",
+      "inputs": [
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/art_direction.json",
+        "docs/STATUS.md"
+      ],
+      "id": "visuals",
+      "objective": "Produce exploratory original S01 storyboards, Amaia/Dairon model sheets, a layered editable character puppet, native Craft projects and review package. Absent original pencil portraits prevent canonical approval, not exploratory design work requested by Luis.",
+      "depends_on": [],
+      "shots": [
+        "S01-01",
+        "S01-02",
+        "S01-03",
+        "S01-04",
+        "S01-05",
+        "S01-06",
+        "S01-07",
+        "S01-08",
+        "S01-09",
+        "S01-10",
+        "S01-11",
+        "S01-12",
+        "S01-13",
+        "S01-14",
+        "S01-15"
+      ],
+      "requires_author_approval": true,
+      "author_approver": "luis-m-minier",
+      "state": "rejected",
+      "agent_id": "arthouse-visuals",
+      "result": {
+        "task_id": "visuals",
+        "role": "art-director",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/arthouse-pack-v1/tasks/visuals/art/amaia-model-v1.png",
+          "production/runs/arthouse-pack-v1/tasks/visuals/art/amaia-model-v2.png",
+          "production/runs/arthouse-pack-v1/tasks/visuals/art/amaia-puppet-atlas-v1.png",
+          "production/runs/arthouse-pack-v1/tasks/visuals/art/dairon-model-v1.png",
+          "production/runs/arthouse-pack-v1/tasks/visuals/art/storyboard-s01-01-08-v1.png",
+          "production/runs/arthouse-pack-v1/tasks/visuals/art/storyboard-s01-01-08-v2.png",
+          "production/runs/arthouse-pack-v1/tasks/visuals/art/storyboard-s01-09-15-v1.png",
+          "production/runs/arthouse-pack-v1/tasks/visuals/art/storyboard-s01-09-15-v2.png",
+          "production/runs/arthouse-pack-v1/tasks/visuals/production-book-v3/arthouse-art-book.pdf",
+          "production/runs/arthouse-pack-v1/tasks/visuals/puppet/take-04/amaia-puppet-controls.ecproj",
+          "production/runs/arthouse-pack-v1/tasks/visuals/puppet/take-04/rig-control-preview.mp4",
+          "production/runs/arthouse-pack-v1/tasks/visuals/written-books/SCREENPLAY.pdf"
+        ],
+        "evidence": [
+          "Built-in image generation produced original model, storyboard and puppet artwork; exact prompts preserved.",
+          "Directly inspected generated model sheets, two storyboard pages and assembled puppet.",
+          "Craft engines created native PhotoCraft files, DesignCraft layout/PDF, six-layer parented EffectCraft puppet and FilmCraft test sequence.",
+          "Independent /root/visual_review reviewed first and revised artifacts. Remaining continuity and puppet finish defects retained explicitly.",
+          "ffprobe confirmed 48 frames at 24 fps; cleaned native puppet reopened with six layers."
+        ],
+        "blockers": [],
+        "creative_status": "exploratory; production acceptance rejected pending revision"
+      },
+      "review": {
+        "role": "director",
+        "agent_id": "visual-review",
+        "decision": "reject",
+        "evidence": "Independent host /root/visual_review: reviews/visual-review.json; unresolved Yara/cemi staging, differentiation and puppet seams. Usable development references, not production acceptance."
+      }
+    },
+    "native-puppet-update": {
+      "shots": [
+        "S01-02"
+      ],
+      "depends_on": [],
+      "objective": "Deliver native Amaia fullbody drawing and puppet update snapshot; cover style reference only; no HTML or poster trace. Existing work area take-05 holds build sources.",
+      "output_dir": "production/runs/arthouse-pack-v1/tasks/native-puppet-update",
+      "role": "art-director",
+      "inputs": [
+        "production/art_direction.json",
+        "production/runs/arthouse-pack-v1/tasks/writing/CHARACTER_BIBLE.md"
+      ],
+      "id": "native-puppet-update",
+      "requires_author_approval": true,
+      "author_approver": "luis-m-minier",
+      "state": "author-rejected",
+      "agent_id": "native-drawing",
+      "result": {
+        "task_id": "native-puppet-update",
+        "role": "art-director",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/arthouse-pack-v1/tasks/native-puppet-update/amaia-puppet-controls.ecproj",
+          "production/runs/arthouse-pack-v1/tasks/native-puppet-update/amaia-native.vectorcraft",
+          "production/runs/arthouse-pack-v1/tasks/native-puppet-update/drawing-parts.json",
+          "production/runs/arthouse-pack-v1/tasks/native-puppet-update/native-controls.json",
+          "production/runs/arthouse-pack-v1/tasks/native-puppet-update/amaia.png"
+        ],
+        "evidence": [
+          "Separate worker /root/native_drawing authored native paths with VectorCraft drawing commands; no cover tracing or generated raster import.",
+          "27 registered semantic parts assembled into a fullbody EffectCraft puppet with19 essential controls.",
+          "Directly inspected source, neutral, blink, posed and reopened render. Saved project reproduces source with visible-channel mean absolute error0.00675/255.",
+          "Independent reviewer /root/visual_review approves only functional native prototype, not final art-direction match or episode animation.",
+          "Updated preexisting take04/amaia-puppet-controls.ecproj with backup previous-bust-project.ecproj in take05."
+        ],
+        "blockers": [],
+        "open_decisions": [
+          "Visual finish remains simpler than cover style reference; not author-approved or production-ready."
+        ]
+      },
+      "review": {
+        "role": "director",
+        "agent_id": "visual-review",
+        "decision": "approve",
+        "evidence": "Independent /root/visual_review: take-05/review.json, final19 controls. Approval scope functional native-drawn puppet prototype only; final art direction/likeness and production acting remain unapproved."
+      },
+      "author_review": {
+        "author": "luis-m-minier",
+        "decision": "reject",
+        "evidence": "Author explicitly rejected take05 drawing, then requested deletion of rejected work: \"delete all that please\". Removed from active project via desktop Trash; do not reuse."
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "writing"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "writing",
+      "agent_id": "arthouse-writing"
+    },
+    {
+      "action": "add",
+      "task_id": "visuals"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "visuals",
+      "agent_id": "arthouse-visuals"
+    },
+    {
+      "action": "submit",
+      "task_id": "writing",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "writing",
+      "decision": "approve"
+    },
+    {
+      "action": "submit",
+      "task_id": "visuals",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "visuals",
+      "decision": "reject"
+    },
+    {
+      "action": "add",
+      "task_id": "native-puppet-update"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "native-puppet-update",
+      "agent_id": "native-drawing"
+    },
+    {
+      "action": "submit",
+      "task_id": "native-puppet-update",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "native-puppet-update",
+      "decision": "approve"
+    },
+    {
+      "action": "author-review",
+      "task_id": "native-puppet-update",
+      "decision": "reject",
+      "author": "luis-m-minier"
+    }
+  ]
+}

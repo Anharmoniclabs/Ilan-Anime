@@ -1,0 +1,4 @@
+`08:42:00 → 08:48:00` (144f) · TRACK · walk · rate 3s
+- **Action:** JC thanks him 'like a normal person' and walks toward the train. His heart does something rude: a heartbeat pulse in the frame edges.
+- **FX:** `HEARTBEAT_PUMP(vignette); PAN_WITH_WALK`
+- **Sound:** Footsteps; heartbeat low.

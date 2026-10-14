@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 3,
+      "name": "Mother and child - connected contact source"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

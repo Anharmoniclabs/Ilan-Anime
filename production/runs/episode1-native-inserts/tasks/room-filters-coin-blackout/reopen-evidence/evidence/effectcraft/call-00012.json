@@ -1,0 +1,17 @@
+{
+  "tool": "render_frame",
+  "arguments": {
+    "time": 0,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/reopen-evidence/S06-03-reopened.png",
+    "max_side": 0,
+    "inline": false
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 1,
+    "height": 720,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/reopen-evidence/S06-03-reopened.png",
+    "time": 0.0,
+    "width": 1280
+  }
+}

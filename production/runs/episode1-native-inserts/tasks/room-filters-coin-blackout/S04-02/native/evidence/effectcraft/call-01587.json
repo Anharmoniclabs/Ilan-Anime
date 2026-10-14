@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.addKey",
+    "params": {
+      "layer": "10-0 same waveform travels unchanged",
+      "path": "transform/position",
+      "time": 4.625,
+      "value": [
+        922.7659574468086,
+        523.0
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": 112
+}

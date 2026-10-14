@@ -1,0 +1,544 @@
+{
+  "shot": "S01-07",
+  "status": "submitted draft timing record; not animation or author approval",
+  "fps": 24,
+  "aspect": "16:9",
+  "frame_indexing": "zero-based, end-exclusive",
+  "episode_start_frame": 1416,
+  "episode_end_frame_exclusive": 1584,
+  "frames": 168,
+  "duration_seconds": 7,
+  "timecodes": {
+    "in": "00:59:00",
+    "out": "01:06:00"
+  },
+  "cadence_frames": 3,
+  "arithmetic": {
+    "episode": "1584 - 1416 = 168",
+    "seconds": "168 / 24 = 7",
+    "three_frame_exposure_slots": "168 / 3 = 56",
+    "phase_frames": [
+      18,
+      45,
+      27,
+      51,
+      15,
+      12
+    ],
+    "phase_sum": "18 + 45 + 27 + 51 + 15 + 12 = 168"
+  },
+  "allocation_status": "Within-shot blocking proposal for episode-director review; exact script timing is unchanged. Supersedes only packet coarse equal-quarter draft allocation if reviewer accepts. Does not alter story or duration.",
+  "phases": [
+    {
+      "id": "setup",
+      "start": 0,
+      "end_exclusive": 18,
+      "action": "Seated Counter establishes fixed downward gaze and balanced ledger; wrist prepares at first-line start, no glance toward water.",
+      "camera": "locked low-angle medium shot",
+      "drawing_policy": "Intentional setup holds allowed; any preparatory articulation uses three-frame drawing changes."
+    },
+    {
+      "id": "line_one",
+      "start": 18,
+      "end_exclusive": 63,
+      "action": "Cut to pen/page close-up at established contact. Articulated fingers and wrist guide nib along the first line, with varied short ink strokes and deliberate spacing; end settles on paper.",
+      "camera": "locked pen/page close-up",
+      "drawing_policy": "15 active three-frame exposures with registered action-specific hand/wrist drawings; ink follows actual nib contact."
+    },
+    {
+      "id": "return",
+      "start": 63,
+      "end_exclusive": 90,
+      "action": "Release first-line contact, lift nib clear, move through a shallow return arc, descend at second-line start and land without a positional jump.",
+      "camera": "same locked close-up",
+      "drawing_policy": "Nine connected three-frame drawings. No ink while nib is clear."
+    },
+    {
+      "id": "line_two",
+      "start": 90,
+      "end_exclusive": 141,
+      "action": "Write the second line below the first on the same paper plane, advancing with varied finger/wrist articulation. Do not translate the first-line bank downward.",
+      "camera": "same locked close-up",
+      "drawing_policy": "17 active three-frame exposures, separately drawn against the second-line path."
+    },
+    {
+      "id": "finish",
+      "start": 141,
+      "end_exclusive": 156,
+      "action": "Complete final mark, release nib, make a small controlled finishing lift, then settle wrist without adding another line.",
+      "camera": "same locked close-up",
+      "drawing_policy": "Five connected three-frame exposures, ending in a stable lift/settle pose."
+    },
+    {
+      "id": "final_hold",
+      "start": 156,
+      "end_exclusive": 168,
+      "action": "Brief intentional hold with two completed newly written lines visible; no gaze change or extra story action.",
+      "camera": "same locked close-up",
+      "drawing_policy": "12-frame punctuation hold explicitly allowed, no claim of active writing here."
+    }
+  ],
+  "exposure_slots": [
+    {
+      "start": 0,
+      "end_exclusive": 3,
+      "phase": "setup",
+      "episode_start_frame": 1416
+    },
+    {
+      "start": 3,
+      "end_exclusive": 6,
+      "phase": "setup",
+      "episode_start_frame": 1419
+    },
+    {
+      "start": 6,
+      "end_exclusive": 9,
+      "phase": "setup",
+      "episode_start_frame": 1422
+    },
+    {
+      "start": 9,
+      "end_exclusive": 12,
+      "phase": "setup",
+      "episode_start_frame": 1425
+    },
+    {
+      "start": 12,
+      "end_exclusive": 15,
+      "phase": "setup",
+      "episode_start_frame": 1428
+    },
+    {
+      "start": 15,
+      "end_exclusive": 18,
+      "phase": "setup",
+      "episode_start_frame": 1431
+    },
+    {
+      "start": 18,
+      "end_exclusive": 21,
+      "phase": "line_one",
+      "episode_start_frame": 1434,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 21,
+      "end_exclusive": 24,
+      "phase": "line_one",
+      "episode_start_frame": 1437,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 24,
+      "end_exclusive": 27,
+      "phase": "line_one",
+      "episode_start_frame": 1440,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 27,
+      "end_exclusive": 30,
+      "phase": "line_one",
+      "episode_start_frame": 1443,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 30,
+      "end_exclusive": 33,
+      "phase": "line_one",
+      "episode_start_frame": 1446,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 33,
+      "end_exclusive": 36,
+      "phase": "line_one",
+      "episode_start_frame": 1449,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 36,
+      "end_exclusive": 39,
+      "phase": "line_one",
+      "episode_start_frame": 1452,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 39,
+      "end_exclusive": 42,
+      "phase": "line_one",
+      "episode_start_frame": 1455,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 42,
+      "end_exclusive": 45,
+      "phase": "line_one",
+      "episode_start_frame": 1458,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 45,
+      "end_exclusive": 48,
+      "phase": "line_one",
+      "episode_start_frame": 1461,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 48,
+      "end_exclusive": 51,
+      "phase": "line_one",
+      "episode_start_frame": 1464,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 51,
+      "end_exclusive": 54,
+      "phase": "line_one",
+      "episode_start_frame": 1467,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 54,
+      "end_exclusive": 57,
+      "phase": "line_one",
+      "episode_start_frame": 1470,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 57,
+      "end_exclusive": 60,
+      "phase": "line_one",
+      "episode_start_frame": 1473,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 60,
+      "end_exclusive": 63,
+      "phase": "line_one",
+      "episode_start_frame": 1476,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 63,
+      "end_exclusive": 66,
+      "phase": "return",
+      "episode_start_frame": 1479,
+      "beat": "Contact release: preserve nib position at prior line end while fingers begin lift."
+    },
+    {
+      "start": 66,
+      "end_exclusive": 69,
+      "phase": "return",
+      "episode_start_frame": 1482,
+      "beat": "Initial rise; nib clears page, grip remains closed."
+    },
+    {
+      "start": 69,
+      "end_exclusive": 72,
+      "phase": "return",
+      "episode_start_frame": 1485,
+      "beat": "Rise and start leftward return with connected wrist/forearm."
+    },
+    {
+      "start": 72,
+      "end_exclusive": 75,
+      "phase": "return",
+      "episode_start_frame": 1488,
+      "beat": "Return arc approaches shallow apex."
+    },
+    {
+      "start": 75,
+      "end_exclusive": 78,
+      "phase": "return",
+      "episode_start_frame": 1491,
+      "beat": "Apex; no extra pause or ink."
+    },
+    {
+      "start": 78,
+      "end_exclusive": 81,
+      "phase": "return",
+      "episode_start_frame": 1494,
+      "beat": "Return continues toward second-line start."
+    },
+    {
+      "start": 81,
+      "end_exclusive": 84,
+      "phase": "return",
+      "episode_start_frame": 1497,
+      "beat": "Descent toward correct lower paper line."
+    },
+    {
+      "start": 84,
+      "end_exclusive": 87,
+      "phase": "return",
+      "episode_start_frame": 1500,
+      "beat": "Near landing; nib almost touches with aligned shaft."
+    },
+    {
+      "start": 87,
+      "end_exclusive": 90,
+      "phase": "return",
+      "episode_start_frame": 1503,
+      "beat": "Land at second-line start; no premature stroke."
+    },
+    {
+      "start": 90,
+      "end_exclusive": 93,
+      "phase": "line_two",
+      "episode_start_frame": 1506,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 93,
+      "end_exclusive": 96,
+      "phase": "line_two",
+      "episode_start_frame": 1509,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 96,
+      "end_exclusive": 99,
+      "phase": "line_two",
+      "episode_start_frame": 1512,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 99,
+      "end_exclusive": 102,
+      "phase": "line_two",
+      "episode_start_frame": 1515,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 102,
+      "end_exclusive": 105,
+      "phase": "line_two",
+      "episode_start_frame": 1518,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 105,
+      "end_exclusive": 108,
+      "phase": "line_two",
+      "episode_start_frame": 1521,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 108,
+      "end_exclusive": 111,
+      "phase": "line_two",
+      "episode_start_frame": 1524,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 111,
+      "end_exclusive": 114,
+      "phase": "line_two",
+      "episode_start_frame": 1527,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 114,
+      "end_exclusive": 117,
+      "phase": "line_two",
+      "episode_start_frame": 1530,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 117,
+      "end_exclusive": 120,
+      "phase": "line_two",
+      "episode_start_frame": 1533,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 120,
+      "end_exclusive": 123,
+      "phase": "line_two",
+      "episode_start_frame": 1536,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 123,
+      "end_exclusive": 126,
+      "phase": "line_two",
+      "episode_start_frame": 1539,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 126,
+      "end_exclusive": 129,
+      "phase": "line_two",
+      "episode_start_frame": 1542,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 129,
+      "end_exclusive": 132,
+      "phase": "line_two",
+      "episode_start_frame": 1545,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 132,
+      "end_exclusive": 135,
+      "phase": "line_two",
+      "episode_start_frame": 1548,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 135,
+      "end_exclusive": 138,
+      "phase": "line_two",
+      "episode_start_frame": 1551,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 138,
+      "end_exclusive": 141,
+      "phase": "line_two",
+      "episode_start_frame": 1554,
+      "contact": "paper",
+      "requirement": "new registered active-stroke drawing; ink revealed only on actual contact path"
+    },
+    {
+      "start": 141,
+      "end_exclusive": 144,
+      "phase": "finish",
+      "episode_start_frame": 1557
+    },
+    {
+      "start": 144,
+      "end_exclusive": 147,
+      "phase": "finish",
+      "episode_start_frame": 1560
+    },
+    {
+      "start": 147,
+      "end_exclusive": 150,
+      "phase": "finish",
+      "episode_start_frame": 1563
+    },
+    {
+      "start": 150,
+      "end_exclusive": 153,
+      "phase": "finish",
+      "episode_start_frame": 1566
+    },
+    {
+      "start": 153,
+      "end_exclusive": 156,
+      "phase": "finish",
+      "episode_start_frame": 1569
+    },
+    {
+      "start": 156,
+      "end_exclusive": 159,
+      "phase": "final_hold",
+      "episode_start_frame": 1572,
+      "reuse_permitted": "same intentional finishing hold"
+    },
+    {
+      "start": 159,
+      "end_exclusive": 162,
+      "phase": "final_hold",
+      "episode_start_frame": 1575,
+      "reuse_permitted": "same intentional finishing hold"
+    },
+    {
+      "start": 162,
+      "end_exclusive": 165,
+      "phase": "final_hold",
+      "episode_start_frame": 1578,
+      "reuse_permitted": "same intentional finishing hold"
+    },
+    {
+      "start": 165,
+      "end_exclusive": 168,
+      "phase": "final_hold",
+      "episode_start_frame": 1581,
+      "reuse_permitted": "same intentional finishing hold"
+    }
+  ],
+  "audio": {
+    "delivery": "silent picture",
+    "dialogue": "none assigned to this shot",
+    "later_cue": "Pen scratch placed forward in the mix, louder than it should be.",
+    "sync_guidance": "Later scratches follow actual contact exposures, never return arc."
+  },
+  "sources": [
+    {
+      "path": "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+      "sha256": "d7565eaf698498760e8ae441c9ca72325baec58e97cf3bcea57f0b4f769d425e"
+    },
+    {
+      "path": "projects/cemi_episode_01/data/episode.json",
+      "sha256": "59263084b567bafbdd3dec543be5955ecc32bef721ddd9b2ba5c7442a24bacd8"
+    },
+    {
+      "path": "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+      "sha256": "cfa3367d57ea61a8811730e84810b271c8b5e0e86bfce3418fceb3d2b090257c"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+      "sha256": "2cad53dd8dfffbac39753fb51c4f6f84a6702823d81cdd9b4cb442cc12bef365"
+    },
+    {
+      "path": "production/art_direction.json",
+      "sha256": "cfb3ec6698350fa16acf139baf8da0e4a4035acd08ec026cdfe04a27d1bed6fb"
+    },
+    {
+      "path": "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+      "sha256": "b2146509c297bb8c1ce216b263c8819baeae177e343e8beb54ce1201b15673cd"
+    },
+    {
+      "path": "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+      "sha256": "ec48839ee5d5ffaae2dfeec5ac548f45073778b2e7262f967c19bec80c377d31"
+    }
+  ],
+  "verified": {
+    "script_and_episode_match": true,
+    "packet_script_matches_episode": true,
+    "contiguous_phase_coverage": true,
+    "all_phase_boundaries_on_threes": true,
+    "unique_exposure_slots": 56
+  },
+  "not_verified": [
+    "No new drawings produced",
+    "No movement rendered or inspected",
+    "No final author timing approval inferred"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 374,
+      "name": "screen-right-hand"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

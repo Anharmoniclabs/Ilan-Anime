@@ -1,0 +1,13 @@
+{
+  "operation_id": "f141f980bcca4c3c94f0e964860f4295",
+  "tool_name": "mesh_status",
+  "arguments": {
+    "job": "models/character-v1/textured/job.json"
+  },
+  "call_id": "31",
+  "kind": "read",
+  "status": "completed",
+  "started_at": 1791500045.5651467,
+  "finished_at": 1791500045.5682428,
+  "output": "{\"status\": \"running\", \"image\": \"sources/10.png\", \"output\": \"models/character-v1/textured/textured.glb\", \"blend\": \"models/character-v1/textured/textured.blend\", \"sha256\": null, \"input_sha256\": \"a8f9d8056caf81cd9ac881890e021db57376b2654964d1b55354314df93f8d4f\", \"mesh\": null, \"error\": null, \"seconds\": null, \"pid\": 18097}"
+}

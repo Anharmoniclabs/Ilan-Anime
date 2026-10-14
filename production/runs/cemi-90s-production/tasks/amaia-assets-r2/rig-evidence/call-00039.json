@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 153,
+      "name": "blink-eyes"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

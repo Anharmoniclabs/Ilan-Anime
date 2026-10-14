@@ -1,0 +1,15 @@
+{
+  "operation_id": "00b36d7b8e0840e2bf26cb355baff620",
+  "tool_name": "image_to_blender",
+  "arguments": {
+    "image": "sources/10.png",
+    "output_dir": "models/character-v1",
+    "resolution": 128
+  },
+  "call_id": "34",
+  "kind": "dev",
+  "status": "completed",
+  "started_at": 1791500065.62321,
+  "finished_at": 1791500066.8097622,
+  "output": "{\"workflow\": \"models/character-v1/workflow.json\", \"phase\": \"complete\", \"job\": \"models/character-v1/textured/job.json\", \"artifacts\": {\"models/character-v1/textured/textured.blend\": \"947758e85dd1e0fa00294f962b4240f3a01cb4b914a96bfca57428a659191e8d\", \"models/character-v1/textured/textured.glb\": \"4cb7071e72fd8fa594f771895b5fe9bc8b7151f9c62a42bd14a7c5c0681f7cf6\", \"models/character-v1/textured/albedo.png\": \"f1cc9b289b1f2c7fe96291f9fbc85a9d6ccb0f5dfb56a846d7d89857e98fdc70\", \"models/character-v1/textured/front.png\": \"1abf0fba74348c91300f44c948de2c2b7857eb406167a9c8a9c5122b87b769dc\", \"models/character-v1/textured/three-quarter.png\": \"aa90a2e1523a709a709b1290ddda0b3eab0e56243fc6968e917cd5bf9b861779\", \"models/character-v1/textured/back.png\": \"467cac5b0cea81c3a5cfc8b09d5e3ac94e0caca05b4c3322b054fb69315789c9\", \"models/character-v1/textured/validation.json\": \"cfa30c847b242cddd696acb87c8a2745957c442e3a7edaf3d9013f8564d48b02\"}, \"review\": \"pending; inferred backs and anatomy need visual review\", \"next_action\": \"Call image_to_blender with the same arguments to advance; never resubmit child jobs.\"}"
+}

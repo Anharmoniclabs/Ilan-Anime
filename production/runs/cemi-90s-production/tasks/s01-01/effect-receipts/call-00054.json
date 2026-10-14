@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.addProperty",
+    "params": {
+      "layer": 275,
+      "path": "transform/opacity",
+      "name": "ripple-large opacity"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "controls": [
+      298
+    ],
+    "mirrors": []
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "shot_id": "S14-11",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. Close-up Sofia same exact modernlibrary table afternoon. Her formerly incisive expression has softened into protective serious concern, glasses catching restrained daylight, eyes looking toward JC just offscreen left. One hand on top edge of silver laptop lid as she deliberately HALF CLOSES it, hinge about45degrees, other hand resting on oak table. Tealcardigan ivoryshirt exact curls clawclip; portrait face identity reference2. Mossgreen wall tallwindow brasslamp warm soft backdrop matching previous. Framing face and halfclosed laptop in same shot, a quiet gesture of affection and worry. No tears, no dramatic supernatural effects, no readable dialogue or titles.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-2b10a04b-0105-44c5-ba10-b48d8f7d400e.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-01.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/sofia.png"
+  ],
+  "key_moment": "Sofia protective warning and laptop half-close; final research-scene keyframe.",
+  "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-11.png",
+  "sha256": "f73428ced041602a0b1baf811bfc78662e297520b2ea7187d7b2aaed9ae6a4c1",
+  "size": [
+    1672,
+    941
+  ],
+  "status": "generated-story-frame",
+  "tool": "built-in image_gen",
+  "animation": false,
+  "author_approved": false,
+  "reference_hashes": {
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-01.png": "1d1900ce2c363aab86412edfa27699cc2c2446299dc8f5375d3b4489a5acf7a7",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/sofia.png": "27bbd1be662e25094e7ce4e98980ef74791e6428645dcf0baafeb83eee9e7cf5"
+  }
+}

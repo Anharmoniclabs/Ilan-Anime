@@ -1,0 +1,14 @@
+{
+  "tool": "new_document",
+  "arguments": {
+    "title": "Cast",
+    "width": 612,
+    "height": 792,
+    "pages": 2,
+    "facingPages": false
+  },
+  "status": "succeeded",
+  "result": {
+    "index": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "layer.setProps",
+    "params": {
+      "name": "Archived source — identity unapproved",
+      "locked": false
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

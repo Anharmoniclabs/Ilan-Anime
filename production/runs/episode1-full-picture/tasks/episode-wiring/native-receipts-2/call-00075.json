@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 72648576000000,
+      "durationFrames": 120,
+      "name": "S05-02 missing",
+      "comment": "cobalt cough; static pull; concentric rings; wall crack cels"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 52
+  }
+}

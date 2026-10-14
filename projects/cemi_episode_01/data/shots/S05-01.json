@@ -1,0 +1,60 @@
+{
+  "id": "S05-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 72,
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "His ears pop 'like an elevator dropping a floor'. Air thickens at the edges of the frame.",
+  "camera_note": "DOLLY-ZOOM · CU JC",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "plate_0",
+      "source": "assets/keyframes/S05-01.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 72,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "scale": 1.0,
+      "ease": "smooth"
+    },
+    {
+      "frame": 71,
+      "scale": 1.22
+    }
+  ],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "HEAT_WAVE",
+      "VIGNETTE_PUMP"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

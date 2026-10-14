@@ -1,0 +1,35 @@
+{
+  "task_id": "research-graph-r1",
+  "role": "compositor",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/native-r1/shot.ecproj",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/preview.mp4",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/edit.filmcraft",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/recipe.json",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/build_native.py",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/render_native.py",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/objects.json",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/studio-shot.json",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/verification.json",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/probe.json",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/qa/qa_report.json",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/HANDOFF.md",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/review-frames/lunch-drawings.jpg",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/review-frames/decoded-states-01.jpg",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/review-frames/decoded-states-02.jpg",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/review-frames/decoded-states-03.jpg",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/review-frames/decoded-states-04.jpg",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/review-frames/decoded-states-05.jpg",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/review-frames/decoded-states-06.jpg",
+    "production/runs/episode1-picture-motion/tasks/research-graph-r1/review-frames/decoded-states-07.jpg"
+  ],
+  "evidence": [
+    "Reopened and rendered native-r1/shot.ecproj: 34 editable Text layers and 124 Shape layers; no flattened footage layers.",
+    "Verified silent 1280x720 export: 384 decoded frames, 24 fps, 16 seconds; all authored exposure boundaries on threes.",
+    "Visually inspected all 77 distinct decoded states plus f383, all 15 lunch transformation drawings, and full-resolution final discovery frame f327. Sequential frame inspection, not real-time playback.",
+    "Four building pins and eleven tabs verified; Ballroom, arts space and mural connect to JC\u2019s building. Added narrative footer removed; no invented company names or numeric chart data.",
+    "Studio QA reports only no_acting at f0, inapplicable to this scripted UI-only shot as established by the prior independent review. Creative style and motion acceptance remain pending independent review."
+  ],
+  "blockers": []
+}

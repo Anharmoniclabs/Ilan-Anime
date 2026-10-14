@@ -1,0 +1,14 @@
+{
+  "tool": "export",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/Cemi-clean-trace.svg",
+    "format": "svg"
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 5951494,
+    "format": "svg",
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/Cemi-clean-trace.svg",
+    "warnings": []
+  }
+}

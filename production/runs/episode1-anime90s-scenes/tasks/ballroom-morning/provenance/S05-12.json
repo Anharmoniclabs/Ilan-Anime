@@ -1,0 +1,30 @@
+{
+  "shot_id": "S05-12",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-12.png",
+  "status": "exploratory",
+  "sha256": "ca8f210ebd34ca385050dbbe7a61e292f9b94e56d95b82394340782cc6568724",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-12.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-11.png",
+      "sha256": "b1b85dc3c54d07222d02fb2c03c08b0ef6722752ab3b204b2b9dff24f7b80bbd"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-02.png",
+      "sha256": "aeca6a403deb12fada2d28b42b6902106f68af3848b7fbcaecce99c6c28357a2"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-07.png",
+      "sha256": "42d19bca9c8313209d15f6904f81a4d657fa39476aee2fa27de70b0d9e98fd71"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "40ribbons release and merge, whip-pan follows river through window acrossstreet, whole12s color-drain choreography.",
+  "inspection": "Directly viewed: good intact-wall transmitted ballroom, gray-white dancers, bluegold streams flow consistently right toward real window. Exact40ribbons not count-verified; stream destination oppositebuilding not shown and sigil remains somewhat light.",
+  "directly_viewed": true
+}

@@ -1,0 +1,38 @@
+{
+  "shot": "S05-15",
+  "frames": 96,
+  "fps": 24,
+  "duration_seconds": 4.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "images": {
+    "start": {
+      "file": "start.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S05-15/start/start-candidate-v1.png",
+      "sha256": "92bd2cf112c5efc2faba1017fd2d28a8ade5ba7a238404a03e3b3470f49a1de9",
+      "status": "reviewed_exploratory"
+    },
+    "end": {
+      "file": "end.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S05-15/end/end-local-black.png",
+      "sha256": "3590e96ed0d7e133c1bbd01226ccc68ea3b11286058bf460c8c0be4dfe6bf8d3",
+      "status": "reviewed_exploratory"
+    }
+  },
+  "review": {
+    "reviewer": "/root/review_endpoint",
+    "verdict": "acceptable_for_exploratory_test",
+    "evidence": "Wide-room setup matches character and neighboring environment. Laptop, lamp, router and fan visible. Black endpoint appropriate; shutdown offsets and fan spin-down need intermediate animation.",
+    "author_approved": false,
+    "reviewed_hashes": {
+      "start": "92bd2cf112c5efc2faba1017fd2d28a8ade5ba7a238404a03e3b3470f49a1de9",
+      "end": "3590e96ed0d7e133c1bbd01226ccc68ea3b11286058bf460c8c0be4dfe6bf8d3"
+    }
+  },
+  "author_approval_recorded": false,
+  "status": "current_draft_delivery_not_final_episode",
+  "image_processing": "unchanged source bytes; may require fitting to exact 16:9 before remote submission"
+}

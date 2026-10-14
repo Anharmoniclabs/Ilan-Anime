@@ -1,0 +1,4 @@
+`11:56:00 → 12:00:00` (96f) · ECU eyes · rate 3s
+- **Action:** The building shakes the way it always does. His eyes, which had no vote, go where his ear went.
+- **FX:** `EYELINE_SHIFT; REFLECT_CEL(tin ceiling)`
+- **Sound:** A held train bed.

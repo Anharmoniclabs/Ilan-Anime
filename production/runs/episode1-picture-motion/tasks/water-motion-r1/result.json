@@ -1,0 +1,26 @@
+{
+  "task_id": "water-motion-r1",
+  "role": "effects-animator",
+  "status": "blocked",
+  "artifacts": [
+    "production/runs/episode1-picture-motion/tasks/water-motion-r1/S01-01-silent-preview.mp4",
+    "production/runs/episode1-picture-motion/tasks/water-motion-r1/S01-01-water-motion.ecproj",
+    "production/runs/episode1-picture-motion/tasks/water-motion-r1/S01-01-water-motion.filmcraft",
+    "production/runs/episode1-picture-motion/tasks/water-motion-r1/exposures.json",
+    "production/runs/episode1-picture-motion/tasks/water-motion-r1/exposure-sheet.csv",
+    "production/runs/episode1-picture-motion/tasks/water-motion-r1/layer-matte-manifest.json",
+    "production/runs/episode1-picture-motion/tasks/water-motion-r1/motion-QA.json",
+    "production/runs/episode1-picture-motion/tasks/water-motion-r1/manifest.json",
+    "production/runs/episode1-picture-motion/tasks/water-motion-r1/qa/contact-decoded.jpg",
+    "production/runs/episode1-picture-motion/tasks/water-motion-r1/qa/impact-decoded.jpg"
+  ],
+  "evidence": [
+    "Rendered and fully decoded 144 silent frames at 1920×1080, 24 fps.",
+    "Viewed all 48 exposure samples plus enlarged decoded contact and impact crops; removed continuous bright contact rim and introduced irregular occlusion and broken ripple highlights.",
+    "Native project reopened; f27 pixels match. Paddle, background, text and droplet trajectories remain unchanged.",
+    "Crown accents remain small and linear; independent finish review is needed. No creative approval claimed."
+  ],
+  "blockers": [
+    "Required perceptual 24fps playback review is unavailable with this worker’s tools. Coordinator must route the saved MP4 to a playback-capable independent reviewer; decoded-frame inspection does not satisfy this requirement."
+  ]
+}

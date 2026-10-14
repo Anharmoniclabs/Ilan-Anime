@@ -1,0 +1,69 @@
+{
+  "id": "S01-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Black water, a hand-width of surface. A paddle blade enters, leaves, rings spread. Lower-left small caps: BEFORE.",
+  "camera_note": "FIX · ECU low on waterline",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S01-01",
+        "header": "00:09:00 → 00:15:00 (144f) · FIX · ECU low on waterline · rate 3s",
+        "action": "Black water, a hand-width of surface. A paddle blade enters, leaves, rings spread. Lower-left small caps: BEFORE.\nSOUND: Water drip, insects. A frog stops mid-call. No music."
+      }
+    },
+    {
+      "name": "super",
+      "rate": 3,
+      "screen_space": true,
+      "generator": {
+        "type": "text",
+        "text": [
+          "BEFORE"
+        ],
+        "font": "serif",
+        "size": 26,
+        "tracking": 0.3,
+        "align": "left",
+        "position": [
+          76.8,
+          633.6
+        ]
+      }
+    }
+  ],
+  "camera": [],
+  "post": {
+    "grade": "before",
+    "vignette": 0.7
+  },
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "WATER_CEL"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

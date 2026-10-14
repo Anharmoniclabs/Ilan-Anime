@@ -1,0 +1,90 @@
+{
+  "id": "S00-02",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Cream serif, wide tracking: ELLOS CUENTAN. / NOSOTROS RECORDAMOS. Small gold sub-line: They count. We remember. — ABUELA.",
+  "camera_note": "FIX · text card",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "field",
+      "generator": {
+        "type": "solid",
+        "color": "#14202B"
+      },
+      "rate": 3,
+      "screen_space": true
+    },
+    {
+      "name": "text_0",
+      "rate": 3,
+      "screen_space": true,
+      "generator": {
+        "type": "text",
+        "text": [
+          "ELLOS CUENTAN.",
+          "NOSOTROS RECORDAMOS."
+        ],
+        "font": "serif",
+        "size": 40,
+        "tracking": 0.32,
+        "color": "#EDE6D6",
+        "position": [
+          640,
+          330
+        ]
+      }
+    },
+    {
+      "name": "text_1",
+      "rate": 3,
+      "screen_space": true,
+      "generator": {
+        "type": "text",
+        "text": [
+          "They count. We remember. — Abuela"
+        ],
+        "font": "serif",
+        "size": 22,
+        "tracking": 0.08,
+        "caps": false,
+        "color": "#C9A24A",
+        "position": [
+          640,
+          430
+        ]
+      }
+    }
+  ],
+  "camera": [],
+  "post": {
+    "fade": [
+      {
+        "start": 0,
+        "end": 24,
+        "to": "black",
+        "dir": "in"
+      }
+    ]
+  },
+  "audio": null,
+  "notes": {},
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

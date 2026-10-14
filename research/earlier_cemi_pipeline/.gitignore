@@ -1,0 +1,16 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+.env
+outputs/
+runs/
+models/
+*.safetensors
+*.ckpt
+*.pt
+data/style_train/
+assets/approved_art/*
+!assets/approved_art/manifest.example.json
+assets/character_masters/
+.DS_Store

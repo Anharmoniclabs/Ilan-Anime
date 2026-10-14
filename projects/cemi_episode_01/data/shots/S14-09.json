@@ -1,0 +1,49 @@
+{
+  "id": "S14-09",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 216,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "“Level two,” the letter said. Sofía scrolls: the Calm Index, one to four. Level 2: 'Atypical response to ambient stimulus.' Hand-tapping, vocalizing, agitation during rest periods. “That's you.” “That's a sentence you write when you're looking for the kids who react. We need the screening records.”",
+  "camera_note": "OTS · laptop rubric",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S14-09",
+        "header": "16:51:00 → 17:00:00 (216f) · OTS · laptop rubric · rate 3s",
+        "action": "“Level two,” the letter said. Sofía scrolls: the Calm Index, one to four. Level 2: 'Atypical response to ambient stimulus.' Hand-tapping, vocalizing, agitation during rest periods. “That's you.” “That's a sentence you write when you're looking for the kids who react. We need the screening records.”\nSOUND: Quiet UI; the loop thin and far."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "HOLD",
+      "NECK_CHILL_FX",
+      "RUBRIC_UI"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

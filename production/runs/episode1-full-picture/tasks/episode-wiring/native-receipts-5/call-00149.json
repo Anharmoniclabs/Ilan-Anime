@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 181875456000000,
+      "durationFrames": 96,
+      "name": "S12-03 missing",
+      "comment": "eyes lead; head follows; hold eyeline"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 110
+  }
+}

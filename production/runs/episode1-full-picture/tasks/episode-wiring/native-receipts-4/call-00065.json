@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 55629504000000,
+      "durationFrames": 216,
+      "name": "S03-10 missing",
+      "comment": "train sigil; heater sigil; radio sigil"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 42
+  }
+}

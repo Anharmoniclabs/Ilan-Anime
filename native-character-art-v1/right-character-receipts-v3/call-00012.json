@@ -1,0 +1,13 @@
+{
+  "tool": "save_file",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/right-character-masked.vectorcraft"
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 41333027,
+    "format": "vectorcraft",
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/right-character-masked.vectorcraft",
+    "warnings": []
+  }
+}

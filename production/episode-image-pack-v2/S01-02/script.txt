@@ -1,0 +1,4 @@
+`00:15:00 → 00:27:00` (288f) · CRANE DOWN · WS · rate 3s
+- **Action:** Three dugout canoes in single file down a moonless mangrove channel. Lead: Dairon paddling, Yara behind him with the cemí in stiff cloth against her chest. Amaia with her sleeping son (not yet two). Second: Beheto, drum between his knees, chest whistling every breath. Third: three children, a faint blue breath on their forearms.
+- **FX:** `MULTIPLANE(5 painted layers); TRANSMITTED_LIGHT(blue,children,0.15); FILM_GRAIN`
+- **Sound:** Paddles, hull creak. Beheto's whistling breath is the only tempo (about 2s cycle).

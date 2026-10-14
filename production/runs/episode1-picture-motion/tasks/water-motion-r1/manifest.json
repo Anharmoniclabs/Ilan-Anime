@@ -1,0 +1,78 @@
+{
+  "shot": "S01-01",
+  "status": "exploratory",
+  "supersedes": "water-motion",
+  "frames": 144,
+  "fps": 24,
+  "silent": true,
+  "artifacts": [
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/S01-01-silent-preview.mp4",
+      "sha256": "0bfc632286891607aab304cea218bf5360be9f141c22fe47d9b68d318010be3b"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/S01-01-water-motion.ecproj",
+      "sha256": "9dd586fa8d3749418b55e48b7e54ff590d06a5a2243b5f3b21091513705be9de"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/S01-01-water-motion.filmcraft",
+      "sha256": "be7b9f8000b6ac8a1d50459cecdd54d0f96ec63d1e4bdb2585c3323ea6391cef"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/exposures.json",
+      "sha256": "c0a0c1d362b70a9df66f615b404dcef19b09be9147a2d5aa89b9c1f16ef6e66f"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/exposure-sheet.csv",
+      "sha256": "1c3250c4130a6249adbbf5bee71aaf7e13d5dbeedd4690a5de7d5d3a7d0cadc9"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/layer-matte-manifest.json",
+      "sha256": "0b747ec99eba2256db5ad8a1e319872f1e743bbf531748e40ae0abf7ce18c70d"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/source-provenance.json",
+      "sha256": "ead99ca7afe6c18a7a61afacd0dfc27ad46cb1e8df0274def0f0643e8c446862"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/build_motion.py",
+      "sha256": "61abd80a99e6c811b13177a72cd018662f672970e21efa4da63442b782c9d9b2"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/motion-QA.json",
+      "sha256": "68202c21fb17238976ada321358c765ebdac0f08ed60c60a31208b4d67cd78dc"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/qa/ffprobe.json",
+      "sha256": "9b69a03d280579a7a9b8aa1865435502ae263602eda87aee5f984697cd4efdef"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/qa/checks.json",
+      "sha256": "4737c32c34b6ec4f4dfb66e10c86af012f0afb8ff8509971cdae4800c6990577"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/qa/contact-decoded.jpg",
+      "sha256": "4f296a9f2dfc686e57c44f925ba840a1617fb582984d9cfc9966480500d336f6"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/qa/impact-decoded.jpg",
+      "sha256": "1a9b52218d2ba2d1346fb2e736a0ba0e228e281706dc2a2c2ec0f4ffdc120d28"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/qa/exposures-000.jpg",
+      "sha256": "1e29d7eee2757f2624c2ec04251591377a2859c0b1ef80e7631c4cecaca593c1"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/qa/exposures-048.jpg",
+      "sha256": "ca2d9c442f9796bcde76432fdb516ae39208d8887d4d7ba595bae3b46cb28835"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/qa/exposures-096.jpg",
+      "sha256": "2ac00e25b9f20be6318259eade8f81763b69f416233ddb40d03161ae33430790"
+    },
+    {
+      "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/reopen-check/reopened-f027.png",
+      "sha256": "f8fcf023f37b5f990b65595dc7cb754590ac465ef7238670fd8c54cdaa745513"
+    }
+  ]
+}

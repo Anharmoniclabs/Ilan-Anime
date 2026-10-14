@@ -1,0 +1,13 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.newNull",
+    "params": {
+      "name": "Effect — gate weave 0.3"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 97
+  }
+}

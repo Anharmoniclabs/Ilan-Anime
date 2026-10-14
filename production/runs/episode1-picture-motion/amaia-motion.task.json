@@ -1,0 +1,19 @@
+{
+  "id": "amaia-motion",
+  "role": "key-animator",
+  "shots": [
+    "S01-03"
+  ],
+  "objective": "Create real registered replacementcel motion for192frame Amaiaheadcount shot fromNEW S01-03frame and newapprovedAmaia. Stablehead/anatomy, countingmouth/eye shifts, blink, restrainedposechange and ghostseatsfade. No wholepaintingwarps or camerapans as acting. Built-inimagegen available for missing drawings within current fullmotionauthorization; read imagegen skill. Save edits/cels/references. Render silent192frame draft with exposuremanifest and preview usingnativeCraft/localcompositor. Verify registration and actualmovement. If missing keyassets prevent quality, checkpoint specific problem, never fakecompletion.",
+  "output_dir": "production/runs/episode1-picture-motion/tasks/amaia-motion",
+  "inputs": [
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+    "production/runs/episode1-anime90s-scenes/shot-index.json",
+    "production/runs/episode1-anime90s-cast/source-index.json",
+    "production/runs/episode1-picture-motion/author-direction.json",
+    "production/runs/episode1-picture-motion/tasks/amaia-motion/shots.json"
+  ],
+  "depends_on": [],
+  "art_direction_mode": "STORY_FRAME",
+  "requires_author_approval": false
+}

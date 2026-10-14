@@ -1,0 +1,22 @@
+{
+  "shot_id": "S08-01-r2",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-01-r2.png",
+  "status": "exploratory",
+  "sha256": "1ab0ceea8b92faeec6de73ca2c276786e3dfe9d50f14730f2b1e4c0da3c6ca1e",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S08-01-r2.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-01.png",
+      "sha256": "a6ca0d3ceec300658cb2f0cecd6842642ab49eca46127bcaf0772b12b008b522"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Upwardtilt, bannercloth movement ifneeded.",
+  "inspection": "Directly viewed: exactreadable A CALMER BLOCK STARTS HERE. inroundednavyprint, fivefigures/bannerperspective retained.",
+  "directly_viewed": true
+}

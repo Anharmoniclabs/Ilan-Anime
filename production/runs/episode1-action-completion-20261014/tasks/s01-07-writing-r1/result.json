@@ -1,0 +1,29 @@
+{
+  "task_id": "s01-07-writing-r1",
+  "role": "key-animator",
+  "host_agent_id": "/root/counter_writing_repair",
+  "status": "blocked",
+  "artifacts": [
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/hand-breakdowns.png",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/prompt.txt",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/provenance.json",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/measurements.json",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/landmark-inspection.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/diagnose.py"
+  ],
+  "evidence": [
+    "Viewed original artwork, prior sheet, clean plate, style reference, new raw sheet, solid-slate row composites and all 36 annotated cells.",
+    "One authorized built-in imagegen call; raw RGBA sheet, prompt and 36 unmodified grid crops retained with hashes.",
+    "Solid-slate compositing shows no visible saturated red/yellow fringe from the raw preview.",
+    "First-line registered nib advances only 4px net; second line 6px, with reversals. Cells 15 to 16 have a 41px native vertical nib jump.",
+    "Cells 35/36 have opaque top-edge feather pixels; cell 30 contains neighboring feather at bottom.",
+    "No new MP4 rendered; source and ledger unchanged."
+  ],
+  "blockers": [
+    "No coherent first- and second-line active-stroke drawings against the fixed paper plane (F1/F4).",
+    "Lift/return/landing breakdown gap remains (F2).",
+    "Feathers cross tile boundaries, preventing complete independent cels (F3).",
+    "The single permitted generation call is used; further drawing work requires a fresh bounded task."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "file.exportPdf",
+    "params": {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/arthouse-pack-v1/tasks/visuals/written-books/CHARACTER_BIBLE.pdf",
+      "author": "Luis M. Minier / Ilan-Anime"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 43384,
+    "pages": 14,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/arthouse-pack-v1/tasks/visuals/written-books/CHARACTER_BIBLE.pdf",
+    "warnings": []
+  }
+}

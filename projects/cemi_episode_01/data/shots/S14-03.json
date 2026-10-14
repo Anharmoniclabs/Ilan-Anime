@@ -1,0 +1,49 @@
+{
+  "id": "S14-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 384,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Aperture Civic: registered 2024; five-month-old gorgeous website; no employees on any record. The shell tree builds itself on screen: three shells → paper that 'turns into a lawyer's lunch' (sandwich icon) → a holding company → a youth digital-wellness nonprofit, a music-licensing outfit, a development group with permits on four buildings, including his. The Ballroom, the arts space, the mural: his. Eleven tabs; a pie chart; 'Manny owes me a dollar.'",
+  "camera_note": "UI GRAPH",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S14-03",
+        "header": "15:08:00 → 15:24:00 (384f) · UI GRAPH · rate 3s",
+        "action": "Aperture Civic: registered 2024; five-month-old gorgeous website; no employees on any record. The shell tree builds itself on screen: three shells → paper that 'turns into a lawyer's lunch' (sandwich icon) → a holding company → a youth digital-wellness nonprofit, a music-licensing outfit, a development group with permits on four buildings, including his. The Ballroom, the arts space, the mural: his. Eleven tabs; a pie chart; 'Manny owes me a dollar.'\nSOUND: Trackpad taps; each node pings once."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "BUILDING_PINS",
+      "SANDWICH_GAG",
+      "UI_GRAPH_CEL"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

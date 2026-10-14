@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 10668672000000,
+      "durationFrames": 168,
+      "name": "S01-05 missing",
+      "comment": "soldier lift; cut bell; bell swing; clapper lag and settle"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 17
+  }
+}

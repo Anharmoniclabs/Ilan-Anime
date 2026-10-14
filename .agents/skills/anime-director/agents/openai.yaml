@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anime Director"
+  short_description: "Establish episode intent, character motivations, emotional beats and non-negotiable sty..."
+  default_prompt: "Use $anime-director for the dispatched ledger task."
+policy:
+  allow_implicit_invocation: false

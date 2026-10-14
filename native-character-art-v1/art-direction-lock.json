@@ -1,0 +1,13 @@
+{
+  "source": "production/native-character-art-v1/ART-DIRECTION.png",
+  "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c",
+  "author_instruction": "i need you to draw them in the artcraft so we can have full control as this is my art direction dont deviate",
+  "scope": "Current native character artwork request; Ilan-Anime only",
+  "direction": [
+    "Preserve supplied facial structures, curls and silver braids, skin tones, age, costumes and accessories.",
+    "Preserve handmade ink, hatching, dark navy and charcoal with blue/gold resonance and violet antagonist effects.",
+    "Do not substitute previous generated Amaia/Dairon sheets as identity references.",
+    "Do not invent unseen anatomy or claim a poster trace is a clean production puppet."
+  ],
+  "status": "Author supplied direction; candidate outputs are not author approved"
+}

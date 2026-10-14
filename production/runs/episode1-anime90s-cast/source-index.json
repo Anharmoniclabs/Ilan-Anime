@@ -1,0 +1,672 @@
+{
+  "status": "exploratory source generation; not rigs or animation",
+  "items": [
+    {
+      "task": "approved-style-reference",
+      "label": "Amaia (existing approved reference)",
+      "cast_ids": [
+        "amaia"
+      ],
+      "path": "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+      "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+    },
+    {
+      "task": "main-cast",
+      "label": "jc",
+      "cast_ids": [
+        "jc-present"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "sha256": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51"
+    },
+    {
+      "task": "main-cast",
+      "label": "manny",
+      "cast_ids": [
+        "manny-present"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/manny.png",
+      "sha256": "305af827941d0bdc65d261711681847d07c4d231c094ef945d0fef8f568ed47e"
+    },
+    {
+      "task": "main-cast",
+      "label": "mama",
+      "cast_ids": [
+        "mama-present"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.png",
+      "sha256": "9a035989f12ee15319dcd5d55eff9e72c855d8f20d2bbb22f52de017249045e7"
+    },
+    {
+      "task": "main-cast",
+      "label": "sofia",
+      "cast_ids": [
+        "sofia"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/sofia.png",
+      "sha256": "27bbd1be662e25094e7ce4e98980ef74791e6428645dcf0baafeb83eee9e7cf5"
+    },
+    {
+      "task": "main-cast",
+      "label": "rodriguez",
+      "cast_ids": [
+        "rodriguez"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/rodriguez.png",
+      "sha256": "9905f8de24bf976f02de2ec3749eb6e5e9fc2d9064ba04601b416474a5ee18b0"
+    },
+    {
+      "task": "main-cast",
+      "label": "vale-r2",
+      "cast_ids": [
+        "vale-photo"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/vale-r2.png",
+      "sha256": "c55d1187903f6dd2b6968ee0761b00a987b613ac46f98d173eb9634d176eadf4"
+    },
+    {
+      "task": "main-cast",
+      "label": "window-man",
+      "cast_ids": [
+        "window-man"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/window-man.png",
+      "sha256": "9695873af0b3b3b9fee5649c3dbf6055f91a6c0d2b0d2ac50e8d80f422a8df97"
+    },
+    {
+      "task": "main-cast",
+      "label": "abuela-hands",
+      "cast_ids": [
+        "abuela"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/abuela-hands.png",
+      "sha256": "6737c70027c4c1aea7118e381b2957217b108033bd5a0e9af039c48ffef9ac49"
+    },
+    {
+      "task": "main-cast",
+      "label": "curb-child-hand",
+      "cast_ids": [
+        "curb-child",
+        "curb-adult-hand"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/curb-child-hand.png",
+      "sha256": "8d463fc7fdb5fb6383f877d62e86341657491bfea14536011ed956abfaf45744"
+    },
+    {
+      "task": "age-variants",
+      "label": "class-teacher",
+      "cast_ids": [
+        "class-teacher"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/class-teacher.png",
+      "sha256": "2cb614f94f5621d31096916d85638908ccf93b3732b477c1cf6af3e54275057c"
+    },
+    {
+      "task": "age-variants",
+      "label": "classmates",
+      "cast_ids": [
+        "classmates"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/classmates.png",
+      "sha256": "d3233fccb0264b171e391590f08759c43bb739fae3a8cafca51866724fad1b63"
+    },
+    {
+      "task": "age-variants",
+      "label": "jc-eight",
+      "cast_ids": [
+        "jc-eight"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-eight.png",
+      "sha256": "7bf0bfe5c60ecf08c2c1ea7b769ac47599b0eb2050102582a66a343de7aaf053"
+    },
+    {
+      "task": "age-variants",
+      "label": "jc-father",
+      "cast_ids": [
+        "jc-father"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-father.png",
+      "sha256": "5fbb7645a57cacfb512025773556daf9fbf0604f4a1c4deb7ffd1d9282ffb4ac"
+    },
+    {
+      "task": "age-variants",
+      "label": "jc-nine",
+      "cast_ids": [
+        "jc-nine"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-nine.png",
+      "sha256": "485fae9e134a11d34da96d53f9f674951b57cb93b5ff153bcea79830d7c0f628"
+    },
+    {
+      "task": "age-variants",
+      "label": "jc-six",
+      "cast_ids": [
+        "jc-six"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-six.png",
+      "sha256": "57c69e78386e217c4ddcf592036ec6dd3fb8018dfc21fd264c4ff3361bcd9907"
+    },
+    {
+      "task": "age-variants",
+      "label": "jc-twelve",
+      "cast_ids": [
+        "jc-twelve"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-twelve.png",
+      "sha256": "ca4126be74ecbef30cb8108465db5a1995b863f3d6c2a4f5e1dec024a12f6ceb"
+    },
+    {
+      "task": "age-variants",
+      "label": "lanyard-woman",
+      "cast_ids": [
+        "lanyard-woman"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/lanyard-woman.png",
+      "sha256": "cb16ac20013c2361b392271a708a6ed5ae7390daf13cd4ce0df90facccf8f2f8"
+    },
+    {
+      "task": "age-variants",
+      "label": "mama-younger-34",
+      "cast_ids": [
+        "mama-younger"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-34.png",
+      "sha256": "b710c29428b2e41fc105e0fae0e15ddcfb77500602e1db8dc84c94555ba77d2a"
+    },
+    {
+      "task": "age-variants",
+      "label": "mama-younger-37",
+      "cast_ids": [
+        "mama-younger"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-37.png",
+      "sha256": "ed7b964e4e7f497a9a8d3dfcb8b0dcf4bc5852a959f4e3a248f2ec47187f106e"
+    },
+    {
+      "task": "age-variants",
+      "label": "mama-younger-40",
+      "cast_ids": [
+        "mama-younger"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-40.png",
+      "sha256": "b040ebe0eecc005e75c256c600ae0f76afa2f57470c14ec570b50974241207d6"
+    },
+    {
+      "task": "age-variants",
+      "label": "manny-listener",
+      "cast_ids": [
+        "manny-listener"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/manny-listener.png",
+      "sha256": "6d98497e0cbe0238fb69cbf802bb80ee058de4754e3e329cea605fd92b76afe6"
+    },
+    {
+      "task": "age-variants",
+      "label": "manny-nine",
+      "cast_ids": [
+        "manny-nine"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/manny-nine.png",
+      "sha256": "0503e3b40891fb2f565d4d4c7e65a58f7dc9fd2a68c44a20d04c6f6a5029fe7c"
+    },
+    {
+      "task": "age-variants",
+      "label": "mikey-eight",
+      "cast_ids": [
+        "mikey-eight"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mikey-eight.png",
+      "sha256": "73e35a3855ba5c6bc24c964700ec85f329053404bf797644d9a90ad66f065e33"
+    },
+    {
+      "task": "historical-cast",
+      "label": "atlas-boy",
+      "cast_ids": [
+        "atlas-boy"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/atlas-boy-master.png",
+      "sha256": "a9d64b837cbb49e7faa6c0f8e415a9f61725abc982abcd5fb3f6721d0ddaac15"
+    },
+    {
+      "task": "historical-cast",
+      "label": "counterman-1973",
+      "cast_ids": [
+        "counterman-1973"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/counterman-1973-master.png",
+      "sha256": "0732a02f45c1f96ec38dcc74b09ce5e707e6ed41163cbfaddfcc8692f6bcc9f4"
+    },
+    {
+      "task": "historical-cast",
+      "label": "eraser-boy",
+      "cast_ids": [
+        "eraser-boy"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/eraser-boy-master.png",
+      "sha256": "6ada742b4085bc9fb19b9e8e7e842095de36ecf6bfb4c73b7a4a492bd6419ded"
+    },
+    {
+      "task": "historical-cast",
+      "label": "irish-girls",
+      "cast_ids": [
+        "irish-girls"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/irish-girls-master.png",
+      "sha256": "1386c96fb3086fb63376bcd10cb3bdfde1aa04ce4da8602ffb52fb9fe43ec7b9"
+    },
+    {
+      "task": "historical-cast",
+      "label": "librarian-1934",
+      "cast_ids": [
+        "librarian-1934"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/librarian-1934-master.png",
+      "sha256": "8f8a4534dd4de56650cd59f6a9f78a7913233c8c5b554874820253c69aed201f"
+    },
+    {
+      "task": "historical-cast",
+      "label": "porter",
+      "cast_ids": [
+        "porter"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/porter-master.png",
+      "sha256": "b1eb809c75db298bd0e0b9715cc12a77b00a4c691300915c225621d101f74375"
+    },
+    {
+      "task": "historical-cast",
+      "label": "pr-kids",
+      "cast_ids": [
+        "pr-kids"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/pr-kids-master.png",
+      "sha256": "7e65fb8fb89b30e38e1568e03fbb0967859f8dadad178947d7660f61e915d2e2"
+    },
+    {
+      "task": "historical-cast",
+      "label": "pr-mother",
+      "cast_ids": [
+        "pr-mother"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/pr-mother-master.png",
+      "sha256": "68d0ba14546160555e93eef4935b528a0d640ad571949add62708535e9a0e88d"
+    },
+    {
+      "task": "historical-cast",
+      "label": "reading-room-extras",
+      "cast_ids": [
+        "reading-room-extras"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/reading-room-extras-master.png",
+      "sha256": "a26260c3c6c6a7b48bfbba0f7c24d1954fe14900a59b3f9d6e39fab84239ba84"
+    },
+    {
+      "task": "historical-cast",
+      "label": "record-kid-1973",
+      "cast_ids": [
+        "record-kid-1973"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/record-kid-1973-master.png",
+      "sha256": "3804e55031a6c43fc72f07d87b435d00637e181ecc1834db14bc8ec81de0a5a0"
+    },
+    {
+      "task": "historical-cast",
+      "label": "thin-man-1973",
+      "cast_ids": [
+        "thin-man-1973"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/thin-man-1973-master.png",
+      "sha256": "f4a0be5b5f87f0ceded7fe5e99ebc4417b6c8dd07470fdd05424c674d9710dbd"
+    },
+    {
+      "task": "historical-cast",
+      "label": "yiddish-grandfather",
+      "cast_ids": [
+        "yiddish-grandfather"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/yiddish-grandfather-master.png",
+      "sha256": "558d0f6ed8d6daf74d956f317c7c1417293b31e97163285ffbe9c43be87bf1cf"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "banner-people-v2",
+      "cast_ids": [
+        "banner-people"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/banner-people-v2.png",
+      "sha256": "d35aa9761a4affe520d00cefa37bc2205372dfffada642af1c24a55a3f781201"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "bodega-men",
+      "cast_ids": [
+        "bodega-men"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/bodega-men.png",
+      "sha256": "1be7829888f028643e2291e74ee8b1188c72d258d73ff858fc4494eb0ca85367"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "cafe-baby",
+      "cast_ids": [
+        "cafe-baby"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/cafe-baby.png",
+      "sha256": "7e8d69ca5dbd11112c2bdd4e4f5d281ad4fdf8e4f2cf401242cb2cddcf037671"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "cafe-patrons",
+      "cast_ids": [
+        "cafe-patrons"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/cafe-patrons.png",
+      "sha256": "cd0e788e4b404aeeec104b31d26d58e0e379d8a5d662f79a3c7ee34889b99704"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "delivery-worker",
+      "cast_ids": [
+        "delivery-worker"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/delivery-worker.png",
+      "sha256": "c0f1282b3397004a70abd7c9db35f10d4fc9fbd495acc6defa867ca3535fa5c2"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "feuding-men",
+      "cast_ids": [
+        "feuding-men"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/feuding-men.png",
+      "sha256": "b036769d511f560846adfca989f80298a2b3f53b0bbe40c0af7207bcebab0a2b"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "freelancer",
+      "cast_ids": [
+        "freelancer"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/freelancer.png",
+      "sha256": "6e26a9cd4784b0ea15c465307ddcd2dd261120795728d39a89112865cc8cee73"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "honda-seller",
+      "cast_ids": [
+        "honda-seller"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/honda-seller.png",
+      "sha256": "2d3519411aa7f5dce566f73a331362c83436bf047d7fa02a9c3e0fbd831e8210"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "lease-landlord",
+      "cast_ids": [
+        "lease-landlord"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/lease-landlord.png",
+      "sha256": "87e7108da2359c16683bd165c0ac22aff0d69ce5cd89a947498fd6d5b8254d73"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "mets-sleeper",
+      "cast_ids": [
+        "mets-sleeper"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/mets-sleeper.png",
+      "sha256": "9a7f140b7ed18932842749e94eeee3829537a801227c80b28607c1bf7c32f419"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "speaker-rep",
+      "cast_ids": [
+        "speaker-rep"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/speaker-rep.png",
+      "sha256": "08d669b7c461ef76f1501017c0d627e33b274be23eaf21285d4afef394df1aa6"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "street-fighters",
+      "cast_ids": [
+        "street-fighters"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/street-fighters.png",
+      "sha256": "dcdbe693ad733a098230f342b4f629e5072e1e32ca01c93b0567d57f1cde6777"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "super",
+      "cast_ids": [
+        "super"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/super.png",
+      "sha256": "ccb745b1b133a2110e4b2d0fd790931d0ae33e52f69508c6c6ea1d0ad38a6a63"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "supers-dog",
+      "cast_ids": [
+        "supers-dog"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/supers-dog.png",
+      "sha256": "b48469fbe10c51fb0e657091531f5f9b0c9ea76be7d2fe6cc4b78a8156d49e5c"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "union-second",
+      "cast_ids": [
+        "union-second"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/union-second.png",
+      "sha256": "4e252e23496fca0ba7be3fc6409f85ede802947eea4e59fa849643e86f6e27f5"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "union-speaker",
+      "cast_ids": [
+        "union-speaker"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/union-speaker.png",
+      "sha256": "61ab20ca359d65500f764414642a2622128eda01aa39fd9d9ebb25696207b8c6"
+    },
+    {
+      "task": "supporting-cast",
+      "label": "yankees-men",
+      "cast_ids": [
+        "yankees-men"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/yankees-men.png",
+      "sha256": "b5a83896d54d9d31ce2b353fb72c9b4989036884d65e7e9fcf357e7095ee4a7e"
+    },
+    {
+      "task": "river-cast",
+      "label": "amaia-son",
+      "cast_ids": [
+        "amaia-son"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/amaia-son.png",
+      "sha256": "dfe1f6cac780ec27f3f24f09922fdfe27032477b7c813a2c0fcf5518e0df2948"
+    },
+    {
+      "task": "river-cast",
+      "label": "beheto",
+      "cast_ids": [
+        "beheto"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/beheto.png",
+      "sha256": "d1c97af3ea999c752df31df00c6e075fb843e834cdddc42a1959139346ba9c83"
+    },
+    {
+      "task": "river-cast",
+      "label": "bell-soldier",
+      "cast_ids": [
+        "bell-soldier"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/bell-soldier.png",
+      "sha256": "591e342be10ad0e941d60c046ad445a267158f1f878d02e24015c3dc311b510d"
+    },
+    {
+      "task": "river-cast",
+      "label": "canoe-survivor-1",
+      "cast_ids": [
+        "canoe-survivors"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-1.png",
+      "sha256": "ae23e57bec5dfc13a9960a105e2f75115502c0f0212f193ff1695b127f6b6571"
+    },
+    {
+      "task": "river-cast",
+      "label": "canoe-survivor-2",
+      "cast_ids": [
+        "canoe-survivors"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-2.png",
+      "sha256": "ca72dccfea0f81b8417bfea22c0d874dac5b2c6e9a88e90fca96ef3760059a86"
+    },
+    {
+      "task": "river-cast",
+      "label": "canoe-survivor-3",
+      "cast_ids": [
+        "canoe-survivors"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-3.png",
+      "sha256": "b4f899aa67c375fd9bcb6cf12f94c79d04e95ebcdaefdf221dff5c9bff610dc7"
+    },
+    {
+      "task": "river-cast",
+      "label": "dairon",
+      "cast_ids": [
+        "dairon"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png",
+      "sha256": "b59f3a3a48a916e6b3fa001eec74d45ae59a3afaf113dba675cb0435fc0ad0a6"
+    },
+    {
+      "task": "river-cast",
+      "label": "ledger-man",
+      "cast_ids": [
+        "ledger-man"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/ledger-man.png",
+      "sha256": "907fbd555c51a7f58b8dc910d45c16d86a0f5f05b1210089bcac17c552a1e92c"
+    },
+    {
+      "task": "river-cast",
+      "label": "lit-boy-nine",
+      "cast_ids": [
+        "lit-boy-nine"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-boy-nine.png",
+      "sha256": "f7aea88e762231b8da8b7997413c31236815e83f34d173e6ab6553a357378ce3"
+    },
+    {
+      "task": "river-cast",
+      "label": "lit-child-third",
+      "cast_ids": [
+        "lit-child-third"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-child-third.png",
+      "sha256": "1f2332fd3d490ab819e22228555abc0ef1438ab65a33a1b214998a74050fd30e"
+    },
+    {
+      "task": "river-cast",
+      "label": "lit-girl-seven",
+      "cast_ids": [
+        "lit-girl-seven"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-girl-seven.png",
+      "sha256": "91c86174e5cbfc347f233d9e49a51d1c982e7ab988517cb960dcae62bfaabdfc"
+    },
+    {
+      "task": "river-cast",
+      "label": "yara",
+      "cast_ids": [
+        "yara"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/yara.png",
+      "sha256": "b0b4c0fa069e6877c103472b6d7ef3070f2d4ea6220b218bc4cc8cc32f073aa4"
+    },
+    {
+      "task": "ensemble-cast",
+      "label": "ballroom-band",
+      "cast_ids": [
+        "ballroom-band"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-band-master.png",
+      "sha256": "3380449c29efb9c87b35f27074e7b06a2bb316785604658fe81fa812953e9ed6"
+    },
+    {
+      "task": "ensemble-cast",
+      "label": "ballroom-crowd-bank-a",
+      "cast_ids": [
+        "ballroom-crowd"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-a-master.png",
+      "sha256": "d9bdeb2260d578208ced560bd70ce3b622c6e618f41b7d337cec28a3a5063b41"
+    },
+    {
+      "task": "ensemble-cast",
+      "label": "ballroom-crowd-bank-b",
+      "cast_ids": [
+        "ballroom-crowd"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-b-master.png",
+      "sha256": "bcd0ce8fbb3c77c64242252ef67058644b09bf02bd58c933e08a5e9c7b85280d"
+    },
+    {
+      "task": "ensemble-cast",
+      "label": "ballroom-crowd-bank-c",
+      "cast_ids": [
+        "ballroom-crowd"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-c-master.png",
+      "sha256": "c1e2ef01586cc1c187d21498f1754d97dba0e4e3803d9ba570df2d3aaf9f23fd"
+    },
+    {
+      "task": "ensemble-cast",
+      "label": "ballroom-hero-couple-a",
+      "cast_ids": [
+        "ballroom-hero-couples"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-a-master.png",
+      "sha256": "4347925f3dda06f4ae30d31e9b292ca45ee96d2cf2002e8440a2c67d3a24ac2d"
+    },
+    {
+      "task": "ensemble-cast",
+      "label": "ballroom-hero-couple-b",
+      "cast_ids": [
+        "ballroom-hero-couples"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-b-master.png",
+      "sha256": "954bd408a00f5f8f24d34bbb892bb91c6d670a9e36e8794548eecb804336131e"
+    },
+    {
+      "task": "ensemble-cast",
+      "label": "ballroom-hero-couple-c",
+      "cast_ids": [
+        "ballroom-hero-couples"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-c-master.png",
+      "sha256": "7b9e4bd911781f36b6f8217b52082e1ab80b78906bdf132449591854e744cdc2"
+    },
+    {
+      "task": "ensemble-cast",
+      "label": "lost-ghosts",
+      "cast_ids": [
+        "lost-survivor-ghosts"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/lost-ghosts-master.png",
+      "sha256": "7d0834ba86f431d0b37706e78e36dd3ad0c99dead281afa1094743a4a2402cff"
+    },
+    {
+      "task": "ensemble-cast",
+      "label": "torch-soldiers",
+      "cast_ids": [
+        "torch-soldiers"
+      ],
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/torch-soldiers-master.png",
+      "sha256": "d005cc4f7ec713897352737a8ae3b93a24c249d400be332fff8d4268ced729f5"
+    }
+  ]
+}

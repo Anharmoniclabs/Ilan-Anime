@@ -1,0 +1,8 @@
+{
+  "tool": "image_gen__imagegen",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-ac4dd522-f3a1-406a-8fc9-e7fabcadcb10.png",
+  "status": "exploratory",
+  "edit_target": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/banner-people.png",
+  "prompt": "Edit this five-person transparent character asset. Keep exactly the SAME five adults, same faces, clothing, expressions, poses and clean 1990s anime cel rendering. Change only composition/framing: zoom out enough that every full body including leftmost elbow/jacket, rightmost waving hand/fingers, all hair and shoes is inside frame with wide transparent margins at least 8 percent on all sides. Separate figures with transparent gaps. No new people or objects; no background, haze, text, labels or logos. Preserve transparency.",
+  "edit_target_sha256": "a1311b0234dac8a877c049b706c1d3b9ea35b2c35a6e0362ef2e43d0d75c80dc"
+}

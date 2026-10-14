@@ -1,0 +1,20 @@
+{
+  "task_id": "research-graph",
+  "role": "compositor",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/episode1-picture-motion/tasks/research-graph/native-v1/preview.mp4",
+    "production/runs/episode1-picture-motion/tasks/research-graph/native-v1/shot.ecproj",
+    "production/runs/episode1-picture-motion/tasks/research-graph/native-v1/edit.filmcraft",
+    "production/runs/episode1-picture-motion/tasks/research-graph/exposures.json",
+    "production/runs/episode1-picture-motion/tasks/research-graph/action-timing.json",
+    "production/runs/episode1-picture-motion/tasks/research-graph/build_graph.py",
+    "production/runs/episode1-picture-motion/tasks/research-graph/verification.json"
+  ],
+  "evidence": [
+    "61 distinct native UI cels with progressive connectedtree, 11tabs, document/sandwich drawings, 4pins anddollar piechartgag.",
+    "384frames24fps silent verified; no newcompanynames or claimednumericpiechartdata.",
+    "No character acting substituted; script specifies UI GRAPH."
+  ],
+  "blockers": []
+}

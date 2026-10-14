@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "file.saveAs",
+    "params": {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/edit.filmcraft"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "backup": null,
+    "bytes": 4940,
+    "ms": 3.685877,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/edit.filmcraft"
+  }
+}

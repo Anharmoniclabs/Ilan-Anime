@@ -1,0 +1,11 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "name": "5-0 copper glint 14"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

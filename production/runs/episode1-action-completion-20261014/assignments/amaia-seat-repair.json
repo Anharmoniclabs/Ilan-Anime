@@ -1,0 +1,23 @@
+{
+  "id": "amaia-seat-repair",
+  "shots": [
+    "S01-03"
+  ],
+  "inputs": [
+    "AGENTS.md",
+    "docs/STATUS.md",
+    "production/runs/episode1-picture-motion/author-direction.json",
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+    "production/runs/episode1-anime90s-scenes/shot-index.json",
+    "production/runs/episode1-amaia-finish/tasks/three-losses-r2",
+    "production/runs/episode1-amaia-finish/reviews/three-losses-r2/review.md",
+    "production/runs/episode1-full-picture/author-decisions.json"
+  ],
+  "objective": "User renewed instruction: finish full episode including all action shots. Make one new bounded repair to the saved 192-frame S01-03 after reading exact rejection. Correct comparative ADULT scale and actual seat/bench contact of all three memory figures, preserving original living figures, hull, exact three fade endpoints (42/75/108), and head drawing arc. Use independently visible seat geometry and perspective evidence; numerical points alone are not proof. Reuse previous native sources and render new editable EffectCraft/FilmCraft plus silent MP4 and sequential decoded evidence. No new generation or paid APIs in this task; if adequate seat artwork is missing, identify the exact missing visual and return blocked. Never label prior rejected versions approved. Draft technical review only; no final creative approval inferred. Do not change source directories, policy, or ledger. No further self-directed revision loop. One submission.",
+  "role": "key-animator",
+  "output_dir": "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair",
+  "depends_on": [],
+  "art_direction_mode": "STORY_FRAME",
+  "requires_author_approval": false,
+  "require_host_bindings": true
+}

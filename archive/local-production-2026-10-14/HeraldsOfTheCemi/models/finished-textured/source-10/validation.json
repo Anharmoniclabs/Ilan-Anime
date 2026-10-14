@@ -1,0 +1,15 @@
+{
+  "status": "technically_valid",
+  "vertices": 5438,
+  "faces": 10884,
+  "nonmanifold_edges": 0,
+  "texture": [
+    2048,
+    2048
+  ],
+  "packed": true,
+  "rigged": false,
+  "visual_review": "pending",
+  "hidden_surfaces": "inferred",
+  "source": "/home/alabs/Projects/HeraldsOfTheCemi/sources/character-images/10.png"
+}

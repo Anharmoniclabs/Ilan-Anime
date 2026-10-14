@@ -1,0 +1,4 @@
+`00:49:00 → 00:59:00` (240f) · MS → CU hands · rate 2s
+- **Action:** The three children lift the blue off their arms; it peels away like vapor and leans out over the black water toward the bank. They lean with it. Amaia wants to hear one of them cry.
+- **FX:** `TRANSMITTED_LIGHT; AIRBRUSH_RIBBONS(blue,8); PULL_TOWARD(bank)`
+- **Sound:** Bell rings again, thinner. Children silent.

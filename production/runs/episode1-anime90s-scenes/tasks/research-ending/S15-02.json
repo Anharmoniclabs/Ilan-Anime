@@ -1,0 +1,24 @@
+{
+  "shot_id": "S15-02",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. Wide streetlevel establishing shot of Don Chino's Bronx corner bodega on a chilly March afternoon, normal daytime not sunset. Faded orange-soda canvas awning color#F26B2A over narrow shopfront below old brownbrick tenement and ironfireescapes, glassdoor with small 'COMMUNITY PARTNER' decal, one small rectangular black loudspeaker mounted immediately ABOVE DOOR under awning visibly important. Outside two older Dominican men from reference1 LEFT and CENTER sit on black milkcrates on either side of small square domino table, yellowpolo stocky mustache man left, navyshirt creamtrousers graybearded man right, hands laying dominoes, irritated conversational body language. Third burgundyjacket man NOT yet outside. Include groceries near window and ordinary sidewalk depth, no invented extra shop names or background graffiti words. Restrained anime faces and cel clothing; rich painted lived-in NewYork environment like rooftopstyle ref2 but paleafternoon sky. Clear geography shopdoor on right, table on left, speaker above door. NoJC in this establishing frame. Singlewide shot.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-8813b658-f9ce-4927-9bdc-2be364361e8d.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/bodega-men.png",
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png"
+  ],
+  "key_moment": "Bodega established, two seated domino players, mounted speaker and decal.",
+  "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-02.png",
+  "sha256": "e158fa40ae98acb694a1339c512b6277b0cbb8500323489c7f6495bc1b331073",
+  "size": [
+    1672,
+    941
+  ],
+  "status": "generated-story-frame",
+  "tool": "built-in image_gen",
+  "animation": false,
+  "author_approved": false,
+  "reference_hashes": {
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/bodega-men.png": "1be7829888f028643e2291e74ee8b1188c72d258d73ff858fc4494eb0ca85367",
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+  }
+}

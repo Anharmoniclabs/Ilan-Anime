@@ -1,0 +1,4 @@
+`01:06:00 → 01:12:00` (144f) · MS side · rate 3s
+- **Action:** The girl of seven says to the water: “There's a way under the roots.” Dairon turns the bow without asking how she knew.
+- **FX:** `HOLD(cel bank)`
+- **Sound:** Her voice small and certain. Hull turn.

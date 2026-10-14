@@ -1,0 +1,96 @@
+{
+  "received": "2026-10-11",
+  "user_instruction": "checkt he recent ones we downloaded those are the scenes",
+  "role": "User-supplied scene keyframes for subsequent animation production",
+  "mapping": "Shot assignments inferred from visual content and episode script; sunset variants unassigned.",
+  "workflow": "../../../WORKFLOW.md",
+  "production_notes": [
+    "These are flattened widescreen scene keyframes; derive separate plates and animation cels using the approved workflow.",
+    "Preserve their character designs, costumes, lighting and scene composition in the next pass.",
+    "New scene seating supersedes earlier fleet seating for these references; approved take-02 remains archived.",
+    "Current output standard remains 4:3; composition needs deliberate adaptation without stretching or blind cropping.",
+    "No new animation has been rendered from this intake."
+  ],
+  "assets": [
+    {
+      "file": "opn1.png",
+      "source": "/home/alabs/Downloads/opn1.png",
+      "shot": null,
+      "label": "Sunset departure — variant A",
+      "note": "Additional opening composition; no exact shot ID assigned in supplied script.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "91377595622504b89cec7de6e82af6f721089d8ab40bb78c8c6b07039ad3c104"
+    },
+    {
+      "file": "2.png",
+      "source": "/home/alabs/Downloads/2.png",
+      "shot": null,
+      "label": "Sunset departure — variant B",
+      "note": "Alternate opening composition; do not assume these are sequential animation frames.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "44ebb7c343bc3e33b09079fad111adc102f3f1665e17c636bc0c7855793d04e5"
+    },
+    {
+      "file": "Night journey through the mangroves.png",
+      "source": "/home/alabs/Downloads/Night journey through the mangroves.png",
+      "shot": "S01-02",
+      "label": "Night canoe procession",
+      "note": "New reference places Amaia and son in lead canoe. Preserve this scene layout in the new pass.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "437e7f9a4f51a254fe5048c3a455ead6861dcdfe3c82029b037f16fcd086266f"
+    },
+    {
+      "file": "Amaia Counts the Empty Seats.png",
+      "source": "/home/alabs/Downloads/Amaia Counts the Empty Seats.png",
+      "shot": "S01-03",
+      "label": "Amaia counts the missing",
+      "note": "Foreground passengers, Amaia and sleeping son, ghost-seat insert.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "5066d777dc4c4896ff30933cd130a38210cbfd9897c0283b3a590d29528126ed"
+    },
+    {
+      "file": "Lightning flash over the canoe.png",
+      "source": "/home/alabs/Downloads/Lightning flash over the canoe.png",
+      "shot": "S01-04",
+      "label": "Lightning memory",
+      "note": "Three resting children; lightning illumination and shell-blue arms.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "03e53d9263892fe3d6375dd2fe250032f14ccc4ed1f08ec0fcd7b5158c81774e"
+    },
+    {
+      "file": "Shell-Blue Sheen on a Resting Hand.png",
+      "source": "/home/alabs/Downloads/Shell-Blue Sheen on a Resting Hand.png",
+      "shot": "S01-04",
+      "label": "Shell-blue detail",
+      "note": "Close-up insert within memory sequence.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "def4912ee0e0fdcbfac78c0879f0622dcd9382234a79d9b8b9266c88ed1f6ea2"
+    },
+    {
+      "file": "Soldier Rings a Brass Bell.png",
+      "source": "/home/alabs/Downloads/Soldier Rings a Brass Bell.png",
+      "shot": "S01-05",
+      "label": "Soldier raises the bell",
+      "note": "Wide bank view with bell pole and torch-bearing soldiers.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "1e09fd47f377ec0f4f9ba2696552bf2c4b01ee442f7fead8cab69956323d33a7"
+    },
+    {
+      "file": "Tarnished Bell Rings in the Mangroves.png",
+      "source": "/home/alabs/Downloads/Tarnished Bell Rings in the Mangroves.png",
+      "shot": "S01-05",
+      "label": "Bell close-up",
+      "note": "Swinging bell, clapper, pole and hand close-up.",
+      "width": 1672,
+      "height": 941,
+      "sha256": "944e4e1a42266517ea32fbfe22d6d88044f668718f85a7401b8a3068d605f7d4"
+    }
+  ]
+}

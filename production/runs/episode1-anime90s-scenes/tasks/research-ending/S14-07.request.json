@@ -1,0 +1,10 @@
+{
+  "shot_id": "S14-07",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. Close-up laptop screen same modern library table, matte paper scan on screen, cream grainy archival document slightly skewed beneath simple PDF viewer. ONLY readable document text: 'QUIET HOURS FOUNDATION' at top, small generic circular state seal without tiny readable lettering, 'Early Calm Pilot: Final Report', '2007', and three short lines 'Four elementary schools', 'Ambient classroom tones', 'Calm Index screening'. All remaining page space abstract gray rules, no invented names dates scores stats or legal claims. No company tree in this frame. Foreground JC's mediumbrown hand emerging from charcoal hoodie cuff lies suddenly motionless flat on oak table next to laptop, fingers clearly five naturally bent. Sofia teal cuff on trackpad farther side. SAME afternoon window light mossgreen library. Focus story realization, restrained ominous stillness.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-83a5a7a1-4b5f-46ce-b09a-85f3b64df579.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-01.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+  ],
+  "key_moment": "2007 report discovered with JC hand frozen; name rewind is later editorial action."
+}

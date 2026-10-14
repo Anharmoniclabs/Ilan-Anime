@@ -1,0 +1,46 @@
+{
+  "shot": "S13-11",
+  "start_frame": 21264,
+  "end_frame_exclusive": 21456,
+  "frames": 192,
+  "fps": 24,
+  "duration_seconds": 8.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "draft_pending_review",
+      "file": "start/start-candidate-v1.png",
+      "sha256": "183260841b3f52f42e46c34d16276aebb7375aec3db204c486e7520fbc96dd0d",
+      "method": "reference_conditioned_candidate",
+      "prompt_file": "start/start-candidate-v1.prompt.txt"
+    },
+    "end": {
+      "state": "draft_pending_review",
+      "file": "end/end-candidate-v1.png",
+      "sha256": "617e3710d33d1a46593121fe6550761ebd916577e79eed58494b4b873f468f90",
+      "method": "reference_conditioned_candidate",
+      "prompt_file": "end/end-candidate-v1.prompt.txt"
+    }
+  },
+  "status": "draft_pack_not_approved",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false,
+  "reference_history": [
+    {
+      "start": {
+        "state": "missing",
+        "file": null
+      }
+    },
+    {
+      "end": {
+        "state": "missing",
+        "file": null
+      }
+    }
+  ]
+}

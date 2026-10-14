@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 110,
+      "name": "Effect — 24 plate film grain"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

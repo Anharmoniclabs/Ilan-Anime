@@ -1,0 +1,30 @@
+{
+  "task_id": "s01-07-writing-action",
+  "role": "key-animator",
+  "host_agent_id": "/root/counter_writing",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/preview.mp4",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/shot.ecproj",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/edit.filmcraft",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/action-sheet.png",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/exposures.json",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/motion.json",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/contacts.json",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/decoded-sequence.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/validation.json",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/provenance.json",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/build.py",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/prompt.txt",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cache-cleanup.json"
+  ],
+  "evidence": [
+    "Real silent video: 168 frames, 1280x720, 24fps, 7.000s; full decode passes.",
+    "Exact source viewed; alternate endpoint rejected for changed actor and added guards. One imagegen call generated action-sheet.png, source/output hashes retained.",
+    "Six isolated replacement arm/quill poses composited over one locked ledger. Two bad gutter-crossing poses omitted. Clear pen lift separates upper and lower lines.",
+    "Directly inspected all sheet panels and decoded sequential video frames. Supporting hand/book pixel region remains exact across all closeup cels.",
+    "Native EffectCraft and FilmCraft projects saved successfully. 130MB reproducible PNG render cache removed; sources and review MP4 retained.",
+    "Submission is a limited-animation draft, not technical or author approval. Actual exposures are 9\u201324 frames; motion checker has no contact constraints, contact observations are visual/manual."
+  ],
+  "blockers": []
+}

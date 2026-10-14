@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.new",
+    "params": {
+      "name": "S00-01 revision 1",
+      "width": 1280,
+      "height": 720,
+      "frameRate": 24,
+      "duration": 4.0
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 1
+  }
+}

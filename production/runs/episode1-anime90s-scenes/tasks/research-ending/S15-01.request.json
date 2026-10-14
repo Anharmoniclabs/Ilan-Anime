@@ -1,0 +1,10 @@
+{
+  "shot_id": "S15-01",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. A playful spare hand-drawn route-map graphic from a90s anime, full16:9 cream paper backdrop with simple ink-drawn Bronx block grid, not a real navigational map. Three places only labeled 'LIBRARY', 'BODEGA', 'HOME'. Thin darkblue route runs from library through bodega corner to home; elevated train tracks shown on another street labeled 'EL' with crossed-out gray alternative route. Tiny chibi JC marker matching curlyhair charcoalhoodie reference1 at bodega corner, small skeptical expression. Orange awning icon at bodega matches ref2. Simple readable beautiful handpainted plan view and modest red directional arrows. No extra place names times geography instructions or paragraph text. One unified map frame, not comic panels. Cream/navy/orange restrained palette.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-9d3dd321-920f-4d1c-a4b1-28b4cafb8104.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-02.png"
+  ],
+  "key_moment": "Route map main gag; stove burner insert requires separate later drawing."
+}

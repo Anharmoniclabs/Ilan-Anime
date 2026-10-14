@@ -1,0 +1,16 @@
+{
+  "tool": "run_command",
+  "arguments": {
+    "command": "artboard.setProps",
+    "params": {
+      "index": 0,
+      "x": 413,
+      "y": 78,
+      "width": 797,
+      "height": 602,
+      "name": "center-character"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

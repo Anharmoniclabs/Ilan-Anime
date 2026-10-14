@@ -1,0 +1,1492 @@
+{
+  "tool": "sequence_inspect",
+  "arguments": {},
+  "status": "succeeded",
+  "result": {
+    "audio": [],
+    "duration": 234710784000000,
+    "durationFrames": 22176,
+    "id": 2,
+    "in": null,
+    "markers": [
+      {
+        "color": "Green",
+        "duration": 1016064000000,
+        "id": 3,
+        "kind": "Comment",
+        "name": "S00-01 technical-approved",
+        "start": 0
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 6,
+        "kind": "Comment",
+        "name": "S00-02 technical-approved",
+        "start": 1016064000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 9,
+        "kind": "Comment",
+        "name": "S01-01 unreviewed",
+        "start": 2286144000000
+      },
+      {
+        "color": "Green",
+        "duration": 3048192000000,
+        "id": 12,
+        "kind": "Comment",
+        "name": "S01-02 missing",
+        "start": 3810240000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 13,
+        "kind": "Comment",
+        "name": "S01-03 partial",
+        "start": 6858432000000
+      },
+      {
+        "color": "Green",
+        "duration": 1778112000000,
+        "id": 16,
+        "kind": "Comment",
+        "name": "S01-04 missing",
+        "start": 8890560000000
+      },
+      {
+        "color": "Green",
+        "duration": 1778112000000,
+        "id": 17,
+        "kind": "Comment",
+        "name": "S01-05 missing",
+        "start": 10668672000000
+      },
+      {
+        "color": "Green",
+        "duration": 2540160000000,
+        "id": 18,
+        "kind": "Comment",
+        "name": "S01-06 missing",
+        "start": 12446784000000
+      },
+      {
+        "color": "Green",
+        "duration": 1778112000000,
+        "id": 19,
+        "kind": "Comment",
+        "name": "S01-07 missing",
+        "start": 14986944000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 20,
+        "kind": "Comment",
+        "name": "S01-08 missing",
+        "start": 16765056000000
+      },
+      {
+        "color": "Green",
+        "duration": 3556224000000,
+        "id": 21,
+        "kind": "Comment",
+        "name": "S01-09 missing",
+        "start": 18289152000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 22,
+        "kind": "Comment",
+        "name": "S01-10 missing",
+        "start": 21845376000000
+      },
+      {
+        "color": "Green",
+        "duration": 2540160000000,
+        "id": 23,
+        "kind": "Comment",
+        "name": "S01-11 missing",
+        "start": 23369472000000
+      },
+      {
+        "color": "Green",
+        "duration": 3556224000000,
+        "id": 24,
+        "kind": "Comment",
+        "name": "S01-12 missing",
+        "start": 25909632000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 25,
+        "kind": "Comment",
+        "name": "S01-13 missing",
+        "start": 29465856000000
+      },
+      {
+        "color": "Green",
+        "duration": 2286144000000,
+        "id": 26,
+        "kind": "Comment",
+        "name": "S01-14 missing",
+        "start": 30989952000000
+      },
+      {
+        "color": "Green",
+        "duration": 1016064000000,
+        "id": 27,
+        "kind": "Comment",
+        "name": "S01-15 technical-approved",
+        "start": 33276096000000
+      },
+      {
+        "color": "Green",
+        "duration": 3048192000000,
+        "id": 30,
+        "kind": "Comment",
+        "name": "S02-01 technical-approved",
+        "start": 34292160000000
+      },
+      {
+        "color": "Green",
+        "duration": 1778112000000,
+        "id": 33,
+        "kind": "Comment",
+        "name": "S03-01 missing",
+        "start": 37340352000000
+      },
+      {
+        "color": "Green",
+        "duration": 1016064000000,
+        "id": 34,
+        "kind": "Comment",
+        "name": "S03-02 missing",
+        "start": 39118464000000
+      },
+      {
+        "color": "Green",
+        "duration": 3048192000000,
+        "id": 35,
+        "kind": "Comment",
+        "name": "S03-03 missing",
+        "start": 40134528000000
+      },
+      {
+        "color": "Green",
+        "duration": 2794176000000,
+        "id": 36,
+        "kind": "Comment",
+        "name": "S03-04 missing",
+        "start": 43182720000000
+      },
+      {
+        "color": "Green",
+        "duration": 1778112000000,
+        "id": 37,
+        "kind": "Comment",
+        "name": "S03-05 missing",
+        "start": 45976896000000
+      },
+      {
+        "color": "Green",
+        "duration": 2540160000000,
+        "id": 38,
+        "kind": "Comment",
+        "name": "S03-06 missing",
+        "start": 47755008000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 39,
+        "kind": "Comment",
+        "name": "S03-07 missing",
+        "start": 50295168000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 40,
+        "kind": "Comment",
+        "name": "S03-08 missing",
+        "start": 51819264000000
+      },
+      {
+        "color": "Green",
+        "duration": 2286144000000,
+        "id": 41,
+        "kind": "Comment",
+        "name": "S03-09 missing",
+        "start": 53343360000000
+      },
+      {
+        "color": "Green",
+        "duration": 2286144000000,
+        "id": 42,
+        "kind": "Comment",
+        "name": "S03-10 missing",
+        "start": 55629504000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 43,
+        "kind": "Comment",
+        "name": "S03-11 missing",
+        "start": 57915648000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 44,
+        "kind": "Comment",
+        "name": "S03-12 missing",
+        "start": 59947776000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 45,
+        "kind": "Comment",
+        "name": "S03-13 missing",
+        "start": 61979904000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 46,
+        "kind": "Comment",
+        "name": "S04-01 missing",
+        "start": 64012032000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 47,
+        "kind": "Comment",
+        "name": "S04-02 missing",
+        "start": 65536128000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 48,
+        "kind": "Comment",
+        "name": "S04-03 missing",
+        "start": 67060224000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 49,
+        "kind": "Comment",
+        "name": "S04-04 missing",
+        "start": 68584320000000
+      },
+      {
+        "color": "Green",
+        "duration": 1778112000000,
+        "id": 50,
+        "kind": "Comment",
+        "name": "S04-05 missing",
+        "start": 70108416000000
+      },
+      {
+        "color": "Green",
+        "duration": 762048000000,
+        "id": 51,
+        "kind": "Comment",
+        "name": "S05-01 missing",
+        "start": 71886528000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 52,
+        "kind": "Comment",
+        "name": "S05-02 missing",
+        "start": 72648576000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 53,
+        "kind": "Comment",
+        "name": "S05-03 missing",
+        "start": 73918656000000
+      },
+      {
+        "color": "Green",
+        "duration": 2286144000000,
+        "id": 54,
+        "kind": "Comment",
+        "name": "S05-04 missing",
+        "start": 75442752000000
+      },
+      {
+        "color": "Green",
+        "duration": 762048000000,
+        "id": 55,
+        "kind": "Comment",
+        "name": "S05-05 missing",
+        "start": 77728896000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 56,
+        "kind": "Comment",
+        "name": "S05-06 missing",
+        "start": 78490944000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 57,
+        "kind": "Comment",
+        "name": "S05-07 missing",
+        "start": 80523072000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 58,
+        "kind": "Comment",
+        "name": "S05-08 missing",
+        "start": 81793152000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 59,
+        "kind": "Comment",
+        "name": "S05-09 missing",
+        "start": 83063232000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 60,
+        "kind": "Comment",
+        "name": "S05-10 missing",
+        "start": 84587328000000
+      },
+      {
+        "color": "Green",
+        "duration": 2540160000000,
+        "id": 61,
+        "kind": "Comment",
+        "name": "S05-11 missing",
+        "start": 86619456000000
+      },
+      {
+        "color": "Green",
+        "duration": 3048192000000,
+        "id": 62,
+        "kind": "Comment",
+        "name": "S05-12 missing",
+        "start": 89159616000000
+      },
+      {
+        "color": "Green",
+        "duration": 1016064000000,
+        "id": 63,
+        "kind": "Comment",
+        "name": "S05-13 missing",
+        "start": 92207808000000
+      },
+      {
+        "color": "Green",
+        "duration": 1016064000000,
+        "id": 64,
+        "kind": "Comment",
+        "name": "S05-14 missing",
+        "start": 93223872000000
+      },
+      {
+        "color": "Green",
+        "duration": 1016064000000,
+        "id": 65,
+        "kind": "Comment",
+        "name": "S05-15 missing",
+        "start": 94239936000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 66,
+        "kind": "Comment",
+        "name": "S05-16 missing",
+        "start": 95256000000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 67,
+        "kind": "Comment",
+        "name": "S06-01 missing",
+        "start": 96780096000000
+      },
+      {
+        "color": "Green",
+        "duration": 4064256000000,
+        "id": 68,
+        "kind": "Comment",
+        "name": "S06-02 missing",
+        "start": 98050176000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 69,
+        "kind": "Comment",
+        "name": "S06-03 missing",
+        "start": 102114432000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 70,
+        "kind": "Comment",
+        "name": "S06-04 missing",
+        "start": 103638528000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 71,
+        "kind": "Comment",
+        "name": "S06-05 missing",
+        "start": 105670656000000
+      },
+      {
+        "color": "Green",
+        "duration": 1016064000000,
+        "id": 72,
+        "kind": "Comment",
+        "name": "S07-01 missing",
+        "start": 107194752000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 73,
+        "kind": "Comment",
+        "name": "S07-02 missing",
+        "start": 108210816000000
+      },
+      {
+        "color": "Green",
+        "duration": 5588352000000,
+        "id": 74,
+        "kind": "Comment",
+        "name": "S07-03 missing",
+        "start": 109734912000000
+      },
+      {
+        "color": "Green",
+        "duration": 3556224000000,
+        "id": 75,
+        "kind": "Comment",
+        "name": "S07-04 missing",
+        "start": 115323264000000
+      },
+      {
+        "color": "Green",
+        "duration": 2540160000000,
+        "id": 76,
+        "kind": "Comment",
+        "name": "S07-05 missing",
+        "start": 118879488000000
+      },
+      {
+        "color": "Green",
+        "duration": 3048192000000,
+        "id": 77,
+        "kind": "Comment",
+        "name": "S07-06 missing",
+        "start": 121419648000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 78,
+        "kind": "Comment",
+        "name": "S07-07 missing",
+        "start": 124467840000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 79,
+        "kind": "Comment",
+        "name": "S08-01 missing",
+        "start": 125991936000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 80,
+        "kind": "Comment",
+        "name": "S08-02 missing",
+        "start": 127262016000000
+      },
+      {
+        "color": "Green",
+        "duration": 4064256000000,
+        "id": 81,
+        "kind": "Comment",
+        "name": "S08-03 missing",
+        "start": 128532096000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 82,
+        "kind": "Comment",
+        "name": "S08-04 missing",
+        "start": 132596352000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 83,
+        "kind": "Comment",
+        "name": "S09-01 missing",
+        "start": 134120448000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 84,
+        "kind": "Comment",
+        "name": "S09-02 missing",
+        "start": 135390528000000
+      },
+      {
+        "color": "Green",
+        "duration": 5080320000000,
+        "id": 85,
+        "kind": "Comment",
+        "name": "S09-03 missing",
+        "start": 136660608000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 86,
+        "kind": "Comment",
+        "name": "S09-04 missing",
+        "start": 141740928000000
+      },
+      {
+        "color": "Green",
+        "duration": 2286144000000,
+        "id": 87,
+        "kind": "Comment",
+        "name": "S09-05 missing",
+        "start": 143265024000000
+      },
+      {
+        "color": "Green",
+        "duration": 2794176000000,
+        "id": 88,
+        "kind": "Comment",
+        "name": "S09-06 missing",
+        "start": 145551168000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 89,
+        "kind": "Comment",
+        "name": "S10-01 missing",
+        "start": 148345344000000
+      },
+      {
+        "color": "Green",
+        "duration": 2286144000000,
+        "id": 90,
+        "kind": "Comment",
+        "name": "S10-02 missing",
+        "start": 149615424000000
+      },
+      {
+        "color": "Green",
+        "duration": 3556224000000,
+        "id": 91,
+        "kind": "Comment",
+        "name": "S10-03 missing",
+        "start": 151901568000000
+      },
+      {
+        "color": "Green",
+        "duration": 4572288000000,
+        "id": 92,
+        "kind": "Comment",
+        "name": "S10-04 missing",
+        "start": 155457792000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 93,
+        "kind": "Comment",
+        "name": "S10-05 missing",
+        "start": 160030080000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 94,
+        "kind": "Comment",
+        "name": "S11-01 missing",
+        "start": 162062208000000
+      },
+      {
+        "color": "Green",
+        "duration": 3556224000000,
+        "id": 95,
+        "kind": "Comment",
+        "name": "S11-02 missing",
+        "start": 163332288000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 96,
+        "kind": "Comment",
+        "name": "S11-03 missing",
+        "start": 166888512000000
+      },
+      {
+        "color": "Green",
+        "duration": 2286144000000,
+        "id": 97,
+        "kind": "Comment",
+        "name": "S11-04 missing",
+        "start": 168920640000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 98,
+        "kind": "Comment",
+        "name": "S11-05 missing",
+        "start": 171206784000000
+      },
+      {
+        "color": "Green",
+        "duration": 6096384000000,
+        "id": 99,
+        "kind": "Comment",
+        "name": "S11-06 missing",
+        "start": 173238912000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 100,
+        "kind": "Comment",
+        "name": "S12-01 missing",
+        "start": 179335296000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 101,
+        "kind": "Comment",
+        "name": "S12-02 missing",
+        "start": 180605376000000
+      },
+      {
+        "color": "Green",
+        "duration": 1016064000000,
+        "id": 102,
+        "kind": "Comment",
+        "name": "S12-03 missing",
+        "start": 181875456000000
+      },
+      {
+        "color": "Green",
+        "duration": 1778112000000,
+        "id": 103,
+        "kind": "Comment",
+        "name": "S12-04 missing",
+        "start": 182891520000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 104,
+        "kind": "Comment",
+        "name": "S12-05 missing",
+        "start": 184669632000000
+      },
+      {
+        "color": "Green",
+        "duration": 4064256000000,
+        "id": 105,
+        "kind": "Comment",
+        "name": "S12-06 missing",
+        "start": 186701760000000
+      },
+      {
+        "color": "Green",
+        "duration": 2540160000000,
+        "id": 106,
+        "kind": "Comment",
+        "name": "S12-07 missing",
+        "start": 190766016000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 107,
+        "kind": "Comment",
+        "name": "S12-08 missing",
+        "start": 193306176000000
+      },
+      {
+        "color": "Green",
+        "duration": 4572288000000,
+        "id": 108,
+        "kind": "Comment",
+        "name": "S12-09 missing",
+        "start": 195338304000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 109,
+        "kind": "Comment",
+        "name": "S12-10 missing",
+        "start": 199910592000000
+      },
+      {
+        "color": "Green",
+        "duration": 2286144000000,
+        "id": 110,
+        "kind": "Comment",
+        "name": "S12-11 missing",
+        "start": 201942720000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 111,
+        "kind": "Comment",
+        "name": "S13-01 missing",
+        "start": 204228864000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 112,
+        "kind": "Comment",
+        "name": "S13-02 missing",
+        "start": 205498944000000
+      },
+      {
+        "color": "Green",
+        "duration": 2540160000000,
+        "id": 113,
+        "kind": "Comment",
+        "name": "S13-03 missing",
+        "start": 206769024000000
+      },
+      {
+        "color": "Green",
+        "duration": 2286144000000,
+        "id": 114,
+        "kind": "Comment",
+        "name": "S13-04 missing",
+        "start": 209309184000000
+      },
+      {
+        "color": "Green",
+        "duration": 1778112000000,
+        "id": 115,
+        "kind": "Comment",
+        "name": "S13-05 missing",
+        "start": 211595328000000
+      },
+      {
+        "color": "Green",
+        "duration": 2540160000000,
+        "id": 116,
+        "kind": "Comment",
+        "name": "S13-06 missing",
+        "start": 213373440000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 117,
+        "kind": "Comment",
+        "name": "S13-07 missing",
+        "start": 215913600000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 118,
+        "kind": "Comment",
+        "name": "S13-08 missing",
+        "start": 217183680000000
+      },
+      {
+        "color": "Green",
+        "duration": 1778112000000,
+        "id": 119,
+        "kind": "Comment",
+        "name": "S13-09 missing",
+        "start": 218707776000000
+      },
+      {
+        "color": "Green",
+        "duration": 4572288000000,
+        "id": 120,
+        "kind": "Comment",
+        "name": "S13-10 missing",
+        "start": 220485888000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 121,
+        "kind": "Comment",
+        "name": "S13-11 missing",
+        "start": 225058176000000
+      },
+      {
+        "color": "Green",
+        "duration": 1016064000000,
+        "id": 122,
+        "kind": "Comment",
+        "name": "S13-12 missing",
+        "start": 227090304000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 123,
+        "kind": "Comment",
+        "name": "S14-01 missing",
+        "start": 228106368000000
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 124,
+        "kind": "Comment",
+        "name": "S14-02 missing",
+        "start": 229376448000000
+      },
+      {
+        "color": "Green",
+        "duration": 4064256000000,
+        "id": 125,
+        "kind": "Comment",
+        "name": "S14-03 technical-approved",
+        "start": 230646528000000
+      }
+    ],
+    "name": "Episode 1 INCOMPLETE inspection — gaps are missing motion",
+    "out": null,
+    "playhead": null,
+    "selection": [
+      127
+    ],
+    "settings": {
+      "audio_master": "Stereo",
+      "color": {
+        "auto_tone_map": true,
+        "wide_gamut": false,
+        "working": "Rec709"
+      },
+      "drop_frame": false,
+      "frame_rate": {
+        "den": 1,
+        "num": 24
+      },
+      "height": 720,
+      "max_bit_depth": false,
+      "max_render_quality": false,
+      "par": [
+        1,
+        1
+      ],
+      "preset": "1280x720 24",
+      "preview_codec": "ProRes 422",
+      "sample_rate": 48000,
+      "width": 1280,
+      "working_space": "Rec. 709"
+    },
+    "split": {
+      "audioIn": null,
+      "audioOut": null,
+      "videoIn": null,
+      "videoOut": null
+    },
+    "video": [
+      {
+        "enabled": true,
+        "id": 1,
+        "items": [
+          {
+            "clip": 5,
+            "duration": 1016064000000,
+            "durationFrames": 96,
+            "effects": [
+              {
+                "effect": "motion",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "anchor": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "anti_flicker": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "position": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "rotation": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "scale": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "scale_width": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "uniform_scale": {
+                    "keyframes": 0,
+                    "value": "Bool(true)"
+                  }
+                }
+              },
+              {
+                "effect": "opacity",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "blend": {
+                    "keyframes": 0,
+                    "value": "Choice(0)"
+                  },
+                  "opacity": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              },
+              {
+                "effect": "time_remap",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "speed": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "item": 4,
+            "label": "Violet",
+            "link": null,
+            "name": "S00-01 technical-approved",
+            "sourceIn": 0,
+            "speed": 1.0,
+            "start": 0,
+            "startFrame": 0
+          },
+          {
+            "clip": 8,
+            "duration": 1270080000000,
+            "durationFrames": 120,
+            "effects": [
+              {
+                "effect": "motion",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "anchor": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "anti_flicker": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "position": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "rotation": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "scale": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "scale_width": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "uniform_scale": {
+                    "keyframes": 0,
+                    "value": "Bool(true)"
+                  }
+                }
+              },
+              {
+                "effect": "opacity",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "blend": {
+                    "keyframes": 0,
+                    "value": "Choice(0)"
+                  },
+                  "opacity": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              },
+              {
+                "effect": "time_remap",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "speed": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "item": 7,
+            "label": "Violet",
+            "link": null,
+            "name": "S00-02 technical-approved",
+            "sourceIn": 0,
+            "speed": 1.0,
+            "start": 1016064000000,
+            "startFrame": 96
+          },
+          {
+            "clip": 11,
+            "duration": 1524096000000,
+            "durationFrames": 144,
+            "effects": [
+              {
+                "effect": "motion",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "anchor": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 960.0, y: 540.0 })"
+                  },
+                  "anti_flicker": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "position": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "rotation": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "scale": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "scale_width": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "uniform_scale": {
+                    "keyframes": 0,
+                    "value": "Bool(true)"
+                  }
+                }
+              },
+              {
+                "effect": "opacity",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "blend": {
+                    "keyframes": 0,
+                    "value": "Choice(0)"
+                  },
+                  "opacity": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              },
+              {
+                "effect": "time_remap",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "speed": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "item": 10,
+            "label": "Violet",
+            "link": null,
+            "name": "S01-01 unreviewed",
+            "sourceIn": 0,
+            "speed": 1.0,
+            "start": 2286144000000,
+            "startFrame": 216
+          },
+          {
+            "clip": 15,
+            "duration": 2032128000000,
+            "durationFrames": 192,
+            "effects": [
+              {
+                "effect": "motion",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "anchor": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "anti_flicker": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "position": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "rotation": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "scale": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "scale_width": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "uniform_scale": {
+                    "keyframes": 0,
+                    "value": "Bool(true)"
+                  }
+                }
+              },
+              {
+                "effect": "opacity",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "blend": {
+                    "keyframes": 0,
+                    "value": "Choice(0)"
+                  },
+                  "opacity": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              },
+              {
+                "effect": "time_remap",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "speed": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "item": 14,
+            "label": "Violet",
+            "link": null,
+            "name": "S01-03 partial",
+            "sourceIn": 0,
+            "speed": 1.0,
+            "start": 6858432000000,
+            "startFrame": 648
+          },
+          {
+            "clip": 29,
+            "duration": 1016064000000,
+            "durationFrames": 96,
+            "effects": [
+              {
+                "effect": "motion",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "anchor": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "anti_flicker": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "position": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "rotation": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "scale": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "scale_width": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "uniform_scale": {
+                    "keyframes": 0,
+                    "value": "Bool(true)"
+                  }
+                }
+              },
+              {
+                "effect": "opacity",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "blend": {
+                    "keyframes": 0,
+                    "value": "Choice(0)"
+                  },
+                  "opacity": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              },
+              {
+                "effect": "time_remap",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "speed": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "item": 28,
+            "label": "Violet",
+            "link": null,
+            "name": "S01-15 technical-approved",
+            "sourceIn": 0,
+            "speed": 1.0,
+            "start": 33276096000000,
+            "startFrame": 3144
+          },
+          {
+            "clip": 32,
+            "duration": 3048192000000,
+            "durationFrames": 288,
+            "effects": [
+              {
+                "effect": "motion",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "anchor": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "anti_flicker": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "position": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "rotation": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "scale": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "scale_width": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "uniform_scale": {
+                    "keyframes": 0,
+                    "value": "Bool(true)"
+                  }
+                }
+              },
+              {
+                "effect": "opacity",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "blend": {
+                    "keyframes": 0,
+                    "value": "Choice(0)"
+                  },
+                  "opacity": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              },
+              {
+                "effect": "time_remap",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "speed": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "item": 31,
+            "label": "Violet",
+            "link": null,
+            "name": "S02-01 technical-approved",
+            "sourceIn": 0,
+            "speed": 1.0,
+            "start": 34292160000000,
+            "startFrame": 3240
+          },
+          {
+            "clip": 127,
+            "duration": 4064256000000,
+            "durationFrames": 384,
+            "effects": [
+              {
+                "effect": "motion",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "anchor": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "anti_flicker": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "position": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "rotation": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "scale": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "scale_width": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "uniform_scale": {
+                    "keyframes": 0,
+                    "value": "Bool(true)"
+                  }
+                }
+              },
+              {
+                "effect": "opacity",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "blend": {
+                    "keyframes": 0,
+                    "value": "Choice(0)"
+                  },
+                  "opacity": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              },
+              {
+                "effect": "time_remap",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "speed": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "item": 126,
+            "label": "Violet",
+            "link": null,
+            "name": "preview.mp4",
+            "sourceIn": 0,
+            "speed": 1.0,
+            "start": 230646528000000,
+            "startFrame": 21792
+          }
+        ],
+        "locked": false,
+        "muted": false,
+        "name": "Video 1",
+        "solo": false,
+        "syncLock": true,
+        "transitions": []
+      }
+    ]
+  }
+}

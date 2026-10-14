@@ -1,0 +1,12 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "clip.rename",
+    "params": {
+      "clip": 8,
+      "name": "S00-02 unreviewed"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

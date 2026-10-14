@@ -1,0 +1,11 @@
+[
+  {
+    "description": "Where things stand: the editor state (active comp, current time, selected layers/keys/items, open comps, tool, work area) plus what this build can do (`app`: version, command and effect counts, GPU effects, import/export formats, After Effects parity summary). Cheap; call it to re-orient after a series of edits.",
+    "inputSchema": {
+      "properties": {},
+      "required": [],
+      "type": "object"
+    },
+    "name": "get_state"
+  }
+]

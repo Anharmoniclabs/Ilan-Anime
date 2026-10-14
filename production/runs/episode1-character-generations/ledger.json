@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "run": "episode1-character-generations",
+  "paused": true,
+  "pause_reason": "Author rejected generation style; preserved outputs, replaced by Amaia and rooftop reference direction.",
+  "tasks": {
+    "age-variants": {
+      "id": "age-variants",
+      "inputs": [
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "research/earlier_cemi_pipeline/data/character_bible.txt",
+        "production/runs/cemi-90s-production/tasks/episode1-cast/cast.json",
+        "production/art_direction.json"
+      ],
+      "shots": [],
+      "depends_on": [],
+      "role": "character-designer",
+      "output_dir": "production/runs/episode1-character-generations/tasks/age-variants",
+      "objective": "Finish requested exploratory source generations for assigned Episode1 cast IDs: jc-six, jc-eight, jc-nine, jc-twelve, mama-younger, manny-nine, jc-father, mikey-eight, class-teacher, lanyard-woman, classmates, manny-listener. User explicitly says finish the generations; continue source generation without waiting for design approval, do not confer approval. Built-in image tool only, one call per asset or required variant. Save real PNGs, prompts, provenance, inspect outputs. No native assembly needed in this generation task.",
+      "requires_author_approval": false,
+      "art_direction_mode": "CHARACTER_ASSET",
+      "state": "running",
+      "agent_id": "age-variants"
+    },
+    "historical-cast": {
+      "objective": "Finish requested exploratory source generations for assigned Episode1 cast IDs: counterman-1973, record-kid-1973, thin-man-1973, yiddish-grandfather, irish-girls, porter, pr-mother, pr-kids, atlas-boy, eraser-boy, librarian-1934, reading-room-extras. User explicitly says finish the generations; continue source generation without waiting for design approval, do not confer approval. Built-in image tool only, one call per asset or required variant. Save real PNGs, prompts, provenance, inspect outputs. No native assembly needed in this generation task.",
+      "role": "character-designer",
+      "id": "historical-cast",
+      "inputs": [
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "research/earlier_cemi_pipeline/data/character_bible.txt",
+        "production/runs/cemi-90s-production/tasks/episode1-cast/cast.json",
+        "production/art_direction.json"
+      ],
+      "output_dir": "production/runs/episode1-character-generations/tasks/historical-cast",
+      "depends_on": [],
+      "shots": [],
+      "requires_author_approval": false,
+      "art_direction_mode": "CHARACTER_ASSET",
+      "state": "running",
+      "agent_id": "historical-cast"
+    },
+    "supporting-cast": {
+      "id": "supporting-cast",
+      "shots": [],
+      "output_dir": "production/runs/episode1-character-generations/tasks/supporting-cast",
+      "objective": "Finish requested exploratory source generations for assigned Episode1 cast IDs: street-fighters, feuding-men, super, delivery-worker, supers-dog, banner-people, union-speaker, union-second, cafe-baby, yankees-men, freelancer, cafe-patrons, curb-adult-hand, curb-child, honda-seller, mets-sleeper, lease-landlord, speaker-rep, bodega-men. User explicitly says finish the generations; continue source generation without waiting for design approval, do not confer approval. Built-in image tool only, one call per asset or required variant. Save real PNGs, prompts, provenance, inspect outputs. No native assembly needed in this generation task.",
+      "role": "character-designer",
+      "depends_on": [],
+      "inputs": [
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "research/earlier_cemi_pipeline/data/character_bible.txt",
+        "production/runs/cemi-90s-production/tasks/episode1-cast/cast.json",
+        "production/art_direction.json"
+      ],
+      "requires_author_approval": false,
+      "art_direction_mode": "CHARACTER_ASSET",
+      "state": "running",
+      "agent_id": "supporting-cast"
+    },
+    "ensemble-cast": {
+      "inputs": [
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/art_direction.json"
+      ],
+      "shots": [
+        "S01",
+        "S05"
+      ],
+      "role": "character-designer",
+      "objective": "Generate remaining river background and Ballroom cast source artwork, plus exact-script source fixes as needed. Exploratory generation only, user explicitly authorizes finishing generations without waiting for creative approval.",
+      "output_dir": "production/runs/episode1-character-generations/tasks/ensemble-cast",
+      "id": "ensemble-cast",
+      "depends_on": [],
+      "requires_author_approval": false,
+      "art_direction_mode": "CHARACTER_ASSET",
+      "state": "running",
+      "agent_id": "coordinator-generation"
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "age-variants"
+    },
+    {
+      "action": "add",
+      "task_id": "historical-cast"
+    },
+    {
+      "action": "add",
+      "task_id": "supporting-cast"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "age-variants",
+      "agent_id": "age-variants"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "historical-cast",
+      "agent_id": "historical-cast"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "supporting-cast",
+      "agent_id": "supporting-cast"
+    },
+    {
+      "action": "add",
+      "task_id": "ensemble-cast"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "ensemble-cast",
+      "agent_id": "coordinator-generation"
+    },
+    {
+      "action": "pause",
+      "reason": "Author rejected generation style; preserved outputs, replaced by Amaia and rooftop reference direction."
+    }
+  ]
+}

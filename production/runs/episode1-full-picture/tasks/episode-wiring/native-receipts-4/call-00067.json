@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 59947776000000,
+      "durationFrames": 192,
+      "name": "S03-12 missing",
+      "comment": "scratchoff dispute; silent feud; dog bite recoil"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 44
+  }
+}

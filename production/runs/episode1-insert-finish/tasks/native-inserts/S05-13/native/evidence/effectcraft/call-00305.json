@@ -1,0 +1,15 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addItem",
+    "params": {
+      "item": "glint-b.png",
+      "time": 0.5416666666666666,
+      "duration": 0.041666666666666664
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 99
+  }
+}

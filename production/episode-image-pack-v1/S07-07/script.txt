@@ -1,0 +1,5 @@
+`08:10:00 → 08:16:00` (144f) · TRACK · stairwell · rate 3s
+- **Action:** He heads for work down four flights. At the fourth-floor stairwell wall his hand brushes the plaster; for a frame he almost listens.
+- **FX:** `PAINTED_BG(stairwell); HAND_BRUSH_CEL`
+- **Sound:** Stairwell echo; a very faint wall hum that isn't there.
+- **Note:** [ADAPT] Plants Mikey (S14).

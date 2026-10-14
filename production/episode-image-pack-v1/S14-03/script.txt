@@ -1,0 +1,4 @@
+`15:08:00 → 15:24:00` (384f) · UI GRAPH · rate 3s
+- **Action:** Aperture Civic: registered 2024; five-month-old gorgeous website; no employees on any record. The shell tree builds itself on screen: three shells → paper that 'turns into a lawyer's lunch' (sandwich icon) → a holding company → a youth digital-wellness nonprofit, a music-licensing outfit, a development group with permits on four buildings, including his. The Ballroom, the arts space, the mural: his. Eleven tabs; a pie chart; 'Manny owes me a dollar.'
+- **FX:** `UI_GRAPH_CEL(nodes+lines, draw-on); BUILDING_PINS(block map); SANDWICH_GAG`
+- **Sound:** Trackpad taps; each node pings once.

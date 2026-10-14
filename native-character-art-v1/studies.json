@@ -1,0 +1,20 @@
+[
+  {
+    "name": "center-character",
+    "trace_paths": 159228,
+    "method": "VectorCraft trace expanded to paths; native hand-authored silhouette mask",
+    "status": "exploratory; not a clean redraw or rig"
+  },
+  {
+    "name": "elder-character",
+    "trace_paths": 117730,
+    "method": "VectorCraft trace expanded to paths; native hand-authored silhouette mask",
+    "status": "exploratory; not a clean redraw or rig"
+  },
+  {
+    "name": "right-character",
+    "trace_paths": 115579,
+    "method": "VectorCraft trace expanded to paths; native hand-authored silhouette mask",
+    "status": "exploratory; not a clean redraw or rig"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-12",
+  "purpose": "User-requested preservation of all recovered generated images; no promotion to final production inputs.",
+  "files": [
+    {
+      "shot_file": "S10-02-candidate-v1.png",
+      "source_name": "Young Manny’s trash-can street rhythm.png",
+      "library_file_id": "libfile_54a8106f103c8191953498b4f755ee7e",
+      "git_blob_sha": "a3c244b26d61e3fbd4031fd9e1173ebf75d33c0c",
+      "status": "held-for-style-and-identity-review"
+    },
+    {
+      "shot_file": "S10-01-candidate-v2.png",
+      "source_name": "Manny carries a black conga case.png",
+      "library_file_id": "libfile_7b1d8af4d8808191b334c0ad053a55a9",
+      "git_blob_sha": "c1d99d47cd2ec5ad9376314da90867875176b6e5",
+      "status": "held-for-style-and-identity-review"
+    },
+    {
+      "shot_file": "S10-01-rejected-v1.png",
+      "source_name": "Manny’s Backward Café Entrance.png",
+      "library_file_id": "libfile_b8b66f2fe9e48191a5ad4dc072c3fa4c",
+      "git_blob_sha": "a7832085f1db55f0a0d0f86e8a146339a2256c95",
+      "status": "rejected-wrong-case"
+    },
+    {
+      "shot_file": "S09-06-candidate-v1.png",
+      "source_name": "A Blank Card Across the Counter.png",
+      "library_file_id": "libfile_dd18a9f6916c81918de21e21cb1b285b",
+      "git_blob_sha": "2b0be8dee97d2a6aa60fb7358320eb3fb3e0952f",
+      "status": "held-for-style-and-identity-review"
+    },
+    {
+      "shot_file": "S09-04-candidate-v1.png",
+      "source_name": "Tired JC Counts Fingers at the Cafe.png",
+      "library_file_id": "libfile_27a34d6fa2ec8191a801e361918af59e",
+      "git_blob_sha": "c55b41ec29f889deb3c85be2ae90b4682bf04c62",
+      "status": "held-for-style-and-identity-review"
+    },
+    {
+      "shot_file": "S09-03-candidate-v1.png",
+      "source_name": "Quiet Talk at the Counter.png",
+      "library_file_id": "libfile_85512ac0e1a88191aeabfa5daa794f69",
+      "git_blob_sha": "d85e2ca8249d3a591f5793d50895c8dbf73df9d2",
+      "status": "held-for-style-and-identity-review"
+    },
+    {
+      "shot_file": "S08-04-candidate-v1.png",
+      "source_name": "Turning Back Beneath the Elevated.png",
+      "library_file_id": "libfile_ed0389a609488191bfd7eff9fb82ca06",
+      "git_blob_sha": "0244a6e155cf059226f8835ad9cc2beaecbb89b7",
+      "status": "held-for-style-and-identity-review"
+    },
+    {
+      "shot_file": "S08-03-candidate-v1.png",
+      "source_name": "JC Meets Workers by the Scaffold.png",
+      "library_file_id": "libfile_9d671237138c819184d7ce9101f00235",
+      "git_blob_sha": "b236f54fa4cb0e6300c08587e820f6af30da9787",
+      "status": "held-for-style-and-identity-review"
+    }
+  ],
+  "not_recovered": [
+    "S10-03"
+  ],
+  "paddle_already_preserved": "projects/cemi_episode_01/assets/keyframes/S01-01-candidate-v1.png"
+}

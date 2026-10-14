@@ -1,0 +1,4 @@
+`13:44:00 → 13:53:00` (216f) · CU laptop · rate 3s
+- **Action:** Four searches and a museum site that looks like 2003. A glass-case photo from three angles: a three-pointed dark stone, size of a fist, a face carved on the front, on the back a spiral opening into a triangle. Card: Zemí (cemí), Dominican Republic, c. 1000–1500. The Taíno thought of a cemí as a spirit and the thing the spirit lived in, both at once.
+- **FX:** `WEB_1999_UI(frames, tiled bg); STONE_ROTATE_3VIEWS; TEXT_SUPER(card)`
+- **Sound:** Dial-up-adjacent modem texture, tastefully; VO reads the card.

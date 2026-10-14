@@ -1,0 +1,253 @@
+{
+  "chapter": 3,
+  "characters": [
+    {
+      "id": "juan-carlos",
+      "name": "Juan Carlos",
+      "aliases": ["JC"],
+      "description": "First-person narrator; sound artist in the Bronx; eats a vending-machine lunch in the Concourse library while researching spirals; runs a Chismosa check that triggers an echo of the 1934 reading room; scored 'level two' on the Calm Index as a child; walks home past the bodega despite Sofía's warning. Physical appearance unspecified.",
+      "source_pages": [29, 30, 31, 32, 33, 34, 35, 36, 37],
+      "evidence": "I sat there, a man in a hoodie with a ginger ale, in a room that had\nbeen dead for ninety years"
+    },
+    {
+      "id": "sofia",
+      "name": "Sofía",
+      "aliases": [],
+      "description": "Runs the tenant association's research; has 'two settings, asleep and prosecuting'; digs into Aperture Civic's shells, the music-licensing installs, and the 2007 Quiet Hours Foundation grant; demands a control block and warns JC not to reply to the email or walk past the bodega. Physical appearance unspecified.",
+      "source_pages": [29, 31, 32, 33, 34, 35, 36],
+      "evidence": "because Sofía has two settings, asleep and pro‐\nsecuting."
+    },
+    {
+      "id": "denise",
+      "name": "Denise",
+      "aliases": [],
+      "description": "Mentioned-only (via text message); works at the arts space; informs JC the board is holding his milestone payment until the partner review. Physical appearance unspecified.",
+      "source_pages": [29],
+      "evidence": "Denise: Hi JC! Quick heads up, the board is holding your milestone payment until"
+    },
+    {
+      "id": "manny",
+      "name": "Manny",
+      "aliases": [],
+      "description": "Mentioned-only; musician friend; JC hears his voice saying 'it'll cost you'; bet Sofía a dollar about browser tabs. Physical appearance unspecified.",
+      "source_pages": [30, 32],
+      "evidence": "Manny was going to be unbearable."
+    },
+    {
+      "id": "snoring-man",
+      "name": "The snoring man in the library",
+      "aliases": [],
+      "description": "Unnamed library patron near the radiator whose snoring JC considers 'a public service'; still snoring when the echo ends. Physical appearance unspecified.",
+      "source_pages": [29, 31],
+      "evidence": "near a man who was snoring in a way I considered a public\nservice."
+    },
+    {
+      "id": "grandmother",
+      "name": "The narrator's grandmother",
+      "aliases": ["abuela"],
+      "description": "Lives in Santo Domingo; keeps a wrapped bundle in the back of her closet; caught young JC's wrist with 'No se toca a la Madre' and gave him a mango; gave him the coin at twelve. Appears in flashback; not called in the present. Physical appearance unspecified.",
+      "source_pages": [30],
+      "evidence": "“No se toca a la Madre,” she said."
+    },
+    {
+      "id": "reading-room-1934-ensemble",
+      "name": "The 1934 reading room crowd",
+      "aliases": ["the Concourse reading room, 1934 (ECHO)"],
+      "description": "Collective ensemble in the echo: a grandfather with a Yiddish newspaper, two Irish girls splitting an apple, a man in a porter's cap reading slow with a finger under the line, a Puerto Rican mother steering two kids to picture books, a boy copying a world map, a darker-skinned boy borrowing his eraser, and a librarian with spectacles on a chain stamping a book. Individual physical details as listed; otherwise unspecified.",
+      "source_pages": [30, 31],
+      "evidence": "Under\nthe same green lamps sat a grandfather with a newspaper in Yiddish,"
+    },
+    {
+      "id": "adrian-vale",
+      "name": "Adrian Vale",
+      "aliases": ["Director of Community Partnerships"],
+      "description": "Mentioned-only (in an online photo); tall, gray, courteous man in a good coat at a ribbon-cutting, holding oversized scissors and a small black notebook he carries in every photo; signed JC's email. Note: not automatically the character labeled VALE on the style board.",
+      "source_pages": [32],
+      "evidence": "a tall, gray, courteous man in a good coat at a ribbon-cutting, a\npair of oversized scissors in one hand and a small black notebook in the\nother."
+    },
+    {
+      "id": "mr-rodriguez",
+      "name": "Mr. Rodríguez",
+      "aliases": [],
+      "description": "Mentioned-only; café owner who told the music-system rep to take the speaker back and plays his own records; his café becomes the control for Sofía's comparison. Physical appearance unspecified.",
+      "source_pages": [34],
+      "evidence": "Mr. Rodríguez told their rep to take the\nspeaker back to whatever planet it came from."
+    },
+    {
+      "id": "schoolteacher",
+      "name": "The elementary school teacher",
+      "aliases": [],
+      "description": "Mentioned-only (in flashback); ran after-lunch quiet time under the classroom speaker and wrote down JC's desk-tapping. Physical appearance unspecified.",
+      "source_pages": [35],
+      "evidence": "That was what the teacher wrote down."
+    },
+    {
+      "id": "woman-with-lanyard",
+      "name": "The woman with a lanyard",
+      "aliases": [],
+      "description": "Unnamed observer in the school flashback who watched JC with a clipboard; a week later a letter came home. Physical appearance unspecified.",
+      "source_pages": [35],
+      "evidence": "I know because a woman with a lanyard came one afternoon and watched me with a clipboard,"
+    },
+    {
+      "id": "father",
+      "name": "The narrator's father",
+      "aliases": [],
+      "description": "Deceased (his death certificate is in Mamá's drawer); in flashback read the school letter twice in the kitchen and said only 'Nivel dos.' Physical appearance unspecified.",
+      "source_pages": [35],
+      "evidence": "He said one word, which was the number on it, in Spanish, the way you say the number of a bus\nyou’re not going to take."
+    },
+    {
+      "id": "mama",
+      "name": "Mamá",
+      "aliases": ["the narrator's mother"],
+      "description": "In flashback, took the school letter and put it in the drawer of papers that matter without another word; keeps the lease, the father's death certificate, and unanswered school letters there. Physical appearance unspecified.",
+      "source_pages": [35],
+      "evidence": "My mother took the letter and put it in the drawer where she keeps\nthe papers that matter:"
+    },
+    {
+      "id": "mikey",
+      "name": "Mikey",
+      "aliases": [],
+      "description": "Mentioned-only; childhood friend who 'lived on four'; pressed his ear to the fourth-floor stairwell wall and said the building was humming; JC now thinks he was accurate. Physical appearance unspecified.",
+      "source_pages": [35, 36],
+      "evidence": "Mikey used to press his ear to the wall of the fourth-floor stairwell\nand tell me the building was humming."
+    },
+    {
+      "id": "mikeys-mother",
+      "name": "Mikey's mother",
+      "aliases": [],
+      "description": "Mentioned-only; said 'the three' most often, in a particular voice, like a rumor or a diagnosis. Physical appearance unspecified.",
+      "source_pages": [36],
+      "evidence": "Mikey’s mother said it most."
+    },
+    {
+      "id": "mothers-on-the-block",
+      "name": "The mothers on the block",
+      "aliases": [],
+      "description": "Mentioned-only collective; referred to the Calm Index scores as 'the three' in a particular voice. Physical appearance unspecified.",
+      "source_pages": [36],
+      "evidence": "I remembered what the mothers on the block\ncalled it."
+    },
+    {
+      "id": "don-chino",
+      "name": "Don Chino",
+      "aliases": [],
+      "description": "Mentioned-only; owner of the bodega with the faded orange-soda awning and the speaker over the door. Physical appearance unspecified.",
+      "source_pages": [36],
+      "evidence": "Don Chino’s bodega has an awning the color of a faded orange soda,"
+    },
+    {
+      "id": "domino-players",
+      "name": "The domino players outside the bodega",
+      "aliases": [],
+      "description": "Unnamed ensemble: two guys on milk crates slapping domino tiles and arguing, and a third who steps out of the shop to tell them to lower their voices in a voice that isn't lower; the flatness goes out of all three within a minute. Physical appearance unspecified.",
+      "source_pages": [37],
+      "evidence": "Two guys sat on milk crates out front with a domino table, slap‐\nping tiles, in the mood to argue."
+    }
+  ],
+  "scenes": [
+    {
+      "id": "library-lunch-and-texts",
+      "name": "Vending-machine lunch at the Concourse library",
+      "description": "JC eats platanitos and a ginger ale from a vending machine at 2:15 by the radiator beside a snoring man; his phone buzzes with Sofía's escalating texts about the 'is this anything' email and Denise's message that the board is holding his milestone payment, with nine days to rent.",
+      "characters": ["juan-carlos", "sofia", "denise", "snoring-man"],
+      "source_pages": [29],
+      "evidence": "I ate lunch at 2:15, in the library, from a vending machine, which I\nwant on the record as technically a meal."
+    },
+    {
+      "id": "cemi-research",
+      "name": "Researching the cemí and the coin",
+      "description": "Supposed to be fixing the mural he broke on purpose, JC instead searches spirals and finds a museum cemí — a three-pointed dark stone with a face and a spiral-triangle — matching the coin his grandmother gave him at twelve.",
+      "characters": ["juan-carlos", "grandmother"],
+      "source_pages": [30],
+      "evidence": "a\nthree-pointed stone, dark, fist-sized, with a face carved into the front\nand a spiral that opened into a triangle on the back."
+    },
+    {
+      "id": "grandmother-bundle-flashback",
+      "name": "Flashback: the bundle in the closet in Santo Domingo",
+      "description": "Memory of the only visit JC remembers, at eight: his grandmother's bundle wrapped in old cloth in the back of her closet; she caught his wrist gently — 'No se toca a la Madre' — and gave him a mango.",
+      "characters": ["juan-carlos", "grandmother"],
+      "source_pages": [30],
+      "evidence": "My grandmother keeps a bundle in the back of her closet in Santo\nDomingo, wrapped in old cloth, about the size of two cupped hands."
+    },
+    {
+      "id": "chismosa-echo-1934",
+      "name": "ECHO: the Concourse reading room, 1934",
+      "description": "JC sets the contact mic puck on the oak table to check Chismosa; the radiator, snorer and buzzing lamp line up and the room fills with a Saturday reading room circa 1934 — green lamps, a multilingual crowd, a leaking rumba, a FREE CONCERT sign — with no flat spot under the sound; he nearly cries before Sofía's arrival snaps the room back.",
+      "characters": ["juan-carlos", "snoring-man", "reading-room-1934-ensemble", "sofia"],
+      "source_pages": [30, 31],
+      "evidence": "The room filled."
+    },
+    {
+      "id": "sofia-aperture-research",
+      "name": "Sofía's Aperture Civic briefing",
+      "description": "Sofía sits down laptop-first and lays out Aperture Civic: registered 2024, three shells, a holding company owning a youth digital-wellness nonprofit, a music-licensing outfit, and a development group with permits on four buildings including JC's; the June thirteenth Founders' Night deadline at the Armory; and the only findable human, Adrian Vale with his black notebook.",
+      "characters": ["juan-carlos", "sofia", "adrian-vale", "manny"],
+      "source_pages": [31, 32],
+      "evidence": "“Aperture Civic,” she said, no hello."
+    },
+    {
+      "id": "loop-listening-and-control",
+      "name": "The loop, the earbud, and the need for a control",
+      "description": "JC plays Sofía the eight-second loop saved from the raw feed; she believes he heard something but demands numbers and a control block without it, revealing the music-licensing arm's free in-store systems installed in six nearby businesses for two months.",
+      "characters": ["juan-carlos", "sofia"],
+      "source_pages": [33],
+      "evidence": "“That’s a loop,” she said. “It sounds like every hold music in Amer‐\nica.”"
+    },
+    {
+      "id": "cafe-as-control",
+      "name": "The café that didn't sign",
+      "description": "Sofía reveals every business signed the same page-and-a-half contract except one — the café, where Mr. Rodríguez refused the speaker and plays his own records — giving them a control; Sofía is briefly, completely happy.",
+      "characters": ["juan-carlos", "sofia", "mr-rodriguez"],
+      "source_pages": [34],
+      "evidence": "“I’m in love with a coffee shop,” she said."
+    },
+    {
+      "id": "quiet-hours-discovery",
+      "name": "The Quiet Hours Foundation, 2007",
+      "description": "About twenty minutes later, Sofía traces the shared registered-agent address backward to the Quiet Hours Foundation's Early Calm Pilot final report: a 2007 grant putting ambient tones and a screening tool in four elementary schools in JC's zip code — the schools JC attended.",
+      "characters": ["juan-carlos", "sofia"],
+      "source_pages": [34],
+      "evidence": "Quiet Hours Foundation. Early Calm Pilot: Final\nReport. 2007."
+    },
+    {
+      "id": "school-flashback",
+      "name": "Flashback: quiet time and the letter home",
+      "description": "JC remembers the beige speaker above the cubbies, the flat tone after lunch, his desk-tapping to push back; the woman with the lanyard and clipboard; the letter his father read twice and answered with 'Nivel dos'; his mother filing it in the drawer without another word.",
+      "characters": ["juan-carlos", "schoolteacher", "woman-with-lanyard", "father", "mama"],
+      "source_pages": [34, 35],
+      "evidence": "It sat on top of the supply closet, a beige box with a mesh front, right\nabove the cubbies."
+    },
+    {
+      "id": "calm-index-and-mikey",
+      "name": "The Calm Index rubric and memories of Mikey",
+      "description": "Sofía reads the Calm Index rubric — 'Atypical response to ambient stimulus' — the line you write to find the kids who react; JC remembers Mikey, who lived on four, pressing his ear to the stairwell wall, and the mothers calling scores 'the three.'",
+      "characters": ["juan-carlos", "sofia", "mikey", "mikeys-mother", "mothers-on-the-block"],
+      "source_pages": [35, 36],
+      "evidence": "That’s a sentence you write when you’re looking for the kids who react."
+    },
+    {
+      "id": "sofia-warning",
+      "name": "Sofía's warning: the model has to be right",
+      "description": "Sofía concludes someone has had a model of the block since JC was six and that people who need to be right don't stop; she tells him not to reply to the email, not to delete it, and not to walk home past the bodega.",
+      "characters": ["juan-carlos", "sofia"],
+      "source_pages": [36],
+      "evidence": "“Don’t reply to the email,” she said finally. “Don’t delete it. And\ndon’t walk home past the bodega.”"
+    },
+    {
+      "id": "bodega-walk",
+      "name": "Walking home past the bodega",
+      "description": "JC defies the warning and stops to listen on purpose outside Don Chino's bodega: under a bright merengue he hears the pressed-down eight-second loop in the open air, and watches the flatness pass through three domino players in under a minute.",
+      "characters": ["juan-carlos", "don-chino", "domino-players"],
+      "source_pages": [36, 37],
+      "evidence": "I stood on the sidewalk and listened to it on purpose."
+    }
+  ],
+  "non_scene_pages": [
+    {
+      "page": 38,
+      "reason": "Blank page containing only the page number; no narrative content to inventory."
+    }
+  ]
+}

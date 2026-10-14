@@ -1,0 +1,52 @@
+{
+  "id": "S15-04",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 288,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Cycle after cycle the men's faces dull a little (PRESS +0.08 per cycle). One slaps a tile too hard and says something he'd have been ashamed of on a normal Tuesday. The other says something back.",
+  "camera_note": "MS tiles",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S15-04",
+        "header": "17:54:00 → 18:06:00 (288f) · MS tiles · rate 3s",
+        "action": "Cycle after cycle the men's faces dull a little (PRESS +0.08 per cycle). One slaps a tile too hard and says something he'd have been ashamed of on a normal Tuesday. The other says something back.\nSOUND: Tile slap; the words are masked by the merengue."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {
+    "press": 0.08
+  },
+  "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "IMPACT_FLASH"
+    ],
+    "needs_separated_layers_fx": [
+      "MOUTH_FLAP"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

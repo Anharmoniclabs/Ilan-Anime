@@ -1,0 +1,4 @@
+`12:00:00 → 12:07:00` (168f) · WIPE_ERA · interior · rate 3s
+- **Action:** The tin ceiling stays as the anchor. Everything else changes front-to-back: mismatched chairs → a uniform set; empty bins fill with 45s in paper sleeves; two box fans appear; the air shimmers with heat. Color grade swings to warm 1973.
+- **FX:** `WIPE_ERA(anchor=ceiling); BIN_FILL_STAGGER(1s); LIGHT_FIGURE(0.4); FILM_GRAIN↑; HALATION`
+- **Sound:** Mambo from a lunchbox radio fades in; fan whir.

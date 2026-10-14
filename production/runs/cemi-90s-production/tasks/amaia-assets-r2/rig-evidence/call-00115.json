@@ -1,0 +1,14 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.openInEssentialGraphics",
+    "params": {
+      "comp": 4
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 4,
+    "name": "AMAIA R2 - exact master neutral"
+  }
+}

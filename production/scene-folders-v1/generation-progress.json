@@ -1,0 +1,12 @@
+{
+  "shots": 128,
+  "generated_images_total": 21,
+  "generated_this_pass": 13,
+  "recovered_local_endpoints": 6,
+  "scripted_black_endpoints_this_pass": 3,
+  "missing_starts": 59,
+  "missing_ends": 106,
+  "state": "partial_drafts_under_review",
+  "children_design": "S01-06/S01-08 closeups selected by user",
+  "background_generation_running": false
+}

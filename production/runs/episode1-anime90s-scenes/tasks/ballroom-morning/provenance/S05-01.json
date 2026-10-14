@@ -1,0 +1,26 @@
+{
+  "shot_id": "S05-01",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-01.png",
+  "status": "exploratory",
+  "sha256": "9b314da3b3cb3708ba0c69d4f0d233b1b360ca29a6f4937605173d21af26eb30",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-01.txt",
+  "references": [
+    {
+      "path": "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "sha256": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Dolly-zoom, ear-pop reaction transition and edge distortion animation.",
+  "inspection": "Directly viewed generated source and saved PNG: recognizable JC, neck headphones, startled reaction, warm desk lamp against cool deep night. Added background poster imagery incidental, no readable text. Static source does not validate dolly zoom.",
+  "directly_viewed": true
+}

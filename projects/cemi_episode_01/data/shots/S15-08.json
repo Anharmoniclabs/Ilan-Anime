@@ -1,0 +1,59 @@
+{
+  "id": "S15-08",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 288,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "He is small under the orange awning. Camera rises up the building to the dark third-floor window across the street; the netting moves. Cut to black.",
+  "camera_note": "PULL-BACK · crane",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S15-08",
+        "header": "18:30:00 → 18:42:00 (288f) · PULL-BACK · crane · rate 3s",
+        "action": "He is small under the orange awning. Camera rises up the building to the dark third-floor window across the street; the netting moves. Cut to black.\nSOUND: The song fades out, leaving only the loop."
+      }
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "y": -43.199999999999996,
+      "scale": 1.14,
+      "ease": "smooth"
+    },
+    {
+      "frame": 287,
+      "y": 43.199999999999996,
+      "scale": 1.14
+    }
+  ],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "DARK_WINDOW_HOLD"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 67060224000000,
+      "durationFrames": 144,
+      "name": "S04-03 missing",
+      "comment": "select config; press delete; three panes fracture; dust vanishes"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 48
+  }
+}

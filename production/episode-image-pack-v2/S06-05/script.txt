@@ -1,0 +1,5 @@
+`06:56:00 → 07:02:00` (144f) · MCU JC → WS window · rate 3s
+- **Action:** When he steps back from the glass the man does not move. Hold. Smash to black.
+- **FX:** `HOLD(4s); SMASH_CUT_BLACK`
+- **Sound:** Cut to silence, then rosary click fades.
+- **Note:** Do not identify the man. See flags in the closing section.

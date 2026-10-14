@@ -1,0 +1,229 @@
+{
+  "task_id": "modern-v2-independent-review",
+  "role": "quality-review",
+  "status": "submitted",
+  "decision": "approve bounded corrected draft-source scope for all three v2 files",
+  "entries": [
+    {
+      "id": "jc",
+      "source": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/jc-master-v2.png",
+      "sha256": "63ea6611a922f448805d77f4a01df3e10d45219dd985a14a6bdafd903c8a26bf",
+      "decision": "approve",
+      "scope": "One corrected exploratory full-body draft source; not separated production parts or rig.",
+      "corrections_verified": "Shoe swoosh removed; simple sewn panels preserve shoes, full feet/hands and recognizable lean character.",
+      "native": {
+        "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/jc-master-v2-63ea6611a922/master.pcraft",
+        "sha256": "ab806aa2e41035f8b76d4c213741367e66db469121868b82bd5066e9a2120ed0",
+        "reopened": true,
+        "unchanged": true,
+        "source_hash_matches_manifest": true,
+        "native_hash_matches_manifest": true,
+        "layers": [
+          {
+            "blend": "Normal",
+            "bounds": [
+              0,
+              0,
+              1024,
+              1536
+            ],
+            "clipped": false,
+            "fill": 1.0,
+            "hasMask": false,
+            "id": 3,
+            "kind": "Pixel",
+            "linkGroup": null,
+            "name": "Editable master \u2014 not separated rig parts",
+            "opacity": 1.0,
+            "selected": true,
+            "visible": true
+          },
+          {
+            "blend": "Normal",
+            "bounds": [
+              0,
+              0,
+              1024,
+              1536
+            ],
+            "clipped": false,
+            "fill": 1.0,
+            "hasMask": false,
+            "id": 2,
+            "kind": "Pixel",
+            "linkGroup": null,
+            "name": "Preserved generated source \u2014 exploratory",
+            "opacity": 1.0,
+            "selected": false,
+            "visible": false
+          }
+        ],
+        "manifest_path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/jc-master-v2-63ea6611a922/manifest.json",
+        "manifest_sha256": "fa9f1baf5342e950ccd5cf49ebf889b47d96e3906ae6ba16ef6f3a03b089ad21",
+        "reported_alpha_delta": {
+          "alpha_max_delta": 0.0,
+          "premultiplied_rgb_max_delta": 0.0
+        }
+      },
+      "limits": [
+        "Full face/identity adaptation requires exact-file author review.",
+        "No alternate views, mouth states, hidden-joint artwork, separated props or motion evidence.",
+        "Original rejected/revise drafts retain their earlier status; this pass applies only to v2 SHA256."
+      ],
+      "author_approval": false,
+      "canonical": false,
+      "rig_approval": false
+    },
+    {
+      "id": "manny",
+      "source": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/manny-master-v2.png",
+      "sha256": "736d023266a936942850ae0a5c7cd2df4fbd27efba60fd2bceb66c14a65df5f7",
+      "decision": "approve",
+      "scope": "One corrected exploratory full-body draft source; not separated production parts or rig.",
+      "corrections_verified": "N shoe logos removed; anonymous shoe panel design retains broad body/large hands and close-cropped hair.",
+      "native": {
+        "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/manny-master-v2-736d023266a9/master.pcraft",
+        "sha256": "db39c49c4f61323bc364d18934f47e79f90d71cbf33c948989646e344e431a3a",
+        "reopened": true,
+        "unchanged": true,
+        "source_hash_matches_manifest": true,
+        "native_hash_matches_manifest": true,
+        "layers": [
+          {
+            "blend": "Normal",
+            "bounds": [
+              0,
+              0,
+              1024,
+              1536
+            ],
+            "clipped": false,
+            "fill": 1.0,
+            "hasMask": false,
+            "id": 3,
+            "kind": "Pixel",
+            "linkGroup": null,
+            "name": "Editable master \u2014 not separated rig parts",
+            "opacity": 1.0,
+            "selected": true,
+            "visible": true
+          },
+          {
+            "blend": "Normal",
+            "bounds": [
+              0,
+              0,
+              1024,
+              1536
+            ],
+            "clipped": false,
+            "fill": 1.0,
+            "hasMask": false,
+            "id": 2,
+            "kind": "Pixel",
+            "linkGroup": null,
+            "name": "Preserved generated source \u2014 exploratory",
+            "opacity": 1.0,
+            "selected": false,
+            "visible": false
+          }
+        ],
+        "manifest_path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/manny-master-v2-736d023266a9/manifest.json",
+        "manifest_sha256": "a4d39b7f227367155c071590ebd4f30fcf117acc96d48b5c67bde2998c6fa32f",
+        "reported_alpha_delta": {
+          "alpha_max_delta": 0.0,
+          "premultiplied_rgb_max_delta": 0.0
+        }
+      },
+      "limits": [
+        "Full face/identity adaptation requires exact-file author review.",
+        "No alternate views, mouth states, hidden-joint artwork, separated props or motion evidence.",
+        "Original rejected/revise drafts retain their earlier status; this pass applies only to v2 SHA256."
+      ],
+      "author_approval": false,
+      "canonical": false,
+      "rig_approval": false
+    },
+    {
+      "id": "rodriguez",
+      "source": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/rodriguez-master-v2.png",
+      "sha256": "cae297ecc00556c8e173b0acdbd7310b70b0bab2e7cd0668250a39d76957c320",
+      "decision": "approve",
+      "scope": "One corrected exploratory full-body draft source; not separated production parts or rig.",
+      "corrections_verified": "Mustache removed, torso broadened and arms thicker; rolled sleeves, apron, rag now fit present-day cafe-owner bible adaptation. Distinction from mustached 1973 father restored.",
+      "native": {
+        "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/rodriguez-master-v2-cae297ecc005/master.pcraft",
+        "sha256": "27e389c19ae19ea17914bee79f8806bd9858f78382686fb75cf9d23fc03ea035",
+        "reopened": true,
+        "unchanged": true,
+        "source_hash_matches_manifest": true,
+        "native_hash_matches_manifest": true,
+        "layers": [
+          {
+            "blend": "Normal",
+            "bounds": [
+              0,
+              0,
+              1024,
+              1536
+            ],
+            "clipped": false,
+            "fill": 1.0,
+            "hasMask": false,
+            "id": 3,
+            "kind": "Pixel",
+            "linkGroup": null,
+            "name": "Editable master \u2014 not separated rig parts",
+            "opacity": 1.0,
+            "selected": true,
+            "visible": true
+          },
+          {
+            "blend": "Normal",
+            "bounds": [
+              0,
+              0,
+              1024,
+              1536
+            ],
+            "clipped": false,
+            "fill": 1.0,
+            "hasMask": false,
+            "id": 2,
+            "kind": "Pixel",
+            "linkGroup": null,
+            "name": "Preserved generated source \u2014 exploratory",
+            "opacity": 1.0,
+            "selected": false,
+            "visible": false
+          }
+        ],
+        "manifest_path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/rodriguez-master-v2-cae297ecc005/manifest.json",
+        "manifest_sha256": "6d383fa2bbd164bf9a14c2fd0243fdf8351e9ecc48d6c029fb39f7b705c3aea1",
+        "reported_alpha_delta": {
+          "alpha_max_delta": 0.0,
+          "premultiplied_rgb_max_delta": 0.0
+        }
+      },
+      "limits": [
+        "Full face/identity adaptation requires exact-file author review.",
+        "No alternate views, mouth states, hidden-joint artwork, separated props or motion evidence.",
+        "Original rejected/revise drafts retain their earlier status; this pass applies only to v2 SHA256."
+      ],
+      "author_approval": false,
+      "canonical": false,
+      "rig_approval": false
+    }
+  ],
+  "evidence": [
+    "Directly viewed each full v2 source image and compared prior specific defects.",
+    "Independently reopened each new native PhotoCraft project; native and source hashes match per-source manifests and are unchanged after review.",
+    "Each source remains one editable flattened master with hidden preserved original; native manifest correctly denies separation/rig/motion completion."
+  ],
+  "unchanged_limits": [
+    "Abuela remains elderly-hand reference only, not corrected coin handoff story insert.",
+    "Vale remains one still-photo draft; no nine-photo set or scissors photograph completion.",
+    "No author approval or canonical identity established."
+  ],
+  "blockers": []
+}

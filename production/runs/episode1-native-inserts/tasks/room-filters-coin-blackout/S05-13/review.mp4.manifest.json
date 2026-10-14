@@ -1,0 +1,27 @@
+{
+  "shot": "S05-13",
+  "output": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/review.mp4",
+  "mode": "review",
+  "quality": "final",
+  "frames": 96,
+  "size": [
+    1280,
+    720
+  ],
+  "draft": true,
+  "status": "exploratory",
+  "engine": "2.0.0",
+  "fingerprint": "36b2636d10bf4c953c2e2ed47b1cf01997ee6a1b32308b79d2cd996d2322914d",
+  "inputs": {
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/clean-plate.png": "d3329573d4e4ff01e27123020028f7bd3003e539a2c737a260a9ce1a09054fcd",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/coin-rgba.png": "16842d69a9e433b9baa3ca599ed438c1817f4d938837f9781ba5eb77b29bc906",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/contact-shadow.png": "70d9695fdd01dd67730fb339f2090b24542bc8ebe9a79ab2d114bd6a9156b18e",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/glint-a.png": "f95d628449c105814616460148511342037c3d8a62c2b6bc6f4c2202effe5909",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/glint-b.png": "abe9388fe52969134733a27f20db47a83e91f881ce49e756f66b451fb50adc5b",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/glint-c.png": "c54d6712e72ae00d0eb55c985c0f589da240bff5e3b49272b1f50ea7751d68e5",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/white-contact-flash.png": "8cf658589e6dea2cf7e2fa9684cef015849612e5ffa8b6792dd0564ec9b9bafb"
+  },
+  "output_sha256": "92d06c7027a851857a727d7115970a67299972501c78993de892bb655505faea",
+  "seconds": 2.84,
+  "truth": "A successful render proves the spec executes, not that the animation is good."
+}

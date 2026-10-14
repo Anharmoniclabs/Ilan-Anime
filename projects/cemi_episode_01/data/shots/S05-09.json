@@ -1,0 +1,79 @@
+{
+  "id": "S05-09",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "'I felt it before I heard it': a pulse climbs the iron riser into JC's soles. Cut to a long dark window across the street. 'Across the street, I thought.' The loop arrives: dry, tuneless, the loudest thing on the block.",
+  "camera_note": "INSERT → CROSSCUT",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "plate_0",
+      "source": "assets/keyframes/S05-09-A.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 72,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    },
+    {
+      "name": "plate_1",
+      "source": "assets/keyframes/S05-09-B.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 72,
+      "out": 144,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "scale": 1.0,
+      "ease": "smooth"
+    },
+    {
+      "frame": 143,
+      "scale": 1.08
+    }
+  ],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "PRESS (audio only; see sound mix)"
+    ],
+    "asset_slot_fx": [
+      "MATCH_CUT",
+      "PIPE_PULSE_CEL"
+    ],
+    "assumptions": [
+      "2 keyframes split the shot evenly; real cut points are unset"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

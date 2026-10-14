@@ -1,0 +1,142 @@
+{
+  "tool": "get_layer",
+  "arguments": {
+    "layer": 504,
+    "flat": true
+  },
+  "status": "succeeded",
+  "result": {
+    "blendMode": "Normal",
+    "id": 504,
+    "in": 0.0,
+    "index": 5,
+    "label": "Lavender",
+    "name": "right-hand",
+    "out": 2.0,
+    "parent": 552,
+    "properties": [
+      {
+        "path": "transform/anchor",
+        "type": "vec3",
+        "value": [
+          79.0,
+          57.0,
+          0.0
+        ]
+      },
+      {
+        "path": "transform/position",
+        "type": "vec3",
+        "value": [
+          54.000000000000114,
+          430.0000000000001,
+          0.0
+        ]
+      },
+      {
+        "path": "transform/scale",
+        "type": "vec3",
+        "value": [
+          63.19779893867633,
+          63.19779893867633,
+          0.0
+        ]
+      },
+      {
+        "path": "transform/orientation",
+        "type": "vec3",
+        "value": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "path": "transform/rotationX",
+        "type": "scalar",
+        "value": 0.0
+      },
+      {
+        "path": "transform/rotationY",
+        "type": "scalar",
+        "value": 0.0
+      },
+      {
+        "path": "transform/rotation",
+        "type": "scalar",
+        "value": 1.264910212430479
+      },
+      {
+        "path": "transform/opacity",
+        "type": "scalar",
+        "value": 100.0
+      },
+      {
+        "path": "materialOptions/castsShadows",
+        "type": "enum",
+        "value": 0
+      },
+      {
+        "path": "materialOptions/lightTransmission",
+        "type": "scalar",
+        "value": 0.0
+      },
+      {
+        "path": "materialOptions/acceptsShadows",
+        "type": "enum",
+        "value": 1
+      },
+      {
+        "path": "materialOptions/acceptsLights",
+        "type": "bool",
+        "value": true
+      },
+      {
+        "path": "materialOptions/ambient",
+        "type": "scalar",
+        "value": 100.0
+      },
+      {
+        "path": "materialOptions/diffuse",
+        "type": "scalar",
+        "value": 50.0
+      },
+      {
+        "path": "materialOptions/specularIntensity",
+        "type": "scalar",
+        "value": 50.0
+      },
+      {
+        "path": "materialOptions/specularShininess",
+        "type": "scalar",
+        "value": 5.0
+      },
+      {
+        "path": "materialOptions/metal",
+        "type": "scalar",
+        "value": 100.0
+      }
+    ],
+    "start": 0.0,
+    "stretch": 100.0,
+    "switches": {
+      "adjustment": false,
+      "audio": true,
+      "collapse": false,
+      "effects": true,
+      "frame_blend": "Off",
+      "guide": false,
+      "locked": false,
+      "motion_blur": false,
+      "quality": "Best",
+      "sampling": "Bilinear",
+      "shy": false,
+      "solo": false,
+      "three_d": false,
+      "video": true
+    },
+    "time": 0.0,
+    "trackMatte": null,
+    "type": "Footage"
+  }
+}

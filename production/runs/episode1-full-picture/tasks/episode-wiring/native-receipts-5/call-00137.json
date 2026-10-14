@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 149615424000000,
+      "durationFrames": 216,
+      "name": "S10-02 missing",
+      "comment": "child groove; adult refrigerator salsa; allergic emotions gag"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 98
+  }
+}

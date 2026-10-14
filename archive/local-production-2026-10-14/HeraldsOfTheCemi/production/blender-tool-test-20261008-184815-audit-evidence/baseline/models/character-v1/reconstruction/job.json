@@ -1,0 +1,28 @@
+{
+  "kind": "triposr",
+  "status": "running",
+  "model": "stabilityai/TripoSR",
+  "backend": "local",
+  "image": "sources/10.png",
+  "input_sha256": "a8f9d8056caf81cd9ac881890e021db57376b2654964d1b55354314df93f8d4f",
+  "output": "models/character-v1/reconstruction/0/mesh.glb",
+  "argv": [
+    "/home/alabs/.local/opt/TripoSR/.venv/bin/python",
+    "/home/alabs/.local/opt/TripoSR/run.py",
+    "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/reconstruction/source.png",
+    "--device",
+    "cpu",
+    "--chunk-size",
+    "2048",
+    "--mc-resolution",
+    "128",
+    "--output-dir",
+    "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/reconstruction",
+    "--model-save-format",
+    "glb"
+  ],
+  "cwd": "/home/alabs/.local/opt/TripoSR",
+  "started_at": 1791499767.3054984,
+  "timeout": 1800,
+  "pid": 17656
+}

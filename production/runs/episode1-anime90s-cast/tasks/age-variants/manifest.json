@@ -1,0 +1,298 @@
+{
+  "task_id": "age-variants",
+  "status": "exploratory",
+  "source_count": 14,
+  "tool": "built-in image_gen",
+  "entries": [
+    {
+      "id": "class-teacher",
+      "cast_id": "class-teacher",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/class-teacher.png",
+      "sha256": "2cb614f94f5621d31096916d85638908ccf93b3732b477c1cf6af3e54275057c",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/class-teacher.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/class-teacher-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    },
+    {
+      "id": "classmates",
+      "cast_id": "classmates",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/classmates.png",
+      "sha256": "d3233fccb0264b171e391590f08759c43bb739fae3a8cafca51866724fad1b63",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/classmates.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/classmates-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    },
+    {
+      "id": "jc-eight",
+      "cast_id": "jc-eight",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-eight.png",
+      "sha256": "7bf0bfe5c60ecf08c2c1ea7b769ac47599b0eb2050102582a66a343de7aaf053",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/jc-eight.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/jc-eight-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    },
+    {
+      "id": "jc-father",
+      "cast_id": "jc-father",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-father.png",
+      "sha256": "5fbb7645a57cacfb512025773556daf9fbf0604f4a1c4deb7ffd1d9282ffb4ac",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/jc-father.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/jc-father-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    },
+    {
+      "id": "jc-nine",
+      "cast_id": "jc-nine",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-nine.png",
+      "sha256": "485fae9e134a11d34da96d53f9f674951b57cb93b5ff153bcea79830d7c0f628",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/jc-nine.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/jc-nine-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    },
+    {
+      "id": "jc-six",
+      "cast_id": "jc-six",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-six.png",
+      "sha256": "57c69e78386e217c4ddcf592036ec6dd3fb8018dfc21fd264c4ff3361bcd9907",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/jc-six.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/jc-six-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    },
+    {
+      "id": "jc-twelve",
+      "cast_id": "jc-twelve",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-twelve.png",
+      "sha256": "ca4126be74ecbef30cb8108465db5a1995b863f3d6c2a4f5e1dec024a12f6ceb",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/jc-twelve.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/jc-twelve-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    },
+    {
+      "id": "lanyard-woman",
+      "cast_id": "lanyard-woman",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/lanyard-woman.png",
+      "sha256": "cb16ac20013c2361b392271a708a6ed5ae7390daf13cd4ce0df90facccf8f2f8",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/lanyard-woman.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/lanyard-woman-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    },
+    {
+      "id": "mama-younger-34",
+      "cast_id": "mama-younger",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-34.png",
+      "sha256": "b710c29428b2e41fc105e0fae0e15ddcfb77500602e1db8dc84c94555ba77d2a",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/mama-younger-34.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/mama-younger-34-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    },
+    {
+      "id": "mama-younger-37",
+      "cast_id": "mama-younger",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-37.png",
+      "sha256": "ed7b964e4e7f497a9a8d3dfcb8b0dcf4bc5852a959f4e3a248f2ec47187f106e",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/mama-younger-37.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/mama-younger-37-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    },
+    {
+      "id": "mama-younger-40",
+      "cast_id": "mama-younger",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-40.png",
+      "sha256": "b040ebe0eecc005e75c256c600ae0f76afa2f57470c14ec570b50974241207d6",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/mama-younger-40.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/mama-younger-40-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    },
+    {
+      "id": "manny-listener",
+      "cast_id": "manny-listener",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/manny-listener.png",
+      "sha256": "6d98497e0cbe0238fb69cbf802bb80ee058de4754e3e329cea605fd92b76afe6",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/manny-listener.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/manny-listener-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    },
+    {
+      "id": "manny-nine",
+      "cast_id": "manny-nine",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/manny-nine.png",
+      "sha256": "0503e3b40891fb2f565d4d4c7e65a58f7dc9fd2a68c44a20d04c6f6a5029fe7c",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/manny-nine.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/manny-nine-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    },
+    {
+      "id": "mikey-eight",
+      "cast_id": "mikey-eight",
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mikey-eight.png",
+      "sha256": "73e35a3855ba5c6bc24c964700ec85f329053404bf797644d9a90ad66f065e33",
+      "prompt": "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/mikey-eight.txt",
+      "provenance": "production/runs/episode1-anime90s-cast/tasks/age-variants/mikey-eight-provenance.json",
+      "references": [
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+          "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+        },
+        {
+          "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+        }
+      ],
+      "status": "exploratory",
+      "inspection": "Viewed in review contact sheet; jc-six additionally inspected individually."
+    }
+  ],
+  "notes": [
+    "14 source PNGs complete for 12 cast IDs: four JC ages, three younger Mam\u00e1 ages, Manny9, JC father, Mikey8, classroom teacher, lanyard observer, four-pupil classmates bank, adult Manny listener.",
+    "All generated from scratch using built-in image_gen, one call per asset. Only new rooftop anime and Amaia r2 style references attached. No old cover/adult masters/rejected ages used as reference.",
+    "User style correction supersedes earlier dense-hatching graphic-novel direction. New figures have soft anime faces, clean contour, broad simple cel shadows and flat warm fills.",
+    "Directly viewed all 14 source images in two gray-composited contact sheets; JC-six also individually. Hands/feet of standalone masters contained and visible. Four pupils seated separately with heads resting on arms and closed eyes.",
+    "All PNGs have transparent pixels and alpha corners=0; background RGB haze disappears when composited. Alpha maximum is254 for many portraits, source alpha preserved.",
+    "Mam\u00e1 ages37/40 use opposite cup hands and blouse details vary. They are separate exploratory character sources, not registered age-dissolve drawings. Pose/costume reconciliation belongs to later assembly.",
+    "JC12 is a standing source master, not the scripted sleeping contact drawing. Props/contact poses, hidden surfaces, separated parts, exact alpha cleanup, registration, PRESS and motion are not done.",
+    "Unknown supporting faces and costumes are adaptation proposals. Outputs are exploratory; no technical, canonical, author, puppet or animation approval asserted."
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 168920640000000,
+      "durationFrames": 216,
+      "name": "S11-04 missing",
+      "comment": "third read; heat rises; whistle sag cue; recover"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 105
+  }
+}

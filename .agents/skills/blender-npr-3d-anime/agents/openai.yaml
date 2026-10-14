@@ -1,0 +1,6 @@
+interface:
+  display_name: "Blender NPR 3D Anime"
+  short_description: "Make Blender 3D read as hand-drawn anime and feed it into the studio engine"
+  default_prompt: "Use $blender-npr-3d-anime for this Blender shot, prop or render."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,12 @@
+{
+  "name": "sofia",
+  "prompt": "Use case: illustration-story. NEW full-body character source for Sofia, 26-year-old Dominican woman, small quick slender build, light brown skin, sharp perceptive almost prosecuting expression, dark hair in claw clip, rectangular eyeglasses, muted teal cardigan over ivory shirt, fitted ordinary blue jeans and practical dark sneakers. Carries a simple canvas laptop tote at one shoulder, both hands clearly drawn. Reference 1 is style reference only: expressive 1990s hand-drawn anime faces and clean ink. Reference 2 is approved production style and anatomy reference only. Different person from references. Match supple clean outlines, warm skin, broad simple two-tone cel shadow shapes, expressive anime eyes, simplified nose/mouth and sparse fabric folds. Neutral warm even lighting, relaxed standing three-quarter pose, all head hair fingers and feet visible with generous margins. True transparent background. No lettering, no logos, no crosshatching, no comic-book gritty texture, no photorealistic cloth, no glossy skin, no background, no hypersexualization.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-80fe7623-4cc9-4881-9ae3-e545ad56253b.png",
+  "cast_ids": [
+    "sofia"
+  ],
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png"
+  ]
+}

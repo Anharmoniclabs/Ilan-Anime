@@ -1,0 +1,17 @@
+{
+  "id": "river-character-library",
+  "role": "character-designer",
+  "shots": [
+    "S01"
+  ],
+  "objective": "Build native editable reference libraries from all twelve non-Amaia historical river character sheets. Inspect each; retain source and propose separated existing view assets only when source supports it. No invented hidden joints, pixel drawings, paid generation or claims of rig completion. Deliver per-character native PhotoCraft source projects, reference/source hashes, practical action and missing art requirements, and a visual index.",
+  "inputs": [
+    "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters",
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md"
+  ],
+  "depends_on": [],
+  "output_dir": "production/runs/cemi-90s-production/tasks/river-character-library",
+  "art_direction_mode": "CHARACTER_ASSET",
+  "requires_author_approval": true,
+  "author_approver": "luis-m-minier"
+}

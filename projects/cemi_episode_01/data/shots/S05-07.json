@@ -1,0 +1,51 @@
+{
+  "id": "S05-07",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "The floor inlay in darker wood: the spiral opening into a triangle. Dancers circle it without ever looking down. Insert: the coin on the nightstand, glinting.",
+  "camera_note": "TOP SHOT · floor inlay",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "plate_0",
+      "source": "assets/keyframes/S05-07.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 120,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "MATCH_INSERT",
+      "SIGIL_INLAY",
+      "TOP_DOWN_ROTATE"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "alpha_zero_fraction": 0.5883337656656901,
+  "alpha_nonzero_bbox": [
+    0,
+    8,
+    1016,
+    1536
+  ],
+  "generation_calls": 1,
+  "registration_performed": false,
+  "shot_rendered": false,
+  "accepted_shot_frames": 0
+}

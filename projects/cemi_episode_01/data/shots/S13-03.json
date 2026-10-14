@@ -1,0 +1,51 @@
+{
+  "id": "S13-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 240,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Sofía's text flood: that 'is this anything' email / JC / where are you / ok i'm not waiting. it's not spam. it's so much worse than spam / you in a hole. you're in a hole aren't you / i can see your location you absolute bobo. don't move. Then Denise: Hi JC! Quick heads up, the board is holding your milestone payment until our partner review next week. Just process!",
+  "camera_note": "UI · phone",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S13-03",
+        "header": "13:34:00 → 13:44:00 (240f) · UI · phone · rate 3s",
+        "action": "Sofía's text flood: that 'is this anything' email / JC / where are you / ok i'm not waiting. it's not spam. it's so much worse than spam / you in a hole. you're in a hole aren't you / i can see your location you absolute bobo. don't move. Then Denise: Hi JC! Quick heads up, the board is holding your milestone payment until our partner review next week. Just process!\nSOUND: Rapid buzzes; Denise's text read in a chirpy VO."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "UI_PHONE (message text/timing belong in a UI spec)"
+    ],
+    "asset_slot_fx": [
+      "EXCLAMATION_CEL",
+      "OVERLAY_SUMS"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "S08-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 384,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Two guys in hi-vis bolting the last corner to the scaffold. The one with the ladder has headphones around his neck. “Morning.” “You guys work late?” “Nights? Nah. Union. We clock out at three-thirty. Daylight only.” JC glances at the third-floor window: dark.",
+  "camera_note": "TWO-SHOT",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S08-03",
+        "header": "08:26:00 → 08:42:00 (384f) · TWO-SHOT · rate 3s",
+        "action": "Two guys in hi-vis bolting the last corner to the scaffold. The one with the ladder has headphones around his neck. “Morning.” “You guys work late?” “Nights? Nah. Union. We clock out at three-thirty. Daylight only.” JC glances at the third-floor window: dark.\nSOUND: Wrench clicks; elevated train in distance."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "needs_separated_layers_fx": [
+      "MOUTH_FLAP"
+    ],
+    "asset_slot_fx": [
+      "HOLD",
+      "INSERT_CU"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

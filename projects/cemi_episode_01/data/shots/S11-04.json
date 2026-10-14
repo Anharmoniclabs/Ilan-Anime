@@ -1,0 +1,52 @@
+{
+  "id": "S11-04",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 216,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "On the third read, at 'take it off you': the coin goes from warm to a heat he feels through the denim. The steamer whistle, sitting on a clean A (440 Hz), sags half a step flat (≈415 Hz). Manny's palm is still on the case: the note comes back.",
+  "camera_note": "ECU pocket",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S11-04",
+        "header": "11:05:00 → 11:14:00 (216f) · ECU pocket · rate 3s",
+        "action": "On the third read, at 'take it off you': the coin goes from warm to a heat he feels through the denim. The steamer whistle, sitting on a clean A (440 Hz), sags half a step flat (≈415 Hz). Manny's palm is still on the case: the note comes back.\nSOUND: Whistle sag and recovery are the sound cue."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {
+    "press": 0.12
+  },
+  "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "HEAT_SHIMMER"
+    ],
+    "asset_slot_fx": [
+      "PITCH_SAG"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

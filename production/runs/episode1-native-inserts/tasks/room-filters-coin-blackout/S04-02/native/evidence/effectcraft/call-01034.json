@@ -1,0 +1,11 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "name": "7-0 NOISE FLOOR gauze"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

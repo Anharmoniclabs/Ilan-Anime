@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 61979904000000,
+      "durationFrames": 192,
+      "name": "S03-13 missing",
+      "comment": "messages one to three; messages four to seven; turn face down"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 45
+  }
+}

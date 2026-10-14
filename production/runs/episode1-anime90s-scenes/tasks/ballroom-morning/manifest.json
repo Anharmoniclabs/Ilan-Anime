@@ -1,0 +1,566 @@
+{
+  "task_id": "ballroom-morning",
+  "status": "submitted",
+  "scope": "32 representative finished-color source storyframes for S05-S08; no animation/canon approval",
+  "count": 32,
+  "generation_calls": 41,
+  "items": [
+    {
+      "shot": "S05-01",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-01.png",
+      "sha256": "9b314da3b3cb3708ba0c69d4f0d233b1b360ca29a6f4937605173d21af26eb30",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed generated source and saved PNG: recognizable JC, neck headphones, startled reaction, warm desk lamp against cool deep night. Added background poster imagery incidental, no readable text. Static source does not validate dolly zoom.",
+      "inspection": "Directly viewed generated source and saved PNG: recognizable JC, neck headphones, startled reaction, warm desk lamp against cool deep night. Added background poster imagery incidental, no readable text. Static source does not validate dolly zoom.",
+      "remaining_motion": "Dolly-zoom, ear-pop reaction transition and edge distortion animation.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-01.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-01.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-02",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-02.png",
+      "sha256": "aeca6a403deb12fada2d28b42b6902106f68af3848b7fbcaecce99c6c28357a2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed tool output: cobalt inward static and cracked ripple wall, projector and grounded bedroom. Circular central pattern reads somewhat portal-like, although wall remains opaque.",
+      "inspection": "Directly viewed tool output: cobalt inward static and cracked ripple wall, projector and grounded bedroom. Circular central pattern reads somewhat portal-like, although wall remains opaque.",
+      "remaining_motion": "Wide-to-close camera move; cobalt handle loop breaks into inward static, plaster rings and cracks evolve.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-02.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-02.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-03",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-03-r2.png",
+      "sha256": "f30fc0e910ddd94cb0e29edd4716546b26a6f7eaa80b6fb18aa1ae941606da0f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 2,
+      "opaque": true,
+      "selected_moment": "Directly viewed: brokenhole removed, deepballroomlight overlays intactplaster. Smallpseudo-date remains abovebandstand despite removalprompt; localcleanup limitation.",
+      "inspection": "Directly viewed: brokenhole removed, deepballroomlight overlays intactplaster. Smallpseudo-date remains abovebandstand despite removalprompt; localcleanup limitation.",
+      "remaining_motion": "Pushthrough illusion, progressive recorded-light reveal, flashframe and brass.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-03-r2.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-03-r2.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-04",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-04-r2.png",
+      "sha256": "e56a76b7357fe213ba60f278a27a632dadebb99b7c1f8fbd9bb3a3e3a2ce4086",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 2,
+      "opaque": true,
+      "selected_moment": "Directly viewed: crowdnow translucentbluegold includingfourbandmusicians; likenessretained. Exactabout40couples notcount-verified; frontfigures deliberatelycroppedbywidecamera.",
+      "inspection": "Directly viewed: crowdnow translucentbluegold includingfourbandmusicians; likenessretained. Exactabout40couples notcount-verified; frontfigures deliberatelycroppedbywidecamera.",
+      "remaining_motion": "Crane/pan/dancecycles, date super and music; exactfortycouples needs layoutcount.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-04-r2.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-04-r2.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-05",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-05.png",
+      "sha256": "0bfb42817dafa99a1fabf05053011f452f1dcf9dbf77c3ec9b410e69065d0f27",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed tool output: black headphones clearly around neck, small sound-leak lines, correct hoodie and night bedroom. Intentional lower-face crop appropriate to insert.",
+      "inspection": "Directly viewed tool output: black headphones clearly around neck, small sound-leak lines, correct hoodie and night bedroom. Intentional lower-face crop appropriate to insert.",
+      "remaining_motion": "Handdrawn small sound-leak cel pulses and music opening from tinny to full range.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-05.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-05.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-06",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-06.png",
+      "sha256": "6471ca1c951ac6dc772cefd77cad4a9f9d9ba12dd27a29f9a6b4663e83e7a59e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed tool output: all3hero couples recognizable; heroB spin, full feet, strong translucent gold-blue effect and floor visible through legs. Band remains more opaque; this is one representative angle not3cuts.",
+      "inspection": "Directly viewed tool output: all3hero couples recognizable; heroB spin, full feet, strong translucent gold-blue effect and floor visible through legs. Band remains more opaque; this is one representative angle not3cuts.",
+      "remaining_motion": "Three separate hero quick-cut angles, full2s footwork and spin/flare animation; this is representative heroB spin withA/C in depth.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-06.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-06.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-07",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-07-r2.png",
+      "sha256": "a5ea0ad8f4500f2b07dc2e0674c4dd6a69c74887020656e5d6e6974544c396fd",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 2,
+      "opaque": true,
+      "selected_moment": "Directly viewed: allforecouples nowtranslucentbluegold, centralsigil preserved. Symbolstill needsregistered comparison tocoin forproduction.",
+      "inspection": "Directly viewed: allforecouples nowtranslucentbluegold, centralsigil preserved. Symbolstill needsregistered comparison tocoin forproduction.",
+      "remaining_motion": "Overheadrotation/circling, separatecoinmatchinsert.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-07-r2.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-07-r2.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-08",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-08.png",
+      "sha256": "68fddb95e9117b6138e36609dd8719309ed4b7f2222edc41a99e06c13edf9d01",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed tool output: single building cross-section with4residential levels above ballroom, steam riser, deep night. Extra incidental residents generated; no yearcounter rendered. Architectural height not definitive full6story elevation.",
+      "inspection": "Directly viewed tool output: single building cross-section with4residential levels above ballroom, steam riser, deep night. Extra incidental residents generated; no yearcounter rendered. Architectural height not definitive full6story elevation.",
+      "remaining_motion": "Vertical camera drop4th-to-ground, year counter2026\u21921957 and passing floors; numerals composited later.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-08.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-08.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-09",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-09.png",
+      "sha256": "936142d9c69c2b9f365fc75e0e0f413a772ef9747b4543e26635eb8f6ca67a09",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed tool output: jeans/offwhite shoes, pipe/clampedmic, vibration rings in floor, night bedroom. Small swoosh-like shoe panel present; separate window crosscut absent as documented.",
+      "inspection": "Directly viewed tool output: jeans/offwhite shoes, pipe/clampedmic, vibration rings in floor, night bedroom. Small swoosh-like shoe panel present; separate window crosscut absent as documented.",
+      "remaining_motion": "Pulse climbs pipe into soles; separate crosscut to long dark third-floor window opposite; audio loop.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-09.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-09.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-10",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-10.png",
+      "sha256": "141a4151a7443f65d097ae8598f8f067f8578722b3301c3f904271fdb39eb547",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed tool output: heroB neutral mouth, limp raised wrist, partner hand at back; bluegold translucency strong. Woman gaze reads concerned more than entirely vacant; band keeps playing.",
+      "inspection": "Directly viewed tool output: heroB neutral mouth, limp raised wrist, partner hand at back; bluegold translucency strong. Woman gaze reads concerned more than entirely vacant; band keeps playing.",
+      "remaining_motion": "Three medium cuts then close smile-slack8drawings, hand settles on partner back, loss of dance timing.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-10.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-10.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-11",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-11.png",
+      "sha256": "b1b85dc3c54d07222d02fb2c03c08b0ef6722752ab3b204b2b9dff24f7b80bbd",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: recognizable three hero couples stopped with drooped arms, translucent light bodies, band persists. Faces read subdued/sad rather than fully empty; exact crowdcount not verified.",
+      "inspection": "Directly viewed: recognizable three hero couples stopped with drooped arms, translucent light bodies, band persists. Faces read subdued/sad rather than fully empty; exact crowdcount not verified.",
+      "remaining_motion": "Stillness wave progresses near-to-far, press grade flattens depth, band continues moving.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-11.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-11.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-12",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-12.png",
+      "sha256": "ca8f210ebd34ca385050dbbe7a61e292f9b94e56d95b82394340782cc6568724",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: good intact-wall transmitted ballroom, gray-white dancers, bluegold streams flow consistently right toward real window. Exact40ribbons not count-verified; stream destination oppositebuilding not shown and sigil remains somewhat light.",
+      "inspection": "Directly viewed: good intact-wall transmitted ballroom, gray-white dancers, bluegold streams flow consistently right toward real window. Exact40ribbons not count-verified; stream destination oppositebuilding not shown and sigil remains somewhat light.",
+      "remaining_motion": "40ribbons release and merge, whip-pan follows river through window acrossstreet, whole12s color-drain choreography.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-12.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-12.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-13",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-13.png",
+      "sha256": "d01bb1ecefa404f63711c4a107c58e75c2414313f56879e2b7a15c1d654b3337",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: copper coin hovers above wooden nightstand with shadow, same spiraltriangle as floor. Scale and exacthalf-inch cannot be measured from still, engraved motif is new source draft.",
+      "inspection": "Directly viewed: copper coin hovers above wooden nightstand with shadow, same spiraltriangle as floor. Scale and exacthalf-inch cannot be measured from still, engraved motif is new source draft.",
+      "remaining_motion": "Coin tremor, half-inch rise, hover, fall, contact flash and bounce; selected hover key.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-13.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-13.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-14",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-14-r2.png",
+      "sha256": "e6bb965ed5a44e917cf3bb8d64396668e89d5c57d821193c0dff474a08e23490",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 2,
+      "opaque": true,
+      "selected_moment": "Directly viewed: previousstaticrings replaced bylategrayballroomprojection; JC/coin/5digits/fallenchair preserved. Coinheldinfingers ratherthanopenpalm.",
+      "inspection": "Directly viewed: previousstaticrings replaced bylategrayballroomprojection; JC/coin/5digits/fallenchair preserved. Coinheldinfingers ratherthanopenpalm.",
+      "remaining_motion": "Jumpcutmovement, coinrecoil/shimmer, chairclatter.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-14-r2.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-14-r2.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-15",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-15-r2.png",
+      "sha256": "2034a2eb012e782810a6ff73af264abff26addc16dce1f8ebc30bedf32521437",
+      "dimensions": [
+        1671,
+        941
+      ],
+      "revision": 2,
+      "opaque": true,
+      "selected_moment": "Directly viewed: chaironits side corrected, devicesoff,darkwall; dimtransitionframe notpureblack.",
+      "inspection": "Directly viewed: chaironits side corrected, devicesoff,darkwall; dimtransitionframe notpureblack.",
+      "remaining_motion": "Powerpop deviceoffsets, fanspindown, terminalpureblack.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-15-r2.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-15-r2.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S05-16",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-16.png",
+      "sha256": "20f6171d2919ef9c948b50d1878e65f23c96c9fd1d287c814b1f87a5d53b1116",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: residual lightcouples on intactwall, darkprojector no beam, darkblock; chair now turned sideways. Staticfade key only.",
+      "inspection": "Directly viewed: residual lightcouples on intactwall, darkprojector no beam, darkblock; chair now turned sideways. Staticfade key only.",
+      "remaining_motion": "Residual dancerlight holds2s then fades48frames toblack; radiator ticks audio.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S05-16.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-16.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S06-01",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-01.png",
+      "sha256": "5f3c5e8a3b0fc85897d7277938b60ca33dd7894c7d6bbbc18c35c086ffa763f3",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: closeddoor, two darkslippers in underdoor gap, knockmarks, lowdarklighting; shoes are more literal than shadows.",
+      "inspection": "Directly viewed: closeddoor, two darkslippers in underdoor gap, knockmarks, lowdarklighting; shoes are more literal than shadows.",
+      "remaining_motion": "Two distinct knocks and slipper shadow arrival, rosary audio.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S06-01.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S06-01.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S06-02",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-02-r2.png",
+      "sha256": "269bb49caf8761d47ba1291f81ab5ebc1ae7eb2d2bcc0da1430d0bf2aa88d8d6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 2,
+      "opaque": true,
+      "selected_moment": "Directly viewed: hallwayexterior windows darkened; Mama/rosary/closeddoor retained.",
+      "inspection": "Directly viewed: hallwayexterior windows darkened; Mama/rosary/closeddoor retained.",
+      "remaining_motion": "JC reverseangle, dialogue,rosaryclick,hallwayretreat.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S06-02-r2.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S06-02-r2.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S06-03",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-03.png",
+      "sha256": "c8c8c38e9dc0b3f83e3e5d5162df1bfca0d95603410ccac45f90ee6654cbe6cb",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: allforeground block dark while distantskyline lit, Jerome El architecture readable, propernight.",
+      "inspection": "Directly viewed: allforeground block dark while distantskyline lit, Jerome El architecture readable, propernight.",
+      "remaining_motion": "Window POV hold, distant city ambience; localblackout exposure continuity.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S06-03.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S06-03.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S06-04",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-04.png",
+      "sha256": "63ee56e956fca841e5277f1b88392d5bc327d5e681696091cae8a1126b8a4544",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: oneflatwhitewindow, headphone silhouetteface hidden, blue nettingscaffold, allotherwindowsdark. Thirdfloor assignment should be checked against finalbuilding layout.",
+      "inspection": "Directly viewed: oneflatwhitewindow, headphone silhouetteface hidden, blue nettingscaffold, allotherwindowsdark. Thirdfloor assignment should be checked against finalbuilding layout.",
+      "remaining_motion": "Rackfocus sill\u2192window and5percent push-in, flatlight nonflicker hold.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S06-04.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S06-04.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S06-05",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-05.png",
+      "sha256": "df99330f8ccef202ee2ba1e23a7d9a9a1c47d9f47073072518d7afe81b4a13cf",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: JC retreats with raisedhand, properheadphones, samefacelesswhitewindow acrossstreet, darkblock. Staticmoment not retreatmotion.",
+      "inspection": "Directly viewed: JC retreats with raisedhand, properheadphones, samefacelesswhitewindow acrossstreet, darkblock. Staticmoment not retreatmotion.",
+      "remaining_motion": "JC stepsback,4second manhold, reverse/widecut and smashtoblack.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S06-05.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S06-05.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S07-01",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-01.png",
+      "sha256": "4319c42b4f20a0fe268d2b06a0aa5d6cf827f9bd380037aafdc8899f139ed3ff",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: warm pale morningkitchen, billunderchairleg, creamcupboards/stove/radio. Added Dominicanflag decor and religiouspicture fitdomesticcontext but not script-required.",
+      "inspection": "Directly viewed: warm pale morningkitchen, billunderchairleg, creamcupboards/stove/radio. Added Dominicanflag decor and religiouspicture fitdomesticcontext but not script-required.",
+      "remaining_motion": "TuesdayMorning super inpost, radio merengue, chairrock and closerbill insert.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S07-01.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S07-01.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S07-02",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-02.png",
+      "sha256": "ea9f702d7753878bedd791a2fc1e3a6178836c282c06bb873b10c7c26bae58b0",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: onehandfork contacts salamidisc, distinctsalami/quesofrito/mangu andsteam. Food rendered detailedpainted texture, no extra fingers obvious.",
+      "inspection": "Directly viewed: onehandfork contacts salamidisc, distinctsalami/quesofrito/mangu andsteam. Food rendered detailedpainted texture, no extra fingers obvious.",
+      "remaining_motion": "ECU foodseries, salamiturn contact, cheesefrying, steamloop and fork/pansound.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S07-02.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S07-02.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S07-03",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-03.png",
+      "sha256": "99610f7f73a71099e68fe85c30ae0dff29e7fec12e8e68c02e8fca67c182ed40",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: onlyJCandMama, likeness/costumes maintained, breakfast andchairgesture, samekitchen. Mouthclosed representative dialoguehold.",
+      "inspection": "Directly viewed: onlyJCandMama, likeness/costumes maintained, breakfast andchairgesture, samekitchen. Mouthclosed representative dialoguehold.",
+      "remaining_motion": "22second dialogue, shot/reverse OTS, mouthstates and serving/sit action.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S07-03.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S07-03.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S07-04",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-04.png",
+      "sha256": "d958bbc46aa6200d19a2ddfeb82b8e3d1f845a28da87d8bb070429e1390aba02",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: Mama inspection andJC reaction, platebeige/desaturated, morningkitchencontinuity. No literal sandorfantasy intrusion.",
+      "inspection": "Directly viewed: Mama inspection andJC reaction, platebeige/desaturated, morningkitchencontinuity. No literal sandorfantasy intrusion.",
+      "remaining_motion": "Slow inspection eyeline, question/practicedpause, JC reaction, fooddesaturation and radiodrop.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S07-04.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S07-04.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S07-05",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-05.png",
+      "sha256": "97a6d36a2e7402a9a18b237659aee62ae765bcd8e71961af367d83cb66925902",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: childJC9 andyoungerMama37 likeness, coffeeLook andwarmkitchen; oneera only byrepresentative-frame design.",
+      "inspection": "Directly viewed: childJC9 andyoungerMama37 likeness, coffeeLook andwarmkitchen; oneera only byrepresentative-frame design.",
+      "remaining_motion": "Samepose/angle coffeeLook in present and age12 afterfever, dissolvethreeeras, cupcontactandMm; chosen age9memory.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S07-05.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S07-05.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S07-06",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-06.png",
+      "sha256": "7c89bb16d0c28744c4aac8e7671732a1763214260e8acd888a98c9d1ae0f3943",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: jeanship/opaque pocket withsubtlewarmth, naturalhand andMamaback atstove, samekitchen.",
+      "inspection": "Directly viewed: jeanship/opaque pocket withsubtlewarmth, naturalhand andMamaback atstove, samekitchen.",
+      "remaining_motion": "Lunchpromise dialogue, subtleheatpulse, listappend editorialoverlay and rumble.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S07-06.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S07-06.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S07-07",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-07-r2.png",
+      "sha256": "7746bb466201aae6e856e8b5e33f39ab2b412e170584f60990795ec2e8a47a1d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 2,
+      "opaque": true,
+      "selected_moment": "Directly viewed: JC nowback3quarter descendingaway towardlowerlanding, leadfootlower, handwallcontact; bothshoeswithinframe.",
+      "inspection": "Directly viewed: JC nowback3quarter descendingaway towardlowerlanding, leadfootlower, handwallcontact; bothshoeswithinframe.",
+      "remaining_motion": "Downwardwalkcyclefourflights, fingertipbrush andlisteningbeat.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S07-07-r2.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S07-07-r2.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S08-01",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-01-r2.png",
+      "sha256": "1ab0ceea8b92faeec6de73ca2c276786e3dfe9d50f14730f2b1e4c0da3c6ca1e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 2,
+      "opaque": true,
+      "selected_moment": "Directly viewed: exactreadable A CALMER BLOCK STARTS HERE. inroundednavyprint, fivefigures/bannerperspective retained.",
+      "inspection": "Directly viewed: exactreadable A CALMER BLOCK STARTS HERE. inroundednavyprint, fivefigures/bannerperspective retained.",
+      "remaining_motion": "Upwardtilt, bannercloth movement ifneeded.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S08-01-r2.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S08-01-r2.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S08-02",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-02-r2.png",
+      "sha256": "032694e13a9b6245be600877338ee351af5e54cbe68ad70a0abbbeabf01d6ca3",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 2,
+      "opaque": true,
+      "selected_moment": "Directly viewed: exactreadable Aperture Civic and Community Spaces, Coming Soon. printedbesideiris; comma/periodpresent.",
+      "inspection": "Directly viewed: exactreadable Aperture Civic and Community Spaces, Coming Soon. printedbesideiris; comma/periodpresent.",
+      "remaining_motion": "3frame40percent sigilrhyme overlay thenunalign, shutterclick.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S08-02-r2.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S08-02-r2.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S08-03",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-03.png",
+      "sha256": "5a719faf490d0a8ad280deb3373ff22c1181053a748fa6d9bd267e714e9cf801",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: JC and2distinctworkers, headphonesaround speakerneck, hardhatheld correctly, otherworkerladder/wrench. Wrenchnearcorner butpreciseboltcontact requireslaterregistration.",
+      "inspection": "Directly viewed: JC and2distinctworkers, headphonesaround speakerneck, hardhatheld correctly, otherworkerladder/wrench. Wrenchnearcorner butpreciseboltcontact requireslaterregistration.",
+      "remaining_motion": "Dialogue mouthstates, lastcorner bolting, JCglance and separate darkthird-floorwindow insert.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S08-03.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S08-03.txt",
+      "status": "exploratory"
+    },
+    {
+      "shot": "S08-04",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-04.png",
+      "sha256": "ca8dc9bc432661da092e4968ebe8ffaba3f60db3462f05915a2d796a1c737cdc",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "revision": 1,
+      "opaque": true,
+      "selected_moment": "Directly viewed: JCfullfigure walkingright towardElentrance, bothshoesinside, workersbehind; minorincidentalstreetextras, faintheartbeatvignette.",
+      "inspection": "Directly viewed: JCfullfigure walkingright towardElentrance, bothshoesinside, workersbehind; minorincidentalstreetextras, faintheartbeatvignette.",
+      "remaining_motion": "JC walkcycle/pan, farewell mouthstate, heartbeat vignette pulse.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/provenance/S08-04.json",
+      "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S08-04.txt",
+      "status": "exploratory"
+    }
+  ],
+  "limitations": [
+    "Single selected keymoment per scriptedshot; multi-cut/era/action sequence coverage needs later drawings per provenance.",
+    "Native1672x941 imagegen widescreen is near16:9, not exact16:9 raster; originals preserved.",
+    "S05-03-r2 tiny pseudo-date onarch remains cleanup.",
+    "S05 crowds/ribbons exactcounts andcoin-floor-iris symbolregistration remain unverified.",
+    "No layers, rigs, animation, sound or final-shot approval."
+  ],
+  "source_precedence": [
+    "Current author approves newcast and requests everyshot.",
+    "Current episode script lighting/identity/staging.",
+    "New approved cast androofstyle references only; old rejectedart excluded."
+  ],
+  "correction_pass": "Nine bounded targeted revisions; original32 retained."
+}

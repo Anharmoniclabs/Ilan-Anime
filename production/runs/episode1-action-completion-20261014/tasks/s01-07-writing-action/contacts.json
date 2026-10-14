@@ -1,0 +1,166 @@
+{
+  "coordinate_space": "591x296 closeup before 16:9 crop",
+  "locked_ledger": "layers/locked-ledger.png",
+  "contacts": [
+    {
+      "cel": "cels/line-one-start.png",
+      "pose": 1,
+      "nib": [
+        311,
+        190
+      ],
+      "page_contact": true,
+      "line": 1,
+      "registration_translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "cel": "cels/line-one-breakdown.png",
+      "pose": 6,
+      "nib": [
+        321,
+        190
+      ],
+      "page_contact": true,
+      "line": 1,
+      "registration_translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "cel": "cels/line-one-middle.png",
+      "pose": 2,
+      "nib": [
+        340,
+        186
+      ],
+      "page_contact": true,
+      "line": 1,
+      "registration_translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "cel": "cels/line-one-end.png",
+      "pose": 7,
+      "nib": [
+        374,
+        181
+      ],
+      "page_contact": true,
+      "line": 1,
+      "registration_translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "cel": "cels/pen-lift.png",
+      "pose": 4,
+      "nib": [
+        336,
+        123
+      ],
+      "page_contact": false,
+      "line": 0,
+      "registration_translation": [
+        0,
+        0
+      ]
+    },
+    {
+      "cel": "cels/return-above-line.png",
+      "pose": 5,
+      "nib": [
+        318,
+        181
+      ],
+      "page_contact": false,
+      "line": 0,
+      "registration_translation": [
+        0,
+        -9
+      ]
+    },
+    {
+      "cel": "cels/line-two-start.png",
+      "pose": 1,
+      "nib": [
+        311,
+        198
+      ],
+      "page_contact": true,
+      "line": 2,
+      "registration_translation": [
+        0,
+        8
+      ]
+    },
+    {
+      "cel": "cels/line-two-breakdown.png",
+      "pose": 6,
+      "nib": [
+        321,
+        198
+      ],
+      "page_contact": true,
+      "line": 2,
+      "registration_translation": [
+        0,
+        8
+      ]
+    },
+    {
+      "cel": "cels/line-two-middle.png",
+      "pose": 2,
+      "nib": [
+        340,
+        194
+      ],
+      "page_contact": true,
+      "line": 2,
+      "registration_translation": [
+        0,
+        8
+      ]
+    },
+    {
+      "cel": "cels/line-two-end.png",
+      "pose": 7,
+      "nib": [
+        374,
+        189
+      ],
+      "page_contact": true,
+      "line": 2,
+      "registration_translation": [
+        0,
+        8
+      ]
+    },
+    {
+      "cel": "cels/finish-lift.png",
+      "pose": 4,
+      "nib": [
+        336,
+        123
+      ],
+      "page_contact": false,
+      "line": 2,
+      "registration_translation": [
+        0,
+        0
+      ]
+    }
+  ],
+  "limits": [
+    "6 distinct generated replacement poses; deliberate exposures range 9\u201324 frames (all multiples of 3), not 56 distinct drawings.",
+    "Second line reuses registered drawn arm bank at +8px page offset.",
+    "Generated end poses 3 and 8 excluded: nib crosses book gutter.",
+    "No sound; technical and author review remain outstanding."
+  ]
+}

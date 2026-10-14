@@ -1,0 +1,42 @@
+{
+  "S00-01": {
+    "comp_layers": 25,
+    "source_types": [
+      "Footage"
+    ],
+    "spec_post": null,
+    "spec_fx": null
+  },
+  "S00-02": {
+    "comp_layers": 9,
+    "source_types": [
+      "Footage"
+    ],
+    "spec_post": null,
+    "spec_fx": null
+  },
+  "S02-01": {
+    "comp_layers": 37,
+    "source_types": [
+      "Footage"
+    ],
+    "spec_post": null,
+    "spec_fx": null
+  },
+  "S01-15": {
+    "comp_layers": 1,
+    "source_types": [
+      "Footage"
+    ],
+    "spec_post": null,
+    "spec_fx": null
+  },
+  "S15-09": {
+    "comp_layers": 1,
+    "source_types": [
+      "Footage"
+    ],
+    "spec_post": null,
+    "spec_fx": null
+  }
+}

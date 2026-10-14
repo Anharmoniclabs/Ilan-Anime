@@ -1,0 +1,14 @@
+{
+  "tool": "export",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/right-character.svg",
+    "format": "svg"
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 8431681,
+    "format": "svg",
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/right-character.svg",
+    "warnings": []
+  }
+}

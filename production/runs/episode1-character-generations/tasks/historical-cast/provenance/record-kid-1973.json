@@ -1,0 +1,38 @@
+{
+  "id": "record-kid-1973",
+  "status": "exploratory",
+  "tool": "built-in image_gen",
+  "source": "/home/alabs/.codex/generated_images/01a13832-a6e9-77c3-9ea5-4675615eb57d/exec-3bf977c8-68dd-458e-b8db-a370be31a5f8.png",
+  "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/historical-cast/generated/record-kid-1973-master.png",
+  "sha256": "3b52d4980268cd8e9241ff7c5219ffb0dce022333badf2f33908aa46ba796d92",
+  "prompt": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/historical-cast/prompts/record-kid-1973.txt",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/references/author-cover-style.png",
+      "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c",
+      "authority": "style-only"
+    }
+  ],
+  "image_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "transparent_pixels": 1061458,
+  "opaque_pixels": 0,
+  "partial_alpha_pixels": 511406,
+  "alpha_bbox": [
+    65,
+    15,
+    994,
+    1520
+  ],
+  "approval": null,
+  "inspection": "Directly viewed: young boy, crate on hip, two matching record sleeves, coins in palm, shell-toe shoes, full body. No named real musician.",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "near_opaque_pixels_250_255": 471741,
+  "alpha_note": "Actual transparent background; body alpha predominantly 252-254, faint low-alpha residual edges. Preserved generated pixels unchanged. No production matte approval."
+}

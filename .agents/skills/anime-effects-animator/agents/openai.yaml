@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anime Effects Animator"
+  short_description: "Animate registered water, wakes, foam, atmosphere, dust, light and resonance layers wit..."
+  default_prompt: "Use $anime-effects-animator for the dispatched ledger task."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 272813184000000,
+      "durationFrames": 288,
+      "name": "S15-04 missing",
+      "comment": "dull first cycle; tile slap; retort; next cycle"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 137
+  }
+}

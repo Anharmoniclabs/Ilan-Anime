@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anime Dialogue Editor"
+  short_description: "Select authorized takes, build transparent edits, preserve performance, clean documente..."
+  default_prompt: "Use $anime-dialogue-editor for the dispatched ledger task."
+policy:
+  allow_implicit_invocation: false

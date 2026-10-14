@@ -1,0 +1,27 @@
+{
+  "tool": "set_property",
+  "arguments": {
+    "layer": 674,
+    "path": "masks/#1/feather",
+    "value": [
+      1.5,
+      1.5
+    ]
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": false,
+    "expression": null,
+    "keys": [],
+    "layer": 674,
+    "match": "feather",
+    "name": "Mask Feather",
+    "time": 0.0,
+    "type": "vec2",
+    "uid": 699,
+    "value": [
+      1.5,
+      1.5
+    ]
+  }
+}

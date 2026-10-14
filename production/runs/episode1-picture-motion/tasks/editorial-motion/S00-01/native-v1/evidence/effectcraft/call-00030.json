@@ -1,0 +1,11 @@
+{
+  "tool": "save_project",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S00-01/native-v1/shot.ecproj"
+  },
+  "status": "succeeded",
+  "result": {
+    "dirty": false,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S00-01/native-v1/shot.ecproj"
+  }
+}

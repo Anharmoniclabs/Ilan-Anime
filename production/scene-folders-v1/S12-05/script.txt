@@ -1,0 +1,4 @@
+`12:07:00 → 12:15:00` (192f) · MS · counterman · rate 3s
+- **Action:** Sign: HOY NO SE FÍA, MAÑANA SÍ. Behind the register a man with a mustache, a good shirt, Mr. Rodríguez's eyebrows 'half a century early'. Flyer in the window: BACK TO SCHOOL JAM — SEDGWICK — SAT.
+- **FX:** `EYEBROW_MATCH_CUT(S09); PAINTED_BG(shop_1973); DUST_IN_LIGHT`
+- **Sound:** Mambo; register bell.

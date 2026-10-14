@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 53343360000000,
+      "durationFrames": 216,
+      "name": "S03-09 missing",
+      "comment": "1957; laundromat; church; vape shop; arts space and AR"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 41
+  }
+}

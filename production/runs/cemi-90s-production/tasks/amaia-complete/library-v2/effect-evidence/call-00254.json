@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 3401,
+      "name": "left-grip"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

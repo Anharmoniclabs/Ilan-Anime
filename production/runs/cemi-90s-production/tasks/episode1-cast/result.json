@@ -1,0 +1,27 @@
+{
+  "task_id": "episode1-cast",
+  "role": "producer",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/cemi-90s-production/tasks/episode1-cast/cast.json",
+    "production/runs/cemi-90s-production/tasks/episode1-cast/episode1-cast.designcraft",
+    "production/runs/cemi-90s-production/tasks/episode1-cast/episode1-cast.pdf",
+    "production/runs/cemi-90s-production/tasks/episode1-cast/native-inspection.json",
+    "production/runs/cemi-90s-production/tasks/episode1-cast/build_inventory.py",
+    "production/runs/cemi-90s-production/tasks/episode1-cast/build_native_index.py"
+  ],
+  "evidence": [
+    "Read script cast notes and all 128 shot action descriptions; 81 unique entries including 67 drawable role/group/variant entries, not a people count.",
+    "All shot references have exact source-line evidence; all reference paths exist and carry SHA256.",
+    "Inspected 92 original source thumbnails across five contact sheets; no anatomy/rig approval inferred.",
+    "Native DesignCraft index reopened: 21 pages, 276 text stories, no overset detected. Viewed exported pages 1,4,5,6,7,21.",
+    "Amaia approved design inherited from ledger; four new adult masters exploratory, not rigged.",
+    "No HTML; no source or ledger changes."
+  ],
+  "blockers": [],
+  "limitations": [
+    "Inventory submitted for independent quality review, not character completion.",
+    "BEFORE losses and Ballroom figure/ribbon counts inconsistent in source script.",
+    "Thumbnail inspection does not validate animation, hidden joints, alpha or canonical identity."
+  ]
+}

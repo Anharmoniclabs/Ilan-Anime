@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "run": "picture-draft-s01-07-v1",
+  "bindings": {
+    "script-timing": {
+      "creator": {
+        "ledger_alias": "host-script-timing",
+        "host": "codex-collaboration",
+        "host_agent_id": "/root/s01_07_script_stage",
+        "role": "script-supervisor",
+        "state": "submitted",
+        "note": "Result submitted"
+      },
+      "reviewer": {
+        "host": "codex-collaboration",
+        "host_agent_id": "/root/review_s01_07_script",
+        "role": "episode-director",
+        "state": "active",
+        "note": "Reviewer bound after host spawn"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.new",
+    "params": {
+      "name": "inspect",
+      "width": 512,
+      "height": 512
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 1
+  }
+}

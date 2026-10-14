@@ -1,0 +1,4 @@
+`03:08:00 → 03:18:00` (240f) · MACRO → CU · rate 3s
+- **Action:** The coin on the nightstand: copper, spirals and hooked triangles. He picks it up; faint warm shimmer like a seat someone just left. Flash cut: JC at 12 asleep, fever, dirt under his fingernails on the fourth floor of a building with no dirt in it; Abuela sets the coin in his hand.
+- **FX:** `HEAT_SHIMMER(low); FLASHBACK_GRADE(sepia, 3s); FILM_GRAIN(↑)`
+- **Sound:** VO: “The coin is copper, heavy for its size...it runs warm.”

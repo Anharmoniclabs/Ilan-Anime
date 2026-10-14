@@ -1,0 +1,15 @@
+CURRENT EPISODE IMAGE PACK
+
+Open index.html for a visual shot browser. Each shot contains plainly named start.png/end.png when available, video prompt, script and settings/review metadata. Originals and previous variants remain in scene-folders-v1.
+
+{
+  "shots": 128,
+  "available_start_images": 69,
+  "available_end_images": 22,
+  "missing_start_images": 59,
+  "missing_end_images": 106,
+  "shots_with_both_images": 22,
+  "status": "finalized_current_draft_pack_incomplete_episode"
+}
+
+Finalized packaging does not mean the episode or its artwork is complete or author-approved. No paid generation or video submissions were made while packaging.

@@ -1,0 +1,23 @@
+{
+  "id": "native-inserts",
+  "role": "compositor",
+  "shots": [
+    "S03-03",
+    "S04-02",
+    "S05-13",
+    "S06-03"
+  ],
+  "depends_on": [],
+  "inputs": [
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout",
+    "production/runs/episode1-full-picture/coin-assets",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/shared-sigil.json",
+    "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/shared-sigil.svg",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/contracts.json",
+    "production/runs/episode1-picture-motion/author-direction.json"
+  ],
+  "output_dir": "production/runs/episode1-insert-finish/tasks/native-inserts",
+  "requires_author_approval": false,
+  "art_direction_mode": "STORY_FRAME",
+  "objective": "Finish the four existing silent native shot drafts for independent review, addressing their ONLY producer-reported blocker: wrong engraved coin motif in S05-13. NEW coin-unengraved-rgba.png is genuine transparent image-tool artwork with old groove removed. Inspect it, register at same fixed silhouette/lighting as prior coin, matte/decontaminate only as needed, and apply exact shared-sigil.json/SVG projected onto coin face with shallow engraved dark groove and restrained highlight, not a floating/doubled mark. Use this new coin in a separate derivative of prior 96frame native motion: preserve exact microkeys/tremor12pxlift/flash17/bounce18/settle19, static wood contact and shadow. Never redraw or animate whole frame. Preserve original sources. For other three shots S03-03, S04-02, S06-03 reuse saved verified native outputs without creative changes, inspect actual video samples and include them through explicit delivery.json records referencing existing preserved sources; artifacts list may include your new index/review files, while index references source shots. The new review covers all4 source clips plus repairedcoin. Preserve 288,144,96,144 frames24fps1280x720 silent. Save new editable coin project/layers/MP4 and exact shot-to-clip/native index with hashes and evidence. Full original task handoff lists only coin motif blocker; do not regenerate completed room/filter/blackout shots needlessly. Submit only with evidence and empty blockers when these bounded drafts are ready for independent review; final author playback approval is separate, not a blocker to submission. If truly unresolved artwork remains, status blocked instead of submitted-with-blockers. No generation or paid calls; new blank art is already supplied. All new writes inside output_dir."
+}

@@ -1,0 +1,3579 @@
+{
+  "title": "Heralds of the Cemí — Episode 1 “3:07”",
+  "fps": 24,
+  "aspect": "4:3",
+  "canvas": [
+    1440,
+    1080
+  ],
+  "loop_frames": 192,
+  "total_frames": 27120,
+  "scenes": [
+    {
+      "id": "S00",
+      "title": "Epigraph",
+      "source": "p.5",
+      "start_frame": 0,
+      "frames": 216,
+      "showcase": null
+    },
+    {
+      "id": "S01",
+      "title": "BEFORE (cold open)",
+      "source": "Ch.1 pp.11–12",
+      "start_frame": 216,
+      "frames": 3024,
+      "showcase": "SC-0 'The Current Turns'"
+    },
+    {
+      "id": "S02",
+      "title": "Title",
+      "source": "—",
+      "start_frame": 3240,
+      "frames": 288,
+      "showcase": null
+    },
+    {
+      "id": "S03",
+      "title": "3:07 · the room",
+      "source": "Ch.1 pp.12–15",
+      "start_frame": 3528,
+      "frames": 2520,
+      "showcase": null
+    },
+    {
+      "id": "S04",
+      "title": "The override",
+      "source": "Ch.1 p.15",
+      "start_frame": 6048,
+      "frames": 744,
+      "showcase": null
+    },
+    {
+      "id": "S05",
+      "title": "The Ballroom",
+      "source": "Ch.1 pp.15–16",
+      "start_frame": 6792,
+      "frames": 2352,
+      "showcase": "SC-1 'The Slack, The Run'"
+    },
+    {
+      "id": "S06",
+      "title": "Se fue la luz",
+      "source": "Ch.1 pp.16–17",
+      "start_frame": 9144,
+      "frames": 984,
+      "showcase": null
+    },
+    {
+      "id": "S07",
+      "title": "The Coin Runs Warm · kitchen",
+      "source": "Ch.2 pp.19–20",
+      "start_frame": 10128,
+      "frames": 1776,
+      "showcase": null
+    },
+    {
+      "id": "S08",
+      "title": "A Calmer Block",
+      "source": "Ch.2 p.20",
+      "start_frame": 11904,
+      "frames": 768,
+      "showcase": null
+    },
+    {
+      "id": "S09",
+      "title": "El Disco Café",
+      "source": "Ch.2 pp.20–22",
+      "start_frame": 12672,
+      "frames": 1344,
+      "showcase": null
+    },
+    {
+      "id": "S10",
+      "title": "Manny · the pocket",
+      "source": "Ch.2 pp.22–23",
+      "start_frame": 14016,
+      "frames": 1296,
+      "showcase": null
+    },
+    {
+      "id": "S11",
+      "title": "We've been watching your work",
+      "source": "Ch.2 pp.23–25",
+      "start_frame": 15312,
+      "frames": 1632,
+      "showcase": null
+    },
+    {
+      "id": "S12",
+      "title": "11:12 · Discos Quisqueya",
+      "source": "Ch.2 pp.25–27",
+      "start_frame": 16944,
+      "frames": 2352,
+      "showcase": "SC-2 'The Pour, The Eye-lock'"
+    },
+    {
+      "id": "S13",
+      "title": "The Library · the 1934 reading room",
+      "source": "Ch.3 pp.29–31",
+      "start_frame": 19296,
+      "frames": 2256,
+      "showcase": "SC-3 'The Lanes'"
+    },
+    {
+      "id": "S14",
+      "title": "The Model · Sofía's board",
+      "source": "Ch.3 pp.31–36",
+      "start_frame": 21552,
+      "frames": 3768,
+      "showcase": "SC-4 'Press, Age Six'"
+    },
+    {
+      "id": "S15",
+      "title": "The bodega",
+      "source": "Ch.3 pp.36–37",
+      "start_frame": 25320,
+      "frames": 1800,
+      "showcase": "SC-5 'Pressed Merengue'"
+    }
+  ],
+  "shots": [
+    {
+      "id": "S00-01",
+      "scene": "S00",
+      "start_frame": 0,
+      "frames": 96,
+      "tc_in": "00:00:00",
+      "tc_out": "00:04:00",
+      "camera": "FIX · ECU",
+      "animation_rate": 3,
+      "action": "Navy field (#14202B). The cemí sigil (spiral opening into a triangle) draws itself in one continuous gold line, like a pen that never lifts.",
+      "fx": [
+        {
+          "name": "SPIRAL_SIGIL",
+          "args": "draw=3s,gold"
+        },
+        {
+          "name": "FILM_GRAIN",
+          "args": "0.5"
+        },
+        {
+          "name": "GATE_WEAVE",
+          "args": "0.3"
+        }
+      ],
+      "audio": "Room tone only. One low hand-drum hit as the line closes.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S00-02",
+      "scene": "S00",
+      "start_frame": 96,
+      "frames": 120,
+      "tc_in": "00:04:00",
+      "tc_out": "00:09:00",
+      "camera": "FIX · text card",
+      "animation_rate": 3,
+      "action": "Cream serif, wide tracking: ELLOS CUENTAN. / NOSOTROS RECORDAMOS. Small gold sub-line: They count. We remember. — ABUELA.",
+      "fx": [
+        {
+          "name": "DISSOLVE",
+          "args": "24f"
+        },
+        {
+          "name": "FILM_GRAIN",
+          "args": ""
+        }
+      ],
+      "audio": "Abuela VO, old, unhurried, no music. Spanish only; English as subtitle.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S01-01",
+      "scene": "S01",
+      "start_frame": 216,
+      "frames": 144,
+      "tc_in": "00:09:00",
+      "tc_out": "00:15:00",
+      "camera": "FIX · ECU low on waterline",
+      "animation_rate": 3,
+      "action": "Black water, a hand-width of surface. A paddle blade enters, leaves, rings spread. Lower-left small caps: BEFORE.",
+      "fx": [
+        {
+          "name": "PAINTED_BG",
+          "args": "night_water"
+        },
+        {
+          "name": "WATER_CEL",
+          "args": "rings"
+        },
+        {
+          "name": "TEXT_SUPER",
+          "args": "BEFORE"
+        },
+        {
+          "name": "VIGNETTE",
+          "args": "0.7"
+        }
+      ],
+      "audio": "Water drip, insects. A frog stops mid-call. No music.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S01-02",
+      "scene": "S01",
+      "start_frame": 360,
+      "frames": 288,
+      "tc_in": "00:15:00",
+      "tc_out": "00:27:00",
+      "camera": "CRANE DOWN · WS",
+      "animation_rate": 3,
+      "action": "Three dugout canoes in single file down a moonless mangrove channel. Lead: Dairon paddling, Yara behind him with the cemí in stiff cloth against her chest. Amaia with her sleeping son (not yet two). Second: Beheto, drum between his knees, chest whistling every breath. Third: three children, a faint blue breath on their forearms.",
+      "fx": [
+        {
+          "name": "MULTIPLANE",
+          "args": "5 painted layers"
+        },
+        {
+          "name": "TRANSMITTED_LIGHT",
+          "args": "blue,children,0.15"
+        },
+        {
+          "name": "FILM_GRAIN",
+          "args": ""
+        }
+      ],
+      "audio": "Paddles, hull creak. Beheto's whistling breath is the only tempo (about 2s cycle).",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S01-03",
+      "scene": "S01",
+      "start_frame": 648,
+      "frames": 192,
+      "tc_in": "00:27:00",
+      "tc_out": "00:35:00",
+      "camera": "MCU → CU Amaia",
+      "animation_rate": 3,
+      "action": "Amaia's lips count the heads ahead. Each count lands on an empty seat. Pale outlines sit in the empty seats and fade as she looks at them (two lost at the channel, the old man who asked for water, then his wife, then nothing).",
+      "fx": [
+        {
+          "name": "GHOST_SEATS",
+          "args": "alpha .25→0"
+        },
+        {
+          "name": "DOUBLE_EXPOSURE",
+          "args": ""
+        },
+        {
+          "name": "CEL_SHADE",
+          "args": "2-tone"
+        }
+      ],
+      "audio": "VO Amaia (spare): “Amaia had fourteen when they put the canoes in. By the third night she had eleven.”",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S01-04",
+      "scene": "S01",
+      "start_frame": 840,
+      "frames": 168,
+      "tc_in": "00:35:00",
+      "tc_out": "00:42:00",
+      "camera": "FIX · three hard cuts",
+      "animation_rate": 2,
+      "action": "Memory inserts of the blue: children in fever; a flash of lightning; the color itself, 'the inside of a shell'. Each gone before she can point at it.",
+      "fx": [
+        {
+          "name": "TRANSMITTED_LIGHT",
+          "args": "shell_blue"
+        },
+        {
+          "name": "FLASH_FRAME",
+          "args": "1f"
+        },
+        {
+          "name": "AIRBRUSH_GLOW",
+          "args": ""
+        }
+      ],
+      "audio": "Held breath. One high glass-like partial, cut dead.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S01-05",
+      "scene": "S01",
+      "start_frame": 1008,
+      "frames": 168,
+      "tc_in": "00:42:00",
+      "tc_out": "00:49:00",
+      "camera": "POV Amaia → CU bell",
+      "animation_rate": 3,
+      "action": "Behind them on the bank the soldier torches have stopped. One soldier lifts a pole with a brass bell and rings it, hard. Cut to the bell swinging, close.",
+      "fx": [
+        {
+          "name": "CAMERA_SHAKE",
+          "args": "2f"
+        },
+        {
+          "name": "SPEED_LINES",
+          "args": "bell"
+        },
+        {
+          "name": "CHROMA_BLEED",
+          "args": ""
+        }
+      ],
+      "audio": "The BELL: dry, inharmonic brass, no reverb tail, 3–5 kHz bite. Amaia feels it 'in her back teeth'. There is no song in it.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S01-06",
+      "scene": "S01",
+      "start_frame": 1176,
+      "frames": 240,
+      "tc_in": "00:49:00",
+      "tc_out": "00:59:00",
+      "camera": "MS → CU hands",
+      "animation_rate": 2,
+      "action": "The three children lift the blue off their arms; it peels away like vapor and leans out over the black water toward the bank. They lean with it. Amaia wants to hear one of them cry.",
+      "fx": [
+        {
+          "name": "TRANSMITTED_LIGHT",
+          "args": ""
+        },
+        {
+          "name": "AIRBRUSH_RIBBONS",
+          "args": "blue,8"
+        },
+        {
+          "name": "PULL_TOWARD",
+          "args": "bank"
+        }
+      ],
+      "audio": "Bell rings again, thinner. Children silent.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S01-07",
+      "scene": "S01",
+      "start_frame": 1416,
+      "frames": 168,
+      "tc_in": "00:59:00",
+      "tc_out": "01:06:00",
+      "camera": "MS low angle",
+      "animation_rate": 3,
+      "action": "A second man sits on a stump, ledger open on his knee. He never looks at the canoes. He writes one line, then another under it.",
+      "fx": [
+        {
+          "name": "FIX_HOLD",
+          "args": ""
+        },
+        {
+          "name": "CEL_SHADE",
+          "args": "lantern"
+        },
+        {
+          "name": "INSERT_CU",
+          "args": "pen,page"
+        }
+      ],
+      "audio": "Pen scratch placed forward in the mix, louder than it should be.",
+      "note": "Ledger-man is the first 'Counter'. Same pose language as the thin man (S12) and Vale's notebook (S14).",
+      "showcase": null
+    },
+    {
+      "id": "S01-08",
+      "scene": "S01",
+      "start_frame": 1584,
+      "frames": 144,
+      "tc_in": "01:06:00",
+      "tc_out": "01:12:00",
+      "camera": "MS side",
+      "animation_rate": 3,
+      "action": "The girl of seven says to the water: “There's a way under the roots.” Dairon turns the bow without asking how she knew.",
+      "fx": [
+        {
+          "name": "HOLD",
+          "args": "cel bank"
+        }
+      ],
+      "audio": "Her voice small and certain. Hull turn.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S01-09",
+      "scene": "S01",
+      "start_frame": 1728,
+      "frames": 336,
+      "tc_in": "01:12:00",
+      "tc_out": "01:26:00",
+      "camera": "POV bow · tunnel",
+      "animation_rate": 2,
+      "action": "The canoe shrieks through mangrove roots on both sides; a paddle snaps; wood chips. The roots open into air that smells of salt 'from the wrong direction'. Cloth and hair flutter the opposite way.",
+      "fx": [
+        {
+          "name": "MULTIPLANE_RUSH",
+          "args": "root layers z1–z5"
+        },
+        {
+          "name": "SPEED_BG",
+          "args": ""
+        },
+        {
+          "name": "SPLINTER_CEL",
+          "args": ""
+        },
+        {
+          "name": "WIND_REVERSE",
+          "args": ""
+        }
+      ],
+      "audio": "Wood scream on hull. Snap. Then sudden wide air and a wind change.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S01-10",
+      "scene": "S01",
+      "start_frame": 2064,
+      "frames": 144,
+      "tc_in": "01:26:00",
+      "tc_out": "01:32:00",
+      "camera": "MCU boy · bell offscreen",
+      "animation_rate": 3,
+      "action": "The boy of nine, head tilted toward the bell: “They know where we were. They don't know where we are.”",
+      "fx": [
+        {
+          "name": "TRANSMITTED_LIGHT",
+          "args": "blue,rim"
+        }
+      ],
+      "audio": "Bell far behind, now hollow.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S01-11",
+      "scene": "S01",
+      "start_frame": 2208,
+      "frames": 240,
+      "tc_in": "01:32:00",
+      "tc_out": "01:42:00",
+      "camera": "CU Beheto → WS",
+      "animation_rate": 2,
+      "action": "Beheto puts both palms on the drum and leans his weight into it. The sound goes through hull, water and roots.",
+      "fx": [
+        {
+          "name": "SHOCKWAVE_RING",
+          "args": "water, subtle"
+        },
+        {
+          "name": "ROOT_VEINS",
+          "args": "gold, 0.4"
+        },
+        {
+          "name": "WOOD_GRAIN_PULSE",
+          "args": ""
+        }
+      ],
+      "audio": "Not a boom. A deep skin-and-wood note with no attack, felt as sub.",
+      "note": "SHOWCASE CUT 0 begins.",
+      "showcase": "SC-0 'The Current Turns'"
+    },
+    {
+      "id": "S01-12",
+      "scene": "S01",
+      "start_frame": 2448,
+      "frames": 336,
+      "tc_in": "01:42:00",
+      "tc_out": "01:56:00",
+      "camera": "WS → MS paddles",
+      "animation_rate": 2,
+      "action": "'Nothing rose up and nothing parted.' The canoes simply move a little faster than the paddles. Blades drag and lift. Surface foam turns 90 degrees.",
+      "fx": [
+        {
+          "name": "FLOW_TURN",
+          "args": "foam,90deg"
+        },
+        {
+          "name": "WATER_STREAK_CEL",
+          "args": ""
+        },
+        {
+          "name": "WIND_STREAKS",
+          "args": ""
+        }
+      ],
+      "audio": "Water hiss rising.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S01-13",
+      "scene": "S01",
+      "start_frame": 2784,
+      "frames": 144,
+      "tc_in": "01:56:00",
+      "tc_out": "02:02:00",
+      "camera": "CU Amaia's ribs",
+      "animation_rate": 3,
+      "action": "Her son, asleep, says into her ribs in a voice too old for him: “It's turning with us. Turn with it.”",
+      "fx": [
+        {
+          "name": "HOLD",
+          "args": ""
+        },
+        {
+          "name": "EYES_CLOSED",
+          "args": ""
+        }
+      ],
+      "audio": "Child's voice with a quiet adult register layered under it.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S01-14",
+      "scene": "S01",
+      "start_frame": 2928,
+      "frames": 216,
+      "tc_in": "02:02:00",
+      "tc_out": "02:11:00",
+      "camera": "ROLL 12° · WS",
+      "animation_rate": 3,
+      "action": "She turns with it. Every body leans into the turn; the camera rolls with them. Behind them on the bank the ledger man finishes his line and closes the book.",
+      "fx": [
+        {
+          "name": "CAMERA_ROLL",
+          "args": "0→12deg"
+        },
+        {
+          "name": "CROSS_DISSOLVE_TO",
+          "args": "book"
+        }
+      ],
+      "audio": "Wood and water. Book closing: a flat clap.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S01-15",
+      "scene": "S01",
+      "start_frame": 3144,
+      "frames": 96,
+      "tc_in": "02:11:00",
+      "tc_out": "02:15:00",
+      "camera": "FIX · black",
+      "animation_rate": null,
+      "action": "Black. The clap of the book rings into a keyboard clack (match to S03).",
+      "fx": [
+        {
+          "name": "MATCH_SOUND",
+          "args": ""
+        }
+      ],
+      "audio": "Book clap → keyboard key.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S02-01",
+      "scene": "S02",
+      "start_frame": 3240,
+      "frames": 288,
+      "tc_in": "02:15:00",
+      "tc_out": "02:27:00",
+      "camera": "FIX · title card",
+      "animation_rate": 3,
+      "action": "Navy field. Sigil draws in gold. HERALDS OF THE CEMÍ in cream serif caps; below, EPISODE 1 · 3:07.",
+      "fx": [
+        {
+          "name": "SPIRAL_SIGIL",
+          "args": ""
+        },
+        {
+          "name": "FILM_GRAIN",
+          "args": ""
+        },
+        {
+          "name": "TITLE_SHIMMER",
+          "args": "1 pass"
+        }
+      ],
+      "audio": "Silence, then a low drone swells under the title and stops on the cut.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S03-01",
+      "scene": "S03",
+      "start_frame": 3528,
+      "frames": 168,
+      "tc_in": "02:27:00",
+      "tc_out": "02:34:00",
+      "camera": "CRANE UP · WS",
+      "animation_rate": 3,
+      "action": "Jerome Ave at night. The elevated 4 train rumbles past in strobing window-light bars across the street. Crane up the brick back wall of JC's building to a lit fourth-floor window. Super: 3:07 AM · TUESDAY · MARCH.",
+      "fx": [
+        {
+          "name": "PAINTED_BG",
+          "args": "night_street"
+        },
+        {
+          "name": "TRAIN_STROBE",
+          "args": "bars on street, 24fps"
+        },
+        {
+          "name": "TEXT_SUPER",
+          "args": ""
+        }
+      ],
+      "audio": "The 4: rail scream, rising and falling. VO JC: “I'll start with the part I'm not proud of, because my mother says if you start with the part you're proud of, God stops listening.”",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S03-02",
+      "scene": "S03",
+      "start_frame": 3696,
+      "frames": 96,
+      "tc_in": "02:34:00",
+      "tc_out": "02:38:00",
+      "camera": "FIX · MS window",
+      "animation_rate": 2,
+      "action": "Gag: the window is so close to the El that JC extends a sandwich toward the passing conductor. Frame holds on the arm as the train blurs by.",
+      "fx": [
+        {
+          "name": "SPEED_LINES",
+          "args": "horizontal"
+        },
+        {
+          "name": "CEL_SMEAR",
+          "args": "arm"
+        }
+      ],
+      "audio": "VO: “...I could pass a sandwich to the conductor.” Mamá VO: pneumonia warning.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S03-03",
+      "scene": "S03",
+      "start_frame": 3792,
+      "frames": 288,
+      "tc_in": "02:38:00",
+      "tc_out": "02:50:00",
+      "camera": "PAN L→R · interior",
+      "animation_rate": 3,
+      "action": "Room inventory pan on a single wide painted BG: radiator banging with little steam puffs; dev boards and cable; a Pyrex of arroz con habichuelas that belongs to the lady on three; a chair buried in laundry; the nightstand with the coin.",
+      "fx": [
+        {
+          "name": "PAINTED_BG",
+          "args": "room_wide"
+        },
+        {
+          "name": "PAN_STILL",
+          "args": ""
+        },
+        {
+          "name": "CEL_OVERLAYS",
+          "args": "steam,fan"
+        }
+      ],
+      "audio": "Radiator bang. Bachata from the bodega radio. A rosary clicking through the wall.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S03-04",
+      "scene": "S03",
+      "start_frame": 4080,
+      "frames": 264,
+      "tc_in": "02:50:00",
+      "tc_out": "03:01:00",
+      "camera": "CUTAWAY · building section",
+      "animation_rate": 3,
+      "action": "Dollhouse cross-section of the whole building. Colored ribbons rise through the floors: the 4 (steel white), radiator (rust), bachata (magenta), rosary (gold dots), a trumpet on six playing the same solo 'since the Obama administration'. All of them end at JC's closet.",
+      "fx": [
+        {
+          "name": "CUTAWAY_BG",
+          "args": "building_section"
+        },
+        {
+          "name": "SOUND_RIBBON",
+          "args": "5 sources"
+        },
+        {
+          "name": "LABEL_CELS",
+          "args": ""
+        }
+      ],
+      "audio": "Each ribbon's sound mixes in as it's labelled. Trumpet solo repeats and cuts off mid-phrase.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S03-05",
+      "scene": "S03",
+      "start_frame": 4344,
+      "frames": 168,
+      "tc_in": "03:01:00",
+      "tc_out": "03:08:00",
+      "camera": "INSERT · closet",
+      "animation_rate": 3,
+      "action": "ECU: a contact mic clamped to the iron steam riser. Follow the pipe up through the wall to the roof. JC's laptop: a diegetic HUD. The mapping reads like a legend: pitch → color, rhythm → motion, loud → big. Name card: CHISMOSA.",
+      "fx": [
+        {
+          "name": "UI_LAPTOP",
+          "args": "chismosa"
+        },
+        {
+          "name": "SOUND_RIBBON",
+          "args": ""
+        },
+        {
+          "name": "TEXT_SUPER",
+          "args": "CHISMOSA"
+        }
+      ],
+      "audio": "Pipe hum; VO JC: “...all it did was listen through the walls and tell me everybody's business.”",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S03-06",
+      "scene": "S03",
+      "start_frame": 4512,
+      "frames": 240,
+      "tc_in": "03:08:00",
+      "tc_out": "03:18:00",
+      "camera": "MACRO → CU",
+      "animation_rate": 3,
+      "action": "The coin on the nightstand: copper, spirals and hooked triangles. He picks it up; faint warm shimmer like a seat someone just left. Flash cut: JC at 12 asleep, fever, dirt under his fingernails on the fourth floor of a building with no dirt in it; Abuela sets the coin in his hand.",
+      "fx": [
+        {
+          "name": "HEAT_SHIMMER",
+          "args": "low"
+        },
+        {
+          "name": "FLASHBACK_GRADE",
+          "args": "sepia, 3s"
+        },
+        {
+          "name": "FILM_GRAIN",
+          "args": "↑"
+        }
+      ],
+      "audio": "VO: “The coin is copper, heavy for its size...it runs warm.”",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S03-07",
+      "scene": "S03",
+      "start_frame": 4752,
+      "frames": 144,
+      "tc_in": "03:18:00",
+      "tc_out": "03:24:00",
+      "camera": "INSERT · list",
+      "animation_rate": 3,
+      "action": "A hand-lettered list of things he can't explain, scrolling past. #47 circled: THE COIN.",
+      "fx": [
+        {
+          "name": "HANDWRITING_CEL",
+          "args": ""
+        },
+        {
+          "name": "SCROLL_CARD",
+          "args": ""
+        }
+      ],
+      "audio": "Pen on paper.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S03-08",
+      "scene": "S03",
+      "start_frame": 4896,
+      "frames": 144,
+      "tc_in": "03:24:00",
+      "tc_out": "03:30:00",
+      "camera": "FIX · MS desk",
+      "animation_rate": 3,
+      "action": "The 4 goes by; he types one line. A small diegetic timer reads 8:00 and counts down to the next train: 'the train comes, I get eight minutes'.",
+      "fx": [
+        {
+          "name": "UI_TIMER",
+          "args": "8:00"
+        },
+        {
+          "name": "TRAIN_STROBE",
+          "args": ""
+        }
+      ],
+      "audio": "The 4, then keystrokes.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S03-09",
+      "scene": "S03",
+      "start_frame": 5040,
+      "frames": 216,
+      "tc_in": "03:30:00",
+      "tc_out": "03:39:00",
+      "camera": "DISSOLVES · facade",
+      "animation_rate": 3,
+      "action": "The ground floor of the building, four dissolves in order: Ballroom (1957 sign and doors) → laundromat → church → vape shop → current community arts space. An AR mural test is seen on a phone screen over brick.",
+      "fx": [
+        {
+          "name": "FADE_BETWEEN",
+          "args": "5 painted facades"
+        },
+        {
+          "name": "UI_PHONE",
+          "args": "AR_overlay"
+        }
+      ],
+      "audio": "VO JC on the 'Ballroom' history. Dance-hall brass ghosted under each dissolve.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S03-10",
+      "scene": "S03",
+      "start_frame": 5256,
+      "frames": 216,
+      "tc_in": "03:39:00",
+      "tc_out": "03:48:00",
+      "camera": "SPLIT · laptop UI",
+      "animation_rate": 3,
+      "action": "First anomaly: a spiral that opens into a triangle, folded in itself. It resolves from static in three places with the same proportions each time: the screech of the 4, the heater upstairs, the hiss between radio stations. Match-cuts between the three. JC loses a whole Saturday ('I fall in and send a postcard').",
+      "fx": [
+        {
+          "name": "SIGIL_FROM_STATIC",
+          "args": ""
+        },
+        {
+          "name": "MATCH_CUT",
+          "args": "x3"
+        },
+        {
+          "name": "SPECTRAL_UI",
+          "args": ""
+        }
+      ],
+      "audio": "Static resolves toward a tone, three times.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S03-11",
+      "scene": "S03",
+      "start_frame": 5472,
+      "frames": 192,
+      "tc_in": "03:48:00",
+      "tc_out": "03:56:00",
+      "camera": "FIX · laptop UI",
+      "animation_rate": 3,
+      "action": "Second anomaly: under everything, an 8-second pressed band repeating. He hits DEL; the band returns. He deleted it 'a dozen times as garbage'. A counter of DEL presses ticks up to 12.",
+      "fx": [
+        {
+          "name": "UI_LAPTOP",
+          "args": "wave_lanes"
+        },
+        {
+          "name": "PRESS",
+          "args": "0.15 on UI only"
+        },
+        {
+          "name": "UI_COUNTER",
+          "args": ""
+        }
+      ],
+      "audio": "A dry, low 8s texture under the room. Key taps.",
+      "note": "Introduces the 192-frame loop; lock LOOP_FRAMES in all later cues.",
+      "showcase": null
+    },
+    {
+      "id": "S03-12",
+      "scene": "S03",
+      "start_frame": 5664,
+      "frames": 192,
+      "tc_in": "03:56:00",
+      "tc_out": "04:04:00",
+      "camera": "MONTAGE · Jerome Ave",
+      "animation_rate": 3,
+      "action": "The block's been mean lately: (1) Friday fight outside the bodega over a scratch-off; (2) two men who haven't spoken since JC was nine, not speaking, with reasons they can't give; (3) the super's dog bites a delivery guy, the super calls it 'a misunderstanding' as if the dog had misheard the order.",
+      "fx": [
+        {
+          "name": "HOLD_FLASH",
+          "args": "3 cards"
+        },
+        {
+          "name": "SPEED_LINES",
+          "args": "fight"
+        },
+        {
+          "name": "PRESS",
+          "args": "0.1"
+        }
+      ],
+      "audio": "Each vignette has the loop at -30 dB under it.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S03-13",
+      "scene": "S03",
+      "start_frame": 5856,
+      "frames": 192,
+      "tc_in": "04:04:00",
+      "tc_out": "04:12:00",
+      "camera": "UI · phone",
+      "animation_rate": 3,
+      "action": "2:41 AM. Manny texts from the 6 train: u alive / define alive / breathing + bad decision energy / then yes / send the kid his EP / it's not done / it's been done for a week gremlin. JC turns the phone face down: 'Nobody should be known that well at three in the morning.'",
+      "fx": [
+        {
+          "name": "UI_PHONE",
+          "args": "chat bubbles typed on"
+        },
+        {
+          "name": "CUT_TO_BACK_OF_PHONE",
+          "args": ""
+        }
+      ],
+      "audio": "Phone buzz; keyclicks.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S04-01",
+      "scene": "S04",
+      "start_frame": 6048,
+      "frames": 144,
+      "tc_in": "04:12:00",
+      "tc_out": "04:18:00",
+      "camera": "FIX · desk, time-lapse",
+      "animation_rate": 3,
+      "action": "Digital clock flips 12:07 → 3:07. Three demitasse cups appear and empty, one per hour. The train passes three times.",
+      "fx": [
+        {
+          "name": "CLOCK_FLIP",
+          "args": ""
+        },
+        {
+          "name": "CUP_APPEAR",
+          "args": "3"
+        },
+        {
+          "name": "TRAIN_STROBE",
+          "args": ""
+        }
+      ],
+      "audio": "Cafecito stir. The clock ticks faster each hour.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S04-02",
+      "scene": "S04",
+      "start_frame": 6192,
+      "frames": 144,
+      "tc_in": "04:18:00",
+      "tc_out": "04:24:00",
+      "camera": "ABSTRACT · UI",
+      "animation_rate": 3,
+      "action": "The filter stack as three gauze panes between the pipe and the projector: SMOOTHING (a comb), GATING (a door), NOISE FLOOR (a line). The shape and the loop pass through all three unchanged.",
+      "fx": [
+        {
+          "name": "PANES_CEL",
+          "args": "3"
+        },
+        {
+          "name": "PASS_THROUGH",
+          "args": "sigil,loop"
+        }
+      ],
+      "audio": "Muffled filter hum. The sigil tone passes clear.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S04-03",
+      "scene": "S04",
+      "start_frame": 6336,
+      "frames": 144,
+      "tc_in": "04:24:00",
+      "tc_out": "04:30:00",
+      "camera": "CU hands · screen",
+      "animation_rate": 2,
+      "action": "JC selects the config and deletes all of it. The three panes shatter into dust and vanish.",
+      "fx": [
+        {
+          "name": "PANE_SHATTER_CEL",
+          "args": ""
+        },
+        {
+          "name": "CAMERA_SHAKE",
+          "args": "2f"
+        }
+      ],
+      "audio": "Glass without reverb.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S04-04",
+      "scene": "S04",
+      "start_frame": 6480,
+      "frames": 144,
+      "tc_in": "04:30:00",
+      "tc_out": "04:36:00",
+      "camera": "WS room",
+      "animation_rate": 3,
+      "action": "The projector, aimed at his bedroom wall, throws his cobalt handle test loop. The fan hums. Small reasonable voice (VO): this could fry the board.",
+      "fx": [
+        {
+          "name": "COBALT_HANDLE_UI",
+          "args": ""
+        },
+        {
+          "name": "PROJECTOR_BEAM",
+          "args": "dust"
+        }
+      ],
+      "audio": "Fan hum. VO is JC's own voice, a half-step higher and tidy.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S04-05",
+      "scene": "S04",
+      "start_frame": 6624,
+      "frames": 168,
+      "tc_in": "04:36:00",
+      "tc_out": "04:43:00",
+      "camera": "ECU finger → CU face",
+      "animation_rate": 3,
+      "action": "A finger above the Enter key. The 4 is about to pass. His reflection in the dark screen. He hits Enter. The fan clicks. The 4 goes by.",
+      "fx": [
+        {
+          "name": "HOLD",
+          "args": "4s"
+        },
+        {
+          "name": "FLASH_FRAME",
+          "args": "1f on keypress"
+        }
+      ],
+      "audio": "Silence. One key. Fan click.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S05-01",
+      "scene": "S05",
+      "start_frame": 6792,
+      "frames": 72,
+      "tc_in": "04:43:00",
+      "tc_out": "04:46:00",
+      "camera": "DOLLY-ZOOM · CU JC",
+      "animation_rate": 3,
+      "action": "His ears pop 'like an elevator dropping a floor'. Air thickens at the edges of the frame.",
+      "fx": [
+        {
+          "name": "DOLLY_ZOOM",
+          "args": "3s"
+        },
+        {
+          "name": "VIGNETTE_PUMP",
+          "args": ""
+        },
+        {
+          "name": "HEAT_WAVE",
+          "args": "edges"
+        }
+      ],
+      "audio": "Pitch-fall pop. Fan click.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S05-02",
+      "scene": "S05",
+      "start_frame": 6864,
+      "frames": 120,
+      "tc_in": "04:46:00",
+      "tc_out": "04:51:00",
+      "camera": "WS room → CU wall",
+      "animation_rate": 2,
+      "action": "The projector coughs. The cobalt 'JC' test loop breaks into static, which pulls toward the middle of the wall. The plaster surface ripples in concentric rings.",
+      "fx": [
+        {
+          "name": "STATIC_PULL",
+          "args": "center"
+        },
+        {
+          "name": "SHOCKWAVE_RING",
+          "args": "wall"
+        },
+        {
+          "name": "PLASTER_CRACK",
+          "args": "hand-drawn, 2s"
+        }
+      ],
+      "audio": "Static sucks inward; plaster creak.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S05-03",
+      "scene": "S05",
+      "start_frame": 6984,
+      "frames": 144,
+      "tc_in": "04:51:00",
+      "tc_out": "04:57:00",
+      "camera": "PUSH THROUGH WALL",
+      "animation_rate": 3,
+      "action": "'It was a room.' The wall gives way. The plaster goes back and back: a long hall, a floor with a shine, chandeliers that don't hang from JC's ceiling, a bandstand far away.",
+      "fx": [
+        {
+          "name": "PERSPECTIVE_TUNNEL",
+          "args": "painted BG, 6 layers"
+        },
+        {
+          "name": "PLASTER_PEEL_CEL",
+          "args": ""
+        },
+        {
+          "name": "FLASH_FRAME",
+          "args": "1f"
+        }
+      ],
+      "audio": "Air rush. Orchestral brass fades up from inside the headphones around his neck.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S05-04",
+      "scene": "S05",
+      "start_frame": 7128,
+      "frames": 216,
+      "tc_in": "04:57:00",
+      "tc_out": "05:06:00",
+      "camera": "CRANE & PAN · WS reveal",
+      "animation_rate": 3,
+      "action": "The Ballroom, 1957. About forty couples made of light (blue and gold), two-tone shoes, skirts catching air; horn section on the bandstand; a cowbell ridden 'with no hurry at all'. Date super: THE BALLROOM · 1957.",
+      "fx": [
+        {
+          "name": "LIGHT_FIGURE",
+          "args": "dancers, bank cycles x3"
+        },
+        {
+          "name": "PAINTED_BG",
+          "args": "ballroom"
+        },
+        {
+          "name": "GLOW_AIRBRUSH",
+          "args": ""
+        },
+        {
+          "name": "FILM_GRAIN",
+          "args": ""
+        }
+      ],
+      "audio": "Horns, cowbell, shoe leather on maple, a woman laughing at the end of a phrase.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S05-05",
+      "scene": "S05",
+      "start_frame": 7344,
+      "frames": 72,
+      "tc_in": "05:06:00",
+      "tc_out": "05:09:00",
+      "camera": "INSERT · neck",
+      "animation_rate": 3,
+      "action": "The headphones around his neck, leaking music, tiny sound-lines. He has not put them on.",
+      "fx": [
+        {
+          "name": "SOUND_LEAK_CEL",
+          "args": ""
+        }
+      ],
+      "audio": "Tinny, small, then opens to full range as the hall appears.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S05-06",
+      "scene": "S05",
+      "start_frame": 7416,
+      "frames": 192,
+      "tc_in": "05:09:00",
+      "tc_out": "05:17:00",
+      "camera": "TRACK · hero dancers",
+      "animation_rate": 2,
+      "action": "Hero pass: three couples in quick cuts. Footwork, a spin, a skirt flare. The cowbell hits the shoe strikes; the maple floor reflects them.",
+      "fx": [
+        {
+          "name": "SKIRT_FLARE_CEL",
+          "args": "2s"
+        },
+        {
+          "name": "FLOOR_REFLECTION",
+          "args": ""
+        },
+        {
+          "name": "SPEED_LINES",
+          "args": "spin"
+        }
+      ],
+      "audio": "Two-tone shoes on wood, in time with the cowbell.",
+      "note": "The one passage allowed on 2s full dance animation; everything else here holds on 3s.",
+      "showcase": null
+    },
+    {
+      "id": "S05-07",
+      "scene": "S05",
+      "start_frame": 7608,
+      "frames": 120,
+      "tc_in": "05:17:00",
+      "tc_out": "05:22:00",
+      "camera": "TOP SHOT · floor inlay",
+      "animation_rate": 3,
+      "action": "The floor inlay in darker wood: the spiral opening into a triangle. Dancers circle it without ever looking down. Insert: the coin on the nightstand, glinting.",
+      "fx": [
+        {
+          "name": "TOP_DOWN_ROTATE",
+          "args": "slow"
+        },
+        {
+          "name": "SIGIL_INLAY",
+          "args": "gold edge"
+        },
+        {
+          "name": "MATCH_INSERT",
+          "args": "coin"
+        }
+      ],
+      "audio": "Cowbell fades under JC's whisper: “It was the mark on my coin.”",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S05-08",
+      "scene": "S05",
+      "start_frame": 7728,
+      "frames": 120,
+      "tc_in": "05:22:00",
+      "tc_out": "05:27:00",
+      "camera": "FALLING CAMERA · section",
+      "animation_rate": 2,
+      "action": "Camera drops through the floors of the building, 4th to ground, as the year numerals tick down: 2026 … 1957. The Ballroom glows at the bottom. 'One floor under my feet and almost seventy years down.'",
+      "fx": [
+        {
+          "name": "BUILDING_SECTION_BG",
+          "args": ""
+        },
+        {
+          "name": "YEAR_COUNTER",
+          "args": "rapid"
+        },
+        {
+          "name": "SPEED_BG",
+          "args": "vertical"
+        }
+      ],
+      "audio": "Whoosh without Doppler; music stays centered.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S05-09",
+      "scene": "S05",
+      "start_frame": 7848,
+      "frames": 144,
+      "tc_in": "05:27:00",
+      "tc_out": "05:33:00",
+      "camera": "INSERT → CROSSCUT",
+      "animation_rate": 3,
+      "action": "'I felt it before I heard it': a pulse climbs the iron riser into JC's soles. Cut to a long dark window across the street. 'Across the street, I thought.' The loop arrives: dry, tuneless, the loudest thing on the block.",
+      "fx": [
+        {
+          "name": "PIPE_PULSE_CEL",
+          "args": ""
+        },
+        {
+          "name": "MATCH_CUT",
+          "args": "window across"
+        },
+        {
+          "name": "PRESS",
+          "args": "0.25 on audio only"
+        }
+      ],
+      "audio": "Sub pulse up the pipe, then the 8s loop: no reverb, mono.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S05-10",
+      "scene": "S05",
+      "start_frame": 7992,
+      "frames": 192,
+      "tc_in": "05:33:00",
+      "tc_out": "05:41:00",
+      "camera": "MS ×3 → CU",
+      "animation_rate": 3,
+      "action": "The band keeps playing. One couple loses the step, then the next. A woman's smile goes slack mid-turn. A man puts his hand on his partner's back and stands still.",
+      "fx": [
+        {
+          "name": "HOLD_FRAMES",
+          "args": "drop to 6s on couples"
+        },
+        {
+          "name": "SLACK_CEL_SEQ",
+          "args": "see keys"
+        },
+        {
+          "name": "PRESS",
+          "args": "0.3 → 0.6 over the shot"
+        }
+      ],
+      "audio": "Brass loses high end and stereo width as the loop rises.",
+      "note": "SHOWCASE CUT 1 begins.",
+      "showcase": "SC-1 'The Slack, The Run'"
+    },
+    {
+      "id": "S05-11",
+      "scene": "S05",
+      "start_frame": 8184,
+      "frames": 240,
+      "tc_in": "05:41:00",
+      "tc_out": "05:51:00",
+      "camera": "WS · long frame",
+      "animation_rate": 3,
+      "action": "Pair by pair down the floor the shoulders drop and the faces empty, until the band is playing for a hall of people standing in their good clothes. The wave of stillness crosses toward the bandstand. The horns keep going.",
+      "fx": [
+        {
+          "name": "STILL_WAVE",
+          "args": "near→far, 6s"
+        },
+        {
+          "name": "PRESS",
+          "args": "0.6→0.9"
+        },
+        {
+          "name": "DEPTH_FLATTEN",
+          "args": "parallax→0"
+        }
+      ],
+      "audio": "Music continues, drier each second; loop fills the gap.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S05-12",
+      "scene": "S05",
+      "start_frame": 8424,
+      "frames": 288,
+      "tc_in": "05:51:00",
+      "tc_out": "06:03:00",
+      "camera": "WHIP · WS",
+      "animation_rate": 2,
+      "action": "'The color didn't fade. It ran.' Blue and gold stream off the dancers as airbrushed ribbons, all leaning one way, across the hall and out through JC's window toward the empty building. Dancers turn gray-white. The floor mark goes as dark as the boards.",
+      "fx": [
+        {
+          "name": "AIRBRUSH_RIBBONS",
+          "args": "blue,gold; count 40; 2s"
+        },
+        {
+          "name": "STREAK_CEL",
+          "args": ""
+        },
+        {
+          "name": "WHIP_PAN",
+          "args": "follow river"
+        },
+        {
+          "name": "SIGIL_GOES_DARK",
+          "args": ""
+        }
+      ],
+      "audio": "A long exhale made of brass partials, falling in pitch.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S05-13",
+      "scene": "S05",
+      "start_frame": 8712,
+      "frames": 96,
+      "tc_in": "06:03:00",
+      "tc_out": "06:07:00",
+      "camera": "ECU · nightstand",
+      "animation_rate": 1,
+      "action": "'Something ticked on the nightstand.' The coin lifts half an inch, hangs, drops. Impact on wood.",
+      "fx": [
+        {
+          "name": "COIN_LIFT",
+          "args": "see keys"
+        },
+        {
+          "name": "FLASH_FRAME",
+          "args": "1f at contact"
+        }
+      ],
+      "audio": "Single metallic tick.",
+      "note": "A 1s moment, used sparingly.",
+      "showcase": null
+    },
+    {
+      "id": "S05-14",
+      "scene": "S05",
+      "start_frame": 8808,
+      "frames": 96,
+      "tc_in": "06:07:00",
+      "tc_out": "06:11:00",
+      "camera": "JUMP CUT · CU palm",
+      "animation_rate": 2,
+      "action": "He is already against the door; the chair is on its side. He did not decide to move. The coin is in his hand, hot now; his fingers recoil but hold.",
+      "fx": [
+        {
+          "name": "JUMP_CUT",
+          "args": "no inbetween"
+        },
+        {
+          "name": "SPEED_LINES",
+          "args": ""
+        },
+        {
+          "name": "HEAT_SHIMMER",
+          "args": "red"
+        }
+      ],
+      "audio": "Chair clatters. Coin sizzle.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S05-15",
+      "scene": "S05",
+      "start_frame": 8904,
+      "frames": 96,
+      "tc_in": "06:11:00",
+      "tc_out": "06:15:00",
+      "camera": "FIX · room",
+      "animation_rate": null,
+      "action": "Everything in the apartment goes out at once: laptop, lamp, router LEDs, fan spin-down. Black.",
+      "fx": [
+        {
+          "name": "BLACKOUT_POP",
+          "args": "sequential 3f gaps"
+        }
+      ],
+      "audio": "Fan whine falls. Total silence for 1s.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S05-16",
+      "scene": "S05",
+      "start_frame": 9000,
+      "frames": 144,
+      "tc_in": "06:15:00",
+      "tc_out": "06:21:00",
+      "camera": "FIX · wall in darkness",
+      "animation_rate": 3,
+      "action": "For two more seconds the dancers hang on the wall, blue and gold, with no projector under them. Then they go. The radiators tick back to normal, 'because as far as the radiators were concerned nothing had happened'.",
+      "fx": [
+        {
+          "name": "TRANSMITTED_LIGHT_ONLY",
+          "args": ""
+        },
+        {
+          "name": "FADE_OUT",
+          "args": "48f"
+        },
+        {
+          "name": "HOLD_BLACK",
+          "args": ""
+        }
+      ],
+      "audio": "One last cowbell. Radiator ticks.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S06-01",
+      "scene": "S06",
+      "start_frame": 9144,
+      "frames": 120,
+      "tc_in": "06:21:00",
+      "tc_out": "06:26:00",
+      "camera": "FIX · door",
+      "animation_rate": 3,
+      "action": "Darkness. Two taps on the door: one to ask, one to tell you what she decided. Slippers show as shadows under the door.",
+      "fx": [
+        {
+          "name": "SHADOW_CEL",
+          "args": "door gap"
+        },
+        {
+          "name": "CHROMA_BLEED",
+          "args": ""
+        }
+      ],
+      "audio": "Two taps: first rising, second falling. Rosary clicks.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S06-02",
+      "scene": "S06",
+      "start_frame": 9264,
+      "frames": 384,
+      "tc_in": "06:26:00",
+      "tc_out": "06:42:00",
+      "camera": "TWO-SHOT split door",
+      "animation_rate": 3,
+      "action": "Mamá: “Juan Carlos. Se fue la luz.” JC: “It's the whole block, Má.” (He hadn't checked; said with 'total confidence and no evidence'.) The rosary clicks in her fist; he can hear her decide not to ask. “Acuéstate.” Her slippers go down the hall and stop; she stands at the end of the hall, as she does.",
+      "fx": [
+        {
+          "name": "HOLD",
+          "args": "bank cel"
+        },
+        {
+          "name": "MOUTH_FLAP",
+          "args": "3 drawings"
+        },
+        {
+          "name": "DOOR_CROSS_CUT",
+          "args": ""
+        }
+      ],
+      "audio": "Muffled Spanish through wood. Rosary. Slippers.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S06-03",
+      "scene": "S06",
+      "start_frame": 9648,
+      "frames": 144,
+      "tc_in": "06:42:00",
+      "tc_out": "06:48:00",
+      "camera": "WS · window POV",
+      "animation_rate": 3,
+      "action": "The block is out: streetlights, bodega sign, the laundromat on Jerome, every window up and down. Distant city skyline glows normally beyond the block's edge.",
+      "fx": [
+        {
+          "name": "PAINTED_BG",
+          "args": "night_block_dark"
+        },
+        {
+          "name": "AMBIENT_GLOW",
+          "args": "far skyline"
+        }
+      ],
+      "audio": "Distant city hum; none on the block.",
+      "note": "[ADAPT] The far skyline lit makes the blackout read as block-sized.",
+      "showcase": null
+    },
+    {
+      "id": "S06-04",
+      "scene": "S06",
+      "start_frame": 9792,
+      "frames": 192,
+      "tc_in": "06:48:00",
+      "tc_out": "06:56:00",
+      "camera": "RACK FOCUS · PUSH-IN",
+      "animation_rate": 3,
+      "action": "Foreground sill → across the street: one window on the third floor of the empty building (blue construction netting) is lit, flat white, no flicker. A man in headphones stands there facing JC's building.",
+      "fx": [
+        {
+          "name": "RACK_FOCUS",
+          "args": ""
+        },
+        {
+          "name": "PUSH_IN",
+          "args": "5% over 8s"
+        },
+        {
+          "name": "FLAT_LIGHT_CEL",
+          "args": ""
+        }
+      ],
+      "audio": "Room tone. The loop is almost gone: a thread at -40 dB.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S06-05",
+      "scene": "S06",
+      "start_frame": 9984,
+      "frames": 144,
+      "tc_in": "06:56:00",
+      "tc_out": "07:02:00",
+      "camera": "MCU JC → WS window",
+      "animation_rate": 3,
+      "action": "When he steps back from the glass the man does not move. Hold. Smash to black.",
+      "fx": [
+        {
+          "name": "HOLD",
+          "args": "4s"
+        },
+        {
+          "name": "SMASH_CUT_BLACK",
+          "args": ""
+        }
+      ],
+      "audio": "Cut to silence, then rosary click fades.",
+      "note": "Do not identify the man. See flags in the closing section.",
+      "showcase": null
+    },
+    {
+      "id": "S07-01",
+      "scene": "S07",
+      "start_frame": 10128,
+      "frames": 96,
+      "tc_in": "07:02:00",
+      "tc_out": "07:06:00",
+      "camera": "FIX · title super",
+      "animation_rate": 3,
+      "action": "Super: TUESDAY · MORNING. Kitchen, dawn light through the window. Radio on low, a merengue. Chair rocks on a short leg propped by a folded Con Ed bill (since 2011).",
+      "fx": [
+        {
+          "name": "PAINTED_BG",
+          "args": "kitchen_dawn"
+        },
+        {
+          "name": "TEXT_SUPER",
+          "args": ""
+        },
+        {
+          "name": "INSERT_CU",
+          "args": "chair"
+        }
+      ],
+      "audio": "Merengue on radio; the chair's rock clicks.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S07-02",
+      "scene": "S07",
+      "start_frame": 10224,
+      "frames": 144,
+      "tc_in": "07:06:00",
+      "tc_out": "07:12:00",
+      "camera": "ECU series",
+      "animation_rate": 3,
+      "action": "Mamá turns salami with a fork. Queso frito sizzles. Mangú steam. Real food painting: background-grade cels for the food.",
+      "fx": [
+        {
+          "name": "FOOD_PAINT_CEL",
+          "args": ""
+        },
+        {
+          "name": "STEAM_LOOP",
+          "args": "bank"
+        }
+      ],
+      "audio": "Sizzle, radio, fork on pan.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S07-03",
+      "scene": "S07",
+      "start_frame": 10368,
+      "frames": 528,
+      "tc_in": "07:12:00",
+      "tc_out": "07:34:00",
+      "camera": "TWO-SHOT / OTS",
+      "animation_rate": 3,
+      "action": "Mamá: “La luz se fue a las tres y volvió a las cuatro. Con Ed says transformer. The super says Con Ed. Doña Fela on five says it was the Lord.” “What do you say?” “I say the keyboard stopped at three-oh-seven. I look at the clock when you don't sleep. Siéntate.” (Los tres golpes.)",
+      "fx": [
+        {
+          "name": "HOLD",
+          "args": "bank cel"
+        },
+        {
+          "name": "MOUTH_FLAP",
+          "args": ""
+        }
+      ],
+      "audio": "Pan, kitchen sounds, Mamá's dry voice.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S07-04",
+      "scene": "S07",
+      "start_frame": 10896,
+      "frames": 336,
+      "tc_in": "07:34:00",
+      "tc_out": "07:48:00",
+      "camera": "MCU · slow",
+      "animation_rate": 3,
+      "action": "Mamá gives him 'the slow inspection that doesn't miss anything.' “Tu abuela llamó anoche. Antes de que se fuera la luz.” “She good?” “She's old, she's stubborn, she's good.” (practiced pause) “She asked if it already started.” The mangú turns to wet sand in his mouth.",
+      "fx": [
+        {
+          "name": "FOOD_DESATURATE",
+          "args": "to wet sand, 3s"
+        },
+        {
+          "name": "LOOK_HOLD",
+          "args": "2s"
+        }
+      ],
+      "audio": "Radio drops away on 'started'.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S07-05",
+      "scene": "S07",
+      "start_frame": 11232,
+      "frames": 240,
+      "tc_in": "07:48:00",
+      "tc_out": "07:58:00",
+      "camera": "TRIPTYCH · dissolves",
+      "animation_rate": null,
+      "action": "'The Look': Mamá looks over her coffee and decides not to answer. Dissolve through JC at nine (asking where Papá goes on nights he doesn't come home) and after the fever at twelve. Same pose, same angle, three eras of warm light.",
+      "fx": [
+        {
+          "name": "HARMONY_CUT",
+          "args": "freeze + pastel posterize"
+        },
+        {
+          "name": "DISSOLVE_TRIPTYCH",
+          "args": ""
+        }
+      ],
+      "audio": "Silence except coffee cup on saucer. Each time: her 'Mm' with a sermon folded inside.",
+      "note": "[ADAPT] The Dezaki-style freeze + hatched pastel still is the 90s answer to a flashback.",
+      "showcase": null
+    },
+    {
+      "id": "S07-06",
+      "scene": "S07",
+      "start_frame": 11472,
+      "frames": 288,
+      "tc_in": "07:58:00",
+      "tc_out": "08:10:00",
+      "camera": "CU · pocket",
+      "animation_rate": 3,
+      "action": "“Eat lunch. A real one. Not coffee.” “Promise.” “You said that yesterday.” “I'll mean it harder today.” The coin is warm against his hip; something that kept its mouth shut for twenty-five years clears its throat.",
+      "fx": [
+        {
+          "name": "HEAT_SHIMMER",
+          "args": "pocket"
+        },
+        {
+          "name": "LIST_APPEND",
+          "args": "Ballroom, dancers, man in window, grandmother's question"
+        },
+        {
+          "name": "GLOW_AIRBRUSH",
+          "args": "low"
+        }
+      ],
+      "audio": "Under radio and Mamá's back, a low throat-clear rumble.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S07-07",
+      "scene": "S07",
+      "start_frame": 11760,
+      "frames": 144,
+      "tc_in": "08:10:00",
+      "tc_out": "08:16:00",
+      "camera": "TRACK · stairwell",
+      "animation_rate": 3,
+      "action": "He heads for work down four flights. At the fourth-floor stairwell wall his hand brushes the plaster; for a frame he almost listens.",
+      "fx": [
+        {
+          "name": "PAINTED_BG",
+          "args": "stairwell"
+        },
+        {
+          "name": "HAND_BRUSH_CEL",
+          "args": ""
+        }
+      ],
+      "audio": "Stairwell echo; a very faint wall hum that isn't there.",
+      "note": "[ADAPT] Plants Mikey (S14).",
+      "showcase": null
+    },
+    {
+      "id": "S08-01",
+      "scene": "S08",
+      "start_frame": 11904,
+      "frames": 120,
+      "tc_in": "08:16:00",
+      "tc_out": "08:21:00",
+      "camera": "TILT UP · WS",
+      "animation_rate": 3,
+      "action": "Banner on the netting, four stories tall: smiling mural people, 'A CALMER BLOCK STARTS HERE.' in rounded friendly type.",
+      "fx": [
+        {
+          "name": "PAINTED_BG",
+          "args": "banner"
+        },
+        {
+          "name": "STOCK_PHOTO_STYLE",
+          "args": "flat vector, deliberately bland"
+        }
+      ],
+      "audio": "Street ambience. Light jingle ghost.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S08-02",
+      "scene": "S08",
+      "start_frame": 12024,
+      "frames": 120,
+      "tc_in": "08:21:00",
+      "tc_out": "08:26:00",
+      "camera": "CU logo",
+      "animation_rate": 3,
+      "action": "Logo: a camera iris. As JC's eyes trace the blades, the overlapped curve lines up with the cemí spiral for exactly 3 frames, then un-aligns. Text: Aperture Civic. Community Spaces, Coming Soon.",
+      "fx": [
+        {
+          "name": "SIGIL_RHYME",
+          "args": "3f overlay, 40% alpha"
+        },
+        {
+          "name": "FLASH_FRAME",
+          "args": "1f"
+        }
+      ],
+      "audio": "A tiny soft 'click' like a shutter.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S08-03",
+      "scene": "S08",
+      "start_frame": 12144,
+      "frames": 384,
+      "tc_in": "08:26:00",
+      "tc_out": "08:42:00",
+      "camera": "TWO-SHOT",
+      "animation_rate": 3,
+      "action": "Two guys in hi-vis bolting the last corner to the scaffold. The one with the ladder has headphones around his neck. “Morning.” “You guys work late?” “Nights? Nah. Union. We clock out at three-thirty. Daylight only.” JC glances at the third-floor window: dark.",
+      "fx": [
+        {
+          "name": "HOLD",
+          "args": "bank cel"
+        },
+        {
+          "name": "MOUTH_FLAP",
+          "args": ""
+        },
+        {
+          "name": "INSERT_CU",
+          "args": "window dark"
+        }
+      ],
+      "audio": "Wrench clicks; elevated train in distance.",
+      "note": "Give him a distinct face. The headphone silhouette is a deliberate rhyme, not the window man.",
+      "showcase": null
+    },
+    {
+      "id": "S08-04",
+      "scene": "S08",
+      "start_frame": 12528,
+      "frames": 144,
+      "tc_in": "08:42:00",
+      "tc_out": "08:48:00",
+      "camera": "TRACK · walk",
+      "animation_rate": 3,
+      "action": "JC thanks him 'like a normal person' and walks toward the train. His heart does something rude: a heartbeat pulse in the frame edges.",
+      "fx": [
+        {
+          "name": "HEARTBEAT_PUMP",
+          "args": "vignette"
+        },
+        {
+          "name": "PAN_WITH_WALK",
+          "args": ""
+        }
+      ],
+      "audio": "Footsteps; heartbeat low.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S09-01",
+      "scene": "S09",
+      "start_frame": 12672,
+      "frames": 120,
+      "tc_in": "08:48:00",
+      "tc_out": "08:53:00",
+      "camera": "WS · exterior",
+      "animation_rate": 3,
+      "action": "El Disco Café under the El. A train passes overhead and the sign shakes. Where the paint has worn, older letters come through: DISCOS QUISQUEYA.",
+      "fx": [
+        {
+          "name": "PAINTED_BG",
+          "args": "cafe_exterior"
+        },
+        {
+          "name": "TRAIN_SHAKE",
+          "args": "CAMERA"
+        },
+        {
+          "name": "PALIMPSEST_TEXT",
+          "args": "fade"
+        }
+      ],
+      "audio": "Train roar; shake; everyone inside keeps talking.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S09-02",
+      "scene": "S09",
+      "start_frame": 12792,
+      "frames": 120,
+      "tc_in": "08:53:00",
+      "tc_out": "08:58:00",
+      "camera": "PAN · interior",
+      "animation_rate": 3,
+      "action": "Narrow room, tin ceiling, no two chairs from the same family, back wall where record bins used to run. The whole place shakes; cups rattle.",
+      "fx": [
+        {
+          "name": "PAINTED_BG",
+          "args": "cafe_interior"
+        },
+        {
+          "name": "CUP_RATTLE_CEL",
+          "args": ""
+        }
+      ],
+      "audio": "Background chatter loop; steamer; grinder.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S09-03",
+      "scene": "S09",
+      "start_frame": 12912,
+      "frames": 480,
+      "tc_in": "08:58:00",
+      "tc_out": "09:18:00",
+      "camera": "OTS · eyebrows insert",
+      "animation_rate": 3,
+      "action": "Mr. Rodríguez, not looking up: “Dime a ver, poeta. And that face.” “What face?” “That one. You look like you're getting a station the rest of us don't get.” “Long night. The power went out.” “The whole block, sí. Doña Fela says the Lord. Go. It's Tuesday, three gigs, no lunch. I'm not paying you to look haunted. Although it's good for the brand.”",
+      "fx": [
+        {
+          "name": "EYEBROW_GAG",
+          "args": "CU, 2s"
+        },
+        {
+          "name": "HOLD",
+          "args": "bank cel"
+        },
+        {
+          "name": "MOUTH_FLAP",
+          "args": ""
+        }
+      ],
+      "audio": "Tray on counter; his dry delivery.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S09-04",
+      "scene": "S09",
+      "start_frame": 13392,
+      "frames": 144,
+      "tc_in": "09:18:00",
+      "tc_out": "09:24:00",
+      "camera": "OVERLAY · JC",
+      "animation_rate": 3,
+      "action": "JC's rent math as floating numbers: café pays Friday, mural milestone, kid pays his half. Nine days. Sums orbit, cross each other out; 'it has never once come out even.' Tigueraje.",
+      "fx": [
+        {
+          "name": "NUMBER_ORBIT",
+          "args": "handwritten"
+        },
+        {
+          "name": "CROSS_OUT_CEL",
+          "args": ""
+        }
+      ],
+      "audio": "Calculator tick; his mouth moves silently.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S09-05",
+      "scene": "S09",
+      "start_frame": 13536,
+      "frames": 216,
+      "tc_in": "09:24:00",
+      "tc_out": "09:33:00",
+      "camera": "PAN · map",
+      "animation_rate": 3,
+      "action": "The map on butcher paper: Jerome Ave from 161st to 170th in pencil and marker, covered in index cards: Casa Fela, shoe repair, 1968–1994. Don Chino's barbershop (the line went out the door on Sundays). The Rialto, 25¢ Saturdays. A new card each week. One corner is blank.",
+      "fx": [
+        {
+          "name": "PAN_STILL",
+          "args": "painted map"
+        },
+        {
+          "name": "CARD_POP",
+          "args": "8 cards, hand-drawn icons"
+        }
+      ],
+      "audio": "Pencil on paper over the café hum.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S09-06",
+      "scene": "S09",
+      "start_frame": 13752,
+      "frames": 264,
+      "tc_in": "09:33:00",
+      "tc_out": "09:44:00",
+      "camera": "CU · blank card",
+      "animation_rate": 3,
+      "action": "“Your building's empty. The Ballroom. Saturday nights, mambo bands, my mother in her best shoes. I have the dates wrong, I know I do. You live upstairs. Ask your mother.” Hands over a blank card and marker. “Because when they change the block they change the story, and I want the story on paper first.” The 4 goes through, the cups rattle, he's gone to a table.",
+      "fx": [
+        {
+          "name": "TRAIN_SHAKE",
+          "args": ""
+        },
+        {
+          "name": "HOLD",
+          "args": ""
+        },
+        {
+          "name": "PUSH_IN",
+          "args": "blank card"
+        }
+      ],
+      "audio": "Train roar punctuates the line; cups.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S10-01",
+      "scene": "S10",
+      "start_frame": 14016,
+      "frames": 120,
+      "tc_in": "09:44:00",
+      "tc_out": "09:49:00",
+      "camera": "WS door → MS",
+      "animation_rate": 3,
+      "action": "9:30. Manny enters backward, shouldering the door with a drum case in one hand and two iced coffees in the other. “For the labor. I'm management now. I delegate hydration.”",
+      "fx": [
+        {
+          "name": "DOOR_BUMP_CEL",
+          "args": ""
+        },
+        {
+          "name": "SMEAR_CEL",
+          "args": "1f"
+        }
+      ],
+      "audio": "Door bell. Ice rattles.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S10-02",
+      "scene": "S10",
+      "start_frame": 14136,
+      "frames": 216,
+      "tc_in": "09:49:00",
+      "tc_out": "09:58:00",
+      "camera": "BIO CARDS",
+      "animation_rate": 2,
+      "action": "Quick intro vignettes: nine-year-old Manny hits a city trash can with two pencils so clean a grown man stops to listen; Manny at six-three doing a salsa step like a refrigerator; “allergic to emotions.”",
+      "fx": [
+        {
+          "name": "VIGNETTE_CARDS",
+          "args": "3"
+        },
+        {
+          "name": "SPEED_LINES",
+          "args": ""
+        },
+        {
+          "name": "SMEAR_CEL",
+          "args": ""
+        }
+      ],
+      "audio": "Pencil-on-trash-can groove, tight.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S10-03",
+      "scene": "S10",
+      "start_frame": 14352,
+      "frames": 336,
+      "tc_in": "09:58:00",
+      "tc_out": "10:12:00",
+      "camera": "CU palm → WS",
+      "animation_rate": 3,
+      "action": "Manny rests one palm flat on the drum case. The café has six noises (grinder, steamer, a stroller with a squeaky wheel, two guys on the Yankees bullpen, the freelancer's keyboard, Jerome traffic). They quit arguing and fall into one groove; you can almost hear a window click into its track; the baby, about to scream, sighs and closes her eyes. Manny doesn't notice. JC watches.",
+      "fx": [
+        {
+          "name": "SOUND_RIBBON",
+          "args": "6; amber,white,lime,red,cyan,violet"
+        },
+        {
+          "name": "RIBBONS_BRAID",
+          "args": "1.5s"
+        },
+        {
+          "name": "WINDOW_CLICK_INSERT",
+          "args": ""
+        },
+        {
+          "name": "BABY_SIGH_CU",
+          "args": ""
+        }
+      ],
+      "audio": "The six sounds start as noise, then lock into one pocket tempo. The steamer whistle sits on a clean A (440 Hz).",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S10-04",
+      "scene": "S10",
+      "start_frame": 14688,
+      "frames": 432,
+      "tc_in": "10:12:00",
+      "tc_out": "10:30:00",
+      "camera": "OTS dialogue",
+      "animation_rate": 3,
+      "action": "“You good?” “Long night.” “You always say long night. You ever have a short one?” “Twice. 2019. It was great.” “How's the kid's EP?” “Done.” “So send it.” “It needs one more pass.” “It's needed one more pass for a week, gremlin. Sunday. Rafa's circle in the park, you coming? Bring nothing. Stand in the back.” “I'll try.” “That's a no in a nicer shirt.”",
+      "fx": [
+        {
+          "name": "HOLD",
+          "args": "bank cel"
+        },
+        {
+          "name": "MOUTH_FLAP",
+          "args": ""
+        },
+        {
+          "name": "CHEEK_SMEAR",
+          "args": "laugh"
+        }
+      ],
+      "audio": "Warm café ambience; Manny's easy bass voice.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S10-05",
+      "scene": "S10",
+      "start_frame": 15120,
+      "frames": 192,
+      "tc_in": "10:30:00",
+      "tc_out": "10:38:00",
+      "camera": "UI · phone",
+      "animation_rate": 3,
+      "action": "Yari's daily text: did you eat / define eat / juan carlos. He sends a photo of the iced coffee; she replies with one skull.",
+      "fx": [
+        {
+          "name": "UI_PHONE",
+          "args": "bubbles"
+        },
+        {
+          "name": "EMOJI_CEL",
+          "args": ""
+        }
+      ],
+      "audio": "Phone buzz and whoosh.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S11-01",
+      "scene": "S11",
+      "start_frame": 15312,
+      "frames": 120,
+      "tc_in": "10:38:00",
+      "tc_out": "10:43:00",
+      "camera": "CU phone",
+      "animation_rate": 3,
+      "action": "10:40. Email: From: Partnerships Team, Aperture Civic. Subject: Juan Carlos — we've been watching your work.",
+      "fx": [
+        {
+          "name": "UI_PHONE",
+          "args": "email"
+        }
+      ],
+      "audio": "Buzz.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S11-02",
+      "scene": "S11",
+      "start_frame": 15432,
+      "frames": 336,
+      "tc_in": "10:43:00",
+      "tc_out": "10:57:00",
+      "camera": "CU phone · push",
+      "animation_rate": 3,
+      "action": "The email body scrolls, key phrases glowing slightly: 'building-listening practice', 'real resources', 'Founders' Night … Kingsbridge Armory', 'no strings on the creative', 'We'd like to take it off you.' Signed Adrian Vale, Director of Community Partnerships.",
+      "fx": [
+        {
+          "name": "TEXT_HIGHLIGHT",
+          "args": "CEL"
+        },
+        {
+          "name": "READ_TWICE_CUT",
+          "args": "2x"
+        }
+      ],
+      "audio": "Voice read: neutral, warm. Behind it the café quiets.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S11-03",
+      "scene": "S11",
+      "start_frame": 15768,
+      "frames": 192,
+      "tc_in": "10:57:00",
+      "tc_out": "11:05:00",
+      "camera": "MS counter",
+      "animation_rate": 3,
+      "action": "JC reads it twice; the second reading is worse because they are right. Flattery he can shrug off. This named the thing he is proud of. Nine days from rent, on cafecito and spite.",
+      "fx": [
+        {
+          "name": "OVERLAY_SUMS",
+          "args": "callback S09"
+        },
+        {
+          "name": "FLATTEN",
+          "args": "0.15"
+        }
+      ],
+      "audio": "VO as in the book, trimmed.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S11-04",
+      "scene": "S11",
+      "start_frame": 15960,
+      "frames": 216,
+      "tc_in": "11:05:00",
+      "tc_out": "11:14:00",
+      "camera": "ECU pocket",
+      "animation_rate": 3,
+      "action": "On the third read, at 'take it off you': the coin goes from warm to a heat he feels through the denim. The steamer whistle, sitting on a clean A (440 Hz), sags half a step flat (≈415 Hz). Manny's palm is still on the case: the note comes back.",
+      "fx": [
+        {
+          "name": "HEAT_SHIMMER",
+          "args": "pocket ↑"
+        },
+        {
+          "name": "PITCH_SAG",
+          "args": "audio -100 cents, 2s → recover 1s"
+        },
+        {
+          "name": "PRESS",
+          "args": "0.12"
+        }
+      ],
+      "audio": "Whistle sag and recovery are the sound cue.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S11-05",
+      "scene": "S11",
+      "start_frame": 16176,
+      "frames": 192,
+      "tc_in": "11:14:00",
+      "tc_out": "11:22:00",
+      "camera": "CU thumb → flash",
+      "animation_rate": 3,
+      "action": "Thumb above the screen: open it, read the rest, see the number. He forwards the preview to Sofía (is this anything) and flips the phone face down. Flash: a hand gripping a small child's sleeve at a curb as a car passes. 'No. Not them.'",
+      "fx": [
+        {
+          "name": "FLASH_CUT",
+          "args": "3 cards, 4f each"
+        },
+        {
+          "name": "PHONE_FACE_DOWN",
+          "args": ""
+        }
+      ],
+      "audio": "Car horn dopplering; one breath.",
+      "note": "Don't show the face of whoever held the sleeve.",
+      "showcase": null
+    },
+    {
+      "id": "S11-06",
+      "scene": "S11",
+      "start_frame": 16368,
+      "frames": 576,
+      "tc_in": "11:22:00",
+      "tc_out": "11:46:00",
+      "camera": "OTS dialogue",
+      "animation_rate": 3,
+      "action": "“What was that face?” “Spam.” Manny holds out his hand. JC lets him read it. “Bro. Hardware? A budget? A commission at the Armory? That's a real stage, JC.” “I'm not calling them back.” “Why.” “I can't explain it. I'm not doing it.” “Last time you couldn't explain it, it was the dude selling Hennessy out a Honda, and you were right. It'll cost you, though. Real money.” “I know.” “Just so the record reflects I tried to make you rich. Sofía's gonna make a spreadsheet. It's gonna have tabs.”",
+      "fx": [
+        {
+          "name": "HOLD",
+          "args": "bank cel"
+        },
+        {
+          "name": "MOUTH_FLAP",
+          "args": ""
+        },
+        {
+          "name": "HONDA_FLASH_CEL",
+          "args": "2f"
+        }
+      ],
+      "audio": "Warm café ambience; the train arrives at the end.",
+      "note": "The Honda flash plants Ch.5.",
+      "showcase": null
+    },
+    {
+      "id": "S12-01",
+      "scene": "S12",
+      "start_frame": 16944,
+      "frames": 120,
+      "tc_in": "11:46:00",
+      "tc_out": "11:51:00",
+      "camera": "WS street · ECU rail",
+      "animation_rate": 3,
+      "action": "11:12. The 4 hits the curve up the block and screams on the rail. Inside the café the steamer whistle lands on the same note. Two sound-ribbons merge into one line.",
+      "fx": [
+        {
+          "name": "RIBBON_MERGE",
+          "args": "steel_white + brass_gold"
+        },
+        {
+          "name": "SPARKS_CEL",
+          "args": ""
+        },
+        {
+          "name": "TEXT_SUPER",
+          "args": "11:12"
+        }
+      ],
+      "audio": "Train + whistle unison, then a shimmer on top.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S12-02",
+      "scene": "S12",
+      "start_frame": 17064,
+      "frames": 120,
+      "tc_in": "11:51:00",
+      "tc_out": "11:56:00",
+      "camera": "ECU puck → ear",
+      "animation_rate": 3,
+      "action": "The contact-mic puck on the steel counter edge takes the train, the steamer and everything the old counter ever stood next to, and pours it into his left ear: a luminous ribbon travels counter → earbud.",
+      "fx": [
+        {
+          "name": "SOUND_STREAM_CEL",
+          "args": ""
+        },
+        {
+          "name": "HOLD",
+          "args": "puck"
+        }
+      ],
+      "audio": "Left channel loaded: stereo mix goes hard left.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S12-03",
+      "scene": "S12",
+      "start_frame": 17184,
+      "frames": 96,
+      "tc_in": "11:56:00",
+      "tc_out": "12:00:00",
+      "camera": "ECU eyes",
+      "animation_rate": 3,
+      "action": "The building shakes the way it always does. His eyes, which had no vote, go where his ear went.",
+      "fx": [
+        {
+          "name": "EYELINE_SHIFT",
+          "args": ""
+        },
+        {
+          "name": "REFLECT_CEL",
+          "args": "tin ceiling"
+        }
+      ],
+      "audio": "A held train bed.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S12-04",
+      "scene": "S12",
+      "start_frame": 17280,
+      "frames": 168,
+      "tc_in": "12:00:00",
+      "tc_out": "12:07:00",
+      "camera": "WIPE_ERA · interior",
+      "animation_rate": 3,
+      "action": "The tin ceiling stays as the anchor. Everything else changes front-to-back: mismatched chairs → a uniform set; empty bins fill with 45s in paper sleeves; two box fans appear; the air shimmers with heat. Color grade swings to warm 1973.",
+      "fx": [
+        {
+          "name": "WIPE_ERA",
+          "args": "anchor=ceiling"
+        },
+        {
+          "name": "BIN_FILL_STAGGER",
+          "args": "1s"
+        },
+        {
+          "name": "LIGHT_FIGURE",
+          "args": "0.4"
+        },
+        {
+          "name": "FILM_GRAIN↑",
+          "args": ""
+        },
+        {
+          "name": "HALATION",
+          "args": ""
+        }
+      ],
+      "audio": "Mambo from a lunchbox radio fades in; fan whir.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S12-05",
+      "scene": "S12",
+      "start_frame": 17448,
+      "frames": 192,
+      "tc_in": "12:07:00",
+      "tc_out": "12:15:00",
+      "camera": "MS · counterman",
+      "animation_rate": 3,
+      "action": "Sign: HOY NO SE FÍA, MAÑANA SÍ. Behind the register a man with a mustache, a good shirt, Mr. Rodríguez's eyebrows 'half a century early'. Flyer in the window: BACK TO SCHOOL JAM — SEDGWICK — SAT.",
+      "fx": [
+        {
+          "name": "EYEBROW_MATCH_CUT",
+          "args": "S09"
+        },
+        {
+          "name": "PAINTED_BG",
+          "args": "shop_1973"
+        },
+        {
+          "name": "DUST_IN_LIGHT",
+          "args": ""
+        }
+      ],
+      "audio": "Mambo; register bell.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S12-06",
+      "scene": "S12",
+      "start_frame": 17640,
+      "frames": 384,
+      "tc_in": "12:15:00",
+      "tc_out": "12:31:00",
+      "camera": "LOW ANGLE counter",
+      "animation_rate": 3,
+      "action": "A kid, fifteen or sixteen, shell-toe Adidas, a milk crate on his hip, puts down two copies of the same record. “Dos iguales? You got two turntables?” “Todavía no.” He pays in quarters and leaves with the crate. The counterman shakes his head, smiling, as if told a good lie.",
+      "fx": [
+        {
+          "name": "QUARTERS_SPIN_CEL",
+          "args": ""
+        },
+        {
+          "name": "MOUTH_FLAP",
+          "args": ""
+        },
+        {
+          "name": "SHOE_INSERT",
+          "args": ""
+        }
+      ],
+      "audio": "Quarters on the counter, spinning.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S12-07",
+      "scene": "S12",
+      "start_frame": 18024,
+      "frames": 240,
+      "tc_in": "12:31:00",
+      "tc_out": "12:41:00",
+      "camera": "WHIP-PAN · MS",
+      "animation_rate": 3,
+      "action": "At the far end, where the sun doesn't reach, a thin man in a brown suit with a small notebook. He bought nothing. He writes quickly, one mark at a time. His eyes follow the kid to the door, then the street, 'as if the street were part of the sale'. He ticks something. Then he looks up past the register, at the exact spot in the air where JC stands.",
+      "fx": [
+        {
+          "name": "WHIP_PAN",
+          "args": "eyeline to street"
+        },
+        {
+          "name": "PUSH_IN",
+          "args": "thin man, 6%"
+        },
+        {
+          "name": "FLASH_FRAME",
+          "args": "2f at eye-lock"
+        },
+        {
+          "name": "DOUBLE_EXPOSURE",
+          "args": "window man, 8f"
+        }
+      ],
+      "audio": "Pen tick placed forward. At the eye-lock, a cut to silence.",
+      "note": "SHOWCASE CUT 2 climaxes here. Show the window man for 8 frames in double exposure, not a clear reveal.",
+      "showcase": "SC-2 'The Pour, The Eye-lock'"
+    },
+    {
+      "id": "S12-08",
+      "scene": "S12",
+      "start_frame": 18264,
+      "frames": 192,
+      "tc_in": "12:41:00",
+      "tc_out": "12:49:00",
+      "camera": "CU milk → CU Manny",
+      "animation_rate": 2,
+      "action": "Snap back. The pitcher is overflowing; milk runs over JC's knuckles, hot, and he didn't feel it. “JC. JC.” Manny's hand on his shoulder; the freelancer is staring; Mr. Rodríguez is already halfway across the room. JC's voice comes from 'the far side of a wall'.",
+      "fx": [
+        {
+          "name": "MILK_OVERFLOW_CEL",
+          "args": "see keys"
+        },
+        {
+          "name": "FLASH_FRAME",
+          "args": "1f"
+        },
+        {
+          "name": "VOICE_MUFFLE → CLEAR",
+          "args": ""
+        }
+      ],
+      "audio": "Sound returns with a slam; JC's voice delayed and muffled, then clear.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S12-09",
+      "scene": "S12",
+      "start_frame": 18456,
+      "frames": 432,
+      "tc_in": "12:49:00",
+      "tc_out": "13:07:00",
+      "camera": "OTS dialogue",
+      "animation_rate": 3,
+      "action": "“You went somewhere.” Low, just for him; his other palm is still flat on the case and the room comes back together around it. “That wasn't a tired thing.” “It was a tired thing.” “JC.” “It was a tired thing, Manny.” He wipes the milk: his skin is pink and fine. He dumps the latte and starts another, 'performing steady'. “I didn't eat. I told my mom I'd eaten. I didn't eat.” Manny takes his hand off slowly, watches from the side of his eye.",
+      "fx": [
+        {
+          "name": "SIX_NOISES_REKNIT",
+          "args": ""
+        },
+        {
+          "name": "HOLD",
+          "args": ""
+        },
+        {
+          "name": "MOUTH_FLAP",
+          "args": ""
+        }
+      ],
+      "audio": "Café noises braiding back together.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S12-10",
+      "scene": "S12",
+      "start_frame": 18888,
+      "frames": 192,
+      "tc_in": "13:07:00",
+      "tc_out": "13:15:00",
+      "camera": "MONTAGE",
+      "animation_rate": 2,
+      "action": "Twenty cortados in a rhythm montage with the 4 passing and the steamer on a clean A. On number fourteen, JC realizes what bothered him about the email: it said 'building-listening'. Nobody had ever called it that. Inserts: closet, raw feed, one laptop on the fourth floor.",
+      "fx": [
+        {
+          "name": "COUNTER_TICKER",
+          "args": "1→20"
+        },
+        {
+          "name": "INSERT_CLOSET",
+          "args": ""
+        },
+        {
+          "name": "TEXT_HIGHLIGHT",
+          "args": "'building-listening'"
+        }
+      ],
+      "audio": "Rhythmic cup-and-steam beat; sudden quiet on the realization.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S12-11",
+      "scene": "S12",
+      "start_frame": 19080,
+      "frames": 216,
+      "tc_in": "13:15:00",
+      "tc_out": "13:24:00",
+      "camera": "CU card → PUSH-IN map",
+      "animation_rate": 3,
+      "action": "He takes a blank card and writes: Ballroom, Saturday nights, mambo bands. Ask Mamá. A yellow pushpin pins it to the empty corner of Jerome. The 4 comes through, the whole room shakes, and everybody keeps talking.",
+      "fx": [
+        {
+          "name": "HANDWRITING_CEL",
+          "args": ""
+        },
+        {
+          "name": "PUSHPIN_INSERT",
+          "args": ""
+        },
+        {
+          "name": "TRAIN_SHAKE",
+          "args": ""
+        }
+      ],
+      "audio": "Pen. Pin. Train. Chatter continues.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S13-01",
+      "scene": "S13",
+      "start_frame": 19296,
+      "frames": 120,
+      "tc_in": "13:24:00",
+      "tc_out": "13:29:00",
+      "camera": "WS · vending machine",
+      "animation_rate": 3,
+      "action": "Super: 2:15 PM. Library vending machine: platanitos and a ginger ale. 'That counts.' Mamá's disapproving VO: she would call it a funeral for a lunch.",
+      "fx": [
+        {
+          "name": "PAINTED_BG",
+          "args": "library_hall"
+        },
+        {
+          "name": "TEXT_SUPER",
+          "args": ""
+        }
+      ],
+      "audio": "Machine thump; ginger-ale hiss.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S13-02",
+      "scene": "S13",
+      "start_frame": 19416,
+      "frames": 120,
+      "tc_in": "13:29:00",
+      "tc_out": "13:34:00",
+      "camera": "WS · reading room",
+      "animation_rate": 3,
+      "action": "The old branch on the Concourse: green-shaded lamps, oak tables rubbed shiny by ninety years of elbows, a radiator that knocks, a man in a Mets jacket snoring in 'long, generous phrases' (JC calls him a public service).",
+      "fx": [
+        {
+          "name": "PAINTED_BG",
+          "args": "library_interior"
+        },
+        {
+          "name": "LAMP_GLOW",
+          "args": ""
+        }
+      ],
+      "audio": "Radiator knock; snore; lamp buzz.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S13-03",
+      "scene": "S13",
+      "start_frame": 19536,
+      "frames": 240,
+      "tc_in": "13:34:00",
+      "tc_out": "13:44:00",
+      "camera": "UI · phone",
+      "animation_rate": 3,
+      "action": "Sofía's text flood: that 'is this anything' email / JC / where are you / ok i'm not waiting. it's not spam. it's so much worse than spam / you in a hole. you're in a hole aren't you / i can see your location you absolute bobo. don't move. Then Denise: Hi JC! Quick heads up, the board is holding your milestone payment until our partner review next week. Just process!",
+      "fx": [
+        {
+          "name": "UI_PHONE",
+          "args": "chat typed fast"
+        },
+        {
+          "name": "EXCLAMATION_CEL",
+          "args": ""
+        },
+        {
+          "name": "OVERLAY_SUMS",
+          "args": ""
+        }
+      ],
+      "audio": "Rapid buzzes; Denise's text read in a chirpy VO.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S13-04",
+      "scene": "S13",
+      "start_frame": 19776,
+      "frames": 216,
+      "tc_in": "13:44:00",
+      "tc_out": "13:53:00",
+      "camera": "CU laptop",
+      "animation_rate": 3,
+      "action": "Four searches and a museum site that looks like 2003. A glass-case photo from three angles: a three-pointed dark stone, size of a fist, a face carved on the front, on the back a spiral opening into a triangle. Card: Zemí (cemí), Dominican Republic, c. 1000–1500. The Taíno thought of a cemí as a spirit and the thing the spirit lived in, both at once.",
+      "fx": [
+        {
+          "name": "WEB_1999_UI",
+          "args": "frames, tiled bg"
+        },
+        {
+          "name": "STONE_ROTATE_3VIEWS",
+          "args": ""
+        },
+        {
+          "name": "TEXT_SUPER",
+          "args": "card"
+        }
+      ],
+      "audio": "Dial-up-adjacent modem texture, tastefully; VO reads the card.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S13-05",
+      "scene": "S13",
+      "start_frame": 19992,
+      "frames": 168,
+      "tc_in": "13:53:00",
+      "tc_out": "14:00:00",
+      "camera": "CU coin vs screen",
+      "animation_rate": 3,
+      "action": "He lays the coin beside the screen. The hooks match; the spiral turns the same way and opens in the same place. A pen draws both with one stroke: 'same handwriting'.",
+      "fx": [
+        {
+          "name": "OVERLAY_ALIGN",
+          "args": "coin ↔ stone, gold glow"
+        },
+        {
+          "name": "HANDWRITING_CEL",
+          "args": "single stroke"
+        }
+      ],
+      "audio": "A very soft chime on alignment.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S13-06",
+      "scene": "S13",
+      "start_frame": 20160,
+      "frames": 240,
+      "tc_in": "14:00:00",
+      "tc_out": "14:10:00",
+      "camera": "FLASHBACK · Santo Domingo",
+      "animation_rate": 3,
+      "action": "JC at eight, the only visit he remembers: bright room, a closet, a bundle wrapped in old cloth the size of two cupped hands. He reaches. Abuela's hand catches his wrist, quick and not hard, the way you stop a glass going off a counter. “No se toca a la Madre.” Then she gives him a mango and that ends the discussion.",
+      "fx": [
+        {
+          "name": "FLASHBACK_PALETTE",
+          "args": "saturated tropical, watercolor BG"
+        },
+        {
+          "name": "HOLD",
+          "args": ""
+        },
+        {
+          "name": "HANDS_ONLY",
+          "args": "Abuela, face withheld"
+        },
+        {
+          "name": "HARMONY_CUT",
+          "args": "end freeze"
+        }
+      ],
+      "audio": "Ceiling fan, distant moto, no score.",
+      "note": "[ADAPT] Abuela's face withheld on purpose; reveal later.",
+      "showcase": null
+    },
+    {
+      "id": "S13-07",
+      "scene": "S13",
+      "start_frame": 20400,
+      "frames": 120,
+      "tc_in": "14:10:00",
+      "tc_out": "14:15:00",
+      "camera": "CU phone · back to library",
+      "animation_rate": 3,
+      "action": "He doesn't call her. Calling would make it a thing, and she'd pick up on the first ring. He takes out the contact mic puck instead and sets it on the oak.",
+      "fx": [
+        {
+          "name": "PHONE_GLOW_THEN_DARK",
+          "args": ""
+        },
+        {
+          "name": "PUCK_ON_TABLE",
+          "args": ""
+        }
+      ],
+      "audio": "Phantom first-ring sound that never comes.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S13-08",
+      "scene": "S13",
+      "start_frame": 20520,
+      "frames": 144,
+      "tc_in": "14:15:00",
+      "tc_out": "14:21:00",
+      "camera": "ECU puck",
+      "animation_rate": 3,
+      "action": "Quiet check. Three sounds agree with each other: the radiator knock, the Mets fan's snore, the lamp's thin buzz. They snap together into one chord. He has never worked out why.",
+      "fx": [
+        {
+          "name": "SOUND_RIBBON",
+          "args": "3"
+        },
+        {
+          "name": "RIBBON_CHORD_LOCK",
+          "args": ""
+        },
+        {
+          "name": "PITCH_LABELS",
+          "args": "root, major-third, fifth"
+        }
+      ],
+      "audio": "The three real sounds tune into 4:5:6.",
+      "note": "[ADAPT] Chord as a hint that 'alive' sound is consonant.",
+      "showcase": null
+    },
+    {
+      "id": "S13-09",
+      "scene": "S13",
+      "start_frame": 20664,
+      "frames": 168,
+      "tc_in": "14:21:00",
+      "tc_out": "14:28:00",
+      "camera": "DISSOLVE · ECHO",
+      "animation_rate": 3,
+      "action": "Lamp buzz expands to full orchestral lamps; tables fill with people made of light. Super: SATURDAY, 1934, judging by the hats. A pan of hats.",
+      "fx": [
+        {
+          "name": "WIPE_ERA",
+          "args": "anchor=oak table"
+        },
+        {
+          "name": "LIGHT_FIGURE",
+          "args": ""
+        },
+        {
+          "name": "PERIOD_GRADE",
+          "args": "1934: amber+green lamp tint, low sat"
+        }
+      ],
+      "audio": "Lamp buzz fades into five languages.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S13-10",
+      "scene": "S13",
+      "start_frame": 20832,
+      "frames": 432,
+      "tc_in": "14:28:00",
+      "tc_out": "14:46:00",
+      "camera": "LONG LATERAL TRACK",
+      "animation_rate": 3,
+      "action": "A single left-to-right move past each table: a grandfather reading a Yiddish paper with his lips moving; two Irish girls splitting an apple under the table, passing a penknife; a man in a porter's cap, one finger under the line; a Puerto Rican mother steering two kids to picture books by the backs of their collars; a boy copying a world map from an atlas, tongue between teeth, while a boy a shade darker borrows his eraser without asking and returns it without thanks, and neither looks up; a librarian with spectacles on a chain stamping due dates hard enough to make the pencils jump; a hand-lettered card: FREE CONCERT, CONCOURSE PLAZA, SUNDAY, ALL WELCOME.",
+      "fx": [
+        {
+          "name": "MULTIPLANE_LATERAL",
+          "args": "painted BG strip, 5 layers"
+        },
+        {
+          "name": "LANE_FIELD",
+          "args": "6 lanes"
+        },
+        {
+          "name": "LIGHT_FIGURE",
+          "args": ""
+        },
+        {
+          "name": "PENCIL_JUMP_CEL",
+          "args": ""
+        },
+        {
+          "name": "FILM_GRAIN",
+          "args": ""
+        }
+      ],
+      "audio": "Each table's sound pans in as the camera passes: Yiddish murmur, giggle, pencil, rumba through the wall, stamp.",
+      "note": "SHOWCASE CUT 3. See keys.",
+      "showcase": "SC-3 'The Lanes'"
+    },
+    {
+      "id": "S13-11",
+      "scene": "S13",
+      "start_frame": 21264,
+      "frames": 192,
+      "tc_in": "14:46:00",
+      "tc_out": "14:54:00",
+      "camera": "CU JC",
+      "animation_rate": 3,
+      "action": "He goes looking for the 'pressed place', pushing on the bruise to see if it's still there. Nothing. He listens until his ear hurts. His eyes sting over a rumba and an eraser. Super over his face: TEN BLOCKS FROM MY BUILDING. 'Nobody had ever mentioned it used to sound like this.'",
+      "fx": [
+        {
+          "name": "LANE_FIELD",
+          "args": "empty floor lane"
+        },
+        {
+          "name": "EAR_PAIN_PULSE",
+          "args": ""
+        },
+        {
+          "name": "TEARS_CEL",
+          "args": "sting"
+        }
+      ],
+      "audio": "Reading-room sound thins to the quietest one thing.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S13-12",
+      "scene": "S13",
+      "start_frame": 21456,
+      "frames": 96,
+      "tc_in": "14:54:00",
+      "tc_out": "14:58:00",
+      "camera": "WIPE_ERA",
+      "animation_rate": 3,
+      "action": "Back to the present: fluorescent tubes, a water stain on the ceiling shaped like Staten Island, the Mets fan going strong.",
+      "fx": [
+        {
+          "name": "WIPE_ERA",
+          "args": "reverse"
+        },
+        {
+          "name": "PAINTED_BG",
+          "args": "library_present"
+        }
+      ],
+      "audio": "Fluorescent hum replaces the lamps.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S14-01",
+      "scene": "S14",
+      "start_frame": 21552,
+      "frames": 120,
+      "tc_in": "14:58:00",
+      "tc_out": "15:03:00",
+      "camera": "MS · behind JC",
+      "animation_rate": 3,
+      "action": "“You're doing the thing.” Sofía's hand hovers over his shoulder without landing. She's got the laptop open before she's sat. Gag: split card: SOFÍA (ASLEEP) / SOFÍA (PROSECUTING).",
+      "fx": [
+        {
+          "name": "SPLIT_CARD_GAG",
+          "args": ""
+        },
+        {
+          "name": "SMEAR_CEL",
+          "args": "sitting"
+        }
+      ],
+      "audio": "Chair scrape; laptop open chime.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S14-02",
+      "scene": "S14",
+      "start_frame": 21672,
+      "frames": 120,
+      "tc_in": "15:03:00",
+      "tc_out": "15:08:00",
+      "camera": "CU Sofía",
+      "animation_rate": 3,
+      "action": "“Where'd you go?” “Nowhere. Library. I'm researching.” “With a face like somebody ran over your dog.” Flash: Sofía reading a lease aloud to a landlord; by page four he's changed the lock on his own door. 'She looks at a system and sees what it's for, and then she tells it.'",
+      "fx": [
+        {
+          "name": "FLASH_VIGNETTE",
+          "args": "lease"
+        },
+        {
+          "name": "HOLD",
+          "args": ""
+        }
+      ],
+      "audio": "Landlord gulp.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S14-03",
+      "scene": "S14",
+      "start_frame": 21792,
+      "frames": 384,
+      "tc_in": "15:08:00",
+      "tc_out": "15:24:00",
+      "camera": "UI GRAPH",
+      "animation_rate": 3,
+      "action": "Aperture Civic: registered 2024; five-month-old gorgeous website; no employees on any record. The shell tree builds itself on screen: three shells → paper that 'turns into a lawyer's lunch' (sandwich icon) → a holding company → a youth digital-wellness nonprofit, a music-licensing outfit, a development group with permits on four buildings, including his. The Ballroom, the arts space, the mural: his. Eleven tabs; a pie chart; 'Manny owes me a dollar.'",
+      "fx": [
+        {
+          "name": "UI_GRAPH_CEL",
+          "args": "nodes+lines, draw-on"
+        },
+        {
+          "name": "BUILDING_PINS",
+          "args": "block map"
+        },
+        {
+          "name": "SANDWICH_GAG",
+          "args": ""
+        }
+      ],
+      "audio": "Trackpad taps; each node pings once.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S14-04",
+      "scene": "S14",
+      "start_frame": 22176,
+      "frames": 240,
+      "tc_in": "15:24:00",
+      "tc_out": "15:34:00",
+      "camera": "CU laptop → grid",
+      "animation_rate": 3,
+      "action": "The date: JUNE THIRTEENTH, FOUNDERS' NIGHT, the Armory. A photo of Adrian Vale (tall, gray, courteous, good coat) with giant scissors in one hand and a small black notebook in the other. A grid of nine photos: the notebook in all nine. 'Who brings a notebook to a ribbon-cutting?' JC looks at it longer than he wants. Triptych flash: ledger man's book / thin man's notebook / Vale's notebook.",
+      "fx": [
+        {
+          "name": "PHOTO_GRID",
+          "args": "9"
+        },
+        {
+          "name": "NOTEBOOK_TRIPTYCH",
+          "args": "3x 6f"
+        },
+        {
+          "name": "HOLD",
+          "args": ""
+        }
+      ],
+      "audio": "Pen tick ×3, once for each notebook.",
+      "note": "Visual rhyme only. Do not confirm they are the same person.",
+      "showcase": null
+    },
+    {
+      "id": "S14-05",
+      "scene": "S14",
+      "start_frame": 22416,
+      "frames": 480,
+      "tc_in": "15:34:00",
+      "tc_out": "15:54:00",
+      "camera": "OTS · earbud",
+      "animation_rate": 3,
+      "action": "JC tells her about the loop and puts an earbud in her hand. “That's a loop. That's every hold music in America.” “It's under everything on the block. No tune. It makes whatever it's under feel pressed flat. And the block's been mean lately.” “I've noticed it's been a long winter and the landlord on Creston is a monster.” She sets the earbud down 'like evidence'. “What I don't have is a number... I need a control. A block without it.”",
+      "fx": [
+        {
+          "name": "HOLD",
+          "args": ""
+        },
+        {
+          "name": "MOUTH_FLAP",
+          "args": ""
+        },
+        {
+          "name": "EARBUD_INSERT",
+          "args": ""
+        },
+        {
+          "name": "HOLD_MUSIC_GAG",
+          "args": "2s"
+        }
+      ],
+      "audio": "The loop in the earbud; mid-line cut to bland hold-music for the gag.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S14-06",
+      "scene": "S14",
+      "start_frame": 22896,
+      "frames": 480,
+      "tc_in": "15:54:00",
+      "tc_out": "16:14:00",
+      "camera": "MONTAGE · storefronts",
+      "animation_rate": 3,
+      "action": "SOUND OF THE BLOCK: in January the licensing arm gave away free in-store systems: bodega, laundromat, barbershop, two nail salons, the dentist. One page-and-a-half contract; 'community partner' decal in each window. “Name me the one inside a mile that didn't sign.” Cut to Mr. Rodríguez telling the rep to take the speaker back 'to whatever planet it came from'. He plays his own records. The radiator knocks twice, as an answer. “A control.” Sofía looks 'completely, unfairly happy': “I'm in love with a coffee shop.”",
+      "fx": [
+        {
+          "name": "STOREFRONT_CARDS",
+          "args": "6, speaker glow"
+        },
+        {
+          "name": "DECAL_INSERT",
+          "args": ""
+        },
+        {
+          "name": "CAFE_CUTAWAY",
+          "args": ""
+        },
+        {
+          "name": "HARMONY_CUT",
+          "args": "Sofía joy freeze"
+        }
+      ],
+      "audio": "Six bland playlists overlap into slurry; then the café record player alone.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S14-07",
+      "scene": "S14",
+      "start_frame": 23376,
+      "frames": 216,
+      "tc_in": "16:14:00",
+      "tc_out": "16:23:00",
+      "camera": "UI · rewind",
+      "animation_rate": 3,
+      "action": "The registered-agent address 'has had other names'. Rewind: Aperture Civic ← a data startup ← a consultancy ← Quiet Hours Foundation. A grainy scanned PDF: state seal; Early Calm Pilot: Final Report, 2007. A grant: four elementary schools, all in this zip code; a 'calm environment' program: ambient tones in the classrooms plus a screening tool. JC's hand stops on the table.",
+      "fx": [
+        {
+          "name": "NAME_REWIND_CEL",
+          "args": ""
+        },
+        {
+          "name": "SCAN_PDF_FX",
+          "args": "grain, skew"
+        },
+        {
+          "name": "HAND_FREEZE",
+          "args": ""
+        }
+      ],
+      "audio": "Typewriter rewind; a flat drone as the PDF comes up.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S14-08",
+      "scene": "S14",
+      "start_frame": 23592,
+      "frames": 672,
+      "tc_in": "16:23:00",
+      "tc_out": "16:51:00",
+      "camera": "FLASHBACK · classroom",
+      "animation_rate": 3,
+      "action": "A supply closet, a beige mesh-faced box above the cubbies, a rug shaped like the United States (JC always got Nebraska). After lunch is 'quiet time': lights off, heads down. The box puts out one low even tone, like a dentist's waiting room with nobody in it. Everyone puts their heads on their arms. For six-year-old JC the whole room goes flat: air, light, his own hands. He taps the desk leg, a little rhythm, because it's the only thing his body has to push back with. A teacher writes it down; a woman with a lanyard watches with a clipboard; a letter comes home. Father reads it standing in the kitchen with his careful electric-bill face. One word: “Nivel dos.” Mamá puts the letter in the drawer for papers that matter: the lease, his father's death certificate in a folder she still hasn't opened, the school letters nobody answered. The drawer shuts from the other room.",
+      "fx": [
+        {
+          "name": "PRESS",
+          "args": "0→0.9 over 6s; ONLY the tapping hand keeps color; see keys"
+        },
+        {
+          "name": "BEIGE_PALETTE",
+          "args": ""
+        },
+        {
+          "name": "HOLD",
+          "args": "6s fps"
+        },
+        {
+          "name": "FILM_GRAIN↑",
+          "args": ""
+        },
+        {
+          "name": "HARMONY_CUT",
+          "args": "letter"
+        }
+      ],
+      "audio": "A dental-waiting-room tone: mono, dry, no stereo. His tapping is the only reverb in the room.",
+      "note": "SHOWCASE CUT 4. The first time PRESS is applied to a person's memory.",
+      "showcase": "SC-4 'Press, Age Six'"
+    },
+    {
+      "id": "S14-09",
+      "scene": "S14",
+      "start_frame": 24264,
+      "frames": 216,
+      "tc_in": "16:51:00",
+      "tc_out": "17:00:00",
+      "camera": "OTS · laptop rubric",
+      "animation_rate": 3,
+      "action": "“Level two,” the letter said. Sofía scrolls: the Calm Index, one to four. Level 2: 'Atypical response to ambient stimulus.' Hand-tapping, vocalizing, agitation during rest periods. “That's you.” “That's a sentence you write when you're looking for the kids who react. We need the screening records.”",
+      "fx": [
+        {
+          "name": "RUBRIC_UI",
+          "args": "highlight line"
+        },
+        {
+          "name": "NECK_CHILL_FX",
+          "args": "ring"
+        },
+        {
+          "name": "HOLD",
+          "args": ""
+        }
+      ],
+      "audio": "Quiet UI; the loop thin and far.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S14-10",
+      "scene": "S14",
+      "start_frame": 24480,
+      "frames": 360,
+      "tc_in": "17:00:00",
+      "tc_out": "17:15:00",
+      "camera": "FLASHBACK · stairwell",
+      "animation_rate": 3,
+      "action": "Mikey lived on four and was in JC's class. JC can't remember his score; he remembers what the mothers called it: 'the three', low, in the voice they used for a man who'd gone upstate. Mikey's mother said it most. Eight-year-old Mikey puts his ear to the fourth-floor stairwell wall and says the building is humming; he stays there long after a joke would be over. “Listen,” he says. JC listens to a wall and laughs at him. The wall hums in concentric gold rings. Present: JC has a microphone clamped to his own wall.",
+      "fx": [
+        {
+          "name": "STAIRWELL_BG",
+          "args": ""
+        },
+        {
+          "name": "WALL_RING_CEL",
+          "args": "gold, 4 rings"
+        },
+        {
+          "name": "HARMONY_CUT",
+          "args": "Mikey freeze"
+        },
+        {
+          "name": "MATCH_CUT",
+          "args": "mic on riser"
+        }
+      ],
+      "audio": "Wall hum, soft and musical; a hush from the building.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S14-11",
+      "scene": "S14",
+      "start_frame": 24840,
+      "frames": 480,
+      "tc_in": "17:15:00",
+      "tc_out": "17:35:00",
+      "camera": "CU Sofía",
+      "animation_rate": 3,
+      "action": "“Every shell on this screen is trying to predict something. The grant, the playlists, the permits. Somebody's got a model of this block, and I think they've been checking it since you were six. Nineteen years.” She half-closes the laptop (which, from Sofía, is a gesture of love on the order of a kidney). “We need to find out what they did with the children who kept reacting. Don't answer the email. Don't delete it. And don't walk home past the bodega.” “Why?” “Because I just spent an hour telling you I don't believe in your loop, and I'd like to still be wrong tomorrow. Also eat a vegetable. Platanitos don't count.”",
+      "fx": [
+        {
+          "name": "HOLD",
+          "args": ""
+        },
+        {
+          "name": "MOUTH_FLAP",
+          "args": ""
+        },
+        {
+          "name": "LAPTOP_HALF_CLOSE_CEL",
+          "args": ""
+        },
+        {
+          "name": "PUSH_IN",
+          "args": "slow"
+        }
+      ],
+      "audio": "Library quiet; her voice drops as she gets scared.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S15-01",
+      "scene": "S15",
+      "start_frame": 25320,
+      "frames": 120,
+      "tc_in": "17:35:00",
+      "tc_out": "17:40:00",
+      "camera": "MAP GAG · track",
+      "animation_rate": 3,
+      "action": "A tiny route map: library → home, avoiding the El. The bodega is on the only route. JC rationalizes; an insert of a stove burner glows red and a finger approaches. 'I am somebody who has to touch the stove to find out.'",
+      "fx": [
+        {
+          "name": "ROUTE_MAP_CEL",
+          "args": ""
+        },
+        {
+          "name": "STOVE_GAG",
+          "args": "2s"
+        }
+      ],
+      "audio": "VO as in the book, deadpan.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S15-02",
+      "scene": "S15",
+      "start_frame": 25440,
+      "frames": 144,
+      "tc_in": "17:40:00",
+      "tc_out": "17:46:00",
+      "camera": "WS · bodega",
+      "animation_rate": 3,
+      "action": "Don Chino's bodega: an awning the color of orange soda left too long in a window; a speaker over the door he had never looked up at; two guys on milk crates at a domino table, slapping tiles in the mood to argue.",
+      "fx": [
+        {
+          "name": "PAINTED_BG",
+          "args": "bodega"
+        },
+        {
+          "name": "SPEAKER_INSERT",
+          "args": ""
+        },
+        {
+          "name": "AWNING_ORANGE",
+          "args": "#F26B2A"
+        }
+      ],
+      "audio": "Merengue, bright: accordion, güira, horns.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S15-03",
+      "scene": "S15",
+      "start_frame": 25584,
+      "frames": 192,
+      "tc_in": "17:46:00",
+      "tc_out": "17:54:00",
+      "camera": "CU JC · eyes closed",
+      "animation_rate": 3,
+      "action": "He stands on the sidewalk and listens on purpose. Under the song, bar after bar, a flat gray plate: the same spot, eight seconds wide, again.",
+      "fx": [
+        {
+          "name": "SOUND_RIBBON",
+          "args": "accordion yellow, guira green, horn red"
+        },
+        {
+          "name": "PLATE_CEL",
+          "args": "gray, 192f cycle"
+        },
+        {
+          "name": "LOOP_RING",
+          "args": "speaker"
+        }
+      ],
+      "audio": "The song continues; the 8s plate is nearly inaudible but felt.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S15-04",
+      "scene": "S15",
+      "start_frame": 25776,
+      "frames": 288,
+      "tc_in": "17:54:00",
+      "tc_out": "18:06:00",
+      "camera": "MS tiles",
+      "animation_rate": 3,
+      "action": "Cycle after cycle the men's faces dull a little (PRESS +0.08 per cycle). One slaps a tile too hard and says something he'd have been ashamed of on a normal Tuesday. The other says something back.",
+      "fx": [
+        {
+          "name": "PRESS",
+          "args": "per cycle +0.08"
+        },
+        {
+          "name": "IMPACT_FLASH",
+          "args": "1f on slap"
+        },
+        {
+          "name": "MOUTH_FLAP",
+          "args": "indistinct"
+        }
+      ],
+      "audio": "Tile slap; the words are masked by the merengue.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S15-05",
+      "scene": "S15",
+      "start_frame": 26064,
+      "frames": 192,
+      "tc_in": "18:06:00",
+      "tc_out": "18:14:00",
+      "camera": "ORBIT · three men",
+      "animation_rate": 3,
+      "action": "A third guy comes out of the store and tells them both to lower their voices, in a voice that isn't lower. Camera circles the three; outlines go uniform, shading flattens, motion drops toward holds.",
+      "fx": [
+        {
+          "name": "ORBIT",
+          "args": "120°"
+        },
+        {
+          "name": "PRESS",
+          "args": "0.5→0.85"
+        },
+        {
+          "name": "HOLD_FRAMES",
+          "args": "6s"
+        }
+      ],
+      "audio": "Merengue loses reverb as the loop rises.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S15-06",
+      "scene": "S15",
+      "start_frame": 26256,
+      "frames": 192,
+      "tc_in": "18:14:00",
+      "tc_out": "18:22:00",
+      "camera": "WS · sidewalk",
+      "animation_rate": 3,
+      "action": "Inside a minute it goes out of all three of them: red-brown anger visible as a smoke that drains down into the pavement and across to the speaker. Nobody apologizes. They sit like men who've hauled groceries up four flights and stare at the tiles. The third goes back inside.",
+      "fx": [
+        {
+          "name": "ANGER_SMOKE_CEL",
+          "args": "2s"
+        },
+        {
+          "name": "DRAIN_TO_SPEAKER",
+          "args": ""
+        },
+        {
+          "name": "PRESS",
+          "args": "0.9"
+        }
+      ],
+      "audio": "A sigh with no voice in it.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S15-07",
+      "scene": "S15",
+      "start_frame": 26448,
+      "frames": 192,
+      "tc_in": "18:22:00",
+      "tc_out": "18:30:00",
+      "camera": "CU JC → CU speaker",
+      "animation_rate": 3,
+      "action": "The merengue keeps going. The next song starts. The plate is there, in the same spot. JC looks up at the speaker over the door.",
+      "fx": [
+        {
+          "name": "SONG_CHANGE",
+          "args": "cut on downbeat"
+        },
+        {
+          "name": "PLATE_CEL",
+          "args": "same position"
+        },
+        {
+          "name": "PUSH_IN",
+          "args": "speaker, decal"
+        }
+      ],
+      "audio": "Next track cut in; loop unchanged.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S15-08",
+      "scene": "S15",
+      "start_frame": 26640,
+      "frames": 288,
+      "tc_in": "18:30:00",
+      "tc_out": "18:42:00",
+      "camera": "PULL-BACK · crane",
+      "animation_rate": 3,
+      "action": "He is small under the orange awning. Camera rises up the building to the dark third-floor window across the street; the netting moves. Cut to black.",
+      "fx": [
+        {
+          "name": "CRANE_UP",
+          "args": ""
+        },
+        {
+          "name": "PAINTED_BG",
+          "args": "facade"
+        },
+        {
+          "name": "DARK_WINDOW_HOLD",
+          "args": "2s"
+        }
+      ],
+      "audio": "The song fades out, leaving only the loop.",
+      "note": "",
+      "showcase": null
+    },
+    {
+      "id": "S15-09",
+      "scene": "S15",
+      "start_frame": 26928,
+      "frames": 192,
+      "tc_in": "18:42:00",
+      "tc_out": "18:50:00",
+      "camera": "BLACK",
+      "animation_rate": null,
+      "action": "Black. The 8-second loop plays once, unmasked, exactly 192 frames. At the start of the next cycle, hard cut to silence.",
+      "fx": [
+        {
+          "name": "HOLD_BLACK",
+          "args": ""
+        },
+        {
+          "name": "LOOP_PLAY",
+          "args": "192f"
+        },
+        {
+          "name": "HARD_SILENCE",
+          "args": ""
+        }
+      ],
+      "audio": "THE LOOP, once. Then nothing.",
+      "note": "The only time the audience hears it clean.",
+      "showcase": null
+    }
+  ]
+}

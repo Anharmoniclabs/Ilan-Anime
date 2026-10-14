@@ -1,0 +1,25 @@
+{
+  "task_id": "dairon-stroke-keys",
+  "role": "key-animator",
+  "host_agent_id": "/root/dairon_stroke_keys",
+  "status": "blocked",
+  "artifacts": [
+    "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/candidate.png",
+    "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/image-prompt.txt",
+    "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/pixel-checks.json",
+    "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/landmarks.json",
+    "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/checker-inspection.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/white-inspection.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/continuity.json"
+  ],
+  "evidence": [
+    "One built-in imagegen call with actual S01-02 and Dairon cast reference attachments; exact prompt saved.",
+    "Directly viewed original scene, Dairon cast, earlier8key rejected source, generated4key sheet and white/checker compositing diagnostics.",
+    "All four feet and blade contours now within source sheet, but third pull key still fails two-hand grip.",
+    "Manually measured approximate paddle lengths and pelvis locations recorded in landmarks.json; varying projected paddle length and seated registration prevent finished stroke use.",
+    "Source-art candidate submitted for independent review only; no registration, native scene, rendered shot, or accepted frame coverage."
+  ],
+  "blockers": [
+    "Candidate is not a usable complete stroke: pull key lacks upper hand grip and paddle/body geometry drifts. Independent reviewer must assess individual usable drawings; full stroke needs redraw before registration."
+  ]
+}

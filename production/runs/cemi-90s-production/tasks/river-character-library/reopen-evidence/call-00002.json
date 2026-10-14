@@ -1,0 +1,103 @@
+{
+  "tool": "doc_inspect",
+  "arguments": {},
+  "status": "succeeded",
+  "result": {
+    "activeLayer": 3,
+    "canRedo": false,
+    "canUndo": false,
+    "channels": {
+      "alpha": [],
+      "colors": [
+        {
+          "name": "Red",
+          "visible": true
+        },
+        {
+          "name": "Green",
+          "visible": true
+        },
+        {
+          "name": "Blue",
+          "visible": true
+        }
+      ],
+      "composite": "RGB",
+      "compositeVisible": true,
+      "layerMaskView": null,
+      "quickMask": null,
+      "target": {
+        "kind": "composite"
+      }
+    },
+    "depth": 8,
+    "hasSelection": false,
+    "height": 1024,
+    "history": [
+      "Open"
+    ],
+    "isolatedLayers": [],
+    "lastAppliedComp": null,
+    "layerComps": [],
+    "layerMaskView": null,
+    "layers": [
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 3,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Editable reference sheet — not rig parts",
+        "opacity": 1.0,
+        "selected": true,
+        "visible": true
+      },
+      {
+        "blend": "Normal",
+        "bounds": [
+          0,
+          0,
+          1536,
+          1024
+        ],
+        "clipped": false,
+        "fill": 1.0,
+        "hasMask": false,
+        "id": 2,
+        "kind": "Pixel",
+        "linkGroup": null,
+        "name": "Archived source — identity unapproved",
+        "opacity": 1.0,
+        "selected": false,
+        "visible": true
+      }
+    ],
+    "measurement": {
+      "count": 0,
+      "countGroups": 0,
+      "ruler": null,
+      "scale": "1 pixels = 1.0000 pixels"
+    },
+    "mode": "Rgb",
+    "name": "source.png",
+    "notes": [],
+    "quickMask": false,
+    "resolution": 72.0,
+    "revision": 1,
+    "selectedLayers": [
+      3
+    ],
+    "selectionBounds": null,
+    "timeline": null,
+    "variables": null,
+    "width": 1536
+  }
+}

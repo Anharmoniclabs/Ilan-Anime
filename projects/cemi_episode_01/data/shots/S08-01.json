@@ -1,0 +1,49 @@
+{
+  "id": "S08-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Banner on the netting, four stories tall: smiling mural people, 'A CALMER BLOCK STARTS HERE.' in rounded friendly type.",
+  "camera_note": "TILT UP · WS",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "plate_0",
+      "source": "assets/keyframes/S08-01.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 120,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "STOCK_PHOTO_STYLE"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

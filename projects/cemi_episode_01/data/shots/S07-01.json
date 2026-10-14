@@ -1,0 +1,68 @@
+{
+  "id": "S07-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 96,
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Super: TUESDAY · MORNING. Kitchen, dawn light through the window. Radio on low, a merengue. Chair rocks on a short leg propped by a folded Con Ed bill (since 2011).",
+  "camera_note": "FIX · title super",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "plate_0",
+      "source": "assets/keyframes/S07-01.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 96,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    },
+    {
+      "name": "super",
+      "rate": 3,
+      "screen_space": true,
+      "generator": {
+        "type": "text",
+        "text": [
+          "TUESDAY · MORNING"
+        ],
+        "font": "serif",
+        "size": 26,
+        "tracking": 0.3,
+        "align": "left",
+        "position": [
+          76.8,
+          633.6
+        ]
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "INSERT_CU"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

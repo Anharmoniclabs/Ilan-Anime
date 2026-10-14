@@ -1,0 +1,34 @@
+{
+  "id": "S13-12",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-30b927dd-1475-449f-b04d-37f272f42a0a.png",
+  "refs": [
+    {
+      "path": "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "role": "style only",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/mets-sleeper.png",
+      "role": "identity mets-sleeper",
+      "sha256": "9a7f140b7ed18932842749e94eeee3829537a801227c80b28607c1bf7c32f419"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-02.png",
+      "role": "set continuity only",
+      "sha256": "bcaecddd3241cd979ba108351e281e8a15b3d32c6baf3200d351b0e005fdfa98"
+    }
+  ],
+  "prompt": "Finished single 16:9 cinematic anime STORY FRAME, landscape1536x864, full opaque richly painted environment edge to edge. Match approved1990s anime series: clean supple ink, expressive human anime faces, broad2/3tone cel shading, handpainted detailed backgrounds, restrained cinematic light. Rooftop image reference only for rendering STYLE, never its sunset/location/people. Character source images control exact identities/costumes/age/body proportions. Previous scene reference controls set layout only; change camera and action to this shot. NO poster, collage, panel grid, transparent cutouts, hatching-heavy comic, speech bubbles, random words/logos. Wide same present-day library returned: fluorescent tubes overhead, distinct irregular ceiling water stain vaguely StatenIsland shape, long oak tables and green brass lamps under cream windows, moss-green lower walls. Older Mets-jacket man still snoring in same wooden chair. No historical people or luminous effects. Flat cool fluorescence balanced with afternoon daylight.",
+  "frame": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-12.png",
+  "status": "exploratory",
+  "representative_moment": "Wide same present-day library returned: fluorescent tubes overhead, distinct irregular ceiling water stain vaguely StatenIsland shape, long oak tables and green brass lamps under cream windows, moss-green lower walls. Older Mets-jacket man still snoring in same wooden chair. No historical people or luminous effects. Flat cool fluorescence balanced with afternoon daylight.",
+  "motion_remaining": "All motion, dialogue, camera transitions and any other script phases still require later drawings.",
+  "sha256": "aa95de230490c53259908301268a07f56b436a52cdbb0b8c7117b3dc62b6747f",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "aspect_ratio": 1.7768331562167907,
+  "visually_inspected": true
+}

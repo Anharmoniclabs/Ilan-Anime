@@ -1,0 +1,14 @@
+{
+  "tool": "export",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/center-character-masked.png",
+    "format": "png"
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 582923,
+    "format": "png",
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/center-character-masked.png",
+    "warnings": []
+  }
+}

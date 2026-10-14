@@ -1,0 +1,15 @@
+{
+  "status": "not_ready",
+  "counts": {
+    "train": 0,
+    "validation": 0
+  },
+  "errors": [
+    "Need at least 30 distinct approved images for this configured pilot gate.",
+    "Keep at least 3 approved images in the held-out validation split.",
+    "Need at least 27 training images; validation images stay separate."
+  ],
+  "error_count": 3,
+  "trigger": "cemi_lm_style",
+  "note": "Count/hash/caption/provenance checks only; diversity and aesthetic quality require review."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "s01-02-canoe-action",
+  "role": "key-animator",
+  "shots": [
+    "S01-02"
+  ],
+  "inputs": [
+    "AGENTS.md",
+    "docs/STATUS.md",
+    "production/runs/episode1-picture-motion/author-direction.json",
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+    "production/runs/episode1-anime90s-scenes/shot-index.json",
+    "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-02.png",
+    "production/runs/episode1-anime90s-cast/source-index.json"
+  ],
+  "output_dir": "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action",
+  "depends_on": [],
+  "art_direction_mode": "STORY_FRAME",
+  "requires_author_approval": false,
+  "require_host_bindings": true,
+  "objective": "Produce real 288-frame 24fps16:9 S01-02 wide canoe action draft using current 1990s artwork. Three dugout canoes single file in moonless mangrove; preserve exact source cast: lead Dairon paddles, Yara clutches wrapped cemi, Amaia cradles sleeping under-two son; second Beheto drum/breath, third three children faint blue forearms. Show real paddle reach/plant/pull/lift/recovery with fixed grips/contact; rigid hulls/props and independently travelling water effects; subtle drawn breath/cradle response, independent crane-down camera only after meaningful character action. No warped flattened characters, translated source painting masquerading as acting, or unregistered atlas. Inspect existing saved cels first; avoid previously rejected inconsistent hull/pose sheets. Explicit image-demand assignment for necessary ACTION DRAWINGS permits at most ONE built-in imagegen call using exact source references under author-direction and worker-contract host-tool exception; read imagegen skill. No paid APIs/provider fallback. If one call cannot supply all needed action, deliver actual usable registered drawings and list exact remaining actions; do not fabricate completed motion. If source geometry prevents a continuity-correct full shot, return blocked precisely. Use Craft/studio/local compositor; save editable sources, exposure/motion/contact checks, compact decoded evidence and MP4 only if real shot is achieved. One bounded submission, no autonomous generation/retry loop. No Git/archive work or source edits."
+}

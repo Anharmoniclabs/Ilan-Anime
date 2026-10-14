@@ -1,0 +1,28 @@
+{
+  "steps": [
+    {
+      "app": "effectcraft",
+      "tool": "list_commands",
+      "arguments": {
+        "filter": "prop.addKey",
+        "schemas": true
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "list_commands",
+      "arguments": {
+        "filter": "layer.addItem",
+        "schemas": true
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "list_commands",
+      "arguments": {
+        "filter": "file.import",
+        "schemas": true
+      }
+    }
+  ]
+}

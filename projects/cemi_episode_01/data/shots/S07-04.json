@@ -1,0 +1,50 @@
+{
+  "id": "S07-04",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 336,
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Mamá gives him 'the slow inspection that doesn't miss anything.' “Tu abuela llamó anoche. Antes de que se fuera la luz.” “She good?” “She's old, she's stubborn, she's good.” (practiced pause) “She asked if it already started.” The mangú turns to wet sand in his mouth.",
+  "camera_note": "MCU · slow",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "plate_0",
+      "source": "assets/keyframes/S07-04.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 336,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "FOOD_DESATURATE",
+      "LOOK_HOLD"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

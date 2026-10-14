@@ -1,0 +1,17 @@
+{
+  "tool": "render_frame",
+  "arguments": {
+    "time": 0.5,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/native/frames/0012.png",
+    "max_side": 1080,
+    "inline": false
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 661,
+    "height": 1080,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/native/frames/0012.png",
+    "time": 0.5,
+    "width": 720
+  }
+}

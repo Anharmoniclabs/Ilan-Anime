@@ -1,0 +1,24 @@
+{
+  "j": {
+    "id": "amaia-son",
+    "desc": "Amaia\u2019s Ta\u00edno son, twenty-two MONTHS old toddler. Bronze-brown skin, round soft baby face, large dark eyes, short tousled black wavy hair, genuinely toddler proportions about four heads tall, short chubby limbs. Simple offwhite sleeveless cotton tunic and short cotton bottoms, bare feet. Seated balanced on bottom with bent legs, both small hands visible, one loosely holding egg-sized smooth dark stone. Sleepy eyes half closed. No mother in this individual source; no canoe. Full figure."
+  },
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png"
+  ],
+  "prompt": "Use case: illustration-story. NEW standalone full-body character master for Heralds of the Cem\u00ed Episode1. Match exactly the SAME 1990s hand-drawn anime SHOW as the two attached style references: image1 rooftop establishes expressive anime facial language, image2 Amaia establishes clean supple character outlines and simple cel color. These are STYLE references only, not costumes/identity. Soft human noses and mouths, expressive almond anime eyes, human asymmetry, broad simple two-or-three-tone cel shadows, flat warm colors, clean elegant contour. NO dense hatching, crosshatching, gritty realistic cloth texture, photorealism, glossy muscles or western comic poster. NO illustration-poster rim glow. All body parts head, both complete hands and both feet/shoes visible with generous margin. Portrait composition, single figure unless the requested classmates bank. Genuinely transparent background, no scenery, floor, text, labels, logos, shadow haze or checkerboard.  Bare feet specified below override shoe wording. Historical river cast, BEFORE era; supplied rooftop only controls visual style, not modern clothing. Amaia\u2019s Ta\u00edno son, twenty-two MONTHS old toddler. Bronze-brown skin, round soft baby face, large dark eyes, short tousled black wavy hair, genuinely toddler proportions about four heads tall, short chubby limbs. Simple offwhite sleeveless cotton tunic and short cotton bottoms, bare feet. Seated balanced on bottom with bent legs, both small hands visible, one loosely holding egg-sized smooth dark stone. Sleepy eyes half closed. No mother in this individual source; no canoe. Full figure.",
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-37368798-7409-445c-aa23-7655644d3f3e.png",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/river-cast/generated/amaia-son.png",
+  "sha256": "dfe1f6cac780ec27f3f24f09922fdfe27032477b7c813a2c0fcf5518e0df2948",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+      "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "shot": "S01-07",
+  "frames": 168,
+  "size": [
+    1280,
+    720
+  ],
+  "status": "exploratory",
+  "elements": [
+    {
+      "name": "registered-writing-cels",
+      "kind": "character",
+      "rate": 3,
+      "poses": [
+        {
+          "frame": 0,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/wide-establish.png"
+        },
+        {
+          "frame": 24,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-one-start.png"
+        },
+        {
+          "frame": 36,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-one-breakdown.png"
+        },
+        {
+          "frame": 45,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-one-middle.png"
+        },
+        {
+          "frame": 57,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-one-end.png"
+        },
+        {
+          "frame": 72,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/pen-lift.png"
+        },
+        {
+          "frame": 84,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/return-above-line.png"
+        },
+        {
+          "frame": 93,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-two-start.png"
+        },
+        {
+          "frame": 105,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-two-breakdown.png"
+        },
+        {
+          "frame": 114,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-two-middle.png"
+        },
+        {
+          "frame": 126,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-two-end.png"
+        },
+        {
+          "frame": 144,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/finish-lift.png"
+        }
+      ]
+    }
+  ]
+}

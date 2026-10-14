@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 13,
+      "rect": [
+        161,
+        476,
+        764,
+        568
+      ],
+      "content": "text",
+      "text": "partial-body | half-memory | missing-dedicated-art\nGrips child sleeve, never show adult face; identity unresolved.\nShots: S11-05"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 463,
+    "story": 464
+  }
+}

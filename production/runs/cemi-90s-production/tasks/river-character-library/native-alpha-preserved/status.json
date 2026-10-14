@@ -1,0 +1,7 @@
+{
+  "status": "stopped",
+  "completed_steps": 6,
+  "creative_status": "exploratory",
+  "error": "command_run: ERROR: no such layer LayerId(2)",
+  "recovery": "Inspect receipts and saved files; no automatic retry."
+}

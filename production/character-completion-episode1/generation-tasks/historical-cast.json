@@ -1,0 +1,30 @@
+{
+  "id": "historical-cast",
+  "role": "character-designer",
+  "objective": "Finish requested exploratory source generations for assigned Episode1 cast IDs: counterman-1973, record-kid-1973, thin-man-1973, yiddish-grandfather, irish-girls, porter, pr-mother, pr-kids, atlas-boy, eraser-boy, librarian-1934, reading-room-extras. User explicitly says finish the generations; continue source generation without waiting for design approval, do not confer approval. Built-in image tool only, one call per asset or required variant. Save real PNGs, prompts, provenance, inspect outputs. No native assembly needed in this generation task.",
+  "inputs": [
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+    "research/earlier_cemi_pipeline/data/character_bible.txt",
+    "production/runs/cemi-90s-production/tasks/episode1-cast/cast.json",
+    "production/art_direction.json"
+  ],
+  "shots": [],
+  "depends_on": [],
+  "output_dir": "production/runs/episode1-character-generations/tasks/historical-cast",
+  "art_direction_mode": "CHARACTER_ASSET",
+  "requires_author_approval": false,
+  "cast_ids": [
+    "counterman-1973",
+    "record-kid-1973",
+    "thin-man-1973",
+    "yiddish-grandfather",
+    "irish-girls",
+    "porter",
+    "pr-mother",
+    "pr-kids",
+    "atlas-boy",
+    "eraser-boy",
+    "librarian-1934",
+    "reading-room-extras"
+  ]
+}

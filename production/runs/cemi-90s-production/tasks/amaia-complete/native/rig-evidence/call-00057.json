@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 245,
+      "name": "mouth-rest"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

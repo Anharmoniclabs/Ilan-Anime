@@ -1,0 +1,18 @@
+{
+  "streams": 1,
+  "frames": 144,
+  "fps": "24/1",
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fully_decoded": true,
+  "unchanged_native_layers": {
+    "152": true,
+    "129": true,
+    "299": true
+  },
+  "droplet_trajectories_identical": true,
+  "background_warp": false,
+  "real_time_perceptual_playback": "unavailable in this worker; not claimed"
+}

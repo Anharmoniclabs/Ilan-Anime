@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 29465856000000,
+      "durationFrames": 144,
+      "name": "S01-13 missing",
+      "comment": "closed eyes inhale; murmur; settle asleep"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 25
+  }
+}

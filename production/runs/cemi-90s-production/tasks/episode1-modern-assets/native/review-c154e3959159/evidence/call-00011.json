@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 0,
+      "rect": [
+        760,
+        470,
+        990,
+        515
+      ],
+      "content": "text",
+      "text": "MANNY MASTER V2.PNG"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 39,
+    "story": 40
+  }
+}

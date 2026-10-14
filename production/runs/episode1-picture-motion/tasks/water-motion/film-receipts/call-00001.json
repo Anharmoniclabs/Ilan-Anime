@@ -1,0 +1,13 @@
+{
+  "tool": "media_import",
+  "arguments": {
+    "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion/S01-01-silent-preview.mp4"
+  },
+  "status": "succeeded",
+  "result": {
+    "errors": [],
+    "items": [
+      1
+    ]
+  }
+}

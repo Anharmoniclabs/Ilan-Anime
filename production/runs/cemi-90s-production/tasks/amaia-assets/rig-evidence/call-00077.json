@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 516,
+      "name": "left-thigh"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

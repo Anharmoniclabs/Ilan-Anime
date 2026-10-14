@@ -1,0 +1,48 @@
+{
+  "id": "S14-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "“You're doing the thing.” Sofía's hand hovers over his shoulder without landing. She's got the laptop open before she's sat. Gag: split card: SOFÍA (ASLEEP) / SOFÍA (PROSECUTING).",
+  "camera_note": "MS · behind JC",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S14-01",
+        "header": "14:58:00 → 15:03:00 (120f) · MS · behind JC · rate 3s",
+        "action": "“You're doing the thing.” Sofía's hand hovers over his shoulder without landing. She's got the laptop open before she's sat. Gag: split card: SOFÍA (ASLEEP) / SOFÍA (PROSECUTING).\nSOUND: Chair scrape; laptop open chime."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "SMEAR_CEL",
+      "SPLIT_CARD_GAG"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

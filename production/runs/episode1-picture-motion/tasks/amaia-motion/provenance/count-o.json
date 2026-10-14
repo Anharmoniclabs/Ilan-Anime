@@ -1,0 +1,12 @@
+{
+  "prompt": "Use case: precise-object-edit. Registered replacement drawing for1990s handdrawn anime animation. Output same1672x941opaque fullcanvas, identicalcamera/framing/lighting. Change ONLY Amaia mouth into a small round O counting syllable, lips naturally pursed, dark small opening. Her pupils shift a little downward toward the next empty seat. Keep skull sockets andheadfixed. Preserve everythingelse EXACTLY: childasleep, arms/hands/clothes/necklace/hairoutside requestedregion, rigidcanoe,water,moonlessmangrove. No people inemptyseat. No camera change. Same Amaia identity/femininefeatures andclean2tonecelcolors. Absolutely no text or labels. Change only requested actingfeatures; no repainting rest ofshot.",
+  "source": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-b9f995c1-4e5f-47c7-b317-0e3f87c51bb2.png",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/count-o.png",
+  "sha256": "e1c25827fa6d484165312599320de748ba611458c3d49466f2c8b014753b5831",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/amaia-motion/raw/clean-plate.png",
+      "sha256": "8ba8e902eb1a2a5a883767018b90f50af99d9657683f77000a15c3b3c1f4fd38"
+    }
+  ]
+}

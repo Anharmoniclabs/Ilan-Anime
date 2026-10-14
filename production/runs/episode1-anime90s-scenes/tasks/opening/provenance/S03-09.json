@@ -1,0 +1,31 @@
+{
+  "shot": "S03-09",
+  "selected_moment": "Selected facade memory1957: SAME buildinggroundfloor transforms into welcoming dancehall with darkwood doubledoors and a modest period sign EXACT \"BALLROOM\". Nighttime warminterior brassgold light spills ontoBronx sidewalk. Period facade only, no modernphones/cars or montage. Other4eras/AR need laterimages.",
+  "script": "`03:30:00 \u2192 03:39:00` (216f) \u00b7 DISSOLVES \u00b7 facade \u00b7 rate 3s\n- **Action:** The ground floor of the building, four dissolves in order: Ballroom (1957 sign and doors) \u2192 laundromat \u2192 church \u2192 vape shop \u2192 current community arts space. An AR mural test is seen on a phone screen over brick.\n- **FX:** `FADE_BETWEEN(5 painted facades); UI_PHONE(AR_overlay)`\n- **Sound:** VO JC on the 'Ballroom' history. Dance-hall brass ghosted under each dissolve.",
+  "prompt": "Edit first reference into one opaque finished-color16:9 cinematic story frame. Historical1957 ballroom facade insert correction. REMOVE ALL FOUR foreground modern young figures completely, reveal continuous1957 sidewalk and facade behind them. Preserve historical warmlylit BALLROOM doorway and1950s adult patrons/band inside. No hoodies, headphones, backpacks, modern characters anywhere. Remove invented1957 numerals from sign; sign ONLY reads BALLROOM. Single1957scene, no collage, no modern people. Preserve90s handdrawn animeillustration. Do not add text. Only alter requested details; maintain handdrawn1990s anime soft faces/simple broad celshadows, no photorealistic texturing or3D.",
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png"
+  ],
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-1a1c8ca4-9d18-41c6-a772-5b4569a51995.png",
+  "status": "exploratory storyframe",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-09.png",
+  "sha256": "ac7b83a2df01f8997c01979b5868541648db5a6ba98507d02404581b691ddce0",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/archive-first-pass/S03-09.png",
+      "sha256": "ab8ab2fd23c12a9c5ead46a643c9740a9ad3e6985ca41ea34ba9cf8abddd1f98",
+      "supplied_path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-09.png"
+    }
+  ],
+  "inspection": "Revision2 directly viewed: allmodernforeground figures removed; historical1957 ballroomfacade andpatrons, BALLROOMsign. Latereras still need drawings.",
+  "revision": 2,
+  "revision_instruction": "Historical1957 ballroom facade insert correction. REMOVE ALL FOUR foreground modern young figures completely, reveal continuous1957 sidewalk and facade behind them. Preserve historical warmlylit BALLROOM doorway and1950s adult patrons/band inside. No hoodies, headphones, backpacks, modern characters anywhere. Remove invented1957 numerals from sign; sign ONLY reads BALLROOM. Single1957scene, no collage, no modern people. Preserve90s handdrawn animeillustration.",
+  "original_provenance": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/archive-first-pass/S03-09.json",
+  "inspection_method": "Direct view_image of entire saved frame; PNG automated decode and dimensions check",
+  "scope": "One representative story frame; not all action beats or motion"
+}

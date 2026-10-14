@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 10,
+      "rect": [
+        161,
+        476,
+        764,
+        568
+      ],
+      "content": "text",
+      "text": "background-group | 2026 | reference-only\nStopped speaking since JC was nine; present vignette only.\nShots: S03-12"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 373,
+    "story": 374
+  }
+}

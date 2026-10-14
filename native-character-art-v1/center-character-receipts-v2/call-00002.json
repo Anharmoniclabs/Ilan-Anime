@@ -1,0 +1,13 @@
+{
+  "tool": "save_file",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/center-character-import.vectorcraft"
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 50399233,
+    "format": "vectorcraft",
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/center-character-import.vectorcraft",
+    "warnings": []
+  }
+}

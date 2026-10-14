@@ -1,0 +1,18 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "file.place",
+    "params": {
+      "spread": 4,
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/arthouse-pack-v1/tasks/visuals/art/amaia-puppet-atlas-v1.png",
+      "x": 24,
+      "y": 65,
+      "width": 816
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "asset": 33,
+    "id": 34
+  }
+}

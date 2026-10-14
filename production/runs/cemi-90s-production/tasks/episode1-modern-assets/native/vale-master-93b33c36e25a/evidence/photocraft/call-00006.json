@@ -1,0 +1,12 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "layer.setProps",
+    "params": {
+      "name": "Editable master — not separated rig parts",
+      "locked": false
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

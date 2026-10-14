@@ -1,0 +1,66 @@
+{
+  "id": "S01-11",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 240,
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "rejected_motion_test",
+  "action": "Beheto puts both palms on the drum and leans his weight into it. The sound goes through hull, water and roots.",
+  "camera_note": "CU Beheto → WS",
+  "drawing_rate": 2,
+  "layers": [
+    {
+      "name": "plate_0",
+      "source": "assets/keyframes/S01-11.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 240,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "scale": 1.0,
+      "ease": "smooth"
+    },
+    {
+      "frame": 239,
+      "scale": 1.08
+    }
+  ],
+  "post": {
+    "grade": "before"
+  },
+  "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "SHOCKWAVE_RING"
+    ],
+    "asset_slot_fx": [
+      "ROOT_VEINS",
+      "WOOD_GRAIN_PULSE"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ],
+  "motion_review": "rejected; see research/animation_audit/REPORT.md"
+}

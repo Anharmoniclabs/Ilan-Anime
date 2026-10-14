@@ -1,0 +1,50 @@
+{
+  "tool": "list_commands",
+  "arguments": {
+    "filter": "comp.open",
+    "schemas": true
+  },
+  "status": "succeeded",
+  "result": [
+    {
+      "enabled": true,
+      "id": "comp.open",
+      "label": "Open Composition",
+      "params": "{comp: id|name}",
+      "schema": {
+        "additionalProperties": false,
+        "description": "{comp: id|name}",
+        "properties": {
+          "comp": {
+            "description": "comp: id|name"
+          }
+        },
+        "required": [
+          "comp"
+        ],
+        "type": "object"
+      }
+    },
+    {
+      "enabled": false,
+      "id": "comp.openInEssentialGraphics",
+      "label": "Open in Essential Graphics",
+      "menu": [
+        "Composition"
+      ],
+      "params": "{comp?} → makes it the Essential Graphics panel's Primary composition and shows the panel",
+      "schema": {
+        "additionalProperties": false,
+        "description": "{comp?} → makes it the Essential Graphics panel's Primary composition and shows the panel",
+        "properties": {
+          "comp": {
+            "description": "comp?"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "why": "no composition is open"
+    }
+  ]
+}

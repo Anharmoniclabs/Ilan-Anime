@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 86619456000000,
+      "durationFrames": 240,
+      "name": "S05-11 missing",
+      "comment": "near rows stop; middle rows stop; far rows stop; band remains"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 65
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 135390528000000,
+      "durationFrames": 120,
+      "name": "S09-02 missing",
+      "comment": "pan room; train tremor; cups settle"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 84
+  }
+}

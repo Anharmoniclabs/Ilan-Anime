@@ -1,0 +1,146 @@
+[
+  {
+    "file": "center-character-masked.vectorcraft",
+    "sha256": "14cdd5707828fe6176f6ab9528f64045fcb64ea40f4626e9c0179bfc2288a0e4",
+    "bytes": 54663355,
+    "layers": [
+      {
+        "name": "Native detailed trace - editable color paths",
+        "visible": true,
+        "locked": false,
+        "kind": "layer",
+        "child_count": 159229,
+        "kind_fields": [
+          "type",
+          "color",
+          "template",
+          "printable",
+          "children",
+          "clip"
+        ],
+        "layer_fields": [
+          "id",
+          "name",
+          "kind"
+        ]
+      },
+      {
+        "name": "REFERENCE - original direction - hidden and locked",
+        "visible": false,
+        "locked": true,
+        "kind": "layer",
+        "child_count": 1,
+        "kind_fields": [
+          "type",
+          "color",
+          "template",
+          "printable",
+          "children"
+        ],
+        "layer_fields": [
+          "id",
+          "name",
+          "visible",
+          "locked",
+          "kind"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "elder-character-masked.vectorcraft",
+    "sha256": "181ed2971101b9c18e6d65f505f3230e3c3739f112469079cc30ccc742466645",
+    "bytes": 41199888,
+    "layers": [
+      {
+        "name": "Native detailed trace - editable color paths",
+        "visible": true,
+        "locked": false,
+        "kind": "layer",
+        "child_count": 117731,
+        "kind_fields": [
+          "type",
+          "color",
+          "template",
+          "printable",
+          "children",
+          "clip"
+        ],
+        "layer_fields": [
+          "id",
+          "name",
+          "kind"
+        ]
+      },
+      {
+        "name": "REFERENCE - original direction - hidden and locked",
+        "visible": false,
+        "locked": true,
+        "kind": "layer",
+        "child_count": 1,
+        "kind_fields": [
+          "type",
+          "color",
+          "template",
+          "printable",
+          "children"
+        ],
+        "layer_fields": [
+          "id",
+          "name",
+          "visible",
+          "locked",
+          "kind"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "right-character-masked.vectorcraft",
+    "sha256": "b65b632a0302c6b84278ebd70e8c5c05ea05687b0d276e571b39efd8c3021d24",
+    "bytes": 41333027,
+    "layers": [
+      {
+        "name": "Native detailed trace - editable color paths",
+        "visible": true,
+        "locked": false,
+        "kind": "layer",
+        "child_count": 115580,
+        "kind_fields": [
+          "type",
+          "color",
+          "template",
+          "printable",
+          "children",
+          "clip"
+        ],
+        "layer_fields": [
+          "id",
+          "name",
+          "kind"
+        ]
+      },
+      {
+        "name": "REFERENCE - original direction - hidden and locked",
+        "visible": false,
+        "locked": true,
+        "kind": "layer",
+        "child_count": 1,
+        "kind_fields": [
+          "type",
+          "color",
+          "template",
+          "printable",
+          "children"
+        ],
+        "layer_fields": [
+          "id",
+          "name",
+          "visible",
+          "locked",
+          "kind"
+        ]
+      }
+    ]
+  }
+]

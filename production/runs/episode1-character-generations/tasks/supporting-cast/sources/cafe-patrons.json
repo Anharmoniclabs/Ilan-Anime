@@ -1,0 +1,13 @@
+{
+  "tool": "image_gen__imagegen",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-c2c327f7-9999-406a-8282-c8fe025fcdc7.png",
+  "status": "exploratory",
+  "references": [
+    {
+      "path": "projects/cemi_episode_01/assets/references/author-cover-style.png",
+      "role": "style only",
+      "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c"
+    }
+  ],
+  "prompt": "Use case: illustration-story. Exploratory production character source for Heralds of the Cemí Episode 1. Supplied image is STYLE ONLY; never copy its faces, poster layout, text or magical effects. Finished 1990s hand-drawn 2D cel animation with confident variable-width ink, controlled fine hatching, individualized grounded expressive faces, organic asymmetry, rich painterly color and two/three shade planes, restrained navy shadow and warm amber edge light preserving skin pigment. Genuinely transparent background, clean silhouette, no ground shadow/haze, complete anatomy inside frame with generous margin, no words/logos/watermarks or panels. Three distinct adult Bronx café background patrons, full-body bank, wide transparent gaps between figures, no overlap: elderly dark-brown woman with gray short braids, plum coat and long skirt; young olive-skinned man with straight chin-length black hair, rust sweater and denim; middle-aged tan woman with curly auburn bob, navy jacket and cream trousers. Casual relaxed standing conversational poses with visible hands. Landscape."
+}

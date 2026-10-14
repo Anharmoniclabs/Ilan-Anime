@@ -1,0 +1,96 @@
+{
+  "shot": "S01-07",
+  "status": "submitted full-scene action brief; production instructions only",
+  "timing_record": "production/runs/picture-draft-s01-07-v1/tasks/script-timing/draft-timing.json",
+  "character": {
+    "identity": "First Counter, adult ledger-man; reference costume/cap, face, beard, proportions remain provisional draft reference. Do not conflate him with later thin man or Vale.",
+    "pose": "Seated on stump, torso weighted over ledger, gaze fixed downward. Writing hand appears screen-left; preserve source handedness. Opposite hand supports open book.",
+    "action": "Actual connected writing, lift, return, landing, second-line writing, finish. Finger/wrist articulation drives nib; shoulder/forearm subtly support movement without body distortion.",
+    "fixed_landmarks": [
+      "seated hips/stump contact",
+      "ledger/knee support",
+      "supporting hand/book edge",
+      "torso and sleeve-root continuity",
+      "downward eyes and head orientation"
+    ],
+    "replacement_requirements": [
+      "Individually controlled key drawings against the same clean plate and ledger plane, with complete wrist, cuff, fingers and feather silhouette.",
+      "For each active three-frame slot, supply registered meaningful movement rather than stretching exposure of four poses.",
+      "Connected release/rise/apex/return/descent/landing drawings; no sudden return pop.",
+      "Separate second-line articulation drawn at the correct paper depth; do not shift entire first-line cutout bank.",
+      "No final pose atlas accepted as motion; inspect neighboring registered drawings and then decoded shot."
+    ]
+  },
+  "props": {
+    "ledger": "Rigid open leather ledger supported across knee, same page perspective and spine throughout each view; no page turn.",
+    "quill": "Stable feather/shaft construction, grip and nib relationship. Shaft may rotate as a rigid element only while grip contact remains plausible; hand needs corresponding replacement drawing.",
+    "ink": "Exactly two new rows of nonverbal varied handwriting marks, with variable lengths/gaps. Reveal only behind contacting nib. Do not invent readable dialogue or words. Existing background page texture must not masquerade as newly written third line.",
+    "page_paths": "Layout defines a safe writing surface in page-local coordinates, inset from gutter and fore-edge. First line and lower second line share perspective. Endpoints require layout verification; this script brief does not assert unmeasured pixel coordinates.",
+    "locks": [
+      "No pen/page penetration or floating contact during writing",
+      "No ink while airborne",
+      "No ledger/cuff matte seams",
+      "Complete feather outline in each cel"
+    ]
+  },
+  "environment": {
+    "setting": "Dark mangrove bank, seated stump, root/water background from exact reference.",
+    "action": "Localized independent torch flame and restrained warm light modulation; maintain stable roots, waterline and actor palette. No camera motion substituted for writing.",
+    "geometry": "Torch holder and tree rigid; isolate flame/light from painted background."
+  },
+  "effects": {
+    "script": [
+      "FIX_HOLD",
+      "CEL_SHADE(lantern)",
+      "INSERT_CU(pen,page)"
+    ],
+    "treatment": "Preserve broad cel shading; localized flame/light effects on separate layers, no global flashing wash or mesh-warped painting."
+  },
+  "camera": {
+    "setup": "Locked low-angle MS at frames 0-17.",
+    "insert": "Proposed hard cut at frame 18 to locked pen/page CU, held through frame 167. Cut timing is a draft staging proposal; script authorizes insert but gives no exact cut frame.",
+    "layout_dependency": "Inspect native page resolution and contour separation. If enlarged crop cannot show coherent nib contact, draw a controlled dedicated CU plate and matching hand keys. Do not upscale an unusable shallow paper slice and call it resolved.",
+    "prohibition": "No pan/zoom to imply writing; no continuing camera movement through contact scrutiny."
+  },
+  "department_handoff": {
+    "layout": [
+      "Register medium-shot and close-up views with fixed ledger/paper geometry and cuff-root anchor.",
+      "Save safe writing bounds, first/second line paths and nib-contact coordinates for each planned key.",
+      "Determine occlusion order of hand/quill/page and clean plate coverage before requesting drawings."
+    ],
+    "key_animation": [
+      "Produce individual contact-matched keys for each line start/end, release, apex, descent/landing and final settle.",
+      "Use one controlled drawing need per image-demand turn with actual registered plate references when missing; repeated broad sheets have failed."
+    ],
+    "inbetween": [
+      "Fill active three-frame slots with consistent fingers/wrist/cuff/quill drawings; source artwork insufficiency is a drawing blocker.",
+      "Verify small intentional neighboring nib changes and curved lift path, not just numeric cadence."
+    ],
+    "cleanup_paint": [
+      "Preserve true ink contour mattes, no polygon clipping, sleeve rectangles, feather cuts or atlas contamination.",
+      "Preserve source palette and fixed torso; independently compositable drawing layers."
+    ],
+    "compositing": [
+      "Separate clean plate, changing arm/cuff, quill if separately rigid, ink, flame and light.",
+      "Use Craft editable project and exposure records; retain source drawings/hashes; render silent168f24fps16:9 draft."
+    ],
+    "review": [
+      "Inspect native-size contacts at start/mid/end of both lines and every lift/landing transition.",
+      "Play full shot and adjacent cuts; decode/exposure arithmetic alone cannot prove motion.",
+      "Compare all prior F1-F4 failures and confirm no repeat."
+    ]
+  },
+  "remaining_dependencies": [
+    "Valid layout and clean contact plate",
+    "Controlled keys and connected breakdown drawings",
+    "Technical independent motion review",
+    "Author approval for canonical/final use"
+  ],
+  "scope_exclusions": [
+    "No sound production",
+    "No new dialogue",
+    "No story rewrite",
+    "No canonical promotion",
+    "No completed-motion claim"
+  ]
+}

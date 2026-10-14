@@ -1,0 +1,34 @@
+{
+  "id": "ch01-jerome-0307-v1",
+  "title": "3:07 \u2014 the room before the signal",
+  "source_pages": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "canon": [
+    "Juan Carlos works in a fourth-floor back room above Jerome Avenue",
+    "The 4 train passes the window",
+    "Development boards, cables and a Pyrex dish sit on his desk",
+    "The window is cracked open",
+    "He develops Chismosa, translating pipe sound into projected light",
+    "Headphones hang around his neck"
+  ],
+  "design_proposals": [
+    "Warm brown complexion, loose dark curls and expressive brows drawn from the board's JC portrait",
+    "Charcoal hoodie",
+    "Amber desk lamp with cobalt night light",
+    "This five-second beat compresses typing and looking toward the passing train"
+  ],
+  "reference_images": [
+    "cemi_training_pack/references/style_board.png"
+  ],
+  "image_path": "art/ch01-jerome-0307-v1.png",
+  "video_path": "delivery/ch01-jerome-0307-v1.mp4",
+  "seed": 3072026,
+  "frames": 81,
+  "resolution": "720p",
+  "image_prompt": "Use the supplied moodboard ONLY as a drawing-style and JC portrait visual reference. Create ONE new cinematic 16:9 finished scene, absolutely no moodboard layout, no collage, no lettering, no panels or captions. Heralds of the Cemi, chapter one: at 3:07 AM, Juan Carlos, a 25-year-old Dominican electronics builder and artist, sits at a cluttered work desk in his small fourth-floor back bedroom above Jerome Avenue in the Bronx. Show him from waist up in three-quarter profile, left-center of frame, with face and hands visible. Match the JC reference's warm brown complexion, loose scribbled black curls, expressive heavy eyebrows, tired lively eyes; make him clearly an adult, wearing a charcoal hoodie and headphones around his neck. His hands rest naturally on a laptop keyboard. Development boards, loose cables, a small projector and a glass leftovers container sit on the desk. On the right, a cracked-open window reveals elevated train tracks and a passing New York subway train in the night. Intimate lived-in room, rumpled laundry in a corner, amber desk lamp balanced with cobalt night light and gentle laptop glow. The screen shows only abstract light, no legible text. Strong hand-drawn graphite texture, uneven ink contours, deliberate crosshatching, circular scribbled curls, painterly terracotta and indigo color beneath visible pencil strokes, warm human expressive character, cinematic animated graphic novel. Preserve the rough artisanal line quality of the reference. No glossy plastic, no photorealism, no smooth generic anime face, no 3D CGI, no historical costume, no extra people, no supernatural portal yet. Composition should support subtle typing, breathing and turning toward the window in the next animation stage.",
+  "video_prompt": "Animate this exact hand-drawn scene as a restrained cinematic graphic-novel shot. Preserve the same adult man's face, curly hair, hoodie, headphones, hands, room layout and graphite crosshatching throughout. He softly types a few keystrokes with small natural finger movements, breathes, blinks once, then lifts his eyes and gently turns his head toward the train at the right window. Outside the window the subway train visibly travels laterally along the elevated tracks; its passing warm light sweeps softly across the room and his cheek. The cracked window and desk stay fixed. Very subtle slow camera push toward his face. Quiet, thoughtful performance. Actual coherent character and train motion, no montage, no scene cut, no morphing faces, no extra fingers, no new people, no speaking, no text, no portal. Keep pencil grain and irregular contour lines stable, rich restrained amber and indigo color."
+}

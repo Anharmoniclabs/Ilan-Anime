@@ -1,0 +1,77 @@
+{
+  "review_id": "native-character-art-v1-masked-final-independent-review",
+  "decision": "reject",
+  "task_fulfilled": false,
+  "status": "incomplete",
+  "scope": "Author requested drawing within Craft with meaningful control and fidelity to supplied art direction. These are native auto-trace reconstructions, not a completed clean redraw or rig.",
+  "authoritative_source": "ART-DIRECTION.png; directly viewed. This current supplied reference controls the review, rather than earlier generated river designs.",
+  "prior_review": "independent-review-unmasked.json",
+  "native_evidence": "independent-review-native-evidence.json",
+  "directly_viewed": [
+    "ART-DIRECTION.png",
+    "center-character-masked.png",
+    "elder-character-masked.png",
+    "right-character-masked.png"
+  ],
+  "resolved_since_prior": [
+    "Masked native studies now have a layer clip and exports visibly suppress much of the rectangular background. Previous all-background-visible failure is corrected.",
+    "True native vector paths exist; original raster reference is retained hidden and locked in each native file."
+  ],
+  "remaining_defects": [
+    {
+      "asset": "center-character-masked.png",
+      "issue": "Rough polygonal contour leaves sky/blue/gold halo wedges around curls and shoulder, includes energy across hands/chest, and truncates lower body. Fingers and silhouette have visibly clipped/contaminated margins. No clean body beneath energy exists in this result."
+    },
+    {
+      "asset": "elder-character-masked.png",
+      "issue": "City silhouettes remain across lower garment; water-tower fragment remains lower-left; blue glow and neighboring-character occlusion create a large missing right side. Skin/hair contour includes blue background fringe; figure/prop are not independent clean layers."
+    },
+    {
+      "asset": "right-character-masked.png",
+      "issue": "Background sky sliver remains along shoulder; bright blue energy remains on left torso; ghost figures and purple effects overlap fingers and body; buildings remain lower torso. Large left-side cutout and lower crop leave incomplete anatomy."
+    },
+    {
+      "asset": "all masked studies",
+      "issue": "Flat source pose is copied with posterized shade/edge noise. None supplies new construction, clean concealed anatomy, turnaround, independently selectable facial/anatomical control groups, expression replacements or a demonstrated rig."
+    },
+    {
+      "asset": "all native studies",
+      "issue": "Top-level art layers still contain 159229/117731/115580 immediate children, primarily anonymous trace fragments and clip. Fine-grained path editability is not useful face/body control by itself. No responsive native editing benchmark or motion test was performed by this reviewer."
+    }
+  ],
+  "art_direction_assessment": "Source composition, major landmarks, clothing and broad palette are closely inherited through tracing. This is not evidence of controlled redrawing capability, and rough masks/quantized shading fail clean faithful production finish. Simplified full-poster trace remains visually rejected for stronger loss of face and detail.",
+  "minimum_requirements_to_complete": [
+    "Choose a bounded character view and construct clean ink contours and cel-shading directly in Craft using the supplied source as locked reference.",
+    "Separate meaningful head, hair, torso, upper/lower limbs, hands, clothing, rigid props and FX; restore surfaces hidden by poster effects/overlaps without silently redefining identity.",
+    "Replace polygonal masks with accurate clean contour/alpha, remove city/sky/neighbor fragments, and deliberately define full-body or requested crop coverage.",
+    "Supply actual expression/body controls or registered replacements and demonstrate their operation if animation-ready puppet/control is claimed.",
+    "Review native export side-by-side with authoritative source at face/hands/accessories and test posed extremes; retain work as incomplete until these pass."
+  ],
+  "honest_claim": "Created native editable trace studies with functioning rough silhouette clips from the supplied poster. Clean controlled character drawing and rigging remain unfinished.",
+  "not_approved": [
+    "Task completion",
+    "Clean original redraw",
+    "Production-ready character isolation",
+    "Body/facial puppet controls",
+    "Animation readiness",
+    "Finished animation"
+  ],
+  "evidence": [
+    {
+      "file": "ART-DIRECTION.png",
+      "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c"
+    },
+    {
+      "file": "center-character-masked.png",
+      "sha256": "c261e0206562e81ac784c8573b3db2425c7499b659eaaf553bd51ebf8287fcdd"
+    },
+    {
+      "file": "elder-character-masked.png",
+      "sha256": "cdde937ed89cf7187cfe36f69fa1412f7389330b6f82642e66708d3714529404"
+    },
+    {
+      "file": "right-character-masked.png",
+      "sha256": "a64917f60ed12d2a234899f3560caf809ffe797330ca635a17c04b9296a9ffd4"
+    }
+  ]
+}

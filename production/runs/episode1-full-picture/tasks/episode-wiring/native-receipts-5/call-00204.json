@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "file.open",
+    "params": {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/tasks/episode-wiring/episode.filmcraft"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "migrated": false,
+    "missingMedia": 0,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/tasks/episode-wiring/episode.filmcraft",
+    "schemaVersion": 12
+  }
+}

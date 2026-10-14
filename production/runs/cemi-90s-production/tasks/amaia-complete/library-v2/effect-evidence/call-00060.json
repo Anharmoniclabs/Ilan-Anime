@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 707,
+      "name": "expressions - resolve"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

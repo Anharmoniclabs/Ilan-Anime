@@ -1,0 +1,52 @@
+{
+  "id": "S13-06",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 240,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "JC at eight, the only visit he remembers: bright room, a closet, a bundle wrapped in old cloth the size of two cupped hands. He reaches. Abuela's hand catches his wrist, quick and not hard, the way you stop a glass going off a counter. “No se toca a la Madre.” Then she gives him a mango and that ends the discussion.",
+  "camera_note": "FLASHBACK · Santo Domingo",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S13-06",
+        "header": "14:00:00 → 14:10:00 (240f) · FLASHBACK · Santo Domingo · rate 3s",
+        "action": "JC at eight, the only visit he remembers: bright room, a closet, a bundle wrapped in old cloth the size of two cupped hands. He reaches. Abuela's hand catches his wrist, quick and not hard, the way you stop a glass going off a counter. “No se toca a la Madre.” Then she gives him a mango and that ends the discussion.\nSOUND: Ceiling fan, distant moto, no score."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "HARMONY_CUT"
+    ],
+    "asset_slot_fx": [
+      "FLASHBACK_PALETTE",
+      "HANDS_ONLY",
+      "HOLD"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

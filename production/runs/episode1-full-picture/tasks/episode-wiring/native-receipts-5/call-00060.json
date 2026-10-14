@@ -1,0 +1,20 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "timeline.place",
+    "params": {
+      "item": 36,
+      "track": "V1",
+      "frame": 3792,
+      "insert": false,
+      "sourceIn": 0,
+      "duration": 3048192000000
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "clips": [
+      37
+    ]
+  }
+}

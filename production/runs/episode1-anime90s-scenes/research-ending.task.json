@@ -1,0 +1,40 @@
+{
+  "id": "research-ending",
+  "role": "storyboard",
+  "objective": "Generate NEW finished-color 16:9 story frame for EVERY assigned scripted shot (23 shots) in shots.json using approved anime90s character sources and rooftop style. Built-in imagegen, one separate image per shot, no collages. Read full script for scene context and intended moment. Preserve character likeness/costume. Exact ages/counts, script day/night and historical period; no default sunset. For multiple action moments choose clear representative key moment and document which other moments need later drawings. Save PNG immediately per call plus prompt refs hashes actual inspection. Draft source images only, not animation. Current user explicitly approves cast and requests every shot; generation may continue through entire assignment without interim creative gate. Do not promote canonical or touch previous runs.",
+  "shots": [
+    "S00-01",
+    "S00-02",
+    "S02-01",
+    "S14-01",
+    "S14-02",
+    "S14-03",
+    "S14-04",
+    "S14-05",
+    "S14-06",
+    "S14-07",
+    "S14-08",
+    "S14-09",
+    "S14-10",
+    "S14-11",
+    "S15-01",
+    "S15-02",
+    "S15-03",
+    "S15-04",
+    "S15-05",
+    "S15-06",
+    "S15-07",
+    "S15-08",
+    "S15-09"
+  ],
+  "inputs": [
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+    "production/runs/episode1-anime90s-scenes/author-direction.json",
+    "production/runs/episode1-anime90s-cast/source-index.json",
+    "production/runs/episode1-anime90s-scenes/tasks/research-ending/shots.json"
+  ],
+  "depends_on": [],
+  "output_dir": "production/runs/episode1-anime90s-scenes/tasks/research-ending",
+  "art_direction_mode": "STORY_FRAME",
+  "requires_author_approval": false
+}

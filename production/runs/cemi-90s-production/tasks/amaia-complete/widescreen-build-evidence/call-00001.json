@@ -1,0 +1,85 @@
+{
+  "tool": "open_project",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/amaia-puppet.ecproj"
+  },
+  "status": "succeeded",
+  "result": {
+    "activeComp": 4,
+    "bitDepth": "8 bpc",
+    "dirty": false,
+    "items": [
+      {
+        "id": 1,
+        "label": "Lavender",
+        "name": "amaia-master.png",
+        "parent": null,
+        "size": [
+          1024,
+          1536
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2,
+        "label": "Lavender",
+        "name": "amaia-blink.png",
+        "parent": null,
+        "size": [
+          1024,
+          1536
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 3,
+        "label": "Lavender",
+        "name": "amaia-talk.png",
+        "parent": null,
+        "size": [
+          1024,
+          1536
+        ],
+        "type": "Image"
+      },
+      {
+        "duration": 2.0,
+        "frameRate": 24.0,
+        "id": 4,
+        "label": "Sandstone",
+        "layers": 8,
+        "name": "AMAIA R2 - exact master neutral",
+        "parent": null,
+        "size": [
+          1024,
+          1536
+        ],
+        "type": "Composition"
+      },
+      {
+        "duration": 2.0,
+        "frameRate": 24.0,
+        "id": 423,
+        "label": "Sandstone",
+        "layers": 8,
+        "name": "AMAIA R2 - blink and mouth replacements",
+        "parent": null,
+        "size": [
+          1024,
+          1536
+        ],
+        "type": "Composition"
+      }
+    ],
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/amaia-puppet.ecproj",
+    "renderer": {
+      "active": "cpu",
+      "adapter": null,
+      "gpuAcceleration": true,
+      "renderer": "Mercury GPU Acceleration"
+    },
+    "selectedLayers": [],
+    "time": 0.0,
+    "undo": []
+  }
+}

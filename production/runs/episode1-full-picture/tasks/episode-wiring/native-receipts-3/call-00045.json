@@ -1,0 +1,586 @@
+{
+  "tool": "sequence_inspect",
+  "arguments": {},
+  "status": "succeeded",
+  "result": {
+    "audio": [],
+    "duration": 34292160000000,
+    "durationFrames": 3240,
+    "id": 2,
+    "in": null,
+    "markers": [
+      {
+        "color": "Green",
+        "duration": 1016064000000,
+        "id": 3,
+        "kind": "Comment",
+        "name": "S00-01 technical-approved",
+        "start": 0
+      },
+      {
+        "color": "Green",
+        "duration": 1270080000000,
+        "id": 6,
+        "kind": "Comment",
+        "name": "S00-02 technical-approved",
+        "start": 1016064000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 9,
+        "kind": "Comment",
+        "name": "S01-01 unreviewed",
+        "start": 2286144000000
+      },
+      {
+        "color": "Green",
+        "duration": 3048192000000,
+        "id": 12,
+        "kind": "Comment",
+        "name": "S01-02 missing",
+        "start": 3810240000000
+      },
+      {
+        "color": "Green",
+        "duration": 2032128000000,
+        "id": 13,
+        "kind": "Comment",
+        "name": "S01-03 partial",
+        "start": 6858432000000
+      },
+      {
+        "color": "Green",
+        "duration": 1778112000000,
+        "id": 16,
+        "kind": "Comment",
+        "name": "S01-04 missing",
+        "start": 8890560000000
+      },
+      {
+        "color": "Green",
+        "duration": 1778112000000,
+        "id": 17,
+        "kind": "Comment",
+        "name": "S01-05 missing",
+        "start": 10668672000000
+      },
+      {
+        "color": "Green",
+        "duration": 2540160000000,
+        "id": 18,
+        "kind": "Comment",
+        "name": "S01-06 missing",
+        "start": 12446784000000
+      },
+      {
+        "color": "Green",
+        "duration": 1778112000000,
+        "id": 19,
+        "kind": "Comment",
+        "name": "S01-07 missing",
+        "start": 14986944000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 20,
+        "kind": "Comment",
+        "name": "S01-08 missing",
+        "start": 16765056000000
+      },
+      {
+        "color": "Green",
+        "duration": 3556224000000,
+        "id": 21,
+        "kind": "Comment",
+        "name": "S01-09 missing",
+        "start": 18289152000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 22,
+        "kind": "Comment",
+        "name": "S01-10 missing",
+        "start": 21845376000000
+      },
+      {
+        "color": "Green",
+        "duration": 2540160000000,
+        "id": 23,
+        "kind": "Comment",
+        "name": "S01-11 missing",
+        "start": 23369472000000
+      },
+      {
+        "color": "Green",
+        "duration": 3556224000000,
+        "id": 24,
+        "kind": "Comment",
+        "name": "S01-12 missing",
+        "start": 25909632000000
+      },
+      {
+        "color": "Green",
+        "duration": 1524096000000,
+        "id": 25,
+        "kind": "Comment",
+        "name": "S01-13 missing",
+        "start": 29465856000000
+      },
+      {
+        "color": "Green",
+        "duration": 2286144000000,
+        "id": 26,
+        "kind": "Comment",
+        "name": "S01-14 missing",
+        "start": 30989952000000
+      },
+      {
+        "color": "Green",
+        "duration": 1016064000000,
+        "id": 27,
+        "kind": "Comment",
+        "name": "S01-15 technical-approved",
+        "start": 33276096000000
+      }
+    ],
+    "name": "Episode 1 INCOMPLETE inspection — gaps are missing motion",
+    "out": null,
+    "playhead": null,
+    "selection": [
+      29
+    ],
+    "settings": {
+      "audio_master": "Stereo",
+      "color": {
+        "auto_tone_map": true,
+        "wide_gamut": false,
+        "working": "Rec709"
+      },
+      "drop_frame": false,
+      "frame_rate": {
+        "den": 1,
+        "num": 24
+      },
+      "height": 720,
+      "max_bit_depth": false,
+      "max_render_quality": false,
+      "par": [
+        1,
+        1
+      ],
+      "preset": "1280x720 24",
+      "preview_codec": "ProRes 422",
+      "sample_rate": 48000,
+      "width": 1280,
+      "working_space": "Rec. 709"
+    },
+    "split": {
+      "audioIn": null,
+      "audioOut": null,
+      "videoIn": null,
+      "videoOut": null
+    },
+    "video": [
+      {
+        "enabled": true,
+        "id": 1,
+        "items": [
+          {
+            "clip": 5,
+            "duration": 1016064000000,
+            "durationFrames": 96,
+            "effects": [
+              {
+                "effect": "motion",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "anchor": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "anti_flicker": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "position": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "rotation": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "scale": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "scale_width": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "uniform_scale": {
+                    "keyframes": 0,
+                    "value": "Bool(true)"
+                  }
+                }
+              },
+              {
+                "effect": "opacity",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "blend": {
+                    "keyframes": 0,
+                    "value": "Choice(0)"
+                  },
+                  "opacity": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              },
+              {
+                "effect": "time_remap",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "speed": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "item": 4,
+            "label": "Violet",
+            "link": null,
+            "name": "S00-01 technical-approved",
+            "sourceIn": 0,
+            "speed": 1.0,
+            "start": 0,
+            "startFrame": 0
+          },
+          {
+            "clip": 8,
+            "duration": 1270080000000,
+            "durationFrames": 120,
+            "effects": [
+              {
+                "effect": "motion",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "anchor": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "anti_flicker": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "position": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "rotation": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "scale": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "scale_width": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "uniform_scale": {
+                    "keyframes": 0,
+                    "value": "Bool(true)"
+                  }
+                }
+              },
+              {
+                "effect": "opacity",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "blend": {
+                    "keyframes": 0,
+                    "value": "Choice(0)"
+                  },
+                  "opacity": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              },
+              {
+                "effect": "time_remap",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "speed": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "item": 7,
+            "label": "Violet",
+            "link": null,
+            "name": "S00-02 technical-approved",
+            "sourceIn": 0,
+            "speed": 1.0,
+            "start": 1016064000000,
+            "startFrame": 96
+          },
+          {
+            "clip": 11,
+            "duration": 1524096000000,
+            "durationFrames": 144,
+            "effects": [
+              {
+                "effect": "motion",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "anchor": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 960.0, y: 540.0 })"
+                  },
+                  "anti_flicker": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "position": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "rotation": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "scale": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "scale_width": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "uniform_scale": {
+                    "keyframes": 0,
+                    "value": "Bool(true)"
+                  }
+                }
+              },
+              {
+                "effect": "opacity",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "blend": {
+                    "keyframes": 0,
+                    "value": "Choice(0)"
+                  },
+                  "opacity": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              },
+              {
+                "effect": "time_remap",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "speed": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "item": 10,
+            "label": "Violet",
+            "link": null,
+            "name": "S01-01 unreviewed",
+            "sourceIn": 0,
+            "speed": 1.0,
+            "start": 2286144000000,
+            "startFrame": 216
+          },
+          {
+            "clip": 15,
+            "duration": 2032128000000,
+            "durationFrames": 192,
+            "effects": [
+              {
+                "effect": "motion",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "anchor": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "anti_flicker": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "position": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "rotation": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "scale": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "scale_width": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "uniform_scale": {
+                    "keyframes": 0,
+                    "value": "Bool(true)"
+                  }
+                }
+              },
+              {
+                "effect": "opacity",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "blend": {
+                    "keyframes": 0,
+                    "value": "Choice(0)"
+                  },
+                  "opacity": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              },
+              {
+                "effect": "time_remap",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "speed": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "item": 14,
+            "label": "Violet",
+            "link": null,
+            "name": "S01-03 partial",
+            "sourceIn": 0,
+            "speed": 1.0,
+            "start": 6858432000000,
+            "startFrame": 648
+          },
+          {
+            "clip": 29,
+            "duration": 1016064000000,
+            "durationFrames": 96,
+            "effects": [
+              {
+                "effect": "motion",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "anchor": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "anti_flicker": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "position": {
+                    "keyframes": 0,
+                    "value": "Vec2(Vec2 { x: 640.0, y: 360.0 })"
+                  },
+                  "rotation": {
+                    "keyframes": 0,
+                    "value": "Float(0.0)"
+                  },
+                  "scale": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "scale_width": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  },
+                  "uniform_scale": {
+                    "keyframes": 0,
+                    "value": "Bool(true)"
+                  }
+                }
+              },
+              {
+                "effect": "opacity",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "blend": {
+                    "keyframes": 0,
+                    "value": "Choice(0)"
+                  },
+                  "opacity": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              },
+              {
+                "effect": "time_remap",
+                "enabled": true,
+                "masks": 0,
+                "params": {
+                  "speed": {
+                    "keyframes": 0,
+                    "value": "Float(100.0)"
+                  }
+                }
+              }
+            ],
+            "enabled": true,
+            "item": 28,
+            "label": "Violet",
+            "link": null,
+            "name": "preview.mp4",
+            "sourceIn": 0,
+            "speed": 1.0,
+            "start": 33276096000000,
+            "startFrame": 3144
+          }
+        ],
+        "locked": false,
+        "muted": false,
+        "name": "Video 1",
+        "solo": false,
+        "syncLock": true,
+        "transitions": []
+      }
+    ]
+  }
+}

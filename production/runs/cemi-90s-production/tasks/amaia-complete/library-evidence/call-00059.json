@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 171,
+      "name": "screen-left-whole-arm"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

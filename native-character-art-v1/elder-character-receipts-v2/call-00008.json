@@ -1,0 +1,16 @@
+{
+  "tool": "run_command",
+  "arguments": {
+    "command": "artboard.setProps",
+    "params": {
+      "index": 0,
+      "x": 112,
+      "y": 42,
+      "width": 525,
+      "height": 603,
+      "name": "elder-character"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

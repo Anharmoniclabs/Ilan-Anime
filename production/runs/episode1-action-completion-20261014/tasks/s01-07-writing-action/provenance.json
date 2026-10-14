@@ -1,0 +1,12 @@
+{
+  "source": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+  "source_sha256": "2cad53dd8dfffbac39753fb51c4f6f84a6702823d81cdd9b4cb442cc12bef365",
+  "generated_sha256": "509a933628ba820532c5b8eeef8cbf269ba42122f21380f676af08bfced00fda",
+  "tool": "built-in imagegen",
+  "calls": 1,
+  "host_agent_id": "/root/counter_writing",
+  "status": "exploratory",
+  "frame_count": 168,
+  "fps": 24,
+  "retained_raw_generated_sheet": true
+}

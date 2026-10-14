@@ -1,0 +1,43 @@
+{
+  "shot": "S00-02",
+  "measured": {
+    "width": 1440,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "avg_frame_rate": "24/1",
+    "nb_read_frames": "120"
+  },
+  "source_start_frame": 96,
+  "limitations": [
+    "Abuela voiceover pending."
+  ],
+  "audio": "pending",
+  "plan": {
+    "kind": "card",
+    "lines": [
+      [
+        "ELLOS CUENTAN.",
+        300,
+        38
+      ],
+      [
+        "NOSOTROS RECORDAMOS.",
+        360,
+        38
+      ],
+      [
+        "They count. We remember.",
+        425,
+        19
+      ],
+      [
+        "\u2014 ABUELA",
+        475,
+        17
+      ]
+    ],
+    "limitations": [
+      "Abuela voiceover pending."
+    ]
+  }
+}

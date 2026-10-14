@@ -1,0 +1,11 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "name": "1-0 pipe endpoint"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

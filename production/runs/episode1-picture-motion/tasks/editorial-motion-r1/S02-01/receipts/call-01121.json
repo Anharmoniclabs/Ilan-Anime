@@ -1,0 +1,14 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.addKey",
+    "params": {
+      "layer": 175,
+      "path": "transform/opacity",
+      "time": 5.125,
+      "value": 17.647058823529413
+    }
+  },
+  "status": "succeeded",
+  "result": 124
+}

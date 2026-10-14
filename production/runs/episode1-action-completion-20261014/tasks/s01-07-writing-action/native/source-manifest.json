@@ -1,0 +1,56 @@
+{
+  "shot": "S01-07",
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "exposures": [
+    {
+      "path": "cels/wide-establish.png",
+      "frames": 24
+    },
+    {
+      "path": "cels/line-one-start.png",
+      "frames": 12
+    },
+    {
+      "path": "cels/line-one-breakdown.png",
+      "frames": 9
+    },
+    {
+      "path": "cels/line-one-middle.png",
+      "frames": 12
+    },
+    {
+      "path": "cels/line-one-end.png",
+      "frames": 15
+    },
+    {
+      "path": "cels/pen-lift.png",
+      "frames": 12
+    },
+    {
+      "path": "cels/return-above-line.png",
+      "frames": 9
+    },
+    {
+      "path": "cels/line-two-start.png",
+      "frames": 12
+    },
+    {
+      "path": "cels/line-two-breakdown.png",
+      "frames": 9
+    },
+    {
+      "path": "cels/line-two-middle.png",
+      "frames": 12
+    },
+    {
+      "path": "cels/line-two-end.png",
+      "frames": 18
+    },
+    {
+      "path": "cels/finish-lift.png",
+      "frames": 24
+    }
+  ]
+}

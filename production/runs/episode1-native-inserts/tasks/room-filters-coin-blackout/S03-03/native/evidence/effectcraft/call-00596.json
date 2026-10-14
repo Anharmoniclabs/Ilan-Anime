@@ -1,0 +1,11 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "name": "1-50 radiator drawn steam on threes"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

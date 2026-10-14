@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 13,
+      "rect": [
+        161,
+        452,
+        764,
+        474
+      ],
+      "content": "text",
+      "text": "Unidentified protective hand"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 461,
+    "story": 462
+  }
+}

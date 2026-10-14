@@ -1,0 +1,24 @@
+{
+  "task_id": "s01-02-canoe-action",
+  "role": "key-animator",
+  "host_agent_id": "/root/canoe_action",
+  "status": "blocked",
+  "artifacts": [
+    "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action/dairon-action-candidate.png",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action/image-prompt.txt",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action/candidate-checks.json",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action/continuity.json"
+  ],
+  "evidence": [
+    "Directly viewed S01-02: three canoes, 11 people and source Dairon pose; flattened image.",
+    "Directly viewed old lead_canoe_eight_poses.png: mismatching hull and paddle-side geometry; preserved unused.",
+    "Directly viewed generated candidate: eight changed arm/torso drawings and clipped paddles; no physically consistent complete stroke.",
+    "Pixel inspection {\"dimensions\": [1536, 1024], \"mode\": \"RGBA\", \"alpha_extrema\": [0, 254], \"rgba_cutout_requirement_pass\": \"alpha present; silhouette matte not approved\", \"visual_inspection\": \"Viewed generated image and exact references. Eight poses change elbows/torso; several paddle blade tips stop at panel boundaries; pelvis/knee geometry varies; seventh pose leaves one hand on knee, violating maintained shaft grip. Preview showed gradient RGB backing, but pixel inspection confirms that backing is transparent (49.84% alpha zero); the preview alone does not establish opaque background. No complete rigid prop or registered cels.\", \"generation_calls\": 1, \"registration_performed\": false, \"shot_rendered\": false, \"frame_coverage_accepted\": 0, \"alpha_zero_fraction\": 0.4983634948730469}"
+  ],
+  "blockers": [
+    "Dairon candidate lacks complete paddle silhouettes and stable two-hand grip; multiple blade tips cropped and pose 7 releases one hand. Pelvis and foreshortening drift. Cannot register into continuity-correct stroke without redraw.",
+    "S01-02 source flattened. Clean background/water plate, stable foreground hull matte and character removal plate missing from assigned inputs; moving new character over existing painting would leave duplicates.",
+    "Missing current-style Beheto chest/breath replacement drawings, Amaia cradle response, Yara grip continuity and independently staged children forearm effects.",
+    "One host image call exhausted under bounded task. Corrected drawings and independent animation-supervisor review required; no completed 288-frame shot exists."
+  ]
+}

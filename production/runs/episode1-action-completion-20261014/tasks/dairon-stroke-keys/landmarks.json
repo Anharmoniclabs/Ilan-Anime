@@ -1,0 +1,74 @@
+{
+  "method": "Manual approximate landmarks from directly viewed 1024x1536 drawing, not automatic detection or registered coordinates. Paddle top grip means geometric prop top even when hand is absent.",
+  "keys": [
+    {
+      "key": "reach",
+      "top_grip": [
+        507,
+        184
+      ],
+      "blade_tip": [
+        221,
+        694
+      ],
+      "pelvis": [
+        211,
+        358
+      ],
+      "projected_paddle_length_px": 584.7
+    },
+    {
+      "key": "plant",
+      "top_grip": [
+        889,
+        137
+      ],
+      "blade_tip": [
+        791,
+        722
+      ],
+      "pelvis": [
+        721,
+        363
+      ],
+      "projected_paddle_length_px": 593.2
+    },
+    {
+      "key": "pull",
+      "top_grip": [
+        312,
+        976
+      ],
+      "blade_tip": [
+        55,
+        1282
+      ],
+      "pelvis": [
+        289,
+        1104
+      ],
+      "projected_paddle_length_px": 399.6
+    },
+    {
+      "key": "recovery",
+      "top_grip": [
+        972,
+        867
+      ],
+      "blade_tip": [
+        645,
+        1354
+      ],
+      "pelvis": [
+        731,
+        1113
+      ],
+      "projected_paddle_length_px": 586.6
+    }
+  ],
+  "observations": [
+    "Pull paddle projected length about 400px versus about590px in other keys. Foreshortening and/or changed scale requires independent review.",
+    "Pull pose missing upper hand at prop top.",
+    "After subtracting quadrant origins, pelvis positions vary approximately 78px horizontally; same-canvas registration not achieved."
+  ]
+}

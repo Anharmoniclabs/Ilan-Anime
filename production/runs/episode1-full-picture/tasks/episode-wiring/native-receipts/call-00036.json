@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 45976896000000,
+      "durationFrames": 168,
+      "name": "S03-05 missing",
+      "comment": "mic insert; follow riser; roof continuation; UI legend"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 37
+  }
+}

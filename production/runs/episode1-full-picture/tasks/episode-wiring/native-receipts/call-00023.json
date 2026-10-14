@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 25909632000000,
+      "durationFrames": 336,
+      "name": "S01-12 missing",
+      "comment": "canoes overtake strokes; blades drag; lift and recovery; foam turn settles"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 24
+  }
+}

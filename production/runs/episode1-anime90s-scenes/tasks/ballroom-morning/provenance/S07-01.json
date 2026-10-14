@@ -1,0 +1,22 @@
+{
+  "shot_id": "S07-01",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-01.png",
+  "status": "exploratory",
+  "sha256": "4319c42b4f20a0fe268d2b06a0aa5d6cf827f9bd380037aafdc8899f139ed3ff",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S07-01.txt",
+  "references": [
+    {
+      "path": "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "TuesdayMorning super inpost, radio merengue, chairrock and closerbill insert.",
+  "inspection": "Directly viewed: warm pale morningkitchen, billunderchairleg, creamcupboards/stove/radio. Added Dominicanflag decor and religiouspicture fitdomesticcontext but not script-required.",
+  "directly_viewed": true
+}

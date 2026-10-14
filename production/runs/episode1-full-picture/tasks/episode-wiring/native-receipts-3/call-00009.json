@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 1016064000000,
+      "durationFrames": 120,
+      "name": "S00-02 technical-approved",
+      "comment": "dissolve type; hold readable card"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 6
+  }
+}

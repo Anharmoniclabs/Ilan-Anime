@@ -1,0 +1,115 @@
+{
+  "tool": "open_project",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/native-matte/shot.ecproj"
+  },
+  "status": "succeeded",
+  "result": {
+    "activeComp": 1,
+    "bitDepth": "8 bpc",
+    "dirty": false,
+    "items": [
+      {
+        "duration": 4.0,
+        "frameRate": 24.0,
+        "id": 1,
+        "label": "Sandstone",
+        "layers": 7,
+        "name": "S05-13",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Composition"
+      },
+      {
+        "id": 2,
+        "label": "Lavender",
+        "name": "clean-plate.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 26,
+        "label": "Lavender",
+        "name": "contact-shadow.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 50,
+        "label": "Lavender",
+        "name": "coin-matte-clean.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 74,
+        "label": "Lavender",
+        "name": "glint-a.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 98,
+        "label": "Lavender",
+        "name": "glint-b.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 122,
+        "label": "Lavender",
+        "name": "glint-c.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 146,
+        "label": "Lavender",
+        "name": "white-contact-flash.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      }
+    ],
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/native-matte/shot.ecproj",
+    "renderer": {
+      "active": "cpu",
+      "adapter": null,
+      "gpuAcceleration": true,
+      "renderer": "Mercury GPU Acceleration"
+    },
+    "selectedLayers": [],
+    "time": 0.0,
+    "undo": []
+  }
+}

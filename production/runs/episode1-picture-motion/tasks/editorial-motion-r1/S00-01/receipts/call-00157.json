@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.addKey",
+    "params": {
+      "layer": 97,
+      "path": "transform/position",
+      "time": 2.2083333333333335,
+      "value": [
+        640.3939343517478,
+        360.2515744385799,
+        0
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": 54
+}

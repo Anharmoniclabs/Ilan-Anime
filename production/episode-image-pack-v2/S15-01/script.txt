@@ -1,0 +1,4 @@
+`17:35:00 → 17:40:00` (120f) · MAP GAG · track · rate 3s
+- **Action:** A tiny route map: library → home, avoiding the El. The bodega is on the only route. JC rationalizes; an insert of a stove burner glows red and a finger approaches. 'I am somebody who has to touch the stove to find out.'
+- **FX:** `ROUTE_MAP_CEL; STOVE_GAG(2s)`
+- **Sound:** VO as in the book, deadpan.

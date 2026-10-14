@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 84,
+      "name": "view-three-quarter"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

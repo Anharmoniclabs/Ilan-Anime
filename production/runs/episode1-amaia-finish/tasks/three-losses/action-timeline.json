@@ -1,0 +1,196 @@
+{
+  "shot": "S01-03",
+  "status": "exploratory",
+  "frames": 192,
+  "fps": 24,
+  "size": [
+    1280,
+    720
+  ],
+  "sound": "silent",
+  "count": "fourteen to eleven: exactly THREE losses",
+  "cadence": 3,
+  "exposures": [
+    {
+      "start": 0,
+      "end_exclusive": 18,
+      "drawing": "rest",
+      "source": "cels/rest.png"
+    },
+    {
+      "start": 18,
+      "end_exclusive": 24,
+      "drawing": "look-a",
+      "source": "cels/look-a.png"
+    },
+    {
+      "start": 24,
+      "end_exclusive": 30,
+      "drawing": "count-a",
+      "source": "cels/count-a.png"
+    },
+    {
+      "start": 30,
+      "end_exclusive": 42,
+      "drawing": "look-a",
+      "source": "cels/look-a.png"
+    },
+    {
+      "start": 42,
+      "end_exclusive": 51,
+      "drawing": "rest",
+      "source": "cels/rest.png"
+    },
+    {
+      "start": 51,
+      "end_exclusive": 57,
+      "drawing": "look-o",
+      "source": "cels/look-o.png"
+    },
+    {
+      "start": 57,
+      "end_exclusive": 63,
+      "drawing": "count-o",
+      "source": "cels/count-o.png"
+    },
+    {
+      "start": 63,
+      "end_exclusive": 75,
+      "drawing": "look-o",
+      "source": "cels/look-o.png"
+    },
+    {
+      "start": 75,
+      "end_exclusive": 84,
+      "drawing": "rest",
+      "source": "cels/rest.png"
+    },
+    {
+      "start": 84,
+      "end_exclusive": 90,
+      "drawing": "look-a",
+      "source": "cels/look-a.png"
+    },
+    {
+      "start": 90,
+      "end_exclusive": 96,
+      "drawing": "count-a",
+      "source": "cels/count-a.png"
+    },
+    {
+      "start": 96,
+      "end_exclusive": 108,
+      "drawing": "look-o",
+      "source": "cels/look-o.png"
+    },
+    {
+      "start": 108,
+      "end_exclusive": 117,
+      "drawing": "rest",
+      "source": "cels/rest.png"
+    },
+    {
+      "start": 117,
+      "end_exclusive": 120,
+      "drawing": "blink",
+      "source": "cels/blink.png"
+    },
+    {
+      "start": 120,
+      "end_exclusive": 126,
+      "drawing": "head-early",
+      "source": "cels/head-early.png"
+    },
+    {
+      "start": 126,
+      "end_exclusive": 132,
+      "drawing": "head-down",
+      "source": "cels/head-down.png"
+    },
+    {
+      "start": 132,
+      "end_exclusive": 150,
+      "drawing": "head-lower-candidate",
+      "source": "cels/head-lower-candidate.png"
+    },
+    {
+      "start": 150,
+      "end_exclusive": 156,
+      "drawing": "head-down",
+      "source": "cels/head-down.png"
+    },
+    {
+      "start": 156,
+      "end_exclusive": 162,
+      "drawing": "head-early",
+      "source": "cels/head-early.png"
+    },
+    {
+      "start": 162,
+      "end_exclusive": 174,
+      "drawing": "rest",
+      "source": "cels/rest.png"
+    },
+    {
+      "start": 174,
+      "end_exclusive": 183,
+      "drawing": "look-a",
+      "source": "cels/look-a.png"
+    },
+    {
+      "start": 183,
+      "end_exclusive": 192,
+      "drawing": "rest",
+      "source": "cels/rest.png"
+    }
+  ],
+  "apparitions": [
+    {
+      "memory": 1,
+      "start": 24,
+      "end": 42,
+      "opacity_start": 0.25,
+      "opacity_end": 0
+    },
+    {
+      "memory": 2,
+      "start": 57,
+      "end": 75,
+      "opacity_start": 0.25,
+      "opacity_end": 0
+    },
+    {
+      "memory": 3,
+      "start": 90,
+      "end": 108,
+      "opacity_start": 0.25,
+      "opacity_end": 0
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "scale": 100,
+      "position": [
+        640,
+        360
+      ]
+    },
+    {
+      "frame": 111,
+      "scale": 100,
+      "position": [
+        640,
+        360
+      ]
+    },
+    {
+      "frame": 191,
+      "scale": 155,
+      "position": [
+        910,
+        520
+      ]
+    }
+  ]
+}

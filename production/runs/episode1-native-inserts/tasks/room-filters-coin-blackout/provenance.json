@@ -1,0 +1,26 @@
+[
+  {
+    "shot": "S03-03",
+    "source": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-03.png",
+    "sha256": "729b320dc6c842e49092ac733efbee47efaf02ad68c939d41cbffd4e563f3442",
+    "status": "exploratory source; not author-approved"
+  },
+  {
+    "shot": "S04-02",
+    "source": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S04-02.png",
+    "sha256": "12d96f7d5d51064d1ad90065a34661a5149f4fa272c26577969620e1f1eccf08",
+    "status": "exploratory source; not author-approved"
+  },
+  {
+    "shot": "S05-13",
+    "source": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-13.png",
+    "sha256": "d01bb1ecefa404f63711c4a107c58e75c2414313f56879e2b7a15c1d654b3337",
+    "status": "exploratory source; not author-approved"
+  },
+  {
+    "shot": "S06-03",
+    "source": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-03.png",
+    "sha256": "c8c8c38e9dc0b3f83e3e5d5162df1bfca0d95603410ccac45f90ee6654cbe6cb",
+    "status": "exploratory source; not author-approved"
+  }
+]

@@ -1,0 +1,4 @@
+`01:12:00 → 01:26:00` (336f) · POV bow · tunnel · rate 2s
+- **Action:** The canoe shrieks through mangrove roots on both sides; a paddle snaps; wood chips. The roots open into air that smells of salt 'from the wrong direction'. Cloth and hair flutter the opposite way.
+- **FX:** `MULTIPLANE_RUSH(root layers z1–z5); SPEED_BG; SPLINTER_CEL; WIND_REVERSE`
+- **Sound:** Wood scream on hull. Snap. Then sudden wide air and a wind change.

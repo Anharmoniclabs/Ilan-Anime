@@ -1,0 +1,127 @@
+{
+  "shot": {
+    "id": "S01-02",
+    "scene": "S01",
+    "start_frame": 360,
+    "frames": 96,
+    "tc_in": "00:15:00",
+    "tc_out": "00:27:00",
+    "camera": "CRANE DOWN \u00b7 WS",
+    "animation_rate": 3,
+    "action": "Three dugout canoes in single file down a moonless mangrove channel. Lead: Dairon paddling, Yara behind him with the cem\u00ed in stiff cloth against her chest. Amaia with her sleeping son (not yet two). Second: Beheto, drum between his knees, chest whistling every breath. Third: three children, a faint blue breath on their forearms.",
+    "fx": [
+      {
+        "name": "MULTIPLANE",
+        "args": "5 painted layers"
+      },
+      {
+        "name": "TRANSMITTED_LIGHT",
+        "args": "blue,children,0.15"
+      },
+      {
+        "name": "FILM_GRAIN",
+        "args": ""
+      }
+    ],
+    "audio": "Paddles, hull creak. Beheto's whistling breath is the only tempo (about 2s cycle).",
+    "note": "",
+    "showcase": null
+  },
+  "plan": {
+    "kind": "composite",
+    "background": "assets/new-night-scene-v1/background.png",
+    "camera": {
+      "x": [
+        8,
+        38
+      ],
+      "y": [
+        20,
+        4
+      ]
+    },
+    "water": {
+      "top": 0.59
+    },
+    "layers": [
+      {
+        "files": [
+          "assets/new-night-scene-v1/fleet-00.png",
+          "assets/new-night-scene-v1/fleet-01.png",
+          "assets/new-night-scene-v1/fleet-02.png",
+          "assets/new-night-scene-v1/fleet-03.png",
+          "assets/new-night-scene-v1/fleet-04.png",
+          "assets/new-night-scene-v1/fleet-05.png",
+          "assets/new-night-scene-v1/fleet-06.png",
+          "assets/new-night-scene-v1/fleet-07.png"
+        ],
+        "canvas": [
+          1672,
+          941
+        ],
+        "exposures": [
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            9
+          ],
+          [
+            7,
+            9
+          ]
+        ],
+        "loop": true,
+        "width": 0.91,
+        "x": [
+          0.075,
+          0.04
+        ],
+        "y": [
+          0.25,
+          0.28
+        ],
+        "bob": 1.8,
+        "keep_in_frame": true
+      },
+      {
+        "image": "assets/new-night-scene-v1/foreground.png",
+        "width": 1.05,
+        "x": [
+          -0.01,
+          -0.045
+        ],
+        "y": [
+          0,
+          -0.005
+        ]
+      }
+    ],
+    "limitations": [
+      "Silent four-second preview of new scene; source shot is12seconds.",
+      "Eight generated fleet cels with held passenger acting; fleet travels as a shared layer."
+    ]
+  }
+}

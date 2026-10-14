@@ -1,0 +1,447 @@
+{
+  "version": 1,
+  "run": "episode1-action-completion-20261014",
+  "paused": true,
+  "pause_reason": "No coherent first- and second-line active-stroke drawings against the fixed paper plane (F1/F4).; Lift/return/landing breakdown gap remains (F2).; Feathers cross tile boundaries, preventing complete independent cels (F3).; The single permitted generation call is used; further drawing work requires a fresh bounded task.",
+  "tasks": {
+    "amaia-seat-repair": {
+      "id": "amaia-seat-repair",
+      "objective": "User renewed instruction: finish full episode including all action shots. Make one new bounded repair to the saved 192-frame S01-03 after reading exact rejection. Correct comparative ADULT scale and actual seat/bench contact of all three memory figures, preserving original living figures, hull, exact three fade endpoints (42/75/108), and head drawing arc. Use independently visible seat geometry and perspective evidence; numerical points alone are not proof. Reuse previous native sources and render new editable EffectCraft/FilmCraft plus silent MP4 and sequential decoded evidence. No new generation or paid APIs in this task; if adequate seat artwork is missing, identify the exact missing visual and return blocked. Never label prior rejected versions approved. Draft technical review only; no final creative approval inferred. Do not change source directories, policy, or ledger. No further self-directed revision loop. One submission.",
+      "shots": [
+        "S01-03"
+      ],
+      "output_dir": "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair",
+      "inputs": [
+        "AGENTS.md",
+        "docs/STATUS.md",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/shot-index.json",
+        "production/runs/episode1-amaia-finish/tasks/three-losses-r2",
+        "production/runs/episode1-amaia-finish/reviews/three-losses-r2/review.md",
+        "production/runs/episode1-full-picture/author-decisions.json"
+      ],
+      "depends_on": [],
+      "role": "key-animator",
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "state": "blocked",
+      "agent_id": "host-amaia-seat-repair",
+      "result": {
+        "task_id": "amaia-seat-repair",
+        "role": "key-animator",
+        "status": "blocked",
+        "host_agent_id": "/root/amaia_seat_repair",
+        "artifacts": [
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/registration_probe.py",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/registration-probe.json",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/seat-support-source-diagnostic.jpg",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/adult-scale-probe-opaque.jpg",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/adult-scale-probe-quarter-alpha.jpg",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/HANDOFF.md"
+        ],
+        "evidence": [
+          "Directly viewed three-losses-r2/sources/rest.png: only short bench edge and low diagonal plank, not three independent adult seat supports at the rejected anchors.",
+          "Directly viewed all three original ghost-*-rgba.png source figures and prior contact-registration.png; supplied contours are complete but prior adult scale is too small.",
+          "Rendered and directly viewed adult-scale-probe-opaque.jpg and adult-scale-probe-quarter-alpha.jpg: enlargement to .75 yields overlap/right-edge cropping without establishing seat support.",
+          "registration-probe.json records exact source SHA256, static transforms and unresolved anchors. No new movie or sequential-motion review claimed."
+        ],
+        "blockers": [
+          "Missing perspective-correct three-adult seat/contact artwork matched to S01-03 original Amaia/child/hull composition. Existing source plate provides no independently visible support for all three figures. Envelope prohibits new generation; need dedicated seating plate/contact-matched source artwork or newly staged memory insert."
+        ]
+      }
+    },
+    "s01-07-writing-action": {
+      "output_dir": "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action",
+      "depends_on": [],
+      "id": "s01-07-writing-action",
+      "inputs": [
+        "AGENTS.md",
+        "docs/STATUS.md",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/shot-index.json",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png"
+      ],
+      "role": "key-animator",
+      "shots": [
+        "S01-07"
+      ],
+      "objective": "Produce a real 168-frame 24fps 16:9 silent S01-07 action draft: Counter remains seated on stump, gaze down, writes one line and a second line below in the ledger on his knee. Preserve current source character, costume, lantern light and moonless mangrove. Need actual hand/wrist/forearm replacement drawings and stable page/pen contact, not translated or warped whole painting. This is an explicit image-demand assignment for missing ACTION DRAWINGS: at most ONE built-in host imagegen call in this worker, using exact viewed source reference, allowed by existing author-direction authorization for new necessary replacement drawings. Read imagegen skill before use. No paid API/provider fallback. Reuse saved appropriate drawings first; one image-tool call may deliver a registered action-cel sheet/clean plate if needed. View output and reject incompatible identity/geometry; no unregistered atlas presented as animation. Use local studio/Craft/FFmpeg workflow, keep reusable cels and compact editable sources plus one MP4 and contact evidence in output_dir; avoid redundant full decoded frame archives when sparse sequential evidence suffices. Return submitted only if real prescribed writing action is delivered. If tool/native capability or missing drawings blocks it, return exact blocker and any real assets. One bounded submission; no extra generation loop.",
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "state": "rejected",
+      "agent_id": "host-s01-07-writing-action",
+      "result": {
+        "task_id": "s01-07-writing-action",
+        "role": "key-animator",
+        "host_agent_id": "/root/counter_writing",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/preview.mp4",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/shot.ecproj",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/edit.filmcraft",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/action-sheet.png",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/exposures.json",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/motion.json",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/contacts.json",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/decoded-sequence.jpg",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/validation.json",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/provenance.json",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/build.py",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/prompt.txt",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cache-cleanup.json"
+        ],
+        "evidence": [
+          "Real silent video: 168 frames, 1280x720, 24fps, 7.000s; full decode passes.",
+          "Exact source viewed; alternate endpoint rejected for changed actor and added guards. One imagegen call generated action-sheet.png, source/output hashes retained.",
+          "Six isolated replacement arm/quill poses composited over one locked ledger. Two bad gutter-crossing poses omitted. Clear pen lift separates upper and lower lines.",
+          "Directly inspected all sheet panels and decoded sequential video frames. Supporting hand/book pixel region remains exact across all closeup cels.",
+          "Native EffectCraft and FilmCraft projects saved successfully. 130MB reproducible PNG render cache removed; sources and review MP4 retained.",
+          "Submission is a limited-animation draft, not technical or author approval. Actual exposures are 9\u201324 frames; motion checker has no contact constraints, contact observations are visual/manual."
+        ],
+        "blockers": []
+      },
+      "review": {
+        "role": "animation-supervisor",
+        "agent_id": "/root/review_counter_writing",
+        "decision": "reject",
+        "evidence": "Independent review saved in reviews/s01-07-writing-action/review.json: four-pose strokes held 9\u201318 frames, unconnected lift/return, clipped quill/cuff and shifted sleeve seam; exact clip hash b450b7c5fdfa20be3161d4cb6f573e2c25b5ab9e49c15730aedd1cf96cefac6c. Native and timing checks pass but action/matte criteria fail."
+      }
+    },
+    "s01-02-canoe-action": {
+      "depends_on": [],
+      "shots": [
+        "S01-02"
+      ],
+      "output_dir": "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action",
+      "id": "s01-02-canoe-action",
+      "role": "key-animator",
+      "objective": "Produce real 288-frame 24fps16:9 S01-02 wide canoe action draft using current 1990s artwork. Three dugout canoes single file in moonless mangrove; preserve exact source cast: lead Dairon paddles, Yara clutches wrapped cemi, Amaia cradles sleeping under-two son; second Beheto drum/breath, third three children faint blue forearms. Show real paddle reach/plant/pull/lift/recovery with fixed grips/contact; rigid hulls/props and independently travelling water effects; subtle drawn breath/cradle response, independent crane-down camera only after meaningful character action. No warped flattened characters, translated source painting masquerading as acting, or unregistered atlas. Inspect existing saved cels first; avoid previously rejected inconsistent hull/pose sheets. Explicit image-demand assignment for necessary ACTION DRAWINGS permits at most ONE built-in imagegen call using exact source references under author-direction and worker-contract host-tool exception; read imagegen skill. No paid APIs/provider fallback. If one call cannot supply all needed action, deliver actual usable registered drawings and list exact remaining actions; do not fabricate completed motion. If source geometry prevents a continuity-correct full shot, return blocked precisely. Use Craft/studio/local compositor; save editable sources, exposure/motion/contact checks, compact decoded evidence and MP4 only if real shot is achieved. One bounded submission, no autonomous generation/retry loop. No Git/archive work or source edits.",
+      "inputs": [
+        "AGENTS.md",
+        "docs/STATUS.md",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/shot-index.json",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-02.png",
+        "production/runs/episode1-anime90s-cast/source-index.json"
+      ],
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "state": "blocked",
+      "agent_id": "host-s01-02-canoe-action",
+      "result": {
+        "task_id": "s01-02-canoe-action",
+        "role": "key-animator",
+        "host_agent_id": "/root/canoe_action",
+        "status": "blocked",
+        "artifacts": [
+          "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action/dairon-action-candidate.png",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action/image-prompt.txt",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action/candidate-checks.json",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action/continuity.json"
+        ],
+        "evidence": [
+          "Directly viewed S01-02: three canoes, 11 people and source Dairon pose; flattened image.",
+          "Directly viewed old lead_canoe_eight_poses.png: mismatching hull and paddle-side geometry; preserved unused.",
+          "Directly viewed generated candidate: eight changed arm/torso drawings, opaque gradient and clipped paddles; no physically consistent complete stroke.",
+          "Pixel inspection {\"dimensions\": [1536, 1024], \"mode\": \"RGBA\", \"alpha_extrema\": [0, 254], \"rgba_cutout_requirement_pass\": false, \"visual_inspection\": \"Viewed generated image plus exact shot, Dairon identity and current rooftop style. Eight poses change elbows/torso, but gradient background is painted; several paddle blade tips stop at panel boundaries; pelvis/knee geometry varies; seventh pose leaves one hand unsupported on knee, violating maintained shaft grip. No clean plates or separate rigid prop. Exploratory key sketches, not registered production cels or shot animation.\", \"generation_calls\": 1, \"registration_performed\": false, \"shot_rendered\": false, \"frame_coverage_accepted\": 0}"
+        ],
+        "blockers": [
+          "Dairon candidate lacks transparent cutouts, complete paddle silhouettes and stable two-hand grip; multiple blade tips cropped and pose 7 releases one hand. Cannot register into continuity-correct stroke.",
+          "S01-02 source flattened. Clean background/water plate, stable foreground hull matte and character removal plate missing from assigned inputs; moving new character over existing painting would leave duplicates.",
+          "Missing current-style Beheto chest/breath replacement drawings, Amaia cradle response, Yara grip continuity and independently staged children forearm effects.",
+          "One host image call exhausted under bounded task. Corrected drawings and independent animation-supervisor review required; no completed 288-frame shot exists."
+        ]
+      }
+    },
+    "amaia-seat-plate": {
+      "objective": "Explicit image-demand task after user authorized Resume and continue draft production. Produce ONE new seating plate using built-in imagegen only, no paid API. Inspect previous seat diagnostic and exact rest.png. Preserve Amaia, sleeping child, existing foreground hull, mangrove and palette. Redraw only right-hand canoe interior to provide actual perspective-correct top/front bench edges for three distinct adult seated ghosts. Plan adult placement before generation; heads must read adult at comparative depth, and bodies must fit behind gunwale. A continuous supported bench can provide three distinct seating positions; do not invent floating support or shrink adults. Attach exact rest.png and inspect generated output. Save candidate, final prompt, source hashes and continuity/contact diagnostic. This task produces a necessary source plate, NOT an animated shot, so submit for independent source-art review if plate is useful; report deficiencies clearly. No changes outside output_dir, no subagents, no Git, no ledger changes, no self-approval. At most one built-in call in this fresh turn. Use imagegen skill. This is bounded draft production, author review remains outstanding.",
+      "shots": [
+        "S01-03"
+      ],
+      "inputs": [
+        "AGENTS.md",
+        "docs/STATUS.md",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/shot-index.json",
+        "production/runs/episode1-amaia-finish/tasks/three-losses-r2",
+        "production/runs/episode1-amaia-finish/reviews/three-losses-r2/review.md",
+        "production/runs/episode1-full-picture/author-decisions.json",
+        "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/HANDOFF.md",
+        "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/registration-probe.json",
+        "production/runs/episode1-action-completion-20261014/author-resume.json"
+      ],
+      "output_dir": "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate",
+      "id": "amaia-seat-plate",
+      "depends_on": [],
+      "role": "key-animator",
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "state": "rejected",
+      "agent_id": "host-amaia-seat-plate",
+      "result": {
+        "task_id": "amaia-seat-plate",
+        "role": "key-animator",
+        "host_agent_id": "/root/amaia_seat_plate",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/candidate.png",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/prompt.txt",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/continuity.json",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-diagnostic.json",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/seat-anchors.jpg",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-combined.jpg",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-woman.jpg",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-man.jpg",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-elder.jpg",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/diagnostic.py",
+          "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/HANDOFF.md"
+        ],
+        "evidence": [
+          "One built-in imagegen edit attached the exact original rest.png; candidate is 1672x941 and saved in assigned output_dir. No paid API or source modification.",
+          "Directly viewed original and candidate; new top/front wood seat surfaces are present inside hull, with existing living figures visually retained. Small global pixel changes are quantified; no exact preservation claim.",
+          "Directly viewed each of three static adult placement diagnostics and their combined layout. New plate alone does not solve old lower-body crops and overlap; this is source-art review only, no animation submission."
+        ],
+        "blockers": [],
+        "downstream_limitations": [
+          "Plate has stepped rather than continuous shared seating; independent reviewer must assess perspective and whether three true adult support positions are usable.",
+          "Existing memory silhouettes need contact-matched lower-body extensions/restaging; woman/man straight source cutoffs are visible and combined adult overlap conceals man face.",
+          "Living figure pixel values differ from source; accepted bench region should be isolated with a reviewed region mask before integrating original head arc.",
+          "No new animated footage, exposure timing, editable native shot or author approval in this source-only task."
+        ]
+      },
+      "review": {
+        "role": "animation-supervisor",
+        "agent_id": "/root/review_amaia_seat_plate",
+        "decision": "reject",
+        "evidence": "Source-art review rejects claimed three-adult seating solution: new wood is visible but no demonstrated adequate adult lap/leg space, overlapping faces, source cutoffs and hull-mask defects. See reviews/amaia-seat-plate/review.json; candidate SHA256 352df00d92a175b2713fc0de41b0738caaf1b3cfca1347bcdf133b5b8e8de2b4. Establish valid adult contact layout before further detailed generation."
+      }
+    },
+    "dairon-stroke-keys": {
+      "shots": [
+        "S01-02"
+      ],
+      "depends_on": [],
+      "objective": "Explicit image-demand fresh turn authorized by Resume and continue draft production. Create necessary Dairon paddle stroke SOURCE ART ONLY. One built-in imagegen call maximum, no paid API or fallback. Inspect rejected eight-pose candidate and correct specific failures by reducing to FOUR large full-body paddler drawings on true transparent background: reach, plant, pull, recovery. Same fixed seated hips, same camera, same clothes/identity as S01-02; BOTH hands retain correct shaft grips; whole rigid paddle with full blade and margin visible in all four poses; no canoe, water or backdrop. Image is source art awaiting registration and independent review, not finished shot. Attach actual S01-02 reference and cast reference; use imagegen skill. Directly inspect final RGBA including transparency against checker/solid backgrounds, complete blade contours, hands, perspective, fixed pelvis. Save exact prompt, candidate and measured continuity evidence. Submit for independent source-art review if useful even though full shot also needs clean plate and secondary animation; those downstream tasks are not this envelope. No ledger/Git/source changes or extra generation loop. Write only assigned output_dir.",
+      "id": "dairon-stroke-keys",
+      "inputs": [
+        "AGENTS.md",
+        "docs/STATUS.md",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/shot-index.json",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-02.png",
+        "production/runs/episode1-anime90s-cast/source-index.json",
+        "production/runs/episode1-action-completion-20261014/author-resume.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action/result.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action/dairon-action-candidate.png"
+      ],
+      "role": "key-animator",
+      "output_dir": "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys",
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "state": "blocked",
+      "agent_id": "host-dairon-stroke-keys",
+      "result": {
+        "task_id": "dairon-stroke-keys",
+        "role": "key-animator",
+        "host_agent_id": "/root/dairon_stroke_keys",
+        "status": "blocked",
+        "artifacts": [
+          "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/candidate.png",
+          "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/image-prompt.txt",
+          "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/pixel-checks.json",
+          "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/landmarks.json",
+          "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/checker-inspection.jpg",
+          "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/white-inspection.jpg",
+          "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys/continuity.json"
+        ],
+        "evidence": [
+          "One built-in imagegen call with actual S01-02 and Dairon cast reference attachments; exact prompt saved.",
+          "Directly viewed original scene, Dairon cast, earlier8key rejected source, generated4key sheet and white/checker compositing diagnostics.",
+          "All four feet and blade contours now within source sheet, but third pull key still fails two-hand grip.",
+          "Manually measured approximate paddle lengths and pelvis locations recorded in landmarks.json; varying projected paddle length and seated registration prevent finished stroke use.",
+          "Source-art candidate submitted for independent review only; no registration, native scene, rendered shot, or accepted frame coverage."
+        ],
+        "blockers": [
+          "Candidate is not a usable complete stroke: pull key lacks upper hand grip and paddle/body geometry drifts. Independent reviewer must assess individual usable drawings; full stroke needs redraw before registration."
+        ]
+      }
+    },
+    "s01-07-writing-r1": {
+      "inputs": [
+        "AGENTS.md",
+        "docs/STATUS.md",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/shot-index.json",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/runs/episode1-action-completion-20261014/author-resume.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.md"
+      ],
+      "id": "s01-07-writing-r1",
+      "role": "key-animator",
+      "objective": "Revision of rejected S01-07 writing draft, exact independent review is binding. Produce168f24fps16:9 silent true writing: two lines on ledger, down gaze, stump wide then scripted closeup. First draft four poses held9\u201318frames fails; fix with genuine registered active-stroke breakdowns and connected lift/return/landing drawings on3s (holds only when intentional pauses), stable torso/book/support hand, complete quill/cuff matte without polygon clipping. Do not translate whole arm bank for lower line creating sleeve seam; actual contact-matched lower-line drawings and page perspective. Preserve existing source and rejection. This fresh explicit image-demand revision permits at mostONE built-in imagegen call for a focused bank of needed drawing breakdowns; inspect exact saved images and review first, attach them. No paidAPI, providerfallback, opticalflow or deformation substitute. Separate new drawing layer cleanly, fixed shoulder/elbow where appropriate. Trace drawn nib path to matching handwriting increments; no generic ink appearing far from nib. Use Craft/localrender, save editable sources nativefiles compactMP4/sparse decoded evidence, remove only new reproducible frames after validating native references. One bounded revised submission; no self-approval, ledger/source/Git edits or subagents. If drawings remain inadequate report precise blocker rather than another invalid movie. Authorization Resume and continue draft production applies; finalcreativeapproval separate.",
+      "depends_on": [],
+      "output_dir": "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1",
+      "shots": [
+        "S01-07"
+      ],
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "state": "blocked",
+      "agent_id": "host-s01-07-writing-r1",
+      "result": {
+        "task_id": "s01-07-writing-r1",
+        "role": "key-animator",
+        "host_agent_id": "/root/counter_writing_repair",
+        "status": "blocked",
+        "artifacts": [
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/hand-breakdowns.png",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/prompt.txt",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/provenance.json",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/measurements.json",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/landmark-inspection.jpg",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+          "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/diagnose.py"
+        ],
+        "evidence": [
+          "Viewed original artwork, prior sheet, clean plate, style reference, new raw sheet, solid-slate row composites and all 36 annotated cells.",
+          "One authorized built-in imagegen call; raw RGBA sheet, prompt and 36 unmodified grid crops retained with hashes.",
+          "Solid-slate compositing shows no visible saturated red/yellow fringe from the raw preview.",
+          "First-line registered nib advances only 4px net; second line 6px, with reversals. Cells 15 to 16 have a 41px native vertical nib jump.",
+          "Cells 35/36 have opaque top-edge feather pixels; cell 30 contains neighboring feather at bottom.",
+          "No new MP4 rendered; source and ledger unchanged."
+        ],
+        "blockers": [
+          "No coherent first- and second-line active-stroke drawings against the fixed paper plane (F1/F4).",
+          "Lift/return/landing breakdown gap remains (F2).",
+          "Feathers cross tile boundaries, preventing complete independent cels (F3).",
+          "The single permitted generation call is used; further drawing work requires a fresh bounded task."
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "amaia-seat-repair"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "amaia-seat-repair",
+      "agent_id": "host-amaia-seat-repair"
+    },
+    {
+      "action": "add",
+      "task_id": "s01-07-writing-action"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "s01-07-writing-action",
+      "agent_id": "host-s01-07-writing-action"
+    },
+    {
+      "action": "add",
+      "task_id": "s01-02-canoe-action"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "s01-02-canoe-action",
+      "agent_id": "host-s01-02-canoe-action"
+    },
+    {
+      "action": "submit",
+      "task_id": "amaia-seat-repair",
+      "status": "blocked"
+    },
+    {
+      "action": "resume",
+      "approval": "APPROVE RESUME episode1-action-completion-20261014"
+    },
+    {
+      "action": "submit",
+      "task_id": "s01-02-canoe-action",
+      "status": "blocked"
+    },
+    {
+      "action": "resume",
+      "approval": "APPROVE RESUME episode1-action-completion-20261014"
+    },
+    {
+      "action": "add",
+      "task_id": "amaia-seat-plate"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "amaia-seat-plate",
+      "agent_id": "host-amaia-seat-plate"
+    },
+    {
+      "action": "add",
+      "task_id": "dairon-stroke-keys"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "dairon-stroke-keys",
+      "agent_id": "host-dairon-stroke-keys"
+    },
+    {
+      "action": "submit",
+      "task_id": "s01-07-writing-action",
+      "status": "submitted"
+    },
+    {
+      "action": "submit",
+      "task_id": "dairon-stroke-keys",
+      "status": "blocked"
+    },
+    {
+      "action": "resume",
+      "approval": "APPROVE RESUME episode1-action-completion-20261014"
+    },
+    {
+      "action": "submit",
+      "task_id": "amaia-seat-plate",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "s01-07-writing-action",
+      "decision": "reject"
+    },
+    {
+      "action": "add",
+      "task_id": "s01-07-writing-r1"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "s01-07-writing-r1",
+      "agent_id": "host-s01-07-writing-r1"
+    },
+    {
+      "action": "review",
+      "task_id": "amaia-seat-plate",
+      "decision": "reject"
+    },
+    {
+      "action": "submit",
+      "task_id": "s01-07-writing-r1",
+      "status": "blocked"
+    }
+  ]
+}

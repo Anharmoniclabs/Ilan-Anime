@@ -1,0 +1,4 @@
+`07:06:00 → 07:12:00` (144f) · ECU series · rate 3s
+- **Action:** Mamá turns salami with a fork. Queso frito sizzles. Mangú steam. Real food painting: background-grade cels for the food.
+- **FX:** `FOOD_PAINT_CEL; STEAM_LOOP(bank)`
+- **Sound:** Sizzle, radio, fork on pan.

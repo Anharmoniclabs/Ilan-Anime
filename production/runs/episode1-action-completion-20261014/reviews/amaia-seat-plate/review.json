@@ -1,0 +1,55 @@
+{
+  "task_id": "amaia-seat-plate",
+  "shot": "S01-03",
+  "role": "animation-supervisor",
+  "reviewer_role": "animation-supervisor",
+  "host_agent_id": "/root/review_amaia_seat_plate",
+  "reviewer_agent_id": "/root/review_amaia_seat_plate",
+  "creator_host_agent_id": "/root/amaia_seat_plate",
+  "decision": "reject",
+  "scope": "Independent source-art review of the proposed three-adult seating plate only. No motion, timing, or whole-shot approval.",
+  "candidate": "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/candidate.png",
+  "candidate_sha256": "352df00d92a175b2713fc0de41b0738caaf1b3cfca1347bcdf133b5b8e8de2b4",
+  "summary": "New wooden top/front surfaces are real visible improvements, but three usable adult seat/contact positions have not been established in this framing. Preserve candidate as exploratory; do not integrate as a solved three-seat plate.",
+  "evidence": [
+    "Direct original/candidate comparison: Amaia and child retain their recognizable faces, clothing, pose, and framing. Outer hull silhouette, near gunwale and background remain visually consistent. This is visual continuity, not identical pixels.",
+    "candidate.png and seat-anchors.jpg: three stepped ledges replace the dark interior. Each has a readable top/front plane and wall connection; no claim that all new wood is floating. However the three proposed contacts lie at (900,690), (1015,755), (1135,810), only 115 and 120 image pixels apart horizontally. This differs substantially from the intended wider layout (950,715), (1175,770), (1430,825).",
+    "placement-woman.jpg: adult-sized woman has her hip near the first ledge, but the lap extends across the next intended seat and the source ends in a horizontal cutoff around y782, well above the near gunwale. Buttock/upper-leg contact is not proved by the chosen source anchor.",
+    "placement-man.jpg: same issue at the middle ledge, with horizontal lower source boundary around y851 and thighs occupying the forward seat region.",
+    "placement-elder.jpg: elder extends to the right frame and skirt passes outside the near hull at bottom right, showing that the inherited occlusion mask is not sufficient for this restaging.",
+    "placement-combined.jpg: the nearer man and elder obscure the previous figures; the man face is largely hidden and seated bodies occupy overlapping volumes. The diagnostic does not establish three simultaneously usable adult seats.",
+    "Hash independently computed with SHA-256 and matches creator continuity record. Reviewed static images only; no video or real-time playback claim."
+  ],
+  "distinction": "Straight lower source cutoffs and the inherited matte are missing/rejected figure integration work, not defects painted into candidate.png. The plate rejection concerns the absence of a convincing complete three-adult seating layout demonstrating that its close stepped surfaces solve the assigned spatial requirement. It is not a proof that every possible restaging on this plate is impossible.",
+  "criteria": {
+    "source_precedence": "pass within source repair scope; current three-loss decision governs",
+    "identity": "visual pass; pixel-exact continuity requires original-source mask",
+    "style": "pass against assigned current resting artwork",
+    "grade": "pass",
+    "text": "pass",
+    "anatomy_geometry": "fail: three adult support/contact layout remains unestablished",
+    "crop": "candidate plate pass; diagnostic figure placements fail",
+    "layers": "single clean candidate exists; accepted-region mask still absent",
+    "action": "not evaluated, source plate only",
+    "setting": "pass against existing canoe/mangrove scene",
+    "single_asset": "pass"
+  },
+  "required_next_steps": [
+    "Before another detailed generation, create a simple full-canvas seating block-in with three adult torso/pelvis/thigh silhouettes at comparable perspective scale, named actual buttock support lines, and sufficient leg space; retain original living pair and hull. Review the opaque layout with all three heads readable.",
+    "If the simultaneous arrangement cannot fit, use three distinct sequential apparition/count beats with clearly separated visibility windows, subject to script/timing review; do not silently alter the previously verified fade endpoints or claim the change already reviewed.",
+    "Draw complete contact-matched lower bodies and rebuild the near/right hull occlusion from the actual original hull boundary. Do not hide cutoffs with arbitrary black shapes or shrink adults to force a fit.",
+    "Reuse useful bench pixels only after the layout is approved; isolate the edited region so original living figures and inherited head arc remain exact. No need to discard this candidate or generate another plate blindly."
+  ],
+  "author_approval": false,
+  "canonical": false,
+  "directly_viewed": [
+    "production/runs/episode1-amaia-finish/tasks/three-losses-r2/sources/rest.png",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/candidate.png",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/seat-anchors.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-woman.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-man.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-elder.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-combined.jpg",
+    "research/supplied_references/approved_style_reference.png"
+  ]
+}

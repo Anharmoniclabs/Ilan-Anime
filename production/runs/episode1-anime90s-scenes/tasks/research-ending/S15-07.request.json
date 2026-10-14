@@ -1,0 +1,10 @@
+{
+  "shot_id": "S15-07",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. Low angle tight two-subject composition at same bodega from image2. JC25 exact identity image1 seen profile foreground left, head tilted UP, eyes open with disturbed recognition, looking directly toward small black rectangular speaker mounted over glassdoor under fadedorange awning top right. Speaker dominates upperright, unchanged mounted bracket. Communitypartner decal on glassdoor below it. Same pale afternoon, subtly mutedflat color after PRESS, no transparent holograms. A very restrained yellow/green/red drawn soundline behind speaker meets a short flatgrayplate to imply same loop under nextsong, don't obscure JC face or add readable UI. Normal physical background and deliberate anime closeup.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-7f2235cc-d117-4f65-96a3-fee4ef7a8a5d.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-02.png"
+  ],
+  "key_moment": "JC looks up toward persistent speaker/loop; combined eyeline and speaker keyframe."
+}

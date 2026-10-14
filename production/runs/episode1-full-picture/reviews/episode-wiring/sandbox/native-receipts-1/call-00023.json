@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 3810240000000,
+      "durationFrames": 288,
+      "name": "S01-02 missing",
+      "comment": "establish single file; plant pull recover; continue travel"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 12
+  }
+}

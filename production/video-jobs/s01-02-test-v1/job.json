@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "provider": "Pepe104/MiniMax-H3-Turbo-Lora-UNCENSORED",
+  "shot": "S01-02",
+  "shot_offset": 0,
+  "frames": 72,
+  "fps": 24,
+  "state": "imported",
+  "references": {
+    "first": {
+      "path": "first.png",
+      "sha256": "d3fa5c184a1abf51a6a5fa2fffcdd1f21bbfaaf2da4b646cb915ee8597851fd2",
+      "original": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/keyframes/S01-02.png",
+      "original_sha256": "437e7f9a4f51a254fe5048c3a455ead6861dcdfe3c82029b037f16fcd086266f",
+      "transform": "fit inside 1024x576; black padding; original untouched"
+    }
+  },
+  "request": {
+    "prompt": "Visual language: Complete cinematic hand-inked 2D graphic-novel animation derived from the author's drawings; not generic anime, 3D, glossy vector art or unfinished graphite.\nLine: Confident irregular variable-width ink, controlled broken edges and intentional hatching/crosshatching with clean readable silhouettes.\nFaces: Individualized angular organic construction, grounded expressive eyes, uneven bold brows, specific noses and human asymmetry; anime influence is limited to acting and polish.\nColor: Full rich color with painterly wash, paper tooth, two or three cel planes and a navy/steel versus amber split while preserving skin pigment.\nText: No generated words, slogans, labels, meaningless graffiti, watermarks or speech-bubble dialogue. Only explicitly requested editorial typography is allowed, and accurate story signage is composited in post.\nGeometry: Faces, skulls, hands, grips, props, hulls and contact points remain stable; rigid objects stay rigid and effects remain on independent layers.\nLayers: Characters, rigid props, effects, foregrounds and backgrounds remain independently usable whenever the requested mode requires production layers.\nMatch the attached reference drawings exactly for identity, costume, props and line character.\n\n`00:15:00 → 00:27:00` (288f) · CRANE DOWN · WS · rate 3s\n- **Action:** Three dugout canoes in single file down a moonless mangrove channel. Lead: Dairon paddling, Yara behind him with the cemí in stiff cloth against her chest. Amaia with her sleeping son (not yet two). Second: Beheto, drum between his knees, chest whistling every breath. Third: three children, a faint blue breath on their forearms.\n- **FX:** `MULTIPLANE(5 painted layers); TRANSMITTED_LIGHT(blue,children,0.15); FILM_GRAIN`\n- **Sound:** Paddles, hull creak. Beheto's whistling breath is the only tempo (about 2s cycle).\nAnimate the described action with stable faces, hands, grips and rigid props. No morphing, pulsing hulls, new characters, captions or generated lettering. Soundtrack is a temporary guide; exact dialogue and final sound are separate.\nThis technical test covers only the first 3 seconds of the 12-second S01-02 shot. Preserve the exact cast, seating and silhouettes already visible in the supplied image. Show one coherent paddle pull with water contact and a detached travelling wake, gentle hull progress, restrained passenger counterbalance and a slow beginning of the crane move. Do not compress the full shot or add characters. This is a motion test, not final approved shot coverage.",
+    "canvas": "1024x576 · 16:9 fast",
+    "duration": 3.0,
+    "steps": 6,
+    "seed": 42,
+    "upsample": false,
+    "use_lora": true,
+    "lora": "larry"
+  },
+  "expected_remote_frames": 73,
+  "authentication": "anonymous-only",
+  "paid_requests_allowed": false,
+  "truth": "Exploratory reference-conditioned video; neither likeness nor animation quality is guaranteed.",
+  "source_sha256": "c0ea6d285b6fd03edea99f7c7edde0ce323e578d862251fd7a70b519fdfeb921",
+  "provider_report": "1024x576 · 73 frames (3.042 s) · 6 steps · conditioner 8s (1153 tokens) · denoise + decode 18s (3.0 s/step) · turbo LoRA larry · seed 42",
+  "refined_prompt": "",
+  "imported_spec": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/shot.json",
+  "imported_source_sha256": "c0ea6d285b6fd03edea99f7c7edde0ce323e578d862251fd7a70b519fdfeb921",
+  "discarded_tail_frames": 1
+}

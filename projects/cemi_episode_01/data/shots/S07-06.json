@@ -1,0 +1,53 @@
+{
+  "id": "S07-06",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 288,
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "“Eat lunch. A real one. Not coffee.” “Promise.” “You said that yesterday.” “I'll mean it harder today.” The coin is warm against his hip; something that kept its mouth shut for twenty-five years clears its throat.",
+  "camera_note": "CU · pocket",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "plate_0",
+      "source": "assets/keyframes/S07-06.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 288,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "HEAT_SHIMMER"
+    ],
+    "asset_slot_fx": [
+      "GLOW_AIRBRUSH",
+      "LIST_APPEND"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

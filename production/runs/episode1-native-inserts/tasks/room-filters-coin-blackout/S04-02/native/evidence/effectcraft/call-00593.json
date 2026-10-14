@@ -1,0 +1,11 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "name": "4-0 SMOOTHING label and icon"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

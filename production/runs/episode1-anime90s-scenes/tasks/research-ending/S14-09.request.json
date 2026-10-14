@@ -1,0 +1,11 @@
+{
+  "shot_id": "S14-09",
+  "prompt": "Finished cinematic story frame for Heralds of the Cemi. Landscape widescreen16:9, single frame filling canvas, full opaque environment. Authentic1990s handdrawn anime: clean supple ink contours, expressive faces, restrained flat two-tone celshading, rich handpainted gouache backgrounds, subtle film texture, no dense crosshatching, no glossy3D or photoreal skin. Preserve exact identities/costumes from attached character references; attached storyframe is SAME SET continuity, change camera/action as requested. No subtitles/watermark/panel borders. Over Sofia's shoulder close-view of silver laptop and JC's reaction at same librarytable afternoon. Screen shows clean scanned rubric with ONLY these readable lines: 'CALM INDEX', four rows labeled 'Level 1', 'Level 2', 'Level 3', 'Level 4'. Level2 highlighted pale yellow with exact description 'Atypical response to ambient stimulus.' Under that line only: 'Hand-tapping, vocalizing, agitation during rest periods.' Other levels have gray rules, no invented labels. JC25 exact reference face in right background leaning toward screen, dawning unsettled recognition, charcoalhoodie/headphones. Sofia exact source darkcurly clawclip hair and teal shoulder leftforeground, one finger points to Level2. Screen text legible not overlydense. No monsters or dramatic magicalrings, ordinary daylight mystery.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-a269b8d1-0e16-46c0-bdad-5f3bc3731dee.png",
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-01.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/sofia.png"
+  ],
+  "key_moment": "Level2 rubric recognized in present; no fabricated screening classifications."
+}

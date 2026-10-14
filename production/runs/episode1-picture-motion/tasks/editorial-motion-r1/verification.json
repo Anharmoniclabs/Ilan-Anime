@@ -1,0 +1,176 @@
+[
+  {
+    "shot": "S00-01",
+    "frames": 96,
+    "fps": "24/1",
+    "size": [
+      1280,
+      720
+    ],
+    "silent": true,
+    "full_decode": true,
+    "reopened_last_exact": true,
+    "grain_std_range": [
+      2.4040972505287717,
+      2.7262273401167407
+    ],
+    "black_max": null,
+    "native_types": [
+      "Footage",
+      "Footage",
+      "Footage",
+      "Footage",
+      "Null",
+      "Shape",
+      "Solid"
+    ],
+    "decoded_visual_samples": [
+      0,
+      12,
+      24,
+      36,
+      48,
+      60,
+      69,
+      72,
+      73,
+      95
+    ]
+  },
+  {
+    "shot": "S00-02",
+    "frames": 120,
+    "fps": "24/1",
+    "size": [
+      1280,
+      720
+    ],
+    "silent": true,
+    "full_decode": true,
+    "reopened_last_exact": true,
+    "grain_std_range": [
+      1.527532228792571,
+      1.810157559440614
+    ],
+    "black_max": null,
+    "native_types": [
+      "Footage",
+      "Footage",
+      "Footage",
+      "Footage",
+      "Footage",
+      "Text",
+      "Text",
+      "Text",
+      "Solid"
+    ],
+    "decoded_visual_samples": [
+      0,
+      3,
+      12,
+      21,
+      24,
+      25,
+      119
+    ]
+  },
+  {
+    "shot": "S01-15",
+    "frames": 96,
+    "fps": "24/1",
+    "size": [
+      1280,
+      720
+    ],
+    "silent": true,
+    "full_decode": true,
+    "reopened_last_exact": true,
+    "grain_std_range": [
+      0.0,
+      0.0
+    ],
+    "black_max": 0,
+    "native_types": [
+      "Solid"
+    ],
+    "decoded_visual_samples": [
+      0,
+      48,
+      95
+    ]
+  },
+  {
+    "shot": "S02-01",
+    "frames": 288,
+    "fps": "24/1",
+    "size": [
+      1280,
+      720
+    ],
+    "silent": true,
+    "full_decode": true,
+    "reopened_last_exact": true,
+    "grain_std_range": [
+      1.5367364900984164,
+      1.8440823598744176
+    ],
+    "black_max": null,
+    "native_types": [
+      "Footage",
+      "Footage",
+      "Footage",
+      "Footage",
+      "Footage",
+      "Footage",
+      "Footage",
+      "Footage",
+      "Footage",
+      "Footage",
+      "Footage",
+      "Footage",
+      "Text",
+      "Text",
+      "Text",
+      "Shape",
+      "Solid"
+    ],
+    "decoded_visual_samples": [
+      0,
+      36,
+      69,
+      72,
+      78,
+      102,
+      111,
+      120,
+      129,
+      138,
+      287
+    ]
+  },
+  {
+    "shot": "S15-09",
+    "frames": 192,
+    "fps": "24/1",
+    "size": [
+      1280,
+      720
+    ],
+    "silent": true,
+    "full_decode": true,
+    "reopened_last_exact": true,
+    "grain_std_range": [
+      0.0,
+      0.0
+    ],
+    "black_max": 0,
+    "native_types": [
+      "Solid"
+    ],
+    "decoded_visual_samples": [
+      0,
+      96,
+      191
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+`14:15:00 → 14:21:00` (144f) · ECU puck · rate 3s
+- **Action:** Quiet check. Three sounds agree with each other: the radiator knock, the Mets fan's snore, the lamp's thin buzz. They snap together into one chord. He has never worked out why.
+- **FX:** `SOUND_RIBBON(3); RIBBON_CHORD_LOCK; PITCH_LABELS(root, major-third, fifth)`
+- **Sound:** The three real sounds tune into 4:5:6.
+- **Note:** [ADAPT] Chord as a hint that 'alive' sound is consonant.

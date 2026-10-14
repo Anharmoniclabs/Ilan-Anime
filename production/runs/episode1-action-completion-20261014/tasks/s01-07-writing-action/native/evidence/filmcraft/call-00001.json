@@ -1,0 +1,13 @@
+{
+  "tool": "media_import",
+  "arguments": {
+    "text": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/preview.mp4"
+  },
+  "status": "succeeded",
+  "result": {
+    "errors": [],
+    "items": [
+      1
+    ]
+  }
+}

@@ -1,0 +1,5 @@
+`05:09:00 → 05:17:00` (192f) · TRACK · hero dancers · rate 2s
+- **Action:** Hero pass: three couples in quick cuts. Footwork, a spin, a skirt flare. The cowbell hits the shoe strikes; the maple floor reflects them.
+- **FX:** `SKIRT_FLARE_CEL(2s); FLOOR_REFLECTION; SPEED_LINES(spin)`
+- **Sound:** Two-tone shoes on wood, in time with the cowbell.
+- **Note:** The one passage allowed on 2s full dance animation; everything else here holds on 3s.

@@ -1,0 +1,11 @@
+{
+  "tool": "save_project",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/layout-check/check.ecproj"
+  },
+  "status": "succeeded",
+  "result": {
+    "dirty": false,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/layout-check/check.ecproj"
+  }
+}

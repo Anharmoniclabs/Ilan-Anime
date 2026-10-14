@@ -1,0 +1,346 @@
+======================================================================
+ERROR: test_ack_lost_reconciles_without_second_post (test_comfy_local.ComfyLocalTests.test_ack_lost_reconciles_without_second_post)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_comfy_local.py", line 72, in setUp
+    self.server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_changed_or_rejected_source_stops_submit (test_comfy_local.ComfyLocalTests.test_changed_or_rejected_source_stops_submit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_comfy_local.py", line 72, in setUp
+    self.server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_execution_error_never_registers_output (test_comfy_local.ComfyLocalTests.test_execution_error_never_registers_output)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_comfy_local.py", line 72, in setUp
+    self.server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_http_end_to_end_exploratory_and_idempotent_collect (test_comfy_local.ComfyLocalTests.test_http_end_to_end_exploratory_and_idempotent_collect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_comfy_local.py", line 72, in setUp
+    self.server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_launch_flags (test_comfy_local.ComfyLocalTests.test_launch_flags)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_comfy_local.py", line 72, in setUp
+    self.server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_lora_and_controlnet_graph_wiring (test_comfy_local.ComfyLocalTests.test_lora_and_controlnet_graph_wiring)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_comfy_local.py", line 72, in setUp
+    self.server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_missing_checkpoint_stops_before_prompt (test_comfy_local.ComfyLocalTests.test_missing_checkpoint_stops_before_prompt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_comfy_local.py", line 72, in setUp
+    self.server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_missing_history_is_paused_not_resubmitted (test_comfy_local.ComfyLocalTests.test_missing_history_is_paused_not_resubmitted)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_comfy_local.py", line 72, in setUp
+    self.server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_no_remote_endpoint_proxy_credentials_or_redirect (test_comfy_local.ComfyLocalTests.test_no_remote_endpoint_proxy_credentials_or_redirect)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_comfy_local.py", line 72, in setUp
+    self.server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_paths_and_changed_spec (test_comfy_local.ComfyLocalTests.test_paths_and_changed_spec)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_comfy_local.py", line 72, in setUp
+    self.server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_unapproved_source_stops_prepare (test_comfy_local.ComfyLocalTests.test_unapproved_source_stops_prepare)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_comfy_local.py", line 72, in setUp
+    self.server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_unknown_nodes_and_paid_nodes_rejected (test_comfy_local.ComfyLocalTests.test_unknown_nodes_and_paid_nodes_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_comfy_local.py", line 72, in setUp
+    self.server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: setUpClass (test_dashboard.DashboardServerTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_dashboard.py", line 90, in setUpClass
+    cls.server = dashboard.make_server("127.0.0.1", 0)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/Projects/Ilan-Anime/production/dashboard.py", line 396, in make_server
+    return ThreadingHTTPServer((host, port), DashboardHandler)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socketserver.py", line 452, in __init__
+    self.socket = socket.socket(self.address_family,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/socket.py", line 232, in __init__
+    _socket.socket.__init__(self, family, type, proto, fileno)
+PermissionError: [Errno 1] Operation not permitted
+
+======================================================================
+ERROR: test_author_gate_is_not_a_technical_review (test_pipeline.PipelineTests.test_author_gate_is_not_a_technical_review)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_pipeline.py", line 270, in test_author_gate_is_not_a_technical_review
+    repo, _, _ = self.registry_fixture()
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_pipeline.py", line 39, in registry_fixture
+    target.write_bytes((ROOT / reference["path"]).read_bytes())
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/pathlib.py", line 1050, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/alabs/Projects/Ilan-Anime/research/supplied_references/approved_style_reference.png'
+
+======================================================================
+ERROR: test_example_is_blocked_at_real_timing_decision (test_pipeline.PipelineTests.test_example_is_blocked_at_real_timing_decision)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_pipeline.py", line 68, in test_example_is_blocked_at_real_timing_decision
+    pipeline = build_pipeline(EXAMPLE, TEMPLATE, ROLES, ROOT)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/Projects/Ilan-Anime/production/pipeline.py", line 429, in build_pipeline
+    validate_spec(spec, repo)
+  File "/home/alabs/Projects/Ilan-Anime/production/pipeline.py", line 382, in validate_spec
+    _comparison_references(spec, repo)
+  File "/home/alabs/Projects/Ilan-Anime/production/pipeline.py", line 196, in _comparison_references
+    _existing_repo_path(repo, path, "comparison reference")
+  File "/home/alabs/Projects/Ilan-Anime/production/pipeline.py", line 93, in _existing_repo_path
+    raise PipelineError(f"Missing {label}: {relative}")
+production.pipeline.PipelineError: Missing comparison reference: research/supplied_references/approved_style_reference.png
+
+======================================================================
+ERROR: test_full_pipeline_has_bounded_ledger_tasks (test_pipeline.PipelineTests.test_full_pipeline_has_bounded_ledger_tasks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_pipeline.py", line 77, in test_full_pipeline_has_bounded_ledger_tasks
+    pipeline = build_pipeline(EXAMPLE, TEMPLATE, ROLES, ROOT)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/Projects/Ilan-Anime/production/pipeline.py", line 429, in build_pipeline
+    validate_spec(spec, repo)
+  File "/home/alabs/Projects/Ilan-Anime/production/pipeline.py", line 382, in validate_spec
+    _comparison_references(spec, repo)
+  File "/home/alabs/Projects/Ilan-Anime/production/pipeline.py", line 196, in _comparison_references
+    _existing_repo_path(repo, path, "comparison reference")
+  File "/home/alabs/Projects/Ilan-Anime/production/pipeline.py", line 93, in _existing_repo_path
+    raise PipelineError(f"Missing {label}: {relative}")
+production.pipeline.PipelineError: Missing comparison reference: research/supplied_references/approved_style_reference.png
+
+======================================================================
+ERROR: test_pipeline_cannot_bypass_final_use_link_shot_scope (test_pipeline.PipelineTests.test_pipeline_cannot_bypass_final_use_link_shot_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_pipeline.py", line 203, in test_pipeline_cannot_bypass_final_use_link_shot_scope
+    repo, _, record = self.registry_fixture(link_shots=["S01-11"])
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_pipeline.py", line 39, in registry_fixture
+    target.write_bytes((ROOT / reference["path"]).read_bytes())
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/pathlib.py", line 1050, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/alabs/Projects/Ilan-Anime/research/supplied_references/approved_style_reference.png'
+
+======================================================================
+ERROR: test_pipeline_cannot_bypass_registered_asset_shot_scope (test_pipeline.PipelineTests.test_pipeline_cannot_bypass_registered_asset_shot_scope)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_pipeline.py", line 194, in test_pipeline_cannot_bypass_registered_asset_shot_scope
+    repo, _, record = self.registry_fixture(registered_shots=["S01-11"])
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_pipeline.py", line 39, in registry_fixture
+    target.write_bytes((ROOT / reference["path"]).read_bytes())
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/pathlib.py", line 1050, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/alabs/Projects/Ilan-Anime/research/supplied_references/approved_style_reference.png'
+
+======================================================================
+ERROR: test_registry_verified_media_and_digest_bound_final_gate (test_pipeline.PipelineTests.test_registry_verified_media_and_digest_bound_final_gate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_pipeline.py", line 172, in test_registry_verified_media_and_digest_bound_final_gate
+    repo, artifact, record = self.registry_fixture()
+                             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_pipeline.py", line 39, in registry_fixture
+    target.write_bytes((ROOT / reference["path"]).read_bytes())
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/pathlib.py", line 1050, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/.local/share/uv/python/cpython-3.11.17-linux-x86_64-gnu/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/home/alabs/Projects/Ilan-Anime/research/supplied_references/approved_style_reference.png'
+
+======================================================================
+ERROR: test_specialist_roles_and_runtime_fields_are_integrated (test_pipeline.PipelineTests.test_specialist_roles_and_runtime_fields_are_integrated)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_pipeline.py", line 93, in test_specialist_roles_and_runtime_fields_are_integrated
+    pipeline = build_pipeline(EXAMPLE, TEMPLATE, ROLES, ROOT)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/alabs/Projects/Ilan-Anime/production/pipeline.py", line 429, in build_pipeline
+    validate_spec(spec, repo)
+  File "/home/alabs/Projects/Ilan-Anime/production/pipeline.py", line 382, in validate_spec
+    _comparison_references(spec, repo)
+  File "/home/alabs/Projects/Ilan-Anime/production/pipeline.py", line 196, in _comparison_references
+    _existing_repo_path(repo, path, "comparison reference")
+  File "/home/alabs/Projects/Ilan-Anime/production/pipeline.py", line 93, in _existing_repo_path
+    raise PipelineError(f"Missing {label}: {relative}")
+production.pipeline.PipelineError: Missing comparison reference: research/supplied_references/approved_style_reference.png
+
+======================================================================
+FAIL: test_snapshot_tracks_paused_runs_tasks_assets_and_roles (test_dashboard.DashboardSnapshotTests.test_snapshot_tracks_paused_runs_tasks_assets_and_roles)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_dashboard.py", line 29, in test_snapshot_tracks_paused_runs_tasks_assets_and_roles
+    self.assertGreaterEqual(data["assets"]["count"], 1)
+AssertionError: 0 not greater than or equal to 1
+
+======================================================================
+FAIL: test_manifest_labels_cannot_claim_episode_release (test_studio_validate.StudioValidationTests.test_manifest_labels_cannot_claim_episode_release)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_studio_validate.py", line 51, in test_manifest_labels_cannot_claim_episode_release
+    self.assertIn("canonical production asset registry", evidence["missing"])
+AssertionError: 'canonical production asset registry' not found in ['valid canonical asset registry: Asset file missing or hash mismatch: projects/cemi_episode_01/assets/keyframes/S01-01-candidate-v1.png']
+
+======================================================================
+FAIL: test_repository_architecture_is_coherent_but_episode_truth_remains_unfinished (test_studio_validate.StudioValidationTests.test_repository_architecture_is_coherent_but_episode_truth_remains_unfinished)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/alabs/Projects/Ilan-Anime/tests/test_studio_validate.py", line 25, in test_repository_architecture_is_coherent_but_episode_truth_remains_unfinished
+    self.assertEqual([], report["errors"])
+AssertionError: Lists differ: [] != ['shot pipeline: Missing comparison refere[187 chars]png']
+
+Second list contains 2 additional elements.
+First extra element 0:
+'shot pipeline: Missing comparison reference: research/supplied_references/approved_style_reference.png'
+
+- []
++ ['shot pipeline: Missing comparison reference: '
++  'research/supplied_references/approved_style_reference.png',
++  'asset registry: Asset file missing or hash mismatch: '
++  'projects/cemi_episode_01/assets/replacement_cels/beheto_eight_poses.png']
+
+----------------------------------------------------------------------
+Ran 124 tests in 2.994s
+
+FAILED (failures=3, errors=20)

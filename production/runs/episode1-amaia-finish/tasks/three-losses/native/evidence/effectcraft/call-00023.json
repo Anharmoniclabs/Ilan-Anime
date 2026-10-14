@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.addKey",
+    "params": {
+      "layer": "#1",
+      "path": "transform/scale",
+      "time": 6.958333333333333,
+      "value": [
+        155,
+        155
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": 3
+}

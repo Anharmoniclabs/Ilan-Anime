@@ -1,0 +1,83 @@
+{
+  "tool": "get_project",
+  "arguments": {},
+  "status": "succeeded",
+  "result": {
+    "activeComp": 1,
+    "bitDepth": "8 bpc",
+    "dirty": true,
+    "items": [
+      {
+        "duration": 0.25,
+        "frameRate": 24.0,
+        "id": 1,
+        "label": "Sandstone",
+        "layers": 0,
+        "name": "TECHNICAL-EXPOSURE-CHECK",
+        "parent": null,
+        "size": [
+          320,
+          180
+        ],
+        "type": "Composition"
+      },
+      {
+        "id": 2,
+        "label": "Lavender",
+        "name": "drawing_309433322486db730aa047d4481997ad236cda03de1ad9f134d2f3749a8e3e90_still.png",
+        "parent": null,
+        "size": [
+          320,
+          180
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 3,
+        "label": "Lavender",
+        "name": "drawing_4572a1c4bf51618da5a2ab6e19222be180326bc9b38869d22429d42ed047d162_still.png",
+        "parent": null,
+        "size": [
+          320,
+          180
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 4,
+        "label": "Lavender",
+        "name": "drawing_91ec383192371bd56d82fee567e9be5449ba41088dbe232d80353fe9e3ca10da_still.png",
+        "parent": null,
+        "size": [
+          320,
+          180
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 5,
+        "label": "Lavender",
+        "name": "drawing_afaedbcb771a1b212db3513466152dbc1b295f8b94f8a8378c037cc73526a597_still.png",
+        "parent": null,
+        "size": [
+          320,
+          180
+        ],
+        "type": "Image"
+      }
+    ],
+    "path": null,
+    "renderer": {
+      "active": "cpu",
+      "adapter": null,
+      "gpuAcceleration": true,
+      "renderer": "Mercury GPU Acceleration"
+    },
+    "selectedLayers": [],
+    "time": 0.0,
+    "undo": [
+      "New Composition",
+      "Import"
+    ]
+  }
+}

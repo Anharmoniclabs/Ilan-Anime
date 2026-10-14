@@ -1,0 +1,21 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "file.import",
+    "params": {
+      "paths": [
+        "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S03-03/steam-clear.png"
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comps": [],
+    "errors": [],
+    "items": [
+      626
+    ],
+    "unlabeledAlpha": [],
+    "warnings": []
+  }
+}

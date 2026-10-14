@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Anharmoniclabs/animestudio/production/schemas/approval-record.schema.json",
+  "title": "AnimeStudio asset approval record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["approval_id", "type", "asset_id", "version", "asset_sha256", "approver_id", "approver_role", "evidence", "at"],
+  "properties": {
+    "approval_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{0,95}$"},
+    "type": {"enum": ["technical", "author"]},
+    "asset_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{0,95}$"},
+    "version": {"type": "integer", "minimum": 1},
+    "asset_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "approver_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{0,95}$"},
+    "approver_role": {"type": "string", "pattern": "^[a-z0-9][a-z0-9._-]{0,95}$"},
+    "evidence": {"type": "string", "minLength": 1},
+    "at": {"type": "string", "format": "date-time"}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"type": {"const": "author"}}},
+      "then": {
+        "properties": {
+          "approver_id": {"const": "luis-m-minier"},
+          "approver_role": {"const": "author"}
+        }
+      }
+    }
+  ]
+}

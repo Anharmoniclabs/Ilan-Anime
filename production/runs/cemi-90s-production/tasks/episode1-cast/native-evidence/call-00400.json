@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 14,
+      "rect": [
+        161,
+        110,
+        764,
+        202
+      ],
+      "content": "text",
+      "text": "partial-body | half-memory | missing-dedicated-art\nSmall child sleeve/body; may be JC but script does not identify.\nShots: S11-05"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 475,
+    "story": 476
+  }
+}

@@ -1,0 +1,4 @@
+`03:24:00 → 03:30:00` (144f) · FIX · MS desk · rate 3s
+- **Action:** The 4 goes by; he types one line. A small diegetic timer reads 8:00 and counts down to the next train: 'the train comes, I get eight minutes'.
+- **FX:** `UI_TIMER(8:00); TRAIN_STROBE`
+- **Sound:** The 4, then keystrokes.

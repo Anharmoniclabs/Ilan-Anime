@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addItem",
+    "params": {
+      "item": "water-cels-atlas.png",
+      "position": [
+        -197.0,
+        -58.0
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 99
+  }
+}

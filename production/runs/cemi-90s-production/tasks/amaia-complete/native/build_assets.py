@@ -1,0 +1,80 @@
+from pathlib import Path
+import json,math,subprocess
+from studio.craft import Session
+ROOT=Path.cwd();OUT=Path(__file__).resolve().parent;TASK=OUT.parent;GEN=TASK/'generated';R2=TASK.parent/'amaia-assets-r2'
+R=[[367,289],[349,306],[338,331],[337,388],[331,458],[326,516],[307,566],[292,637],[279,716],[271,743],[269,778],[255,819],[267,866],[285,886],[309,899],[317,891],[311,879],[303,869],[313,857],[313,841],[314,804],[307,770],[300,750],[306,719],[327,662],[353,599],[366,546],[372,488],[389,420],[394,373],[382,341],[380,298]]
+L=[[615,289],[637,297],[657,316],[668,355],[677,432],[681,486],[695,542],[709,603],[719,672],[729,716],[743,744],[749,787],[761,824],[750,865],[730,886],[708,898],[698,889],[703,879],[709,870],[699,865],[702,849],[702,817],[707,792],[713,765],[714,749],[705,721],[682,671],[666,627],[645,577],[633,538],[625,483],[614,414],[614,357],[609,315]]
+H=[[340,0],[665,0],[665,230],[573,243],[539,233],[539,252],[459,252],[459,225],[411,225],[370,195],[340,160]]
+# Body subtract masks start below shoulder cap, leaving true source pixels under tiny rotations.
+RB=[[339,344],[332,458],[326,516],[307,566],[292,637],[279,716],[271,743],[269,778],[255,819],[267,866],[285,886],[309,899],[317,891],[311,879],[303,869],[313,857],[313,841],[314,804],[307,770],[300,750],[306,719],[327,662],[353,599],[366,546],[372,488],[389,420],[394,373],[382,341]]
+LB=[[615,350],[668,350]]+L[4:-2]+[[614,357]]
+HB=[[340,0],[665,0],[665,230],[573,243],[539,233],[539,243],[459,243],[459,225],[411,225],[370,195],[340,160]]
+def run():
+ (OUT/'parts').mkdir(exist_ok=True);(OUT/'rig-frames').mkdir(exist_ok=True)
+ with Session('effectcraft',ROOT,OUT/'rig-evidence') as s:
+  def cmd(c,**p):return s.call('execute_command',{'command':c,'params':p})
+  def prop(l,p,v=None,e=None):return s.call('set_property',{'layer':l,'path':p,**({'expression':e} if e is not None else {'value':v})})
+  def masked(name,masks,item='amaia-master.png'):
+   n=cmd('layer.addItem',item=item,position=[512,768],index=1)['layer'];cmd('layer.rename',layer=n,name=name)
+   for vertices,mode in masks:cmd('mask.new',layer=n,vertices=vertices,closed=True,mode=mode)
+   return n
+  s.call('open_project',{'new':True});cmd('file.import',paths=[str(R2/'amaia-master.png'),str(R2/'amaia-blink.png'),str(R2/'amaia-talk.png'),str(GEN/'body-underpaint.png'),str(GEN/'mouths.png')]);c=cmd('comp.new',name='AMAIA - approved proportions and whole-arm controls',width=1024,height=1536,frameRate=24,duration=2,background='#26323e');layers={}
+  layers['body-control']=cmd('layer.newNull',name='body-control')['layer'];prop(layers['body-control'],'transform/position',[506,561])
+  layers['body-skirt-legs']=masked('body-skirt-legs',[(HB,'Subtract')],item='body-underpaint.png')
+  layers['right-whole-arm']=masked('right-whole-arm',[(R,'Add')])
+  layers['left-whole-arm']=masked('left-whole-arm',[(L,'Add')])
+  layers['head-neutral']=masked('head-neutral',[(H,'Add')])
+  for name,indices in [('right-whole-arm',[1]),('left-whole-arm',[1])]:
+   for i in indices:prop(layers[name],f'masks/#{i}/expansion',10)
+  cmd('mask.new',layer=layers['right-whole-arm'],vertices=[[0,250],[350,250],[338,305],[331,342],[331,405],[327,472],[321,520],[307,552],[0,600]],closed=True,mode='Subtract')
+  cmd('mask.new',layer=layers['left-whole-arm'],vertices=[[0,260],[607,260],[614,400],[626,494],[646,589],[665,655],[677,703],[682,746],[691,788],[694,821],[701,858],[700,886],[710,918],[728,982],[750,1120],[0,1120]],closed=True,mode='Subtract')
+
+  cmd('mask.new',layer=layers['right-whole-arm'],vertices=[[385,344],[393,371],[390,395],[388,417],[382,442],[377,468],[372,495],[368,520],[365,548],[350,602],[330,657],[306,720],[1024,720],[1024,250],[385,250]],closed=True,mode='Subtract')
+  cmd('layer.addMask',layer=layers['left-whole-arm'],shape='rect',rect=[0,0,1024,897],mode='Intersect')
+  s.call('add_effect',{'layer':layers['left-whole-arm'],'effect':'Color Key'})
+  prop(layers['left-whole-arm'],'effects/#1/keyColor',[.93,.89,.81,1]);prop(layers['left-whole-arm'],'effects/#1/colorTolerance',60)
+  cmd('layer.addMask',layer=layers['left-whole-arm'],shape='rect',rect=[680,881,24,30],mode='Subtract')
+  pivots={'body-skirt-legs':[506,561],'right-whole-arm':[365,323],'left-whole-arm':[629,323],'head-neutral':[503,240]}
+  for name,pivot in pivots.items():prop(layers[name],'transform/anchor',pivot);prop(layers[name],'transform/position',pivot);cmd('layer.setParent',layers=[layers[name]],parent=layers['body-control'])
+  layers['Face controls']=cmd('layer.newNull',name='Face controls')['layer']
+  s.call('add_effect',{'layer':layers['Face controls'],'effect':'Slider Control'})
+  for name,item,rect,expr in [('blink-eyes','amaia-blink.png',[446,122,114,38],'m>=0.5&&m<1.5?100:0'),('talk-mouth','amaia-talk.png',[482,181,50,29],'m>=1.5?100:0')]:
+   l=cmd('layer.addItem',item=item,position=[512,768],index=1)['layer'];layers[name]=l;cmd('layer.rename',layer=l,name=name)
+   cmd('layer.addMask',layer=l,shape='rect',rect=rect,mode='Add');prop(l,'masks/#1/feather',[3,3])
+   cmd('layer.setParent',layers=[l],parent=layers['head-neutral'])
+   prop(l,'transform/opacity',e='var m=thisComp.layer("Face controls").effect("Slider Control")("Slider"); '+expr)
+  layers['Mouth controls']=cmd('layer.newNull',name='Mouth controls')['layer']
+  s.call('add_effect',{'layer':layers['Mouth controls'],'effect':'Slider Control'})
+  mouthnames=['rest','pressed','parted','open','wide','rounded','pursed','teeth','tongue']
+  for i,name in enumerate(mouthnames):
+   x=(i%3)*418+209;y=[211,620,1040][i//3];height=[140,245,180][i//3]
+   l=cmd('layer.addItem',item='mouths.png',index=1)['layer'];layers['mouth-'+name]=l;cmd('layer.rename',layer=l,name='mouth-'+name)
+   cmd('layer.addMask',layer=l,shape='rect',rect=[x-150,y-height/2,300,height],mode='Add');prop(l,'masks/#1/feather',[25,25])
+   prop(l,'transform/anchor',[x,y]);prop(l,'transform/position',[504,195]);prop(l,'transform/scale',[16,16])
+   cmd('layer.setParent',layers=[l],parent=layers['head-neutral'])
+   prop(l,'transform/opacity',e=f'var m=thisComp.layer("Mouth controls").effect("Slider Control")("Slider"); m>={i+.5}&&m<{i+1.5}?100:0')
+  cid=s.call('get_comp',{})['id'];cmd('essential.setPrimary',comp=cid);cmd('essential.setName',name='Amaia - whole-arm and face controls')
+  cmd('essential.addProperty',layer=layers['Face controls'],path='effects/#1/slider',name='Face: 0 neutral / 1 blink / 2 talk')
+  cmd('essential.addProperty',layer=layers['Mouth controls'],path='effects/#1/slider',name='Mouth: 0 approved / 1 rest / 2 pressed / 3 parted / 4 open / 5 wide / 6 rounded / 7 pursed / 8 teeth / 9 tongue')
+  for name in ['right-whole-arm','left-whole-arm']:cmd('essential.addProperty',layer=layers[name],path='transform/rotation',name=name+' rotation')
+  cmd('essential.addProperty',layer=layers['body-control'],path='transform/position',name='Body position')
+  s.call('save_project',{'path':str(OUT/'amaia-puppet.ecproj')});s.call('render_frame',{'time':0,'path':str(OUT/'assembled.png'),'max_side':0,'transparent':True,'inline':False});s.call('render_frame',{'time':0,'path':str(OUT/'assembled-slate.png'),'max_side':0,'inline':False})
+  cmd('comp.saveFrameAsPsd',path=str(OUT/'amaia-layered.psd'),time=0)
+  (OUT/'rig.json').write_text(json.dumps({'status':'exploratory','canvas':[1024,1536],'source':'approved r2 master with generated body-underpaint.png','scale':[100,100],'parts':pivots,'layers':layers,'limits':['Approved visible arm pixels at 100 percent scale; generated hidden-body underpaint.','Whole-arm rotation only. No elbow/wrist rig. Generated underpaint supplies hidden hair/sash.','Knees and feet remain integrated in body/skirt layer to preserve exact anatomy.','Generated hidden body plate, exact approved visible arm pixels; whole-arm demonstration limited to five degrees.']},indent=2))
+  d=cmd('project.duplicate',items=[cid])['items'][0];cmd('comp.open',comp=d);cmd('comp.settings',name='AMAIA - whole-arm and face demonstration');dl={a['name']:a['id'] for a in s.call('get_comp',{})['layers']}
+  for name,amount in [('right-whole-arm',5),('left-whole-arm',-5)]:
+   s.call('add_keyframe',{'layer':dl[name],'path':'transform/rotation','keys':[{'time':i/8,'value':amount*math.sin(math.pi*i/16)} for i in range(17)],'interpolation':'hold'})
+  s.call('add_keyframe',{'layer':dl['Face controls'],'path':'effects/#1/slider','keys':[{'time':0,'value':0},{'time':.5,'value':1},{'time':.625,'value':0},{'time':1,'value':2},{'time':1.25,'value':0},{'time':1.5,'value':2},{'time':1.75,'value':0}],'interpolation':'hold'})
+  s.call('add_keyframe',{'layer':dl['Mouth controls'],'path':'effects/#1/slider','keys':[{'time':0,'value':0},{'time':1,'value':3},{'time':1.125,'value':4},{'time':1.25,'value':6},{'time':1.375,'value':2},{'time':1.5,'value':9},{'time':1.625,'value':0}],'interpolation':'hold'})
+  s.call('render_frame',{'time':1,'path':str(OUT/'posed-talk.png'),'max_side':0,'inline':False})
+  for i in range(48):s.call('render_frame',{'time':i/24,'path':str(OUT/'rig-frames'/f'{i:04d}.png'),'max_side':1080,'inline':False})
+  s.call('render_frame',{'time':.5,'path':str(OUT/'posed.png'),'max_side':0,'inline':False})
+  cmd('comp.open',comp=cid);cmd('comp.openInEssentialGraphics',comp=cid);s.call('save_project',{'path':str(OUT/'amaia-puppet.ecproj')})
+ subprocess.run(['ffmpeg','-v','error','-y','-framerate','24','-i',str(OUT/'rig-frames/%04d.png'),'-c:v','libx264','-pix_fmt','yuv420p','-crf','18',str(OUT/'amaia-control-demo.mp4')],check=True)
+ with Session('photocraft',ROOT,OUT/'paint-evidence') as s:
+  s.call('doc_open',{'path':str(OUT/'amaia-layered.psd')})
+  for l in s.call('doc_inspect',{})['layers']:
+   if l['name'] in ['blink-eyes','talk-mouth'] or l['name'].startswith('mouth-'):s.call('command_run',{'id':'layer.setProps','params':{'layer':l['id'],'visible':False}})
+  s.call('doc_save',{'path':str(OUT/'amaia-layered.pcraft')});s.call('doc_export',{'path':str(OUT/'amaia-layered.psd'),'format':'psd'})
+ print('DONE')
+if __name__=='__main__':run()

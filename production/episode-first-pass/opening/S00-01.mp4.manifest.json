@@ -1,0 +1,19 @@
+{
+  "shot": "S00-01",
+  "output": "production/episode-first-pass/opening/S00-01.mp4",
+  "mode": "review",
+  "quality": "final",
+  "frames": 96,
+  "size": [
+    1280,
+    720
+  ],
+  "draft": true,
+  "status": "missing_art",
+  "engine": "2.0.0",
+  "fingerprint": "3c9ff5161142b04390ecc97c748dc79207705d02415bd2eb13c6e057f98eda33",
+  "inputs": {},
+  "output_sha256": "2c19483d64e1636a32fd2636b2f6b97bb6240cbf592839b03c10a0a52e7e0679",
+  "seconds": 13.23,
+  "truth": "A successful render proves the spec executes, not that the animation is good."
+}

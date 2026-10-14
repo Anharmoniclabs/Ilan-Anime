@@ -1,0 +1,4860 @@
+{
+  "steps": [
+    {
+      "app": "effectcraft",
+      "tool": "open_project",
+      "arguments": {
+        "new": true
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "comp.new",
+        "params": {
+          "name": "S01-03 three losses draft",
+          "width": 1280,
+          "height": 720,
+          "frameRate": 24,
+          "duration": 8
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "file.import",
+        "params": {
+          "paths": [
+            "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses-r2/cels/rest.png",
+            "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses-r2/cels/look-a.png",
+            "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses-r2/cels/count-a.png",
+            "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses-r2/cels/look-o.png",
+            "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses-r2/cels/count-o.png",
+            "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses-r2/cels/blink.png",
+            "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses-r2/cels/head-early.png",
+            "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses-r2/cels/head-down-refined.png",
+            "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses-r2/cels/head-lower-candidate.png",
+            "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses-r2/layers/apparition-woman-cel.png",
+            "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses-r2/layers/apparition-young-man-cel.png",
+            "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses-r2/layers/apparition-elder-cel.png"
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "rest.png",
+          "time": 0.0,
+          "duration": 0.75,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 0.0,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 0.0,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 4.625,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 4.625,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 7.958333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 7.958333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "look-a.png",
+          "time": 0.75,
+          "duration": 0.25,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -0.75,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -0.75,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 3.875,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 3.875,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 7.208333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 7.208333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "count-a.png",
+          "time": 1.0,
+          "duration": 0.25,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -1.0,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -1.0,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 3.625,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 3.625,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 6.958333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 6.958333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "look-a.png",
+          "time": 1.25,
+          "duration": 0.5,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -1.25,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -1.25,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 3.375,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 3.375,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 6.708333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 6.708333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "rest.png",
+          "time": 1.75,
+          "duration": 0.375,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -1.75,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -1.75,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 2.875,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 2.875,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 6.208333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 6.208333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "look-o.png",
+          "time": 2.125,
+          "duration": 0.25,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -2.125,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -2.125,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 2.5,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 2.5,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 5.833333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 5.833333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "count-o.png",
+          "time": 2.375,
+          "duration": 0.25,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -2.375,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -2.375,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 2.25,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 2.25,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 5.583333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 5.583333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "look-o.png",
+          "time": 2.625,
+          "duration": 0.5,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -2.625,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -2.625,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 2.0,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 2.0,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 5.333333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 5.333333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "rest.png",
+          "time": 3.125,
+          "duration": 0.375,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -3.125,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -3.125,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 1.5,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 1.5,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 4.833333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 4.833333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "look-a.png",
+          "time": 3.5,
+          "duration": 0.25,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -3.5,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -3.5,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 1.125,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 1.125,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 4.458333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 4.458333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "count-a.png",
+          "time": 3.75,
+          "duration": 0.25,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -3.75,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -3.75,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 0.875,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 0.875,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 4.208333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 4.208333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "look-o.png",
+          "time": 4.0,
+          "duration": 0.5,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -4.0,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -4.0,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 0.625,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 0.625,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 3.9583333333333335,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 3.9583333333333335,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "rest.png",
+          "time": 4.5,
+          "duration": 0.375,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -4.5,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -4.5,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 0.125,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 0.125,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 3.4583333333333335,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 3.4583333333333335,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "blink.png",
+          "time": 4.875,
+          "duration": 0.125,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -4.875,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -4.875,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -0.25,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -0.25,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 3.0833333333333335,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 3.0833333333333335,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "head-early.png",
+          "time": 5.0,
+          "duration": 0.25,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -5.0,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -5.0,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -0.375,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -0.375,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 2.9583333333333335,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 2.9583333333333335,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "head-down-refined.png",
+          "time": 5.25,
+          "duration": 0.25,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -5.25,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -5.25,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -0.625,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -0.625,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 2.7083333333333335,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 2.7083333333333335,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "head-lower-candidate.png",
+          "time": 5.5,
+          "duration": 0.75,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -5.5,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -5.5,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -0.875,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -0.875,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 2.4583333333333335,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 2.4583333333333335,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "head-down-refined.png",
+          "time": 6.25,
+          "duration": 0.25,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -6.25,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -6.25,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -1.625,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -1.625,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 1.7083333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 1.7083333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "head-early.png",
+          "time": 6.5,
+          "duration": 0.25,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -6.5,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -6.5,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -1.875,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -1.875,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 1.4583333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 1.4583333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "rest.png",
+          "time": 6.75,
+          "duration": 0.5,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -6.75,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -6.75,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -2.125,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -2.125,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 1.2083333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 1.2083333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "look-a.png",
+          "time": 7.25,
+          "duration": 0.375,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -7.25,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -7.25,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -2.625,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -2.625,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 0.7083333333333334,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 0.7083333333333334,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "rest.png",
+          "time": 7.625,
+          "duration": 0.375,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -7.625,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -7.625,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": -3.0,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": -3.0,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 0.3333333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 0.3333333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "apparition-woman-cel.png",
+          "time": 0,
+          "duration": 8,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 0.0,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 0.0,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 4.625,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 4.625,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 7.958333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 7.958333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/opacity",
+          "time": 0.0,
+          "value": 25
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/opacity",
+          "time": 1.0,
+          "value": 25
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/opacity",
+          "time": 1.75,
+          "value": 0
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/opacity",
+          "time": 7.958333333333333,
+          "value": 0
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "apparition-young-man-cel.png",
+          "time": 0,
+          "duration": 8,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 0.0,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 0.0,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 4.625,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 4.625,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 7.958333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 7.958333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/opacity",
+          "time": 0.0,
+          "value": 25
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/opacity",
+          "time": 2.375,
+          "value": 25
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/opacity",
+          "time": 3.125,
+          "value": 0
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/opacity",
+          "time": 7.958333333333333,
+          "value": 0
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "layer.addItem",
+        "params": {
+          "item": "apparition-elder-cel.png",
+          "time": 0,
+          "duration": 8,
+          "index": 1
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 0.0,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 0.0,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 4.625,
+          "value": [
+            100,
+            100
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 4.625,
+          "value": [
+            640,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/scale",
+          "time": 7.958333333333333,
+          "value": [
+            155,
+            155
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/position",
+          "time": 7.958333333333333,
+          "value": [
+            910,
+            520
+          ]
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/opacity",
+          "time": 0.0,
+          "value": 25
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/opacity",
+          "time": 3.75,
+          "value": 25
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/opacity",
+          "time": 4.5,
+          "value": 0
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "execute_command",
+      "arguments": {
+        "command": "prop.addKey",
+        "params": {
+          "layer": "#1",
+          "path": "transform/opacity",
+          "time": 7.958333333333333,
+          "value": 0
+        }
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "save_project",
+      "arguments": {
+        "path": "${OUT}/shot.ecproj"
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.0,
+        "path": "${OUT}/000000.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.041666666666666664,
+        "path": "${OUT}/000001.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.08333333333333333,
+        "path": "${OUT}/000002.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.125,
+        "path": "${OUT}/000003.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.16666666666666666,
+        "path": "${OUT}/000004.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.20833333333333334,
+        "path": "${OUT}/000005.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.25,
+        "path": "${OUT}/000006.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.2916666666666667,
+        "path": "${OUT}/000007.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.3333333333333333,
+        "path": "${OUT}/000008.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.375,
+        "path": "${OUT}/000009.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.4166666666666667,
+        "path": "${OUT}/000010.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.4583333333333333,
+        "path": "${OUT}/000011.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.5,
+        "path": "${OUT}/000012.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.5416666666666666,
+        "path": "${OUT}/000013.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.5833333333333334,
+        "path": "${OUT}/000014.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.625,
+        "path": "${OUT}/000015.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.6666666666666666,
+        "path": "${OUT}/000016.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.7083333333333334,
+        "path": "${OUT}/000017.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.75,
+        "path": "${OUT}/000018.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.7916666666666666,
+        "path": "${OUT}/000019.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.8333333333333334,
+        "path": "${OUT}/000020.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.875,
+        "path": "${OUT}/000021.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.9166666666666666,
+        "path": "${OUT}/000022.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0.9583333333333334,
+        "path": "${OUT}/000023.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.0,
+        "path": "${OUT}/000024.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.0416666666666667,
+        "path": "${OUT}/000025.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.0833333333333333,
+        "path": "${OUT}/000026.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.125,
+        "path": "${OUT}/000027.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.1666666666666667,
+        "path": "${OUT}/000028.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.2083333333333333,
+        "path": "${OUT}/000029.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.25,
+        "path": "${OUT}/000030.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.2916666666666667,
+        "path": "${OUT}/000031.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.3333333333333333,
+        "path": "${OUT}/000032.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.375,
+        "path": "${OUT}/000033.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.4166666666666667,
+        "path": "${OUT}/000034.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.4583333333333333,
+        "path": "${OUT}/000035.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.5,
+        "path": "${OUT}/000036.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.5416666666666667,
+        "path": "${OUT}/000037.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.5833333333333333,
+        "path": "${OUT}/000038.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.625,
+        "path": "${OUT}/000039.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.6666666666666667,
+        "path": "${OUT}/000040.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.7083333333333333,
+        "path": "${OUT}/000041.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.75,
+        "path": "${OUT}/000042.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.7916666666666667,
+        "path": "${OUT}/000043.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.8333333333333333,
+        "path": "${OUT}/000044.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.875,
+        "path": "${OUT}/000045.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.9166666666666667,
+        "path": "${OUT}/000046.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 1.9583333333333333,
+        "path": "${OUT}/000047.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.0,
+        "path": "${OUT}/000048.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.0416666666666665,
+        "path": "${OUT}/000049.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.0833333333333335,
+        "path": "${OUT}/000050.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.125,
+        "path": "${OUT}/000051.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.1666666666666665,
+        "path": "${OUT}/000052.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.2083333333333335,
+        "path": "${OUT}/000053.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.25,
+        "path": "${OUT}/000054.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.2916666666666665,
+        "path": "${OUT}/000055.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.3333333333333335,
+        "path": "${OUT}/000056.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.375,
+        "path": "${OUT}/000057.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.4166666666666665,
+        "path": "${OUT}/000058.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.4583333333333335,
+        "path": "${OUT}/000059.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.5,
+        "path": "${OUT}/000060.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.5416666666666665,
+        "path": "${OUT}/000061.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.5833333333333335,
+        "path": "${OUT}/000062.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.625,
+        "path": "${OUT}/000063.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.6666666666666665,
+        "path": "${OUT}/000064.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.7083333333333335,
+        "path": "${OUT}/000065.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.75,
+        "path": "${OUT}/000066.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.7916666666666665,
+        "path": "${OUT}/000067.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.8333333333333335,
+        "path": "${OUT}/000068.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.875,
+        "path": "${OUT}/000069.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.9166666666666665,
+        "path": "${OUT}/000070.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 2.9583333333333335,
+        "path": "${OUT}/000071.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.0,
+        "path": "${OUT}/000072.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.0416666666666665,
+        "path": "${OUT}/000073.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.0833333333333335,
+        "path": "${OUT}/000074.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.125,
+        "path": "${OUT}/000075.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.1666666666666665,
+        "path": "${OUT}/000076.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.2083333333333335,
+        "path": "${OUT}/000077.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.25,
+        "path": "${OUT}/000078.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.2916666666666665,
+        "path": "${OUT}/000079.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.3333333333333335,
+        "path": "${OUT}/000080.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.375,
+        "path": "${OUT}/000081.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.4166666666666665,
+        "path": "${OUT}/000082.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.4583333333333335,
+        "path": "${OUT}/000083.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.5,
+        "path": "${OUT}/000084.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.5416666666666665,
+        "path": "${OUT}/000085.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.5833333333333335,
+        "path": "${OUT}/000086.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.625,
+        "path": "${OUT}/000087.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.6666666666666665,
+        "path": "${OUT}/000088.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.7083333333333335,
+        "path": "${OUT}/000089.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.75,
+        "path": "${OUT}/000090.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.7916666666666665,
+        "path": "${OUT}/000091.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.8333333333333335,
+        "path": "${OUT}/000092.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.875,
+        "path": "${OUT}/000093.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.9166666666666665,
+        "path": "${OUT}/000094.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 3.9583333333333335,
+        "path": "${OUT}/000095.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.0,
+        "path": "${OUT}/000096.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.041666666666667,
+        "path": "${OUT}/000097.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.083333333333333,
+        "path": "${OUT}/000098.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.125,
+        "path": "${OUT}/000099.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.166666666666667,
+        "path": "${OUT}/000100.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.208333333333333,
+        "path": "${OUT}/000101.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.25,
+        "path": "${OUT}/000102.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.291666666666667,
+        "path": "${OUT}/000103.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.333333333333333,
+        "path": "${OUT}/000104.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.375,
+        "path": "${OUT}/000105.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.416666666666667,
+        "path": "${OUT}/000106.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.458333333333333,
+        "path": "${OUT}/000107.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.5,
+        "path": "${OUT}/000108.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.541666666666667,
+        "path": "${OUT}/000109.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.583333333333333,
+        "path": "${OUT}/000110.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.625,
+        "path": "${OUT}/000111.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.666666666666667,
+        "path": "${OUT}/000112.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.708333333333333,
+        "path": "${OUT}/000113.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.75,
+        "path": "${OUT}/000114.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.791666666666667,
+        "path": "${OUT}/000115.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.833333333333333,
+        "path": "${OUT}/000116.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.875,
+        "path": "${OUT}/000117.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.916666666666667,
+        "path": "${OUT}/000118.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 4.958333333333333,
+        "path": "${OUT}/000119.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.0,
+        "path": "${OUT}/000120.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.041666666666667,
+        "path": "${OUT}/000121.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.083333333333333,
+        "path": "${OUT}/000122.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.125,
+        "path": "${OUT}/000123.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.166666666666667,
+        "path": "${OUT}/000124.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.208333333333333,
+        "path": "${OUT}/000125.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.25,
+        "path": "${OUT}/000126.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.291666666666667,
+        "path": "${OUT}/000127.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.333333333333333,
+        "path": "${OUT}/000128.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.375,
+        "path": "${OUT}/000129.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.416666666666667,
+        "path": "${OUT}/000130.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.458333333333333,
+        "path": "${OUT}/000131.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.5,
+        "path": "${OUT}/000132.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.541666666666667,
+        "path": "${OUT}/000133.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.583333333333333,
+        "path": "${OUT}/000134.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.625,
+        "path": "${OUT}/000135.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.666666666666667,
+        "path": "${OUT}/000136.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.708333333333333,
+        "path": "${OUT}/000137.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.75,
+        "path": "${OUT}/000138.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.791666666666667,
+        "path": "${OUT}/000139.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.833333333333333,
+        "path": "${OUT}/000140.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.875,
+        "path": "${OUT}/000141.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.916666666666667,
+        "path": "${OUT}/000142.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 5.958333333333333,
+        "path": "${OUT}/000143.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.0,
+        "path": "${OUT}/000144.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.041666666666667,
+        "path": "${OUT}/000145.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.083333333333333,
+        "path": "${OUT}/000146.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.125,
+        "path": "${OUT}/000147.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.166666666666667,
+        "path": "${OUT}/000148.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.208333333333333,
+        "path": "${OUT}/000149.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.25,
+        "path": "${OUT}/000150.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.291666666666667,
+        "path": "${OUT}/000151.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.333333333333333,
+        "path": "${OUT}/000152.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.375,
+        "path": "${OUT}/000153.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.416666666666667,
+        "path": "${OUT}/000154.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.458333333333333,
+        "path": "${OUT}/000155.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.5,
+        "path": "${OUT}/000156.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.541666666666667,
+        "path": "${OUT}/000157.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.583333333333333,
+        "path": "${OUT}/000158.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.625,
+        "path": "${OUT}/000159.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.666666666666667,
+        "path": "${OUT}/000160.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.708333333333333,
+        "path": "${OUT}/000161.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.75,
+        "path": "${OUT}/000162.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.791666666666667,
+        "path": "${OUT}/000163.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.833333333333333,
+        "path": "${OUT}/000164.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.875,
+        "path": "${OUT}/000165.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.916666666666667,
+        "path": "${OUT}/000166.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 6.958333333333333,
+        "path": "${OUT}/000167.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.0,
+        "path": "${OUT}/000168.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.041666666666667,
+        "path": "${OUT}/000169.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.083333333333333,
+        "path": "${OUT}/000170.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.125,
+        "path": "${OUT}/000171.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.166666666666667,
+        "path": "${OUT}/000172.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.208333333333333,
+        "path": "${OUT}/000173.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.25,
+        "path": "${OUT}/000174.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.291666666666667,
+        "path": "${OUT}/000175.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.333333333333333,
+        "path": "${OUT}/000176.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.375,
+        "path": "${OUT}/000177.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.416666666666667,
+        "path": "${OUT}/000178.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.458333333333333,
+        "path": "${OUT}/000179.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.5,
+        "path": "${OUT}/000180.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.541666666666667,
+        "path": "${OUT}/000181.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.583333333333333,
+        "path": "${OUT}/000182.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.625,
+        "path": "${OUT}/000183.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.666666666666667,
+        "path": "${OUT}/000184.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.708333333333333,
+        "path": "${OUT}/000185.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.75,
+        "path": "${OUT}/000186.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.791666666666667,
+        "path": "${OUT}/000187.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.833333333333333,
+        "path": "${OUT}/000188.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.875,
+        "path": "${OUT}/000189.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.916666666666667,
+        "path": "${OUT}/000190.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.958333333333333,
+        "path": "${OUT}/000191.png",
+        "max_side": 0,
+        "inline": false
+      }
+    }
+  ],
+  "outputs": [
+    "shot.ecproj",
+    "000191.png"
+  ]
+}

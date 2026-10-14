@@ -1,0 +1,61 @@
+{
+  "id": "S09-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 216,
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "The map on butcher paper: Jerome Ave from 161st to 170th in pencil and marker, covered in index cards: Casa Fela, shoe repair, 1968–1994. Don Chino's barbershop (the line went out the door on Sundays). The Rialto, 25¢ Saturdays. A new card each week. One corner is blank.",
+  "camera_note": "PAN · map",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "plate_0",
+      "source": "assets/keyframes/S09-05.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 216,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "x": 64.0,
+      "scale": 1.12,
+      "ease": "smooth"
+    },
+    {
+      "frame": 215,
+      "x": -64.0,
+      "scale": 1.12
+    }
+  ],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "CARD_POP"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

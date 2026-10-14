@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 270781056000000,
+      "durationFrames": 192,
+      "name": "S15-03 missing",
+      "comment": "settle eyes closed; ribbons emerge; 192frame plate persists"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 138
+  }
+}

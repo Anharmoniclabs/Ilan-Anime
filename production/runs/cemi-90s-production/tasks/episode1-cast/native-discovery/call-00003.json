@@ -1,0 +1,21 @@
+{
+  "tool": "list_commands",
+  "arguments": {
+    "filter": "type.char"
+  },
+  "status": "succeeded",
+  "result": {
+    "commands": [
+      {
+        "disabled_reason": "select text or a text frame",
+        "enabled": false,
+        "id": "type.char",
+        "label": "Character Formatting",
+        "menu": [],
+        "params": "{attrs: {fontFamily?, fontStyle?, size?, leading?: {kind:auto}|{kind:points,value}, tracking?, kerning?, hScale?, vScale?, baselineShift?, fill?, capitalization?, underline?, …}}",
+        "shortcut": null
+      }
+    ],
+    "count": 1
+  }
+}

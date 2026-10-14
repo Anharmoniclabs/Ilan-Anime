@@ -1,0 +1,11 @@
+{
+  "tool": "save_document",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/arthouse-pack-v1/tasks/visuals/written-books/S01_SHOOTING_SCRIPT.designcraft"
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 10510,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/arthouse-pack-v1/tasks/visuals/written-books/S01_SHOOTING_SCRIPT.designcraft"
+  }
+}

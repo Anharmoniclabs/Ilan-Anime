@@ -1,0 +1,15 @@
+{
+  "tool": "doc_open",
+  "arguments": {
+    "path": "production/runs/cemi-90s-production/tasks/amaia-complete/contact-s01-13/contact-source.psd"
+  },
+  "status": "succeeded",
+  "result": {
+    "height": 1536,
+    "index": 0,
+    "layers": 1,
+    "name": "contact-source.psd",
+    "warnings": [],
+    "width": 1024
+  }
+}

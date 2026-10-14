@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 11,
+      "rect": [
+        25,
+        700,
+        975,
+        835
+      ],
+      "content": "text",
+      "text": "Native: 13-ledger-keeper.pcraft\nMiddle-aged receding wavy hair, short beard, pale collar, dark pleated coat with puff sleeves, belt inkpot, fitted trousers and shoes; stump-seated writing pose.\nRequired: Writing hand and quill/page-contact registered sequence; finish-line and book-close sequence; separate stump, ledger, quill and inkpot. Do not identify with thin man or Vale.\nUnapproved historical reference. No separated joints, rig, pose registration or motion approval."
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 99,
+    "story": 100
+  }
+}

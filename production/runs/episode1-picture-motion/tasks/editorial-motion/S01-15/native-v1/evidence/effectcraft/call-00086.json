@@ -1,0 +1,17 @@
+{
+  "tool": "render_frame",
+  "arguments": {
+    "time": 3.2916666666666665,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S01-15/native-v1/frames/000079.png",
+    "max_side": 0,
+    "inline": false
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 1,
+    "height": 720,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S01-15/native-v1/frames/000079.png",
+    "time": 3.2916666666666665,
+    "width": 1280
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "shot_id": "S05-08",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-08.png",
+  "status": "exploratory",
+  "sha256": "68fddb95e9117b6138e36609dd8719309ed4b7f2222edc41a99e06c13edf9d01",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-08.txt",
+  "references": [
+    {
+      "path": "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-06.png",
+      "sha256": "6471ca1c951ac6dc772cefd77cad4a9f9d9ba12dd27a29f9a6b4663e83e7a59e"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Vertical camera drop4th-to-ground, year counter2026\u21921957 and passing floors; numerals composited later.",
+  "inspection": "Directly viewed tool output: single building cross-section with4residential levels above ballroom, steam riser, deep night. Extra incidental residents generated; no yearcounter rendered. Architectural height not definitive full6story elevation.",
+  "directly_viewed": true
+}

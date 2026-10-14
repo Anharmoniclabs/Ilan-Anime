@@ -1,0 +1,11 @@
+{
+  "id": "motion-plan",
+  "role": "animation-supervisor",
+  "shots": ["S01-11", "S01-12"],
+  "objective": "Plan full-scene character, prop and environmental action from the script; identify needed replacement drawings. Text-only planning; no generation or footage approval.",
+  "acceptance_criteria": ["Cite source timing and flag conflicts", "Separate character, prop and environmental actions", "Do not claim finished or approved animation"],
+  "budget": {"max_tool_calls": 20, "max_cost_usd": 0},
+  "inputs": ["projects/cemi_episode_01/data/EPISODE_SCRIPT.md", "research/animation_audit/REPORT.md", "docs/STATUS.md"],
+  "output_dir": "production/runs/example/tasks/motion-plan",
+  "depends_on": []
+}

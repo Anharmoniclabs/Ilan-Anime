@@ -1,0 +1,5 @@
+`15:24:00 → 15:34:00` (240f) · CU laptop → grid · rate 3s
+- **Action:** The date: JUNE THIRTEENTH, FOUNDERS' NIGHT, the Armory. A photo of Adrian Vale (tall, gray, courteous, good coat) with giant scissors in one hand and a small black notebook in the other. A grid of nine photos: the notebook in all nine. 'Who brings a notebook to a ribbon-cutting?' JC looks at it longer than he wants. Triptych flash: ledger man's book / thin man's notebook / Vale's notebook.
+- **FX:** `PHOTO_GRID(9); NOTEBOOK_TRIPTYCH(3x 6f); HOLD`
+- **Sound:** Pen tick ×3, once for each notebook.
+- **Note:** Visual rhyme only. Do not confirm they are the same person.

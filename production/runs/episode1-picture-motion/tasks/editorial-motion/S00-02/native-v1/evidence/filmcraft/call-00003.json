@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "file.saveAs",
+    "params": {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/edit.filmcraft"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "backup": null,
+    "bytes": 4853,
+    "ms": 7.241872,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/edit.filmcraft"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 103638528000000,
+      "durationFrames": 192,
+      "name": "S06-04 missing",
+      "comment": "foreground sill; focus shifts; five percent push; hold man"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 78
+  }
+}

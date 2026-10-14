@@ -1,0 +1,24 @@
+{
+  "tool": "run_command",
+  "arguments": {
+    "command": "imageTrace.makeAndExpand",
+    "params": {
+      "params": {
+        "mode": "color",
+        "colors": 64,
+        "paths": 80,
+        "corners": 75,
+        "noise": 12,
+        "method": "abutting",
+        "ignoreWhite": false
+      }
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "anchors": 290734,
+    "colors": 64,
+    "id": 54443,
+    "paths": 53544
+  }
+}

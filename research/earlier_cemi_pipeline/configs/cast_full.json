@@ -1,0 +1,659 @@
+{
+  "source": "Heralds of the Cemí — Character List, Luis M. Minier",
+  "style": "cemi_option_b_v1",
+  "characters": {
+    "JC": {
+      "id": "JC",
+      "name": "Juan Carlos “JC” Cabral",
+      "section": "Core",
+      "role": "Narrator. A 25-year-old Bronx sound and AR artist and café barista who hears what is under a room and can hold or push it.",
+      "look": "25-year-old Dominican-American man. Lean to skinny build (“flaco”) at medium height (adaptation choice: 5’9”). Light-brown skin (adaptation choice). Narrow tired face with dark under-eye shadows. Dark almond eyes, the same family eyes as Mamá and Abuela (adaptation choice: the shared feature that marks the line). Short dark curly hair, faded at the sides by Papo and Wilson’s barbershop (adaptation choice). Light stubble (adaptation choice). Default outfit is a faded charcoal hoodie (color: adaptation choice), dark jeans with the warm coin in the right front pocket, worn sneakers, and black over-ear headphones around his neck. His fingers are restless and tap on whatever is nearby. For Founders’ Night he wears his best shirt, a white button-down that Mamá checked for buttons (color: adaptation choice), with dark trousers.",
+      "variant": false,
+      "text_source": "author bible",
+      "signature_props": "The coin, Chismosa’s contact-mic puck, a laptop, and an occasional thin nosebleed line.",
+      "continuity": "From Ch. 23 on, he is deaf in the right ear and turns his left ear toward sound. A small round burn sits on his right palm, coin-sized, from the coin (adaptation choice: placement). From Ch. 15 he has a cut on his palm.",
+      "variant_ids": [
+        "JC-2057"
+      ]
+    },
+    "JC-2057": {
+      "id": "JC-2057",
+      "name": "JC-2057",
+      "section": "Core",
+      "role": "Historical/alternate age of JC",
+      "look": "Old man seen only from behind or in profile with his face hidden. A tiny device sits behind his right ear and he holds a cup. His knee posture marks him.",
+      "parent_id": "JC",
+      "variant": true,
+      "text_source": "author bible"
+    },
+    "MANNY": {
+      "id": "MANNY",
+      "name": "Manuel “Manny” (gives the alias “Pérez”, his aunt’s surname)",
+      "section": "Core",
+      "role": "JC’s best friend since age nine. A 25-year-old percussionist whose palm on a drum puts a room in step.",
+      "look": "25-year-old Afro-Dominican man, six-foot-three, “built like a refrigerator that learned to dance”. Huge rounded shoulders, a thick chest and enormous hands. Dark-brown skin (adaptation choice). Broad open face with a wide easy grin and expressive eyebrows, and he sticks his tongue out of the mouth corner when tuning. Close-cropped hair with a sharp lineup (adaptation choice). Casual default is an oversized plain tee or Knicks T-shirt, track pants and sneakers (adaptation choice, drawn from the Knicks tee in Ch. 15), and he is usually carrying a hard drum case or two iced coffees. For Founders’ Night he wears a rented black tuxedo built for a normal-sized man: the sleeves stop halfway up his forearms, the bow tie is askew, and the seam splits under one shoulder. From Ch. 24 his ribs are taped.",
+      "variant": false,
+      "text_source": "author bible",
+      "signature_props": "Manny’s conga."
+    },
+    "MIKEY": {
+      "id": "MIKEY",
+      "name": "Mikey (only ever “Mikey”)",
+      "section": "Core",
+      "role": "JC’s childhood neighbor from 4C. Scored “level three” on the Calm Index and now works as an Aperture “community ambassador” who hums the loop.",
+      "look": "25-year-old Latino man with a lean, slightly wiry build (adaptation choice) and olive-tan skin (adaptation choice). A pale scar runs as a thin line through his left eyebrow. His left shoulder dips on every step, so he carries one shoulder visibly higher than the other. His face is very calm and blank, “a screen between channels”, with tired, clear dark eyes. Fresh, neat, company-paid haircut. He wears a clean gray jacket over a dark shirt, often with a ball cap pulled low. In landing scenes (2024 and Ch. 24) he wears a gray hoodie with his knees up and his phone held in both hands. His hands are folded or in his pockets, and he lines up silverware precisely.",
+      "variant": false,
+      "text_source": "author bible",
+      "signature_gesture": "Dos: two fingers to the left temple, or two flat knocks."
+    },
+    "MAMA": {
+      "id": "MAMA",
+      "name": "Doña Altagracia Cabral, “Mamá”",
+      "section": "Core",
+      "role": "JC’s mother, 53. She left Santo Domingo 31 years ago, turned down Vale in 2007 by turning the radio up, and keeps the papers drawer and the Café Bustelo can.",
+      "look": "53-year-old Dominican woman of sturdy medium build (adaptation choice) with medium-brown skin (adaptation choice). She has the family’s dark almond eyes and a level, all-seeing “inspection” stare. Dark hair streaked with gray (gray: adaptation choice), pulled back. At home she wears a house blouse and slacks (adaptation choice) with a dish towel over one shoulder and a rosary wrapped around her fist. Out of the house she wears her church coat (color: adaptation choice, deep plum wool) and carries her purse on her knees and a folding chair from home.",
+      "variant": false,
+      "text_source": "author bible",
+      "variant_ids": [
+        "MAMA-2007"
+      ]
+    },
+    "MAMA-2007": {
+      "id": "MAMA-2007",
+      "name": "MAMA-2007",
+      "section": "Core",
+      "role": "Historical/alternate age of MAMA",
+      "look": "34 years old, dark hair pulled back with no gray, dish towel on her shoulder, standing in her kitchen.",
+      "parent_id": "MAMA",
+      "variant": true,
+      "text_source": "author bible"
+    },
+    "ABUELA": {
+      "id": "ABUELA",
+      "name": "JC’s grandmother (Altagracia’s mother), Santo Domingo",
+      "section": "Core",
+      "role": "79-year-old keeper of La Madre and the 28-page ledger. “Ellos cuentan. Nosotros recordamos.”",
+      "look": "79-year-old Dominican woman, small and slightly stooped. Deep tan-brown weathered skin (adaptation choice). Thinning white hair. The family’s dark almond eyes in a face that misses nothing. She stands in doorways with her arms folded. Daily wear is a cotton housedress with a dish towel over one shoulder. At night she wears a flannel robe with her hair down and a rosary in her fist. “Dressed for the work” means a plain dark dress, hair pulled back hard, sandals and a straw bag over her arm. She wears reading glasses to supervise. For JFK in Ch. 24 she wears her good dress and funeral shoes and carries a bodega plastic bag.",
+      "variant": false,
+      "text_source": "author bible",
+      "variant_ids": [
+        "ABUELA-2009",
+        "ABUELA-1961"
+      ]
+    },
+    "ABUELA-2009": {
+      "id": "ABUELA-2009",
+      "name": "ABUELA-2009",
+      "section": "Core",
+      "role": "Historical/alternate age of ABUELA",
+      "look": "62 years old, in a housedress with her hair tied in a scarf, at the river wall.",
+      "parent_id": "ABUELA",
+      "variant": true,
+      "text_source": "author bible"
+    },
+    "ABUELA-1961": {
+      "id": "ABUELA-1961",
+      "name": "ABUELA-1961",
+      "section": "Core",
+      "role": "Historical/alternate age of ABUELA",
+      "look": "A girl of about 14 in a nightgown in a doorway, with the same eyes.",
+      "parent_id": "ABUELA",
+      "variant": true,
+      "text_source": "author bible"
+    },
+    "YANAISA": {
+      "id": "YANAISA",
+      "name": "Yanaisa, JC’s cousin (“la hija de mi sobrina”, the daughter of Abuela’s niece)",
+      "section": "Core",
+      "role": "Paramedic from Villa Mella and keeper of Yúcahu. She decides when the two stones meet.",
+      "look": "Dominican woman of about 25, athletic and compact (adaptation choice), with warm brown skin (adaptation choice). Strong jaw. A level, skeptical stare “like a package delivered to the wrong apartment”. Dark hair in a tight low bun (adaptation choice). Default is a navy paramedic uniform with the sleeves pushed up (color: adaptation choice) and a motorcycle helmet under one arm. For the procession and Founders’ Night (Ch. 22–23) she wears a blue skirt she hemmed herself and a plain top, with a woven sling across her chest carrying Yúcahu. In Ch. 24 she wears the woven sling again for travel.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "SOFIA": {
+      "id": "SOFIA",
+      "name": "Sofía",
+      "section": "Core",
+      "role": "Researcher for the tenant association. She builds the paper case: shells, the Calm Index, the run-of-show and the reporters.",
+      "look": "Dominican-American woman of about 26, small and quick (adaptation choice), with light-brown skin (adaptation choice). Sharp, narrow-eyed “prosecuting” face. Dark hair in a practical claw-clip twist (adaptation choice). Rectangular glasses (adaptation choice). Default is a cardigan over jeans and a tote (adaptation choice) with an open laptop. Her props are a clipboard marked INCIDENTS and a security-guard clicker (Ch. 4) and a notebook labeled DATA. For Founders’ Night she wears a black dress and carries a handbag holding four phones. Ch. 24 adds a chicken-shaped egg timer.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "YARI": {
+      "id": "YARI",
+      "name": "Yari",
+      "section": "Core",
+      "role": "JC’s ex. A night-shift ER nurse at Lincoln Hospital and the first person he tells things to.",
+      "look": "Afro-Latina woman of about 27, tall and steady (adaptation choice), with dark-brown skin (adaptation choice). Tired, warm eyes and a no-nonsense mouth. Box braids pulled up in a high bun (adaptation choice). Default is ceil-blue hospital scrubs (color: adaptation choice) with a jacket over them, a first-aid bag on her shoulder and her phone. At the restaurant in Ch. 24 she wears a simple dark dress (adaptation choice).",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "YENNI": {
+      "id": "YENNI",
+      "name": "Yenni",
+      "section": "Core",
+      "role": "Elder from Rafa’s circle and a daycare worker. She is the woman who nods at JC from the café doorway and plays the shekere.",
+      "look": "Woman of about 70, “old the way a building is old”, upright and not frail. Medium-brown skin (adaptation choice). Silver hair pulled back hard. A corner-of-the-mouth smile. She wears a cardigan the color of dried tobacco and carries a canvas grocery bag. She sometimes wears an I WAS BRAVE daycare sticker and carries a clipboard. Her prop is a shekere in her lap.",
+      "variant": false,
+      "text_source": "author bible",
+      "variant_ids": [
+        "YENNI-1991"
+      ]
+    },
+    "YENNI-1991": {
+      "id": "YENNI-1991",
+      "name": "YENNI-1991",
+      "section": "Core",
+      "role": "Historical/alternate age of YENNI",
+      "look": "About 35, on a plastic crate playing the shekere, with the same jaw angle.",
+      "parent_id": "YENNI",
+      "variant": true,
+      "text_source": "author bible"
+    },
+    "VALE": {
+      "id": "VALE",
+      "name": "Adrian Vale, Director of Community Partnerships, Aperture Civic",
+      "section": "The Vales",
+      "role": "Present-day antagonist. Counts the block, writes everyone into his notebook, and uses eight-second pauses.",
+      "look": "Tall, slender man in his mid-50s with pale skin (adaptation choice). Long courteous face with a soft, patient half-smile and calm gray eyes (adaptation choice). Neat silver-gray hair. Overall he reads as “tall, gray, courteous”. He wears a good charcoal-gray overcoat over a dark suit, with the coat sometimes carried over his arm, and a small black notebook with a loose elastic band in his breast pocket. His posture is unhurried and he stops two steps away so as not to loom.",
+      "variant": false,
+      "text_source": "author bible",
+      "variant_ids": [
+        "VALE-2007"
+      ]
+    },
+    "VALE-2007": {
+      "id": "VALE-2007",
+      "name": "VALE-2007",
+      "section": "The Vales",
+      "role": "Historical/alternate age of VALE",
+      "look": "Same man about 19 years younger with dark hair, in the gray coat with his hat in hand.",
+      "parent_id": "VALE",
+      "variant": true,
+      "text_source": "author bible"
+    },
+    "ANTHONY-VALE": {
+      "id": "ANTHONY-VALE",
+      "name": "Dr. Anthony Vale, founder of Meridian Acoustics (1968)",
+      "section": "The Vales",
+      "role": "The watcher in the 1962 bank and at the 1973 record-shop counter.",
+      "look": "Thin man in his 40s (age: adaptation choice) with pale skin (adaptation choice). Narrow, still face. Slicked dark hair (adaptation choice). He wears a brown suit with a small notebook in the breast pocket. His pen moves “quick and neat, a mark for each”. The way he holds his head matches Adrian’s: tilted and listening.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "ALAN-VALE": {
+      "id": "ALAN-VALE",
+      "name": "Alan Vale, Community Outreach (1991)",
+      "section": "The Vales",
+      "role": "Counts the kids in the 1991 clearing and the torn tab pages in the 1998 diner.",
+      "look": "Man in his late 30s to 40s (adaptation choice) with pale skin (adaptation choice). Thinning sandy hair (adaptation choice). He wears a short-sleeved white dress shirt and a plain tie and carries a small notebook and pencil. In 1991 he leans against a tree. In 1998 he sits in the corner booth, puzzled.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "RAFA": {
+      "id": "RAFA",
+      "name": "Rafa",
+      "section": "Bronx",
+      "role": "Leader of the Sunday drum circle (the areíto) in his 60s. He teaches JC to hear, hold, and not push.",
+      "look": "Afro-Latino man well past sixty, lean and unhurried (build: adaptation choice), with deep-brown skin (adaptation choice). His face is calm, with eyes half-closed “tasting the street”. Gray locs pulled back. His hands look carved from the same wood as his drum. For walks he wears a traffic-cone-orange windbreaker and shoes “that walked to Albany and back”. Indoors and at events he wears his good shirt. His prop is an old palo drum, held between his knees or on his shoulder, and a chewed yellow pencil stub.",
+      "variant": false,
+      "text_source": "author bible",
+      "variant_ids": [
+        "RAFA-1991"
+      ]
+    },
+    "RAFA-1991": {
+      "id": "RAFA-1991",
+      "name": "RAFA-1991",
+      "section": "Bronx",
+      "role": "Historical/alternate age of RAFA",
+      "look": "About 30, hair cut short, playing the palo on the stone ring.",
+      "parent_id": "RAFA",
+      "variant": true,
+      "text_source": "author bible"
+    },
+    "MAMA-TETE": {
+      "id": "MAMA-TETE",
+      "name": "Mama Tete",
+      "section": "Bronx",
+      "role": "Haitian-American botánica owner and elder. Granddaughter of Papa Janvier. She leads the Rara procession.",
+      "look": "Haitian woman of about 70 (adaptation choice), broad and unhurried, with a presence that rearranges a room. Deep-brown skin (adaptation choice). A gavel stare. Gray hair under a patterned head wrap (adaptation choice). Dark sunglasses, a cane, and a good dress (adaptation choice: deep red). Props are a covered dish and a photograph wrapped in a dish towel. In Ch. 24 she holds a brass key.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "DANNY": {
+      "id": "DANNY",
+      "name": "Danny",
+      "section": "Bronx",
+      "role": "22-year-old contract “night listener” in the third-floor listening post. JC hurts his ear and he becomes an ally at the sound desk.",
+      "look": "22-year-old student, skinny and slightly hunched (adaptation choice), with light-tan skin (adaptation choice). Messy dark hair and a tired, wry face (adaptation choice). He wears a lanyard reading DANNY, FIELD ACOUSTICS (CONTRACT), headphones around his neck and a hoodie (adaptation choice). At the Armory he wears a black T-shirt. From Ch. 15 on he has gauze or a bandage over his right ear. In Ch. 1 and 4 the lit-window figure across Jerome stays a backlit headphoned silhouette (adaptation choice: never confirm who).",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "VANESSA": {
+      "id": "VANESSA",
+      "name": "Vanessa",
+      "section": "Bronx",
+      "role": "Aperture community-programming staffer (“the chairs lady”) who leaks the observation report and the run-of-show.",
+      "look": "Black woman in her 40s (adaptation choice). She stands very straight, “as if the floor might give”. Hair in a neat low bun (adaptation choice). She wears a good jacket, or a gray blazer at the Armory, sensible shoes, and an Aperture staff badge, turned face-in at Founders’ Night. Prop is a manila folder.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "MR-RODRIGUEZ": {
+      "id": "MR-RODRIGUEZ",
+      "name": "Mr. Rodríguez",
+      "section": "Bronx",
+      "role": "About 70. Poet and owner of El Disco Café (formerly his father’s Discos Quisqueya). Keeps the butcher-paper map.",
+      "look": "Stocky Dominican man of about 70 (build: adaptation choice) with light-brown skin (adaptation choice). Thick, expressive eyebrows inherited from his father that “say a paragraph by themselves”. Clean-shaven (adaptation choice, to contrast with his father’s mustache). Short silver hair (adaptation choice). He wears a café apron over a rolled-sleeve shirt with a rag in hand. At the hearing and the Armory he wears a bright yellow COMMUNITY OBSERVER vest and carries a clipboard, radio and thermos. Prop is index cards and a marker.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "RODRIGUEZ-PADRE": {
+      "id": "RODRIGUEZ-PADRE",
+      "name": "Mr. Rodríguez’s father",
+      "section": "Bronx",
+      "role": "Behind the register at Discos Quisqueya in 1973 and 1986.",
+      "look": "Dominican man with the same paragraph eyebrows, a mustache and a good short-sleeved shirt. In 1973 he is about 45 with a black mustache. In 1986 he is older, his mustache gone to salt, and he sits with both hands flat on the glass counter.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "DONA-LUZ": {
+      "id": "DONA-LUZ",
+      "name": "Doña Luz",
+      "section": "Bronx",
+      "role": "Mikey’s mother in 4C. Fierce and silent. Communicates by Pyrex.",
+      "look": "Small Dominican woman of 60 with tan skin (adaptation choice). Fierce, flat-mouthed face. Hair in a hairnet. At home she wears a house dress or housecoat and flip-flops. At the Armory she wears a church dress (adaptation choice: navy) and flat black shoes and holds her purse in both hands.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "OKAFOR": {
+      "id": "OKAFOR",
+      "name": "Dr. Okafor",
+      "section": "Bronx",
+      "role": "Adult-evaluations doctor at the sliding-scale clinic on Webster who diagnoses JC’s ADHD.",
+      "look": "Nigerian-American woman in her mid-30s, “younger than expected and faster” (age and heritage: adaptation choice). Dark-brown skin and short natural hair (adaptation choice). Dry, direct expression. She wears a cardigan over clinic clothes (adaptation choice) and holds a tablet.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "DALIA": {
+      "id": "DALIA",
+      "name": "Dalia",
+      "section": "Bronx",
+      "role": "The tenants’ lawyer.",
+      "look": "Latina woman in her 30s (adaptation choice) with medium skin and a sleek dark ponytail (adaptation choice). She has an attentive “makes you reconsider your sentence” gaze. She wears a court suit with red sneakers.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "PRI": {
+      "id": "PRI",
+      "name": "Pri",
+      "section": "Bronx",
+      "role": "19 years old. Shows the council the Calm Block app, runs the text relay and sends the 9:39 “turn your music up” message.",
+      "look": "19-year-old Afro-Latina (adaptation choice) with brown skin (adaptation choice). Guarded eyes. Her hoodie hood is up, and she flips her phone face down and face up.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "DESMOND": {
+      "id": "DESMOND",
+      "name": "Desmond",
+      "section": "Bronx",
+      "role": "Bucket drummer in Rafa’s circle and a Bx1 bus driver for 26 years. “It’s a doorway career.”",
+      "look": "Very large, quiet Black man in his 50s (age and ethnicity: adaptation choice) with dark-brown skin (adaptation choice) and a shaved head and gray beard (adaptation choice). Steady, unbothered face. He wears an MTA work jacket or plain work clothes (adaptation choice) and carries a five-gallon bucket drum and a thermos.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "DONA-FELA": {
+      "id": "DONA-FELA",
+      "name": "Doña Fela",
+      "section": "Bronx",
+      "role": "Neighbor on five and the block’s opinion. At the Armory she says “No me muevo”.",
+      "look": "Dominican woman in her late 70s (adaptation choice), plump and short (adaptation choice). Always in a hat (a church hat worn at a fine angle) and a dressy coat, with her purse on her knees.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "PAPO": {
+      "id": "PAPO",
+      "name": "Papo",
+      "section": "Bronx",
+      "role": "Barbers who have shared a mirror for 20 years and argue about the Mets bullpen. At the Armory they argue about whether it’s seven or eight.",
+      "look": "Both are Dominican men in their 50s (adaptation choice). Papo is short and round, bald with a gray goatee, and loud-mouthed (adaptation choice). Wilson is tall and thin with a trimmed salt-and-pepper mustache and dry eyes (adaptation choice). At work they wear barber smocks. At the hearing and the Armory they wear sport coats borrowed from the same cousin, slightly ill-fitting.",
+      "variant": false,
+      "text_source": "author bible",
+      "shared_entry": "WILSON"
+    },
+    "WILSON": {
+      "id": "WILSON",
+      "name": "Wilson",
+      "section": "Bronx",
+      "role": "Barbers who have shared a mirror for 20 years and argue about the Mets bullpen. At the Armory they argue about whether it’s seven or eight.",
+      "look": "Both are Dominican men in their 50s (adaptation choice). Papo is short and round, bald with a gray goatee, and loud-mouthed (adaptation choice). Wilson is tall and thin with a trimmed salt-and-pepper mustache and dry eyes (adaptation choice). At work they wear barber smocks. At the hearing and the Armory they wear sport coats borrowed from the same cousin, slightly ill-fitting.",
+      "variant": false,
+      "text_source": "author bible",
+      "shared_entry": "PAPO"
+    },
+    "DON-CHINO": {
+      "id": "DON-CHINO",
+      "name": "Don Chino",
+      "section": "Bronx",
+      "role": "Bodega owner whose freezer Aperture fixed.",
+      "look": "Dominican man in his 60s (adaptation choice) with a heavy build and a bouncer’s crossed arms. He stands under a faded-orange-soda awning. At the Armory he wears a tie and his wife is on his arm.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "TEODORO": {
+      "id": "TEODORO",
+      "name": "Teodoro",
+      "section": "Bronx",
+      "role": "Mr. Rodríguez’s friend. Recites a twelve-minute poem about a parking ticket.",
+      "look": "Wiry man of about 70 in a cap and tweed jacket (adaptation choice), always holding a sheet of paper.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "MR-SALCEDO": {
+      "id": "MR-SALCEDO",
+      "name": "Mr. Salcedo",
+      "section": "Bronx",
+      "role": "Community Board chair and retired MTA dispatcher. Uses his gavel like a metronome.",
+      "look": "Heavyset man in his late 60s (adaptation choice) with reading glasses on a cord, a sweater vest and tie (adaptation choice) and a gavel. He has an unhurried, weary voice-of-delays face.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "DONA-AURORA": {
+      "id": "DONA-AURORA",
+      "name": "Doña Aurora",
+      "section": "Bronx",
+      "role": "Sofía’s mother. Hosts the dining-room “wall”.",
+      "look": "Dominican woman in her 60s (adaptation choice). Neat, hovering, watchful. Wears a housecoat with a tray of coffee. A saint statue sits in the corner behind her.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "DENISE": {
+      "id": "DENISE",
+      "name": "Denise",
+      "section": "Bronx",
+      "role": "Runs the arts space in the Ballroom.",
+      "look": "Woman in her 40s in a cardigan (age: adaptation choice), holding a staple gun. Sincere and apologetic.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "GUS": {
+      "id": "GUS",
+      "name": "Gus",
+      "section": "Bronx",
+      "role": "Counterman at the Olympia Diner. Tears up the tab book every Christmas.",
+      "look": "Greek-American man who looks about 90 (heritage: adaptation choice), with the posture of a man finishing his shift at the end of the world. White hair. He wears a white counter shirt and apron and carries a coffee pot.",
+      "variant": false,
+      "text_source": "author bible",
+      "variant_ids": [
+        "GUS-1998"
+      ]
+    },
+    "GUS-1998": {
+      "id": "GUS-1998",
+      "name": "GUS-1998",
+      "section": "Bronx",
+      "role": "Historical/alternate age of GUS",
+      "look": "28 years younger, with black hair, in a paper hat, holding a thick stained green ledger.",
+      "parent_id": "GUS",
+      "variant": true,
+      "text_source": "author bible"
+    },
+    "DUANE": {
+      "id": "DUANE",
+      "name": "Duane",
+      "section": "Bronx",
+      "role": "Aperture floor supervisor at the Armory.",
+      "look": "Big, heavy-shouldered man of 40 with flat eyes. Wears a gray polo with a badge reading DUANE, a radio at his lip and a flesh-colored earbud.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "TAVITO": {
+      "id": "TAVITO",
+      "name": "Tavito",
+      "section": "Santo Domingo / Haina",
+      "role": "Domino elder outside the colmado who knew Altagracia as a girl (and cheats).",
+      "look": "Dominican man in his 80s (adaptation choice), thin and upright, with dark-brown weathered skin (adaptation choice). Wears a straw hat and a guayabera buttoned all the way to the throat, and stands with his hands clasped behind his back.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "WILFREDO": {
+      "id": "WILFREDO",
+      "name": "Wilfredo",
+      "section": "Santo Domingo / Haina",
+      "role": "Cab driver in Santo Domingo who talks his whole life before the terminal. Cousin of Eliseo.",
+      "look": "Dominican-Haitian man in his 40s (adaptation choice), stocky, with brown skin (adaptation choice) and a big mirror grin. Wears a short-sleeved shirt (adaptation choice). His fingers drum the steering wheel. A religious medal swings from his rearview mirror and he keeps a ready stack of napkins.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "CRISTIAN": {
+      "id": "CRISTIAN",
+      "name": "Cristian",
+      "section": "Santo Domingo / Haina",
+      "role": "Runs the colmado across from Abuela’s house.",
+      "look": "Dominican man of about 25 with a gold chain and a toothpick. Wears a tank top (adaptation choice). Stands behind iron bars and holds a broom sideways.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "ELISEO": {
+      "id": "ELISEO",
+      "name": "Eliseo",
+      "section": "Santo Domingo / Haina",
+      "role": "Gagá leader in the Haina batey. Saves JC as “JC EL DEL CABLE”.",
+      "look": "Dominican-Haitian man in his 30s (adaptation choice) in a sequined cape and a Yankees cap, carrying a phone with a badly cracked screen.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "HORN-ELDER": {
+      "id": "HORN-ELDER",
+      "name": "The old Haitian trumpet woman of the Haina gagá",
+      "section": "Santo Domingo / Haina",
+      "role": "Plays the long bamboo horn. She is 81 and appears in Ch. 11, 22, 23 and 24.",
+      "look": "Haitian-Dominican woman of 81, small and fierce. Gray braids pinned under a red head wrap and a burn scar across the back of one hand. She holds a bamboo trumpet as long as her arm “like a rifle”.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "WILFREDO-UNCLE": {
+      "id": "WILFREDO-UNCLE",
+      "name": "Wilfredo’s uncle",
+      "section": "Santo Domingo / Haina",
+      "role": "Gagá member who serves a plate to everyone before himself.",
+      "look": "Heavyset man in his 60s (adaptation choice) in a sequined dress, holding a beer.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "NIAMH": {
+      "id": "NIAMH",
+      "name": "Niamh Byrne, Rosnaree, Co. Meath",
+      "section": "Abroad (the other houses)",
+      "role": "Keeper by the Boyne near Newgrange. Plays a bodhrán that goes lower than a drum should.",
+      "look": "Irish woman in her 50s (adaptation choice), rawboned, with ruddy fair skin and gray-streaked auburn hair under a knit cap (adaptation choice). Wears a work jacket and work boots. Carries a small bodhrán wrapped in linen with its skin darkened by three generations of hands.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "FIONN": {
+      "id": "FIONN",
+      "name": "Fionn Byrne",
+      "section": "Abroad (the other houses)",
+      "role": "Niamh’s brother.",
+      "look": "Tall man in a wool cap holding a flashlight and an unexplained flask. Grimly patient.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "RUTH": {
+      "id": "RUTH",
+      "name": "Ruth Adebayo",
+      "section": "Abroad (the other houses)",
+      "role": "Grounds-depot worker in a farmer’s field a mile from Stonehenge. Beats a lunch-box lid on a fence post.",
+      "look": "British-Nigerian woman in her 40s (adaptation choice) with dark-brown skin and close-cropped hair (adaptation choice). Wears muddy boots and a work jacket zipped wrong at the bottom. Holds a plastic lunch-box lid. Her colleague Mo (a one-off) holds her bag.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "SALMA": {
+      "id": "SALMA",
+      "name": "Salma Hassan",
+      "section": "Abroad (the other houses)",
+      "role": "Schoolteacher on a Giza rooftop with her aunt’s copper bowl.",
+      "look": "Egyptian woman in her 40s (adaptation choice) in a headscarf and cardigan (adaptation choice). Sits on the roof edge with a copper bowl on her knee. Her neighbor Mariam (a one-off) holds a thermos.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "LUCIA": {
+      "id": "LUCIA",
+      "name": "Lucía Huamán",
+      "section": "Abroad (the other houses)",
+      "role": "Mender of woven cloth near Chavín de Huántar. Works thread figures.",
+      "look": "Andean Quechua woman in her 50s (adaptation choice) with long black braids and a hat (adaptation choice), wearing a wool shawl, with thread across her fingers. Her sister Ana (a one-off) shields a lamp from the wind.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "TOMAS": {
+      "id": "TOMAS",
+      "name": "Tomás Aguilar",
+      "section": "Abroad (the other houses)",
+      "role": "Mason near Teotihuacan. Rings his dry-stone wall with a hammer.",
+      "look": "Mexican man in his 60s (adaptation choice), weathered and solid, with a gray mustache (adaptation choice). Sits on a stool with a mason’s hammer across his thighs, wearing dusty work clothes. His son Emiliano (a one-off) holds a spirit level.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "AMAIA": {
+      "id": "AMAIA",
+      "name": "Amaia",
+      "section": "1523",
+      "role": "The 26-year-old Taíno woman who led eleven people across the river in three canoes. JC’s ancestor.",
+      "look": "26-year-old Taíno woman, gaunt from two months of flight, with bronze-brown skin. Long black hair, wet and tied back. Her eyes are hollow and done counting. Her body and cheek carry faint red-ochre paint (adaptation choice). Wears a simple cotton wrap. Her sleeping son, 22 months old, is held against her ribs.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "DAIRON": {
+      "id": "DAIRON",
+      "name": "Dairon",
+      "section": "1523",
+      "role": "Amaia’s brother. Steers the lead canoe.",
+      "look": "Taíno man of about 30, lean and hard, with a set jaw. He has spent all his fear.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "YARA": {
+      "id": "YARA",
+      "name": "Yara",
+      "section": "1523",
+      "role": "Rides behind Dairon carrying the wrapped cemí (La Madre).",
+      "look": "Taíno woman of about 20 (adaptation choice) clutching a cloth bundle that is soaked and dried and soaked again against her chest.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "BEHETO": {
+      "id": "BEHETO",
+      "name": "Beheto",
+      "section": "1523",
+      "role": "The old drummer in the second canoe.",
+      "look": "Elderly Taíno man with sunken ribs and a rattling chest. Wears a drum between his knees and lays his palms flat on its head.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "AMAIA-SON": {
+      "id": "AMAIA-SON",
+      "name": "Amaia’s son",
+      "section": "1523",
+      "role": "Not yet two. Holds Yúcahu in his fist.",
+      "look": "Taíno toddler of 22 months with a round face and a voice too old for him. He holds an egg-sized dark stone like toast.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "LIT-ONES": {
+      "id": "LIT-ONES",
+      "name": "The three lit children",
+      "section": "1523",
+      "role": "",
+      "look": "Three very still Taíno children: a girl of seven, a child of nine and one smaller. Faint blue ánimo comes off their skin in the dark.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "LEDGER-MAN-1523": {
+      "id": "LEDGER-MAN-1523",
+      "name": "The man with the book",
+      "section": "1523",
+      "role": "",
+      "look": "A Spanish colonial clerk on a stump on the riverbank in a doublet and hat, with a bound ledger across his knee and a quill moving neatly. He is always drawn small and distant. A second man carries a small brass bell on a pole.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "CRATE-KID-1973": {
+      "id": "CRATE-KID-1973",
+      "name": "The shell-toe kid",
+      "section": "Other recurring echo figures",
+      "role": "",
+      "look": "A boy of 15 or 16 in shell-toe Adidas with a milk crate on his hip, carrying two copies of the same record. He appears in Ch. 2 (Discos Quisqueya) and Ch. 12 (Sedgwick).",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "BISABUELA-1961": {
+      "id": "BISABUELA-1961",
+      "name": "Abuela’s mother",
+      "section": "Other recurring echo figures",
+      "role": "",
+      "look": "Tired Dominican cleaning woman of 40 in a gray uniform with an ABERTURA Y CÍA badge. Her hair is in a net and her hands are cracked from other people’s floors. She is never named.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "JC-PAPA": {
+      "id": "JC-PAPA",
+      "name": "JC’s father",
+      "section": "Family memories",
+      "role": "JC’s father, seen in memory",
+      "look": "JC’s father, seen only in memory (adaptation choice): Dominican working man in his thirties, careful guarded face, work shirt, the face he used for the electric bill.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "JC-8": {
+      "id": "JC-8",
+      "name": "JC at eight",
+      "section": "Family memories",
+      "role": "JC as a child in Santo Domingo",
+      "look": "JC at eight in Santo Domingo: skinny boy in an oversized Yankees cap, big curious eyes, sticky hands.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "JUNIOR": {
+      "id": "JUNIOR",
+      "name": "Junior",
+      "section": "Minor and offstage characters added for completeness",
+      "role": "Doña Fela’s grandson, 17. Counts incidents outside the bodega with a clicker for Sofía (Ch. 4).",
+      "look": "Skinny 17-year-old Dominican-American boy (adaptation choice) on a milk crate, hoodie, a Pepsi in one hand and a security-guard clicker in the other, phone always out.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "MARISOL": {
+      "id": "MARISOL",
+      "name": "Marisol",
+      "section": "Minor and offstage characters added for completeness",
+      "role": "16-year-old poet at the open mic who reads about her father’s hands (Ch. 4).",
+      "look": "16-year-old girl (adaptation choice: Dominican-American), slight, hair pulled back, holding a folded sheet of notebook paper with both hands, nervous then steady.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "MIREILLE": {
+      "id": "MIREILLE",
+      "name": "Mireille",
+      "section": "Minor and offstage characters added for completeness",
+      "role": "Mama Tete’s cousin in Port-au-Prince. Reports the market at Croix-des-Bossales went quiet (Ch. 13); answers from a courtyard above the city on Founders’ Night (Ch. 23).",
+      "look": "Haitian woman in her 50s (adaptation choice), dark-brown skin, head wrap, standing among neighbors beside a switched-off radio on a chair.",
+      "variant": false,
+      "text_source": "author bible"
+    },
+    "PAPA-JANVIER": {
+      "id": "PAPA-JANVIER",
+      "name": "Papa Janvier",
+      "section": "Minor and offstage characters added for completeness",
+      "role": "Mama Tete’s mother’s father. Came from Port-au-Prince to Harlem in 1923 with a drum and eleven dollars; recorded six sides in 1925 that Aperture’s predecessors bought and shelved (Retenido), released in Ch. 24.",
+      "look": "Haitian man in his 30s in 1925 (adaptation choice), dark-brown skin, tall and unhurried, pressed period suit, hand on a goatskin drum, seen in a 1925 West 125th Street echo.",
+      "variant": false,
+      "text_source": "author bible"
+    }
+  },
+  "counts": {
+    "total_entries": 68,
+    "variants": 8,
+    "primary": 60
+  }
+}

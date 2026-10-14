@@ -1,0 +1,310 @@
+{
+  "review_id": "amaia-complete-library-and-native-final-review",
+  "decision": "approve",
+  "approved_scope": "Exploratory reusable Amaia reference/cel-source library and bounded native whole-arm/face controller. Approved r2 identity remains authoritative. Not registered shot animation, full articulation or approval of new son identity.",
+  "status": "exploratory",
+  "authoritative_identity": "User explicitly approved amaia-assets-r2/amaia-master.png. New sheets inherit that identity target; new views and son remain proposed extensions.",
+  "directly_viewed": [
+    "arm-joints.png",
+    "arms-only.png",
+    "body-underpaint.png",
+    "expressions.png",
+    "hands.png",
+    "mouths.png",
+    "ribs-son-closeup.png",
+    "seated-son-poses.png",
+    "turnaround.png",
+    "generated/ribs-son-closeup.png",
+    "library-v2/cels/seated-son-poses--lean.png",
+    "library-v2/cels/seated-son-poses--count.png",
+    "native/assembled-slate.png",
+    "native/posed.png",
+    "native/posed-talk.png",
+    "native/mouth-inspection.png"
+  ],
+  "asset_assessments": {
+    "turnaround.png": {
+      "count": 4,
+      "use": "Front,three-quarter,profile,back reference",
+      "finding": "Slim build, ivory wrap, rust skirt and tied curls remain recognizable. Shoulder wrap stays on anatomical left across front/back. Profile facial depth/neck and rear hair volume are proposed geometry, not verified against author drawings. No fixed registration/turning animation proven."
+    },
+    "expressions.png": {
+      "count": 6,
+      "use": "Neutral,worried,tearful,angry,surprised,smiling references",
+      "finding": "Eyes remain paired and readable with broadly consistent hair/face. Expression changes are identifiable. Tearful versus worried faces are subtle; jaw/eye landmarks need registration before switching. Neck cutouts omit costume and medallion by design, so apply as head references, not whole upper torso replacements."
+    },
+    "mouths.png": {
+      "count": 9,
+      "use": "Mouth-shape source proposals",
+      "finding": "Top-left and top-middle are effectively duplicate closed states; nine tiles do not prove nine distinct phonemes. Glossy lips and soft surrounding skin differ from inked face finish. Must register centers/width/skin color and build exact viseme mapping; avoid visible oval patch boundaries. Alpha1 red fringe pixels verified; do not flatten invisible RGB."
+    },
+    "hands.png": {
+      "count": 8,
+      "use": "Paired relaxed,open,cupped,fist reference poses",
+      "finding": "Open palm tiles show four fingers plus thumb, with no clear gross extra-digit defect. Mirrored pose pairs are useful but not automatically interchangeable under directional lighting. Assign anatomical left/right and palm/back explicitly; register wrist width/angle. Cupped and fist foreshortening should be checked at final crop before prop contact; no grip-on-prop performance demonstrated."
+    },
+    "seated-son-poses.png": {
+      "count": 4,
+      "use": "Seated/carrying acting reference",
+      "finding": "Amaia face/costume broadly retained. Child sleeps with eyes closed; visible arms generally cradle torso/lap. Exact head/neck support, fingers and cloth contact require shot-specific review. Child proportions and positions vary among poses; top-right pose has different torso orientation/grip and should not be interpolated as an adjacent cel. Son is a new unapproved design and age likeness is not locked."
+    },
+    "body-underpaint.png": {
+      "use": "Arm-removed body source",
+      "finding": "Same broad identity/costume with torso sides completed for overlap. Shoulder stubs are still contours that can show behind rotated arms; assembled extremes must be reviewed. Not proof of clean hidden anatomy in every pose."
+    },
+    "arms-only.png": {
+      "use": "Whole-arm source",
+      "finding": "Slender proportions avoid prior exaggerated caps; no separate atlas limb assembly validated yet. Need exact registration to approved shoulder/elbow/wrist landmarks and scale before use."
+    },
+    "arm-joints.png": {
+      "use": "Proposed upper/forearm/hand component pairs",
+      "finding": "Provides separate overlap candidates. Rounded segment ends, mirrored shading and joint cap contours are not guaranteed to blend. Do not substitute this for tested articulation or distort limb lengths to fit."
+    },
+    "ribs-son-closeup.png": {
+      "use": "S01-13 sleeping-son contact source",
+      "finding": "Directly viewed new closeup: sleeping child has closed eyes/slightly open mouth, supported by Amaia arm/lap with visible forearm wrap and cloth. Clear contact reference, not separate mother/child layers or animation. Son identity/age design remains unapproved."
+    }
+  },
+  "required_before_production": [
+    "Crop/register each usable replacement to shared landmarks and verify scale, silhouette, skin and light continuity against approved r2.",
+    "Clean low-alpha contamination and matte edges using actual compositing; all eight PNGs are RGBA with sampled corner alpha0, maximum alpha254.",
+    "Map exact hand side/view and mouth phoneme; remove/relabel duplicate closed mouth rather than claiming complete phoneme coverage.",
+    "Treat son as unapproved supporting-character proposal; lock age/build/face before production use and verify head/back/lap support for each seated action.",
+    "Review native neutral and posed composites separately, especially shoulder underpaint seams, arm lengths, wrist connections and retained original limb fragments."
+  ],
+  "not_claimed": [
+    "Registered frame-by-frame animation",
+    "Author approval of every new view",
+    "Son canonical design",
+    "Complete speech animation",
+    "Clean all-angle joint rig",
+    "Full anime assets completed"
+  ],
+  "artifact_hashes": [
+    {
+      "file": "library-v2/cels/turnaround--front.png",
+      "sha256": "9bb90d615e3d77daabc1275ada96811ac67dc4fe12d1f5f4db5d25bcac9ee01d"
+    },
+    {
+      "file": "library-v2/cels/turnaround--three-quarter.png",
+      "sha256": "0c0eb74b2af964ab67a097730c9651d2117f7523706e1c9049b010c8e7af58ae"
+    },
+    {
+      "file": "library-v2/cels/turnaround--profile.png",
+      "sha256": "9bf93c85d31098fd5fa20eabb3cba39a8c1072e6416a25c8340a6a9dc525bc4e"
+    },
+    {
+      "file": "library-v2/cels/turnaround--back.png",
+      "sha256": "0ffc136871a6439449a05fdb0e9517971ec946b4605ee7aeda424d637bc4b5ac"
+    },
+    {
+      "file": "library-v2/cels/expressions--neutral.png",
+      "sha256": "a716baf769b45282c089c597e81216a5d232b369ab04ab00168ae42800c0ebb9"
+    },
+    {
+      "file": "library-v2/cels/expressions--concern.png",
+      "sha256": "0dc22e484528c7a52c34cb2f0a33017ef4dd9852750f5ab5bbf922ac1194e8e6"
+    },
+    {
+      "file": "library-v2/cels/expressions--grief.png",
+      "sha256": "a494bde626bcaba8d4117fe80fe591c00d06d67461f9d2cc2fc4f5dc394a22ac"
+    },
+    {
+      "file": "library-v2/cels/expressions--resolve.png",
+      "sha256": "58fa546902cc0c21508a97c9479892d028e15a46fc8d94c12fa182ff821f51d2"
+    },
+    {
+      "file": "library-v2/cels/expressions--fear.png",
+      "sha256": "d51e5c96e606c9b9e16aedde36c58b73825284d1adb3660e2583db34b575bc27"
+    },
+    {
+      "file": "library-v2/cels/expressions--reassurance.png",
+      "sha256": "bd5f37aab3500b9afdce5b4b0a37192620c697a7f1e5dbb264268d50b6a244ac"
+    },
+    {
+      "file": "library-v2/cels/mouths--closed-a.png",
+      "sha256": "0effd66008d9dd43e801d323f4fb491be3c8407ba3598cbaf39d515dae590737"
+    },
+    {
+      "file": "library-v2/cels/mouths--closed-b.png",
+      "sha256": "ea333cbe0c9fe04af3fb9702a087779f63cea0754c8898b7a18b995d254f3c31"
+    },
+    {
+      "file": "library-v2/cels/mouths--parted.png",
+      "sha256": "17ab71a140d80e8ec86eba283b1099b225f4e3061ca8fa8000b655ca598397d1"
+    },
+    {
+      "file": "library-v2/cels/mouths--open.png",
+      "sha256": "9f80e665660e6810193742dde0258d0e786be093a4a7f6b4a57932269df30be4"
+    },
+    {
+      "file": "library-v2/cels/mouths--wide.png",
+      "sha256": "64a47e6df170ac5583933c1e41efedd4f44eaa7383ed9be7b7d9c69808cb854a"
+    },
+    {
+      "file": "library-v2/cels/mouths--rounded.png",
+      "sha256": "26094c23fda35bfcc64d089cde6ec8ffa06a71bff9d0c3bfe4dd0de68a387c04"
+    },
+    {
+      "file": "library-v2/cels/mouths--pursed.png",
+      "sha256": "e08840b066b37a57a593ce4cd1af9ea7f4f17b4f8ad226095057945ba239fbc1"
+    },
+    {
+      "file": "library-v2/cels/mouths--teeth.png",
+      "sha256": "bd777cffab46d79191033bc8569ee70982cdaadf4665399f6a84ba440a561626"
+    },
+    {
+      "file": "library-v2/cels/mouths--tongue.png",
+      "sha256": "0b51be9058ad437f92101e5e8eda338c3776bc8618907645b17a0c2cc518b5db"
+    },
+    {
+      "file": "library-v2/cels/hands--right-relaxed.png",
+      "sha256": "0889a1cc7fb50515ce690b2512523ec34ee4ceb2b31e1cf1a362488d4b7e0f7c"
+    },
+    {
+      "file": "library-v2/cels/hands--right-open.png",
+      "sha256": "304945426090b69863a6fca85098c11d1076f0c24755fd64cb1a82fcbd6ac66f"
+    },
+    {
+      "file": "library-v2/cels/hands--right-cupped.png",
+      "sha256": "2129162736a25f349411672bed898582c3cd068256ecd1b7a4f40c41f36e43f7"
+    },
+    {
+      "file": "library-v2/cels/hands--right-grip.png",
+      "sha256": "09e1a8ea3c3d1368dbf1780d5ff66a0754e9fa1c00556a2b8739cc27df1ce0f6"
+    },
+    {
+      "file": "library-v2/cels/hands--left-relaxed.png",
+      "sha256": "97d6bc6f29875f405963c595c19782cb3dac9c73b5ce16c8745b18ab7feb3360"
+    },
+    {
+      "file": "library-v2/cels/hands--left-open.png",
+      "sha256": "f861a38f265617a58fbb179ac4d5e108d5efb80b123c436977d79c87577cc948"
+    },
+    {
+      "file": "library-v2/cels/hands--left-cupped.png",
+      "sha256": "a49d0cc2d30541e3d1db256ddda1947280f13132196faee84cf17d23d3077b93"
+    },
+    {
+      "file": "library-v2/cels/hands--left-grip.png",
+      "sha256": "675bd18de2b3fd7241bde45d03dce7b69eb6baa976af2a0951d358c83ced7d38"
+    },
+    {
+      "file": "library-v2/cels/seated-son-poses--cradle.png",
+      "sha256": "80be474ab7b46ca39924f0b15fd4be74f8219b238efc79f755f4b2863b5159a2"
+    },
+    {
+      "file": "library-v2/cels/seated-son-poses--look-back.png",
+      "sha256": "ce64161dfe601a995dfce951cfa5365a7b9187f4754099f71763eeee74cf4f3a"
+    },
+    {
+      "file": "library-v2/cels/seated-son-poses--lean.png",
+      "sha256": "53116cfbae1c45ad3a42d704a74d8511558b565c68dba7b4c72bd159fd0387f5"
+    },
+    {
+      "file": "library-v2/cels/seated-son-poses--count.png",
+      "sha256": "868ff5451d7221488716b9989e1e7aa61cd4c7629b5fdba9e521ca40a3db9542"
+    },
+    {
+      "file": "library-v2/cels/ribs-son-closeup--sleep-speaking.png",
+      "sha256": "fde0ab5f4be3c93068fb84eda08ab9f7fb95e98e88fc14597a3d9e942c8177c7"
+    },
+    {
+      "file": "library-v2/turnaround.pcraft",
+      "sha256": "b415b0913d4d0989b235e86b4d060c138ec065145cff0b2f749c3d74b68d45f7"
+    },
+    {
+      "file": "library-v2/expressions.pcraft",
+      "sha256": "18b8022c6e162580d4a5b53c0ed990fa9fbd0916bdeac393ab3a36b986ce5a74"
+    },
+    {
+      "file": "library-v2/mouths.pcraft",
+      "sha256": "609964300a2cf69d3fe62d9a6cbca239d21275a27f0e55192e8b8b245ff93ce9"
+    },
+    {
+      "file": "library-v2/hands.pcraft",
+      "sha256": "11f1c63027f0586c46d3ed7c8b575e5e8cb0b1ddbf85f0586663f3ad68943f18"
+    },
+    {
+      "file": "library-v2/seated-son-poses.pcraft",
+      "sha256": "16be690750c1d77aac5d6a35f104b2928664ab0aaefdd307403c00ec8cc16907"
+    },
+    {
+      "file": "library-v2/ribs-son-closeup.pcraft",
+      "sha256": "38ac6d110e544af3186e1f7dab524ccbcfe7a6721f0cb105ef964c0ef561b309"
+    },
+    {
+      "file": "library-v2/manifest.json",
+      "sha256": "624c30a62b65286b176cfcc8b0787cab877d0d622ef9899189a9d9ea0d59d3e7"
+    },
+    {
+      "file": "library-v2/Amaia-asset-library.ecproj",
+      "sha256": "53a3d93db7e2210970339deb6998d8d1f470411f3b2fc0966ea3c24eb0bb8c82"
+    },
+    {
+      "file": "native/amaia-puppet.ecproj",
+      "sha256": "c9c857bc7a0bd77823d8944a203b3cc19855ef6273d55bc5d03cb9aae801038d"
+    },
+    {
+      "file": "native/amaia-layered.pcraft",
+      "sha256": "057ac16397ec80b0fa2ac1e1dc9085115ad13de23596da3ead89998ff7aae560"
+    },
+    {
+      "file": "native/rig.json",
+      "sha256": "0a57a44505a20f08b4bfe074e5c30f7dbd46872a2020a778fff6588c491c1cf2"
+    },
+    {
+      "file": "native/amaia-control-demo.mp4",
+      "sha256": "75713dd89d72339614c8b1683aee7f7b673e3398a364ec99b0e5f7c038244bd0"
+    },
+    {
+      "file": "native/assembled-slate.png",
+      "sha256": "a2d0f4c90b6107bdc07f221fabb948260e21a2c98a981257518df5c4ac3960be"
+    },
+    {
+      "file": "native/posed.png",
+      "sha256": "828baffa76310afa6068382dbc02229af0e296402bcb9ae9c4ef417622ebe99e"
+    },
+    {
+      "file": "native/posed-talk.png",
+      "sha256": "7a8ab4cde7ae237721e2d9e2f82f7ae5c89ba4183e45c043bf43533e4a13ea14"
+    },
+    {
+      "file": "native/mouth-inspection.png",
+      "sha256": "ca14076e8a4aa153475ea8d61fffbd5a7920c79deaacaad812164f52fb280702"
+    }
+  ],
+  "native_review": {
+    "decision": "approve",
+    "scope": "Whole-arm rotations demonstrated within five degrees plus blink and descriptive mouth replacements.",
+    "directly_viewed": [
+      "native/assembled-slate.png",
+      "native/posed.png",
+      "native/posed-talk.png",
+      "native/mouth-inspection.png"
+    ],
+    "findings": [
+      "Slim approved visible arm geometry retained; generated body underpaint eliminates previously exposed original-arm ghost strips in sampled poses.",
+      "Neutral, blink and talk pose views remain connected and usable within limited motion range.",
+      "Three inspected open/rounded/tongue mouth crops are visibly distinct and align reasonably with face at preview size. They remain descriptive shapes, not phoneme-validated speech.",
+      "Slight shoulder overlap shading changes and tiny viewer-right fingertip matte speckle remain; not blocking bounded preproduction but clean for closeups."
+    ],
+    "controls": "Worker native rig.json declares5 essential controls, nine descriptive mouth replacements plus approved original and blink/legacy talk selector. Inspected saved native JSON and rendered evidence; no independent app operation claimed.",
+    "video": "ffprobe720x1080,24fps,48frames,2seconds. No real-time playback claimed.",
+    "limits": [
+      "Whole arms only; no elbow or wrist articulation.",
+      "Integrated body/skirt/legs; no knee, foot plant or walking.",
+      "Front-view, small rotation range; broader movement requires replacement drawings and more hidden surfaces.",
+      "No shot-specific timing, performed dialogue or full acting demonstrated."
+    ]
+  },
+  "water": "No water changes.",
+  "library_delivery": {
+    "manifest_assets": 32,
+    "photocraft_sheets": 6,
+    "verification": "Six native PhotoCraft archives pass CRC. Manifest contains32 named source cels; native EffectCraft library file exists. Outputs remain references/cel sources awaiting shot registration.",
+    "crop_revision": "Initial four seated crops touched tight grid borders. Revised native crops/exclusion masks inspected: lean/count now show intact hair margins without neighboring feet; all four seated cel edges have zero alpha>10 pixels on every boundary.",
+    "alpha_cleanup": "Coordinator rebuilt library with native alpha threshold0.012 to remove original near-transparent red contamination. Source PNGs remain preserved; use cleaned native exports."
+  },
+  "remaining_scope": "This is a useful Amaia preproduction pack with native files and source cels. It does not mean every scene asset, registered performance, cast member or full anime is complete."
+}

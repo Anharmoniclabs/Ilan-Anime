@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 0,
+      "rect": [
+        24,
+        18,
+        840,
+        50
+      ],
+      "content": "text",
+      "text": "Amaia - exploratory model sheet | EXPLORATORY"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 15,
+    "story": 16
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "candidate_sha256": "b4d02d43309281d18732645f9e87e84263db1a76dfdb411d803dfba173f08185",
+  "references": {
+    "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-02.png": "903d79ac2f20d292b1a2a8f812a35285cb89be897b6f87c398f0836fd9f97596",
+    "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png": "b59f3a3a48a916e6b3fa001eec74d45ae59a3afaf113dba675cb0435fc0ad0a6"
+  },
+  "status": "exploratory; source art only",
+  "checks": {
+    "identity": "Directly viewed against S01-02 and cast: brown skin, tied long dark curls, white sash and rust wrap preserved broadly; fixed camera/body scale not maintained exactly.",
+    "costume": "White left-shoulder sash, ragged rust wrap, hair tie and bare feet present in all four.",
+    "props_and_contact": "FAIL: third/pull key has upper arm down beside thigh instead of hand holding prop top. Complete paddles in all four, but pull paddle length is approximately400px versus590px elsewhere.",
+    "composition": "Four full-body keys with complete feet and blade contours. Pelvis position and leg perspective drift; not registered.",
+    "lighting": "Natural brown pigment and subdued navy edge retained; broader brighter asset illumination than night source requires composite review.",
+    "line_and_color": "Clean ink and two/three-tone cel shade match attached current anime direction broadly.",
+    "neighbor_continuity": "Camera appears more level than source high-oblique. Cannot substitute directly into source without review/redraw.",
+    "script_fidelity": "Only isolated Dairon source-art keys supplied; no canoe shot, secondary cast actions or288frame coverage.",
+    "alpha": "RGBA alpha0..254,58.833% exactlytransparent. White/checker diagnostic directly viewed. Source preserved byte-for-byte; no opaque-background claim."
+  },
+  "continuity": {
+    "character_ids": [
+      "dairon"
+    ],
+    "costume_ids": [
+      "white-shoulder-sash",
+      "rust-waist-wrap"
+    ],
+    "prop_ids": [
+      "wooden-single-blade-paddle"
+    ],
+    "time": "moonless night",
+    "location": "Taino mangrove canoe channel"
+  },
+  "accepted_shot_frames": 0
+}

@@ -1,0 +1,4 @@
+`05:51:00 → 06:03:00` (288f) · WHIP · WS · rate 2s
+- **Action:** 'The color didn't fade. It ran.' Blue and gold stream off the dancers as airbrushed ribbons, all leaning one way, across the hall and out through JC's window toward the empty building. Dancers turn gray-white. The floor mark goes as dark as the boards.
+- **FX:** `AIRBRUSH_RIBBONS(blue,gold; count 40; 2s); STREAK_CEL; WHIP_PAN(follow river); SIGIL_GOES_DARK`
+- **Sound:** A long exhale made of brass partials, falling in pitch.

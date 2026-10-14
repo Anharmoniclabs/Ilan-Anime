@@ -1,0 +1,61 @@
+[
+  {
+    "id": "S00-01",
+    "script": "`00:00:00 \u2192 00:04:00` (96f) \u00b7 FIX \u00b7 ECU \u00b7 rate 3s\n- **Action:** Navy field (#14202B). The cem\u00ed sigil (spiral opening into a triangle) draws itself in one continuous gold line, like a pen that never lifts.\n- **FX:** `SPIRAL_SIGIL(draw=3s,gold); FILM_GRAIN(0.5); GATE_WEAVE(0.3)`\n- **Sound:** Room tone only. One low hand-drum hit as the line closes.",
+    "start_frame": 0,
+    "frames": 96,
+    "end_frame": 96,
+    "keyframes": [],
+    "status": "missing_art",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded"
+  },
+  {
+    "id": "S00-02",
+    "script": "`00:04:00 \u2192 00:09:00` (120f) \u00b7 FIX \u00b7 text card \u00b7 rate 3s\n- **Action:** Cream serif, wide tracking: ELLOS CUENTAN. / NOSOTROS RECORDAMOS. Small gold sub-line: They count. We remember. \u2014 ABUELA.\n- **FX:** `DISSOLVE(24f); FILM_GRAIN`\n- **Sound:** Abuela VO, old, unhurried, no music. Spanish only; English as subtitle.",
+    "start_frame": 96,
+    "frames": 120,
+    "end_frame": 216,
+    "keyframes": [],
+    "status": "missing_art",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded"
+  },
+  {
+    "id": "S01-15",
+    "script": "`02:11:00 \u2192 02:15:00` (96f) \u00b7 FIX \u00b7 black \u00b7 rate \u2014\n- **Action:** Black. The clap of the book rings into a keyboard clack (match to S03).\n- **FX:** `MATCH_SOUND`\n- **Sound:** Book clap \u2192 keyboard key.",
+    "start_frame": 3144,
+    "frames": 96,
+    "end_frame": 3240,
+    "keyframes": [
+      "assets/keyframes/S01-15.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded"
+  },
+  {
+    "id": "S02-01",
+    "script": "`02:15:00 \u2192 02:27:00` (288f) \u00b7 FIX \u00b7 title card \u00b7 rate 3s\n- **Action:** Navy field. Sigil draws in gold. HERALDS OF THE CEM\u00cd in cream serif caps; below, EPISODE 1 \u00b7 3:07.\n- **FX:** `SPIRAL_SIGIL; FILM_GRAIN; TITLE_SHIMMER(1 pass)`\n- **Sound:** Silence, then a low drone swells under the title and stops on the cut.",
+    "start_frame": 3240,
+    "frames": 288,
+    "end_frame": 3528,
+    "keyframes": [
+      "assets/keyframes/S02-01.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded"
+  },
+  {
+    "id": "S15-09",
+    "script": "`18:42:00 \u2192 18:50:00` (192f) \u00b7 BLACK \u00b7 rate \u2014\n- **Action:** Black. The 8-second loop plays once, unmasked, exactly 192 frames. At the start of the next cycle, hard cut to silence.\n- **FX:** `HOLD_BLACK; LOOP_PLAY(192f); HARD_SILENCE`\n- **Sound:** THE LOOP, once. Then nothing.\n- **Note:** The only time the audience hears it clean.",
+    "start_frame": 26928,
+    "frames": 192,
+    "end_frame": 27120,
+    "keyframes": [],
+    "status": "missing_art",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded"
+  }
+]

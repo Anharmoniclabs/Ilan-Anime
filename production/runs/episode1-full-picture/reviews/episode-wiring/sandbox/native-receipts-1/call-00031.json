@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 8890560000000,
+      "durationFrames": 168,
+      "name": "S01-04 missing",
+      "comment": "fever bodies; lightning insert; shell blue insert"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 16
+  }
+}

@@ -1,0 +1,4 @@
+`04:24:00 → 04:30:00` (144f) · CU hands · screen · rate 2s
+- **Action:** JC selects the config and deletes all of it. The three panes shatter into dust and vanish.
+- **FX:** `PANE_SHATTER_CEL; CAMERA_SHAKE(2f)`
+- **Sound:** Glass without reverb.

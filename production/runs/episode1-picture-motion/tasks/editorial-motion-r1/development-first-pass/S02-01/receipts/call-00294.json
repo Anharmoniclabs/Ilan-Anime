@@ -1,0 +1,24 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.newText",
+    "params": {
+      "name": "Main title",
+      "text": "HERALDS OF THE CEMÍ",
+      "font": "DejaVu Serif",
+      "size": 42,
+      "tracking": 130,
+      "fill": "#EDE6D6",
+      "justify": "center",
+      "position": [
+        640,
+        418
+      ],
+      "allCaps": false
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 97
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 201942720000000,
+      "durationFrames": 216,
+      "name": "S12-11 missing",
+      "comment": "write text; lift card; pin blank corner; room shakes"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 110
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "river-cast",
+  "role": "character-designer",
+  "objective": "Generate twelve NEW river sources: Amaia son under2, Dairon, Yara, Beheto, girl7, boy9, thirdlit child, three distinct canoe survivors, bell soldier, ledger man. Preserve approved Amaia. Inspect old river sheets for identity/costume only; attach ONLY new rooftop reference and approved Amaia r2. Match clean90s anime style. Finish sources prompts hashes manifests and FILE-only result. No rig or canonical approval.",
+  "inputs": [
+    "production/art_direction.json",
+    "production/runs/cemi-90s-production/tasks/episode1-cast/cast.json"
+  ],
+  "shots": [],
+  "depends_on": [],
+  "output_dir": "production/runs/episode1-anime90s-cast/tasks/river-cast",
+  "art_direction_mode": "CHARACTER_ASSET",
+  "requires_author_approval": false
+}

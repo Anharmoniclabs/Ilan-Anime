@@ -1,0 +1,13 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.open",
+    "params": {
+      "comp": 83
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 83
+  }
+}

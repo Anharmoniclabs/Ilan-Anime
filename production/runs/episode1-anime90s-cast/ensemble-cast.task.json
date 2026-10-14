@@ -1,0 +1,14 @@
+{
+  "id": "ensemble-cast",
+  "role": "character-designer",
+  "objective": "Generate NEW clean90s anime ballroom ensemble: three hero dancing couples, three background banks each4 couples, hornsection with cowbell player; torch soldiers bank and lostghost seated outline variants. Only rooftop and Amaia r2 attached. Inspect current script, preserve 1957 ballroom dress; no invented year for BEFORE. Ghost script count contradiction retain unresolved. Finish sources prompts hashes manifests FILE-only result. No canonical approval.",
+  "inputs": [
+    "production/art_direction.json",
+    "production/runs/cemi-90s-production/tasks/episode1-cast/cast.json"
+  ],
+  "shots": [],
+  "depends_on": [],
+  "output_dir": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast",
+  "art_direction_mode": "CHARACTER_ASSET",
+  "requires_author_approval": false
+}

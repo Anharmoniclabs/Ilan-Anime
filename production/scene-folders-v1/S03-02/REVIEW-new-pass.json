@@ -1,0 +1,23 @@
+{
+  "reviewer": "/root/review_endpoint",
+  "method": "Independent actual-frame view_image inspection against script.txt",
+  "verdict": "approve_draft",
+  "scope": "exploratory still endpoint pair only",
+  "evidence": [
+    "Window, arm, hand, sandwich and lighting remain stable while conductor/front car clears frame and blurred passenger cars pass. Fixed framing supports the scripted held-arm gag."
+  ],
+  "limitations": [
+    "Intermediate motion must keep the sandwich rigid and the train moving continuously in one direction; dialogue and arm smear are not verified."
+  ],
+  "author_approval": false,
+  "images": [
+    {
+      "path": "start/start-candidate.png",
+      "sha256": "16af1c7ff383cccbd10427ca5aa8469035a05d8b48add1845d22c2d9e866b1a4"
+    },
+    {
+      "path": "end/end-candidate-v1.png",
+      "sha256": "27d9d1bdf6b40e30bc6e82d10ee1d0bd1dbf5b14481733a7f8cf18a013ec21e7"
+    }
+  ]
+}

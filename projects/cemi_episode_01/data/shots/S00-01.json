@@ -1,0 +1,54 @@
+{
+  "id": "S00-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 96,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Navy field (#14202B). The cemí sigil (spiral opening into a triangle) draws itself in one continuous gold line, like a pen that never lifts.",
+  "camera_note": "FIX · ECU",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "field",
+      "generator": {
+        "type": "solid",
+        "color": "#14202B"
+      },
+      "rate": 3,
+      "screen_space": true
+    },
+    {
+      "name": "sigil",
+      "rate": 1,
+      "screen_space": true,
+      "generator": {
+        "type": "sigil",
+        "draw_frames": 72,
+        "center": [
+          640.0,
+          302.4
+        ]
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {},
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

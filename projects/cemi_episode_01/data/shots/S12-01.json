@@ -1,0 +1,67 @@
+{
+  "id": "S12-01",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 120,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "11:12. The 4 hits the curve up the block and screams on the rail. Inside the café the steamer whistle lands on the same note. Two sound-ribbons merge into one line.",
+  "camera_note": "WS street · ECU rail",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S12-01",
+        "header": "11:46:00 → 11:51:00 (120f) · WS street · ECU rail · rate 3s",
+        "action": "11:12. The 4 hits the curve up the block and screams on the rail. Inside the café the steamer whistle lands on the same note. Two sound-ribbons merge into one line.\nSOUND: Train + whistle unison, then a shimmer on top."
+      }
+    },
+    {
+      "name": "super",
+      "rate": 3,
+      "screen_space": true,
+      "generator": {
+        "type": "text",
+        "text": [
+          "11:12"
+        ],
+        "font": "serif",
+        "size": 26,
+        "tracking": 0.3,
+        "align": "left",
+        "position": [
+          76.8,
+          633.6
+        ]
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "RIBBON_MERGE",
+      "SPARKS_CEL"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

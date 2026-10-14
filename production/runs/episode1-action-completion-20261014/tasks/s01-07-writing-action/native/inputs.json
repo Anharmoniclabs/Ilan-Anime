@@ -1,0 +1,62 @@
+[
+  {
+    "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/wide-establish.png",
+    "copy": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/inputs/drawing_781806340d68080bc934c514ad958a9b261fa69b5ea84ac6eb21c5786c086c55_still.png",
+    "sha256": "781806340d68080bc934c514ad958a9b261fa69b5ea84ac6eb21c5786c086c55"
+  },
+  {
+    "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-one-start.png",
+    "copy": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/inputs/drawing_0a36035cd2ba3e8568b1bb11440698c5480cec70c5d5efe5b1f6bf917c385088_still.png",
+    "sha256": "0a36035cd2ba3e8568b1bb11440698c5480cec70c5d5efe5b1f6bf917c385088"
+  },
+  {
+    "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-one-breakdown.png",
+    "copy": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/inputs/drawing_fc1ab89c2463ac5938d73003149c79d47a7241a854d0e67ad33d2bc566b8829b_still.png",
+    "sha256": "fc1ab89c2463ac5938d73003149c79d47a7241a854d0e67ad33d2bc566b8829b"
+  },
+  {
+    "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-one-middle.png",
+    "copy": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/inputs/drawing_575dcb42c07146b27633293c25f7dd8353345133510fdfd38293b6eb06e9d730_still.png",
+    "sha256": "575dcb42c07146b27633293c25f7dd8353345133510fdfd38293b6eb06e9d730"
+  },
+  {
+    "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-one-end.png",
+    "copy": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/inputs/drawing_26bb8d1473190c2de5d0a4908669495daff9adaf8a3b18e9a734c41dbeecbdad_still.png",
+    "sha256": "26bb8d1473190c2de5d0a4908669495daff9adaf8a3b18e9a734c41dbeecbdad"
+  },
+  {
+    "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/pen-lift.png",
+    "copy": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/inputs/drawing_0863c6abb46c6ce4ff9a96baec3e6d6a826bb557f32acd092c51fd5db63731b4_still.png",
+    "sha256": "0863c6abb46c6ce4ff9a96baec3e6d6a826bb557f32acd092c51fd5db63731b4"
+  },
+  {
+    "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/return-above-line.png",
+    "copy": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/inputs/drawing_ae52a3a610ca745eee59dd51ce560d9a057b3fad2101b77d443e929248ee0338_still.png",
+    "sha256": "ae52a3a610ca745eee59dd51ce560d9a057b3fad2101b77d443e929248ee0338"
+  },
+  {
+    "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-two-start.png",
+    "copy": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/inputs/drawing_0e4e4306c3bf0f4716696839683d7dd971175e825d64c7b1e2c15d4d0c113dd1_still.png",
+    "sha256": "0e4e4306c3bf0f4716696839683d7dd971175e825d64c7b1e2c15d4d0c113dd1"
+  },
+  {
+    "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-two-breakdown.png",
+    "copy": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/inputs/drawing_84e848944bddb0bd838f5283fdbf32da661dcee9bb8d474f5c04a90e5fcce5b8_still.png",
+    "sha256": "84e848944bddb0bd838f5283fdbf32da661dcee9bb8d474f5c04a90e5fcce5b8"
+  },
+  {
+    "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-two-middle.png",
+    "copy": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/inputs/drawing_3e7d4a291d5c10632349a4ecc177a8b738f5255417eccaeedba70731b5a572f8_still.png",
+    "sha256": "3e7d4a291d5c10632349a4ecc177a8b738f5255417eccaeedba70731b5a572f8"
+  },
+  {
+    "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/line-two-end.png",
+    "copy": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/inputs/drawing_2a845da5b71407d3d2843a712988ab913a053215283e5c5a2bed2a616cbb7895_still.png",
+    "sha256": "2a845da5b71407d3d2843a712988ab913a053215283e5c5a2bed2a616cbb7895"
+  },
+  {
+    "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/cels/finish-lift.png",
+    "copy": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/inputs/drawing_b7493551c5cc7e71f8cb1e99bad680bb084cfa2cc5a9c2acf0072ae4fc843283_still.png",
+    "sha256": "b7493551c5cc7e71f8cb1e99bad680bb084cfa2cc5a9c2acf0072ae4fc843283"
+  }
+]

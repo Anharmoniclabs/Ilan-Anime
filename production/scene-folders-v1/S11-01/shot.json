@@ -1,0 +1,46 @@
+{
+  "shot": "S11-01",
+  "start_frame": 15312,
+  "end_frame_exclusive": 15432,
+  "frames": 120,
+  "fps": 24,
+  "duration_seconds": 5.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "draft_pending_review",
+      "file": "start/start-candidate-v1.png",
+      "sha256": "9b921023f55dcd20be3d3233142688acc4947b58dff3e36f175fad54ddb0a107",
+      "method": "reference_conditioned_candidate",
+      "prompt_file": "start/generation-prompt-v1.txt"
+    },
+    "end": {
+      "state": "draft_pending_review",
+      "file": "end/end-candidate-v1.png",
+      "sha256": "d5496087f5691767ba9f22fdbda95818836473716322c82712a31ff6b95eb21d",
+      "method": "reference_conditioned_candidate",
+      "prompt_file": "end/generation-prompt-v1.txt"
+    }
+  },
+  "status": "draft_pack_not_approved",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false,
+  "reference_history": [
+    {
+      "start": {
+        "state": "missing",
+        "file": null
+      }
+    },
+    {
+      "end": {
+        "state": "missing",
+        "file": null
+      }
+    }
+  ]
+}

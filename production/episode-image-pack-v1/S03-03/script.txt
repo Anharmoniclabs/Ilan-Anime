@@ -1,0 +1,4 @@
+`02:38:00 → 02:50:00` (288f) · PAN L→R · interior · rate 3s
+- **Action:** Room inventory pan on a single wide painted BG: radiator banging with little steam puffs; dev boards and cable; a Pyrex of arroz con habichuelas that belongs to the lady on three; a chair buried in laundry; the nightstand with the coin.
+- **FX:** `PAINTED_BG(room_wide); PAN_STILL; CEL_OVERLAYS(steam,fan)`
+- **Sound:** Radiator bang. Bachata from the bodega radio. A rosary clicking through the wall.

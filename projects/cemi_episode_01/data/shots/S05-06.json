@@ -1,0 +1,72 @@
+{
+  "id": "S05-06",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Hero pass: three couples in quick cuts. Footwork, a spin, a skirt flare. The cowbell hits the shoe strikes; the maple floor reflects them.",
+  "camera_note": "TRACK · hero dancers",
+  "drawing_rate": 2,
+  "layers": [
+    {
+      "name": "plate_0",
+      "source": "assets/keyframes/S05-06.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 192,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    },
+    {
+      "name": "speed_lines",
+      "rate": 2,
+      "screen_space": true,
+      "generator": {
+        "type": "speed_lines",
+        "direction": "radial",
+        "seed": "S05-06"
+      }
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "x": 64.0,
+      "scale": 1.12,
+      "ease": "smooth"
+    },
+    {
+      "frame": 191,
+      "x": -64.0,
+      "scale": 1.12
+    }
+  ],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "FLOOR_REFLECTION",
+      "SKIRT_FLARE_CEL"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "shot_id": "S05-13",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-13.png",
+  "status": "exploratory",
+  "sha256": "d01bb1ecefa404f63711c4a107c58e75c2414313f56879e2b7a15c1d654b3337",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-13.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-07.png",
+      "sha256": "42d19bca9c8313209d15f6904f81a4d657fa39476aee2fa27de70b0d9e98fd71"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-02.png",
+      "sha256": "aeca6a403deb12fada2d28b42b6902106f68af3848b7fbcaecce99c6c28357a2"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Coin tremor, half-inch rise, hover, fall, contact flash and bounce; selected hover key.",
+  "inspection": "Directly viewed: copper coin hovers above wooden nightstand with shadow, same spiraltriangle as floor. Scale and exacthalf-inch cannot be measured from still, engraved motif is new source draft.",
+  "directly_viewed": true
+}

@@ -1,0 +1,21 @@
+{
+  "tool": "set_property",
+  "arguments": {
+    "layer": 231,
+    "path": "effects/#1/slider",
+    "value": 6
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": false,
+    "expression": null,
+    "keys": [],
+    "layer": 231,
+    "match": "slider",
+    "name": "Slider",
+    "time": 0.0,
+    "type": "scalar",
+    "uid": 244,
+    "value": 6.0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "contracts": 128,
+  "frames": 27120,
+  "fps": 24,
+  "contiguous": true,
+  "phase_ranges_cover_every_shot": true,
+  "selected_source_hashes_verified": 128,
+  "current_cast_sources_hash_verified": 74,
+  "native_rendered_in_this_task": false,
+  "sound_produced": false,
+  "camera_paths_numeric_ready": false,
+  "contract_status": "proposed blocking needs separate reviewer"
+}

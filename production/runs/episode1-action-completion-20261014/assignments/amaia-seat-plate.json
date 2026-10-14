@@ -1,0 +1,26 @@
+{
+  "id": "amaia-seat-plate",
+  "shots": [
+    "S01-03"
+  ],
+  "inputs": [
+    "AGENTS.md",
+    "docs/STATUS.md",
+    "production/runs/episode1-picture-motion/author-direction.json",
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+    "production/runs/episode1-anime90s-scenes/shot-index.json",
+    "production/runs/episode1-amaia-finish/tasks/three-losses-r2",
+    "production/runs/episode1-amaia-finish/reviews/three-losses-r2/review.md",
+    "production/runs/episode1-full-picture/author-decisions.json",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/HANDOFF.md",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-repair/registration-probe.json",
+    "production/runs/episode1-action-completion-20261014/author-resume.json"
+  ],
+  "objective": "Explicit image-demand task after user authorized Resume and continue draft production. Produce ONE new seating plate using built-in imagegen only, no paid API. Inspect previous seat diagnostic and exact rest.png. Preserve Amaia, sleeping child, existing foreground hull, mangrove and palette. Redraw only right-hand canoe interior to provide actual perspective-correct top/front bench edges for three distinct adult seated ghosts. Plan adult placement before generation; heads must read adult at comparative depth, and bodies must fit behind gunwale. A continuous supported bench can provide three distinct seating positions; do not invent floating support or shrink adults. Attach exact rest.png and inspect generated output. Save candidate, final prompt, source hashes and continuity/contact diagnostic. This task produces a necessary source plate, NOT an animated shot, so submit for independent source-art review if plate is useful; report deficiencies clearly. No changes outside output_dir, no subagents, no Git, no ledger changes, no self-approval. At most one built-in call in this fresh turn. Use imagegen skill. This is bounded draft production, author review remains outstanding.",
+  "role": "key-animator",
+  "output_dir": "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate",
+  "depends_on": [],
+  "art_direction_mode": "STORY_FRAME",
+  "requires_author_approval": false,
+  "require_host_bindings": true
+}

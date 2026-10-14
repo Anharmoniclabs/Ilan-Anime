@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 12446784000000,
+      "durationFrames": 240,
+      "name": "S01-06 missing",
+      "comment": "arms rise; blue separates; lean follows; hands close insert"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 18
+  }
+}

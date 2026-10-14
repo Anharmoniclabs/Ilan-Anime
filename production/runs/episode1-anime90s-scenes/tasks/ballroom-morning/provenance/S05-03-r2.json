@@ -1,0 +1,26 @@
+{
+  "shot_id": "S05-03-r2",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-03-r2.png",
+  "status": "exploratory",
+  "sha256": "f30fc0e910ddd94cb0e29edd4716546b26a6f7eaa80b6fb18aa1ae941606da0f",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-03-r2.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-03.png",
+      "sha256": "abd88571d4830d484e3c57eb57bc3afc792195bffa2f57c12560e442f35b1508"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-12.png",
+      "sha256": "ca8f210ebd34ca385050dbbe7a61e292f9b94e56d95b82394340782cc6568724"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Pushthrough illusion, progressive recorded-light reveal, flashframe and brass.",
+  "inspection": "Directly viewed: brokenhole removed, deepballroomlight overlays intactplaster. Smallpseudo-date remains abovebandstand despite removalprompt; localcleanup limitation.",
+  "directly_viewed": true
+}

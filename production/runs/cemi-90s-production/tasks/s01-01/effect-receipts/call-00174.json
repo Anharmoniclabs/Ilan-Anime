@@ -1,0 +1,17 @@
+{
+  "tool": "render_frame",
+  "arguments": {
+    "time": 4.708333333333333,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/frames/000113.png",
+    "inline": false,
+    "max_side": 0
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 128,
+    "height": 1080,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/frames/000113.png",
+    "time": 4.708333333333333,
+    "width": 1920
+  }
+}

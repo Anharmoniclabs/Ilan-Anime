@@ -1,0 +1,314 @@
+{
+  "task_id": "research-ending",
+  "status": "generated-story-frames",
+  "animation": false,
+  "author_approved": false,
+  "shots": [
+    {
+      "shot": "S00-01",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S00-01.png",
+      "sha256": "264c7b078b88a3aa5fbfa516f719bdc24948d29acc6c899581abd29e3128f335",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "opaque": true,
+      "selected_moment": "Static editorial endpoint per script; no animated draw-on/audio claimed.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S00-01.json",
+      "revision": 1
+    },
+    {
+      "shot": "S00-02",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S00-02.png",
+      "sha256": "2d77c222359a3d50a7433f442f3b75008b5e652470ff56b7a59f5d4ce4b791e2",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "opaque": true,
+      "selected_moment": "Static editorial endpoint per script; no animated draw-on/audio claimed.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S00-02.json",
+      "revision": 1
+    },
+    {
+      "shot": "S02-01",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S02-01.png",
+      "sha256": "52d714fa8d77e384b402af4ab8c9920790f59871a8bded247334ad1dd9d1646b",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "opaque": true,
+      "selected_moment": "Static editorial endpoint per script; no animated draw-on/audio claimed.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S02-01.json",
+      "revision": 1
+    },
+    {
+      "shot": "S14-01",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-01.png",
+      "sha256": "1d1900ce2c363aab86412edfa27699cc2c2446299dc8f5375d3b4489a5acf7a7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Sofia hand hovering before sitting, laptop open; split-card gag needs separate editorial treatment",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-01.json",
+      "revision": 1
+    },
+    {
+      "shot": "S14-02",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-02.png",
+      "sha256": "76486ad1466171f04a31997cd077871d3ef8abedc3c97179300eb11dac068ed9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Sofia questioning JC; separate brief lease vignette not included in this main keyframe.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-02.json",
+      "revision": 1
+    },
+    {
+      "shot": "S14-03",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-03-r2.png",
+      "sha256": "8914b3b27722e456747f523be28b2bfea86cd6e5013121f16d3efa219d22ca94",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Corrected research graph with only script-derived labels and single-block pins; supersedes initial invented UI annotations.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-03-r2.json",
+      "revision": 2
+    },
+    {
+      "shot": "S14-04",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-04.png",
+      "sha256": "6decfe7330e8583d9143e77751a4bc4b29414816e44a878d0b9acd5be088a629",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Nine Vale photos with persistent notebook; notebook triptych is later separate insert.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-04.json",
+      "revision": 1
+    },
+    {
+      "shot": "S14-05",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-05.png",
+      "sha256": "d8a25fcb2fa0a937fabf956b5672572cf958d7fa7112af4025d1ac8ece65099d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "JC offers earbud; subsequent laying it down and hold-music gag require later keyframes.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-05.json",
+      "revision": 1
+    },
+    {
+      "shot": "S14-06",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-06.png",
+      "sha256": "d8e181a876c178bcc457e78cf271b82bb51cf63d52a348b3e451d5abec0382d0",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Cafe refusal cutaway; six storefront montage and Sofia joy reaction require separate later drawings.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-06.json",
+      "revision": 1
+    },
+    {
+      "shot": "S14-07",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-07.png",
+      "sha256": "f1e915d6ee379df7573a1000bc40b2613b33bc6616e4d3da3082151c73c19971",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "2007 report discovered with JC hand frozen; name rewind is later editorial action.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-07.json",
+      "revision": 1
+    },
+    {
+      "shot": "S14-08",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-08-r3.png",
+      "sha256": "975ac58725aae475ebb27cb3ee1d62daa937eb6470227a5439325ac96e139e39",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "PRESS memory; only tapping hand retains full color. Desaturated clipboard correction.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-08-r3.json",
+      "revision": 3
+    },
+    {
+      "shot": "S14-09",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-09.png",
+      "sha256": "04e57a724b67c53cecba384d08f6beb87325a43c40b7c7d6af17561b8351fb3e",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Level2 rubric recognized in present; no fabricated screening classifications.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-09.json",
+      "revision": 1
+    },
+    {
+      "shot": "S14-10",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-10.png",
+      "sha256": "0e6ae3ae665005fe3bffa635668a3eaf8f9ccc98fbd8d6c595588410efb073e6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Mikey ear-to-wall memory; present-day microphone match cut needs additional frame.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-10.json",
+      "revision": 1
+    },
+    {
+      "shot": "S14-11",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-11.png",
+      "sha256": "f73428ced041602a0b1baf811bfc78662e297520b2ea7187d7b2aaed9ae6a4c1",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Sofia protective warning and laptop half-close; final research-scene keyframe.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S14-11.json",
+      "revision": 1
+    },
+    {
+      "shot": "S15-01",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-01.png",
+      "sha256": "54bf818c790300f6bfdb9ddb58407f1a8869f0672f948b2a42411159c5bb7350",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Route map main gag; stove burner insert requires separate later drawing.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-01.json",
+      "revision": 1
+    },
+    {
+      "shot": "S15-02",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-02.png",
+      "sha256": "e158fa40ae98acb694a1339c512b6277b0cbb8500323489c7f6495bc1b331073",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Bodega established, two seated domino players, mounted speaker and decal.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-02.json",
+      "revision": 1
+    },
+    {
+      "shot": "S15-03",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-03.png",
+      "sha256": "cfa7bec9c31cae9887014d770be1595fc9a934a64741bb3fa92d1a286b56c5c7",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "JC deliberately listens; colored sound lanes meet the flat gray plate.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-03.json",
+      "revision": 1
+    },
+    {
+      "shot": "S15-04",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-04.png",
+      "sha256": "a3657903265398f911f6a333cae01363fb2ec4ed83769dedbcd7e9de5015f97d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "First escalation: tile slap and reply, early PRESS.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-04.json",
+      "revision": 1
+    },
+    {
+      "shot": "S15-05",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-05.png",
+      "sha256": "cc5773f2f067dacc01af5d7050f6f4230ff466bbfb312cacf13ac5b2ff8e0154",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Third mediator joins, moderate PRESS flattening.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-05.json",
+      "revision": 1
+    },
+    {
+      "shot": "S15-06",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-06.png",
+      "sha256": "e999e48f5c70b0a1ed6bd422638e6a7b3d75858e6d52f8c87f71c94d0b8fe6ea",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Exhausted players under strong PRESS, mediator returning inside, anger vapor draining.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-06.json",
+      "revision": 1
+    },
+    {
+      "shot": "S15-07",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-07-r2.png",
+      "sha256": "31ca6a536a93fe986801ae331aec7d945608ccd7769716843a4ab493d9a2b62f",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Corrected drained domino-player continuity and restrained loop visualization.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-07-r2.json",
+      "revision": 2
+    },
+    {
+      "shot": "S15-08",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-08.png",
+      "sha256": "8b2b208ea2f92158f9a4b0a9f82446a6d67635c19edb74741718df3ee5bfd470",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Raised opposite-window viewpoint toward small JC under awning; subsequent black is separate S15-09.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-08.json",
+      "revision": 1
+    },
+    {
+      "shot": "S15-09",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-09.png",
+      "sha256": "0f52608dd021e7069ef19f9d8f46f6d651aaf5cbac5154465092de3574cf8514",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "opaque": true,
+      "selected_moment": "Static editorial endpoint per script; no animated draw-on/audio claimed.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/research-ending/S15-09.json",
+      "revision": 1
+    }
+  ],
+  "limitations": [
+    "One representative moment per scripted shot; flashbacks, gag cards, motion breakdowns and sound remain separate production work.",
+    "Generated illustrations are 1672x941 near16:9; native editorial cards1920x1080.",
+    "S14-04 notebook is visible above podium in top-middle thumbnail; all nine contain notebook but handedness at thumbnail scale is not fully reliable.",
+    "S15-06 PRESS abstraction suppresses background merchandise/signage; controlled transitions remain to be drawn.",
+    "Editorial sigil and scene coin motifs require one registered shared design before animation."
+  ]
+}

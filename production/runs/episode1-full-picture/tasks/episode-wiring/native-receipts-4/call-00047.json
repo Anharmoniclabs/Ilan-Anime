@@ -1,0 +1,9 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "clip.scaleToFrameSize",
+    "params": {}
+  },
+  "status": "succeeded",
+  "result": null
+}

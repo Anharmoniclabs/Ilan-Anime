@@ -1,0 +1,47 @@
+{
+  "task_id": "script-timing",
+  "role": "script-supervisor",
+  "host_agent_id": "/root/s01_07_script_stage",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/picture-draft-s01-07-v1/tasks/script-timing/draft-timing.json",
+    "production/runs/picture-draft-s01-07-v1/tasks/script-timing/continuity-register.md",
+    "production/runs/picture-draft-s01-07-v1/tasks/script-timing/full-scene-action-brief.json"
+  ],
+  "evidence": [
+    "Verified current episode record [1416,1584): 1584-1416=168;168/24=7s. Proposed phases18+45+27+51+15+12=168, contiguous and divisible by3;56 exposure slots cover [0,168) exactly.",
+    "Current script lines432-436 matches S01-07 episode JSON and picture packet text exactly. Seven input SHA256 citations saved in draft-timing.json. Directly viewed actual1672x941 source: seated Counter, down gaze, supported ledger, writing quill and visible left torch.",
+    "Continuity register resolves historical4:3 versus current16:9, packet coarse phase allocation as proposed rather than approved, locked camera precedence, offscreen-torch description versus visible source, latest90s direction and rejected pose-bank status. Within-shot staging remains a director-reviewed proposal; no story/duration alteration or motion approval."
+  ],
+  "blockers": [],
+  "completion": {
+    "artifacts": [
+      {
+        "path": "production/runs/picture-draft-s01-07-v1/tasks/script-timing/draft-timing.json",
+        "kind": "draft timing record"
+      },
+      {
+        "path": "production/runs/picture-draft-s01-07-v1/tasks/script-timing/continuity-register.md",
+        "kind": "continuity register"
+      },
+      {
+        "path": "production/runs/picture-draft-s01-07-v1/tasks/script-timing/full-scene-action-brief.json",
+        "kind": "full-scene action brief"
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "frame arithmetic",
+        "detail": "Verified current episode record [1416,1584): 1584-1416=168;168/24=7s. Proposed phases18+45+27+51+15+12=168, contiguous and divisible by3;56 exposure slots cover [0,168) exactly."
+      },
+      {
+        "kind": "source citations",
+        "detail": "Current script lines432-436 matches S01-07 episode JSON and picture packet text exactly. Seven input SHA256 citations saved in draft-timing.json. Directly viewed actual1672x941 source: seated Counter, down gaze, supported ledger, writing quill and visible left torch."
+      },
+      {
+        "kind": "conflict disposition",
+        "detail": "Continuity register resolves historical4:3 versus current16:9, packet coarse phase allocation as proposed rather than approved, locked camera precedence, offscreen-torch description versus visible source, latest90s direction and rejected pose-bank status. Within-shot staging remains a director-reviewed proposal; no story/duration alteration or motion approval."
+      }
+    ]
+  }
+}

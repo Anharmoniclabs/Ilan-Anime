@@ -1,0 +1,12 @@
+{
+  "tool": "run_command",
+  "arguments": {
+    "command": "object.setProps",
+    "params": {
+      "id": 5,
+      "name": "Editable color paths - traced from supplied poster"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

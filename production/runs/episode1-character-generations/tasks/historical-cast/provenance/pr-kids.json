@@ -1,0 +1,38 @@
+{
+  "id": "pr-kids",
+  "status": "exploratory",
+  "tool": "built-in image_gen",
+  "source": "/home/alabs/.codex/generated_images/01a13832-a6e9-77c3-9ea5-4675615eb57d/exec-a65bcbaa-c22c-4b1b-a3a9-6a9a49081bb7.png",
+  "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/historical-cast/generated/pr-kids-master.png",
+  "sha256": "1da901574701779d34cd87e147fb3ad7da7f160d924d14b5faf13dc18dfa033c",
+  "prompt": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-character-generations/tasks/historical-cast/prompts/pr-kids.txt",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/references/author-cover-style.png",
+      "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c",
+      "authority": "style-only"
+    }
+  ],
+  "image_size": [
+    1350,
+    1165
+  ],
+  "mode": "RGBA",
+  "transparent_pixels": 946817,
+  "opaque_pixels": 941,
+  "partial_alpha_pixels": 624992,
+  "alpha_bbox": [
+    0,
+    0,
+    1334,
+    1165
+  ],
+  "approval": null,
+  "inspection": "Directly viewed: two children with picture books, collars and full shoes/hands. Separate from mother; guidance contact not registered or validated.",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "near_opaque_pixels_250_255": 562646,
+  "alpha_note": "Actual transparent background; body alpha predominantly 252-254, faint low-alpha residual edges. Preserved generated pixels unchanged. No production matte approval."
+}

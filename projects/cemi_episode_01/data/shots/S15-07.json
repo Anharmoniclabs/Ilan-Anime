@@ -1,0 +1,58 @@
+{
+  "id": "S15-07",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "The merengue keeps going. The next song starts. The plate is there, in the same spot. JC looks up at the speaker over the door.",
+  "camera_note": "CU JC → CU speaker",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S15-07",
+        "header": "18:22:00 → 18:30:00 (192f) · CU JC → CU speaker · rate 3s",
+        "action": "The merengue keeps going. The next song starts. The plate is there, in the same spot. JC looks up at the speaker over the door.\nSOUND: Next track cut in; loop unchanged."
+      }
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "scale": 1.0,
+      "ease": "smooth"
+    },
+    {
+      "frame": 191,
+      "scale": 1.08
+    }
+  ],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "PLATE_CEL",
+      "SONG_CHANGE"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

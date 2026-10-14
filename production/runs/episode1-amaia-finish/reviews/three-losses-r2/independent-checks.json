@@ -1,0 +1,14 @@
+{
+  "source_hashes": true,
+  "post_fade_native_identical": true,
+  "independent_decode_matches_worker": true,
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 1280,
+      "height": 720,
+      "r_frame_rate": "24/1",
+      "nb_read_frames": "192"
+    }
+  ]
+}

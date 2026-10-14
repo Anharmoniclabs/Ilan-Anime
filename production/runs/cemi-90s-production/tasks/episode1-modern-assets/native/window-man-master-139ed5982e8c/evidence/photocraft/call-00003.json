@@ -1,0 +1,12 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "layer.setProps",
+    "params": {
+      "name": "Preserved generated source — exploratory",
+      "locked": false
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

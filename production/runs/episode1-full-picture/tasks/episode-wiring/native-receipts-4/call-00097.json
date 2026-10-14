@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 109734912000000,
+      "durationFrames": 528,
+      "name": "S07-03 missing",
+      "comment": "Mama report; JC question; Mama clock observation; JC sits"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 74
+  }
+}

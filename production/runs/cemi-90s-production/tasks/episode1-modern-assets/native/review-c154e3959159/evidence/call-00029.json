@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 3,
+      "rect": [
+        25,
+        950,
+        975,
+        1080
+      ],
+      "content": "text",
+      "text": "Gray-streaked pulled-back hair, watchful brow, plum blouse, slacks and rosary. House pose only; younger variant absent.\nSHA-256: d574a084b616dfbefda4b5fa3aa124a362b8728598f83d7ef5a9e661c9556730\nNative PhotoCraft + layered PSD: protected hidden original and one visible editable copy. Body parts remain flattened.\nSource alpha and premultiplied RGB preserved exactly in native and reopened PSD exports."
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 75,
+    "story": 76
+  }
+}

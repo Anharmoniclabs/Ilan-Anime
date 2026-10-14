@@ -1,0 +1,48 @@
+{
+  "id": "S09-04",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 144,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "JC's rent math as floating numbers: café pays Friday, mural milestone, kid pays his half. Nine days. Sums orbit, cross each other out; 'it has never once come out even.' Tigueraje.",
+  "camera_note": "OVERLAY · JC",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S09-04",
+        "header": "09:18:00 → 09:24:00 (144f) · OVERLAY · JC · rate 3s",
+        "action": "JC's rent math as floating numbers: café pays Friday, mural milestone, kid pays his half. Nine days. Sums orbit, cross each other out; 'it has never once come out even.' Tigueraje.\nSOUND: Calculator tick; his mouth moves silently."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "CROSS_OUT_CEL",
+      "NUMBER_ORBIT"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

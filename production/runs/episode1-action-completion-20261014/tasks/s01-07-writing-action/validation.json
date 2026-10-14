@@ -1,0 +1,53 @@
+{
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "duration": "7.000000",
+        "nb_read_frames": "168"
+      }
+    ]
+  },
+  "decode_all_frames": "ffmpeg -v error -i native/preview.mp4 -f null - completed exit 0",
+  "motion": {
+    "shot": "S01-07",
+    "errors": [],
+    "warnings": [
+      "no environmental or prop action (water, wakes, props) is animated"
+    ],
+    "contacts": [],
+    "truth": "Passing check means timing, files and contacts are consistent; it does not approve the drawing."
+  },
+  "supporting_hand_and_book_pixel_check": {
+    "rect": [
+      1040,
+      450,
+      1220,
+      620
+    ],
+    "max_difference": 0,
+    "scope": "All 11 source closeup cels; excludes establishing wide."
+  },
+  "direct_visual_inspection": [
+    "Exact original S01-07 source",
+    "All nine generated sheet panels",
+    "12-cel assembled contact sheet",
+    "Decoded video frames 24,36,45,57,72,84,93,105,114,126,144,167"
+  ],
+  "not_directly_inspected": [
+    "Real-time playback in desktop player",
+    "Audio: absent, verified by probe"
+  ],
+  "limitations": [
+    "Limited 6-pose replacement animation; exposures 9\u201324 frames, all aligned to 3-frame boundaries.",
+    "No optical flow or full-scene warp. Second line offset reuses compatible arm drawings at 8 pixels lower.",
+    "Two gutter-crossing generated poses excluded from animation.",
+    "Independent reviewer must assess stepping, arm matte edges, page marks, contact, and the wide-to-closeup continuity."
+  ],
+  "video_sha256": "b450b7c5fdfa20be3161d4cb6f573e2c25b5ab9e49c15730aedd1cf96cefac6c"
+}

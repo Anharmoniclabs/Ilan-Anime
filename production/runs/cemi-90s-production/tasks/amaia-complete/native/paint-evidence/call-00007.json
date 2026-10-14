@@ -1,0 +1,12 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "layer.setProps",
+    "params": {
+      "layer": 12,
+      "visible": false
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

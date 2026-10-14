@@ -1,0 +1,356 @@
+diff --git a/blender-audit.json b/blender-audit.json
+new file mode 100644
+--- /dev/null
++++ b/blender-audit.json
+@@ -0,0 +1,80 @@
++[
++  {
++    "source": "source-10",
++    "blender_version": "4.5.14 LTS",
++    "path": "/home/alabs/Projects/HeraldsOfTheCemi/models/finished-textured/source-10/source-10.blend",
++    "mesh_objects": 1,
++    "vertices": 5438,
++    "faces": 10884,
++    "uv_layers": {
++      "source-10": [
++        "ArtworkProjection",
++        "PaintUV"
++      ]
++    },
++    "packed_images": [
++      {
++        "name": "source-10 Albedo 2048",
++        "size": [
++          2048,
++          2048
++        ]
++      }
++    ],
++    "armatures": 0,
++    "nonmanifold_edges": 0,
++    "loose_vertices": 0
++  },
++  {
++    "source": "source-11",
++    "blender_version": "4.5.14 LTS",
++    "path": "/home/alabs/Projects/HeraldsOfTheCemi/models/finished-textured/source-11/source-11.blend",
++    "mesh_objects": 1,
++    "vertices": 10265,
++    "faces": 20522,
++    "uv_layers": {
++      "source-11": [
++        "ArtworkProjection",
++        "PaintUV"
++      ]
++    },
++    "packed_images": [
++      {
++        "name": "source-11 Albedo 2048",
++        "size": [
++          2048,
++          2048
++        ]
++      }
++    ],
++    "armatures": 0,
++    "nonmanifold_edges": 0,
++    "loose_vertices": 0
++  },
++  {
++    "source": "source-12",
++    "blender_version": "4.5.14 LTS",
++    "path": "/home/alabs/Projects/HeraldsOfTheCemi/models/finished-textured/source-12/source-12.blend",
++    "mesh_objects": 1,
++    "vertices": 4714,
++    "faces": 9396,
++    "uv_layers": {
++      "source-12": [
++        "ArtworkProjection",
++        "PaintUV"
++      ]
++    },
++    "packed_images": [
++      {
++        "name": "source-12 Albedo 2048",
++        "size": [
++          2048,
++          2048
++        ]
++      }
++    ],
++    "armatures": 0,
++    "nonmanifold_edges": 0,
++    "loose_vertices": 0
++  }
++]
+\ No newline at end of file
+diff --git a/inspect_blender.py b/inspect_blender.py
+new file mode 100644
+--- /dev/null
++++ b/inspect_blender.py
+@@ -0,0 +1,22 @@
++import bpy, bmesh, json
++from pathlib import Path
++root=Path(__file__).parent
++base=root.parents[1]/'models/finished-textured'
++rows=[]
++for source in ('source-10','source-11','source-12'):
++ path=base/source/(source+'.blend')
++ bpy.ops.wm.open_mainfile(filepath=str(path))
++ meshes=[o for o in bpy.context.scene.objects if o.type=='MESH']
++ row=dict(source=source,blender_version=bpy.app.version_string,path=str(path),mesh_objects=len(meshes),
++  vertices=sum(len(o.data.vertices) for o in meshes),faces=sum(len(o.data.polygons) for o in meshes),
++  uv_layers={o.name:[uv.name for uv in o.data.uv_layers] for o in meshes},
++  packed_images=[dict(name=i.name,size=list(i.size)) for i in bpy.data.images if i.packed_file],
++  armatures=sum(o.type=='ARMATURE' for o in bpy.context.scene.objects),nonmanifold_edges=0,loose_vertices=0)
++ for o in meshes:
++  bm=bmesh.new();bm.from_mesh(o.data)
++  row['nonmanifold_edges']+=sum(not e.is_manifold for e in bm.edges)
++  row['loose_vertices']+=sum(not v.link_edges for v in bm.verts)
++  bm.free()
++ rows.append(row)
++(root/'blender-audit.json').write_text(json.dumps(rows,indent=2))
++print(json.dumps(rows))
+diff --git a/models/character-v1/reconstruction/0/input.png b/models/character-v1/reconstruction/0/input.png
+new file mode 100644
+Binary files a/models/character-v1/reconstruction/0/input.png and b/models/character-v1/reconstruction/0/input.png differ
+diff --git a/models/character-v1/reconstruction/0/mesh.glb b/models/character-v1/reconstruction/0/mesh.glb
+new file mode 100644
+Binary files a/models/character-v1/reconstruction/0/mesh.glb and b/models/character-v1/reconstruction/0/mesh.glb differ
+diff --git a/models/character-v1/reconstruction/inference.log b/models/character-v1/reconstruction/inference.log
+new file mode 100644
+--- /dev/null
++++ b/models/character-v1/reconstruction/inference.log
+@@ -0,0 +1,68 @@
++2026-10-08 18:49:34,238 - INFO - Initializing model ...
++/home/alabs/.local/opt/TripoSR/.venv/lib/python3.11/site-packages/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
++  _torch_pytree._register_pytree_node(
++/home/alabs/.local/opt/TripoSR/.venv/lib/python3.11/site-packages/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
++  _torch_pytree._register_pytree_node(
++2026-10-08 18:50:08,079 - INFO - Initializing model finished in 33838.36ms.
++2026-10-08 18:50:08,083 - INFO - Processing images ...
++Downloading data from 'https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net.onnx' to file '/home/alabs/.u2net/u2net.onnx'.
++
+\ No newline at end of file
++  0%|                                               | 0.00/176M [00:00<?, ?B/s]
+\ No newline at end of file
++  1%|▍                                     | 2.29M/176M [00:00<00:07, 22.9MB/s]
+\ No newline at end of file
++  3%|█▏                                    | 5.41M/176M [00:00<00:06, 27.8MB/s]
+\ No newline at end of file
++  5%|█▊                                    | 8.29M/176M [00:00<00:05, 28.2MB/s]
+\ No newline at end of file
++  7%|██▌                                   | 11.6M/176M [00:00<00:05, 28.9MB/s]
+\ No newline at end of file
++  8%|███▏                                  | 14.9M/176M [00:00<00:05, 30.3MB/s]
+\ No newline at end of file
++ 10%|███▉                                  | 18.4M/176M [00:00<00:05, 31.3MB/s]
+\ No newline at end of file
++ 12%|████▋                                 | 21.8M/176M [00:00<00:04, 31.7MB/s]
+\ No newline at end of file
++ 14%|█████▍                                | 25.1M/176M [00:00<00:04, 32.0MB/s]
+\ No newline at end of file
++ 16%|██████▏                               | 28.5M/176M [00:00<00:04, 32.8MB/s]
+\ No newline at end of file
++ 18%|██████▉                               | 32.1M/176M [00:01<00:04, 33.8MB/s]
+\ No newline at end of file
++ 21%|███████▉                              | 36.8M/176M [00:01<00:03, 37.6MB/s]
+\ No newline at end of file
++ 23%|████████▊                             | 40.6M/176M [00:01<00:03, 37.0MB/s]
+\ No newline at end of file
++ 25%|█████████▌                            | 44.3M/176M [00:01<00:03, 35.1MB/s]
+\ No newline at end of file
++ 27%|██████████▎                           | 47.8M/176M [00:01<00:03, 33.8MB/s]
+\ No newline at end of file
++ 29%|███████████                           | 51.2M/176M [00:01<00:03, 32.7MB/s]
+\ No newline at end of file
++ 31%|███████████▊                          | 54.5M/176M [00:01<00:03, 31.1MB/s]
+\ No newline at end of file
++ 33%|████████████▍                         | 57.6M/176M [00:01<00:04, 29.5MB/s]
+\ No newline at end of file
++ 34%|█████████████                         | 60.6M/176M [00:01<00:04, 28.1MB/s]
+\ No newline at end of file
++ 36%|█████████████▋                        | 63.4M/176M [00:02<00:04, 27.3MB/s]
+\ No newline at end of file
++ 38%|██████████████▎                       | 66.3M/176M [00:02<00:03, 27.7MB/s]
+\ No newline at end of file
++ 40%|███████████████                       | 69.6M/176M [00:02<00:03, 29.1MB/s]
+\ No newline at end of file
++ 41%|███████████████▊                      | 73.0M/176M [00:02<00:03, 30.6MB/s]
+\ No newline at end of file
++ 43%|████████████████▍                     | 76.2M/176M [00:02<00:03, 30.9MB/s]
+\ No newline at end of file
++ 45%|█████████████████                     | 79.3M/176M [00:02<00:03, 30.8MB/s]
+\ No newline at end of file
++ 47%|█████████████████▉                    | 83.3M/176M [00:02<00:02, 33.4MB/s]
+\ No newline at end of file
++ 49%|██████████████████▊                   | 87.0M/176M [00:02<00:02, 34.5MB/s]
+\ No newline at end of file
++ 52%|███████████████████▌                  | 90.6M/176M [00:02<00:02, 35.0MB/s]
+\ No newline at end of file
++ 54%|████████████████████▍                 | 94.4M/176M [00:02<00:02, 35.7MB/s]
+\ No newline at end of file
++ 56%|█████████████████████▏                | 97.9M/176M [00:03<00:02, 34.4MB/s]
+\ No newline at end of file
++ 58%|██████████████████████▍                | 101M/176M [00:03<00:02, 33.4MB/s]
+\ No newline at end of file
++ 60%|███████████████████████▏               | 105M/176M [00:03<00:02, 32.6MB/s]
+\ No newline at end of file
++ 62%|████████████████████████               | 108M/176M [00:03<00:02, 33.6MB/s]
+\ No newline at end of file
++ 64%|█████████████████████████              | 113M/176M [00:03<00:01, 37.1MB/s]
+\ No newline at end of file
++ 66%|█████████████████████████▊             | 117M/176M [00:03<00:01, 37.4MB/s]
+\ No newline at end of file
++ 69%|██████████████████████████▊            | 121M/176M [00:03<00:01, 38.2MB/s]
+\ No newline at end of file
++ 71%|███████████████████████████▌           | 125M/176M [00:03<00:01, 37.4MB/s]
+\ No newline at end of file
++ 73%|████████████████████████████▍          | 128M/176M [00:03<00:01, 35.8MB/s]
+\ No newline at end of file
++ 75%|█████████████████████████████▏         | 132M/176M [00:04<00:01, 33.6MB/s]
+\ No newline at end of file
++ 77%|██████████████████████████████         | 135M/176M [00:04<00:01, 33.8MB/s]
+\ No newline at end of file
++ 79%|██████████████████████████████▉        | 139M/176M [00:04<00:01, 35.9MB/s]
+\ No newline at end of file
++ 82%|███████████████████████████████▊       | 144M/176M [00:04<00:00, 37.5MB/s]
+\ No newline at end of file
++ 84%|████████████████████████████████▊      | 148M/176M [00:04<00:00, 38.9MB/s]
+\ No newline at end of file
++ 86%|█████████████████████████████████▋     | 152M/176M [00:04<00:00, 37.9MB/s]
+\ No newline at end of file
++ 89%|██████████████████████████████████▊    | 157M/176M [00:04<00:00, 42.5MB/s]
+\ No newline at end of file
++ 92%|███████████████████████████████████▊   | 162M/176M [00:04<00:00, 43.2MB/s]
+\ No newline at end of file
++ 94%|████████████████████████████████████▊  | 166M/176M [00:04<00:00, 41.7MB/s]
+\ No newline at end of file
++ 97%|█████████████████████████████████████▋ | 170M/176M [00:04<00:00, 40.3MB/s]
+\ No newline at end of file
++ 99%|██████████████████████████████████████▌| 174M/176M [00:05<00:00, 38.9MB/s]
+\ No newline at end of file
++  0%|                                               | 0.00/176M [00:00<?, ?B/s]
+\ No newline at end of file
++100%|████████████████████████████████████████| 176M/176M [00:00<00:00, 581GB/s]
++2026-10-08 18:50:15,007 - INFO - Processing images finished in 6924.24ms.
++2026-10-08 18:50:15,007 - INFO - Running image 1/1 ...
++2026-10-08 18:50:15,007 - INFO - Running model ...
++2026-10-08 18:51:22,402 - INFO - Running model finished in 67395.13ms.
++2026-10-08 18:51:22,403 - INFO - Extracting mesh ...
++2026-10-08 18:51:33,164 - INFO - Extracting mesh finished in 10761.14ms.
++2026-10-08 18:51:33,164 - INFO - Exporting mesh ...
++2026-10-08 18:51:33,169 - INFO - Exporting mesh finished in 5.04ms.
+diff --git a/models/character-v1/reconstruction/job.json b/models/character-v1/reconstruction/job.json
+new file mode 100644
+--- /dev/null
++++ b/models/character-v1/reconstruction/job.json
+@@ -0,0 +1,36 @@
++{
++  "kind": "triposr",
++  "status": "generated",
++  "model": "stabilityai/TripoSR",
++  "backend": "local",
++  "image": "sources/10.png",
++  "input_sha256": "a8f9d8056caf81cd9ac881890e021db57376b2654964d1b55354314df93f8d4f",
++  "output": "models/character-v1/reconstruction/0/mesh.glb",
++  "argv": [
++    "/home/alabs/.local/opt/TripoSR/.venv/bin/python",
++    "/home/alabs/.local/opt/TripoSR/run.py",
++    "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/reconstruction/source.png",
++    "--device",
++    "cpu",
++    "--chunk-size",
++    "2048",
++    "--mc-resolution",
++    "128",
++    "--output-dir",
++    "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/reconstruction",
++    "--model-save-format",
++    "glb"
++  ],
++  "cwd": "/home/alabs/.local/opt/TripoSR",
++  "started_at": 1791499767.3054984,
++  "timeout": 1800,
++  "pid": 17656,
++  "mesh": {
++    "primitives": 1,
++    "vertices": 5921,
++    "bytes": 237396,
++    "validation": "GLB structure and geometry counts; visual review required"
++  },
++  "sha256": "cd6d13146327814a25dafe40849a8f9abd8e0d41fb5386e979465cabfeda6805",
++  "seconds": 130.39379334449768
++}
+\ No newline at end of file
+diff --git a/models/character-v1/reconstruction/source.png b/models/character-v1/reconstruction/source.png
+new file mode 100644
+Binary files a/models/character-v1/reconstruction/source.png and b/models/character-v1/reconstruction/source.png differ
+diff --git a/models/character-v1/reconstruction/worker.log b/models/character-v1/reconstruction/worker.log
+new file mode 100644
+diff --git a/models/character-v1/textured/job.json b/models/character-v1/textured/job.json
+new file mode 100644
+--- /dev/null
++++ b/models/character-v1/textured/job.json
+@@ -0,0 +1,37 @@
++{
++  "kind": "mesh-finish",
++  "status": "starting",
++  "model": "TripoSR + source artwork projection",
++  "backend": "local-blender",
++  "image": "sources/10.png",
++  "input_sha256": "a8f9d8056caf81cd9ac881890e021db57376b2654964d1b55354314df93f8d4f",
++  "source_mesh_sha256": "cd6d13146327814a25dafe40849a8f9abd8e0d41fb5386e979465cabfeda6805",
++  "output": "models/character-v1/textured/textured.glb",
++  "blend": "models/character-v1/textured/textured.blend",
++  "commands": [
++    [
++      "/home/alabs/.local/opt/TripoSR/.venv/bin/python",
++      "/home/alabs/Projects/NESSA/scripts/prepare_character_texture.py",
++      "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/sources/10.png",
++      "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/textured"
++    ],
++    [
++      "/home/alabs/.local/bin/blender",
++      "--background",
++      "--factory-startup",
++      "--threads",
++      "2",
++      "--python-exit-code",
++      "1",
++      "--python",
++      "/home/alabs/Projects/NESSA/scripts/finish_character.py",
++      "--",
++      "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/reconstruction/0/mesh.glb",
++      "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/sources/10.png",
++      "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/textured"
++    ]
++  ],
++  "cwd": "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815",
++  "started_at": 1791499905.1497946,
++  "timeout": 900
++}
+\ No newline at end of file
+diff --git a/models/character-v1/textured/worker.log b/models/character-v1/textured/worker.log
+new file mode 100644
+diff --git a/models/character-v1/workflow.json b/models/character-v1/workflow.json
+new file mode 100644
+--- /dev/null
++++ b/models/character-v1/workflow.json
+@@ -0,0 +1,13 @@
++{
++  "version": 1,
++  "inputs": {
++    "image": "sources/10.png",
++    "image_sha256": "a8f9d8056caf81cd9ac881890e021db57376b2654964d1b55354314df93f8d4f",
++    "mesh": null,
++    "mesh_sha256": null,
++    "resolution": 128
++  },
++  "phase": "textured",
++  "review": "pending",
++  "job": "models/character-v1/textured/job.json"
++}
+\ No newline at end of file
+diff --git a/models/character-v1/workflow.lock b/models/character-v1/workflow.lock
+new file mode 100644

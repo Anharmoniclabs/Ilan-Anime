@@ -1,0 +1,52 @@
+{
+  "method": "Manual visual landmarks, approximate native pixels; all drawings identity transform",
+  "order": [
+    "rest",
+    "head-early",
+    "head-down",
+    "head-lower-candidate"
+  ],
+  "landmarks": {
+    "rest": {
+      "near_eye": [
+        540,
+        213
+      ],
+      "chin": [
+        566,
+        318
+      ]
+    },
+    "head-early": {
+      "near_eye": [
+        541,
+        233
+      ],
+      "chin": [
+        561,
+        332
+      ]
+    },
+    "head-down": {
+      "near_eye": [
+        553,
+        248
+      ],
+      "chin": [
+        559,
+        344
+      ]
+    },
+    "head-lower-candidate": {
+      "near_eye": [
+        554,
+        260
+      ],
+      "chin": [
+        554,
+        351
+      ]
+    }
+  },
+  "return": "reverse identical registered drawings; no synthesized or warped inbetweens"
+}

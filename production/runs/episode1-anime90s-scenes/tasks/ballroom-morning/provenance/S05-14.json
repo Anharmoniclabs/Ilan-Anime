@@ -1,0 +1,30 @@
+{
+  "shot_id": "S05-14",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-14.png",
+  "status": "exploratory",
+  "sha256": "da2659fa5dc5fe260aac4a05e6409ada4589e3ed3be0c19085c0e93dae492dfc",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-14.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "sha256": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-13.png",
+      "sha256": "d01bb1ecefa404f63711c4a107c58e75c2414313f56879e2b7a15c1d654b3337"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-02.png",
+      "sha256": "aeca6a403deb12fada2d28b42b6902106f68af3848b7fbcaecce99c6c28357a2"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Jumpcut body displacement, chairfall, fingerrecoil and copper heat shimmer.",
+  "inspection": "Directly viewed: JC againstdoor,5digit foreground hand coin, chair onside and heat shimmer. Coin is pinched/held by fingers rather than resting openpalm; background projected static reappears contrary to lateballroom moment.",
+  "directly_viewed": true
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 171206784000000,
+      "durationFrames": 192,
+      "name": "S11-05 missing",
+      "comment": "hover; forward preview; flip; three4frame curb flashes"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 98
+  }
+}

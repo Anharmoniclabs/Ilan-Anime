@@ -1,0 +1,24 @@
+{
+  "inflight": {},
+  "history": [
+    {
+      "at": "2026-10-12T22:45:24Z",
+      "action": "paused",
+      "task": "image",
+      "reason": "codex exec failed (1) for worker: WARNING: proceeding, even though we could not create PATH aliases: Read-only file system (os error 30)\nReading additional input from stdin...\nError: failed to initialize in-process app-server client: Read-only file system (os error 30)\n"
+    },
+    {
+      "at": "2026-10-12T22:49:42Z",
+      "action": "explicit-pre-session-recovery",
+      "task": "image",
+      "evidence": "User requested production; empty event log, no session or output, sandbox initialization failure only."
+    },
+    {
+      "at": "2026-10-12T22:52:18Z",
+      "action": "submitted",
+      "task": "image",
+      "status": "blocked",
+      "host_agent_id": "01a1324e-bb46-7840-9f05-822ee3476789"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addItem",
+    "params": {
+      "item": 6,
+      "time": 2.375,
+      "duration": 0.625
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 106
+  }
+}

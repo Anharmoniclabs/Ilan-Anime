@@ -1,0 +1,27 @@
+{
+  "name": "window-man",
+  "prompt": "New character source for anonymous window man in1990s anime series. Single adult male near-black silhouette wearing over-ear headphones and ordinary loose long sleeve shirt and trousers, standing relaxed threequarter, arms visible at sides hands and feet complete. Face entirely unreadable without eyes or facial features. Subtle dark blue cel planes distinguish headphone shape and outline. References style only: clean 90s anime line silhouette, simple flat shapes matching production. True transparent background, no window, no scenery, no text, no glow, no comic hatching, generous margin.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-c1193a34-3359-4ad5-9773-5a58fa5553c8.png",
+  "cast_ids": [
+    "window-man"
+  ],
+  "references": {
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+  },
+  "file": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/window-man.png",
+  "sha256": "9695873af0b3b3b9fee5649c3dbf6055f91a6c0d2b0d2ac50e8d80f422a8df97",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "status": "exploratory",
+  "tool": "built-in image_gen",
+  "author_approved": false,
+  "rigged": false
+}

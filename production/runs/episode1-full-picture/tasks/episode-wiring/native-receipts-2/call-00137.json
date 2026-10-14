@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 209309184000000,
+      "durationFrames": 216,
+      "name": "S13-04 missing",
+      "comment": "searches; museum page; front side rear; label"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 114
+  }
+}

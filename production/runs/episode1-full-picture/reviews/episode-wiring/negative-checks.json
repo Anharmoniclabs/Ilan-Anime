@@ -1,0 +1,11 @@
+{
+  "missing_refused": true,
+  "partial_refused": true,
+  "rejected_refused": true,
+  "unreviewed_refused": true,
+  "technical-approved_refused": true,
+  "complete_refused": true,
+  "duplicate_refused": true,
+  "gap_refused": true,
+  "end_refused": true
+}

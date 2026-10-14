@@ -1,0 +1,13 @@
+{
+  "task_id": "review_canoe_motion",
+  "role": "quality-review",
+  "status": "submitted",
+  "artifacts": ["production/video-jobs/s01-02-test-v1/independent-motion-review.md"],
+  "evidence": [
+    "Viewed first.png, contact-sheet.jpg and imported frames 0,14,28,32,36,40,42,46,56,71; no continuous playback or audio review.",
+    "Frames 28–42: paddle recovery blade grows in foreground and extends below the frame, obscuring full recovery/contact assessment.",
+    "Frames 28 and 42: distant child blue effects read as bright flame-like shapes rather than faint forearm breath.",
+    "Frames 0,28,42,71: broad foreground face and seating continuity retained; extra adults are already present in first.png."
+  ],
+  "blockers": []
+}

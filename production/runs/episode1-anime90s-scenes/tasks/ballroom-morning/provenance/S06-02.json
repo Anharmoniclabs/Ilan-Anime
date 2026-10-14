@@ -1,0 +1,26 @@
+{
+  "shot_id": "S06-02",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-02.png",
+  "status": "exploratory",
+  "sha256": "66ec49144b03f16eccc5e7efe8905b530b6eab921b601cb95215b59ca290cb9b",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S06-02.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.png",
+      "sha256": "9a035989f12ee15319dcd5d55eff9e72c855d8f20d2bbb22f52de017249045e7"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-01.png",
+      "sha256": "5f3c5e8a3b0fc85897d7277938b60ca33dd7894c7d6bbbc18c35c086ffa763f3"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "JC reverse angle and lie throughdoor, Mama dialogue mouthstates, rosaryclick, slippers retreat and endhall hold.",
+  "inspection": "Directly viewed: Mama likeness, rosary, closeddoor and restrained nighttime hallway; incidental litwindows at distanthallwindow would need darkening if withinlocalblock. Representative Mama angle, JC reverse notrendered.",
+  "directly_viewed": true
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "new_document",
+  "arguments": {
+    "title": "River cast — source reference library, not rigs",
+    "width": 1000,
+    "height": 850,
+    "pages": 12,
+    "facingPages": false,
+    "margins": 25
+  },
+  "status": "succeeded",
+  "result": {
+    "index": 1
+  }
+}

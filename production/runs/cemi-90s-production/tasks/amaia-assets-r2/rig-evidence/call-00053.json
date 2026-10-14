@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.addProperty",
+    "params": {
+      "layer": 139,
+      "path": "effects/#1/slider",
+      "name": "Face: 0 neutral / 1 blink / 2 talk"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "controls": [
+      209
+    ],
+    "mirrors": []
+  }
+}

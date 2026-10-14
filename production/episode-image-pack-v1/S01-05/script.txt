@@ -1,0 +1,4 @@
+`00:42:00 → 00:49:00` (168f) · POV Amaia → CU bell · rate 3s
+- **Action:** Behind them on the bank the soldier torches have stopped. One soldier lifts a pole with a brass bell and rings it, hard. Cut to the bell swinging, close.
+- **FX:** `CAMERA_SHAKE(2f); SPEED_LINES(bell); CHROMA_BLEED`
+- **Sound:** The BELL: dry, inharmonic brass, no reverb tail, 3–5 kHz bite. Amaia feels it 'in her back teeth'. There is no song in it.

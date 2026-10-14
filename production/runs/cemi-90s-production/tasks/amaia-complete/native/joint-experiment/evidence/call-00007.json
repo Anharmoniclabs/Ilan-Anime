@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addItem",
+    "params": {
+      "item": "arm-joints.png",
+      "position": [
+        -93,
+        738
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 30
+  }
+}

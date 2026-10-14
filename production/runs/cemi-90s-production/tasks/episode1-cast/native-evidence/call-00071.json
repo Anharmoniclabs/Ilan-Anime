@@ -1,0 +1,17 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "type.char",
+    "params": {
+      "attrs": {
+        "size": 13,
+        "leading": {
+          "kind": "points",
+          "value": 16
+        }
+      }
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

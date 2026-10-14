@@ -1,0 +1,5 @@
+{
+  "decision": "approve",
+  "evidence": "Bounded wiring only. Independent checks in production/runs/episode1-full-picture/reviews/episode-wiring/review.md and audit.json confirm 128 canonical contiguous slots, 27120 frames, 24 fps, 16:9; 128 artwork hashes; eight silent draft decodes; seven native clips and 128 markers with 121 empty slots. FilmCraft reopened independently; refresh and review-local relink/rebuild passed. Assembly refused all 128 non-final shots before creating media. Viewed decoded samples and all QA-flagged frames; scripted black holds are expected, Amaia remains partial, water unreviewed and graph rejected/excluded. All offline links resolve. No real-time playback or browser-layout inspection claimed. This approves neither finished animation nor Luis creative approval.",
+  "repair_notes": []
+}

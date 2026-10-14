@@ -1,0 +1,12 @@
+{
+  "name": "curb-child-hand",
+  "prompt": "Create a wholesome fully clothed family safety illustration, isolated character source on transparent background. Back view of a child standing still, wearing a loose blue long-sleeved sweatshirt, full-length tan trousers, socks and closed sneakers. An adult caregiver's hand rests protectively on the child's clothed shoulder; only caregiver hand and shirt cuff enter from left. Both child shoes and whole hair outline comfortably within frame. Child face unseen, anonymous story memory. Style reference is attached rooftop: clean 1990s anime ink contours, broad simple flat cel shadows and warm palette, no realistic texture. No scene or curb, no lettering or brands. Calm everyday pose.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-b732aed9-2d3f-43a9-bba3-58d6ccd8f2b5.png",
+  "cast_ids": [
+    "curb-child",
+    "curb-adult-hand"
+  ],
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png"
+  ]
+}

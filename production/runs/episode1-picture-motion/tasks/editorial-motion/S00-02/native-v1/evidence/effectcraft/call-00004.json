@@ -1,0 +1,138 @@
+{
+  "tool": "get_project",
+  "arguments": {},
+  "status": "succeeded",
+  "result": {
+    "activeComp": 1,
+    "bitDepth": "8 bpc",
+    "dirty": true,
+    "items": [
+      {
+        "duration": 5.0,
+        "frameRate": 24.0,
+        "id": 1,
+        "label": "Sandstone",
+        "layers": 0,
+        "name": "S00-02",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Composition"
+      },
+      {
+        "id": 2,
+        "label": "Lavender",
+        "name": "drawing_bd1571ded9544fd455a019aaef84161bc32c48f922ac8b7902506ffd68cb67da_still.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 3,
+        "label": "Lavender",
+        "name": "drawing_0dce6d6cefdc1512aa31ebfb2df51bf7189a720884923bb12334ad058e63f4a4_still.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 4,
+        "label": "Lavender",
+        "name": "drawing_2bbd001c642d37c24e61c2266c46313d83291f06376e13e176eca9b5f1fadb96_still.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 5,
+        "label": "Lavender",
+        "name": "drawing_5e67a583e91db521764d81b250fead51e63beed3bbd67314f9750afc059fe90a_still.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 6,
+        "label": "Lavender",
+        "name": "drawing_427f0ece84a546d3fb79a4c4f2feec87cea52ba878b87fdadf2e1403aaacc504_still.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 7,
+        "label": "Lavender",
+        "name": "drawing_8affbcaa96169cd4177eb7c64441e034a0b5a20ae3d88793130e1a3532c3cafc_still.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 8,
+        "label": "Lavender",
+        "name": "drawing_13c8842399bdf12a9838b988a8bac92d101598eda0b22e8b15e22eede30aea40_still.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 9,
+        "label": "Lavender",
+        "name": "drawing_175f11c2a5100c1b4663147dd271e4b027e9b95624829a9678872916588bf9a7_still.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 10,
+        "label": "Lavender",
+        "name": "drawing_07519f9fca16db1d451a419c66220bc114840409dbdfa4bbe52292dafbedc5a9_still.png",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Image"
+      }
+    ],
+    "path": null,
+    "renderer": {
+      "active": "cpu",
+      "adapter": null,
+      "gpuAcceleration": true,
+      "renderer": "Mercury GPU Acceleration"
+    },
+    "selectedLayers": [],
+    "time": 0.0,
+    "undo": [
+      "New Composition",
+      "Import"
+    ]
+  }
+}

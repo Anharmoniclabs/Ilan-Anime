@@ -1,0 +1,56 @@
+{
+  "rest": {
+    "body": 0,
+    "child": 0,
+    "hull": 0,
+    "shoulder": 0
+  },
+  "look-a": {
+    "body": 0,
+    "child": 0,
+    "hull": 0,
+    "shoulder": 0
+  },
+  "count-a": {
+    "body": 0,
+    "child": 0,
+    "hull": 0,
+    "shoulder": 0
+  },
+  "look-o": {
+    "body": 0,
+    "child": 0,
+    "hull": 0,
+    "shoulder": 0
+  },
+  "count-o": {
+    "body": 0,
+    "child": 0,
+    "hull": 0,
+    "shoulder": 0
+  },
+  "blink": {
+    "body": 0,
+    "child": 0,
+    "hull": 0,
+    "shoulder": 0
+  },
+  "head-early": {
+    "body": 0,
+    "child": 0,
+    "hull": 0,
+    "shoulder": 0
+  },
+  "head-down": {
+    "body": 0,
+    "child": 0,
+    "hull": 0,
+    "shoulder": 0
+  },
+  "head-lower-candidate": {
+    "body": 0,
+    "child": 0,
+    "hull": 0,
+    "shoulder": 0
+  }
+}

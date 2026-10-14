@@ -1,0 +1,35 @@
+{
+  "task_id": "motion-contracts",
+  "role": "animation-supervisor",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/contracts.json",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/reusable-assets.json",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/authored-actions.tsv",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/build_contracts.py",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/validation.json",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/review.json",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/decode-checks.json",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/shimmer-check.json",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S00-01-sheet.jpg",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S00-02-sheet.jpg",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S02-01-sheet.jpg",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/review_editorial.py",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/visual-audit.json"
+  ],
+  "evidence": [
+    "128 individually authored shot action contracts; 27120 contiguous frames at24fps; all128 selected PNG hashes and74 cast source hashes verified.",
+    "Directly viewed opening33 contact-sheet coverage and seven corrected fullframes in prior review; current targeted inspection S05-06,S05-12,S12-08,S13-10,S14-08-r3,S15-06.",
+    "Amaia r2 review/native inventory supports face-only control scope, not whole-body animation.",
+    "Explicit microkeys and timing conflicts retained; phase boundaries are blocking proposals, not final exposure approval.",
+    "Independently decoded all792editorial frames:96+120+288+96+192, verified24fps720p silent; inspected sequential decoded cards and exactblack lengths. Separate review at editorial-review/review.json."
+  ],
+  "blockers": [],
+  "production_dependencies": [
+    "registered action keys/breakdowns and clean plates missing for most character actions",
+    "numeric camera paths await registered layout",
+    "shared sigil candidate needs prop perspective maps",
+    "final dialogue mouth timings deferred to later sound department"
+  ],
+  "approval": false
+}

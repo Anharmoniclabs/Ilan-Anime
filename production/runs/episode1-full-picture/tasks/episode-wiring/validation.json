@@ -1,0 +1,14 @@
+{
+  "slots": 128,
+  "contiguous": true,
+  "total_frames": 27120,
+  "artwork_hashes_verified": 128,
+  "status_counts": {
+    "technical-approved": 10,
+    "unreviewed": 1,
+    "missing": 116,
+    "partial": 1
+  },
+  "draft_clips_verified": 12,
+  "timeline_sha256": "87dd8b17fbd3ed75b6e3a2d0c6de2137367b46b4536aa0495f8ec22de4805b4b"
+}

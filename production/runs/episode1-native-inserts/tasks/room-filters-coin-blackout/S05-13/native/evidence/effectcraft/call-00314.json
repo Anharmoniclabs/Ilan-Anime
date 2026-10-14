@@ -1,0 +1,11 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "name": "6-0 one frame contact flash"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

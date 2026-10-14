@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 230646528000000,
+      "durationFrames": 384,
+      "name": "S14-03 technical-approved",
+      "comment": "three shells; lawyer lunch; holding company; three arms; four permits"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 133
+  }
+}

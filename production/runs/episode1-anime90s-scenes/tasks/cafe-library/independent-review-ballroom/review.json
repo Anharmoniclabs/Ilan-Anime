@@ -1,0 +1,573 @@
+{
+  "task_id": "independent-review-ballroom-morning",
+  "role": "episode-director",
+  "status": "submitted",
+  "reviewer": "generate_support",
+  "authored_reviewed_assets": false,
+  "scope": "Independent generation-completion review of32 selected story frames S05\u2013S08 only; no motion, native assembly, canonical identity or finished-animation approval.",
+  "decision": "approve-generation-completion-with-caveats",
+  "evidence": [
+    "Directly viewed all32 first-pass frames in coordinator-review-1.jpg through coordinator-review-4.jpg against assigned shots.json; superseded images excluded from selected decision.",
+    "Directly viewed selected r2 wall, ballroom reveal, floor inlay, hotcoin, blackout and hallway frames individually.",
+    "Selected PNG paths, SHA256 and dimensions bound in reviewed_items; automated decode/hash check does not prove movement.",
+    "Directly viewed final S07-07-r2, S08-01-r2 and S08-02-r2 individually; descent and exact banner lettering now read."
+  ],
+  "findings": [
+    {
+      "severity": "resolved",
+      "shots": [
+        "S05-03"
+      ],
+      "detail": "Intact plaster perspective transition now reads as Echo depth rather than physical demolition."
+    },
+    {
+      "severity": "resolved",
+      "shots": [
+        "S05-04",
+        "S05-07"
+      ],
+      "detail": "Luminous translucent historical dancers and band read as people made of light."
+    },
+    {
+      "severity": "resolved",
+      "shots": [
+        "S05-14",
+        "S05-15",
+        "S06-02"
+      ],
+      "detail": "Late ballroom projection, overturned chair and exterior darkness now support sequence state."
+    },
+    {
+      "severity": "cleanup",
+      "shots": [
+        "S05-03"
+      ],
+      "detail": "Tiny pseudo-date over bandstand should be removed or replaced with correct registered title."
+    },
+    {
+      "severity": "cleanup",
+      "shots": [
+        "S05-07",
+        "S05-13",
+        "S05-14"
+      ],
+      "detail": "Spiral-triangle symbols vary and require single registered prop/graphic source."
+    },
+    {
+      "severity": "later-drawings",
+      "shots": [
+        "S05-06",
+        "S05-08",
+        "S05-09",
+        "S06-02",
+        "S07-05"
+      ],
+      "detail": "Representative frame selection covers one moment; three-couple cutting, year counter, window crosscut, JC dialogue reverse and remaining age flashbacks still need separate drawings."
+    },
+    {
+      "severity": "scope",
+      "shots": [],
+      "detail": "Static source review does not validate timed camera motion, dance, audio, blackout sequence or exposure timing. Exact crowd count and distant limb detail need native layout cleanup."
+    },
+    {
+      "severity": "resolved",
+      "shots": [
+        "S07-07",
+        "S08-01",
+        "S08-02"
+      ],
+      "detail": "JC descends stairs with hand against plaster; banner slogan and Aperture Civic wording readable."
+    }
+  ],
+  "blockers": [],
+  "reviewed_items": [
+    {
+      "shot_id": "S05-01",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-01.png",
+      "sha256": "9b314da3b3cb3708ba0c69d4f0d233b1b360ca29a6f4937605173d21af26eb30",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-02",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-02.png",
+      "sha256": "aeca6a403deb12fada2d28b42b6902106f68af3848b7fbcaecce99c6c28357a2",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-03",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-03-r2.png",
+      "sha256": "f30fc0e910ddd94cb0e29edd4716546b26a6f7eaa80b6fb18aa1ae941606da0f",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-04",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-04-r2.png",
+      "sha256": "e56a76b7357fe213ba60f278a27a632dadebb99b7c1f8fbd9bb3a3e3a2ce4086",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-05",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-05.png",
+      "sha256": "0bfb42817dafa99a1fabf05053011f452f1dcf9dbf77c3ec9b410e69065d0f27",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-06",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-06.png",
+      "sha256": "6471ca1c951ac6dc772cefd77cad4a9f9d9ba12dd27a29f9a6b4663e83e7a59e",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-07",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-07-r2.png",
+      "sha256": "a5ea0ad8f4500f2b07dc2e0674c4dd6a69c74887020656e5d6e6974544c396fd",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-08",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-08.png",
+      "sha256": "68fddb95e9117b6138e36609dd8719309ed4b7f2222edc41a99e06c13edf9d01",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-09",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-09.png",
+      "sha256": "936142d9c69c2b9f365fc75e0e0f413a772ef9747b4543e26635eb8f6ca67a09",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-10",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-10.png",
+      "sha256": "141a4151a7443f65d097ae8598f8f067f8578722b3301c3f904271fdb39eb547",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-11",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-11.png",
+      "sha256": "b1b85dc3c54d07222d02fb2c03c08b0ef6722752ab3b204b2b9dff24f7b80bbd",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-12",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-12.png",
+      "sha256": "ca8f210ebd34ca385050dbbe7a61e292f9b94e56d95b82394340782cc6568724",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-13",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-13.png",
+      "sha256": "d01bb1ecefa404f63711c4a107c58e75c2414313f56879e2b7a15c1d654b3337",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-14",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-14-r2.png",
+      "sha256": "e6bb965ed5a44e917cf3bb8d64396668e89d5c57d821193c0dff474a08e23490",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-15",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-15-r2.png",
+      "sha256": "2034a2eb012e782810a6ff73af264abff26addc16dce1f8ebc30bedf32521437",
+      "size": [
+        1671,
+        941
+      ]
+    },
+    {
+      "shot_id": "S05-16",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-16.png",
+      "sha256": "20f6171d2919ef9c948b50d1878e65f23c96c9fd1d287c814b1f87a5d53b1116",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S06-01",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-01.png",
+      "sha256": "5f3c5e8a3b0fc85897d7277938b60ca33dd7894c7d6bbbc18c35c086ffa763f3",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S06-02",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-02-r2.png",
+      "sha256": "269bb49caf8761d47ba1291f81ab5ebc1ae7eb2d2bcc0da1430d0bf2aa88d8d6",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S06-03",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-03.png",
+      "sha256": "c8c8c38e9dc0b3f83e3e5d5162df1bfca0d95603410ccac45f90ee6654cbe6cb",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S06-04",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-04.png",
+      "sha256": "63ee56e956fca841e5277f1b88392d5bc327d5e681696091cae8a1126b8a4544",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S06-05",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-05.png",
+      "sha256": "df99330f8ccef202ee2ba1e23a7d9a9a1c47d9f47073072518d7afe81b4a13cf",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S07-01",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-01.png",
+      "sha256": "4319c42b4f20a0fe268d2b06a0aa5d6cf827f9bd380037aafdc8899f139ed3ff",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S07-02",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-02.png",
+      "sha256": "ea9f702d7753878bedd791a2fc1e3a6178836c282c06bb873b10c7c26bae58b0",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S07-03",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-03.png",
+      "sha256": "99610f7f73a71099e68fe85c30ae0dff29e7fec12e8e68c02e8fca67c182ed40",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S07-04",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-04.png",
+      "sha256": "d958bbc46aa6200d19a2ddfeb82b8e3d1f845a28da87d8bb070429e1390aba02",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S07-05",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-05.png",
+      "sha256": "97a6d36a2e7402a9a18b237659aee62ae765bcd8e71961af367d83cb66925902",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S07-06",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-06.png",
+      "sha256": "7c89bb16d0c28744c4aac8e7671732a1763214260e8acd888a98c9d1ae0f3943",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S07-07",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-07-r2.png",
+      "sha256": "7746bb466201aae6e856e8b5e33f39ab2b412e170584f60990795ec2e8a47a1d",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S08-01",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-01-r2.png",
+      "sha256": "1ab0ceea8b92faeec6de73ca2c276786e3dfe9d50f14730f2b1e4c0da3c6ca1e",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S08-02",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-02-r2.png",
+      "sha256": "032694e13a9b6245be600877338ee351af5e54cbe68ad70a0abbbeabf01d6ca3",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S08-03",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-03.png",
+      "sha256": "5a719faf490d0a8ad280deb3373ff22c1181053a748fa6d9bd267e714e9cf801",
+      "size": [
+        1672,
+        941
+      ]
+    },
+    {
+      "shot_id": "S08-04",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-04.png",
+      "sha256": "ca8dc9bc432661da092e4968ebe8ffaba3f60db3462f05915a2d796a1c737cdc",
+      "size": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "selected_count": 32,
+  "source_manifest": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/manifest.json",
+  "source_manifest_sha256": "589e1814cac34d44a56faa8c8d9bfb7d40d92fc631bb35174d3a656c32ced8c9",
+  "manifest_matches_reviewed_selection": true,
+  "role_skill": ".agents/skills/anime-episode-director/SKILL.md",
+  "action_staging_scope": "Compared each selected source to canonical shot action, staging and cast in assigned shots.json; camera movement does not stand in for character action. Representative still selections accepted only for source coverage; omitted character, prop, environment and camera phases explicitly remain later drawings and animation.",
+  "canonical_timing": [
+    {
+      "shot": "S05-01",
+      "start_frame": 6792,
+      "frames": 72,
+      "end_frame": 6864
+    },
+    {
+      "shot": "S05-02",
+      "start_frame": 6864,
+      "frames": 120,
+      "end_frame": 6984
+    },
+    {
+      "shot": "S05-03",
+      "start_frame": 6984,
+      "frames": 144,
+      "end_frame": 7128
+    },
+    {
+      "shot": "S05-04",
+      "start_frame": 7128,
+      "frames": 216,
+      "end_frame": 7344
+    },
+    {
+      "shot": "S05-05",
+      "start_frame": 7344,
+      "frames": 72,
+      "end_frame": 7416
+    },
+    {
+      "shot": "S05-06",
+      "start_frame": 7416,
+      "frames": 192,
+      "end_frame": 7608
+    },
+    {
+      "shot": "S05-07",
+      "start_frame": 7608,
+      "frames": 120,
+      "end_frame": 7728
+    },
+    {
+      "shot": "S05-08",
+      "start_frame": 7728,
+      "frames": 120,
+      "end_frame": 7848
+    },
+    {
+      "shot": "S05-09",
+      "start_frame": 7848,
+      "frames": 144,
+      "end_frame": 7992
+    },
+    {
+      "shot": "S05-10",
+      "start_frame": 7992,
+      "frames": 192,
+      "end_frame": 8184
+    },
+    {
+      "shot": "S05-11",
+      "start_frame": 8184,
+      "frames": 240,
+      "end_frame": 8424
+    },
+    {
+      "shot": "S05-12",
+      "start_frame": 8424,
+      "frames": 288,
+      "end_frame": 8712
+    },
+    {
+      "shot": "S05-13",
+      "start_frame": 8712,
+      "frames": 96,
+      "end_frame": 8808
+    },
+    {
+      "shot": "S05-14",
+      "start_frame": 8808,
+      "frames": 96,
+      "end_frame": 8904
+    },
+    {
+      "shot": "S05-15",
+      "start_frame": 8904,
+      "frames": 96,
+      "end_frame": 9000
+    },
+    {
+      "shot": "S05-16",
+      "start_frame": 9000,
+      "frames": 144,
+      "end_frame": 9144
+    },
+    {
+      "shot": "S06-01",
+      "start_frame": 9144,
+      "frames": 120,
+      "end_frame": 9264
+    },
+    {
+      "shot": "S06-02",
+      "start_frame": 9264,
+      "frames": 384,
+      "end_frame": 9648
+    },
+    {
+      "shot": "S06-03",
+      "start_frame": 9648,
+      "frames": 144,
+      "end_frame": 9792
+    },
+    {
+      "shot": "S06-04",
+      "start_frame": 9792,
+      "frames": 192,
+      "end_frame": 9984
+    },
+    {
+      "shot": "S06-05",
+      "start_frame": 9984,
+      "frames": 144,
+      "end_frame": 10128
+    },
+    {
+      "shot": "S07-01",
+      "start_frame": 10128,
+      "frames": 96,
+      "end_frame": 10224
+    },
+    {
+      "shot": "S07-02",
+      "start_frame": 10224,
+      "frames": 144,
+      "end_frame": 10368
+    },
+    {
+      "shot": "S07-03",
+      "start_frame": 10368,
+      "frames": 528,
+      "end_frame": 10896
+    },
+    {
+      "shot": "S07-04",
+      "start_frame": 10896,
+      "frames": 336,
+      "end_frame": 11232
+    },
+    {
+      "shot": "S07-05",
+      "start_frame": 11232,
+      "frames": 240,
+      "end_frame": 11472
+    },
+    {
+      "shot": "S07-06",
+      "start_frame": 11472,
+      "frames": 288,
+      "end_frame": 11760
+    },
+    {
+      "shot": "S07-07",
+      "start_frame": 11760,
+      "frames": 144,
+      "end_frame": 11904
+    },
+    {
+      "shot": "S08-01",
+      "start_frame": 11904,
+      "frames": 120,
+      "end_frame": 12024
+    },
+    {
+      "shot": "S08-02",
+      "start_frame": 12024,
+      "frames": 120,
+      "end_frame": 12144
+    },
+    {
+      "shot": "S08-03",
+      "start_frame": 12144,
+      "frames": 384,
+      "end_frame": 12528
+    },
+    {
+      "shot": "S08-04",
+      "start_frame": 12528,
+      "frames": 144,
+      "end_frame": 12672
+    }
+  ]
+}

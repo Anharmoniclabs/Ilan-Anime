@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 13,
+      "rect": [
+        161,
+        232,
+        764,
+        324
+      ],
+      "content": "text",
+      "text": "on-screen | 2026 | missing-dedicated-art\nKeyboard typing then staring at JC.\nShots: S10-03, S12-08"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 451,
+    "story": 452
+  }
+}

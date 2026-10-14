@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addItem",
+    "params": {
+      "item": "right-upper-arm.png",
+      "position": [
+        352,
+        330
+      ],
+      "index": 1
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 567
+  }
+}

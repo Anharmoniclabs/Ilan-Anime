@@ -1,0 +1,869 @@
+{
+  "method": "Threshold actual alpha at128. Nib candidate is rightmost opaque point; sleeve registration uses leftmost alpha edge midpoint. Automatic landmarks must be visually checked; no rotation, scaling, warping or translation applied to output cells.",
+  "cells": [
+    {
+      "cell": 1,
+      "bounds": [
+        12,
+        17,
+        214,
+        130
+      ],
+      "nib_candidate": [
+        214,
+        127.0
+      ],
+      "sleeve_cut_midpoint": [
+        12,
+        86.27
+      ],
+      "nib_relative_to_sleeve_cut": [
+        202,
+        40.73
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-01.png"
+    },
+    {
+      "cell": 2,
+      "bounds": [
+        11,
+        14,
+        219,
+        132
+      ],
+      "nib_candidate": [
+        219,
+        126.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        80.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        208,
+        46.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-02.png"
+    },
+    {
+      "cell": 3,
+      "bounds": [
+        11,
+        15,
+        220,
+        129
+      ],
+      "nib_candidate": [
+        220,
+        127.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        72.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        209,
+        55.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-03.png"
+    },
+    {
+      "cell": 4,
+      "bounds": [
+        11,
+        19,
+        223,
+        131
+      ],
+      "nib_candidate": [
+        223,
+        128.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        96.19
+      ],
+      "nib_relative_to_sleeve_cut": [
+        212,
+        31.81
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-04.png"
+    },
+    {
+      "cell": 5,
+      "bounds": [
+        11,
+        13,
+        221,
+        131
+      ],
+      "nib_candidate": [
+        221,
+        123.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        84.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        210,
+        39.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-05.png"
+    },
+    {
+      "cell": 6,
+      "bounds": [
+        12,
+        13,
+        224,
+        129
+      ],
+      "nib_candidate": [
+        224,
+        123.0
+      ],
+      "sleeve_cut_midpoint": [
+        12,
+        86.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        212,
+        37.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-06.png"
+    },
+    {
+      "cell": 7,
+      "bounds": [
+        13,
+        9,
+        221,
+        130
+      ],
+      "nib_candidate": [
+        221,
+        127.5
+      ],
+      "sleeve_cut_midpoint": [
+        13,
+        87.5
+      ],
+      "nib_relative_to_sleeve_cut": [
+        208,
+        40.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-07.png"
+    },
+    {
+      "cell": 8,
+      "bounds": [
+        11,
+        9,
+        219,
+        128
+      ],
+      "nib_candidate": [
+        219,
+        125.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        75.5
+      ],
+      "nib_relative_to_sleeve_cut": [
+        208,
+        49.5
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-08.png"
+    },
+    {
+      "cell": 9,
+      "bounds": [
+        12,
+        8,
+        220,
+        128
+      ],
+      "nib_candidate": [
+        220,
+        124.5
+      ],
+      "sleeve_cut_midpoint": [
+        12,
+        83.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        208,
+        41.5
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-09.png"
+    },
+    {
+      "cell": 10,
+      "bounds": [
+        11,
+        9,
+        222,
+        132
+      ],
+      "nib_candidate": [
+        222,
+        125.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        91.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        211,
+        34.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-10.png"
+    },
+    {
+      "cell": 11,
+      "bounds": [
+        11,
+        10,
+        214,
+        131
+      ],
+      "nib_candidate": [
+        214,
+        120.5
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        86.5
+      ],
+      "nib_relative_to_sleeve_cut": [
+        203,
+        34.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-11.png"
+    },
+    {
+      "cell": 12,
+      "bounds": [
+        12,
+        10,
+        218,
+        132
+      ],
+      "nib_candidate": [
+        218,
+        125.0
+      ],
+      "sleeve_cut_midpoint": [
+        12,
+        87.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        206,
+        38.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-12.png"
+    },
+    {
+      "cell": 13,
+      "bounds": [
+        12,
+        9,
+        221,
+        139
+      ],
+      "nib_candidate": [
+        221,
+        123.5
+      ],
+      "sleeve_cut_midpoint": [
+        12,
+        78.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        209,
+        45.5
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-13.png"
+    },
+    {
+      "cell": 14,
+      "bounds": [
+        11,
+        2,
+        227,
+        132
+      ],
+      "nib_candidate": [
+        227,
+        103.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        83.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        216,
+        20.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-14.png"
+    },
+    {
+      "cell": 15,
+      "bounds": [
+        11,
+        4,
+        229,
+        134
+      ],
+      "nib_candidate": [
+        229,
+        97.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        64.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        218,
+        33.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-15.png"
+    },
+    {
+      "cell": 16,
+      "bounds": [
+        11,
+        19,
+        224,
+        140
+      ],
+      "nib_candidate": [
+        224,
+        138.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        88.74
+      ],
+      "nib_relative_to_sleeve_cut": [
+        213,
+        49.26
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-16.png"
+    },
+    {
+      "cell": 17,
+      "bounds": [
+        11,
+        26,
+        222,
+        140
+      ],
+      "nib_candidate": [
+        222,
+        132.5
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        91.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        211,
+        41.5
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-17.png"
+    },
+    {
+      "cell": 18,
+      "bounds": [
+        12,
+        28,
+        228,
+        140
+      ],
+      "nib_candidate": [
+        228,
+        137.0
+      ],
+      "sleeve_cut_midpoint": [
+        12,
+        90.5
+      ],
+      "nib_relative_to_sleeve_cut": [
+        216,
+        46.5
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-18.png"
+    },
+    {
+      "cell": 19,
+      "bounds": [
+        12,
+        23,
+        219,
+        136
+      ],
+      "nib_candidate": [
+        219,
+        131.0
+      ],
+      "sleeve_cut_midpoint": [
+        12,
+        88.17
+      ],
+      "nib_relative_to_sleeve_cut": [
+        207,
+        42.83
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-19.png"
+    },
+    {
+      "cell": 20,
+      "bounds": [
+        11,
+        21,
+        220,
+        135
+      ],
+      "nib_candidate": [
+        220,
+        132.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        83.5
+      ],
+      "nib_relative_to_sleeve_cut": [
+        209,
+        48.5
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-20.png"
+    },
+    {
+      "cell": 21,
+      "bounds": [
+        11,
+        14,
+        221,
+        132
+      ],
+      "nib_candidate": [
+        221,
+        128.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        76.5
+      ],
+      "nib_relative_to_sleeve_cut": [
+        210,
+        51.5
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-21.png"
+    },
+    {
+      "cell": 22,
+      "bounds": [
+        11,
+        14,
+        220,
+        133
+      ],
+      "nib_candidate": [
+        220,
+        125.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        86.5
+      ],
+      "nib_relative_to_sleeve_cut": [
+        209,
+        38.5
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-22.png"
+    },
+    {
+      "cell": 23,
+      "bounds": [
+        11,
+        14,
+        219,
+        132
+      ],
+      "nib_candidate": [
+        219,
+        123.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        87.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        208,
+        36.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-23.png"
+    },
+    {
+      "cell": 24,
+      "bounds": [
+        12,
+        11,
+        218,
+        129
+      ],
+      "nib_candidate": [
+        218,
+        121.0
+      ],
+      "sleeve_cut_midpoint": [
+        12,
+        85.5
+      ],
+      "nib_relative_to_sleeve_cut": [
+        206,
+        35.5
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-24.png"
+    },
+    {
+      "cell": 25,
+      "bounds": [
+        12,
+        15,
+        219,
+        130
+      ],
+      "nib_candidate": [
+        219,
+        126.5
+      ],
+      "sleeve_cut_midpoint": [
+        12,
+        88.75
+      ],
+      "nib_relative_to_sleeve_cut": [
+        207,
+        37.75
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-25.png"
+    },
+    {
+      "cell": 26,
+      "bounds": [
+        11,
+        18,
+        220,
+        132
+      ],
+      "nib_candidate": [
+        220,
+        128.5
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        80.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        209,
+        48.5
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-26.png"
+    },
+    {
+      "cell": 27,
+      "bounds": [
+        12,
+        15,
+        220,
+        132
+      ],
+      "nib_candidate": [
+        220,
+        127.0
+      ],
+      "sleeve_cut_midpoint": [
+        12,
+        87.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        208,
+        40.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-27.png"
+    },
+    {
+      "cell": 28,
+      "bounds": [
+        11,
+        15,
+        222,
+        133
+      ],
+      "nib_candidate": [
+        222,
+        128.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        86.57
+      ],
+      "nib_relative_to_sleeve_cut": [
+        211,
+        41.43
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-28.png"
+    },
+    {
+      "cell": 29,
+      "bounds": [
+        11,
+        15,
+        221,
+        129
+      ],
+      "nib_candidate": [
+        221,
+        125.5
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        84.5
+      ],
+      "nib_relative_to_sleeve_cut": [
+        210,
+        41.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-29.png"
+    },
+    {
+      "cell": 30,
+      "bounds": [
+        12,
+        13,
+        225,
+        147
+      ],
+      "nib_candidate": [
+        225,
+        116.0
+      ],
+      "sleeve_cut_midpoint": [
+        12,
+        87.5
+      ],
+      "nib_relative_to_sleeve_cut": [
+        213,
+        28.5
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 26,
+      "path": "cells/pose-30.png"
+    },
+    {
+      "cell": 31,
+      "bounds": [
+        12,
+        9,
+        222,
+        135
+      ],
+      "nib_candidate": [
+        222,
+        125.5
+      ],
+      "sleeve_cut_midpoint": [
+        12,
+        106.5
+      ],
+      "nib_relative_to_sleeve_cut": [
+        210,
+        19.0
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-31.png"
+    },
+    {
+      "cell": 32,
+      "bounds": [
+        11,
+        2,
+        225,
+        135
+      ],
+      "nib_candidate": [
+        225,
+        98.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        94.5
+      ],
+      "nib_relative_to_sleeve_cut": [
+        214,
+        3.5
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-32.png"
+    },
+    {
+      "cell": 33,
+      "bounds": [
+        11,
+        4,
+        222,
+        135
+      ],
+      "nib_candidate": [
+        222,
+        96.0
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        71.74
+      ],
+      "nib_relative_to_sleeve_cut": [
+        211,
+        24.26
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-33.png"
+    },
+    {
+      "cell": 34,
+      "bounds": [
+        11,
+        1,
+        218,
+        137
+      ],
+      "nib_candidate": [
+        218,
+        87.5
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        93.9
+      ],
+      "nib_relative_to_sleeve_cut": [
+        207,
+        -6.4
+      ],
+      "opaque_top_border": 0,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-34.png"
+    },
+    {
+      "cell": 35,
+      "bounds": [
+        11,
+        0,
+        217,
+        137
+      ],
+      "nib_candidate": [
+        217,
+        94.5
+      ],
+      "sleeve_cut_midpoint": [
+        11,
+        92.5
+      ],
+      "nib_relative_to_sleeve_cut": [
+        206,
+        2.0
+      ],
+      "opaque_top_border": 6,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-35.png"
+    },
+    {
+      "cell": 36,
+      "bounds": [
+        12,
+        0,
+        212,
+        135
+      ],
+      "nib_candidate": [
+        212,
+        86.5
+      ],
+      "sleeve_cut_midpoint": [
+        12,
+        92.0
+      ],
+      "nib_relative_to_sleeve_cut": [
+        200,
+        -5.5
+      ],
+      "opaque_top_border": 27,
+      "opaque_bottom_border": 0,
+      "path": "cells/pose-36.png"
+    }
+  ]
+}

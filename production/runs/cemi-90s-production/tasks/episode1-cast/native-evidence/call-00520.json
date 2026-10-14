@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 18,
+      "rect": [
+        161,
+        110,
+        764,
+        202
+      ],
+      "content": "text",
+      "text": "mentioned-only | various | no-character-drawing-required\nBusiness names only; bodega third man not named.\nShots: S09-05, S15-02"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 595,
+    "story": 596
+  }
+}

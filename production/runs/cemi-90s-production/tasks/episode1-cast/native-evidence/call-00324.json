@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 11,
+      "rect": [
+        161,
+        354,
+        764,
+        446
+      ],
+      "content": "text",
+      "text": "on-screen | 2026 | reference-only\nActual animal action cast, not prop.\nShots: S03-12"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 397,
+    "story": 398
+  }
+}

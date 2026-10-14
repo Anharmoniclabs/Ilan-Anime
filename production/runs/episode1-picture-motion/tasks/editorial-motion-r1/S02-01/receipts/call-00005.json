@@ -1,0 +1,15 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addShapeItem",
+    "params": {
+      "layer": 27,
+      "kind": "trim"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "path": "contents/trim",
+    "uid": 92
+  }
+}

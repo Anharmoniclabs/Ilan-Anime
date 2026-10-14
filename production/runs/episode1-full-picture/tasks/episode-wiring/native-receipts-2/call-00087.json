@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 93223872000000,
+      "durationFrames": 96,
+      "name": "S05-14 missing",
+      "comment": "hard jump cut; hand recoil; grip retained"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 64
+  }
+}

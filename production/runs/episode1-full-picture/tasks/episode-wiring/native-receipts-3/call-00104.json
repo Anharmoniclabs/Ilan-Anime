@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 128532096000000,
+      "durationFrames": 384,
+      "name": "S08-03 missing",
+      "comment": "bolt corner; greeting; nightwork denial; JC glance window"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 81
+  }
+}

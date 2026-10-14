@@ -1,0 +1,29 @@
+{
+  "id": "05-beheto",
+  "name": "Beheto",
+  "status": "exploratory",
+  "kind": "editable-reference-library",
+  "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/05-Beheto.png",
+  "source_sha256": "53bc253e8d92e1c370a42110bcf66c180b1a1e95872d1cf4eb7a694c6b2057fb",
+  "snapshot": "source.png",
+  "identity_observations": "Older angular man, gray swept-back tied hair, hollow cheek planes, pale wrap top, charcoal wrap, rope-tensioned drum; seated palms contact pose.",
+  "script_shots": [
+    "S01-02",
+    "S01-11",
+    "S01-12",
+    "S01-14"
+  ],
+  "missing_art": "Registered hover/contact/weight press/settle drawing sequence on fixed drum; breathing torso; seated anatomy and hidden hand/drum contact surfaces.",
+  "directly_viewed": true,
+  "source_approval": "not established by this task",
+  "rig_status": "not built",
+  "registration_status": "not registered",
+  "motion_status": "not tested",
+  "native": "../native-alpha-preserved-v2/05-beheto.pcraft",
+  "layer_design": [
+    "Hidden locked archived source",
+    "Visible editable full-sheet reference"
+  ],
+  "separated_parts": false,
+  "separation_decision": "Source alpha is present: the warm backdrop seen in raw RGB is transparent. Existing views can be manually selected for future reference use; this task preserves the full sheet. Hair/clothing/limbs and hidden contact surfaces still need newly drawn separated parts."
+}

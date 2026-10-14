@@ -1,0 +1,620 @@
+[
+  {
+    "id": "S05-01",
+    "script": "`04:43:00 \u2192 04:46:00` (72f) \u00b7 DOLLY-ZOOM \u00b7 CU JC \u00b7 rate 3s\n- **Action:** His ears pop 'like an elevator dropping a floor'. Air thickens at the edges of the frame.\n- **FX:** `DOLLY_ZOOM(3s); VIGNETTE_PUMP; HEAT_WAVE(edges)`\n- **Sound:** Pitch-fall pop. Fan click.",
+    "start_frame": 6792,
+    "frames": 72,
+    "end_frame": 6864,
+    "keyframes": [
+      "assets/keyframes/S05-01.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-present"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+    ]
+  },
+  {
+    "id": "S05-02",
+    "script": "`04:46:00 \u2192 04:51:00` (120f) \u00b7 WS room \u2192 CU wall \u00b7 rate 2s\n- **Action:** The projector coughs. The cobalt 'JC' test loop breaks into static, which pulls toward the middle of the wall. The plaster surface ripples in concentric rings.\n- **FX:** `STATIC_PULL(center); SHOCKWAVE_RING(wall); PLASTER_CRACK(hand-drawn, 2s)`\n- **Sound:** Static sucks inward; plaster creak.",
+    "start_frame": 6864,
+    "frames": 120,
+    "end_frame": 6984,
+    "keyframes": [
+      "assets/keyframes/S05-02.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [],
+    "cast_reference_paths": []
+  },
+  {
+    "id": "S05-03",
+    "script": "`04:51:00 \u2192 04:57:00` (144f) \u00b7 PUSH THROUGH WALL \u00b7 rate 3s\n- **Action:** 'It was a room.' The wall gives way. The plaster goes back and back: a long hall, a floor with a shine, chandeliers that don't hang from JC's ceiling, a bandstand far away.\n- **FX:** `PERSPECTIVE_TUNNEL(painted BG, 6 layers); PLASTER_PEEL_CEL; FLASH_FRAME(1f)`\n- **Sound:** Air rush. Orchestral brass fades up from inside the headphones around his neck.",
+    "start_frame": 6984,
+    "frames": 144,
+    "end_frame": 7128,
+    "keyframes": [
+      "assets/keyframes/S05-03.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [],
+    "cast_reference_paths": []
+  },
+  {
+    "id": "S05-04",
+    "script": "`04:57:00 \u2192 05:06:00` (216f) \u00b7 CRANE & PAN \u00b7 WS reveal \u00b7 rate 3s\n- **Action:** The Ballroom, 1957. About forty couples made of light (blue and gold), two-tone shoes, skirts catching air; horn section on the bandstand; a cowbell ridden 'with no hurry at all'. Date super: THE BALLROOM \u00b7 1957.\n- **FX:** `LIGHT_FIGURE(dancers, bank cycles x3); PAINTED_BG(ballroom); GLOW_AIRBRUSH; FILM_GRAIN`\n- **Sound:** Horns, cowbell, shoe leather on maple, a woman laughing at the end of a phrase.",
+    "start_frame": 7128,
+    "frames": 216,
+    "end_frame": 7344,
+    "keyframes": [
+      "assets/keyframes/S05-04.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "ballroom-crowd",
+      "ballroom-band"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-band-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-a-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-b-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-c-master.png"
+    ]
+  },
+  {
+    "id": "S05-05",
+    "script": "`05:06:00 \u2192 05:09:00` (72f) \u00b7 INSERT \u00b7 neck \u00b7 rate 3s\n- **Action:** The headphones around his neck, leaking music, tiny sound-lines. He has not put them on.\n- **FX:** `SOUND_LEAK_CEL`\n- **Sound:** Tinny, small, then opens to full range as the hall appears.",
+    "start_frame": 7344,
+    "frames": 72,
+    "end_frame": 7416,
+    "keyframes": [
+      "assets/keyframes/S05-05.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-present"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+    ]
+  },
+  {
+    "id": "S05-06",
+    "script": "`05:09:00 \u2192 05:17:00` (192f) \u00b7 TRACK \u00b7 hero dancers \u00b7 rate 2s\n- **Action:** Hero pass: three couples in quick cuts. Footwork, a spin, a skirt flare. The cowbell hits the shoe strikes; the maple floor reflects them.\n- **FX:** `SKIRT_FLARE_CEL(2s); FLOOR_REFLECTION; SPEED_LINES(spin)`\n- **Sound:** Two-tone shoes on wood, in time with the cowbell.\n- **Note:** The one passage allowed on 2s full dance animation; everything else here holds on 3s.",
+    "start_frame": 7416,
+    "frames": 192,
+    "end_frame": 7608,
+    "keyframes": [
+      "assets/keyframes/S05-06.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "ballroom-hero-couples"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-a-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-b-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-c-master.png"
+    ]
+  },
+  {
+    "id": "S05-07",
+    "script": "`05:17:00 \u2192 05:22:00` (120f) \u00b7 TOP SHOT \u00b7 floor inlay \u00b7 rate 3s\n- **Action:** The floor inlay in darker wood: the spiral opening into a triangle. Dancers circle it without ever looking down. Insert: the coin on the nightstand, glinting.\n- **FX:** `TOP_DOWN_ROTATE(slow); SIGIL_INLAY(gold edge); MATCH_INSERT(coin)`\n- **Sound:** Cowbell fades under JC's whisper: \u201cIt was the mark on my coin.\u201d",
+    "start_frame": 7608,
+    "frames": 120,
+    "end_frame": 7728,
+    "keyframes": [
+      "assets/keyframes/S05-07.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "ballroom-crowd"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-a-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-b-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-c-master.png"
+    ]
+  },
+  {
+    "id": "S05-08",
+    "script": "`05:22:00 \u2192 05:27:00` (120f) \u00b7 FALLING CAMERA \u00b7 section \u00b7 rate 2s\n- **Action:** Camera drops through the floors of the building, 4th to ground, as the year numerals tick down: 2026 \u2026 1957. The Ballroom glows at the bottom. 'One floor under my feet and almost seventy years down.'\n- **FX:** `BUILDING_SECTION_BG; YEAR_COUNTER(rapid); SPEED_BG(vertical)`\n- **Sound:** Whoosh without Doppler; music stays centered.",
+    "start_frame": 7728,
+    "frames": 120,
+    "end_frame": 7848,
+    "keyframes": [
+      "assets/keyframes/S05-08.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [],
+    "cast_reference_paths": []
+  },
+  {
+    "id": "S05-09",
+    "script": "`05:27:00 \u2192 05:33:00` (144f) \u00b7 INSERT \u2192 CROSSCUT \u00b7 rate 3s\n- **Action:** 'I felt it before I heard it': a pulse climbs the iron riser into JC's soles. Cut to a long dark window across the street. 'Across the street, I thought.' The loop arrives: dry, tuneless, the loudest thing on the block.\n- **FX:** `PIPE_PULSE_CEL; MATCH_CUT(window across); PRESS(0.25 on audio only)`\n- **Sound:** Sub pulse up the pipe, then the 8s loop: no reverb, mono.",
+    "start_frame": 7848,
+    "frames": 144,
+    "end_frame": 7992,
+    "keyframes": [
+      "assets/keyframes/S05-09-A.png",
+      "assets/keyframes/S05-09-B.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-present"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+    ]
+  },
+  {
+    "id": "S05-10",
+    "script": "`05:33:00 \u2192 05:41:00` (192f) \u00b7 MS \u00d73 \u2192 CU \u00b7 rate 3s\n- **Action:** The band keeps playing. One couple loses the step, then the next. A woman's smile goes slack mid-turn. A man puts his hand on his partner's back and stands still.\n- **FX:** `HOLD_FRAMES(drop to 6s on couples); SLACK_CEL_SEQ(see keys); PRESS(0.3 \u2192 0.6 over the shot)`\n- **Sound:** Brass loses high end and stereo width as the loop rises.\n- **Note:** SHOWCASE CUT 1 begins.",
+    "start_frame": 7992,
+    "frames": 192,
+    "end_frame": 8184,
+    "keyframes": [
+      "assets/keyframes/S05-10.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "ballroom-hero-couples",
+      "ballroom-band"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-band-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-a-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-b-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-c-master.png"
+    ]
+  },
+  {
+    "id": "S05-11",
+    "script": "`05:41:00 \u2192 05:51:00` (240f) \u00b7 WS \u00b7 long frame \u00b7 rate 3s\n- **Action:** Pair by pair down the floor the shoulders drop and the faces empty, until the band is playing for a hall of people standing in their good clothes. The wave of stillness crosses toward the bandstand. The horns keep going.\n- **FX:** `STILL_WAVE(near\u2192far, 6s); PRESS(0.6\u21920.9); DEPTH_FLATTEN(parallax\u21920)`\n- **Sound:** Music continues, drier each second; loop fills the gap.",
+    "start_frame": 8184,
+    "frames": 240,
+    "end_frame": 8424,
+    "keyframes": [
+      "assets/keyframes/S05-11.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "ballroom-crowd",
+      "ballroom-band"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-band-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-a-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-b-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-c-master.png"
+    ]
+  },
+  {
+    "id": "S05-12",
+    "script": "`05:51:00 \u2192 06:03:00` (288f) \u00b7 WHIP \u00b7 WS \u00b7 rate 2s\n- **Action:** 'The color didn't fade. It ran.' Blue and gold stream off the dancers as airbrushed ribbons, all leaning one way, across the hall and out through JC's window toward the empty building. Dancers turn gray-white. The floor mark goes as dark as the boards.\n- **FX:** `AIRBRUSH_RIBBONS(blue,gold; count 40; 2s); STREAK_CEL; WHIP_PAN(follow river); SIGIL_GOES_DARK`\n- **Sound:** A long exhale made of brass partials, falling in pitch.",
+    "start_frame": 8424,
+    "frames": 288,
+    "end_frame": 8712,
+    "keyframes": [
+      "assets/keyframes/S05-12.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "ballroom-crowd"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-a-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-b-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-c-master.png"
+    ]
+  },
+  {
+    "id": "S05-13",
+    "script": "`06:03:00 \u2192 06:07:00` (96f) \u00b7 ECU \u00b7 nightstand \u00b7 rate 1s\n- **Action:** 'Something ticked on the nightstand.' The coin lifts half an inch, hangs, drops. Impact on wood.\n- **FX:** `COIN_LIFT(see keys); FLASH_FRAME(1f at contact)`\n- **Sound:** Single metallic tick.\n- **Note:** A 1s moment, used sparingly.",
+    "start_frame": 8712,
+    "frames": 96,
+    "end_frame": 8808,
+    "keyframes": [
+      "assets/keyframes/S05-13.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [],
+    "cast_reference_paths": []
+  },
+  {
+    "id": "S05-14",
+    "script": "`06:07:00 \u2192 06:11:00` (96f) \u00b7 JUMP CUT \u00b7 CU palm \u00b7 rate 2s\n- **Action:** He is already against the door; the chair is on its side. He did not decide to move. The coin is in his hand, hot now; his fingers recoil but hold.\n- **FX:** `JUMP_CUT(no inbetween); SPEED_LINES; HEAT_SHIMMER(red)`\n- **Sound:** Chair clatters. Coin sizzle.",
+    "start_frame": 8808,
+    "frames": 96,
+    "end_frame": 8904,
+    "keyframes": [
+      "assets/keyframes/S05-14.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-present"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+    ]
+  },
+  {
+    "id": "S05-15",
+    "script": "`06:11:00 \u2192 06:15:00` (96f) \u00b7 FIX \u00b7 room \u00b7 rate \u2014\n- **Action:** Everything in the apartment goes out at once: laptop, lamp, router LEDs, fan spin-down. Black.\n- **FX:** `BLACKOUT_POP(sequential 3f gaps)`\n- **Sound:** Fan whine falls. Total silence for 1s.",
+    "start_frame": 8904,
+    "frames": 96,
+    "end_frame": 9000,
+    "keyframes": [],
+    "status": "missing_art",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [],
+    "cast_reference_paths": []
+  },
+  {
+    "id": "S05-16",
+    "script": "`06:15:00 \u2192 06:21:00` (144f) \u00b7 FIX \u00b7 wall in darkness \u00b7 rate 3s\n- **Action:** For two more seconds the dancers hang on the wall, blue and gold, with no projector under them. Then they go. The radiators tick back to normal, 'because as far as the radiators were concerned nothing had happened'.\n- **FX:** `TRANSMITTED_LIGHT_ONLY; FADE_OUT(48f); HOLD_BLACK`\n- **Sound:** One last cowbell. Radiator ticks.",
+    "start_frame": 9000,
+    "frames": 144,
+    "end_frame": 9144,
+    "keyframes": [
+      "assets/keyframes/S05-16.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "ballroom-crowd"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-a-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-b-master.png",
+      "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-c-master.png"
+    ]
+  },
+  {
+    "id": "S06-01",
+    "script": "`06:21:00 \u2192 06:26:00` (120f) \u00b7 FIX \u00b7 door \u00b7 rate 3s\n- **Action:** Darkness. Two taps on the door: one to ask, one to tell you what she decided. Slippers show as shadows under the door.\n- **FX:** `SHADOW_CEL(door gap); CHROMA_BLEED`\n- **Sound:** Two taps: first rising, second falling. Rosary clicks.",
+    "start_frame": 9144,
+    "frames": 120,
+    "end_frame": 9264,
+    "keyframes": [
+      "assets/keyframes/S06-01.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "mama-present"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.png"
+    ]
+  },
+  {
+    "id": "S06-02",
+    "script": "`06:26:00 \u2192 06:42:00` (384f) \u00b7 TWO-SHOT split door \u00b7 rate 3s\n- **Action:** Mam\u00e1: \u201cJuan Carlos. Se fue la luz.\u201d JC: \u201cIt's the whole block, M\u00e1.\u201d (He hadn't checked; said with 'total confidence and no evidence'.) The rosary clicks in her fist; he can hear her decide not to ask. \u201cAcu\u00e9state.\u201d Her slippers go down the hall and stop; she stands at the end of the hall, as she does.\n- **FX:** `HOLD(bank cel); MOUTH_FLAP(3 drawings); DOOR_CROSS_CUT`\n- **Sound:** Muffled Spanish through wood. Rosary. Slippers.",
+    "start_frame": 9264,
+    "frames": 384,
+    "end_frame": 9648,
+    "keyframes": [
+      "assets/keyframes/S06-02.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-present",
+      "mama-present"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.png"
+    ]
+  },
+  {
+    "id": "S06-03",
+    "script": "`06:42:00 \u2192 06:48:00` (144f) \u00b7 WS \u00b7 window POV \u00b7 rate 3s\n- **Action:** The block is out: streetlights, bodega sign, the laundromat on Jerome, every window up and down. Distant city skyline glows normally beyond the block's edge.\n- **FX:** `PAINTED_BG(night_block_dark); AMBIENT_GLOW(far skyline)`\n- **Sound:** Distant city hum; none on the block.\n- **Note:** [ADAPT] The far skyline lit makes the blackout read as block-sized.",
+    "start_frame": 9648,
+    "frames": 144,
+    "end_frame": 9792,
+    "keyframes": [
+      "assets/keyframes/S06-03.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [],
+    "cast_reference_paths": []
+  },
+  {
+    "id": "S06-04",
+    "script": "`06:48:00 \u2192 06:56:00` (192f) \u00b7 RACK FOCUS \u00b7 PUSH-IN \u00b7 rate 3s\n- **Action:** Foreground sill \u2192 across the street: one window on the third floor of the empty building (blue construction netting) is lit, flat white, no flicker. A man in headphones stands there facing JC's building.\n- **FX:** `RACK_FOCUS; PUSH_IN(5% over 8s); FLAT_LIGHT_CEL`\n- **Sound:** Room tone. The loop is almost gone: a thread at -40 dB.",
+    "start_frame": 9792,
+    "frames": 192,
+    "end_frame": 9984,
+    "keyframes": [
+      "assets/keyframes/S06-04.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "window-man"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/window-man.png"
+    ]
+  },
+  {
+    "id": "S06-05",
+    "script": "`06:56:00 \u2192 07:02:00` (144f) \u00b7 MCU JC \u2192 WS window \u00b7 rate 3s\n- **Action:** When he steps back from the glass the man does not move. Hold. Smash to black.\n- **FX:** `HOLD(4s); SMASH_CUT_BLACK`\n- **Sound:** Cut to silence, then rosary click fades.\n- **Note:** Do not identify the man. See flags in the closing section.",
+    "start_frame": 9984,
+    "frames": 144,
+    "end_frame": 10128,
+    "keyframes": [
+      "assets/keyframes/S06-05.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-present",
+      "window-man"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/window-man.png"
+    ]
+  },
+  {
+    "id": "S07-01",
+    "script": "`07:02:00 \u2192 07:06:00` (96f) \u00b7 FIX \u00b7 title super \u00b7 rate 3s\n- **Action:** Super: TUESDAY \u00b7 MORNING. Kitchen, dawn light through the window. Radio on low, a merengue. Chair rocks on a short leg propped by a folded Con Ed bill (since 2011).\n- **FX:** `PAINTED_BG(kitchen_dawn); TEXT_SUPER; INSERT_CU(chair)`\n- **Sound:** Merengue on radio; the chair's rock clicks.",
+    "start_frame": 10128,
+    "frames": 96,
+    "end_frame": 10224,
+    "keyframes": [
+      "assets/keyframes/S07-01.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [],
+    "cast_reference_paths": []
+  },
+  {
+    "id": "S07-02",
+    "script": "`07:06:00 \u2192 07:12:00` (144f) \u00b7 ECU series \u00b7 rate 3s\n- **Action:** Mam\u00e1 turns salami with a fork. Queso frito sizzles. Mang\u00fa steam. Real food painting: background-grade cels for the food.\n- **FX:** `FOOD_PAINT_CEL; STEAM_LOOP(bank)`\n- **Sound:** Sizzle, radio, fork on pan.",
+    "start_frame": 10224,
+    "frames": 144,
+    "end_frame": 10368,
+    "keyframes": [
+      "assets/keyframes/S07-02.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "mama-present"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.png"
+    ]
+  },
+  {
+    "id": "S07-03",
+    "script": "`07:12:00 \u2192 07:34:00` (528f) \u00b7 TWO-SHOT / OTS \u00b7 rate 3s\n- **Action:** Mam\u00e1: \u201cLa luz se fue a las tres y volvi\u00f3 a las cuatro. Con Ed says transformer. The super says Con Ed. Do\u00f1a Fela on five says it was the Lord.\u201d \u201cWhat do you say?\u201d \u201cI say the keyboard stopped at three-oh-seven. I look at the clock when you don't sleep. Si\u00e9ntate.\u201d (Los tres golpes.)\n- **FX:** `HOLD(bank cel); MOUTH_FLAP`\n- **Sound:** Pan, kitchen sounds, Mam\u00e1's dry voice.",
+    "start_frame": 10368,
+    "frames": 528,
+    "end_frame": 10896,
+    "keyframes": [
+      "assets/keyframes/S07-03.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-present",
+      "mama-present",
+      "fela"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.png"
+    ]
+  },
+  {
+    "id": "S07-04",
+    "script": "`07:34:00 \u2192 07:48:00` (336f) \u00b7 MCU \u00b7 slow \u00b7 rate 3s\n- **Action:** Mam\u00e1 gives him 'the slow inspection that doesn't miss anything.' \u201cTu abuela llam\u00f3 anoche. Antes de que se fuera la luz.\u201d \u201cShe good?\u201d \u201cShe's old, she's stubborn, she's good.\u201d (practiced pause) \u201cShe asked if it already started.\u201d The mang\u00fa turns to wet sand in his mouth.\n- **FX:** `FOOD_DESATURATE(to wet sand, 3s); LOOK_HOLD(2s)`\n- **Sound:** Radio drops away on 'started'.",
+    "start_frame": 10896,
+    "frames": 336,
+    "end_frame": 11232,
+    "keyframes": [
+      "assets/keyframes/S07-04.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-present",
+      "mama-present"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.png"
+    ]
+  },
+  {
+    "id": "S07-05",
+    "script": "`07:48:00 \u2192 07:58:00` (240f) \u00b7 TRIPTYCH \u00b7 dissolves \u00b7 rate \u2014\n- **Action:** 'The Look': Mam\u00e1 looks over her coffee and decides not to answer. Dissolve through JC at nine (asking where Pap\u00e1 goes on nights he doesn't come home) and after the fever at twelve. Same pose, same angle, three eras of warm light.\n- **FX:** `HARMONY_CUT(freeze + pastel posterize); DISSOLVE_TRIPTYCH`\n- **Sound:** Silence except coffee cup on saucer. Each time: her 'Mm' with a sermon folded inside.\n- **Note:** [ADAPT] The Dezaki-style freeze + hatched pastel still is the 90s answer to a flashback.",
+    "start_frame": 11232,
+    "frames": 240,
+    "end_frame": 11472,
+    "keyframes": [
+      "assets/keyframes/S07-05.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-nine",
+      "jc-twelve",
+      "mama-present",
+      "mama-younger"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.png",
+      "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-nine.png",
+      "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-twelve.png",
+      "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-34.png",
+      "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-37.png",
+      "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-40.png"
+    ]
+  },
+  {
+    "id": "S07-06",
+    "script": "`07:58:00 \u2192 08:10:00` (288f) \u00b7 CU \u00b7 pocket \u00b7 rate 3s\n- **Action:** \u201cEat lunch. A real one. Not coffee.\u201d \u201cPromise.\u201d \u201cYou said that yesterday.\u201d \u201cI'll mean it harder today.\u201d The coin is warm against his hip; something that kept its mouth shut for twenty-five years clears its throat.\n- **FX:** `HEAT_SHIMMER(pocket); LIST_APPEND(Ballroom, dancers, man in window, grandmother's question); GLOW_AIRBRUSH(low)`\n- **Sound:** Under radio and Mam\u00e1's back, a low throat-clear rumble.",
+    "start_frame": 11472,
+    "frames": 288,
+    "end_frame": 11760,
+    "keyframes": [
+      "assets/keyframes/S07-06.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-present",
+      "mama-present"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.png"
+    ]
+  },
+  {
+    "id": "S07-07",
+    "script": "`08:10:00 \u2192 08:16:00` (144f) \u00b7 TRACK \u00b7 stairwell \u00b7 rate 3s\n- **Action:** He heads for work down four flights. At the fourth-floor stairwell wall his hand brushes the plaster; for a frame he almost listens.\n- **FX:** `PAINTED_BG(stairwell); HAND_BRUSH_CEL`\n- **Sound:** Stairwell echo; a very faint wall hum that isn't there.\n- **Note:** [ADAPT] Plants Mikey (S14).",
+    "start_frame": 11760,
+    "frames": 144,
+    "end_frame": 11904,
+    "keyframes": [
+      "assets/keyframes/S07-07.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-present"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+    ]
+  },
+  {
+    "id": "S08-01",
+    "script": "`08:16:00 \u2192 08:21:00` (120f) \u00b7 TILT UP \u00b7 WS \u00b7 rate 3s\n- **Action:** Banner on the netting, four stories tall: smiling mural people, 'A CALMER BLOCK STARTS HERE.' in rounded friendly type.\n- **FX:** `PAINTED_BG(banner); STOCK_PHOTO_STYLE(flat vector, deliberately bland)`\n- **Sound:** Street ambience. Light jingle ghost.",
+    "start_frame": 11904,
+    "frames": 120,
+    "end_frame": 12024,
+    "keyframes": [
+      "assets/keyframes/S08-01.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "banner-people"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/banner-people-v2.png"
+    ]
+  },
+  {
+    "id": "S08-02",
+    "script": "`08:21:00 \u2192 08:26:00` (120f) \u00b7 CU logo \u00b7 rate 3s\n- **Action:** Logo: a camera iris. As JC's eyes trace the blades, the overlapped curve lines up with the cem\u00ed spiral for exactly 3 frames, then un-aligns. Text: Aperture Civic. Community Spaces, Coming Soon.\n- **FX:** `SIGIL_RHYME(3f overlay, 40% alpha); FLASH_FRAME(1f)`\n- **Sound:** A tiny soft 'click' like a shutter.",
+    "start_frame": 12024,
+    "frames": 120,
+    "end_frame": 12144,
+    "keyframes": [],
+    "status": "missing_art",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-present"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+    ]
+  },
+  {
+    "id": "S08-03",
+    "script": "`08:26:00 \u2192 08:42:00` (384f) \u00b7 TWO-SHOT \u00b7 rate 3s\n- **Action:** Two guys in hi-vis bolting the last corner to the scaffold. The one with the ladder has headphones around his neck. \u201cMorning.\u201d \u201cYou guys work late?\u201d \u201cNights? Nah. Union. We clock out at three-thirty. Daylight only.\u201d JC glances at the third-floor window: dark.\n- **FX:** `HOLD(bank cel); MOUTH_FLAP; INSERT_CU(window dark)`\n- **Sound:** Wrench clicks; elevated train in distance.\n- **Note:** Give him a distinct face. The headphone silhouette is a deliberate rhyme, not the window man.",
+    "start_frame": 12144,
+    "frames": 384,
+    "end_frame": 12528,
+    "keyframes": [],
+    "status": "missing_art",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-present",
+      "union-speaker",
+      "union-second"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/union-second.png",
+      "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/union-speaker.png"
+    ]
+  },
+  {
+    "id": "S08-04",
+    "script": "`08:42:00 \u2192 08:48:00` (144f) \u00b7 TRACK \u00b7 walk \u00b7 rate 3s\n- **Action:** JC thanks him 'like a normal person' and walks toward the train. His heart does something rude: a heartbeat pulse in the frame edges.\n- **FX:** `HEARTBEAT_PUMP(vignette); PAN_WITH_WALK`\n- **Sound:** Footsteps; heartbeat low.",
+    "start_frame": 12528,
+    "frames": 144,
+    "end_frame": 12672,
+    "keyframes": [],
+    "status": "missing_art",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded",
+    "suggested_cast_ids": [
+      "jc-present",
+      "union-speaker"
+    ],
+    "cast_reference_paths": [
+      "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/union-speaker.png"
+    ]
+  }
+]

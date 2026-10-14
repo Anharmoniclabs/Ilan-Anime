@@ -1,0 +1,6 @@
+{
+  "shot": "S15-09",
+  "flag_count": 2,
+  "sheet": "production/runs/episode1-full-picture/reviews/episode-wiring/render-qa/S15-09/qa/flagged_frames.jpg",
+  "report": "production/runs/episode1-full-picture/reviews/episode-wiring/render-qa/S15-09/qa/qa_report.json"
+}

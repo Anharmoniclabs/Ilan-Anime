@@ -1,0 +1,14 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.addKey",
+    "params": {
+      "layer": 27,
+      "path": "contents/trim/end",
+      "time": 1.0416666666666667,
+      "value": 33.33333333333333
+    }
+  },
+  "status": "succeeded",
+  "result": 26
+}

@@ -1,0 +1,17 @@
+{
+  "tool": "open_file",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/elder-character-vector-source.svg"
+  },
+  "status": "succeeded",
+  "result": {
+    "format": "svg",
+    "index": 1,
+    "missingLinks": [],
+    "modifiedLinks": [],
+    "restored": false,
+    "title": "elder-character-vector-source.svg",
+    "updatedLinks": [],
+    "warnings": []
+  }
+}

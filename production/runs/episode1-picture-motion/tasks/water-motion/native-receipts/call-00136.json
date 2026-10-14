@@ -1,0 +1,21 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "file.import",
+    "params": {
+      "paths": [
+        "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion/drawings/water-fx-BS.png"
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comps": [],
+    "errors": [],
+    "items": [
+      1396
+    ],
+    "unlabeledAlpha": [],
+    "warnings": []
+  }
+}

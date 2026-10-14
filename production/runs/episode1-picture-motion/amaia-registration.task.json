@@ -1,0 +1,19 @@
+{
+  "id": "amaia-registration",
+  "role": "key-animator",
+  "shots": [
+    "S01-03"
+  ],
+  "depends_on": [],
+  "inputs": [
+    "production/runs/episode1-picture-motion/tasks/amaia-motion",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/contracts.json",
+    "production/runs/episode1-picture-motion/author-direction.json",
+    "production/runs/episode1-anime90s-scenes/shot-index.json",
+    "production/runs/episode1-anime90s-cast/source-index.json"
+  ],
+  "output_dir": "production/runs/episode1-picture-motion/tasks/amaia-registration",
+  "requires_author_approval": false,
+  "art_direction_mode": "STORY_FRAME",
+  "objective": "Resume the saved S01-03 Amaia animation, with six existing raw drawings and provenance read-only. User explicitly requested continuing full silent picture animation and continuity cleanup, then run. Inspect every existing raw drawing and source frame. Register stable head, body, canoe and sleeping child; use drawing-level replacements for lip counting, eye shifts and blink on 3s. Isolate changed regions with precise masks only where anatomy aligns, retaining a stable clean plate; no face/body warps or fullpainting jitter. Review head-down drawing separately and omit if it cannot register. Add scripted fading pale empty-seat outlines only with convincing actual seat placement. Camera MCU-to-CU follows script, separate from acting. Build actual silent 192-frame 24fps 16:9 draft, native Craft project plus source exposures/registration metrics/decoded sequential review sheets. Use local tools, saved artwork only; no paid generation, API calls, new provider or downloads. User has authorized draft work without per-shot approval; do not invent an approval prerequisite for exploratory saved inputs. If raw drawings cannot provide full scripted action, deliver the usable partial motion as explicitly partial with exact missing action drawings; never claim whole shot completion. Do not stop at analysis when usable drawings can be assembled. Keep all new writes inside output_dir and do not edit ledger. No sound. Coordinator directly viewed raw/rest.png and raw/head-down.png: head-down changes actual drawn head orientation while sleeping child/hull remain broadly stable. Measure before deciding to omit. This is drawing replacement, not a transform target. Keep shoulder/hair overlap clean."
+}

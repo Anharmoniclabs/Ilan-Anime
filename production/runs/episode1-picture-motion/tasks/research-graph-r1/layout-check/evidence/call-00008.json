@@ -1,0 +1,705 @@
+{
+  "tool": "get_layer",
+  "arguments": {
+    "layer": 2
+  },
+  "status": "succeeded",
+  "result": {
+    "blendMode": "Normal",
+    "id": 2,
+    "in": 0.0,
+    "index": 2,
+    "label": "Blue",
+    "name": "Ink node",
+    "out": 16.0,
+    "parent": null,
+    "properties": {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "match": "blend",
+                  "name": "Blend Mode",
+                  "path": "contents/group/blend",
+                  "type": "enum",
+                  "uid": 64,
+                  "value": 0
+                },
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "match": "direction",
+                          "name": "Path Direction",
+                          "path": "contents/group/contents/path/direction",
+                          "type": "enum",
+                          "uid": 27,
+                          "value": 0
+                        },
+                        {
+                          "match": "path",
+                          "name": "Path",
+                          "path": "contents/group/contents/path/path",
+                          "type": "path",
+                          "uid": 28,
+                          "value": {
+                            "t": "Path",
+                            "v": {
+                              "closed": true,
+                              "in_tangents": [
+                                [
+                                  0.0,
+                                  0.0
+                                ],
+                                [
+                                  0.0,
+                                  0.0
+                                ],
+                                [
+                                  0.0,
+                                  0.0
+                                ],
+                                [
+                                  0.0,
+                                  0.0
+                                ]
+                              ],
+                              "out_tangents": [
+                                [
+                                  0.0,
+                                  0.0
+                                ],
+                                [
+                                  0.0,
+                                  0.0
+                                ],
+                                [
+                                  0.0,
+                                  0.0
+                                ],
+                                [
+                                  0.0,
+                                  0.0
+                                ]
+                              ],
+                              "vertices": [
+                                [
+                                  -540.0,
+                                  -260.0
+                                ],
+                                [
+                                  -239.0,
+                                  -261.0
+                                ],
+                                [
+                                  -240.0,
+                                  -179.0
+                                ],
+                                [
+                                  -541.0,
+                                  -181.0
+                                ]
+                              ]
+                            }
+                          }
+                        }
+                      ],
+                      "enabled": true,
+                      "match": "path",
+                      "name": "Path 1",
+                      "path": "contents/group/contents/path",
+                      "uid": 26
+                    },
+                    {
+                      "children": [
+                        {
+                          "match": "blend",
+                          "name": "Blend Mode",
+                          "path": "contents/group/contents/stroke/blend",
+                          "type": "enum",
+                          "uid": 30,
+                          "value": 0
+                        },
+                        {
+                          "match": "composite",
+                          "name": "Composite",
+                          "path": "contents/group/contents/stroke/composite",
+                          "type": "enum",
+                          "uid": 31,
+                          "value": 0
+                        },
+                        {
+                          "match": "color",
+                          "name": "Color",
+                          "path": "contents/group/contents/stroke/color",
+                          "type": "color",
+                          "uid": 32,
+                          "value": [
+                            0.09019608050584793,
+                            0.16078431904315948,
+                            0.21176470816135406,
+                            1.0
+                          ]
+                        },
+                        {
+                          "match": "opacity",
+                          "name": "Opacity",
+                          "path": "contents/group/contents/stroke/opacity",
+                          "type": "scalar",
+                          "uid": 33,
+                          "value": 100.0
+                        },
+                        {
+                          "match": "width",
+                          "name": "Stroke Width",
+                          "path": "contents/group/contents/stroke/width",
+                          "type": "scalar",
+                          "uid": 34,
+                          "value": 3.0
+                        },
+                        {
+                          "match": "cap",
+                          "name": "Line Cap",
+                          "path": "contents/group/contents/stroke/cap",
+                          "type": "enum",
+                          "uid": 35,
+                          "value": 0
+                        },
+                        {
+                          "match": "join",
+                          "name": "Line Join",
+                          "path": "contents/group/contents/stroke/join",
+                          "type": "enum",
+                          "uid": 36,
+                          "value": 0
+                        },
+                        {
+                          "match": "miter",
+                          "name": "Miter Limit",
+                          "path": "contents/group/contents/stroke/miter",
+                          "type": "scalar",
+                          "uid": 37,
+                          "value": 4.0
+                        },
+                        {
+                          "children": [
+                            {
+                              "match": "dash",
+                              "name": "Dash",
+                              "path": "contents/group/contents/stroke/dashes/dash",
+                              "type": "scalar",
+                              "uid": 39,
+                              "value": 0.0
+                            },
+                            {
+                              "match": "gap",
+                              "name": "Gap",
+                              "path": "contents/group/contents/stroke/dashes/gap",
+                              "type": "scalar",
+                              "uid": 40,
+                              "value": 0.0
+                            },
+                            {
+                              "match": "offset",
+                              "name": "Offset",
+                              "path": "contents/group/contents/stroke/dashes/offset",
+                              "type": "scalar",
+                              "uid": 41,
+                              "value": 0.0
+                            }
+                          ],
+                          "enabled": true,
+                          "match": "dashes",
+                          "name": "Dashes",
+                          "path": "contents/group/contents/stroke/dashes",
+                          "uid": 38
+                        },
+                        {
+                          "children": [
+                            {
+                              "match": "units",
+                              "name": "Length Units",
+                              "path": "contents/group/contents/stroke/taper/units",
+                              "type": "enum",
+                              "uid": 43,
+                              "value": 0
+                            },
+                            {
+                              "match": "startLength",
+                              "name": "Start Length",
+                              "path": "contents/group/contents/stroke/taper/startLength",
+                              "type": "scalar",
+                              "uid": 44,
+                              "value": 0.0
+                            },
+                            {
+                              "match": "endLength",
+                              "name": "End Length",
+                              "path": "contents/group/contents/stroke/taper/endLength",
+                              "type": "scalar",
+                              "uid": 45,
+                              "value": 0.0
+                            },
+                            {
+                              "match": "startWidth",
+                              "name": "Start Width",
+                              "path": "contents/group/contents/stroke/taper/startWidth",
+                              "type": "scalar",
+                              "uid": 46,
+                              "value": 100.0
+                            },
+                            {
+                              "match": "endWidth",
+                              "name": "End Width",
+                              "path": "contents/group/contents/stroke/taper/endWidth",
+                              "type": "scalar",
+                              "uid": 47,
+                              "value": 100.0
+                            },
+                            {
+                              "match": "startEase",
+                              "name": "Start Ease",
+                              "path": "contents/group/contents/stroke/taper/startEase",
+                              "type": "scalar",
+                              "uid": 48,
+                              "value": 0.0
+                            },
+                            {
+                              "match": "endEase",
+                              "name": "End Ease",
+                              "path": "contents/group/contents/stroke/taper/endEase",
+                              "type": "scalar",
+                              "uid": 49,
+                              "value": 0.0
+                            }
+                          ],
+                          "enabled": true,
+                          "match": "taper",
+                          "name": "Taper",
+                          "path": "contents/group/contents/stroke/taper",
+                          "uid": 42
+                        },
+                        {
+                          "children": [
+                            {
+                              "match": "amount",
+                              "name": "Amount",
+                              "path": "contents/group/contents/stroke/wave/amount",
+                              "type": "scalar",
+                              "uid": 51,
+                              "value": 0.0
+                            },
+                            {
+                              "match": "units",
+                              "name": "Units",
+                              "path": "contents/group/contents/stroke/wave/units",
+                              "type": "enum",
+                              "uid": 52,
+                              "value": 0
+                            },
+                            {
+                              "match": "wavelength",
+                              "name": "Wavelength",
+                              "path": "contents/group/contents/stroke/wave/wavelength",
+                              "type": "scalar",
+                              "uid": 53,
+                              "value": 20.0
+                            },
+                            {
+                              "match": "cycles",
+                              "name": "Cycles",
+                              "path": "contents/group/contents/stroke/wave/cycles",
+                              "type": "scalar",
+                              "uid": 54,
+                              "value": 10.0
+                            },
+                            {
+                              "match": "phase",
+                              "name": "Phase",
+                              "path": "contents/group/contents/stroke/wave/phase",
+                              "type": "scalar",
+                              "uid": 55,
+                              "value": 0.0
+                            }
+                          ],
+                          "enabled": true,
+                          "match": "wave",
+                          "name": "Wave",
+                          "path": "contents/group/contents/stroke/wave",
+                          "uid": 50
+                        }
+                      ],
+                      "enabled": true,
+                      "match": "stroke",
+                      "name": "Stroke 1",
+                      "path": "contents/group/contents/stroke",
+                      "uid": 29
+                    },
+                    {
+                      "children": [
+                        {
+                          "match": "blend",
+                          "name": "Blend Mode",
+                          "path": "contents/group/contents/fill/blend",
+                          "type": "enum",
+                          "uid": 57,
+                          "value": 0
+                        },
+                        {
+                          "match": "composite",
+                          "name": "Composite",
+                          "path": "contents/group/contents/fill/composite",
+                          "type": "enum",
+                          "uid": 58,
+                          "value": 0
+                        },
+                        {
+                          "match": "rule",
+                          "name": "Fill Rule",
+                          "path": "contents/group/contents/fill/rule",
+                          "type": "enum",
+                          "uid": 59,
+                          "value": 0
+                        },
+                        {
+                          "match": "color",
+                          "name": "Color",
+                          "path": "contents/group/contents/fill/color",
+                          "type": "color",
+                          "uid": 60,
+                          "value": [
+                            0.7254902124404907,
+                            0.8078431487083435,
+                            0.8274509906768799,
+                            1.0
+                          ]
+                        },
+                        {
+                          "match": "opacity",
+                          "name": "Opacity",
+                          "path": "contents/group/contents/fill/opacity",
+                          "type": "scalar",
+                          "uid": 61,
+                          "value": 100.0
+                        }
+                      ],
+                      "enabled": true,
+                      "match": "fill",
+                      "name": "Fill 1",
+                      "path": "contents/group/contents/fill",
+                      "uid": 56
+                    }
+                  ],
+                  "enabled": true,
+                  "match": "contents",
+                  "name": "Contents",
+                  "path": "contents/group/contents",
+                  "uid": 62
+                },
+                {
+                  "children": [
+                    {
+                      "match": "anchor",
+                      "name": "Anchor Point",
+                      "path": "contents/group/transform/anchor",
+                      "type": "vec2",
+                      "uid": 66,
+                      "value": [
+                        0.0,
+                        0.0
+                      ]
+                    },
+                    {
+                      "match": "position",
+                      "name": "Position",
+                      "path": "contents/group/transform/position",
+                      "type": "vec2",
+                      "uid": 67,
+                      "value": [
+                        0.0,
+                        0.0
+                      ]
+                    },
+                    {
+                      "match": "scale",
+                      "name": "Scale",
+                      "path": "contents/group/transform/scale",
+                      "type": "vec2",
+                      "uid": 68,
+                      "value": [
+                        100.0,
+                        100.0
+                      ]
+                    },
+                    {
+                      "match": "skew",
+                      "name": "Skew",
+                      "path": "contents/group/transform/skew",
+                      "type": "scalar",
+                      "uid": 69,
+                      "value": 0.0
+                    },
+                    {
+                      "match": "skewAxis",
+                      "name": "Skew Axis",
+                      "path": "contents/group/transform/skewAxis",
+                      "type": "scalar",
+                      "uid": 70,
+                      "value": 0.0
+                    },
+                    {
+                      "match": "rotation",
+                      "name": "Rotation",
+                      "path": "contents/group/transform/rotation",
+                      "type": "scalar",
+                      "uid": 71,
+                      "value": 0.0
+                    },
+                    {
+                      "match": "opacity",
+                      "name": "Opacity",
+                      "path": "contents/group/transform/opacity",
+                      "type": "scalar",
+                      "uid": 72,
+                      "value": 100.0
+                    }
+                  ],
+                  "enabled": true,
+                  "match": "transform",
+                  "name": "Transform",
+                  "path": "contents/group/transform",
+                  "uid": 65
+                }
+              ],
+              "enabled": true,
+              "match": "group",
+              "name": "Shape 1",
+              "path": "contents/group",
+              "uid": 63
+            }
+          ],
+          "enabled": true,
+          "match": "contents",
+          "name": "Contents",
+          "path": "contents",
+          "uid": 4
+        },
+        {
+          "children": [],
+          "enabled": true,
+          "match": "masks",
+          "name": "Masks",
+          "path": "masks",
+          "uid": 5
+        },
+        {
+          "children": [],
+          "enabled": true,
+          "match": "effects",
+          "name": "Effects",
+          "path": "effects",
+          "uid": 6
+        },
+        {
+          "children": [
+            {
+              "match": "anchor",
+              "name": "Anchor Point",
+              "path": "transform/anchor",
+              "type": "vec3",
+              "uid": 7,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "match": "position",
+              "name": "Position",
+              "path": "transform/position",
+              "type": "vec3",
+              "uid": 8,
+              "value": [
+                640.0,
+                360.0,
+                0.0
+              ]
+            },
+            {
+              "match": "scale",
+              "name": "Scale",
+              "path": "transform/scale",
+              "type": "vec3",
+              "uid": 9,
+              "value": [
+                100.0,
+                100.0,
+                100.0
+              ]
+            },
+            {
+              "match": "orientation",
+              "name": "Orientation",
+              "path": "transform/orientation",
+              "type": "vec3",
+              "uid": 10,
+              "value": [
+                0.0,
+                0.0,
+                0.0
+              ]
+            },
+            {
+              "match": "rotationX",
+              "name": "X Rotation",
+              "path": "transform/rotationX",
+              "type": "scalar",
+              "uid": 11,
+              "value": 0.0
+            },
+            {
+              "match": "rotationY",
+              "name": "Y Rotation",
+              "path": "transform/rotationY",
+              "type": "scalar",
+              "uid": 12,
+              "value": 0.0
+            },
+            {
+              "match": "rotation",
+              "name": "Rotation",
+              "path": "transform/rotation",
+              "type": "scalar",
+              "uid": 13,
+              "value": 0.0
+            },
+            {
+              "match": "opacity",
+              "name": "Opacity",
+              "path": "transform/opacity",
+              "type": "scalar",
+              "uid": 14,
+              "value": 100.0
+            }
+          ],
+          "enabled": true,
+          "match": "transform",
+          "name": "Transform",
+          "path": "transform",
+          "uid": 15
+        },
+        {
+          "children": [
+            {
+              "match": "castsShadows",
+              "name": "Casts Shadows",
+              "path": "materialOptions/castsShadows",
+              "type": "enum",
+              "uid": 17,
+              "value": 0
+            },
+            {
+              "match": "lightTransmission",
+              "name": "Light Transmission",
+              "path": "materialOptions/lightTransmission",
+              "type": "scalar",
+              "uid": 18,
+              "value": 0.0
+            },
+            {
+              "match": "acceptsShadows",
+              "name": "Accepts Shadows",
+              "path": "materialOptions/acceptsShadows",
+              "type": "enum",
+              "uid": 19,
+              "value": 1
+            },
+            {
+              "match": "acceptsLights",
+              "name": "Accepts Lights",
+              "path": "materialOptions/acceptsLights",
+              "type": "bool",
+              "uid": 20,
+              "value": true
+            },
+            {
+              "match": "ambient",
+              "name": "Ambient",
+              "path": "materialOptions/ambient",
+              "type": "scalar",
+              "uid": 21,
+              "value": 100.0
+            },
+            {
+              "match": "diffuse",
+              "name": "Diffuse",
+              "path": "materialOptions/diffuse",
+              "type": "scalar",
+              "uid": 22,
+              "value": 50.0
+            },
+            {
+              "match": "specularIntensity",
+              "name": "Specular Intensity",
+              "path": "materialOptions/specularIntensity",
+              "type": "scalar",
+              "uid": 23,
+              "value": 50.0
+            },
+            {
+              "match": "specularShininess",
+              "name": "Specular Shininess",
+              "path": "materialOptions/specularShininess",
+              "type": "scalar",
+              "uid": 24,
+              "value": 5.0
+            },
+            {
+              "match": "metal",
+              "name": "Metal",
+              "path": "materialOptions/metal",
+              "type": "scalar",
+              "uid": 25,
+              "value": 100.0
+            }
+          ],
+          "enabled": true,
+          "match": "materialOptions",
+          "name": "Material Options",
+          "path": "materialOptions",
+          "uid": 16
+        }
+      ],
+      "enabled": true,
+      "match": "layer",
+      "name": "Ink node",
+      "path": "",
+      "uid": 3
+    },
+    "start": 0.0,
+    "stretch": 100.0,
+    "switches": {
+      "adjustment": false,
+      "audio": true,
+      "collapse": false,
+      "effects": true,
+      "frame_blend": "Off",
+      "guide": false,
+      "locked": false,
+      "motion_blur": false,
+      "quality": "Best",
+      "sampling": "Bilinear",
+      "shy": false,
+      "solo": false,
+      "three_d": false,
+      "video": true
+    },
+    "time": 0.0,
+    "trackMatte": null,
+    "type": "Shape"
+  }
+}

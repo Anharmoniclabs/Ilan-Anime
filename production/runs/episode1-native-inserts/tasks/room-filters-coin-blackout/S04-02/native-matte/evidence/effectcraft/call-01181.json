@@ -1,0 +1,11 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "name": "8-0 NOISE FLOOR label and icon"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

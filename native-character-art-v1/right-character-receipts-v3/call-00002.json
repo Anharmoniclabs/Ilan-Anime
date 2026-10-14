@@ -1,0 +1,11 @@
+{
+  "tool": "run_command",
+  "arguments": {
+    "command": "layer.setCurrent",
+    "params": {
+      "id": 117456
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

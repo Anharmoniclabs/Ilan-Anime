@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 0,
+      "rect": [
+        270,
+        930,
+        500,
+        975
+      ],
+      "content": "text",
+      "text": "SOFIA"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 47,
+    "story": 48
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "shot": "S12-09",
+  "start_frame": 18456,
+  "end_frame_exclusive": 18888,
+  "frames": 432,
+  "fps": 24,
+  "duration_seconds": 18.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": true,
+  "references": {
+    "start": {
+      "state": "missing",
+      "file": null
+    },
+    "end": {
+      "state": "missing",
+      "file": null
+    }
+  },
+  "status": "draft_pack_not_approved",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false
+}

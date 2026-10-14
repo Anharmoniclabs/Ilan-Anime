@@ -1,0 +1,1555 @@
+{
+  "version": 1,
+  "run": "picture-draft-s01-07-v1",
+  "paused": false,
+  "pause_reason": null,
+  "tasks": {
+    "script-timing": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/script-timing",
+      "depends_on": [],
+      "role": "script-supervisor",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md"
+      ],
+      "id": "script-timing",
+      "objective": "PICTURE DRAFT ONLY. Complete script-timing for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Use the current scripted frame count and latest author-directed rate; do not invent a new timing approval",
+        "Contradictory timing is surfaced for author decision and is never silently normalized",
+        "Character, prop, environment, effects and camera action are specified separately",
+        "Camera motion is not accepted as a substitute for character or environmental action"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "draft timing record",
+          "continuity register",
+          "full-scene action brief"
+        ],
+        "required_evidence_kinds": [
+          "frame arithmetic",
+          "source citations",
+          "conflict disposition"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "submitted",
+      "agent_id": "host-script-timing",
+      "result": {
+        "task_id": "script-timing",
+        "role": "script-supervisor",
+        "host_agent_id": "/root/s01_07_script_stage",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/picture-draft-s01-07-v1/tasks/script-timing/draft-timing.json",
+          "production/runs/picture-draft-s01-07-v1/tasks/script-timing/continuity-register.md",
+          "production/runs/picture-draft-s01-07-v1/tasks/script-timing/full-scene-action-brief.json"
+        ],
+        "evidence": [
+          "Verified current episode record [1416,1584): 1584-1416=168;168/24=7s. Proposed phases18+45+27+51+15+12=168, contiguous and divisible by3;56 exposure slots cover [0,168) exactly.",
+          "Current script lines432-436 matches S01-07 episode JSON and picture packet text exactly. Seven input SHA256 citations saved in draft-timing.json. Directly viewed actual1672x941 source: seated Counter, down gaze, supported ledger, writing quill and visible left torch.",
+          "Continuity register resolves historical4:3 versus current16:9, packet coarse phase allocation as proposed rather than approved, locked camera precedence, offscreen-torch description versus visible source, latest90s direction and rejected pose-bank status. Within-shot staging remains a director-reviewed proposal; no story/duration alteration or motion approval."
+        ],
+        "blockers": [],
+        "completion": {
+          "artifacts": [
+            {
+              "path": "production/runs/picture-draft-s01-07-v1/tasks/script-timing/draft-timing.json",
+              "kind": "draft timing record"
+            },
+            {
+              "path": "production/runs/picture-draft-s01-07-v1/tasks/script-timing/continuity-register.md",
+              "kind": "continuity register"
+            },
+            {
+              "path": "production/runs/picture-draft-s01-07-v1/tasks/script-timing/full-scene-action-brief.json",
+              "kind": "full-scene action brief"
+            }
+          ],
+          "evidence": [
+            {
+              "kind": "frame arithmetic",
+              "detail": "Verified current episode record [1416,1584): 1584-1416=168;168/24=7s. Proposed phases18+45+27+51+15+12=168, contiguous and divisible by3;56 exposure slots cover [0,168) exactly."
+            },
+            {
+              "kind": "source citations",
+              "detail": "Current script lines432-436 matches S01-07 episode JSON and picture packet text exactly. Seven input SHA256 citations saved in draft-timing.json. Directly viewed actual1672x941 source: seated Counter, down gaze, supported ledger, writing quill and visible left torch."
+            },
+            {
+              "kind": "conflict disposition",
+              "detail": "Continuity register resolves historical4:3 versus current16:9, packet coarse phase allocation as proposed rather than approved, locked camera precedence, offscreen-torch description versus visible source, latest90s direction and rejected pose-bank status. Within-shot staging remains a director-reviewed proposal; no story/duration alteration or motion approval."
+            }
+          ]
+        }
+      }
+    },
+    "pipeline-contract": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/pipeline-contract",
+      "depends_on": [
+        "script-timing"
+      ],
+      "role": "pipeline-td",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/script-timing"
+      ],
+      "id": "pipeline-contract",
+      "objective": "PICTURE DRAFT ONLY. Complete pipeline-contract for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Resolution, fps, frame numbering, color, alpha, audio and codec contracts are explicit",
+        "Paths and names are deterministic and compatible with the repository",
+        "Validation commands test files without claiming creative approval"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "shot build contract",
+          "naming and frame specification",
+          "validation command sheet"
+        ],
+        "required_evidence_kinds": [
+          "determinism check",
+          "format interoperability check"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "asset-register": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/asset-register",
+      "depends_on": [
+        "pipeline-contract"
+      ],
+      "role": "asset-manager",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/pipeline-contract"
+      ],
+      "id": "asset-register",
+      "objective": "PICTURE DRAFT ONLY. Complete asset-register for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Every input has a stable ID, version, hash, provenance, rights state and review state",
+        "Provisional draft references are labeled; rejected outputs are diagnostic evidence only, never accepted animation inputs",
+        "No duplicate or stale reference is silently promoted"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "versioned asset manifest",
+          "provenance and rights register",
+          "shot usage map"
+        ],
+        "required_evidence_kinds": [
+          "hash verification",
+          "approval and supersession audit"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "storyboard": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/storyboard",
+      "depends_on": [
+        "script-timing",
+        "asset-register"
+      ],
+      "role": "storyboard",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/script-timing",
+        "production/runs/picture-draft-s01-07-v1/tasks/asset-register"
+      ],
+      "id": "storyboard",
+      "objective": "PICTURE DRAFT ONLY. Complete storyboard for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Boards show each decisive action change, contact and reaction",
+        "Screen direction, eyelines, entrances, exits and sound cues are annotated",
+        "A still-image pan is not represented as completed animation"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "timed board panels",
+          "board exposure map"
+        ],
+        "required_evidence_kinds": [
+          "panel-to-action trace",
+          "axis and eyeline check"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "layout": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/layout",
+      "depends_on": [
+        "storyboard",
+        "pipeline-contract"
+      ],
+      "role": "layout-artist",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/storyboard",
+        "production/runs/picture-draft-s01-07-v1/tasks/pipeline-contract"
+      ],
+      "id": "layout",
+      "objective": "PICTURE DRAFT ONLY. Complete layout for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Camera, staging, scale, perspective and occlusion are unambiguous",
+        "Every active character, rigid prop and effects zone has a registered placement",
+        "The layout is 16:9 and preserves the script's moonless restrained setting"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "final layouts",
+          "field guides",
+          "perspective and occlusion plan"
+        ],
+        "required_evidence_kinds": [
+          "board overlay",
+          "scale and vanishing-point check"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "character-design": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/character-design",
+      "depends_on": [
+        "layout",
+        "asset-register"
+      ],
+      "role": "character-designer",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/layout",
+        "production/runs/picture-draft-s01-07-v1/tasks/asset-register"
+      ],
+      "id": "character-design",
+      "objective": "PICTURE DRAFT ONLY. Complete character-design for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Match current character references and report their exact approval state and any unresolved likeness",
+        "Hands, grips and unseen views needed by the shot are explicitly resolved",
+        "No exploratory or unapproved atlas is promoted to canon"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "CHARACTER_ASSET",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "shot model sheets",
+          "expression and hand-contact sheets"
+        ],
+        "required_evidence_kinds": [
+          "current-reference comparison",
+          "identity landmark check"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "prop-design": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/prop-design",
+      "depends_on": [
+        "layout",
+        "asset-register"
+      ],
+      "role": "prop-designer",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/layout",
+        "production/runs/picture-draft-s01-07-v1/tasks/asset-register"
+      ],
+      "id": "prop-design",
+      "objective": "PICTURE DRAFT ONLY. Complete prop-design for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Canoes, paddles, drum and assigned props have locked dimensions, materials and required views",
+        "Grip points and articulating versus rigid parts are explicit",
+        "Culturally specific construction is preserved and geometry cannot drift between frames"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "registered prop model sheets",
+          "grip and contact guide",
+          "rigidity specification"
+        ],
+        "required_evidence_kinds": [
+          "dimension and silhouette comparison",
+          "contact compatibility check"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "art-direction": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/art-direction",
+      "depends_on": [
+        "layout",
+        "asset-register"
+      ],
+      "role": "art-director",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/layout",
+        "production/runs/picture-draft-s01-07-v1/tasks/asset-register"
+      ],
+      "id": "art-direction",
+      "objective": "PICTURE DRAFT ONLY. Complete art-direction for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "The user's hand-inked angular and asymmetric visual language is preserved",
+        "Backgrounds are grounded and layered without invented lettering",
+        "Rigid objects and clean plates are separable from water and effects"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "background paint plan",
+          "material and texture guide"
+        ],
+        "required_evidence_kinds": [
+          "art-direction contract comparison",
+          "layer-separation check"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "color-design": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/color-design",
+      "depends_on": [
+        "layout",
+        "art-direction",
+        "character-design",
+        "prop-design"
+      ],
+      "role": "color-designer",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/layout",
+        "production/runs/picture-draft-s01-07-v1/tasks/art-direction",
+        "production/runs/picture-draft-s01-07-v1/tasks/character-design",
+        "production/runs/picture-draft-s01-07-v1/tasks/prop-design"
+      ],
+      "id": "color-design",
+      "objective": "PICTURE DRAFT ONLY. Complete color-design for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Navy and steel shadows with copper-amber accents follow actual scene lighting",
+        "Skin pigment and character-local colors remain accurate",
+        "The image retains rich color, readable silhouettes and intentional ink texture"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "shot palette",
+          "lighting key",
+          "paint callouts"
+        ],
+        "required_evidence_kinds": [
+          "skin-tone comparison",
+          "palette and value check"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "background-paint": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/background-paint",
+      "depends_on": [
+        "layout",
+        "art-direction",
+        "color-design"
+      ],
+      "role": "background-painter",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/layout",
+        "production/runs/picture-draft-s01-07-v1/tasks/art-direction",
+        "production/runs/picture-draft-s01-07-v1/tasks/color-design"
+      ],
+      "id": "background-paint",
+      "objective": "PICTURE DRAFT ONLY. Complete background-paint for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Foreground, midground, background and clean plates register to approved layout",
+        "Moonless river lighting preserves rich navy, steel and restrained amber without generic sunset",
+        "No incidental words, water seam or baked-in moving subject appears"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "ENVIRONMENT_PLATE",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "registered layered background plates",
+          "clean plates",
+          "occlusion mattes"
+        ],
+        "required_evidence_kinds": [
+          "layout registration overlay",
+          "layer and lettering inspection"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "rig-decision": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/rig-decision",
+      "depends_on": [
+        "character-design",
+        "prop-design",
+        "layout"
+      ],
+      "role": "character-rigger",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/character-design",
+        "production/runs/picture-draft-s01-07-v1/tasks/prop-design",
+        "production/runs/picture-draft-s01-07-v1/tasks/layout"
+      ],
+      "id": "rig-decision",
+      "objective": "PICTURE DRAFT ONLY. Complete rig-decision for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "The task explicitly recommends a bounded rig or no rig for each actor and prop",
+        "Any rig documents safe ranges, pivots, constraints and swap drawings",
+        "A no-rig recommendation routes substantial acting to replacement drawings rather than rubber-sheet deformation"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "CHARACTER_ASSET",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "rig suitability decision",
+          "pivot and deformation plan",
+          "replacement-drawing boundary"
+        ],
+        "required_evidence_kinds": [
+          "pose range test",
+          "rigid geometry and contact test"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "keys": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/keys",
+      "depends_on": [
+        "character-design",
+        "prop-design",
+        "rig-decision",
+        "color-design",
+        "layout"
+      ],
+      "role": "key-animator",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/character-design",
+        "production/runs/picture-draft-s01-07-v1/tasks/prop-design",
+        "production/runs/picture-draft-s01-07-v1/tasks/rig-decision",
+        "production/runs/picture-draft-s01-07-v1/tasks/color-design",
+        "production/runs/picture-draft-s01-07-v1/tasks/layout"
+      ],
+      "id": "keys",
+      "objective": "PICTURE DRAFT ONLY. Complete keys for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Keys cover anticipation, contact, pressure, release and reaction where required",
+        "Skulls, torsos, hulls, paddles, drums and other rigid geometry remain stable",
+        "Every script-required actor and moving scene element has purposeful action",
+        "No whole-painting deformation, optical-flow morph or camera-only substitute is used"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "registered key drawings",
+          "exposure and spacing charts"
+        ],
+        "required_evidence_kinds": [
+          "landmark overlays",
+          "contact and silhouette checks"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "supervisor-gate": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/supervisor-gate",
+      "depends_on": [
+        "keys"
+      ],
+      "role": "animation-supervisor",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/keys"
+      ],
+      "id": "supervisor-gate",
+      "objective": "PICTURE DRAFT ONLY. Complete supervisor-gate for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "All keys are inspected for identity, volume, arcs, contacts and full-scene action",
+        "Corrections are expressed as redraws or explicit revisions, not hidden with deformation",
+        "Only accepted registered keys are released downstream"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "key approval report",
+          "correction drawovers"
+        ],
+        "required_evidence_kinds": [
+          "frame-by-frame key review",
+          "action coverage matrix"
+        ],
+        "independent_review_required": true,
+        "technical_gate": true,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "breakdowns-inbetweens": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/breakdowns-inbetweens",
+      "depends_on": [
+        "supervisor-gate"
+      ],
+      "role": "inbetweener",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/supervisor-gate"
+      ],
+      "id": "breakdowns-inbetweens",
+      "objective": "PICTURE DRAFT ONLY. Complete breakdowns-inbetweens for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Spacing follows approved charts and preserves weight, arcs and contact locks",
+        "Character volume, face identity, grips and rigid props remain stable",
+        "Inconsistent upstream keys are blocked rather than averaged into warped frames"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "registered breakdowns",
+          "inbetween sequence",
+          "exposure map"
+        ],
+        "required_evidence_kinds": [
+          "spacing-chart trace",
+          "contact frame crops"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "cleanup": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/cleanup",
+      "depends_on": [
+        "breakdowns-inbetweens"
+      ],
+      "role": "cleanup-artist",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/breakdowns-inbetweens"
+      ],
+      "id": "cleanup",
+      "objective": "PICTURE DRAFT ONLY. Complete cleanup for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Clean lines preserve the author's variable-width handmade ink character",
+        "Construction noise is removed without replacing intentional hatching",
+        "All frames are registered and complete with no cropped hands, props or silhouettes"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "clean line sequence",
+          "registration report"
+        ],
+        "required_evidence_kinds": [
+          "onion-skin registration",
+          "line and identity continuity review"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "ink-paint": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/ink-paint",
+      "depends_on": [
+        "cleanup",
+        "color-design"
+      ],
+      "role": "ink-paint-artist",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/cleanup",
+        "production/runs/picture-draft-s01-07-v1/tasks/color-design"
+      ],
+      "id": "ink-paint",
+      "objective": "PICTURE DRAFT ONLY. Complete ink-paint for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Approved palettes, skin colors, materials and cel-shadow planes are consistent",
+        "Alpha edges are clean and intentional ink and crosshatching remain visible",
+        "No generated lettering, logo, watermark or unintended color drift appears"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "painted cel sequence",
+          "palette compliance report"
+        ],
+        "required_evidence_kinds": [
+          "fill continuity check",
+          "alpha edge inspection"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "effects": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/effects",
+      "depends_on": [
+        "supervisor-gate",
+        "background-paint",
+        "color-design"
+      ],
+      "role": "effects-animator",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/supervisor-gate",
+        "production/runs/picture-draft-s01-07-v1/tasks/background-paint",
+        "production/runs/picture-draft-s01-07-v1/tasks/color-design"
+      ],
+      "id": "effects",
+      "objective": "PICTURE DRAFT ONLY. Complete effects for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Water, wakes, foam, roots, atmosphere and secondary motion follow the approved action brief",
+        "Effects stay inside their masks and never bend characters, hulls or rigid props",
+        "Wakes and particles travel independently instead of remaining glued to moving objects"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "registered effects sequence",
+          "effects timing map",
+          "mattes"
+        ],
+        "required_evidence_kinds": [
+          "mask-boundary check",
+          "effects motion playback notes"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "composite": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/composite",
+      "depends_on": [
+        "ink-paint",
+        "effects",
+        "background-paint",
+        "pipeline-contract"
+      ],
+      "role": "compositor",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/ink-paint",
+        "production/runs/picture-draft-s01-07-v1/tasks/effects",
+        "production/runs/picture-draft-s01-07-v1/tasks/background-paint",
+        "production/runs/picture-draft-s01-07-v1/tasks/pipeline-contract"
+      ],
+      "id": "composite",
+      "objective": "PICTURE DRAFT ONLY. Complete composite for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Only approved registered drawings, plates, mattes and effects are assembled",
+        "Occlusion, exposure, independent layer rates and rigid geometry remain correct",
+        "No water seam, pulsing cutout, stuck wake, unplanned hold or camera-only motion remains"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "layered scene source",
+          "lossless review render"
+        ],
+        "required_evidence_kinds": [
+          "draw-order and matte check",
+          "frame-step and real-time playback notes"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "edit": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/edit",
+      "depends_on": [
+        "composite"
+      ],
+      "role": "editor",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/composite"
+      ],
+      "id": "edit",
+      "objective": "PICTURE DRAFT ONLY. Complete edit for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Canonical shot order, full frame counts, cut rhythm and 16:9 framing are preserved",
+        "Picture is silent; deferred sound and incomplete lip sync are explicitly recorded",
+        "Missing coverage is reported rather than hidden with repetition or still holds"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "review edit",
+          "edit decision list",
+          "export report"
+        ],
+        "required_evidence_kinds": [
+          "duration and order check",
+          "silent picture stream check"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "draft-manifest": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/draft-manifest",
+      "depends_on": [
+        "edit"
+      ],
+      "role": "asset-manager",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/edit"
+      ],
+      "id": "draft-manifest",
+      "objective": "PICTURE DRAFT ONLY. Complete draft-manifest for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Every draft source and output has an exact hash and original review state; no canonical promotion"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "delivery asset manifest",
+          "hash and dependency report",
+          "supersession record"
+        ],
+        "required_evidence_kinds": [
+          "source-to-delivery trace",
+          "stale and duplicate reference audit"
+        ],
+        "independent_review_required": true,
+        "technical_gate": false,
+        "author_gate": null
+      },
+      "state": "pending"
+    },
+    "draft-review": {
+      "output_dir": "production/runs/picture-draft-s01-07-v1/tasks/draft-review",
+      "depends_on": [
+        "edit",
+        "draft-manifest",
+        "pipeline-contract"
+      ],
+      "role": "quality-review",
+      "inputs": [
+        "production/runs/picture-draft-s01-07-v1/picture-packet.json",
+        "projects/cemi_episode_01/data/episode.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "production/art_direction.json",
+        "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json",
+        "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md",
+        "production/runs/picture-draft-s01-07-v1/tasks/edit",
+        "production/runs/picture-draft-s01-07-v1/tasks/draft-manifest",
+        "production/runs/picture-draft-s01-07-v1/tasks/pipeline-contract"
+      ],
+      "id": "draft-review",
+      "objective": "PICTURE DRAFT ONLY. Complete draft-review for S01-07, exactly 168 frames at 24fps,16:9. Read production/runs/picture-draft-s01-07-v1/picture-packet.json: current script, actual reference image, action phases, contact locks and prior failures. Keep exact timing and latest author corrections; propose any story changes separately. Use the assigned specialist skill and its designated reviewer. Produce every contracted artifact/evidence kind. Draft references are provisional; preserve their review status. Separate missing input drawings from completed work. No pose atlas counts as registered motion. No warped paintings, repeated stills or camera-only substitutes. Request individual controlled key/breakdown drawings when broad pose sheets fail. Use Craft for editable assets/composition/timeline and Blender for rigid prop/perspective work where appropriate. Do not generate an entire shot in a layout or design stage. No paid tools, canonical promotion or Git uploads. Sound is deferred; final episode approval is outside this draft workflow. Explicit image needs must be handed to a host image-demand turn with actual references; report missing capability honestly.",
+      "shots": [
+        "S01-07"
+      ],
+      "acceptance_criteria": [
+        "Motion is watched at speed and frame-stepped at contacts, occlusions and cuts",
+        "Identity, anatomy, weight, rigid props, mattes, color and full-scene action pass",
+        "A successful decode, test suite or contact sheet alone is not treated as animation approval",
+        "Report picture-only coverage and deferred sound; technical draft approval is not release approval"
+      ],
+      "budget": {
+        "max_cost_usd": 0
+      },
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "full_scene_action": {
+        "character": [
+          "clerk shoulder wrist two writing strokes eyes down"
+        ],
+        "prop": [
+          "ledger knee pen nib"
+        ],
+        "environment": [
+          "torch light localized"
+        ],
+        "effects": [
+          "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`"
+        ],
+        "camera": [
+          "MS low angle"
+        ]
+      },
+      "completion_contract": {
+        "required_artifact_kinds": [
+          "timecoded QA report",
+          "contact crops",
+          "technical validation report"
+        ],
+        "required_evidence_kinds": [
+          "real-time playback",
+          "frame-step review",
+          "source-to-final trace"
+        ],
+        "independent_review_required": true,
+        "technical_gate": true,
+        "author_gate": null
+      },
+      "state": "pending"
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "script-timing"
+    },
+    {
+      "action": "add",
+      "task_id": "pipeline-contract"
+    },
+    {
+      "action": "add",
+      "task_id": "asset-register"
+    },
+    {
+      "action": "add",
+      "task_id": "storyboard"
+    },
+    {
+      "action": "add",
+      "task_id": "layout"
+    },
+    {
+      "action": "add",
+      "task_id": "character-design"
+    },
+    {
+      "action": "add",
+      "task_id": "prop-design"
+    },
+    {
+      "action": "add",
+      "task_id": "art-direction"
+    },
+    {
+      "action": "add",
+      "task_id": "color-design"
+    },
+    {
+      "action": "add",
+      "task_id": "background-paint"
+    },
+    {
+      "action": "add",
+      "task_id": "rig-decision"
+    },
+    {
+      "action": "add",
+      "task_id": "keys"
+    },
+    {
+      "action": "add",
+      "task_id": "supervisor-gate"
+    },
+    {
+      "action": "add",
+      "task_id": "breakdowns-inbetweens"
+    },
+    {
+      "action": "add",
+      "task_id": "cleanup"
+    },
+    {
+      "action": "add",
+      "task_id": "ink-paint"
+    },
+    {
+      "action": "add",
+      "task_id": "effects"
+    },
+    {
+      "action": "add",
+      "task_id": "composite"
+    },
+    {
+      "action": "add",
+      "task_id": "edit"
+    },
+    {
+      "action": "add",
+      "task_id": "draft-manifest"
+    },
+    {
+      "action": "add",
+      "task_id": "draft-review"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "script-timing",
+      "agent_id": "host-script-timing"
+    },
+    {
+      "action": "submit",
+      "task_id": "script-timing",
+      "status": "submitted"
+    }
+  ]
+}

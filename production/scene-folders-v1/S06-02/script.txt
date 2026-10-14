@@ -1,0 +1,4 @@
+`06:26:00 → 06:42:00` (384f) · TWO-SHOT split door · rate 3s
+- **Action:** Mamá: “Juan Carlos. Se fue la luz.” JC: “It's the whole block, Má.” (He hadn't checked; said with 'total confidence and no evidence'.) The rosary clicks in her fist; he can hear her decide not to ask. “Acuéstate.” Her slippers go down the hall and stop; she stands at the end of the hall, as she does.
+- **FX:** `HOLD(bank cel); MOUTH_FLAP(3 drawings); DOOR_CROSS_CUT`
+- **Sound:** Muffled Spanish through wood. Rosary. Slippers.

@@ -1,0 +1,15 @@
+{
+  "tool": "doc_open",
+  "arguments": {
+    "path": "production/runs/cemi-90s-production/tasks/river-character-library/13-ledger-keeper/source.png"
+  },
+  "status": "succeeded",
+  "result": {
+    "height": 1024,
+    "index": 0,
+    "layers": 1,
+    "name": "source.png",
+    "warnings": [],
+    "width": 1536
+  }
+}

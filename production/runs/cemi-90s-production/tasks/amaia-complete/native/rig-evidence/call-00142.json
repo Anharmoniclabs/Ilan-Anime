@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.addProperty",
+    "params": {
+      "layer": 47,
+      "path": "transform/rotation",
+      "name": "right-whole-arm rotation"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "controls": [
+      499
+    ],
+    "mirrors": []
+  }
+}

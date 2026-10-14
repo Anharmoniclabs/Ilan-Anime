@@ -1,0 +1,11 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "name": "10-0 same waveform travels unchanged"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

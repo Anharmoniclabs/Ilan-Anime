@@ -1,0 +1,38 @@
+# Local anime production snapshot — 2026-10-14
+
+[Repository map](../../docs/REPOSITORY_MAP.md) · [Current status](../../docs/STATUS.md)
+
+This snapshot preserves the related local workspaces alongside the main
+Ilan-Anime engine, Craft integrations, assets, and production records already
+tracked at the repository root.
+
+- `AnimeMotion/`: the 1990s cel-animation tools, source drawings, references,
+  approved workflow baseline, earlier experiments, and rendered takes.
+- `HeraldsOfTheCemi/`: the manuscript, canon, training-pack proposal, artwork,
+  editable models, scripts, and Nessa production records.
+- `Artcraft/`: the preserved Linux Craft-app installer source, not application binaries.
+- `manifest.json`: SHA-256 checksums, file sizes, preserved relative symlinks,
+  and an explicit list of omitted runtime files.
+- `episode-image-pack-v1.zip.parts/`: the existing Episode 1 ZIP preserved in
+  ordered 64 MiB parts because the original exceeds GitHub's per-file limit.
+
+The original workspaces remain in `/home/alabs/Projects/`. These are archival
+copies; their existing documents describe the historical production and approval
+state. Saving a file here does not approve artwork or mark an episode complete.
+Some native projects and scripts retain original absolute paths and may need
+relinking on another computer.
+
+Environment directories, caches, process logs, and lock files are excluded.
+Credentials and machine authentication configuration are not part of the archive.
+
+To reconstruct the ZIP, run from the repository root:
+
+```sh
+cat archive/local-production-2026-10-14/episode-image-pack-v1.zip.parts/part-* > production/episode-image-pack-v1.zip
+```
+
+Compare its SHA-256 and byte count against `split_archive` in `manifest.json`.
+The original ZIP remains ignored to avoid committing a file over 100 MiB.
+
+This manifest records local preservation only. Remote upload must be verified
+separately against the GitHub branch.

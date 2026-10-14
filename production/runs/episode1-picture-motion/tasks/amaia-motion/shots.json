@@ -1,0 +1,15 @@
+[
+  {
+    "id": "S01-03",
+    "script": "`00:27:00 \u2192 00:35:00` (192f) \u00b7 MCU \u2192 CU Amaia \u00b7 rate 3s\n- **Action:** Amaia's lips count the heads ahead. Each count lands on an empty seat. Pale outlines sit in the empty seats and fade as she looks at them (two lost at the channel, the old man who asked for water, then his wife, then nothing).\n- **FX:** `GHOST_SEATS(alpha .25\u21920); DOUBLE_EXPOSURE; CEL_SHADE(2-tone)`\n- **Sound:** VO Amaia (spare): \u201cAmaia had fourteen when they put the canoes in. By the third night she had eleven.\u201d",
+    "start_frame": 648,
+    "frames": 192,
+    "end_frame": 840,
+    "keyframes": [
+      "assets/keyframes/S01-03.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded"
+  }
+]

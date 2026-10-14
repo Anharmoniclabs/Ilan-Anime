@@ -1,0 +1,25 @@
+{
+  "id": "dairon-stroke-keys",
+  "role": "key-animator",
+  "shots": [
+    "S01-02"
+  ],
+  "inputs": [
+    "AGENTS.md",
+    "docs/STATUS.md",
+    "production/runs/episode1-picture-motion/author-direction.json",
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+    "production/runs/episode1-anime90s-scenes/shot-index.json",
+    "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-02.png",
+    "production/runs/episode1-anime90s-cast/source-index.json",
+    "production/runs/episode1-action-completion-20261014/author-resume.json",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action/result.json",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-02-canoe-action/dairon-action-candidate.png"
+  ],
+  "output_dir": "production/runs/episode1-action-completion-20261014/tasks/dairon-stroke-keys",
+  "depends_on": [],
+  "art_direction_mode": "STORY_FRAME",
+  "requires_author_approval": false,
+  "require_host_bindings": true,
+  "objective": "Explicit image-demand fresh turn authorized by Resume and continue draft production. Create necessary Dairon paddle stroke SOURCE ART ONLY. One built-in imagegen call maximum, no paid API or fallback. Inspect rejected eight-pose candidate and correct specific failures by reducing to FOUR large full-body paddler drawings on true transparent background: reach, plant, pull, recovery. Same fixed seated hips, same camera, same clothes/identity as S01-02; BOTH hands retain correct shaft grips; whole rigid paddle with full blade and margin visible in all four poses; no canoe, water or backdrop. Image is source art awaiting registration and independent review, not finished shot. Attach actual S01-02 reference and cast reference; use imagegen skill. Directly inspect final RGBA including transparency against checker/solid backgrounds, complete blade contours, hands, perspective, fixed pelvis. Save exact prompt, candidate and measured continuity evidence. Submit for independent source-art review if useful even though full shot also needs clean plate and secondary animation; those downstream tasks are not this envelope. No ledger/Git/source changes or extra generation loop. Write only assigned output_dir."
+}

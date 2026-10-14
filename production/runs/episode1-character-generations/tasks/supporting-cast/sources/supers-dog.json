@@ -1,0 +1,13 @@
+{
+  "tool": "image_gen__imagegen",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-c42b235c-ccf7-49dc-96ec-29b039ba5f06.png",
+  "status": "exploratory",
+  "references": [
+    {
+      "path": "projects/cemi_episode_01/assets/references/author-cover-style.png",
+      "role": "style only",
+      "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c"
+    }
+  ],
+  "prompt": "Use case: illustration-story. Exploratory production character source for Heralds of the Cemí Episode 1. Supplied image is STYLE ONLY; never copy its faces, poster layout, text or magical effects. Finished 1990s hand-drawn 2D cel animation with confident variable-width ink, controlled fine hatching, individualized grounded expressive faces, organic asymmetry, rich painterly color and two/three shade planes, restrained navy shadow and warm amber edge light preserving skin pigment. Genuinely transparent background, clean silhouette, no ground shadow/haze, complete anatomy inside frame with generous margin, no words/logos/watermarks or panels. One medium-sized brown-and-white mixed-breed dog belonging to a Bronx building superintendent. Compact sturdy build, floppy ears, white chest, brown patch over one eye, plain red collar. Alert tense stance, mouth slightly open, all four paws visible, tail complete. Three-quarter side view. No humans, no leash, no environment."
+}

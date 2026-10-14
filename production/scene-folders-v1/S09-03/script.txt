@@ -1,0 +1,4 @@
+`08:58:00 → 09:18:00` (480f) · OTS · eyebrows insert · rate 3s
+- **Action:** Mr. Rodríguez, not looking up: “Dime a ver, poeta. And that face.” “What face?” “That one. You look like you're getting a station the rest of us don't get.” “Long night. The power went out.” “The whole block, sí. Doña Fela says the Lord. Go. It's Tuesday, three gigs, no lunch. I'm not paying you to look haunted. Although it's good for the brand.”
+- **FX:** `EYEBROW_GAG(CU, 2s); HOLD(bank cel); MOUTH_FLAP`
+- **Sound:** Tray on counter; his dry delivery.

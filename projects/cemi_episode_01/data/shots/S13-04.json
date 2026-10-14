@@ -1,0 +1,51 @@
+{
+  "id": "S13-04",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 216,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "Four searches and a museum site that looks like 2003. A glass-case photo from three angles: a three-pointed dark stone, size of a fist, a face carved on the front, on the back a spiral opening into a triangle. Card: Zemí (cemí), Dominican Republic, c. 1000–1500. The Taíno thought of a cemí as a spirit and the thing the spirit lived in, both at once.",
+  "camera_note": "CU laptop",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S13-04",
+        "header": "13:44:00 → 13:53:00 (216f) · CU laptop · rate 3s",
+        "action": "Four searches and a museum site that looks like 2003. A glass-case photo from three angles: a three-pointed dark stone, size of a fist, a face carved on the front, on the back a spiral opening into a triangle. Card: Zemí (cemí), Dominican Republic, c. 1000–1500. The Taíno thought of a cemí as a spirit and the thing the spirit lived in, both at once.\nSOUND: Dial-up-adjacent modem texture, tastefully; VO reads the card."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "TEXT_SUPER (text not stated)"
+    ],
+    "asset_slot_fx": [
+      "STONE_ROTATE_3VIEWS",
+      "WEB_1999_UI"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "place_image",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/window-man-master-139ed5982e8c/source-still.png",
+    "spread": 8,
+    "x": 216.66666666666669,
+    "y": 75,
+    "width": 566.6666666666666
+  },
+  "status": "succeeded",
+  "result": {
+    "asset": 103,
+    "id": 104
+  }
+}

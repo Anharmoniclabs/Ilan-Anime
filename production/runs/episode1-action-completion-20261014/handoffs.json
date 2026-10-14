@@ -1,0 +1,80 @@
+{
+  "version": 2,
+  "run": "episode1-action-completion-20261014",
+  "bindings": {
+    "amaia-seat-repair": {
+      "creator": {
+        "ledger_alias": "host-amaia-seat-repair",
+        "host": "codex-collaboration",
+        "host_agent_id": "/root/amaia_seat_repair",
+        "role": "key-animator",
+        "state": "interrupted",
+        "note": "Missing perspective-correct three-adult seat/contact artwork matched to S01-03 original Amaia/child/hull composition. Existing source plate provides no independently visible support for all three figures. Envelope prohibits new generation; need dedicated seating plate/contact-matched source artwork or newly staged memory insert."
+      }
+    },
+    "s01-07-writing-action": {
+      "creator": {
+        "ledger_alias": "host-s01-07-writing-action",
+        "host": "codex-collaboration",
+        "host_agent_id": "/root/counter_writing",
+        "role": "key-animator",
+        "state": "completed",
+        "note": "Independent review completed"
+      },
+      "reviewer": {
+        "host": "codex-collaboration",
+        "host_agent_id": "/root/review_counter_writing",
+        "role": "animation-supervisor",
+        "state": "completed",
+        "note": "Independent review saved in reviews/s01-07-writing-action/review.json: four-pose strokes held 9\u201318 frames, unconnected lift/return, clipped quill/cuff and shifted sleeve seam; exact clip hash b450b7c5fdfa20be3161d4cb6f573e2c25b5ab9e49c15730aedd1cf96cefac6c. Native and timing checks pass but action/matte criteria fail."
+      }
+    },
+    "s01-02-canoe-action": {
+      "creator": {
+        "ledger_alias": "host-s01-02-canoe-action",
+        "host": "codex-collaboration",
+        "host_agent_id": "/root/canoe_action",
+        "role": "key-animator",
+        "state": "interrupted",
+        "note": "Dairon candidate lacks transparent cutouts, complete paddle silhouettes and stable two-hand grip; multiple blade tips cropped and pose 7 releases one hand. Cannot register into continuity-correct stroke.; S01-02 source flattened. Clean background/water plate, stable foreground hull matte and character removal plate missing from assigned inputs; moving new character over existing painting would leave duplicates.; Missing current-style Beheto chest/breath replacement drawings, Amaia cradle response, Yara grip continuity and independently staged children forearm effects.; One host image call exhausted under bounded task. Corrected drawings and independent animation-supervisor review required; no completed 288-frame shot exists."
+      }
+    },
+    "amaia-seat-plate": {
+      "creator": {
+        "ledger_alias": "host-amaia-seat-plate",
+        "host": "codex-collaboration",
+        "host_agent_id": "/root/amaia_seat_plate",
+        "role": "key-animator",
+        "state": "completed",
+        "note": "Independent review completed"
+      },
+      "reviewer": {
+        "host": "codex-collaboration",
+        "host_agent_id": "/root/review_amaia_seat_plate",
+        "role": "animation-supervisor",
+        "state": "completed",
+        "note": "Source-art review rejects claimed three-adult seating solution: new wood is visible but no demonstrated adequate adult lap/leg space, overlapping faces, source cutoffs and hull-mask defects. See reviews/amaia-seat-plate/review.json; candidate SHA256 352df00d92a175b2713fc0de41b0738caaf1b3cfca1347bcdf133b5b8e8de2b4. Establish valid adult contact layout before further detailed generation."
+      }
+    },
+    "dairon-stroke-keys": {
+      "creator": {
+        "ledger_alias": "host-dairon-stroke-keys",
+        "host": "codex-collaboration",
+        "host_agent_id": "/root/dairon_stroke_keys",
+        "role": "key-animator",
+        "state": "interrupted",
+        "note": "Candidate is not a usable complete stroke: pull key lacks upper hand grip and paddle/body geometry drifts. Independent reviewer must assess individual usable drawings; full stroke needs redraw before registration."
+      }
+    },
+    "s01-07-writing-r1": {
+      "creator": {
+        "ledger_alias": "host-s01-07-writing-r1",
+        "host": "codex-collaboration",
+        "host_agent_id": "/root/counter_writing_repair",
+        "role": "key-animator",
+        "state": "interrupted",
+        "note": "No coherent first- and second-line active-stroke drawings against the fixed paper plane (F1/F4).; Lift/return/landing breakdown gap remains (F2).; Feathers cross tile boundaries, preventing complete independent cels (F3).; The single permitted generation call is used; further drawing work requires a fresh bounded task."
+      }
+    }
+  }
+}

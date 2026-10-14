@@ -1,0 +1,4 @@
+`08:53:00 → 08:58:00` (120f) · PAN · interior · rate 3s
+- **Action:** Narrow room, tin ceiling, no two chairs from the same family, back wall where record bins used to run. The whole place shakes; cups rattle.
+- **FX:** `PAINTED_BG(cafe_interior); CUP_RATTLE_CEL`
+- **Sound:** Background chatter loop; steamer; grinder.

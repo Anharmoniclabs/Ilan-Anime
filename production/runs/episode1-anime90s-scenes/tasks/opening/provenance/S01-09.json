@@ -1,0 +1,37 @@
+{
+  "shot": "S01-09",
+  "selected_moment": "Dynamic forward POV over sharp wooden canoe bow squeezing between mangrove roots on both sides, wood splinters from a paddle shaft snapping at lower right; hands ofDairon gripping shaft visible without showing face. Tight dark tunnel opening toward dark blue widerwater, no dawn/sunset. Splinters physically small, no explosion.",
+  "script": "`01:12:00 \u2192 01:26:00` (336f) \u00b7 POV bow \u00b7 tunnel \u00b7 rate 2s\n- **Action:** The canoe shrieks through mangrove roots on both sides; a paddle snaps; wood chips. The roots open into air that smells of salt 'from the wrong direction'. Cloth and hair flutter the opposite way.\n- **FX:** `MULTIPLANE_RUSH(root layers z1\u2013z5); SPEED_BG; SPLINTER_CEL; WIND_REVERSE`\n- **Sound:** Wood scream on hull. Snap. Then sudden wide air and a wind change.",
+  "prompt": "Use case: illustration-story. Create ONE finished-color cinematic anime story frame, landscape EXACT16:9 composition, opaque fully painted environment edge-to-edge, no transparency, no borders, no collage/multi-panel. Match approved 1990s hand-drawn anime: supple clean lines, expressive soft human faces, simple broad2/3-tone cel shadows, flat warm skin colors, detailed traditionally painted environment. No western comic hatching, no photoreal3D, no glossy muscles. Attached rooftop is STYLE ONLY, never copy its setting/time/sunset; character sources lock identity, age, proportions, hair and costume. Any attached NEW adjacent frame establishes environment continuity, not duplicated action. Natural contacts/hands; rigid canoes/props remain coherent. No invented signage/logos/subtitles/captions; only exact text explicitly requested below. Single selected dramatic moment, do not combine sequential moments spatially. \nImage1: bronx-90s-anime.png; STYLE ONLY\nImage2: dairon.png; character identity\nImage3: S01-02.png; NEW environment continuity ONLY. Do NOT copy extra people; use ONLY requested cast below\nMOONLESS historical Ta\u00edno mangrove night, no sun/moondisc/sunset. Dynamic forward POV over sharp wooden canoe bow squeezing between mangrove roots on both sides, wood splinters from a paddle shaft snapping at lower right; hands ofDairon gripping shaft visible without showing face. Tight dark tunnel opening toward dark blue widerwater, no dawn/sunset. Splinters physically small, no explosion.",
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-02.png"
+  ],
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-73bb5af9-989d-42a0-a96a-0cf12d44596b.png",
+  "status": "exploratory storyframe",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-09.png",
+  "sha256": "fa7a4688ad675281c79a0043474583550aa09d5ef34c1792ece06c91de3df347",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png",
+      "sha256": "b59f3a3a48a916e6b3fa001eec74d45ae59a3afaf113dba675cb0435fc0ad0a6"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-02.png",
+      "sha256": "903d79ac2f20d292b1a2a8f812a35285cb89be897b6f87c398f0836fd9f97596"
+    }
+  ],
+  "inspection": "Brokenpaddle hands andbow POV into widerwater. Directly viewed.",
+  "inspection_method": "Direct view_image of entire saved frame; PNG automated decode and dimensions check",
+  "scope": "One representative story frame; not all action beats or motion"
+}

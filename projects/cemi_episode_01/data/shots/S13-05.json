@@ -1,0 +1,48 @@
+{
+  "id": "S13-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 168,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "He lays the coin beside the screen. The hooks match; the spiral turns the same way and opens in the same place. A pen draws both with one stroke: 'same handwriting'.",
+  "camera_note": "CU coin vs screen",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S13-05",
+        "header": "13:53:00 → 14:00:00 (168f) · CU coin vs screen · rate 3s",
+        "action": "He lays the coin beside the screen. The hooks match; the spiral turns the same way and opens in the same place. A pen draws both with one stroke: 'same handwriting'.\nSOUND: A very soft chime on alignment."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "HANDWRITING_CEL",
+      "OVERLAY_ALIGN"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

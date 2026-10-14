@@ -1,0 +1,22 @@
+{
+  "method": "direct viewing of decoded midpoint contact sheet; not playback",
+  "image": "inspection-midpoints.jpg",
+  "frames": {
+    "S00-01": 48,
+    "S00-02": 60,
+    "S01-15": 48,
+    "S02-01": 144,
+    "S15-09": 96,
+    "S01-01": 72,
+    "S01-03": 96,
+    "S14-03": 192
+  },
+  "observations": [
+    "Expected sigil/text cards and two script-required black frames are present.",
+    "Water source contains blade/water insert; Amaia v2 source contains Amaia and sleeping child; graph is a UI draft.",
+    "No movement, geometry continuity or creative approval established by midpoint inspection.",
+    "Contact-sheet editorial labels record the earlier unreviewed state at time of inspection; later independent technical approval is recorded in timeline.json and the native edit."
+  ],
+  "browser_visual_inspection": false,
+  "motion_playback": false
+}

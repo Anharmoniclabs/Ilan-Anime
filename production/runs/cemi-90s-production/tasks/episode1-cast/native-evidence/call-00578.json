@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 20,
+      "rect": [
+        161,
+        86,
+        764,
+        108
+      ],
+      "content": "text",
+      "text": "Landlord on Creston"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 653,
+    "story": 654
+  }
+}

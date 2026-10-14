@@ -1,0 +1,34 @@
+{
+  "id": "S13-03",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-605d6fe1-0bfd-4cc7-aac1-278b374960e5.png",
+  "refs": [
+    {
+      "path": "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "role": "style only",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "role": "identity jc-present",
+      "sha256": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-02.png",
+      "role": "set continuity only",
+      "sha256": "bcaecddd3241cd979ba108351e281e8a15b3d32c6baf3200d351b0e005fdfa98"
+    }
+  ],
+  "prompt": "Finished single 16:9 cinematic anime STORY FRAME, landscape1536x864, full opaque richly painted environment edge to edge. Match approved1990s anime series: clean supple ink, expressive human anime faces, broad2/3tone cel shading, handpainted detailed backgrounds, restrained cinematic light. Rooftop image reference only for rendering STYLE, never its sunset/location/people. Character source images control exact identities/costumes/age/body proportions. Previous scene reference controls set layout only; change camera and action to this shot. NO poster, collage, panel grid, transparent cutouts, hatching-heavy comic, speech bubbles, random words/logos. Closeup smartphone in adultJC hand above oak research table; library green brass lamp and laptop blurred beyond. Flood of messenger bubbles, selected exact short readable messages 'JC', 'where are you', 'don\u2019t move' and separate banner 'Milestone payment on hold'. Other lines blank placeholders for exact dialogue in post, no sender portraits or visible women. Daytime.",
+  "frame": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-03.png",
+  "status": "exploratory",
+  "representative_moment": "Closeup smartphone in adultJC hand above oak research table; library green brass lamp and laptop blurred beyond. Flood of messenger bubbles, selected exact short readable messages 'JC', 'where are you', 'don\u2019t move' and separate banner 'Milestone payment on hold'. Other lines blank placeholders for exact dialogue in post, no sender portraits or visible women. Daytime.",
+  "motion_remaining": "All motion, dialogue, camera transitions and any other script phases still require later drawings.",
+  "sha256": "bd34fe7ecdc1dee67245451364e0f303b3c9bb782f680ad9b690a0c16af98fcd",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "aspect_ratio": 1.7768331562167907,
+  "visually_inspected": true
+}

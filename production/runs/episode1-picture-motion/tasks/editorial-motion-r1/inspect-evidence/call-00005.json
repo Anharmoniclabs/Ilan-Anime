@@ -1,0 +1,1193 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "effect.list",
+    "params": {
+      "filter": "noise"
+    }
+  },
+  "status": "succeeded",
+  "result": [
+    {
+      "category": "Immersive Video",
+      "float": true,
+      "gpu": true,
+      "id": "ec.vr.denoise",
+      "name": "VR De-Noise",
+      "params": [
+        {
+          "default": 0,
+          "id": "frameLayout",
+          "name": "Frame Layout"
+        },
+        {
+          "default": 0,
+          "id": "noiseType",
+          "name": "Noise Type"
+        },
+        {
+          "default": 20.0,
+          "id": "noiseLevel",
+          "name": "Noise Level"
+        },
+        {
+          "default": 0.0,
+          "id": "detail",
+          "name": "Detail"
+        }
+      ]
+    },
+    {
+      "category": "Immersive Video",
+      "float": true,
+      "gpu": true,
+      "id": "ec.vr.fractalnoise",
+      "name": "VR Fractal Noise",
+      "params": [
+        {
+          "default": 0,
+          "id": "frameLayout",
+          "name": "Frame Layout"
+        },
+        {
+          "default": 0,
+          "id": "fractalType",
+          "name": "Fractal Type"
+        },
+        {
+          "default": 100.0,
+          "id": "contrast",
+          "name": "Contrast"
+        },
+        {
+          "default": 0.0,
+          "id": "brightness",
+          "name": "Brightness"
+        },
+        {
+          "default": false,
+          "id": "invert",
+          "name": "Invert"
+        },
+        {
+          "default": 6.0,
+          "id": "complexity",
+          "name": "Complexity"
+        },
+        {
+          "default": 0.0,
+          "id": "evolution",
+          "name": "Evolution"
+        },
+        {
+          "default": 100.0,
+          "id": "transform/scale",
+          "name": "Scale"
+        },
+        {
+          "default": 0.0,
+          "id": "transform/tilt",
+          "name": "Tilt (X Axis)"
+        },
+        {
+          "default": 0.0,
+          "id": "transform/pan",
+          "name": "Pan (Y Axis)"
+        },
+        {
+          "default": 0.0,
+          "id": "transform/roll",
+          "name": "Roll (Z Axis)"
+        },
+        {
+          "default": 50.0,
+          "id": "subSettings/subInfluence",
+          "name": "Sub Influence"
+        },
+        {
+          "default": 50.0,
+          "id": "subSettings/subScaling",
+          "name": "Sub Scaling"
+        },
+        {
+          "default": 0.0,
+          "id": "randomSeed",
+          "name": "Random Seed"
+        },
+        {
+          "default": 100.0,
+          "id": "opacity",
+          "name": "Opacity"
+        },
+        {
+          "default": 0,
+          "id": "blendingMode",
+          "name": "Blending Mode"
+        }
+      ]
+    },
+    {
+      "category": "Noise & Grain",
+      "float": true,
+      "gpu": true,
+      "id": "ec.noise.addgrain",
+      "name": "Add Grain",
+      "params": [
+        {
+          "default": 2,
+          "id": "viewingMode",
+          "name": "Viewing Mode"
+        },
+        {
+          "default": 0,
+          "id": "preset",
+          "name": "Preset"
+        },
+        {
+          "default": [
+            0.5,
+            0.5
+          ],
+          "id": "previewRegion/center",
+          "name": "Center"
+        },
+        {
+          "default": 200.0,
+          "id": "previewRegion/width",
+          "name": "Width"
+        },
+        {
+          "default": 200.0,
+          "id": "previewRegion/height",
+          "name": "Height"
+        },
+        {
+          "default": true,
+          "id": "previewRegion/showBox",
+          "name": "Show Box"
+        },
+        {
+          "default": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "id": "previewRegion/boxColor",
+          "name": "Box Color"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/intensity",
+          "name": "Intensity"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/channelIntensities/redIntensity",
+          "name": "Red Intensity"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/channelIntensities/greenIntensity",
+          "name": "Green Intensity"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/channelIntensities/blueIntensity",
+          "name": "Blue Intensity"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/size",
+          "name": "Size"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/channelSize/redSize",
+          "name": "Red Size"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/channelSize/greenSize",
+          "name": "Green Size"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/channelSize/blueSize",
+          "name": "Blue Size"
+        },
+        {
+          "default": 0.0,
+          "id": "tweaking/softness",
+          "name": "Softness"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/aspectRatio",
+          "name": "Aspect Ratio"
+        },
+        {
+          "default": false,
+          "id": "color/monochromatic",
+          "name": "Monochromatic"
+        },
+        {
+          "default": 1.0,
+          "id": "color/saturation",
+          "name": "Saturation"
+        },
+        {
+          "default": 0.0,
+          "id": "color/tintAmount",
+          "name": "Tint Amount"
+        },
+        {
+          "default": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "id": "color/tintColor",
+          "name": "Tint Color"
+        },
+        {
+          "default": 1.0,
+          "id": "color/redBalance",
+          "name": "Red Balance"
+        },
+        {
+          "default": 1.0,
+          "id": "color/greenBalance",
+          "name": "Green Balance"
+        },
+        {
+          "default": 1.0,
+          "id": "color/blueBalance",
+          "name": "Blue Balance"
+        },
+        {
+          "default": 0,
+          "id": "application/blendingMode",
+          "name": "Blending Mode"
+        },
+        {
+          "default": 1.0,
+          "id": "application/shadows",
+          "name": "Shadows"
+        },
+        {
+          "default": 1.0,
+          "id": "application/midtones",
+          "name": "Midtones"
+        },
+        {
+          "default": 1.0,
+          "id": "application/highlights",
+          "name": "Highlights"
+        },
+        {
+          "default": 0.5,
+          "id": "application/midpoint",
+          "name": "Midpoint"
+        },
+        {
+          "default": 1.0,
+          "id": "animation/animationSpeed",
+          "name": "Animation Speed"
+        },
+        {
+          "default": true,
+          "id": "animation/animateSmoothly",
+          "name": "Animate Smoothly"
+        },
+        {
+          "default": 0.0,
+          "id": "animation/randomSeed",
+          "name": "Random Seed"
+        }
+      ]
+    },
+    {
+      "category": "Noise & Grain",
+      "float": true,
+      "gpu": true,
+      "id": "ec.noise.curlnoise",
+      "name": "Curl Noise",
+      "params": [
+        {
+          "default": 0,
+          "id": "view",
+          "name": "View"
+        },
+        {
+          "default": 20.0,
+          "id": "displacementAmount",
+          "name": "Displacement Amount"
+        },
+        {
+          "default": 100.0,
+          "id": "scale",
+          "name": "Scale"
+        },
+        {
+          "default": 0.0,
+          "id": "rotation",
+          "name": "Rotation"
+        },
+        {
+          "default": [
+            0.5,
+            0.5
+          ],
+          "id": "offset",
+          "name": "Offset Turbulence"
+        },
+        {
+          "default": 3.0,
+          "id": "complexity",
+          "name": "Complexity"
+        },
+        {
+          "default": 0.0,
+          "id": "evolution",
+          "name": "Evolution"
+        },
+        {
+          "default": 4.0,
+          "id": "steps",
+          "name": "Flow Steps"
+        },
+        {
+          "default": 0,
+          "id": "edgeBehavior",
+          "name": "Edge Behavior"
+        },
+        {
+          "default": 0.0,
+          "id": "randomSeed",
+          "name": "Random Seed"
+        }
+      ]
+    },
+    {
+      "category": "Noise & Grain",
+      "float": true,
+      "gpu": true,
+      "id": "ec.noise.dustscratches",
+      "name": "Dust & Scratches",
+      "params": [
+        {
+          "default": 1.0,
+          "id": "radius",
+          "name": "Radius"
+        },
+        {
+          "default": 0.0,
+          "id": "threshold",
+          "name": "Threshold"
+        },
+        {
+          "default": false,
+          "id": "operateOnAlpha",
+          "name": "Operate On Alpha Channel"
+        }
+      ]
+    },
+    {
+      "category": "Noise & Grain",
+      "float": true,
+      "gpu": true,
+      "id": "ec.noise.fractal",
+      "name": "Fractal Noise",
+      "params": [
+        {
+          "default": 0,
+          "id": "fractalType",
+          "name": "Fractal Type"
+        },
+        {
+          "default": 2,
+          "id": "noiseType",
+          "name": "Noise Type"
+        },
+        {
+          "default": false,
+          "id": "invert",
+          "name": "Invert"
+        },
+        {
+          "default": 100.0,
+          "id": "contrast",
+          "name": "Contrast"
+        },
+        {
+          "default": 0.0,
+          "id": "brightness",
+          "name": "Brightness"
+        },
+        {
+          "default": 3,
+          "id": "overflow",
+          "name": "Overflow"
+        },
+        {
+          "default": 0.0,
+          "id": "transform/rotation",
+          "name": "Rotation"
+        },
+        {
+          "default": true,
+          "id": "transform/uniformScaling",
+          "name": "Uniform Scaling"
+        },
+        {
+          "default": 100.0,
+          "id": "transform/scale",
+          "name": "Scale"
+        },
+        {
+          "default": 100.0,
+          "id": "transform/scaleWidth",
+          "name": "Scale Width"
+        },
+        {
+          "default": 100.0,
+          "id": "transform/scaleHeight",
+          "name": "Scale Height"
+        },
+        {
+          "default": [
+            0.5,
+            0.5
+          ],
+          "id": "transform/offset",
+          "name": "Offset Turbulence"
+        },
+        {
+          "default": false,
+          "id": "transform/perspectiveOffset",
+          "name": "Perspective Offset"
+        },
+        {
+          "default": 6.0,
+          "id": "complexity",
+          "name": "Complexity"
+        },
+        {
+          "default": 70.0,
+          "id": "subSettings/subInfluence",
+          "name": "Sub Influence (%)"
+        },
+        {
+          "default": 56.0,
+          "id": "subSettings/subScaling",
+          "name": "Sub Scaling"
+        },
+        {
+          "default": 0.0,
+          "id": "subSettings/subRotation",
+          "name": "Sub Rotation"
+        },
+        {
+          "default": [
+            0.0,
+            0.0
+          ],
+          "id": "subSettings/subOffset",
+          "name": "Sub Offset"
+        },
+        {
+          "default": false,
+          "id": "subSettings/centerSubscale",
+          "name": "Center Subscale"
+        },
+        {
+          "default": 0.0,
+          "id": "evolution",
+          "name": "Evolution"
+        },
+        {
+          "default": false,
+          "id": "evolutionOptions/cycleEvolution",
+          "name": "Cycle Evolution"
+        },
+        {
+          "default": 1.0,
+          "id": "evolutionOptions/cycle",
+          "name": "Cycle (in Revolutions)"
+        },
+        {
+          "default": 0.0,
+          "id": "evolutionOptions/seed",
+          "name": "Random Seed"
+        },
+        {
+          "default": 100.0,
+          "id": "opacity",
+          "name": "Opacity"
+        },
+        {
+          "default": 1,
+          "id": "blendingMode",
+          "name": "Blending Mode"
+        },
+        {
+          "default": 0.0,
+          "id": "blend",
+          "name": "Blend With Original"
+        }
+      ]
+    },
+    {
+      "category": "Noise & Grain",
+      "float": true,
+      "gpu": false,
+      "id": "ec.noise.matchgrain",
+      "name": "Match Grain",
+      "params": [
+        {
+          "default": 4,
+          "id": "viewingMode",
+          "name": "Viewing Mode"
+        },
+        {
+          "default": null,
+          "id": "noiseSourceLayer",
+          "name": "Noise Source Layer"
+        },
+        {
+          "default": 0,
+          "id": "noiseSourceLayerSource",
+          "name": "Noise Source Layer Source"
+        },
+        {
+          "default": 0.0,
+          "id": "compensateForExistingNoise",
+          "name": "Compensate for Existing Noise"
+        },
+        {
+          "default": [
+            0.5,
+            0.5
+          ],
+          "id": "previewRegion/center",
+          "name": "Center"
+        },
+        {
+          "default": 200.0,
+          "id": "previewRegion/width",
+          "name": "Width"
+        },
+        {
+          "default": 200.0,
+          "id": "previewRegion/height",
+          "name": "Height"
+        },
+        {
+          "default": true,
+          "id": "previewRegion/showBox",
+          "name": "Show Box"
+        },
+        {
+          "default": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "id": "previewRegion/boxColor",
+          "name": "Box Color"
+        },
+        {
+          "default": 0,
+          "id": "sampling/samplingProcess",
+          "name": "Sampling Process"
+        },
+        {
+          "default": 80.0,
+          "id": "sampling/numberOfSamples",
+          "name": "Number of Samples"
+        },
+        {
+          "default": 9.0,
+          "id": "sampling/sampleSize",
+          "name": "Sample Size"
+        },
+        {
+          "default": [
+            1.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "id": "sampling/sampleBoxColor",
+          "name": "Sample Box Color"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/intensity",
+          "name": "Intensity"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/channelIntensities/redIntensity",
+          "name": "Red Intensity"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/channelIntensities/greenIntensity",
+          "name": "Green Intensity"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/channelIntensities/blueIntensity",
+          "name": "Blue Intensity"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/size",
+          "name": "Size"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/channelSize/redSize",
+          "name": "Red Size"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/channelSize/greenSize",
+          "name": "Green Size"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/channelSize/blueSize",
+          "name": "Blue Size"
+        },
+        {
+          "default": 0.0,
+          "id": "tweaking/softness",
+          "name": "Softness"
+        },
+        {
+          "default": 1.0,
+          "id": "tweaking/aspectRatio",
+          "name": "Aspect Ratio"
+        },
+        {
+          "default": false,
+          "id": "color/monochromatic",
+          "name": "Monochromatic"
+        },
+        {
+          "default": 1.0,
+          "id": "color/saturation",
+          "name": "Saturation"
+        },
+        {
+          "default": 0.0,
+          "id": "color/tintAmount",
+          "name": "Tint Amount"
+        },
+        {
+          "default": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "id": "color/tintColor",
+          "name": "Tint Color"
+        },
+        {
+          "default": 1.0,
+          "id": "color/redBalance",
+          "name": "Red Balance"
+        },
+        {
+          "default": 1.0,
+          "id": "color/greenBalance",
+          "name": "Green Balance"
+        },
+        {
+          "default": 1.0,
+          "id": "color/blueBalance",
+          "name": "Blue Balance"
+        },
+        {
+          "default": 0,
+          "id": "application/blendingMode",
+          "name": "Blending Mode"
+        },
+        {
+          "default": 1.0,
+          "id": "application/shadows",
+          "name": "Shadows"
+        },
+        {
+          "default": 1.0,
+          "id": "application/midtones",
+          "name": "Midtones"
+        },
+        {
+          "default": 1.0,
+          "id": "application/highlights",
+          "name": "Highlights"
+        },
+        {
+          "default": 0.5,
+          "id": "application/midpoint",
+          "name": "Midpoint"
+        },
+        {
+          "default": 1.0,
+          "id": "animation/animationSpeed",
+          "name": "Animation Speed"
+        },
+        {
+          "default": true,
+          "id": "animation/animateSmoothly",
+          "name": "Animate Smoothly"
+        },
+        {
+          "default": 0.0,
+          "id": "animation/randomSeed",
+          "name": "Random Seed"
+        }
+      ]
+    },
+    {
+      "category": "Noise & Grain",
+      "float": true,
+      "gpu": true,
+      "id": "ec.noise.median",
+      "name": "Median",
+      "params": [
+        {
+          "default": 0.0,
+          "id": "radius",
+          "name": "Radius"
+        },
+        {
+          "default": false,
+          "id": "operateOnAlpha",
+          "name": "Operate On Alpha Channel"
+        }
+      ]
+    },
+    {
+      "category": "Noise & Grain",
+      "float": true,
+      "gpu": true,
+      "id": "ec.noise.medianlegacy",
+      "name": "Median (Legacy)",
+      "params": [
+        {
+          "default": 1.0,
+          "id": "radius",
+          "name": "Radius"
+        },
+        {
+          "default": false,
+          "id": "operateOnAlphaChannel",
+          "name": "Operate On Alpha Channel"
+        }
+      ]
+    },
+    {
+      "category": "Noise & Grain",
+      "float": true,
+      "gpu": true,
+      "id": "ec.noise.noise",
+      "name": "Noise",
+      "params": [
+        {
+          "default": 0.0,
+          "id": "amount",
+          "name": "Amount of Noise"
+        },
+        {
+          "default": true,
+          "id": "color",
+          "name": "Use Color Noise"
+        },
+        {
+          "default": true,
+          "id": "clip",
+          "name": "Clip Result Values"
+        }
+      ]
+    },
+    {
+      "category": "Noise & Grain",
+      "float": true,
+      "gpu": true,
+      "id": "ec.noise.noisealpha",
+      "name": "Noise Alpha",
+      "params": [
+        {
+          "default": 0,
+          "id": "noise",
+          "name": "Noise"
+        },
+        {
+          "default": 0.0,
+          "id": "amount",
+          "name": "Amount"
+        },
+        {
+          "default": 1,
+          "id": "originalAlpha",
+          "name": "Original Alpha"
+        },
+        {
+          "default": 0,
+          "id": "overflow",
+          "name": "Overflow"
+        },
+        {
+          "default": 0.0,
+          "id": "randomSeed",
+          "name": "Random Seed"
+        },
+        {
+          "default": 0.0,
+          "id": "noisePhase",
+          "name": "Noise Phase"
+        },
+        {
+          "default": false,
+          "id": "noiseOptions/cycleNoise",
+          "name": "Cycle Noise"
+        },
+        {
+          "default": 1.0,
+          "id": "noiseOptions/cycle",
+          "name": "Cycle"
+        }
+      ]
+    },
+    {
+      "category": "Noise & Grain",
+      "float": true,
+      "gpu": true,
+      "id": "ec.noise.noisehls",
+      "name": "Noise HLS",
+      "params": [
+        {
+          "default": 0,
+          "id": "noise",
+          "name": "Noise"
+        },
+        {
+          "default": 0.0,
+          "id": "hue",
+          "name": "Hue"
+        },
+        {
+          "default": 0.0,
+          "id": "lightness",
+          "name": "Lightness"
+        },
+        {
+          "default": 0.0,
+          "id": "saturation",
+          "name": "Saturation"
+        },
+        {
+          "default": 1.0,
+          "id": "grainSize",
+          "name": "Grain Size"
+        },
+        {
+          "default": 0.0,
+          "id": "noisePhase",
+          "name": "Noise Phase"
+        }
+      ]
+    },
+    {
+      "category": "Noise & Grain",
+      "float": true,
+      "gpu": true,
+      "id": "ec.noise.noisehlsauto",
+      "name": "Noise HLS Auto",
+      "params": [
+        {
+          "default": 0,
+          "id": "noise",
+          "name": "Noise"
+        },
+        {
+          "default": 0.0,
+          "id": "hue",
+          "name": "Hue"
+        },
+        {
+          "default": 0.0,
+          "id": "lightness",
+          "name": "Lightness"
+        },
+        {
+          "default": 0.0,
+          "id": "saturation",
+          "name": "Saturation"
+        },
+        {
+          "default": 1.0,
+          "id": "grainSize",
+          "name": "Grain Size"
+        },
+        {
+          "default": 10.0,
+          "id": "noiseAnimationSpeed",
+          "name": "Noise Animation Speed"
+        }
+      ]
+    },
+    {
+      "category": "Noise & Grain",
+      "float": true,
+      "gpu": true,
+      "id": "ec.noise.removegrain",
+      "name": "Remove Grain",
+      "params": [
+        {
+          "default": 3,
+          "id": "viewingMode",
+          "name": "Viewing Mode"
+        },
+        {
+          "default": [
+            0.5,
+            0.5
+          ],
+          "id": "previewRegion/center",
+          "name": "Center"
+        },
+        {
+          "default": 200.0,
+          "id": "previewRegion/width",
+          "name": "Width"
+        },
+        {
+          "default": 200.0,
+          "id": "previewRegion/height",
+          "name": "Height"
+        },
+        {
+          "default": true,
+          "id": "previewRegion/showBox",
+          "name": "Show Box"
+        },
+        {
+          "default": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "id": "previewRegion/boxColor",
+          "name": "Box Color"
+        },
+        {
+          "default": 1.0,
+          "id": "noiseReductionSettings/noiseReduction",
+          "name": "Noise Reduction"
+        },
+        {
+          "default": 1.0,
+          "id": "noiseReductionSettings/passes",
+          "name": "Passes"
+        },
+        {
+          "default": 0,
+          "id": "noiseReductionSettings/mode",
+          "name": "Mode"
+        },
+        {
+          "default": 0.0,
+          "id": "fineTuning/texture",
+          "name": "Texture"
+        },
+        {
+          "default": 0.0,
+          "id": "unsharpMask/amount",
+          "name": "Amount"
+        },
+        {
+          "default": 1.0,
+          "id": "unsharpMask/radius",
+          "name": "Radius"
+        },
+        {
+          "default": 0.0,
+          "id": "unsharpMask/threshold",
+          "name": "Threshold"
+        },
+        {
+          "default": false,
+          "id": "temporalFiltering/enabled",
+          "name": "Enabled"
+        },
+        {
+          "default": 100.0,
+          "id": "temporalFiltering/amount",
+          "name": "Amount"
+        },
+        {
+          "default": 0.5,
+          "id": "temporalFiltering/motionSensitivity",
+          "name": "Motion Sensitivity"
+        },
+        {
+          "default": 0,
+          "id": "sampling/samplingProcess",
+          "name": "Sampling Process"
+        },
+        {
+          "default": 80.0,
+          "id": "sampling/numberOfSamples",
+          "name": "Number of Samples"
+        },
+        {
+          "default": 9.0,
+          "id": "sampling/sampleSize",
+          "name": "Sample Size"
+        },
+        {
+          "default": [
+            1.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "id": "sampling/sampleBoxColor",
+          "name": "Sample Box Color"
+        }
+      ]
+    },
+    {
+      "category": "Noise & Grain",
+      "float": true,
+      "gpu": true,
+      "id": "ec.noise.turbulent",
+      "name": "Turbulent Noise",
+      "params": [
+        {
+          "default": 1,
+          "id": "fractalType",
+          "name": "Fractal Type"
+        },
+        {
+          "default": 2,
+          "id": "noiseType",
+          "name": "Noise Type"
+        },
+        {
+          "default": false,
+          "id": "invert",
+          "name": "Invert"
+        },
+        {
+          "default": 100.0,
+          "id": "contrast",
+          "name": "Contrast"
+        },
+        {
+          "default": 0.0,
+          "id": "brightness",
+          "name": "Brightness"
+        },
+        {
+          "default": 0,
+          "id": "overflow",
+          "name": "Overflow"
+        },
+        {
+          "default": 0.0,
+          "id": "transform/rotation",
+          "name": "Rotation"
+        },
+        {
+          "default": true,
+          "id": "transform/uniformScaling",
+          "name": "Uniform Scaling"
+        },
+        {
+          "default": 100.0,
+          "id": "transform/scale",
+          "name": "Scale"
+        },
+        {
+          "default": 100.0,
+          "id": "transform/scaleWidth",
+          "name": "Scale Width"
+        },
+        {
+          "default": 100.0,
+          "id": "transform/scaleHeight",
+          "name": "Scale Height"
+        },
+        {
+          "default": [
+            0.5,
+            0.5
+          ],
+          "id": "transform/offset",
+          "name": "Offset Turbulence"
+        },
+        {
+          "default": false,
+          "id": "transform/perspectiveOffset",
+          "name": "Perspective Offset"
+        },
+        {
+          "default": 6.0,
+          "id": "complexity",
+          "name": "Complexity"
+        },
+        {
+          "default": 70.0,
+          "id": "subSettings/subInfluence",
+          "name": "Sub Influence (%)"
+        },
+        {
+          "default": 56.0,
+          "id": "subSettings/subScaling",
+          "name": "Sub Scaling"
+        },
+        {
+          "default": 0.0,
+          "id": "evolution",
+          "name": "Evolution"
+        },
+        {
+          "default": 0.5,
+          "id": "evolutionOptions/turbulenceFactor",
+          "name": "Turbulence Factor"
+        },
+        {
+          "default": 0.0,
+          "id": "evolutionOptions/randomSeed",
+          "name": "Random Seed"
+        },
+        {
+          "default": 100.0,
+          "id": "opacity",
+          "name": "Opacity"
+        },
+        {
+          "default": 1,
+          "id": "blendingMode",
+          "name": "Blending Mode"
+        },
+        {
+          "default": 0.0,
+          "id": "blend",
+          "name": "Blend With Original"
+        }
+      ]
+    }
+  ]
+}

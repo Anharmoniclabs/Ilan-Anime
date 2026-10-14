@@ -1,0 +1,11 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "name": "3-0 SMOOTHING gauze"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

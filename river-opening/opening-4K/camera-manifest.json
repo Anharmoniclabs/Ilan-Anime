@@ -1,0 +1,149 @@
+{
+  "fps": 60,
+  "size": [
+    3840,
+    2160
+  ],
+  "frames": 1020,
+  "duration": 17.0,
+  "shots": [
+    {
+      "name": "Three canoes, eleven survivors",
+      "source": "/home/alabs/Projects/AnimeMotion/river-opening/shot-01-take-02/scene.mp4",
+      "sha256": "8bb8956b339a2605e34b62453693a5573ebcd193c9fc5b908163720df62f6667",
+      "source_size": [
+        1672,
+        942
+      ],
+      "camera": [
+        {
+          "at": 0.0,
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.0,
+          "ease": "smoother"
+        },
+        {
+          "at": 1.0,
+          "x": 0.501,
+          "y": 0.501,
+          "zoom": 1.008,
+          "ease": "smoother"
+        }
+      ],
+      "frames": 480,
+      "start": 0.0,
+      "overlap_frames": 0,
+      "transition": "cut",
+      "clamped_frames": 0,
+      "protected": [
+        [
+          0.012,
+          0.345,
+          0.975,
+          0.43
+        ]
+      ],
+      "audio_omitted": false
+    },
+    {
+      "name": "Her son slept against her ribs",
+      "source": "/home/alabs/Projects/AnimeMotion/river-opening/shot-02-take-01/scene.mp4",
+      "sha256": "6510515e238f3ade75f027294e65b2342e1fa657e097ef7823fc04dbc8f9a3ff",
+      "source_size": [
+        1670,
+        942
+      ],
+      "camera": [
+        {
+          "at": 0.0,
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.0,
+          "ease": "smoother"
+        },
+        {
+          "at": 1.0,
+          "x": 0.5,
+          "y": 0.5,
+          "zoom": 1.0,
+          "ease": "smoother"
+        }
+      ],
+      "frames": 540,
+      "start": 0.0,
+      "overlap_frames": 0,
+      "transition": "cut",
+      "clamped_frames": 0,
+      "protected": [
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      "audio_omitted": false
+    }
+  ],
+  "method": "Camera transforms at output frame rate. Source cel timing retained; no new artwork or optical-flow in-betweens. Silent picture edit.",
+  "spec": {
+    "fps": 60,
+    "size": [
+      3840,
+      2160
+    ],
+    "shots": [
+      {
+        "name": "Three canoes, eleven survivors",
+        "source": "shot-01-take-02/scene.mp4",
+        "duration": 8,
+        "fit": "match",
+        "camera": [
+          {
+            "at": 0,
+            "zoom": 1
+          },
+          {
+            "at": 1,
+            "zoom": 1.008,
+            "x": 0.501,
+            "y": 0.501
+          }
+        ],
+        "protected": [
+          [
+            0.012,
+            0.345,
+            0.975,
+            0.43
+          ]
+        ]
+      },
+      {
+        "name": "Her son slept against her ribs",
+        "source": "shot-02-take-01/scene.mp4",
+        "duration": 9,
+        "fit": "match",
+        "camera": [
+          {
+            "at": 0,
+            "zoom": 1
+          },
+          {
+            "at": 1,
+            "zoom": 1
+          }
+        ],
+        "protected": [
+          [
+            0,
+            0,
+            1,
+            1
+          ]
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "candidate_sha256": "352df00d92a175b2713fc0de41b0738caaf1b3cfca1347bcdf133b5b8e8de2b4",
+  "status": "exploratory-source-plate-submitted-for-independent-review",
+  "tool": "built-in image_gen; exactly one call, no paid API",
+  "generator_output": "/home/alabs/.codex/generated_images/01a13a87-80c4-7b03-b3de-84b50cafbf90/exec-823ad8b1-6229-452b-aeda-bd797c15070c.png",
+  "references": {
+    "production/runs/episode1-amaia-finish/tasks/three-losses-r2/sources/rest.png": "e985d519e4e1d2c4814afc8779c79cea33623bb4fe9da0df39d9e3c16033d6c9",
+    "production/runs/episode1-full-picture/amaia-breakdowns/ghost-woman-rgba.png": "11ca3a91f5e3eb4c22ae72a5f87946647921dedba5ccfa944e0564cb9178e373",
+    "production/runs/episode1-full-picture/amaia-breakdowns/ghost-man-rgba.png": "d59bdf6ce48bc4e644c9e535d6f6fa5ad18c20d9513f0f9ed5060db2981c652e",
+    "production/runs/episode1-full-picture/amaia-breakdowns/ghost-elder-rgba.png": "c4b1383ae3184f88c0fe9a01712bdb68e65e5e670259a18100352851d311c03a"
+  },
+  "checks": {
+    "identity": "Directly compared original rest.png and candidate: living Amaia curly hair, shell tie/pendant, feminine face, child sleeping on chest visually retained; no new person generated. Pixel values are not identical; quantitative differences in placement-diagnostic.json.",
+    "costume": "White wrap, red skirt and white child garment retained in same framing.",
+    "props_and_contact": "Candidate supplies three stepped broad top surfaces with visible front edges, inside the existing hull. It is more stepped than requested continuous shared bench. Source-only adult registration diagnostic is NOT satisfactory: woman and man reveal lower crop lines, combined male face is occluded, and elder approaches right frame. Contact-matched lower-body drawings remain necessary.",
+    "composition": "1672 by 941 original canvas retained. Left living subjects, upper blue river and forest, far diagonal rail and foreground gunwale visually preserved. No exact pixel preservation claimed.",
+    "lighting": "Moonless navy mangrove with warm skin and restrained wood highlights. No sun or moon inserted.",
+    "line_and_color": "Fine ink wood contours and dark cel-painted texture consistent with the source.",
+    "neighbor_continuity": "Compared exact assigned original resting plate, not an unverified neighboring shot. New geometry must be propagated to head-arc backgrounds if accepted.",
+    "script_fidelity": "Source-only repair for exactly three empty-seat memory beats. No apparition added in candidate; no fades, counting lips, head motion or video produced."
+  },
+  "continuity": {
+    "character_ids": [
+      "Amaia",
+      "Amaia sleeping child"
+    ],
+    "costume_ids": [
+      "Amaia white wrap and rust skirt",
+      "child white wrap"
+    ],
+    "prop_ids": [
+      "wooden canoe",
+      "three bench support areas"
+    ],
+    "time": "moonless historical BEFORE sequence",
+    "location": "mangrove river canoe"
+  },
+  "inspection": {
+    "directly_viewed": [
+      "original rest.png",
+      "three original RGBA ghost figures",
+      "approved_style_reference.png",
+      "candidate.png",
+      "seat-anchors.jpg",
+      "placement-combined.jpg",
+      "placement-woman.jpg",
+      "placement-man.jpg",
+      "placement-elder.jpg"
+    ],
+    "not_claimed": [
+      "real-time playback",
+      "independent review",
+      "technical approval",
+      "author approval",
+      "canonical promotion",
+      "completed animated shot"
+    ]
+  }
+}

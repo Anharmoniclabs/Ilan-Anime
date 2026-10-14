@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anime Editor"
+  short_description: "Assemble approved shots in canonical order, respecting frame counts and authored cut rh..."
+  default_prompt: "Use $anime-editor for the dispatched ledger task."
+policy:
+  allow_implicit_invocation: false

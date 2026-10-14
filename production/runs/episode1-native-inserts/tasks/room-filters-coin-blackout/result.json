@@ -1,0 +1,41 @@
+{
+  "task_id": "room-filters-coin-blackout",
+  "role": "compositor",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/HANDOFF.md",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/technical-checks.json",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/pixel-checks.json",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/provenance.json",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/sigil-continuity-comparison.png",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/hashes.json",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/reopen-evidence/status.json",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S03-03/review.mp4",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S03-03/native/shot.ecproj",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S03-03/shot.json",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S03-03/decoded-review-sheet.jpg",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/review-matte.mp4",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/native-matte/shot.ecproj",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/shot.json",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/decoded-review-sheet.jpg",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/review-matte.mp4",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/native-matte/shot.ecproj",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/shot.json",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/decoded-review-sheet.jpg",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/review.mp4",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/native/shot.ecproj",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/shot.json",
+    "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/decoded-review-sheet.jpg"
+  ],
+  "evidence": [
+    "Four silent drafts fully decoded: S03-03 288 frames, S04-02 144, S05-13 96, S06-03 144; all 1280x720 at 24 fps, no audio streams.",
+    "Saved layered EffectCraft projects and executable Craft recipes; all four native projects reopened successfully. Source layers, SVG graphics, hashes, probes and all 672 decoded PNGs retained inside the task directory.",
+    "Directly inspected decoded review sheets for all four shots and enlarged coin contact crops. No real-time playback or independent approval claimed.",
+    "S03-03: numeric 128 px left-to-right pan over one stable painting, independent steam drawings on 3s; no fan visible in source. S06-03: scripted static blackout hold with existing distant skyline glow and no nearby lamp flicker. Neither shot requires character acting.",
+    "S04-02: exactly three editable gauze panes with exact labels and comb/door/line icons; supplied shared connected sigil and unchanged waveform translate through all three on 3s.",
+    "S05-13: decoded pixel tracking confirms 2 px tremor, 12 px lift, contact flash f17, 1 px bounce f18 and settled hold from f19. Fixed scale, anchored wood shadow, 98 px downward registration. Removed 891 alpha=1 specks in a derived matte; originals preserved."
+  ],
+  "blockers": [
+    "S05-13 final motif continuity: supplied coin engraving differs from shared-sigil.json/SVG. A thin overlay would double the existing groove. Requires an unengraved coin face in the same perspective/light plus registered shared-sigil overlay, or an independently reviewed motif repaint. Motion draft is submitted with this dependency; no continuity approval claimed."
+  ]
+}

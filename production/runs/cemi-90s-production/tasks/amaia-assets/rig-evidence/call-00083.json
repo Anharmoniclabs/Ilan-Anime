@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 544,
+      "name": "left-shin-foot"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

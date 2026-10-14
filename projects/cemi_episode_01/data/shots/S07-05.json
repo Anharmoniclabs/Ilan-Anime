@@ -1,0 +1,52 @@
+{
+  "id": "S07-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 240,
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "'The Look': Mamá looks over her coffee and decides not to answer. Dissolve through JC at nine (asking where Papá goes on nights he doesn't come home) and after the fever at twelve. Same pose, same angle, three eras of warm light.",
+  "camera_note": "TRIPTYCH · dissolves",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "plate_0",
+      "source": "assets/keyframes/S07-05.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 240,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "HARMONY_CUT"
+    ],
+    "asset_slot_fx": [
+      "DISSOLVE_TRIPTYCH"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

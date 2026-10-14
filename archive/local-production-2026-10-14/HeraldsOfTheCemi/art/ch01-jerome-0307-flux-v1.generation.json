@@ -1,0 +1,29 @@
+{
+  "status": "generated",
+  "model": "black-forest-labs/FLUX.1-dev",
+  "provider": "fal-ai",
+  "transport": "huggingface-router",
+  "parameters": {
+    "prompt": "A richly textured, full-color hand-drawn animated graphic-novel film frame. Widescreen cinematic medium shot inside a cramped Bronx bedroom at night. Thick visible graphite pencil grain, dense sketchy crosshatching and raw uneven black ink contours over warm watercolor washes; detailed painterly environment. The marks of the pencil remain very clearly visible across face, hair, clothes, furniture and walls. Expressive hand-crafted Caribbean graphic novel illustration, not flat vector cartoon. Color palette of terracotta, warm amber, indigo and deep teal, with readable midtones and rich light.\nLEFT CENTER: Juan Carlos, a 25-year-old Dominican artist and electronics builder with warm brown skin, tousled short black scribbled curls, heavy expressive brows and tired brown eyes, clean-shaven adult face. He wears a charcoal HOODIE and large black HEADPHONES visibly resting around his neck. Seated in three-quarter profile at his messy desk, fingers poised on an open LAPTOP, face softly lit by its screen. Visible development boards, colored cables, compact projector and glass leftovers dish on the desk, rumpled laundry in the corner. He is thoughtful and alert.\nRIGHT THIRD: a LARGE cracked-open apartment WINDOW, clearly visible in the composition, showing New York's elevated subway tracks at fourth-floor height and a silver SUBWAY TRAIN passing outside in the deep blue night. Train windows cast a streak of golden light. This important train window must be visible beside the character. An amber desk lamp gently lights the papers and rough plaster wall. Screen contains abstract shapes, no readable text. Atmospheric and intimate, mature character proportions, beautiful character acting potential, tangible hand-painted paper texture and layered pencil strokes everywhere. One man only. No panels, collage, poster, typography, watermark, photorealism, glossy 3D, perfectly smooth vector fills or supernatural effects. This is one finished scene from a textured hand-drawn animated film.",
+    "image_size": {
+      "width": 1664,
+      "height": 928
+    },
+    "seed": 3072026,
+    "num_inference_steps": 28,
+    "num_images": 1,
+    "output_format": "png"
+  },
+  "path": "/home/alabs/Projects/HeraldsOfTheCemi/art/ch01-jerome-0307-flux-v1.png",
+  "started_at": 1791480595.3905776,
+  "billed_cost": null,
+  "sha256": "3d6f59dc9edcf495c7099fe67555301c97ec594f9af8b842a8f496e9708df909",
+  "bytes": 2583058,
+  "actual_dimensions": [
+    1664,
+    928
+  ],
+  "returned_seed": 3072026,
+  "review": "not yet visually reviewed",
+  "seconds": 8.817743782999969
+}

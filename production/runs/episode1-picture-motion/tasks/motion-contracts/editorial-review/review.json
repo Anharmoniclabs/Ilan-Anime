@@ -1,0 +1,159 @@
+{
+  "reviewer": "generate_history",
+  "role": "animation-supervisor",
+  "producer": "root/editorial-motion",
+  "independent": true,
+  "status": "submitted",
+  "decision": "usable_silent_native_editorial_motion_draft",
+  "scope": "five editorial shots only; independent decoded frame sequence inspection and technical checks, no realtime playback claim",
+  "evidence": [
+    {
+      "shot": "S00-01",
+      "path": "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-01/native-v1/preview.mp4",
+      "sha256": "e1c2d295a647317a058b8c8832ac54bdffab71e4591a1e665fdaaffdee2715b9",
+      "native_project": "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-01/native-v1/shot.ecproj",
+      "native_sha256": "e7c658cca7b5fce5940dcf0b6887692bb4c29af0a1a1feb8109d0b4691b3945b",
+      "decoded_frames": 96,
+      "expected_frames": 96,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": "24/1",
+      "audio_stream_count": 0,
+      "unique_decoded_frames": 65,
+      "mean_min": 30.007407407407406,
+      "mean_max": 30.383959056712964,
+      "max_adjacent_mean_abs_difference": 0.02581886574074074,
+      "all_decoded_black": false,
+      "sheet": "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S00-01-sheet.jpg"
+    },
+    {
+      "shot": "S00-02",
+      "path": "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/preview.mp4",
+      "sha256": "e0d11580973209bc66fb053f0ec5b28e2d1b1b57bbc069c2775bec800a485f9c",
+      "native_project": "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/shot.ecproj",
+      "native_sha256": "9beb530bc22e729f65cc1dfc3cf6ca46efb09b64cd81504e4dc3e437f87d6360",
+      "decoded_frames": 120,
+      "expected_frames": 120,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": "24/1",
+      "audio_stream_count": 0,
+      "unique_decoded_frames": 60,
+      "mean_min": 30.007407407407406,
+      "mean_max": 31.843040364583334,
+      "max_adjacent_mean_abs_difference": 0.2617957899305556,
+      "all_decoded_black": false,
+      "sheet": "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S00-02-sheet.jpg"
+    },
+    {
+      "shot": "S02-01",
+      "path": "production/runs/episode1-picture-motion/tasks/editorial-motion/S02-01/native-v1/preview.mp4",
+      "sha256": "4767fa6d5c56574982aeb3b7f086a0b1375fe9c28cb0d845802df59b2ec37493",
+      "native_project": "production/runs/episode1-picture-motion/tasks/editorial-motion/S02-01/native-v1/shot.ecproj",
+      "native_sha256": "998d81fb29f80a14abc4fabf12ec7daf2c815f4f1e646e2c790538f707a7ec72",
+      "decoded_frames": 288,
+      "expected_frames": 288,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": "24/1",
+      "audio_stream_count": 0,
+      "unique_decoded_frames": 132,
+      "mean_min": 30.007407407407406,
+      "mean_max": 31.366078559027777,
+      "max_adjacent_mean_abs_difference": 0.16968894675925925,
+      "all_decoded_black": false,
+      "sheet": "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S02-01-sheet.jpg"
+    },
+    {
+      "shot": "S01-15",
+      "path": "production/runs/episode1-picture-motion/tasks/editorial-motion/S01-15/native-v1/preview.mp4",
+      "sha256": "c8a4dbb33bfe8550bea14c3c7c4201bbda01c706517b8a5e90735a7c4cfa6bd2",
+      "native_project": "production/runs/episode1-picture-motion/tasks/editorial-motion/S01-15/native-v1/shot.ecproj",
+      "native_sha256": "3de1c55fa46f2fe59c0237681a1b577c20dc47d8b60c0ce1c3b9e996379237d7",
+      "decoded_frames": 96,
+      "expected_frames": 96,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": "24/1",
+      "audio_stream_count": 0,
+      "unique_decoded_frames": 1,
+      "mean_min": 0.0,
+      "mean_max": 0.0,
+      "max_adjacent_mean_abs_difference": 0,
+      "all_decoded_black": true,
+      "sheet": "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S01-15-sheet.jpg"
+    },
+    {
+      "shot": "S15-09",
+      "path": "production/runs/episode1-picture-motion/tasks/editorial-motion/S15-09/native-v1/preview.mp4",
+      "sha256": "6d57fdbc4856cd49b32657dc8b272e542205dc81c2894858a2fd9d8f6f5460ed",
+      "native_project": "production/runs/episode1-picture-motion/tasks/editorial-motion/S15-09/native-v1/shot.ecproj",
+      "native_sha256": "f9eb4598de1826d531e33ba340702ecef4cd62b0adb7dde9e790ef5c6cd11952",
+      "decoded_frames": 192,
+      "expected_frames": 192,
+      "dimensions": [
+        1280,
+        720
+      ],
+      "fps": "24/1",
+      "audio_stream_count": 0,
+      "unique_decoded_frames": 1,
+      "mean_min": 0.0,
+      "mean_max": 0.0,
+      "max_adjacent_mean_abs_difference": 0,
+      "all_decoded_black": true,
+      "sheet": "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S15-09-sheet.jpg"
+    }
+  ],
+  "directly_viewed": [
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S00-01-sheet.jpg",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S00-02-sheet.jpg",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S02-01-sheet.jpg",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S00-01-095.png",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S00-02-119.png",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S02-01-120.png",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/editorial-review/S01-15-095.png"
+  ],
+  "findings": [
+    {
+      "result": "pass",
+      "note": "S00-01 sequential decoded frames reveal one uninterrupted spiral-to-triangular-side/base gold stroke over first72frames, ending stable. Shared graphic visibly avoids separate crossing closed triangle."
+    },
+    {
+      "result": "pass",
+      "note": "S00-02 type visibly dissolves from blank through12frame partial opacity to readable24frame endpoint then holds; cream Spanish lines and gold English attribution readable."
+    },
+    {
+      "result": "pass_with_limit",
+      "note": "S02-01 sigil draw and title fade read. Decoded title-region pixel deltas plus source cel exposures show one traveling restrained highlight around108-132, no repeated cycles. Shimmer is very subtle at playback scale."
+    },
+    {
+      "result": "pass",
+      "note": "S01-15 decoded96 frames allRGBzero; S15-09 decoded192 frames allRGBzero. Exact black durations preserved."
+    },
+    {
+      "result": "pass",
+      "note": "All five MP4s24fps1280x720 with no audio. Native EffectCraft JSON exists/parses and exposure manifests have contiguous integer3frame-based holds."
+    },
+    {
+      "result": "finishing_remaining",
+      "note": "No visible film-grain/gate-weave pass in current native cards. These drafts do not complete all scripted final-film treatment."
+    },
+    {
+      "result": "continuity_remaining",
+      "note": "Shared sigil is a candidate cleanup master, not author-approved identity. Coin, stone, inlay, iris and screen perspective registrations remain outstanding across episode."
+    }
+  ],
+  "final_shot_approval": false,
+  "author_approval": false,
+  "episode_approval": false,
+  "new_generation_requested": false
+}

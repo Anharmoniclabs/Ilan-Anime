@@ -1,0 +1,24 @@
+{
+  "steps": [
+    {
+      "app": "effectcraft",
+      "tool": "open_project",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/native-continuous-camera/shot.ecproj"
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 7.958333333333333,
+        "path": "${OUT}/reopened-last.png",
+        "max_side": 0,
+        "inline": false
+      }
+    }
+  ],
+  "outputs": [
+    "reopened-last.png"
+  ]
+}

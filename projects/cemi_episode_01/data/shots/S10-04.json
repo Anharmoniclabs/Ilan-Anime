@@ -1,0 +1,51 @@
+{
+  "id": "S10-04",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 432,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "“You good?” “Long night.” “You always say long night. You ever have a short one?” “Twice. 2019. It was great.” “How's the kid's EP?” “Done.” “So send it.” “It needs one more pass.” “It's needed one more pass for a week, gremlin. Sunday. Rafa's circle in the park, you coming? Bring nothing. Stand in the back.” “I'll try.” “That's a no in a nicer shirt.”",
+  "camera_note": "OTS dialogue",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S10-04",
+        "header": "10:12:00 → 10:30:00 (432f) · OTS dialogue · rate 3s",
+        "action": "“You good?” “Long night.” “You always say long night. You ever have a short one?” “Twice. 2019. It was great.” “How's the kid's EP?” “Done.” “So send it.” “It needs one more pass.” “It's needed one more pass for a week, gremlin. Sunday. Rafa's circle in the park, you coming? Bring nothing. Stand in the back.” “I'll try.” “That's a no in a nicer shirt.”\nSOUND: Warm café ambience; Manny's easy bass voice."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "needs_separated_layers_fx": [
+      "MOUTH_FLAP"
+    ],
+    "asset_slot_fx": [
+      "CHEEK_SMEAR",
+      "HOLD"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

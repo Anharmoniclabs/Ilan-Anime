@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 2,
+      "rect": [
+        25,
+        20,
+        975,
+        65
+      ],
+      "content": "text",
+      "text": "jc-master-v2.png / exploratory source-design review"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 65,
+    "story": 66
+  }
+}

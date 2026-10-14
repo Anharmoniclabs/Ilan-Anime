@@ -1,0 +1,4 @@
+`03:01:00 → 03:08:00` (168f) · INSERT · closet · rate 3s
+- **Action:** ECU: a contact mic clamped to the iron steam riser. Follow the pipe up through the wall to the roof. JC's laptop: a diegetic HUD. The mapping reads like a legend: pitch → color, rhythm → motion, loud → big. Name card: CHISMOSA.
+- **FX:** `UI_LAPTOP(chismosa); SOUND_RIBBON; TEXT_SUPER(CHISMOSA)`
+- **Sound:** Pipe hum; VO JC: “...all it did was listen through the walls and tell me everybody's business.”

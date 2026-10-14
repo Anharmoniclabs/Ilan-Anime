@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 57915648000000,
+      "durationFrames": 192,
+      "name": "S03-11 missing",
+      "comment": "band present; delete disappear; return; counter reaches12"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 45
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 121419648000000,
+      "durationFrames": 288,
+      "name": "S07-06 missing",
+      "comment": "exchange; promise joke; pocket warmth; append four items"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 77
+  }
+}

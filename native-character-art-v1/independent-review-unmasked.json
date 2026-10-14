@@ -1,0 +1,66 @@
+{
+  "decision": "reject",
+  "task_fulfilled": false,
+  "status": "incomplete",
+  "scope": "Exploratory native auto-trace reconstruction; not original controlled redraw or rig.",
+  "directly_viewed": [
+    "ART-DIRECTION.png",
+    "Cemi-editable-trace.png",
+    "Cemi-clean-trace.png",
+    "center-character.png",
+    "elder-character.png",
+    "right-character.png"
+  ],
+  "findings": [
+    "All three character PNGs remain rectangular poster crops with sky, city, other characters and energy included. Mask creation did not isolate characters.",
+    "Native files parse with true vector paths. Trace layers contain 159228/117730/115579 direct children for center/elder/right; no meaningful independent body, face, eyelid, mouth or hand controls shown.",
+    "Hidden locked embedded original reference layers exist in all three native files. Source reference is preserved, but visible exports remain traced poster content.",
+    "Detailed trace preserves source composition and major facial landmarks but introduces speckle, stepped shading and fine-edge changes. Simplified trace severely degrades faces and detail; retain as rejected.",
+    "Poster occlusions, crossing energy, cropped bodies and missing hidden anatomy preclude clean rigging without new drawing.",
+    "Large anonymous path counts provide low-level editability but do not establish practical production control; no interactive performance or motion test performed by reviewer."
+  ],
+  "native_sizes_bytes": {
+    "center-character.vectorcraft": 54663462,
+    "elder-character.vectorcraft": 41199995,
+    "right-character.vectorcraft": 41333134
+  },
+  "evidence": [
+    {
+      "file": "ART-DIRECTION.png",
+      "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c"
+    },
+    {
+      "file": "Cemi-editable-trace.png",
+      "sha256": "fff35c8688d40fe9d14a19cb472433c7b11cbebb67738095159146476f9d58ff"
+    },
+    {
+      "file": "Cemi-clean-trace.png",
+      "sha256": "31eb3e736362d2c0a8300a37bc4a2bde10845fe8e4b6e48decf6fceeb92aa70a"
+    },
+    {
+      "file": "center-character.png",
+      "sha256": "f834c06c394d1e50b7cb86b33ab626cdceb02b37b4fe5d9295a36160a9c2ce16"
+    },
+    {
+      "file": "elder-character.png",
+      "sha256": "4b1f73e6afaf5c5737472b90db4436a9263b6674570fab7dca83ac132c8c93bf"
+    },
+    {
+      "file": "right-character.png",
+      "sha256": "221b68cf9177bc2c96c82066eb722a47ed556992d1630e42b01b62f40c97141c"
+    },
+    {
+      "file": "center-character.vectorcraft",
+      "sha256": "4a9ce26d3f93748edebfc1766ad1c174c7423b9e521f499b244cd16d224c5123"
+    },
+    {
+      "file": "elder-character.vectorcraft",
+      "sha256": "73854d24647240024a5e1d8806b5c5b6059b1fb9c905eb66dcf4cd85b05798ab"
+    },
+    {
+      "file": "right-character.vectorcraft",
+      "sha256": "faa607838cb8f95ff02c2a104873d9200acf618aedc0f773989eb020b84263f4"
+    }
+  ],
+  "next": "Await corrected masked candidates for delta inspection; prior rejection retained. No claim of clean redraw, rig or task completion."
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 259096320000000,
+      "durationFrames": 360,
+      "name": "S14-10 missing",
+      "comment": "Mikey listens; JC joins; JC laughs; harmony hold; present mic match"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 132
+  }
+}

@@ -1,0 +1,591 @@
+diff --git a/blender-audit.json b/blender-audit.json
+new file mode 100644
+--- /dev/null
++++ b/blender-audit.json
+@@ -0,0 +1,80 @@
++[
++  {
++    "source": "source-10",
++    "blender_version": "4.5.14 LTS",
++    "path": "/home/alabs/Projects/HeraldsOfTheCemi/models/finished-textured/source-10/source-10.blend",
++    "mesh_objects": 1,
++    "vertices": 5438,
++    "faces": 10884,
++    "uv_layers": {
++      "source-10": [
++        "ArtworkProjection",
++        "PaintUV"
++      ]
++    },
++    "packed_images": [
++      {
++        "name": "source-10 Albedo 2048",
++        "size": [
++          2048,
++          2048
++        ]
++      }
++    ],
++    "armatures": 0,
++    "nonmanifold_edges": 0,
++    "loose_vertices": 0
++  },
++  {
++    "source": "source-11",
++    "blender_version": "4.5.14 LTS",
++    "path": "/home/alabs/Projects/HeraldsOfTheCemi/models/finished-textured/source-11/source-11.blend",
++    "mesh_objects": 1,
++    "vertices": 10265,
++    "faces": 20522,
++    "uv_layers": {
++      "source-11": [
++        "ArtworkProjection",
++        "PaintUV"
++      ]
++    },
++    "packed_images": [
++      {
++        "name": "source-11 Albedo 2048",
++        "size": [
++          2048,
++          2048
++        ]
++      }
++    ],
++    "armatures": 0,
++    "nonmanifold_edges": 0,
++    "loose_vertices": 0
++  },
++  {
++    "source": "source-12",
++    "blender_version": "4.5.14 LTS",
++    "path": "/home/alabs/Projects/HeraldsOfTheCemi/models/finished-textured/source-12/source-12.blend",
++    "mesh_objects": 1,
++    "vertices": 4714,
++    "faces": 9396,
++    "uv_layers": {
++      "source-12": [
++        "ArtworkProjection",
++        "PaintUV"
++      ]
++    },
++    "packed_images": [
++      {
++        "name": "source-12 Albedo 2048",
++        "size": [
++          2048,
++          2048
++        ]
++      }
++    ],
++    "armatures": 0,
++    "nonmanifold_edges": 0,
++    "loose_vertices": 0
++  }
++]
+\ No newline at end of file
+diff --git a/inspect_blender.py b/inspect_blender.py
+new file mode 100644
+--- /dev/null
++++ b/inspect_blender.py
+@@ -0,0 +1,22 @@
++import bpy, bmesh, json
++from pathlib import Path
++root=Path(__file__).parent
++base=root.parents[1]/'models/finished-textured'
++rows=[]
++for source in ('source-10','source-11','source-12'):
++ path=base/source/(source+'.blend')
++ bpy.ops.wm.open_mainfile(filepath=str(path))
++ meshes=[o for o in bpy.context.scene.objects if o.type=='MESH']
++ row=dict(source=source,blender_version=bpy.app.version_string,path=str(path),mesh_objects=len(meshes),
++  vertices=sum(len(o.data.vertices) for o in meshes),faces=sum(len(o.data.polygons) for o in meshes),
++  uv_layers={o.name:[uv.name for uv in o.data.uv_layers] for o in meshes},
++  packed_images=[dict(name=i.name,size=list(i.size)) for i in bpy.data.images if i.packed_file],
++  armatures=sum(o.type=='ARMATURE' for o in bpy.context.scene.objects),nonmanifold_edges=0,loose_vertices=0)
++ for o in meshes:
++  bm=bmesh.new();bm.from_mesh(o.data)
++  row['nonmanifold_edges']+=sum(not e.is_manifold for e in bm.edges)
++  row['loose_vertices']+=sum(not v.link_edges for v in bm.verts)
++  bm.free()
++ rows.append(row)
++(root/'blender-audit.json').write_text(json.dumps(rows,indent=2))
++print(json.dumps(rows))
+diff --git a/models/character-v1/reconstruction/0/input.png b/models/character-v1/reconstruction/0/input.png
+new file mode 100644
+Binary files a/models/character-v1/reconstruction/0/input.png and b/models/character-v1/reconstruction/0/input.png differ
+diff --git a/models/character-v1/reconstruction/0/mesh.glb b/models/character-v1/reconstruction/0/mesh.glb
+new file mode 100644
+Binary files a/models/character-v1/reconstruction/0/mesh.glb and b/models/character-v1/reconstruction/0/mesh.glb differ
+diff --git a/models/character-v1/reconstruction/inference.log b/models/character-v1/reconstruction/inference.log
+new file mode 100644
+--- /dev/null
++++ b/models/character-v1/reconstruction/inference.log
+@@ -0,0 +1,68 @@
++2026-10-08 18:49:34,238 - INFO - Initializing model ...
++/home/alabs/.local/opt/TripoSR/.venv/lib/python3.11/site-packages/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
++  _torch_pytree._register_pytree_node(
++/home/alabs/.local/opt/TripoSR/.venv/lib/python3.11/site-packages/transformers/utils/generic.py:309: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
++  _torch_pytree._register_pytree_node(
++2026-10-08 18:50:08,079 - INFO - Initializing model finished in 33838.36ms.
++2026-10-08 18:50:08,083 - INFO - Processing images ...
++Downloading data from 'https://github.com/danielgatis/rembg/releases/download/v0.0.0/u2net.onnx' to file '/home/alabs/.u2net/u2net.onnx'.
++
+\ No newline at end of file
++  0%|                                               | 0.00/176M [00:00<?, ?B/s]
+\ No newline at end of file
++  1%|▍                                     | 2.29M/176M [00:00<00:07, 22.9MB/s]
+\ No newline at end of file
++  3%|█▏                                    | 5.41M/176M [00:00<00:06, 27.8MB/s]
+\ No newline at end of file
++  5%|█▊                                    | 8.29M/176M [00:00<00:05, 28.2MB/s]
+\ No newline at end of file
++  7%|██▌                                   | 11.6M/176M [00:00<00:05, 28.9MB/s]
+\ No newline at end of file
++  8%|███▏                                  | 14.9M/176M [00:00<00:05, 30.3MB/s]
+\ No newline at end of file
++ 10%|███▉                                  | 18.4M/176M [00:00<00:05, 31.3MB/s]
+\ No newline at end of file
++ 12%|████▋                                 | 21.8M/176M [00:00<00:04, 31.7MB/s]
+\ No newline at end of file
++ 14%|█████▍                                | 25.1M/176M [00:00<00:04, 32.0MB/s]
+\ No newline at end of file
++ 16%|██████▏                               | 28.5M/176M [00:00<00:04, 32.8MB/s]
+\ No newline at end of file
++ 18%|██████▉                               | 32.1M/176M [00:01<00:04, 33.8MB/s]
+\ No newline at end of file
++ 21%|███████▉                              | 36.8M/176M [00:01<00:03, 37.6MB/s]
+\ No newline at end of file
++ 23%|████████▊                             | 40.6M/176M [00:01<00:03, 37.0MB/s]
+\ No newline at end of file
++ 25%|█████████▌                            | 44.3M/176M [00:01<00:03, 35.1MB/s]
+\ No newline at end of file
++ 27%|██████████▎                           | 47.8M/176M [00:01<00:03, 33.8MB/s]
+\ No newline at end of file
++ 29%|███████████                           | 51.2M/176M [00:01<00:03, 32.7MB/s]
+\ No newline at end of file
++ 31%|███████████▊                          | 54.5M/176M [00:01<00:03, 31.1MB/s]
+\ No newline at end of file
++ 33%|████████████▍                         | 57.6M/176M [00:01<00:04, 29.5MB/s]
+\ No newline at end of file
++ 34%|█████████████                         | 60.6M/176M [00:01<00:04, 28.1MB/s]
+\ No newline at end of file
++ 36%|█████████████▋                        | 63.4M/176M [00:02<00:04, 27.3MB/s]
+\ No newline at end of file
++ 38%|██████████████▎                       | 66.3M/176M [00:02<00:03, 27.7MB/s]
+\ No newline at end of file
++ 40%|███████████████                       | 69.6M/176M [00:02<00:03, 29.1MB/s]
+\ No newline at end of file
++ 41%|███████████████▊                      | 73.0M/176M [00:02<00:03, 30.6MB/s]
+\ No newline at end of file
++ 43%|████████████████▍                     | 76.2M/176M [00:02<00:03, 30.9MB/s]
+\ No newline at end of file
++ 45%|█████████████████                     | 79.3M/176M [00:02<00:03, 30.8MB/s]
+\ No newline at end of file
++ 47%|█████████████████▉                    | 83.3M/176M [00:02<00:02, 33.4MB/s]
+\ No newline at end of file
++ 49%|██████████████████▊                   | 87.0M/176M [00:02<00:02, 34.5MB/s]
+\ No newline at end of file
++ 52%|███████████████████▌                  | 90.6M/176M [00:02<00:02, 35.0MB/s]
+\ No newline at end of file
++ 54%|████████████████████▍                 | 94.4M/176M [00:02<00:02, 35.7MB/s]
+\ No newline at end of file
++ 56%|█████████████████████▏                | 97.9M/176M [00:03<00:02, 34.4MB/s]
+\ No newline at end of file
++ 58%|██████████████████████▍                | 101M/176M [00:03<00:02, 33.4MB/s]
+\ No newline at end of file
++ 60%|███████████████████████▏               | 105M/176M [00:03<00:02, 32.6MB/s]
+\ No newline at end of file
++ 62%|████████████████████████               | 108M/176M [00:03<00:02, 33.6MB/s]
+\ No newline at end of file
++ 64%|█████████████████████████              | 113M/176M [00:03<00:01, 37.1MB/s]
+\ No newline at end of file
++ 66%|█████████████████████████▊             | 117M/176M [00:03<00:01, 37.4MB/s]
+\ No newline at end of file
++ 69%|██████████████████████████▊            | 121M/176M [00:03<00:01, 38.2MB/s]
+\ No newline at end of file
++ 71%|███████████████████████████▌           | 125M/176M [00:03<00:01, 37.4MB/s]
+\ No newline at end of file
++ 73%|████████████████████████████▍          | 128M/176M [00:03<00:01, 35.8MB/s]
+\ No newline at end of file
++ 75%|█████████████████████████████▏         | 132M/176M [00:04<00:01, 33.6MB/s]
+\ No newline at end of file
++ 77%|██████████████████████████████         | 135M/176M [00:04<00:01, 33.8MB/s]
+\ No newline at end of file
++ 79%|██████████████████████████████▉        | 139M/176M [00:04<00:01, 35.9MB/s]
+\ No newline at end of file
++ 82%|███████████████████████████████▊       | 144M/176M [00:04<00:00, 37.5MB/s]
+\ No newline at end of file
++ 84%|████████████████████████████████▊      | 148M/176M [00:04<00:00, 38.9MB/s]
+\ No newline at end of file
++ 86%|█████████████████████████████████▋     | 152M/176M [00:04<00:00, 37.9MB/s]
+\ No newline at end of file
++ 89%|██████████████████████████████████▊    | 157M/176M [00:04<00:00, 42.5MB/s]
+\ No newline at end of file
++ 92%|███████████████████████████████████▊   | 162M/176M [00:04<00:00, 43.2MB/s]
+\ No newline at end of file
++ 94%|████████████████████████████████████▊  | 166M/176M [00:04<00:00, 41.7MB/s]
+\ No newline at end of file
++ 97%|█████████████████████████████████████▋ | 170M/176M [00:04<00:00, 40.3MB/s]
+\ No newline at end of file
++ 99%|██████████████████████████████████████▌| 174M/176M [00:05<00:00, 38.9MB/s]
+\ No newline at end of file
++  0%|                                               | 0.00/176M [00:00<?, ?B/s]
+\ No newline at end of file
++100%|████████████████████████████████████████| 176M/176M [00:00<00:00, 581GB/s]
++2026-10-08 18:50:15,007 - INFO - Processing images finished in 6924.24ms.
++2026-10-08 18:50:15,007 - INFO - Running image 1/1 ...
++2026-10-08 18:50:15,007 - INFO - Running model ...
++2026-10-08 18:51:22,402 - INFO - Running model finished in 67395.13ms.
++2026-10-08 18:51:22,403 - INFO - Extracting mesh ...
++2026-10-08 18:51:33,164 - INFO - Extracting mesh finished in 10761.14ms.
++2026-10-08 18:51:33,164 - INFO - Exporting mesh ...
++2026-10-08 18:51:33,169 - INFO - Exporting mesh finished in 5.04ms.
+diff --git a/models/character-v1/reconstruction/job.json b/models/character-v1/reconstruction/job.json
+new file mode 100644
+--- /dev/null
++++ b/models/character-v1/reconstruction/job.json
+@@ -0,0 +1,36 @@
++{
++  "kind": "triposr",
++  "status": "generated",
++  "model": "stabilityai/TripoSR",
++  "backend": "local",
++  "image": "sources/10.png",
++  "input_sha256": "a8f9d8056caf81cd9ac881890e021db57376b2654964d1b55354314df93f8d4f",
++  "output": "models/character-v1/reconstruction/0/mesh.glb",
++  "argv": [
++    "/home/alabs/.local/opt/TripoSR/.venv/bin/python",
++    "/home/alabs/.local/opt/TripoSR/run.py",
++    "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/reconstruction/source.png",
++    "--device",
++    "cpu",
++    "--chunk-size",
++    "2048",
++    "--mc-resolution",
++    "128",
++    "--output-dir",
++    "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/reconstruction",
++    "--model-save-format",
++    "glb"
++  ],
++  "cwd": "/home/alabs/.local/opt/TripoSR",
++  "started_at": 1791499767.3054984,
++  "timeout": 1800,
++  "pid": 17656,
++  "mesh": {
++    "primitives": 1,
++    "vertices": 5921,
++    "bytes": 237396,
++    "validation": "GLB structure and geometry counts; visual review required"
++  },
++  "sha256": "cd6d13146327814a25dafe40849a8f9abd8e0d41fb5386e979465cabfeda6805",
++  "seconds": 130.39379334449768
++}
+\ No newline at end of file
+diff --git a/models/character-v1/reconstruction/source.png b/models/character-v1/reconstruction/source.png
+new file mode 100644
+Binary files a/models/character-v1/reconstruction/source.png and b/models/character-v1/reconstruction/source.png differ
+diff --git a/models/character-v1/reconstruction/worker.log b/models/character-v1/reconstruction/worker.log
+new file mode 100644
+diff --git a/models/character-v1/textured/albedo.png b/models/character-v1/textured/albedo.png
+new file mode 100644
+Binary files a/models/character-v1/textured/albedo.png and b/models/character-v1/textured/albedo.png differ
+diff --git a/models/character-v1/textured/back.png b/models/character-v1/textured/back.png
+new file mode 100644
+Binary files a/models/character-v1/textured/back.png and b/models/character-v1/textured/back.png differ
+diff --git a/models/character-v1/textured/front.png b/models/character-v1/textured/front.png
+new file mode 100644
+Binary files a/models/character-v1/textured/front.png and b/models/character-v1/textured/front.png differ
+diff --git a/models/character-v1/textured/inference.log b/models/character-v1/textured/inference.log
+new file mode 100644
+--- /dev/null
++++ b/models/character-v1/textured/inference.log
+@@ -0,0 +1,164 @@
++18:51:49 | INFO: Data are loaded, start creating Blender stuff
++18:51:49 | INFO: Blender create Mesh node geometry_0
++18:51:49 | INFO: glTF import finished in 0.04s
++Blender 4.5.14 LTS (hash 62c1db4208e8 built 2026-09-15 01:31:19)
++Fra:1 Mem:236.39M (Peak 236.39M) | Time:497638:51:50.74 | Mem:0.00M, Peak:0.00M | Scene | Synchronizing object | textured
++Fra:1 Mem:237.66M (Peak 237.66M) | Time:497638:51:50.75 | Mem:0.00M, Peak:0.00M | Scene | Initializing
++Fra:1 Mem:237.66M (Peak 237.66M) | Time:497638:51:50.75 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading textured Albedo 2048
++Fra:1 Mem:237.66M (Peak 237.66M) | Time:497638:51:50.75 | Mem:0.00M, Peak:0.00M | Scene | Updating Images | Loading projection-paint.png
++Warning: No mesh data to join
++Info: Baking map saved to internal image, save it externally or pack it
++Info: No new files have been packed
++Info: Saved as "textured.blend"
++INFO Draco mesh compression is available, use library at /home/alabs/.local/opt/blender/blender-4.5.14-linux-x64/4.5/scripts/addons_core/io_scene_gltf2/libextern_draco.so
++18:51:55 | INFO: Starting glTF 2.0 export
++18:52:07 | INFO: Extracting primitive: Mesh
++18:52:08 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
++18:52:08 | INFO: Primitives created: 1
++18:52:08 | INFO: Finished glTF 2.0 export in 12.342689037322998 s
++Read blend: "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/textured/textured.blend"
++Fra:1 Mem:19.17M (Peak 19.17M) | Time:00:11.30 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | textured
++Fra:1 Mem:19.17M (Peak 19.17M) | Time:00:11.30 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.001
++Fra:1 Mem:19.98M (Peak 19.98M) | Time:00:11.30 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area
++Fra:1 Mem:26.12M (Peak 27.74M) | Time:00:11.32 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
++Fra:1 Mem:17.92M (Peak 27.74M) | Time:00:11.32 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading textured Albedo 2048
++Fra:1 Mem:33.69M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Waiting for render to start
++Fra:1 Mem:33.69M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Scene
++Fra:1 Mem:33.69M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Shaders
++Fra:1 Mem:33.69M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Procedurals
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Background
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Camera
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes Flags
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
++Fra:1 Mem:35.80M (Peak 49.93M) | Time:00:11.61 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
++Fra:1 Mem:35.79M (Peak 49.93M) | Time:00:11.61 | Mem:18.03M, Peak:18.03M | Scene, ViewLayer | Updating Scene BVH | Building
++Fra:1 Mem:35.79M (Peak 49.93M) | Time:00:11.61 | Mem:18.03M, Peak:18.03M | Scene, ViewLayer | Updating Scene BVH | Building BVH
++Fra:1 Mem:35.79M (Peak 49.93M) | Time:00:11.61 | Mem:20.19M, Peak:20.19M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
++Fra:1 Mem:35.79M (Peak 49.93M) | Time:00:11.65 | Mem:22.77M, Peak:24.93M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
++Fra:1 Mem:35.79M (Peak 49.93M) | Time:00:11.65 | Mem:22.77M, Peak:24.93M | Scene, ViewLayer | Updating Mesh | Computing normals
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:22.77M, Peak:24.93M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Objects Flags
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Primitive Offsets
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Images
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Camera Volume
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Lookup Tables
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Lights
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Lights | Computing tree
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Integrator
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Film
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Lookup Tables
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Baking
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Device | Writing constant memory
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.65 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Sample 0/16
++Fra:1 Mem:94.71M (Peak 94.71M) | Time:00:12.48 | Remaining:00:12.49 | Mem:81.76M, Peak:81.76M | Scene, ViewLayer | Sample 1/16
++Fra:1 Mem:118.72M (Peak 154.72M) | Time:00:41.62 | Mem:81.76M, Peak:81.76M | Scene, ViewLayer | Sample 16/16
++Fra:1 Mem:118.72M (Peak 154.72M) | Time:00:41.62 | Mem:81.76M, Peak:81.76M | Scene, ViewLayer | Finished
++Saved: '/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/textured/front.png'
++Time: 00:41.80 (Saving: 00:00.16)
++
++Fra:1 Mem:19.17M (Peak 19.17M) | Time:00:12.31 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | textured
++Fra:1 Mem:19.17M (Peak 19.17M) | Time:00:12.31 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.001
++Fra:1 Mem:19.98M (Peak 19.98M) | Time:00:12.31 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area
++Fra:1 Mem:26.12M (Peak 27.74M) | Time:00:12.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
++Fra:1 Mem:17.92M (Peak 27.74M) | Time:00:12.35 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading textured Albedo 2048
++Fra:1 Mem:33.69M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Waiting for render to start
++Fra:1 Mem:33.69M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Scene
++Fra:1 Mem:33.69M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Shaders
++Fra:1 Mem:33.69M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Procedurals
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Background
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Camera
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes Flags
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
++Fra:1 Mem:35.80M (Peak 49.93M) | Time:00:12.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
++Fra:1 Mem:35.80M (Peak 49.93M) | Time:00:12.67 | Mem:18.03M, Peak:18.03M | Scene, ViewLayer | Updating Scene BVH | Building
++Fra:1 Mem:35.80M (Peak 49.93M) | Time:00:12.67 | Mem:18.03M, Peak:18.03M | Scene, ViewLayer | Updating Scene BVH | Building BVH
++Fra:1 Mem:35.80M (Peak 49.93M) | Time:00:12.67 | Mem:20.19M, Peak:20.19M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
++Fra:1 Mem:35.80M (Peak 49.93M) | Time:00:12.70 | Mem:22.77M, Peak:24.93M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
++Fra:1 Mem:35.80M (Peak 49.93M) | Time:00:12.70 | Mem:22.77M, Peak:24.93M | Scene, ViewLayer | Updating Mesh | Computing normals
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:22.77M, Peak:24.93M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Objects Flags
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Primitive Offsets
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Images
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Camera Volume
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Lookup Tables
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Lights
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Lights | Computing tree
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Integrator
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Film
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Lookup Tables
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Baking
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Device | Writing constant memory
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:12.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Sample 0/16
++Fra:1 Mem:94.71M (Peak 94.71M) | Time:00:13.30 | Remaining:00:08.94 | Mem:81.76M, Peak:81.76M | Scene, ViewLayer | Sample 1/16
++Fra:1 Mem:118.72M (Peak 154.72M) | Time:00:42.33 | Mem:81.76M, Peak:81.76M | Scene, ViewLayer | Sample 16/16
++Fra:1 Mem:118.72M (Peak 154.72M) | Time:00:42.33 | Mem:81.76M, Peak:81.76M | Scene, ViewLayer | Finished
++Saved: '/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/textured/three-quarter.png'
++Time: 00:42.49 (Saving: 00:00.15)
++
++Fra:1 Mem:19.17M (Peak 19.17M) | Time:00:11.34 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | textured
++Fra:1 Mem:19.17M (Peak 19.17M) | Time:00:11.34 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area.001
++Fra:1 Mem:19.98M (Peak 19.98M) | Time:00:11.34 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Area
++Fra:1 Mem:26.12M (Peak 27.74M) | Time:00:11.36 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
++Fra:1 Mem:17.92M (Peak 27.74M) | Time:00:11.36 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading textured Albedo 2048
++Fra:1 Mem:33.69M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Waiting for render to start
++Fra:1 Mem:33.69M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Scene
++Fra:1 Mem:33.69M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Shaders
++Fra:1 Mem:33.69M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Procedurals
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Background
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Camera
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes Flags
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
++Fra:1 Mem:33.77M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
++Fra:1 Mem:35.80M (Peak 49.93M) | Time:00:11.67 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
++Fra:1 Mem:35.80M (Peak 49.93M) | Time:00:11.67 | Mem:18.03M, Peak:18.03M | Scene, ViewLayer | Updating Scene BVH | Building
++Fra:1 Mem:35.80M (Peak 49.93M) | Time:00:11.67 | Mem:18.03M, Peak:18.03M | Scene, ViewLayer | Updating Scene BVH | Building BVH
++Fra:1 Mem:35.80M (Peak 49.93M) | Time:00:11.67 | Mem:20.19M, Peak:20.19M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
++Fra:1 Mem:35.80M (Peak 49.93M) | Time:00:11.70 | Mem:22.77M, Peak:24.93M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
++Fra:1 Mem:35.80M (Peak 49.93M) | Time:00:11.70 | Mem:22.77M, Peak:24.93M | Scene, ViewLayer | Updating Mesh | Computing normals
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:22.77M, Peak:24.93M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Objects Flags
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Primitive Offsets
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Images
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Camera Volume
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Lookup Tables
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Lights
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Lights | Computing tree
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Integrator
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Film
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.66M, Peak:24.93M | Scene, ViewLayer | Updating Lookup Tables
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Baking
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Updating Device | Writing constant memory
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
++Fra:1 Mem:37.69M (Peak 49.93M) | Time:00:11.70 | Mem:24.74M, Peak:24.93M | Scene, ViewLayer | Sample 0/16
++Fra:1 Mem:94.71M (Peak 94.71M) | Time:00:12.46 | Remaining:00:11.34 | Mem:81.76M, Peak:81.76M | Scene, ViewLayer | Sample 1/16
++Fra:1 Mem:118.72M (Peak 154.72M) | Time:00:43.12 | Mem:81.76M, Peak:81.76M | Scene, ViewLayer | Sample 16/16
++Fra:1 Mem:118.72M (Peak 154.72M) | Time:00:43.12 | Mem:81.76M, Peak:81.76M | Scene, ViewLayer | Finished
++Saved: '/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/textured/back.png'
++Time: 00:43.30 (Saving: 00:00.17)
++
++
++{"status": "technically_valid", "vertices": 5897, "faces": 11798, "nonmanifold_edges": 0, "texture": [2048, 2048], "packed": true, "rigged": false, "visual_review": "pending", "hidden_surfaces": "inferred", "source": "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/sources/10.png"}
++
++Blender quit
+diff --git a/models/character-v1/textured/job.json b/models/character-v1/textured/job.json
+new file mode 100644
+--- /dev/null
++++ b/models/character-v1/textured/job.json
+@@ -0,0 +1,46 @@
++{
++  "kind": "mesh-finish",
++  "status": "generated",
++  "model": "TripoSR + source artwork projection",
++  "backend": "local-blender",
++  "image": "sources/10.png",
++  "input_sha256": "a8f9d8056caf81cd9ac881890e021db57376b2654964d1b55354314df93f8d4f",
++  "source_mesh_sha256": "cd6d13146327814a25dafe40849a8f9abd8e0d41fb5386e979465cabfeda6805",
++  "output": "models/character-v1/textured/textured.glb",
++  "blend": "models/character-v1/textured/textured.blend",
++  "commands": [
++    [
++      "/home/alabs/.local/opt/TripoSR/.venv/bin/python",
++      "/home/alabs/Projects/NESSA/scripts/prepare_character_texture.py",
++      "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/sources/10.png",
++      "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/textured"
++    ],
++    [
++      "/home/alabs/.local/bin/blender",
++      "--background",
++      "--factory-startup",
++      "--threads",
++      "2",
++      "--python-exit-code",
++      "1",
++      "--python",
++      "/home/alabs/Projects/NESSA/scripts/finish_character.py",
++      "--",
++      "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/reconstruction/0/mesh.glb",
++      "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/sources/10.png",
++      "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/models/character-v1/textured"
++    ]
++  ],
++  "cwd": "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815",
++  "started_at": 1791499905.1497946,
++  "timeout": 900,
++  "pid": 18097,
++  "mesh": {
++    "primitives": 1,
++    "vertices": 82247,
++    "bytes": 8498880,
++    "validation": "GLB structure and geometry counts; visual review required"
++  },
++  "sha256": "4cb7071e72fd8fa594f771895b5fe9bc8b7151f9c62a42bd14a7c5c0681f7cf6",
++  "seconds": 152.09954810142517
++}
+\ No newline at end of file
+diff --git a/models/character-v1/textured/projection-paint.png b/models/character-v1/textured/projection-paint.png
+new file mode 100644
+Binary files a/models/character-v1/textured/projection-paint.png and b/models/character-v1/textured/projection-paint.png differ
+diff --git a/models/character-v1/textured/source-bounds.json b/models/character-v1/textured/source-bounds.json
+new file mode 100644
+--- /dev/null
++++ b/models/character-v1/textured/source-bounds.json
+@@ -0,0 +1 @@
++{"size": [1024, 1536], "bounds": [240, 3, 794, 1527]}
+\ No newline at end of file
+diff --git a/models/character-v1/textured/textured.blend b/models/character-v1/textured/textured.blend
+new file mode 100644
+Binary files a/models/character-v1/textured/textured.blend and b/models/character-v1/textured/textured.blend differ
+diff --git a/models/character-v1/textured/textured.glb b/models/character-v1/textured/textured.glb
+new file mode 100644
+Binary files a/models/character-v1/textured/textured.glb and b/models/character-v1/textured/textured.glb differ
+diff --git a/models/character-v1/textured/three-quarter.png b/models/character-v1/textured/three-quarter.png
+new file mode 100644
+Binary files a/models/character-v1/textured/three-quarter.png and b/models/character-v1/textured/three-quarter.png differ
+diff --git a/models/character-v1/textured/validation.json b/models/character-v1/textured/validation.json
+new file mode 100644
+--- /dev/null
++++ b/models/character-v1/textured/validation.json
+@@ -0,0 +1,15 @@
++{
++  "status": "technically_valid",
++  "vertices": 5897,
++  "faces": 11798,
++  "nonmanifold_edges": 0,
++  "texture": [
++    2048,
++    2048
++  ],
++  "packed": true,
++  "rigged": false,
++  "visual_review": "pending",
++  "hidden_surfaces": "inferred",
++  "source": "/home/alabs/Projects/HeraldsOfTheCemi/production/blender-tool-test-20261008-184815/sources/10.png"
++}
+diff --git a/models/character-v1/textured/worker.log b/models/character-v1/textured/worker.log
+new file mode 100644
+diff --git a/models/character-v1/workflow.json b/models/character-v1/workflow.json
+new file mode 100644
+--- /dev/null
++++ b/models/character-v1/workflow.json
+@@ -0,0 +1,22 @@
++{
++  "version": 1,
++  "inputs": {
++    "image": "sources/10.png",
++    "image_sha256": "a8f9d8056caf81cd9ac881890e021db57376b2654964d1b55354314df93f8d4f",
++    "mesh": null,
++    "mesh_sha256": null,
++    "resolution": 128
++  },
++  "phase": "complete",
++  "review": "pending",
++  "job": "models/character-v1/textured/job.json",
++  "artifacts": {
++    "models/character-v1/textured/textured.blend": "947758e85dd1e0fa00294f962b4240f3a01cb4b914a96bfca57428a659191e8d",
++    "models/character-v1/textured/textured.glb": "4cb7071e72fd8fa594f771895b5fe9bc8b7151f9c62a42bd14a7c5c0681f7cf6",
++    "models/character-v1/textured/albedo.png": "f1cc9b289b1f2c7fe96291f9fbc85a9d6ccb0f5dfb56a846d7d89857e98fdc70",
++    "models/character-v1/textured/front.png": "1abf0fba74348c91300f44c948de2c2b7857eb406167a9c8a9c5122b87b769dc",
++    "models/character-v1/textured/three-quarter.png": "aa90a2e1523a709a709b1290ddda0b3eab0e56243fc6968e917cd5bf9b861779",
++    "models/character-v1/textured/back.png": "467cac5b0cea81c3a5cfc8b09d5e3ac94e0caca05b4c3322b054fb69315789c9",
++    "models/character-v1/textured/validation.json": "cfa30c847b242cddd696acb87c8a2745957c442e3a7edaf3d9013f8564d48b02"
++  }
++}
+\ No newline at end of file
+diff --git a/models/character-v1/workflow.lock b/models/character-v1/workflow.lock
+new file mode 100644

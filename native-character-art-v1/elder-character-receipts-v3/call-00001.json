@@ -1,0 +1,17 @@
+{
+  "tool": "open_file",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/native-character-art-v1/elder-character-import.vectorcraft"
+  },
+  "status": "succeeded",
+  "result": {
+    "format": "vectorcraft",
+    "index": 1,
+    "missingLinks": [],
+    "modifiedLinks": [],
+    "restored": false,
+    "title": "elder-character-import.vectorcraft",
+    "updatedLinks": [],
+    "warnings": []
+  }
+}

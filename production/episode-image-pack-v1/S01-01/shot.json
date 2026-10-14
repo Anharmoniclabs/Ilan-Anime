@@ -1,0 +1,34 @@
+{
+  "shot": "S01-01",
+  "frames": 144,
+  "fps": 24,
+  "duration_seconds": 6.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "images": {
+    "start": {
+      "file": "start.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S01-01/start/start-candidate.png",
+      "sha256": "d24e82990f0c6a36c6f4e225cba289f580f4b0d1c17ee5cac16a8b61e715c400",
+      "status": "unreviewed_or_conditional_draft"
+    },
+    "end": {
+      "file": "end.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S01-01/end/end-candidate-v1.png",
+      "sha256": "4719efa2c546ae97ad4824de36740b1c557f53fcc9b8fa36cde8ff8606b2d6b5",
+      "status": "unreviewed_or_conditional_draft"
+    }
+  },
+  "review": {
+    "reviewer": "/root/review_endpoint",
+    "verdict": "acceptable_for_exploratory_test",
+    "author_approved": false,
+    "limitation": "Still endpoints only; motion not verified."
+  },
+  "author_approval_recorded": false,
+  "status": "current_draft_delivery_not_final_episode",
+  "image_processing": "unchanged source bytes; may require fitting to exact 16:9 before remote submission"
+}

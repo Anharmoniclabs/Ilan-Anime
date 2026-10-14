@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 413,
+      "name": "mouth-pursed"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

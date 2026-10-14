@@ -1,0 +1,48 @@
+{
+  "shot": "S01-03",
+  "selected_moment": "Medium closeup Amaia seated in leadcanoe holding sleeping son, looking forward past empty seat with quiet counting lips. One faint elderly seated ghost silhouette on empty bench as a selected memory beat, not actual passenger. Do not assert ghost count; rest of ghosts need later drawings. Mangrove roots dark and water behind. Keep toddler face asleep.",
+  "script": "`00:27:00 \u2192 00:35:00` (192f) \u00b7 MCU \u2192 CU Amaia \u00b7 rate 3s\n- **Action:** Amaia's lips count the heads ahead. Each count lands on an empty seat. Pale outlines sit in the empty seats and fade as she looks at them (two lost at the channel, the old man who asked for water, then his wife, then nothing).\n- **FX:** `GHOST_SEATS(alpha .25\u21920); DOUBLE_EXPOSURE; CEL_SHADE(2-tone)`\n- **Sound:** VO Amaia (spare): \u201cAmaia had fourteen when they put the canoes in. By the third night she had eleven.\u201d",
+  "prompt": "Use case: illustration-story. Create ONE finished-color cinematic anime story frame, landscape EXACT16:9 composition, opaque fully painted environment edge-to-edge, no transparency, no borders, no collage/multi-panel. Match approved 1990s hand-drawn anime: supple clean lines, expressive soft human faces, simple broad2/3-tone cel shadows, flat warm skin colors, detailed traditionally painted environment. No western comic hatching, no photoreal3D, no glossy muscles. Attached rooftop is STYLE ONLY, never copy its setting/time/sunset; character sources lock identity, age, proportions, hair and costume. Any attached NEW adjacent frame establishes environment continuity, not duplicated action. Natural contacts/hands; rigid canoes/props remain coherent. No invented signage/logos/subtitles/captions; only exact text explicitly requested below. Single selected dramatic moment, do not combine sequential moments spatially. \nImage1: bronx-90s-anime.png; STYLE ONLY\nImage2: amaia-master.png; character identity\nImage3: amaia-son.png; character identity\nImage4: lost-ghosts-master.png; character identity\nImage5: S01-02.png; NEW environment continuity\nMOONLESS historical Ta\u00edno mangrove night, no sun/moondisc/sunset. Medium closeup Amaia seated in leadcanoe holding sleeping son, looking forward past empty seat with quiet counting lips. One faint elderly seated ghost silhouette on empty bench as a selected memory beat, not actual passenger. Do not assert ghost count; rest of ghosts need later drawings. Mangrove roots dark and water behind. Keep toddler face asleep.",
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/river-cast/generated/amaia-son.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/lost-ghosts-master.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-02.png"
+  ],
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-dd547aeb-8d28-4385-9ef5-35d60e072e74.png",
+  "status": "exploratory storyframe",
+  "input_validation_note": null,
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-03.png",
+  "sha256": "e5531adb6abb4ecddc1068bfaf0a6e90340349f009bea7496423471dffcf22a6",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+      "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/river-cast/generated/amaia-son.png",
+      "sha256": "dfe1f6cac780ec27f3f24f09922fdfe27032477b7c813a2c0fcf5518e0df2948"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/lost-ghosts-master.png",
+      "sha256": "7d0834ba86f431d0b37706e78e36dd3ad0c99dead281afa1094743a4a2402cff"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-02.png",
+      "sha256": "903d79ac2f20d292b1a2a8f812a35285cb89be897b6f87c398f0836fd9f97596"
+    }
+  ],
+  "inspection": "Directly viewed. Amaia holding sleeping toddler, one translucent elderly ghost, correct darkenvironment. Additional counting/fades notdrawn.",
+  "inspection_method": "Direct view_image of entire saved frame; PNG automated decode and dimensions check",
+  "scope": "One representative story frame; not all action beats or motion"
+}

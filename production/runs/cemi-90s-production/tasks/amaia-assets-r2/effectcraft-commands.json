@@ -1,0 +1,5317 @@
+[
+  {
+    "enabled": true,
+    "id": "file.newProject",
+    "label": "New Project",
+    "menu": [
+      "File",
+      "New"
+    ],
+    "shortcut": "Cmd+Alt+N"
+  },
+  {
+    "enabled": true,
+    "id": "file.openDemoProject",
+    "label": "Open Demo Project",
+    "menu": [
+      "Help"
+    ]
+  },
+  {
+    "enabled": true,
+    "id": "file.open",
+    "label": "Open Project...",
+    "menu": [
+      "File"
+    ],
+    "params": "{path}",
+    "shortcut": "Cmd+O"
+  },
+  {
+    "enabled": true,
+    "id": "file.save",
+    "label": "Save",
+    "menu": [
+      "File"
+    ],
+    "params": "{path?}",
+    "shortcut": "Cmd+S"
+  },
+  {
+    "enabled": true,
+    "id": "file.saveAs",
+    "label": "Save As...",
+    "menu": [
+      "File",
+      "Save As"
+    ],
+    "params": "{path}",
+    "shortcut": "Cmd+Shift+S"
+  },
+  {
+    "enabled": false,
+    "id": "file.incrementAndSave",
+    "label": "Increment and Save",
+    "menu": [
+      "File"
+    ],
+    "shortcut": "Cmd+Alt+Shift+S",
+    "why": "the project has not been saved yet"
+  },
+  {
+    "enabled": false,
+    "id": "file.revert",
+    "label": "Revert",
+    "menu": [
+      "File"
+    ],
+    "why": "the project has not been saved yet"
+  },
+  {
+    "enabled": true,
+    "id": "file.import",
+    "label": "File...",
+    "menu": [
+      "File",
+      "Import"
+    ],
+    "params": "{paths: [string], importAs?: footage|composition|compositionLayerSizes (Photoshop, PDF, Illustrator and EPS files), layer?: name|index (footage of one Photoshop layer), page?: number from 1 (PDF / Illustrator page), drag?: bool (dropped files: Settings \u25b8 Import \u25b8 Default Drag Import As), addToComp?: bool (also add them to the active comp, at time?, index?, position? as in layer.addItem)}",
+    "shortcut": "Cmd+I"
+  },
+  {
+    "enabled": true,
+    "id": "file.projectSettings",
+    "label": "Project Settings...",
+    "menu": [
+      "File"
+    ],
+    "params": "{bitDepth?: 8|16|32, colorEngine?: adobe|ocio, workingSpace?: none|srgb|rec709|rec2020|p3|acescg|aces2065, linearize?, blendLinear?, hdr?: clip|compand|toneMap, outputSpace?: srgb|rec709|rec2020|p3|rec2100pq|rec2100hlg, renderer?: gpu|software, timeDisplay?: timecode|frames|feet35|feet16}",
+    "shortcut": "Cmd+Alt+Shift+K"
+  },
+  {
+    "enabled": true,
+    "id": "file.cycleBitDepth",
+    "label": "Cycle Project Bit Depth"
+  },
+  {
+    "enabled": true,
+    "id": "render.backend",
+    "label": "Video Rendering and Effects",
+    "params": "{backend?: gpu|cpu}"
+  },
+  {
+    "enabled": true,
+    "id": "roto.models",
+    "label": "Roto Brush Models"
+  },
+  {
+    "enabled": true,
+    "id": "roto.model.select",
+    "label": "Use Roto Brush Model",
+    "params": "{id: classical|mobilesam, wait?} (Roto Brush 2.0 / 3.0 use it; wait: loaded before returning)"
+  },
+  {
+    "enabled": true,
+    "id": "roto.model.install",
+    "label": "Install Roto Brush Model",
+    "params": "{path: weights file, id?, wait?} \u2014 verified against the registry's SHA-256"
+  },
+  {
+    "enabled": true,
+    "id": "roto.model.download",
+    "label": "Download Roto Brush Model",
+    "params": "{id, wait?} \u2014 the official weights, verified (desktop; uses the system curl)"
+  },
+  {
+    "enabled": true,
+    "id": "roto.model.remove",
+    "label": "Remove Roto Brush Model",
+    "params": "{id}"
+  },
+  {
+    "enabled": true,
+    "id": "face.models",
+    "label": "Face Tracking Models"
+  },
+  {
+    "enabled": true,
+    "id": "face.model.select",
+    "label": "Use Face Tracking Model",
+    "params": "{id: classical|mediapipe-face, wait?} (face tracking uses it; wait: loaded before returning)"
+  },
+  {
+    "enabled": true,
+    "id": "face.model.install",
+    "label": "Install Face Tracking Model",
+    "params": "{path: model file, id?, wait?} \u2014 verified against the registry's SHA-256"
+  },
+  {
+    "enabled": true,
+    "id": "face.model.download",
+    "label": "Download Face Tracking Model",
+    "params": "{id, wait?} \u2014 the official model, verified (desktop; uses the system curl)"
+  },
+  {
+    "enabled": true,
+    "id": "face.model.remove",
+    "label": "Remove Face Tracking Model",
+    "params": "{id}"
+  },
+  {
+    "enabled": false,
+    "id": "edit.undo",
+    "label": "Undo",
+    "menu": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+Z",
+    "why": "nothing to undo"
+  },
+  {
+    "enabled": false,
+    "id": "edit.redo",
+    "label": "Redo",
+    "menu": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+Shift+Z",
+    "why": "nothing to redo"
+  },
+  {
+    "enabled": false,
+    "id": "edit.cut",
+    "label": "Cut",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{layers?} (keyframes when keys are selected)",
+    "shortcut": "Cmd+X",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.copy",
+    "label": "Copy",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{layers?} (keyframes when keys are selected)",
+    "shortcut": "Cmd+C",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.copyWithPropertyLinks",
+    "label": "Copy with Property Links",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{layers?} (selected properties, or layers, as expressions linking to the originals)",
+    "shortcut": "Cmd+Alt+C",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.copyWithRelativePropertyLinks",
+    "label": "Copy with Relative Property Links",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{layers?} (like Copy with Property Links, using thisComp)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.copyExpressionOnly",
+    "label": "Copy Expression Only",
+    "menu": [
+      "Edit"
+    ],
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.paste",
+    "label": "Paste",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{} (layers, keyframes at the CTI, or property links / expressions)",
+    "shortcut": "Cmd+V",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.pasteReversedKeyframes",
+    "label": "Paste Reversed Keyframes",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{layers?, prop?|path?, time?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.clear",
+    "label": "Clear",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{layers?}",
+    "shortcut": "Delete",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.duplicate",
+    "label": "Duplicate",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{layers?}",
+    "shortcut": "Cmd+D",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.splitLayer",
+    "label": "Split Layer",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{layers?}",
+    "shortcut": "Cmd+Shift+D",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.liftWorkArea",
+    "label": "Lift Work Area",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.extractWorkArea",
+    "label": "Extract Work Area",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.selectAll",
+    "label": "Select All",
+    "menu": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+A",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "edit.deselectAll",
+    "label": "Deselect All",
+    "menu": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+Shift+A"
+  },
+  {
+    "enabled": true,
+    "id": "edit.label",
+    "label": "Label",
+    "menu": [
+      "Edit",
+      "Label"
+    ],
+    "params": "{label: Red|Yellow|Aqua|\u2026, layers?, keys?, target?: layers}"
+  },
+  {
+    "enabled": false,
+    "id": "edit.selectLabelGroup",
+    "label": "Select Label Group",
+    "menu": [
+      "Edit",
+      "Label"
+    ],
+    "why": "select layers or project items first"
+  },
+  {
+    "enabled": true,
+    "id": "edit.purgeUndo",
+    "label": "Undo",
+    "menu": [
+      "Edit",
+      "Purge"
+    ]
+  },
+  {
+    "enabled": true,
+    "id": "edit.purge",
+    "label": "Purge",
+    "params": "{what?: all|memoryAndDisk|memory|disk|3d|image|snapshot}"
+  },
+  {
+    "enabled": true,
+    "id": "cache.diskStats",
+    "label": "Disk Cache Statistics"
+  },
+  {
+    "enabled": false,
+    "id": "edit.editOriginal",
+    "label": "Edit Original...",
+    "menu": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+E",
+    "why": "select a footage item or layer"
+  },
+  {
+    "enabled": true,
+    "id": "edit.history.list",
+    "label": "History",
+    "params": "{} \u2192 {states: [{index, id, label, parent, depth, current, line, future}], current, branches}"
+  },
+  {
+    "enabled": true,
+    "id": "edit.history.goto",
+    "label": "Go to History State",
+    "params": "{index? (from edit.history.list) | id? | steps? (negative = back along the line)}"
+  },
+  {
+    "enabled": true,
+    "id": "comp.new",
+    "label": "New Composition...",
+    "menu": [
+      "Composition"
+    ],
+    "params": "{name?, width?, height?, frameRate?, duration? (s), startTime? (s) | startTimecode?, background? [r,g,b]|#hex, pixelAspect?, shutterAngle?, shutterPhase?, motionBlurSamples?, adaptiveSampleLimit? (16\u2013256), preserveFrameRate?: bool, preserveResolution?: bool, renderer?: classic3D|advanced3D, anchor?, open?}",
+    "shortcut": "Cmd+N"
+  },
+  {
+    "enabled": false,
+    "id": "comp.settings",
+    "label": "Composition Settings...",
+    "menu": [
+      "Composition"
+    ],
+    "params": "{comp?, name?, width?, height?, anchor? 0-8 (resize anchor, 4 = center), frameRate?, duration?, startTime? (s) | startTimecode?, background?, shutterAngle?, shutterPhase?, motionBlurSamples?, adaptiveSampleLimit? (16\u2013256), preserveFrameRate?: bool (nested or in the render queue it shows only its own frames), preserveResolution?: bool (nested, it renders at full size), pixelAspect?, renderer?: classic3D|advanced3D}",
+    "shortcut": "Cmd+K",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "comp.setPosterTime",
+    "label": "Set Poster Time",
+    "menu": [
+      "Composition"
+    ],
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "comp.trimToWorkArea",
+    "label": "Trim Comp to Work Area",
+    "menu": [
+      "Composition"
+    ],
+    "params": "{comp?}",
+    "shortcut": "Cmd+Shift+X",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "comp.open",
+    "label": "Open Composition",
+    "params": "{comp: id|name}"
+  },
+  {
+    "enabled": false,
+    "id": "comp.close",
+    "label": "Close Composition",
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "comp.workArea",
+    "label": "Set Work Area",
+    "params": "{start?, end?, set?: begin|end (at CTI)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "comp.setSwitch",
+    "label": "Composition Switch",
+    "params": "{switch: hideShy|motionBlur|frameBlending|draft3d, value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "comp.addMarker",
+    "label": "Add Marker",
+    "params": "{time?, comment?}",
+    "shortcut": "Num*",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.newText",
+    "label": "Text",
+    "menu": [
+      "Layer",
+      "New"
+    ],
+    "params": "{text?, name? (layer name; default the text), position? [x,y], box? [x,y,w,h] (paragraph text, comp space), vertical?, edit? (start editing), font?, style?, size?, fill?, stroke?, applyFill?, applyStroke?, strokeWidth?, tracking?, leading?, baselineShift?, hScale?, vScale?, tsume?, fauxBold?, fauxItalic?, allCaps?, smallCaps?, baseline?, superscript?, subscript?, kerning?, ligatures?, justify?, indentLeft?, indentRight?, indentFirst?, spaceBefore?, spaceAfter?, direction?, composer?, hangingPunctuation?, strokeOverFill?} (attributes as layer.setText)",
+    "shortcut": "Cmd+Alt+Shift+T",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.newSolid",
+    "label": "Solid...",
+    "menu": [
+      "Layer",
+      "New"
+    ],
+    "params": "{name?, color? #hex|[r,g,b], width?, height?, pixelAspect?}",
+    "shortcut": "Cmd+Y",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.newNull",
+    "label": "Null Object",
+    "menu": [
+      "Layer",
+      "New"
+    ],
+    "params": "{name?}",
+    "shortcut": "Cmd+Alt+Shift+Y",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.newShape",
+    "label": "Shape Layer",
+    "menu": [
+      "Layer",
+      "New"
+    ],
+    "params": "{kind?: rect|rounded|ellipse|star|polygon|none, name?, size?, fill?, stroke?, strokeWidth?, position?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.newAdjustment",
+    "label": "Adjustment Layer",
+    "menu": [
+      "Layer",
+      "New"
+    ],
+    "params": "{name?}",
+    "shortcut": "Cmd+Alt+Y",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.settings",
+    "label": "Layer Settings...",
+    "menu": [
+      "Layer"
+    ],
+    "params": "{layer?, name?, color?, width?, height?, pixelAspect?, affectAll?: bool (default true; false gives this layer its own copy of a solid other layers use)} \u2192 {layer, solid?}",
+    "shortcut": "Cmd+Shift+Y",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.addItem",
+    "label": "Add Footage to Comp",
+    "menu": [
+      "File"
+    ],
+    "params": "{item: id|name, time? (s, the In point), index? (1-based stack position; default above the selected layer), position? ([x, y] comp px; default the centre), duration? (s, for a still)}",
+    "shortcut": "Cmd+/",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.select",
+    "label": "Select Layers",
+    "params": "{layers: [id|name|#n], add?, toggle?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.selectNext",
+    "label": "Select Next Layer",
+    "params": "{add?}",
+    "shortcut": "Cmd+ArrowDown",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.selectPrevious",
+    "label": "Select Previous Layer",
+    "params": "{add?}",
+    "shortcut": "Cmd+ArrowUp",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.setSwitch",
+    "label": "Layer Switch",
+    "params": "{layers?, switch: video|audio|solo|lock|shy|collapse|quality|fx|frameBlend|motionBlur|adjustment|threeD|guide|preserveTransparency, value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.rename",
+    "label": "Rename",
+    "params": "{layer?, name}",
+    "shortcut": "Enter",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.setComment",
+    "label": "Layer Comment",
+    "params": "{layers?, comment}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.setBlendMode",
+    "label": "Blending Mode",
+    "params": "{layers?, mode?: Normal|Multiply|Screen|\u2026, step?: \u00b11}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.setTrackMatte",
+    "label": "Track Matte",
+    "params": "{layer?, matte: layer|null, kind?: alpha|alphaInverted|luma|lumaInverted}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.setParent",
+    "label": "Parent",
+    "params": "{layers?, parent: layer|null}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.timing",
+    "label": "Layer Timing",
+    "params": "{layers?, op?: moveInToTime|moveOutToTime|trimInToTime|trimOutToTime, delta?, start?, in?, out?, merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.slip",
+    "label": "Slip Edit",
+    "params": "{layers?, delta? (seconds) | frames?, merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.slipBack",
+    "label": "Slip Edit 1 Frame Earlier",
+    "params": "{layers?}",
+    "shortcut": "Alt+PageUp",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.slipForward",
+    "label": "Slip Edit 1 Frame Later",
+    "params": "{layers?}",
+    "shortcut": "Alt+PageDown",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.arrange",
+    "label": "Arrange",
+    "menu": [
+      "Layer",
+      "Arrange"
+    ],
+    "params": "{layers?, to: front|forward|backward|back, index?, above?: layer}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.precompose",
+    "label": "Pre-compose...",
+    "menu": [
+      "Layer"
+    ],
+    "params": "{layers?, name?, mode?: move|leave, adjustDuration?, open?}",
+    "shortcut": "Cmd+Shift+C",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.addMask",
+    "label": "New Mask",
+    "menu": [
+      "Layer",
+      "Mask"
+    ],
+    "params": "{layer?, shape?: rect|ellipse, rect? [x,y,w,h], mode?}",
+    "shortcut": "Cmd+Shift+N",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.setMask",
+    "label": "Mask Mode",
+    "params": "{layer?, mask: index|uid|name, mode?, inverted?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.addShapeItem",
+    "label": "Add (Shape)",
+    "params": "{layer?, kind: group|rect|ellipse|star|polygon|fill|stroke|gfill|trim|repeater|round|offset|pucker|twist|zigzag|wiggle|merge, group?: uid|path} \u2192 {uid, path}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.setText",
+    "label": "Edit Text",
+    "params": "{layer?, range?: [start, end] (characters; default all), text?, font?, style?, size?, fill?, stroke?, applyFill?, applyStroke?, strokeWidth?, tracking?, leading?: px|\"auto\", baselineShift? px, hScale? %, vScale? %, tsume? %, fauxBold?, fauxItalic?, allCaps?, smallCaps?, baseline?: normal|superscript|subscript, superscript?, subscript?, kerning?: metrics|optical|number, ligatures?, OpenType: discretionaryLigatures?, contextualAlternates?, stylisticAlternates?, stylisticSets?: [1\u201320], ss01\u2026ss20?, swash?, titling?, ordinals?, fractions?, allSmallCaps?, figureStyle?: default|lining|oldStyle, figureWidth?: default|proportional|tabular, figures?, variations?: {tag: value} (variable font axes; null resets), justify?: left|center|right|justifyLeft|justifyCenter|justifyRight|justifyAll, indentLeft?, indentRight?, indentFirst?, spaceBefore?, spaceAfter?, direction?: ltr|rtl, composer?: everyLine|singleLine, hangingPunctuation?, strokeOverFill?, box?: [x,y,w,h]|null (layer space), vertical?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.transform",
+    "label": "Transform",
+    "menu": [
+      "Layer",
+      "Transform"
+    ],
+    "params": "{layers?, op: reset|center|fit|fitWidth|fitHeight|flipH|flipV}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.convertToEditable",
+    "label": "Convert to Editable Styles",
+    "menu": [
+      "Layer",
+      "Layer Styles"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.showAll",
+    "label": "Show All",
+    "menu": [
+      "Layer",
+      "Layer Styles"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.removeAll",
+    "label": "Remove All",
+    "menu": [
+      "Layer",
+      "Layer Styles"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.dropShadow",
+    "label": "Drop Shadow",
+    "menu": [
+      "Layer",
+      "Layer Styles"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.innerShadow",
+    "label": "Inner Shadow",
+    "menu": [
+      "Layer",
+      "Layer Styles"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.outerGlow",
+    "label": "Outer Glow",
+    "menu": [
+      "Layer",
+      "Layer Styles"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.innerGlow",
+    "label": "Inner Glow",
+    "menu": [
+      "Layer",
+      "Layer Styles"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.bevelEmboss",
+    "label": "Bevel and Emboss",
+    "menu": [
+      "Layer",
+      "Layer Styles"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.satin",
+    "label": "Satin",
+    "menu": [
+      "Layer",
+      "Layer Styles"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.colorOverlay",
+    "label": "Color Overlay",
+    "menu": [
+      "Layer",
+      "Layer Styles"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.gradientOverlay",
+    "label": "Gradient Overlay",
+    "menu": [
+      "Layer",
+      "Layer Styles"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.stroke",
+    "label": "Stroke",
+    "menu": [
+      "Layer",
+      "Layer Styles"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.add",
+    "label": "Add Layer Style",
+    "params": "{style: dropShadow|innerShadow|outerGlow|innerGlow|bevelEmboss|satin|colorOverlay|gradientOverlay|stroke (or display name), layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.remove",
+    "label": "Remove Layer Style",
+    "params": "{layer?, style: id|name|uid|layerStyles}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.toggle",
+    "label": "Toggle Layer Style",
+    "params": "{layer?, style: id|name|uid|layerStyles, value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.globalLight",
+    "label": "Global Light",
+    "params": "{comp?, angle? (deg), altitude? (deg, 0..90), time? (s)} \u2014 no values returns the current setting",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "layer.style.list",
+    "label": "List Layer Styles",
+    "params": "{layer?}"
+  },
+  {
+    "enabled": false,
+    "id": "layer.autoOrient",
+    "label": "Auto-Orient...",
+    "menu": [
+      "Layer",
+      "Transform"
+    ],
+    "params": "{mode: off|alongPath|towardsCamera|towardsPointOfInterest, layers?}",
+    "shortcut": "Cmd+Alt+O",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.newLight",
+    "label": "Light...",
+    "menu": [
+      "Layer",
+      "New"
+    ],
+    "params": "{kind?: Parallel|Spot|Point|Ambient (default Spot), name?, color?, intensity?, coneAngle?, coneFeather?, falloff?: None|Smooth|Inverse Square Clamped, radius?, falloffDistance?, castsShadows?, shadowDarkness?, shadowDiffusion?, position? [x,y,z], poi? [x,y,z]}",
+    "shortcut": "Cmd+Alt+Shift+L",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.newCamera",
+    "label": "Camera...",
+    "menu": [
+      "Layer",
+      "New"
+    ],
+    "params": "{name?, type?: oneNode|twoNode (default twoNode), preset?: 15mm|20mm|24mm|28mm|35mm|50mm|80mm|135mm|200mm, zoom?, focalLength? mm, angleOfView? deg, dof?, focusDistance?, aperture?, fStop?, blurLevel?, lockToZoom?, position? [x,y,z], poi? [x,y,z]}",
+    "shortcut": "Cmd+Alt+Shift+C",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.cameraSettings",
+    "label": "Camera Settings...",
+    "menu": [
+      "Layer",
+      "Camera"
+    ],
+    "params": "{layer?, name?, type?, preset?, zoom?, focalLength?, angleOfView?, dof?, focusDistance?, aperture?, fStop?, blurLevel?, position?, poi?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.lightSettings",
+    "label": "Light Settings...",
+    "params": "{layer?, name?, kind?, color?, intensity?, coneAngle?, coneFeather?, falloff?, radius?, falloffDistance?, castsShadows?, shadowDarkness?, shadowDiffusion?, position?, poi?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.set3DView",
+    "label": "Switch 3D View",
+    "params": "{view: activeCamera|default|front|left|top|back|right|bottom|custom1|custom2|custom3, comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.3d.activeCamera",
+    "label": "Active Camera",
+    "menu": [
+      "View",
+      "Switch 3D View"
+    ],
+    "params": "{comp?}",
+    "shortcut": "F12",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.3d.default",
+    "label": "Default",
+    "menu": [
+      "View",
+      "Switch 3D View"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.3d.front",
+    "label": "Front",
+    "menu": [
+      "View",
+      "Switch 3D View"
+    ],
+    "params": "{comp?}",
+    "shortcut": "F10",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.3d.left",
+    "label": "Left",
+    "menu": [
+      "View",
+      "Switch 3D View"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.3d.top",
+    "label": "Top",
+    "menu": [
+      "View",
+      "Switch 3D View"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.3d.back",
+    "label": "Back",
+    "menu": [
+      "View",
+      "Switch 3D View"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.3d.right",
+    "label": "Right",
+    "menu": [
+      "View",
+      "Switch 3D View"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.3d.bottom",
+    "label": "Bottom",
+    "menu": [
+      "View",
+      "Switch 3D View"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.3d.custom1",
+    "label": "Custom View 1",
+    "menu": [
+      "View",
+      "Switch 3D View"
+    ],
+    "params": "{comp?}",
+    "shortcut": "F11",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.3d.custom2",
+    "label": "Custom View 2",
+    "menu": [
+      "View",
+      "Switch 3D View"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.3d.custom3",
+    "label": "Custom View 3",
+    "menu": [
+      "View",
+      "Switch 3D View"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.3d.last",
+    "label": "Switch to Last 3D View",
+    "menu": [
+      "View"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.lookAtSelected",
+    "label": "Look at Selected Layers",
+    "menu": [
+      "View"
+    ],
+    "params": "{comp?, layers?}",
+    "shortcut": "Cmd+Alt+Shift+\\",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.lookAtAll",
+    "label": "Look at All Layers",
+    "menu": [
+      "View"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.fromView",
+    "label": "Create Camera from 3D View",
+    "menu": [
+      "Layer",
+      "Camera"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.reset3DView",
+    "label": "Reset 3D View",
+    "menu": [
+      "View"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.set3DViewCamera",
+    "label": "Set 3D View Camera",
+    "params": "{view, eye? [x,y,z], poi? [x,y,z], zoom?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.orbit",
+    "label": "Orbit Camera",
+    "params": "{yaw|dx deg, pitch|dy deg, layer?, merge?} \u2014 current 3D view (camera layer in Active Camera)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.pan",
+    "label": "Pan Camera",
+    "params": "{dx, dy (comp px), layer?, merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.dolly",
+    "label": "Dolly Camera",
+    "params": "{amount (px, + = forward), layer?, merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "view.get3D",
+    "label": "3D View State",
+    "params": "{comp?} \u2192 current 3D view, view camera, active camera layer, lights"
+  },
+  {
+    "enabled": false,
+    "id": "layer.newModel",
+    "label": "3D Model Layer",
+    "params": "{item?: id or name of a 3D model footage item, path?: a .gltf, .glb or .obj file to import, name?, time? (s), index? (1-based stack position), position? ([x, y] comp px)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.new3dPrimitive",
+    "label": "3D Primitive",
+    "params": "{kind: cube|sphere|plane|torus|cone|cylinder, name?, width?, height?, depth?, radius?, tubeRadius?, segments?, rings?, position? [x,y,z], baseColor?, metallic?, roughness?, emissive?, castsShadows?, acceptsShadows?, acceptsLights?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.newPrimitive",
+    "label": "New 3D Primitive",
+    "params": "{kind: cube|sphere|plane|torus|cone|cylinder, name?, width?, height?, depth?, radius?, tubeRadius?, segments?, rings?, position? [x,y,z], baseColor?, metallic?, roughness?, emissive?, castsShadows?, acceptsShadows?, acceptsLights?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "comp.renderer",
+    "label": "Renderer",
+    "params": "{renderer?: advanced3d|classic3d (omit to read), value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.environment",
+    "label": "Environment Layer",
+    "menu": [
+      "Layer"
+    ],
+    "params": "{layers?, on?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "material.set",
+    "label": "Material Options",
+    "params": "{layers?, castsShadows?: off|on|only, acceptsShadows?: off|on|only, acceptsLights?, appearsInReflections?, lightTransmission?, ambient?, diffuse?, specularIntensity?, specularShininess?, metal?, baseColor?, metallic?, roughness?, emissive?, time?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "material.revealSource",
+    "label": "Reveal Material Source in Project",
+    "menu": [
+      "Layer",
+      "Material"
+    ],
+    "params": "{layer?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "material.reset",
+    "label": "Reset Material",
+    "menu": [
+      "Layer",
+      "Material"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "material.duplicateAssign",
+    "label": "Duplicate and Assign Material",
+    "menu": [
+      "Layer",
+      "Material"
+    ],
+    "params": "{layers? (first = source)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.stereoRig",
+    "label": "Create Stereo 3D Rig",
+    "menu": [
+      "Layer",
+      "Camera"
+    ],
+    "params": "{comp?, configuration?: stereoPair|centerRight|centerLeft, sceneDepth? (% of comp width, default 3), convergence?: bool, convergenceOf?: poi|zoom, zOffset?, view3d?: 3D Glasses view index (default 5 Balanced Colored Red Blue)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.orbitNull",
+    "label": "Create Orbit Null",
+    "menu": [
+      "Layer",
+      "Camera"
+    ],
+    "params": "{comp?, layer?: camera (default selected/active)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.fromModel",
+    "label": "Create Cameras from 3D Model",
+    "menu": [
+      "Layer",
+      "Camera"
+    ],
+    "params": "{comp?, layers?: 3D model layers (default selected)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "light.fromModel",
+    "label": "Create Lights from 3D Model",
+    "menu": [
+      "Layer",
+      "Light"
+    ],
+    "params": "{comp?, layers?: 3D model layers (default selected)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "light.controlWithCamera",
+    "label": "Control Light with Camera",
+    "menu": [
+      "Layer",
+      "Light"
+    ],
+    "params": "{comp?, layers?: lights (default selected), camera? (default active), on?: bool (default toggle)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "light.environmentBackground",
+    "label": "Create Environment Light Background Layer",
+    "menu": [
+      "Layer",
+      "Light"
+    ],
+    "params": "{comp?, layer?: environment light (default selected / first)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.addTextAnimator",
+    "label": "Animate Text",
+    "params": "{layer?, properties: [anchor|position|scale|skew|rotation|opacity|transformAll|lineAnchor|lineSpacing|characterOffset|characterValue|blur|fillColor|fillHue|fillSaturation|fillBrightness|fillOpacity|strokeColor|strokeHue|strokeSaturation|strokeBrightness|strokeOpacity|strokeWidth|tracking|perChar3d], name?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.addTextAnimatorProperty",
+    "label": "Add Property",
+    "params": "{layer?, animator?: uid|index, property: (see layer.addTextAnimator)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.addTextSelector",
+    "label": "Add Text Selector",
+    "params": "{layer?, animator?: uid|index, kind: range|wiggly|expression}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.enablePerChar3D",
+    "label": "Enable Per-character 3D",
+    "params": "{layer?, enabled?: bool, toggle?: bool}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.applyTextPreset",
+    "label": "Apply Text Animation Preset",
+    "params": "{layer?, preset: typewriter|fadeUpCharacters|bounceInWords|trackingIn|scramble|blurIn|jitter|dropInLines}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "text.animatorFontAxes",
+    "label": "Variable Font Axes",
+    "menu": [
+      "Animation",
+      "Animate Text"
+    ],
+    "params": "{layer?, axis?: tag|name (omit to list the font's axes), animator?: uid|index}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "text.presets",
+    "label": "Text Animation Presets"
+  },
+  {
+    "enabled": true,
+    "id": "text.animatorProperties",
+    "label": "Text Animator Properties"
+  },
+  {
+    "enabled": false,
+    "id": "text.edit",
+    "label": "Edit Text",
+    "params": "{layer?, select?: [anchor, caret]|\"none\", caret?, created?} \u2192 {layer, anchor, caret}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "text.endEdit",
+    "label": "Exit Text Editing"
+  },
+  {
+    "enabled": true,
+    "id": "text.fontFeatures",
+    "label": "OpenType Features",
+    "params": "{layer?, font?, style?} \u2192 {family, style, features: [tags], options: {smallCaps, superscript, stylisticSets: [n], fractions, \u2026}} (what the font sets with its own glyphs)"
+  },
+  {
+    "enabled": true,
+    "id": "text.fonts",
+    "label": "List Fonts",
+    "params": "{query?, rescan?} \u2192 {count, families: [{family, styles, origin: bundled|system|user, nativeName?}], added} (rescan picks up fonts installed since launch)"
+  },
+  {
+    "enabled": false,
+    "id": "text.setSelection",
+    "label": "Set Text Selection",
+    "params": "{layer?, start, end?} | {anchor, caret} | {select: \"all\"} (character indices)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "text.moveCaret",
+    "label": "Move Text Caret",
+    "params": "{to: left|right|wordLeft|wordRight|lineStart|lineEnd|up|down|paraStart|paraEnd|start|end, extend?}",
+    "why": "not editing text"
+  },
+  {
+    "enabled": false,
+    "id": "text.insert",
+    "label": "Type Text",
+    "params": "{layer?, text, range?: [start, end], merge?} (replaces the selection)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "text.delete",
+    "label": "Delete Text",
+    "params": "{layer?, direction?: backward|forward, word?, range?: [start, end], merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.pasteTextMatchFormatting",
+    "label": "Paste Text and Match Formatting",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{text?} (the clipboard's text in the style at the caret)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "edit.pasteTextFormattingOnly",
+    "label": "Paste Text Formatting Only",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{layer?} (the copied text's formatting on the selected text or text layers)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.timeStretch",
+    "label": "Time Stretch...",
+    "menu": [
+      "Layer",
+      "Time"
+    ],
+    "params": "{layers?, percent?|duration? (s), hold?: in|current|out, op?: reverse}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.timeReverse",
+    "label": "Time-Reverse Layer",
+    "menu": [
+      "Layer",
+      "Time"
+    ],
+    "params": "{layers?}",
+    "shortcut": "Cmd+Alt+R",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.enableTimeRemap",
+    "label": "Enable Time Remapping",
+    "menu": [
+      "Layer",
+      "Time"
+    ],
+    "params": "{layers?, value?}",
+    "shortcut": "Cmd+Alt+T",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.freezeFrame",
+    "label": "Freeze Frame",
+    "menu": [
+      "Layer",
+      "Time"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.freezeOnLastFrame",
+    "label": "Freeze On Last Frame",
+    "menu": [
+      "Layer",
+      "Time"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "prop.get",
+    "label": "Get Property",
+    "params": "{layer?, path|prop, time? (comp s)}"
+  },
+  {
+    "enabled": false,
+    "id": "prop.set",
+    "label": "Set Property Value",
+    "params": "{layer?, path|prop, value, time?, merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.toggleAnimation",
+    "label": "Toggle Stopwatch",
+    "params": "{layer?, path|prop, value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.addKey",
+    "label": "Add Keyframe",
+    "params": "{layer?, path|prop, time?, value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.toggleKey",
+    "label": "Add or Remove Keyframe at Current Time",
+    "params": "{layer?, path|prop}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.toggleTransform",
+    "label": "Add or Remove Transform Keyframe",
+    "params": "{layers?, prop: anchor|position|scale|rotation|opacity} (Alt+Shift+A/P/S/R/T)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.setExpression",
+    "label": "Add Expression",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{layer?, path|prop, expression?, enabled?}",
+    "shortcut": "Alt+Shift+=",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.reset",
+    "label": "Reset Property",
+    "params": "{layer?, path|prop, default?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.select",
+    "label": "Select Property",
+    "params": "{layer?, path|prop, add?, selectKeys?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.convertExpressionToKeyframes",
+    "label": "Convert Expression to Keyframes",
+    "menu": [
+      "Animation",
+      "Keyframe Assistant"
+    ],
+    "params": "{layer?, path|prop}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.select",
+    "label": "Select Keyframes",
+    "params": "{keys: [{layer, prop: uid | path (or `path`), time (layer s)}], add?, toggle?: bool (Shift+click: in or out of the selection)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.move",
+    "label": "Move Keyframes",
+    "params": "{delta (s), merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.delete",
+    "label": "Delete Keyframes",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.easyEase",
+    "label": "Easy Ease",
+    "menu": [
+      "Animation",
+      "Keyframe Assistant"
+    ],
+    "params": "{which?: both|in|out}",
+    "shortcut": "F9",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.easyEaseIn",
+    "label": "Easy Ease In",
+    "menu": [
+      "Animation",
+      "Keyframe Assistant"
+    ],
+    "shortcut": "Shift+F9",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.easyEaseOut",
+    "label": "Easy Ease Out",
+    "menu": [
+      "Animation",
+      "Keyframe Assistant"
+    ],
+    "shortcut": "Cmd+Shift+F9",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.toggleHold",
+    "label": "Toggle Hold Keyframe",
+    "menu": [
+      "Animation"
+    ],
+    "shortcut": "Cmd+Alt+H",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.interpolation",
+    "label": "Keyframe Interpolation...",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{interpolation?: linear|bezier|continuousBezier|autoBezier|hold, in?|out?: linear|bezier|hold, autoBezier?, continuous?, spatial?: linear|bezier|continuousBezier|autoBezier, roving?}",
+    "shortcut": "Cmd+Alt+K",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.velocity",
+    "label": "Keyframe Velocity...",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{inSpeed?, inInfluence? %, outSpeed?, outInfluence? % (numbers or per-dimension arrays), continuous?}",
+    "shortcut": "Cmd+Shift+K",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.renameGroup",
+    "label": "Rename Property Group",
+    "params": "{layer?, prop: uid, name}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.setGroupEnabled",
+    "label": "Enable Property Group",
+    "params": "{layer?, prop: uid, value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.removeGroup",
+    "label": "Delete Property Group",
+    "params": "{layer?, prop: uid}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.duplicateGroup",
+    "label": "Duplicate Property Group",
+    "params": "{layer?, prop: uid} \u2192 {prop: new uid}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.moveGroup",
+    "label": "Reorder Property Group",
+    "params": "{layer?, prop: uid, index (1-based among its siblings)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "project.select",
+    "label": "Select Project Items",
+    "params": "{items: [id|name], add?}"
+  },
+  {
+    "enabled": true,
+    "id": "project.rename",
+    "label": "Rename Item",
+    "params": "{item?: id|name (default: selected), name}"
+  },
+  {
+    "enabled": true,
+    "id": "project.move",
+    "label": "Move to Folder",
+    "params": "{items?: [id|name] (default: selected), folder: id|name|null (root)}"
+  },
+  {
+    "enabled": true,
+    "id": "project.setLabel",
+    "label": "Item Label",
+    "params": "{items?, label: name|index}"
+  },
+  {
+    "enabled": true,
+    "id": "project.setComment",
+    "label": "Item Comment",
+    "params": "{items?, comment}"
+  },
+  {
+    "enabled": true,
+    "id": "project.delete",
+    "label": "Delete Project Items",
+    "params": "{items?: [id|name] (default: selected)} (folders with their contents; layers using the items go too)"
+  },
+  {
+    "enabled": true,
+    "id": "project.usage",
+    "label": "Project Item Usage",
+    "params": "{items?: [id|name] (default: selected)} \u2192 {items, layers, comps} that deleting them removes"
+  },
+  {
+    "enabled": true,
+    "id": "project.duplicate",
+    "label": "Duplicate Project Items",
+    "params": "{items?: [id|name] (default: selected)} \u2192 {items}"
+  },
+  {
+    "enabled": false,
+    "id": "keys.copy",
+    "label": "Copy Keyframes",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.paste",
+    "label": "Paste Keyframes",
+    "params": "{layers?, prop?|path?, time?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.selectAll",
+    "label": "Select All Keyframes",
+    "params": "{layers?, visible?: [{layer, prop}] (every key of these properties)}",
+    "shortcut": "Cmd+Alt+A",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.nudge",
+    "label": "Nudge Keyframes",
+    "params": "{frames, merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.nudgeForward",
+    "label": "Move Keyframes 1 Frame Later",
+    "shortcut": "Alt+ArrowRight",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.nudgeBackward",
+    "label": "Move Keyframes 1 Frame Earlier",
+    "shortcut": "Alt+ArrowLeft",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.nudgeForward10",
+    "label": "Move Keyframes 10 Frames Later",
+    "shortcut": "Alt+Shift+ArrowRight",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.nudgeBackward10",
+    "label": "Move Keyframes 10 Frames Earlier",
+    "shortcut": "Alt+Shift+ArrowLeft",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.set",
+    "label": "Edit Keyframe",
+    "params": "{layer?, path|prop, time (layer s), newTime?, value?, merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.selectEqual",
+    "label": "Select Equal Keyframes",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.selectPrevious",
+    "label": "Select Previous Keyframes",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.selectFollowing",
+    "label": "Select Following Keyframes",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.setEase",
+    "label": "Set Keyframe Ease",
+    "params": "{layer?, path|prop, time (layer s), side: in|out, dim?, speed?, influence? %, merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.timeReverse",
+    "label": "Time-Reverse Keyframes",
+    "menu": [
+      "Animation",
+      "Keyframe Assistant"
+    ],
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "keys.info",
+    "label": "Keyframe Info",
+    "params": "{keys?: [{layer, prop, time}]}"
+  },
+  {
+    "enabled": false,
+    "id": "keys.wiggle",
+    "label": "Wiggler",
+    "params": "{apply?: spatial|temporal, noise?: smooth|jagged, dimensions?: one|same|independent, dimension? (index for `one`), frequency? (keys/s, 5), magnitude?, seed?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.smooth",
+    "label": "Smoother",
+    "params": "{tolerance? (property units, 1)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "motion.sketch",
+    "label": "Motion Sketch",
+    "params": "{layer?, points: [[t, x, y]\u2026] (t = capture seconds) | [[x, y]\u2026] (one per frame), start? (s, default current time), captureSpeed? (%, 100), smoothing? (px, 1)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.separateDimensions",
+    "label": "Separate Dimensions",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{layer?, value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "prop.pickWhip",
+    "label": "Pick Whip (Link Property)",
+    "params": "{layer?, path|prop, target: {layer, path|prop}} \u2192 sets an AE reference expression",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "markers.list",
+    "label": "List Markers",
+    "params": "{layer? (omit for composition markers)}"
+  },
+  {
+    "enabled": true,
+    "id": "markers.nested",
+    "label": "Nested Comp Markers",
+    "params": "{layer: a precomp layer, comp?} \u2014 its comp's markers at their times in this comp (as on the layer bar)"
+  },
+  {
+    "enabled": false,
+    "id": "markers.set",
+    "label": "Marker Settings",
+    "params": "{layer? (omit: comp marker), index? (0-based) | at? (comp s) | new?: true, time? (comp s), duration? (s), comment?, chapter?, url?, frameTarget?, cuePoint?: {name, navigation?, params?: [[name, value]\u2026]} | null, protected?, label?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "markers.delete",
+    "label": "Delete Marker",
+    "params": "{layer?, index? | at? (comp s)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "markers.convert",
+    "label": "Convert Marker",
+    "params": "{layer? (layer marker \u2192 comp marker), index? | at?, toLayer? (comp marker \u2192 layer marker)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.updateMarkersFromSource",
+    "label": "Update Markers From Source",
+    "menu": [
+      "Layer",
+      "Markers"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.new",
+    "label": "New Mask from Points",
+    "params": "{layer?, vertices: [[x,y]\u2026], inTangents?, outTangents?, closed?, mode?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.addVertex",
+    "label": "Add Mask Vertex",
+    "params": "{layer?, mask, point: [x,y], in?, out?, index?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.setVertex",
+    "label": "Set Mask Vertex",
+    "params": "{layer?, mask, index, point?, in?, out?, merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.setClosed",
+    "label": "Closed",
+    "menu": [
+      "Layer",
+      "Mask and Shape Path"
+    ],
+    "params": "{layer?, mask, closed?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.selectVertices",
+    "label": "Select Mask Vertices",
+    "params": "{vertices: [{layer, mask, index}], add?, toggle?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.moveVertices",
+    "label": "Move Mask Vertices",
+    "params": "{vertices?: [{layer, mask, index}], delta: [dx,dy], merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.deleteVertices",
+    "label": "Delete Mask Vertices",
+    "params": "{vertices?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.convertVertex",
+    "label": "Convert Vertex",
+    "params": "{layer?, mask: uid (mask or shape Path item), index, smooth?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.insertVertex",
+    "label": "Add Vertex",
+    "params": "{layer?, mask: uid (mask or shape Path item), segment, t?: 0..1}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.featherPoint.add",
+    "label": "Add Mask Feather Point",
+    "params": "{layer?, mask, segment?, t?: 0..1, point?: [x,y] (layer space), radius? (px, negative = inner), tension? (%)} \u2192 {index}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.featherPoint.set",
+    "label": "Move Mask Feather Point",
+    "params": "{layer?, mask, index, segment?, t?, point? (slide along the path), radius?, toward?: [x,y] (radius from the drag point, layer space), tension? (%), merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.featherPoint.remove",
+    "label": "Delete Mask Feather Point",
+    "params": "{layer?, mask, index? | all?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "mask.featherPoint.list",
+    "label": "Mask Feather Points",
+    "params": "{layer?, mask}"
+  },
+  {
+    "enabled": false,
+    "id": "mask.remove",
+    "label": "Remove Mask",
+    "params": "{layer?, mask}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.removeAll",
+    "label": "Remove All Masks",
+    "params": "{layer?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "path.rotoBezier",
+    "label": "RotoBezier",
+    "menu": [
+      "Layer",
+      "Mask and Shape Path"
+    ],
+    "params": "{layer?, mask?, value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "path.convertToBezier",
+    "label": "Convert To Bezier Path",
+    "menu": [
+      "Layer",
+      "Mask and Shape Path"
+    ],
+    "params": "{layer?, mask?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "path.groupShapes",
+    "label": "Group Shapes",
+    "menu": [
+      "Layer"
+    ],
+    "params": "{layer?, items?: [uid]}",
+    "shortcut": "Cmd+G",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "path.ungroupShapes",
+    "label": "Ungroup Shapes",
+    "menu": [
+      "Layer"
+    ],
+    "params": "{layer?, items?: [group uid]}",
+    "shortcut": "Cmd+Shift+G",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "path.setFirstVertex",
+    "label": "Set First Vertex",
+    "menu": [
+      "Layer",
+      "Mask and Shape Path"
+    ],
+    "params": "{layer?, mask?: uid, index?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "path.freeTransform",
+    "label": "Free Transform Points",
+    "menu": [
+      "Layer",
+      "Mask and Shape Path"
+    ],
+    "params": "{layer?, mask?, scale?: % | [x%, y%], rotation?: deg, offset?: [dx, dy], anchor?: [x, y]}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.mask.motionBlur",
+    "label": "Motion Blur",
+    "params": "{layer?, mask?, mode: sameAsLayer|on|off}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.mask.featherFalloff",
+    "label": "Feather Falloff",
+    "params": "{layer?, mask?, mode: smooth|linear}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.mask.hideLocked",
+    "label": "Hide Locked Masks",
+    "menu": [
+      "Layer",
+      "Mask"
+    ],
+    "params": "{value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "effect.apply",
+    "label": "Apply Effect",
+    "params": "{effect: id|name (e.g. Gaussian Blur), layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "effect.pickColor",
+    "label": "Pick Effect Colour",
+    "params": "{layer?, effect?: index|uid|name, param: id (e.g. screenColour) | prop: uid, x, y (layer px), average?: bool (5\u00d75), time?} \u2014 the colour of the effect's input there",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "effect.applyLast",
+    "label": "Last Effect",
+    "menu": [
+      "Effect"
+    ],
+    "params": "{layers?}",
+    "shortcut": "Cmd+Alt+Shift+E",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "effect.removeAll",
+    "label": "Remove All",
+    "menu": [
+      "Effect"
+    ],
+    "params": "{layers?}",
+    "shortcut": "Cmd+Shift+E",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "effect.remove",
+    "label": "Remove Effect",
+    "params": "{layer?, effect: index|uid|name}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "effect.toggle",
+    "label": "Toggle Effect",
+    "params": "{layer?, effect, value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "effect.reorder",
+    "label": "Reorder Effect",
+    "params": "{layer?, effect, index}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "effect.duplicate",
+    "label": "Duplicate Effect",
+    "params": "{layer?, effect}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "effect.copy",
+    "label": "Copy Effects",
+    "params": "{layer?, effect? | effects?: [uid|name|index]} (default: the selected effects)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "effect.paste",
+    "label": "Paste Effects",
+    "params": "{layers?} \u2014 adds the copied effects to the layers",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "effect.reset",
+    "label": "Reset Effect",
+    "params": "{layer?, effect}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "effect.list",
+    "label": "List Effects",
+    "params": "{filter?}"
+  },
+  {
+    "enabled": true,
+    "id": "effect.plugins.list",
+    "label": "List Effect Plug-ins",
+    "params": "{} \u2192 {api, wasm, plugins: [{id, name, category, version, author, source, params}]}"
+  },
+  {
+    "enabled": true,
+    "id": "effect.plugins.load",
+    "label": "Load Effect Plug-in...",
+    "params": "{path (.wasm / .wat plug-in, API v1) | folder (loads every .wasm in it)}"
+  },
+  {
+    "enabled": false,
+    "id": "time.set",
+    "label": "Go to Time...",
+    "menu": [
+      "View"
+    ],
+    "params": "{time? (s) | frame? | timecode?}",
+    "shortcut": "Alt+Shift+J",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "time.nextFrame",
+    "label": "Next Frame",
+    "shortcut": "PageDown",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "time.previousFrame",
+    "label": "Previous Frame",
+    "shortcut": "PageUp",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "time.forward10",
+    "label": "Forward 10 Frames",
+    "shortcut": "Shift+PageDown",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "time.back10",
+    "label": "Back 10 Frames",
+    "shortcut": "Shift+PageUp",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "time.step",
+    "label": "Step Frames",
+    "params": "{frames}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "time.start",
+    "label": "Go to Start",
+    "shortcut": "Home",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "time.end",
+    "label": "Go to End",
+    "shortcut": "End",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "time.layerIn",
+    "label": "Go to Layer In Point",
+    "shortcut": "I",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "time.layerOut",
+    "label": "Go to Layer Out Point",
+    "shortcut": "O",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "time.nextKey",
+    "label": "Go to Next Keyframe or Marker",
+    "params": "{visible?: [{layer, prop}] (only these properties' keys, as the Timeline shows them)}",
+    "shortcut": "K",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "time.previousKey",
+    "label": "Go to Previous Keyframe or Marker",
+    "params": "{visible?: [{layer, prop}]}",
+    "shortcut": "J",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "time.go",
+    "label": "Go To",
+    "params": "{to: start|end|workStart|workEnd|layerIn|layerOut|nextKey|prevKey, prop?: uid, visible?: [{layer, prop}]}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "renderQueue.add",
+    "label": "Add to Render Queue",
+    "menu": [
+      "Composition"
+    ],
+    "params": "{comp?: id|name, template?: Render Settings template, format?: h264|hevc|av1|prores|webm|png|jpeg|tiff|exr|gif|wav|aiff, output?: path|template, log?: errorsOnly|plusSettings|plusPerFrameInfo, quality?: best|draft|1-100 (jpeg, webm), resolution?: full|half|third|quarter|scale, proxyUse?, effects?, solo?, guideLayers?, colorDepth?, frameBlending?, fieldRender?, pulldown?, motionBlur?, timeSpan?: workArea|comp|custom, start?: s, end?: s, duration?: s, frameRate?: fps|null, skipExisting?: bool, storageOverflow?: bool, channels?: rgb|rgba|alpha, color?, bitrate?: kbps, webmBitrate?, keyframeInterval?, proresProfile?, profile?, level?, rateControl?, webmCodec?, audioBitrate?, opusApplication?, crop?, resize?, includeProjectLink?, audio?: auto|on|off, sampleRate?, audioChannels?, audioFormat?, loop?: bool (values as in setRenderSettings / setOutputModule)}",
+    "shortcut": "Cmd+M",
+    "why": "select or open a composition"
+  },
+  {
+    "enabled": false,
+    "id": "renderQueue.remove",
+    "label": "Remove from Render Queue",
+    "params": "{item?: id, index?: n}",
+    "why": "the render queue is empty"
+  },
+  {
+    "enabled": false,
+    "id": "renderQueue.setRender",
+    "label": "Render Queue: Render Checkbox",
+    "params": "{item?|index?, render?: bool (toggles)}",
+    "why": "the render queue is empty"
+  },
+  {
+    "enabled": false,
+    "id": "renderQueue.setRenderSettings",
+    "label": "Render Settings...",
+    "params": "{item?|index?, template?: name, quality?: best|draft, resolution?: full|half|third|quarter|scale, proxyUse?: current|all|comp|none, effects?: current|allOn|allOff, solo?: current|allOff, guideLayers?: current|allOff, colorDepth?: current|8|16|32, frameBlending?: current|onForChecked|offForAll, fieldRender?: off|upper|lower, pulldown?: off|WSSWW|SSWWW|SWWWS|WWWSS|WWSSW, motionBlur?: bool|current|onForChecked|offForAll, timeSpan?: workArea|comp|custom, start?: s, end?: s, duration?: s, frameRate?: fps|null, skipExisting?: bool, storageOverflow?: bool}",
+    "why": "the render queue is empty"
+  },
+  {
+    "enabled": false,
+    "id": "renderQueue.setOutputModule",
+    "label": "Output Module Settings...",
+    "params": "{item?|index?, module?: n (1 = first), template?: name, format?: h264|hevc|av1|prores|webm|png|jpeg|tiff|exr|gif|wav|aiff, channels?: rgb|rgba|alpha, color?: straight|premultiplied, quality?: 1-100, bitrate?: kbps, webmBitrate?: bool, keyframeInterval?: frames (0 = auto), proresProfile?: proxy|lt|standard|hq|4444|4444xq, profile?: main|main10 (HEVC/AV1), level?: auto|4.1, rateControl?: bitrate|quality, webmCodec?: vp9|av1, audioBitrate?: Opus kbps, opusApplication?: audio|voice, crop?: bool|{useRoi?, roi?, top?, left?, bottom?, right?}, cropTop?, cropLeft?, cropBottom?, cropRight?, resize?: bool|{preset?, width?, height?, lockAspect?, quality?: low|high}, resizeWidth?, resizeHeight?, postRenderAction?: none|import|importAndReplace|setProxy, includeProjectLink?: bool, audio?: auto|on|off, sampleRate?, audioChannels?: mono|stereo, audioFormat?: 16|24|32, loop?: bool, output?}",
+    "why": "the render queue is empty"
+  },
+  {
+    "enabled": false,
+    "id": "renderQueue.setOutput",
+    "label": "Output To...",
+    "params": "{item?|index?, module?: n, path: file path or template like [compName].[fileExtension]}",
+    "why": "the render queue is empty"
+  },
+  {
+    "enabled": false,
+    "id": "render.addOutputModule",
+    "label": "Add Output Module",
+    "menu": [
+      "Composition"
+    ],
+    "params": "{item?|index? (default: the last item), format?, output?, channels?, quality?, bitrate?, proresProfile?, audio?}",
+    "why": "the render queue is empty"
+  },
+  {
+    "enabled": false,
+    "id": "render.preRender",
+    "label": "Pre-render...",
+    "menu": [
+      "Composition"
+    ],
+    "params": "{comp?, output?: path|template, format?}",
+    "why": "select or open a composition"
+  },
+  {
+    "enabled": false,
+    "id": "render.saveCurrentPreview",
+    "label": "Save Current Preview...",
+    "menu": [
+      "Composition"
+    ],
+    "params": "{comp?, path}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "renderQueue.move",
+    "label": "Move in Render Queue",
+    "params": "{item?|index?, to: n (1-based)}",
+    "why": "the render queue is empty"
+  },
+  {
+    "enabled": false,
+    "id": "renderQueue.duplicate",
+    "label": "Duplicate Render Item",
+    "params": "{item?|index?}",
+    "why": "the render queue is empty"
+  },
+  {
+    "enabled": false,
+    "id": "renderQueue.render",
+    "label": "Render",
+    "params": "{wait?: bool (default true; the UI renders in the background)}",
+    "why": "nothing is queued"
+  },
+  {
+    "enabled": false,
+    "id": "renderQueue.stop",
+    "label": "Stop Rendering",
+    "why": "not rendering"
+  },
+  {
+    "enabled": true,
+    "id": "renderQueue.list",
+    "label": "Render Queue Items"
+  },
+  {
+    "enabled": true,
+    "id": "renderQueue.templates",
+    "label": "Render Templates"
+  },
+  {
+    "enabled": true,
+    "id": "renderQueue.saveTemplate",
+    "label": "Save Template...",
+    "params": "{kind: renderSettings|outputModule, name, item?|index? (save from this item), from?: template to copy, module?, params?: {setRenderSettings / setOutputModule keys}}"
+  },
+  {
+    "enabled": true,
+    "id": "renderQueue.deleteTemplate",
+    "label": "Delete Template",
+    "params": "{kind: renderSettings|outputModule, name}"
+  },
+  {
+    "enabled": true,
+    "id": "renderQueue.setTemplateDefault",
+    "label": "Set Template Default",
+    "params": "{kind: renderSettings|outputModule, slot: movie|still|preRender|movieProxy|stillProxy, name}"
+  },
+  {
+    "enabled": false,
+    "id": "renderQueue.applyTemplate",
+    "label": "Apply Template",
+    "params": "{item?|index?, renderSettings?: template name, outputModule?: template name, module?: n}",
+    "why": "the render queue is empty"
+  },
+  {
+    "enabled": false,
+    "id": "renderQueue.setLog",
+    "label": "Render Queue: Log",
+    "params": "{item?|index?, log: errorsOnly|plusSettings|plusPerFrameInfo}",
+    "why": "the render queue is empty"
+  },
+  {
+    "enabled": true,
+    "id": "renderQueue.setNotify",
+    "label": "Notify When Done",
+    "params": "{notify?: bool (toggles)}"
+  },
+  {
+    "enabled": true,
+    "id": "renderQueue.setOverflowFolders",
+    "label": "Storage Overflow Folders",
+    "params": "{folders: [path, \u2026] (used in order when the output volume is full)}"
+  },
+  {
+    "enabled": true,
+    "id": "renderQueue.formats",
+    "label": "Output Formats"
+  },
+  {
+    "enabled": true,
+    "id": "help.docs",
+    "label": "EffectCraft Help...",
+    "params": "{page?: help|scripting|expressions|effects|agents}",
+    "shortcut": "F1"
+  },
+  {
+    "enabled": true,
+    "id": "help.discord",
+    "label": "Join the ArtCraft Discord...",
+    "menu": [
+      "Help"
+    ]
+  },
+  {
+    "enabled": true,
+    "id": "help.website",
+    "label": "ArtCraft Website",
+    "menu": [
+      "Help"
+    ]
+  },
+  {
+    "enabled": true,
+    "id": "help.appPage",
+    "label": "EffectCraft Home Page",
+    "menu": [
+      "Help"
+    ]
+  },
+  {
+    "enabled": true,
+    "id": "help.github",
+    "label": "EffectCraft on GitHub",
+    "menu": [
+      "Help"
+    ]
+  },
+  {
+    "enabled": true,
+    "id": "help.onlineTutorials",
+    "label": "Online Tutorials...",
+    "menu": [
+      "Help"
+    ]
+  },
+  {
+    "enabled": true,
+    "id": "help.inAppTutorials",
+    "label": "In-App Tutorials...",
+    "menu": [
+      "Help"
+    ],
+    "params": "{} \u2192 the Home screen's Learn tab"
+  },
+  {
+    "enabled": true,
+    "id": "help.reportIssue",
+    "label": "Provide Feedback...",
+    "menu": [
+      "Help"
+    ]
+  },
+  {
+    "enabled": true,
+    "id": "help.sibling",
+    "label": "Other ArtCraft Apps",
+    "params": "{app: photocraft|vectorcraft|filmcraft|lightcraft|printcraft|designcraft, kind?: page|github}"
+  },
+  {
+    "enabled": true,
+    "id": "command.list",
+    "label": "List Commands",
+    "params": "{filter?, enabledOnly?, schemas? (add each command's params JSON Schema)}"
+  },
+  {
+    "enabled": true,
+    "id": "command.describe",
+    "label": "Describe Command",
+    "params": "{command} \u2192 id, label, menu, shortcut, params doc, JSON `schema`, enabled"
+  },
+  {
+    "enabled": true,
+    "id": "app.capabilities",
+    "label": "App Capabilities",
+    "params": "{} \u2192 version, command/effect counts, export formats, parity summary"
+  },
+  {
+    "enabled": true,
+    "id": "project.summary",
+    "label": "Project Summary"
+  },
+  {
+    "enabled": true,
+    "id": "comp.info",
+    "label": "Composition Info",
+    "params": "{comp?}"
+  },
+  {
+    "enabled": true,
+    "id": "layer.tree",
+    "label": "Layer Property Tree",
+    "params": "{layer?, comp?, depth?, time? (comp s)} \u2192 nodes with `path`"
+  },
+  {
+    "enabled": true,
+    "id": "editor.state",
+    "label": "Editor State"
+  },
+  {
+    "enabled": true,
+    "id": "engine.batch",
+    "label": "Run Commands (Batch)",
+    "params": "{steps: [{command, params?}], label? (undo step name, default Batch), atomic?: bool (default true: a failing step rolls the whole batch back)} \u2192 {steps, results: [each step's result]}; a string param \"$N\" or \"$N.key.0\" is step N's result (1-based), e.g. {\"layer\": \"$1.layer\"}"
+  },
+  {
+    "enabled": false,
+    "id": "layer.quality",
+    "label": "Quality",
+    "params": "{layers?, quality: best|draft|wireframe}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.sampling",
+    "label": "Sampling",
+    "params": "{layers?, sampling: bilinear|bicubic}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.frameBlending",
+    "label": "Frame Blending",
+    "params": "{layers?, mode: off|frameMix|pixelMotion}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.hideOtherVideo",
+    "label": "Hide Other Video",
+    "menu": [
+      "Layer",
+      "Switches"
+    ],
+    "params": "{layers?}",
+    "shortcut": "Cmd+Alt+Shift+V",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.showAllVideo",
+    "label": "Show All Video",
+    "menu": [
+      "Layer",
+      "Switches"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.unlockAll",
+    "label": "Unlock All Layers",
+    "menu": [
+      "Layer",
+      "Switches"
+    ],
+    "params": "{comp?}",
+    "shortcut": "Cmd+Shift+L",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.expressions",
+    "label": "Enable/Disable Expressions",
+    "params": "{layers?, enabled: bool}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.setTransform",
+    "label": "Transform Value",
+    "params": "{layers?, prop: anchor|position|scale|orientation|rotation|opacity, value}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.centerAnchor",
+    "label": "Center Anchor Point in Layer Content",
+    "menu": [
+      "Layer",
+      "Transform"
+    ],
+    "params": "{layers?}",
+    "shortcut": "Cmd+Alt+Home",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.mask.shape",
+    "label": "Mask Shape...",
+    "menu": [
+      "Layer",
+      "Mask"
+    ],
+    "params": "{layer?, mask?, rect: [x, y, w, h], shape?: rect|ellipse}",
+    "shortcut": "Cmd+Shift+M",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.mask.set",
+    "label": "Mask Settings",
+    "params": "{layer?, mask?, field: feather|opacity|expansion, value}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.mask.reset",
+    "label": "Reset Mask",
+    "menu": [
+      "Layer",
+      "Mask"
+    ],
+    "params": "{layer?, mask?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.mask.remove",
+    "label": "Remove Mask",
+    "menu": [
+      "Layer",
+      "Mask"
+    ],
+    "params": "{layer?, mask?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.mask.removeAll",
+    "label": "Remove All Masks",
+    "menu": [
+      "Layer",
+      "Mask"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.mask.mode",
+    "label": "Mask Mode",
+    "params": "{layer?, mask?, mode: None|Add|Subtract|Intersect|Lighten|Darken|Difference}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.mask.invert",
+    "label": "Inverted",
+    "menu": [
+      "Layer",
+      "Mask"
+    ],
+    "params": "{layer?, mask?, value?}",
+    "shortcut": "Cmd+Shift+I",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.mask.lock",
+    "label": "Locked",
+    "menu": [
+      "Layer",
+      "Mask"
+    ],
+    "params": "{layer?, mask?, value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.mask.unlockAll",
+    "label": "Unlock All Masks",
+    "menu": [
+      "Layer",
+      "Mask"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.mask.lockOthers",
+    "label": "Lock Other Masks",
+    "menu": [
+      "Layer",
+      "Mask"
+    ],
+    "params": "{layer?, mask?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.addMarker",
+    "label": "Add Marker",
+    "menu": [
+      "Layer",
+      "Markers"
+    ],
+    "params": "{layers?, time?, comment?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.markersLock",
+    "label": "Lock Markers",
+    "menu": [
+      "Layer",
+      "Markers"
+    ],
+    "params": "{layers?, value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.deleteAllMarkers",
+    "label": "Delete All Markers",
+    "menu": [
+      "Layer",
+      "Markers"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.trackMatte",
+    "label": "Track Matte",
+    "params": "{layers?, op: none|alpha|alphaInverted|luma|lumaInverted|above|below}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.openSource",
+    "label": "Open Layer Source",
+    "menu": [
+      "Layer"
+    ],
+    "params": "{layer?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.revealInFinder",
+    "label": "Reveal in Finder",
+    "menu": [
+      "Layer"
+    ],
+    "params": "{layer?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.revealSource",
+    "label": "Reveal Layer Source in Project",
+    "menu": [
+      "Layer",
+      "Reveal"
+    ],
+    "params": "{layer?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "comp.revealInProject",
+    "label": "Reveal Composition in Project",
+    "menu": [
+      "Layer",
+      "Reveal"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.revealExpressionErrors",
+    "label": "Reveal Expression Errors",
+    "menu": [
+      "Layer",
+      "Reveal"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.sequence",
+    "label": "Sequence Layers...",
+    "menu": [
+      "Animation",
+      "Keyframe Assistant"
+    ],
+    "params": "{layers? (in order), overlap?: bool, duration? (s), transition?: off|dissolveFront|crossDissolve}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.create",
+    "label": "Create",
+    "params": "{op: editableText|shapesFromText|masksFromText|shapesFromVector, layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "anim.savePreset",
+    "label": "Save Animation Preset...",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{path (.ecpreset), name?} \u2014 saves the selected properties/effects",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "anim.applyPreset",
+    "label": "Apply Animation Preset...",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{path | preset, layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "anim.addKeyframe",
+    "label": "Add Keyframe",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{} \u2014 keys the selected properties at the CTI",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.exponentialScale",
+    "label": "Exponential Scale",
+    "menu": [
+      "Animation",
+      "Keyframe Assistant"
+    ],
+    "params": "{} \u2014 two selected Scale keys",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "text.addSelector",
+    "label": "Add Text Selector",
+    "params": "{layer?, animator?: uid|index, kind: range|wiggly|expression}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "text.removeAllAnimators",
+    "label": "Remove All Text Animators",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "anim.reveal",
+    "label": "Reveal Properties",
+    "params": "{kind: keyframes|animation|modified}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.addGuide",
+    "label": "Add Guide...",
+    "menu": [
+      "View"
+    ],
+    "params": "{orientation?: vertical|horizontal, position? (comp px)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.clearGuides",
+    "label": "Clear Guides",
+    "menu": [
+      "View"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.importGuides",
+    "label": "Import Guides...",
+    "menu": [
+      "View"
+    ],
+    "params": "{path}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.exportGuides",
+    "label": "Export Guides...",
+    "menu": [
+      "View"
+    ],
+    "params": "{path}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.layout",
+    "label": "Switch View Layout",
+    "params": "{views: 1|2|4}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.shareViewOptions",
+    "label": "Share View Options",
+    "menu": [
+      "View",
+      "Switch View Layout"
+    ],
+    "params": "{value?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "view.extendedViewer",
+    "label": "Extended Viewer",
+    "params": "{value?}"
+  },
+  {
+    "enabled": true,
+    "id": "view.setRegionOfInterest",
+    "label": "Region of Interest",
+    "params": "{rect?: [x, y, w, h] | null}"
+  },
+  {
+    "enabled": true,
+    "id": "view.snapping",
+    "label": "Snapping",
+    "menu": [
+      "View"
+    ],
+    "params": "{value?}"
+  },
+  {
+    "enabled": true,
+    "id": "view.displayColorManagement",
+    "label": "Use Display Color Management",
+    "menu": [
+      "View"
+    ],
+    "params": "{value?}"
+  },
+  {
+    "enabled": true,
+    "id": "view.simulateOutput",
+    "label": "Simulate Output",
+    "params": "{profile: none|rec709|ntsc|pal|mac18|srgb|rec2020|p3|linear|myCustom|custom, preserveRgb?, space? (custom)}"
+  },
+  {
+    "enabled": true,
+    "id": "view.customRgb",
+    "label": "My Custom RGB...",
+    "params": "{name?, red?/green?/blue?/white?: [x, y] (CIE xy), gamma?, srgbCurve?: bool, icc?: path (RGB ICC profile, matrix/TRC or LUT-based A2B0: read when it changes, \"\" clears; a LUT profile simulates through its tables, `lutProfile` in the reply; typed-in numbers replace it), reload?, from?: a Simulate Output profile to start from, reset?, preserveRgb?, apply?: bool (default true: simulate it)} \u2192 the definition (kept in Settings)"
+  },
+  {
+    "enabled": false,
+    "id": "view.splitLockedViewer",
+    "label": "Split with New Locked Viewer",
+    "menu": [
+      "View"
+    ],
+    "params": "{comp?, view?: 3D view id}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.closeLockedViewer",
+    "label": "Close Locked Viewer",
+    "why": "no locked viewer"
+  },
+  {
+    "enabled": true,
+    "id": "view.displayColor",
+    "label": "Viewer Color State",
+    "params": "{} \u2192 display colour management, output simulation, display profile, locked viewer"
+  },
+  {
+    "enabled": true,
+    "id": "view.channel",
+    "label": "Show Channel",
+    "params": "{channel: rgb|red|green|blue|alpha|rgbStraight, colorized?, toggle?}"
+  },
+  {
+    "enabled": true,
+    "id": "view.exposure",
+    "label": "Adjust Exposure",
+    "params": "{stops? | delta?}"
+  },
+  {
+    "enabled": true,
+    "id": "view.resetExposure",
+    "label": "Reset Exposure"
+  },
+  {
+    "enabled": false,
+    "id": "view.takeSnapshot",
+    "label": "Take Snapshot",
+    "params": "{comp?, scale?: 0.05..1}",
+    "shortcut": "Shift+F5",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.showSnapshot",
+    "label": "Show Snapshot",
+    "params": "{value?}",
+    "why": "take a snapshot first (Shift+F5)"
+  },
+  {
+    "enabled": true,
+    "id": "view.fastPreviewMode",
+    "label": "Fast Previews",
+    "params": "{mode: off|adaptive|draft|fastDraft|wireframe}"
+  },
+  {
+    "enabled": false,
+    "id": "view.moveGuide",
+    "label": "Move Guide",
+    "params": "{comp?, index, position (comp px), merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.removeGuide",
+    "label": "Remove Guide",
+    "params": "{comp?, index}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "shape.newPath",
+    "label": "Pen Tool (Shape Path)",
+    "params": "{layer?, vertices: [[x,y]\u2026], inTangents?, outTangents?, closed?, space?: comp|layer, fill?: [r,g,b]|#hex|false, stroke?, strokeWidth?, name?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "shape.dashes.add",
+    "label": "Add Dash or Gap",
+    "params": "{layer?, prop?: stroke uid}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "shape.dashes.remove",
+    "label": "Remove Dash or Gap",
+    "params": "{layer?, prop?: stroke uid}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "shape.stroke.taper",
+    "label": "Stroke Taper",
+    "params": "{layer?, prop?: stroke uid, units?: pixels|percent, startLength?, endLength?, startWidth? (%), endWidth? (%), startEase? (%), endEase? (%)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "shape.stroke.wave",
+    "label": "Stroke Wave",
+    "params": "{layer?, prop?: stroke uid, amount? (%), units?: pixels|cycles, wavelength?, cycles?, phase? (\u00b0)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.linkFocusToPoi",
+    "label": "Link Focus Distance to Point of Interest",
+    "menu": [
+      "Layer",
+      "Camera"
+    ],
+    "params": "{comp?, camera?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.linkFocusToLayer",
+    "label": "Link Focus Distance to Layer",
+    "menu": [
+      "Layer",
+      "Camera"
+    ],
+    "params": "{comp?, camera?, layer?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.setFocusToLayer",
+    "label": "Set Focus Distance to Layer",
+    "menu": [
+      "Layer",
+      "Camera"
+    ],
+    "params": "{comp?, camera?, layer?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.setLabel",
+    "label": "Keyframe Label",
+    "params": "{label: name|none|0\u201316}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.selectLabelGroup",
+    "label": "Select Keyframe Label Group",
+    "params": "{scope: selected|all|visibleSelected|visibleAll, visible?: [prop uid]}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.transform",
+    "label": "Transform Keyframes",
+    "params": "{timeScale?, timeAnchor? (comp s), timeOffset? (s), valueScale?, valueAnchor?, valueOffset?, dim? | dims?: [d\u2026], merge?, fromStart?: bool (with merge: values are the whole transform since the drag started)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.setSpatialTangents",
+    "label": "Edit Spatial Tangents",
+    "params": "{layer?, path|prop, time (layer s), in?: [dx,dy,dz?], out?, break?, merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "project.newFolder",
+    "label": "New Folder",
+    "menu": [
+      "File",
+      "New"
+    ],
+    "params": "{name?, parent?}",
+    "shortcut": "Cmd+Alt+Shift+N"
+  },
+  {
+    "enabled": false,
+    "id": "file.close",
+    "label": "Close",
+    "menu": [
+      "File"
+    ],
+    "params": "{comp?}",
+    "shortcut": "Cmd+W",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "file.closeProject",
+    "label": "Close Project",
+    "menu": [
+      "File"
+    ]
+  },
+  {
+    "enabled": true,
+    "id": "file.saveCopy",
+    "label": "Save a Copy...",
+    "menu": [
+      "File",
+      "Save As"
+    ],
+    "params": "{path}"
+  },
+  {
+    "enabled": true,
+    "id": "file.importMultiple",
+    "label": "Multiple Files...",
+    "menu": [
+      "File",
+      "Import"
+    ],
+    "params": "{paths: [string]}",
+    "shortcut": "Cmd+Alt+I"
+  },
+  {
+    "enabled": true,
+    "id": "file.importPlaceholder",
+    "label": "Placeholder...",
+    "menu": [
+      "File",
+      "Import"
+    ],
+    "params": "{name?, width?, height?, frameRate?, duration? (s)}"
+  },
+  {
+    "enabled": true,
+    "id": "file.importSolid",
+    "label": "Solid...",
+    "menu": [
+      "File",
+      "Import"
+    ],
+    "params": "{name?, color?, width?, height?}"
+  },
+  {
+    "enabled": false,
+    "id": "file.newCompFromSelection",
+    "label": "New Comp from Selection...",
+    "menu": [
+      "File"
+    ],
+    "params": "{duration? (s, for stills), single?: bool (one comp for all), dimensionsFrom?: index, sequence?: bool, overlap?: bool, overlapDuration? (s), transition?: off|dissolveFront|crossDissolve, addToRenderQueue?: bool} \u2192 {comps}",
+    "shortcut": "Cmd+Alt+\\",
+    "why": "select an item in the Project panel first"
+  },
+  {
+    "enabled": false,
+    "id": "file.collectFiles",
+    "label": "Collect Files...",
+    "menu": [
+      "File",
+      "Dependencies"
+    ],
+    "params": "{folder}",
+    "why": "the project is empty"
+  },
+  {
+    "enabled": false,
+    "id": "file.consolidateFootage",
+    "label": "Consolidate All Footage",
+    "menu": [
+      "File",
+      "Dependencies"
+    ],
+    "why": "the project is empty"
+  },
+  {
+    "enabled": false,
+    "id": "file.removeUnusedFootage",
+    "label": "Remove Unused Footage",
+    "menu": [
+      "File",
+      "Dependencies"
+    ],
+    "why": "the project is empty"
+  },
+  {
+    "enabled": false,
+    "id": "file.reduceProject",
+    "label": "Reduce Project",
+    "menu": [
+      "File",
+      "Dependencies"
+    ],
+    "params": "{} (keeps the selected comps and what they use)",
+    "why": "select compositions in the Project panel"
+  },
+  {
+    "enabled": false,
+    "id": "file.findMissing",
+    "label": "Find Missing",
+    "params": "{what: footage|effects|fonts}",
+    "why": "the project is empty"
+  },
+  {
+    "enabled": false,
+    "id": "footage.check",
+    "label": "Check Footage",
+    "params": "{items?: [id], wait?} \u2014 look for every footage file (in the background unless `wait`) and flag missing items",
+    "why": "the project is empty"
+  },
+  {
+    "enabled": true,
+    "id": "file.runScript",
+    "label": "Run Script File...",
+    "menu": [
+      "File",
+      "Scripts"
+    ],
+    "params": "{path (.jsx/.js JavaScript, or a .jsonl/.json command script) | name (an installed or sample script, see file.scripts.list) | steps: [{command, params}]}"
+  },
+  {
+    "enabled": true,
+    "id": "script.run",
+    "label": "Run Script",
+    "params": "{code (JavaScript: app, app.project, CompItem, Layer, Property\u2026 like After Effects scripting), name?, console? (Script Console context)} \u2192 {ok, result, output, error: {message, line, column} | null}"
+  },
+  {
+    "enabled": false,
+    "id": "file.interpretFootage",
+    "label": "Main...",
+    "menu": [
+      "File",
+      "Interpret Footage"
+    ],
+    "params": "{items?, frameRate?: fps|\"file\", alpha?: straight|premultiplied|ignore|guess, guessAlpha?, matteColor?, invertAlpha?, loop?, pixelAspect?, fields?: off|upper|lower, colorProfile?: srgb|rec709|rec2020|p3|auto, linearLight?}",
+    "shortcut": "Cmd+Alt+G",
+    "why": "select footage in the Project panel"
+  },
+  {
+    "enabled": false,
+    "id": "file.rememberInterpretation",
+    "label": "Remember Interpretation",
+    "menu": [
+      "File",
+      "Interpret Footage"
+    ],
+    "params": "{item?}",
+    "why": "select footage in the Project panel"
+  },
+  {
+    "enabled": false,
+    "id": "file.applyInterpretation",
+    "label": "Apply Interpretation",
+    "menu": [
+      "File",
+      "Interpret Footage"
+    ],
+    "params": "{items?}",
+    "shortcut": "Cmd+Alt+V",
+    "why": "select footage in the Project panel"
+  },
+  {
+    "enabled": false,
+    "id": "file.replaceFootage",
+    "label": "File...",
+    "menu": [
+      "File",
+      "Replace Footage"
+    ],
+    "params": "{path, item?}",
+    "shortcut": "Cmd+H",
+    "why": "select footage in the Project panel"
+  },
+  {
+    "enabled": false,
+    "id": "file.replaceWithPlaceholder",
+    "label": "Placeholder...",
+    "menu": [
+      "File",
+      "Replace Footage"
+    ],
+    "params": "{item?, width?, height?, frameRate?, duration?}",
+    "why": "select footage in the Project panel"
+  },
+  {
+    "enabled": false,
+    "id": "file.replaceWithSolid",
+    "label": "Solid...",
+    "menu": [
+      "File",
+      "Replace Footage"
+    ],
+    "params": "{item?, color?, width?, height?}",
+    "why": "select footage in the Project panel"
+  },
+  {
+    "enabled": false,
+    "id": "file.reloadFootage",
+    "label": "Reload Footage",
+    "menu": [
+      "File"
+    ],
+    "params": "{items?}",
+    "shortcut": "Cmd+Alt+L",
+    "why": "select footage in the Project panel"
+  },
+  {
+    "enabled": false,
+    "id": "file.revealInFinder",
+    "label": "Reveal in Finder",
+    "menu": [
+      "File"
+    ],
+    "params": "{item?}",
+    "why": "select footage in the Project panel"
+  },
+  {
+    "enabled": false,
+    "id": "file.exportLottie",
+    "label": "Lottie JSON...",
+    "menu": [
+      "File",
+      "Export"
+    ],
+    "params": "{comp?, path (.json or .lottie), includeExpressions?: bool, textAsShapes?: bool}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "file.importLottie",
+    "label": "Lottie...",
+    "menu": [
+      "File",
+      "Import"
+    ],
+    "params": "{path (.json or .lottie)}"
+  },
+  {
+    "enabled": true,
+    "id": "file.importTimeline",
+    "label": "Adobe Premiere Pro Project...",
+    "menu": [
+      "File",
+      "Import"
+    ],
+    "params": "{path (.xml Final Cut Pro XML from Premiere Pro or .fcpxml .otio .edl .aaf .omf), format?: auto|xml|fcpxml|otio|edl|aaf|omf, edlFrameRate?: number}"
+  },
+  {
+    "enabled": false,
+    "id": "file.exportTimeline",
+    "label": "Adobe Premiere Pro Project...",
+    "menu": [
+      "File",
+      "Export"
+    ],
+    "params": "{comp?, path (Final Cut Pro XML .xml for Premiere Pro or .fcpxml .otio .edl .aaf .omf), format?: xml|fcpxml|otio|edl|aaf|omf, prerender?: none|unsupported|all, precomps?: nest|prerender}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "file.timelineFormats",
+    "label": "Timeline Interchange Formats"
+  },
+  {
+    "enabled": false,
+    "id": "comp.cropToRegionOfInterest",
+    "label": "Crop Comp to Region of Interest",
+    "menu": [
+      "Composition"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "comp.cropToLayerBounds",
+    "label": "Crop Comp to Selected Layer(s) Bounds",
+    "menu": [
+      "Composition"
+    ],
+    "params": "{layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "comp.saveFrameAs",
+    "label": "File...",
+    "menu": [
+      "Composition",
+      "Save Frame As"
+    ],
+    "params": "{path (.png; with queue: an output path or template), time?, scale?, queue?: bool (add a Render Queue item from the Frame Default templates instead of writing now)}",
+    "shortcut": "Cmd+Alt+S",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "comp.responsiveTime",
+    "label": "Responsive Design \u2014 Time",
+    "params": "{op: intro|outro|workArea}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "comp.saveFrameAsPsd",
+    "label": "Photoshop Layers...",
+    "menu": [
+      "Composition",
+      "Save Frame As"
+    ],
+    "params": "{path (.psd), comp?, time?, scale?} \u2192 a layered PSD: one layer per visible comp layer (blend mode, opacity) + the merged frame",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "comp.saveFrameAsExr",
+    "label": "ProEXR...",
+    "menu": [
+      "Composition",
+      "Save Frame As"
+    ],
+    "params": "{path (.exr), comp?, time?, scale?} \u2192 a multi-layer OpenEXR: composite R,G,B,A + `<layer>.R/G/B/A` per layer (linear, premultiplied)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "file.watchFolder",
+    "label": "Watch Folder...",
+    "menu": [
+      "File"
+    ],
+    "params": "{folder, stop?: bool} \u2192 watches the folder for .ecproj files with queued renders, renders them and writes `<project>.status.json`"
+  },
+  {
+    "enabled": false,
+    "id": "file.watchFolder.poll",
+    "label": "Poll Watch Folder",
+    "params": "{folder? (default: the watched one)} \u2192 renders new projects now: {watching, rendered: [{project, state: done|failed, items: [{comp, status, output}]}]}",
+    "why": "no folder is being watched"
+  },
+  {
+    "enabled": false,
+    "id": "file.importVanishingPoint",
+    "label": "Vanishing Point (.vpe)...",
+    "menu": [
+      "File",
+      "Import"
+    ],
+    "params": "{} (always disabled: undocumented format)",
+    "why": "Vanishing Point Exchange (.vpe) files can't be imported: the format has no public specification, and EffectCraft only implements documented formats"
+  },
+  {
+    "enabled": false,
+    "id": "paths.pointsFollowNulls",
+    "label": "Points Follow Nulls",
+    "params": "{layer?, path?|prop?, pins?: [uid | name\u2026]} \u2192 a null per vertex (or Position / Advanced puppet pin); the path (pins) follow them (expressions)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "paths.nullsFollowPoints",
+    "label": "Nulls Follow Points",
+    "params": "{layer?, path?|prop?, pins?: [uid | name\u2026]} \u2192 a null per vertex (or puppet pin) following it (Position expressions)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "paths.tracePath",
+    "label": "Trace Path",
+    "params": "{layer?, path?|prop?, loop?: bool} \u2192 a null moving along the path (Progress slider)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "comp.vr.environments",
+    "label": "VR Environments",
+    "params": "{} \u2192 [{output, name, cubeMap, faces: [{face, comp, camera}], view: [x, y, z]}]"
+  },
+  {
+    "enabled": true,
+    "id": "comp.vr.setView",
+    "label": "VR View Orientation",
+    "params": "{comp? (an environment's output / cube map / face comp), orientation?: [x, y, z] degrees, pan?, tilt?, roll?} \u2192 turns the six face cameras together"
+  },
+  {
+    "enabled": true,
+    "id": "app.about",
+    "label": "About EffectCraft..."
+  },
+  {
+    "enabled": false,
+    "id": "layer.style.options",
+    "label": "Layer Style Options...",
+    "menu": [
+      "Layer",
+      "Layer Styles"
+    ],
+    "params": "{layer?, style?: blendingOptions|dropShadow|\u2026}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "app.settings",
+    "label": "Settings...",
+    "params": "{page?: general|startup|project|composition|previews|appearance|grids|labels|type|import|export|audio|disk|memory|video|3d|scripting}"
+  },
+  {
+    "enabled": true,
+    "id": "app.gpuInfo",
+    "label": "GPU Information..."
+  },
+  {
+    "enabled": true,
+    "id": "app.hide",
+    "label": "Hide EffectCraft"
+  },
+  {
+    "enabled": true,
+    "id": "app.hideOthers",
+    "label": "Hide Others"
+  },
+  {
+    "enabled": true,
+    "id": "app.showAll",
+    "label": "Show All"
+  },
+  {
+    "enabled": true,
+    "id": "app.quit",
+    "label": "Quit EffectCraft",
+    "shortcut": "Cmd+Q"
+  },
+  {
+    "enabled": true,
+    "id": "app.commandPalette",
+    "label": "Quick Apply...",
+    "menu": [
+      "Edit"
+    ],
+    "params": "{query?}",
+    "shortcut": "Cmd+Shift+Space"
+  },
+  {
+    "enabled": true,
+    "id": "app.keyboardShortcuts",
+    "label": "Keyboard Shortcuts",
+    "menu": [
+      "Edit"
+    ],
+    "shortcut": "Cmd+Alt+'"
+  },
+  {
+    "enabled": true,
+    "id": "app.templates",
+    "label": "Templates",
+    "params": "{kind: renderSettings|outputModule}"
+  },
+  {
+    "enabled": true,
+    "id": "app.find",
+    "label": "Find",
+    "menu": [
+      "File"
+    ],
+    "params": "{query?}",
+    "shortcut": "Cmd+F"
+  },
+  {
+    "enabled": false,
+    "id": "playback.toggle",
+    "label": "Play Current Preview",
+    "menu": [
+      "Composition",
+      "Preview"
+    ],
+    "params": "{shortcut?: spacebar|shiftSpacebar|numpad0|shiftNumpad0|altNumpad0 (whose Preview panel options to use; default spacebar)}",
+    "shortcut": "Space",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "playback.cacheWhenIdle",
+    "label": "Cache Frames When Idle",
+    "menu": [
+      "Composition",
+      "Preview"
+    ],
+    "params": "{value?}"
+  },
+  {
+    "enabled": true,
+    "id": "playback.audio",
+    "label": "Audio",
+    "menu": [
+      "Composition",
+      "Preview"
+    ],
+    "params": "{value?: include audio in previews}"
+  },
+  {
+    "enabled": false,
+    "id": "playback.scrubAudio",
+    "label": "Scrub Audio",
+    "params": "{time? (s, default the current time)} \u2014 plays one frame of the comp's audio there (Ctrl/Cmd-drag the current time)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.zoomIn",
+    "label": "Zoom In",
+    "menu": [
+      "View"
+    ],
+    "shortcut": ".",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.zoomOut",
+    "label": "Zoom Out",
+    "menu": [
+      "View"
+    ],
+    "shortcut": ",",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.res.full",
+    "label": "Full",
+    "menu": [
+      "View",
+      "Resolution"
+    ],
+    "shortcut": "Cmd+J",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.res.half",
+    "label": "Half",
+    "menu": [
+      "View",
+      "Resolution"
+    ],
+    "shortcut": "Cmd+Shift+J",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.res.third",
+    "label": "Third",
+    "menu": [
+      "View",
+      "Resolution"
+    ],
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.res.quarter",
+    "label": "Quarter",
+    "menu": [
+      "View",
+      "Resolution"
+    ],
+    "shortcut": "Cmd+Alt+Shift+J",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "view.res.custom",
+    "label": "Custom...",
+    "menu": [
+      "View",
+      "Resolution"
+    ],
+    "params": "{factor?: 1..40 (render every n-th pixel)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "view.rulers",
+    "label": "Show Rulers",
+    "menu": [
+      "View"
+    ],
+    "params": "{value?}",
+    "shortcut": "Cmd+R"
+  },
+  {
+    "enabled": true,
+    "id": "view.panelBackground",
+    "label": "Panel Background Color",
+    "params": "{color?: black|darkGray|mediumGray|lightGray|white|custom|#hex, pick?: true}"
+  },
+  {
+    "enabled": true,
+    "id": "view.guides",
+    "label": "Show Guides",
+    "menu": [
+      "View"
+    ],
+    "params": "{value?}",
+    "shortcut": "Cmd+;"
+  },
+  {
+    "enabled": true,
+    "id": "view.snapToGuides",
+    "label": "Snap to Guides",
+    "menu": [
+      "View"
+    ],
+    "params": "{value?}",
+    "shortcut": "Cmd+Shift+;"
+  },
+  {
+    "enabled": true,
+    "id": "view.lockGuides",
+    "label": "Lock Guides",
+    "menu": [
+      "View"
+    ],
+    "params": "{value?}",
+    "shortcut": "Cmd+Alt+Shift+;"
+  },
+  {
+    "enabled": true,
+    "id": "view.grid",
+    "label": "Show Grid",
+    "menu": [
+      "View"
+    ],
+    "params": "{value?}",
+    "shortcut": "Cmd+'"
+  },
+  {
+    "enabled": true,
+    "id": "view.snapToGrid",
+    "label": "Snap to Grid",
+    "menu": [
+      "View"
+    ],
+    "params": "{value?}",
+    "shortcut": "Cmd+Shift+'"
+  },
+  {
+    "enabled": false,
+    "id": "view.options",
+    "label": "View Options...",
+    "menu": [
+      "View"
+    ],
+    "shortcut": "Cmd+Alt+U",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "view.layerControls",
+    "label": "Show Layer Controls",
+    "menu": [
+      "View"
+    ],
+    "params": "{value?}",
+    "shortcut": "Cmd+Shift+H"
+  },
+  {
+    "enabled": true,
+    "id": "view.fullScreen",
+    "label": "Enter Full Screen",
+    "menu": [
+      "View"
+    ],
+    "shortcut": "Ctrl+Cmd+F"
+  },
+  {
+    "enabled": false,
+    "id": "view.newViewer",
+    "label": "New Viewer",
+    "menu": [
+      "View"
+    ],
+    "params": "{} \u2014 another Composition viewer of the active comp; the one in use is locked",
+    "shortcut": "Alt+Shift+N",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "window.panel",
+    "label": "Show Panel",
+    "params": "{panel: project|effectControls|composition|layer|timeline|info|audio|preview|effectsPresets|properties|character|paragraph|align|tracker|wiggler|smoother|motionSketch|paint|brushes|renderQueue|flowchart|history|markers|tools|lumetriScopes|footage|mediaBrowser|metadata|progress|contentAwareFill|createNullsFromPaths|vrCompEditor}"
+  },
+  {
+    "enabled": true,
+    "id": "window.workspace",
+    "label": "Workspace",
+    "params": "{name: Default|Standard|Small Screen|Animation|Effects|Motion Tracking|Paint|Text|Minimal|All Panels}"
+  },
+  {
+    "enabled": true,
+    "id": "window.saveWorkspace",
+    "label": "Save Changes to this Workspace",
+    "menu": [
+      "Window",
+      "Workspace"
+    ]
+  },
+  {
+    "enabled": true,
+    "id": "window.saveWorkspaceAs",
+    "label": "Save as New Workspace...",
+    "menu": [
+      "Window",
+      "Workspace"
+    ],
+    "params": "{name}"
+  },
+  {
+    "enabled": true,
+    "id": "window.editWorkspaces",
+    "label": "Edit Workspaces...",
+    "menu": [
+      "Window",
+      "Workspace"
+    ],
+    "params": "{name, rename?: new name, delete?: bool}"
+  },
+  {
+    "enabled": true,
+    "id": "window.resetWorkspace",
+    "label": "Reset to Saved Layout",
+    "menu": [
+      "Window",
+      "Workspace"
+    ]
+  },
+  {
+    "enabled": true,
+    "id": "comp.flowchart",
+    "label": "Composition Flowchart",
+    "menu": [
+      "Composition"
+    ],
+    "shortcut": "Cmd+Shift+F11"
+  },
+  {
+    "enabled": false,
+    "id": "comp.miniFlowchart",
+    "label": "Composition Mini-Flowchart",
+    "menu": [
+      "Composition"
+    ],
+    "shortcut": "Tab",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.openLayer",
+    "label": "Open Layer",
+    "menu": [
+      "Layer"
+    ],
+    "params": "{layer?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "effect.manage",
+    "label": "Manage Effects...",
+    "menu": [
+      "Effect"
+    ]
+  },
+  {
+    "enabled": true,
+    "id": "anim.browsePresets",
+    "label": "Browse Presets...",
+    "menu": [
+      "Animation"
+    ]
+  },
+  {
+    "enabled": false,
+    "id": "track.motion",
+    "label": "Track Motion",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{layer?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "track.stabilize",
+    "label": "Stabilize Motion",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{layer?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "track.new",
+    "label": "New Tracker",
+    "params": "{layer?, kind?: transform|stabilize|affine|perspective|raw, position?, rotation?, scale?, target?: layer}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "track.property",
+    "label": "Track this Property",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{layer?, source?: layer}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "track.select",
+    "label": "Current Track",
+    "params": "{layer?, tracker?: uid|name|#n}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "track.setType",
+    "label": "Track Type",
+    "params": "{layer?, tracker?, kind?: transform|stabilize|affine|perspective|raw, position?, rotation?, scale?}",
+    "why": "no active composition"
+  },
+  {
+    "enabled": false,
+    "id": "track.setTarget",
+    "label": "Edit Target",
+    "params": "{layer?, tracker?, target: layer|null}",
+    "why": "no active composition"
+  },
+  {
+    "enabled": false,
+    "id": "track.options",
+    "label": "Motion Tracker Options",
+    "params": "{layer?, tracker?, name?, channel?: rgb|luminance|saturation, blur? (px, 0 = off), enhance?, subpixel?, adaptEveryFrame?, threshold? (%), action?: continue|stop|extrapolate|adapt, trackShape?}",
+    "why": "no active composition"
+  },
+  {
+    "enabled": false,
+    "id": "track.setPoint",
+    "label": "Move Track Point",
+    "params": "{layer?, tracker?, point: n (1-based), center?: [x,y], featureSize?: [w,h], searchOffset?: [x,y], searchSize?: [w,h], attachOffset?: [x,y], move?: [dx,dy], time? (s)}",
+    "why": "no active composition"
+  },
+  {
+    "enabled": false,
+    "id": "track.analyze",
+    "label": "Analyze",
+    "params": "{layer?, tracker?, direction?: forward|backward|frameForward|frameBackward, start? (s), end? (s), wait?: block until done}",
+    "why": "no active composition"
+  },
+  {
+    "enabled": false,
+    "id": "track.stop",
+    "label": "Stop Analysis",
+    "why": "no track analysis is running"
+  },
+  {
+    "enabled": false,
+    "id": "track.apply",
+    "label": "Apply",
+    "params": "{layer?, tracker?, dimensions?: xy|x|y}",
+    "why": "no active composition"
+  },
+  {
+    "enabled": false,
+    "id": "track.reset",
+    "label": "Reset",
+    "params": "{layer?, tracker?}",
+    "why": "no active composition"
+  },
+  {
+    "enabled": false,
+    "id": "track.delete",
+    "label": "Delete Tracker",
+    "params": "{layer?, tracker?}",
+    "why": "no active composition"
+  },
+  {
+    "enabled": false,
+    "id": "track.editTargetDialog",
+    "label": "Edit Target...",
+    "why": "no active composition"
+  },
+  {
+    "enabled": false,
+    "id": "track.optionsDialog",
+    "label": "Options...",
+    "why": "no active composition"
+  },
+  {
+    "enabled": true,
+    "id": "track.status",
+    "label": "Tracker Status",
+    "params": "{layer?, tracker?}"
+  },
+  {
+    "enabled": false,
+    "id": "track.mask",
+    "label": "Track Mask",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{layer?, mask?: uid|index|name, method?: position|positionScale|positionScaleRotation|positionScaleRotationSkew|perspective|faceOutline|faceDetailed, direction?: forward|backward|frameForward|frameBackward, start? (s), end? (s), wait?: block until done}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "track.maskMethod",
+    "label": "Mask Tracking Method",
+    "params": "{method: position|positionScale|positionScaleRotation|positionScaleRotationSkew|perspective|faceOutline|faceDetailed}"
+  },
+  {
+    "enabled": false,
+    "id": "track.extractFaceMeasurements",
+    "label": "Extract & Copy Face Measurements",
+    "params": "{layer?} \u2192 keys a Face Measurements effect from the layer's Face Track Points (one key per tracked frame) and copies those keys",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "mask.interpolate",
+    "label": "Apply Mask Interpolation",
+    "params": "{layer?, mask?, times?: [from, to] (s; default the selected Mask Path keys), keyframeRate?: n|auto, keyframeFields?, linearVertexPaths?, bendingResistance? (0-100), quality? (0-100), addVertices?: n|false, addVerticesUnit?: pixels|total|percent, matchingMethod?: auto|curve|polyline, oneToOne?, firstVerticesMatch?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "mask.interpolationOptions",
+    "label": "Mask Interpolation Options",
+    "params": "{keyframeRate?: n|auto, keyframeFields?, linearVertexPaths?, bendingResistance?, quality?, addVertices?: n|false, addVerticesUnit?: pixels|total|percent, matchingMethod?: auto|curve|polyline, oneToOne?, firstVerticesMatch?}"
+  },
+  {
+    "enabled": false,
+    "id": "track.warpStabilizer",
+    "label": "Warp Stabilizer VFX",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{layer?, wait?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "warp.analyze",
+    "label": "Analyze",
+    "params": "{layer?, effect?: uid|name|index, wait?: block until done}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "warp.cancel",
+    "label": "Cancel",
+    "why": "no Warp Stabilizer analysis is running"
+  },
+  {
+    "enabled": true,
+    "id": "warp.status",
+    "label": "Warp Stabilizer Status",
+    "params": "{layer?, effect?}"
+  },
+  {
+    "enabled": false,
+    "id": "track.camera",
+    "label": "Track Camera",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{layer?, shotType?: fixed|variable|specify, aov?: degrees, solveMethod?: auto|typical|flat|tripod, detailed?, lensDistortion?: solve k1/k2, undistort?: render undistorted, wait?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.analyze",
+    "label": "Analyze",
+    "params": "{layer?, effect?: uid|name|index, wait?: block until done}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.cancel",
+    "label": "Cancel",
+    "why": "no 3D Camera Tracker analysis is running"
+  },
+  {
+    "enabled": true,
+    "id": "camera.solveStatus",
+    "label": "3D Camera Tracker Status",
+    "params": "{layer?, effect?}"
+  },
+  {
+    "enabled": true,
+    "id": "camera.points",
+    "label": "3D Camera Tracker Points",
+    "params": "{layer?, effect?, time?: comp seconds} \u2192 visible solved points"
+  },
+  {
+    "enabled": false,
+    "id": "camera.selectPoints",
+    "label": "Select Track Points",
+    "params": "{points: [id], add?, toggle?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.createFromSolve",
+    "label": "Create from Camera Solve",
+    "params": "{kind: text|solid|null|shadowCatcher|camera, points?: [id] (default: selected), target?: {center, normal, size?} (comp world), multiple?, layer?, effect?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.create",
+    "label": "Create Camera",
+    "params": "{layer?, effect?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.setGroundPlane",
+    "label": "Set Ground Plane and Origin",
+    "params": "{points?: [id] (default: selected), layer?, effect?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "camera.deletePoints",
+    "label": "Delete Selected Points",
+    "params": "{points?: [id] (default: selected), layer?, effect?, wait?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "roto.stroke",
+    "label": "Roto Brush Stroke",
+    "params": "{layer?, kind?: fg|bg|refine|refineErase, points: [[x, y], \u2026] (layer pixels), frame? (layer frame; default current), radius? (layer px; default the tool's diameter / 2), effect?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "roto.propagate",
+    "label": "Propagate Roto Brush",
+    "params": "{layer?, effect?, direction?: forward|backward|both, to? (layer frame: extend the span), wait?: block until done}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "roto.span",
+    "label": "Set Segmentation Span",
+    "params": "{layer?, effect?, start?, end? (layer frames)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "roto.freeze",
+    "label": "Freeze",
+    "params": "{layer?, effect?, wait?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "roto.unfreeze",
+    "label": "Unfreeze",
+    "params": "{layer?, effect?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "roto.clearStrokes",
+    "label": "Remove Roto Brush Strokes",
+    "params": "{layer?, effect?, frame? (only this layer frame), kind?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "roto.cancel",
+    "label": "Stop Roto Brush",
+    "why": "no Roto Brush job is running"
+  },
+  {
+    "enabled": true,
+    "id": "roto.options",
+    "label": "Roto Brush Options",
+    "params": "{diameter?, refineDiameter?, view?: alphaBoundary|alpha|alphaOverlay|none, overlayColor?: [r,g,b], overlayOpacity?, boundaryColor?: [r,g,b], autoPropagate?}"
+  },
+  {
+    "enabled": true,
+    "id": "roto.status",
+    "label": "Roto Brush Status",
+    "params": "{layer?, effect?, frame? (layer frame: also report its matte), matte?: include the matte (RLE, base64), compute?: compute the frame if needed, compareTo?: RLE matte to report the IoU against}"
+  },
+  {
+    "enabled": false,
+    "id": "paint.stroke",
+    "label": "Paint Stroke",
+    "params": "{layer?, kind?: brush|clone|eraser, points: [[x,y,pressure?],\u2026] (layer space), time? (s) | frame?, duration? (s, drawing time for Write On), color?: [r,g,b,a], diameter?, angle?, hardness?, roundness?, spacing?, opacity?, flow?, mode?, channels?: RGBA|RGB|Alpha, durationMode?: constant|writeOn|singleFrame|custom, customFrames?, eraseMode?: layerSourceAndPaint|paintOnly|lastStrokeOnly, cloneSource?: layer id, clonePosition?: [x,y], cloneTimeShift? (s), lockSourceTime?, cloneTime? (s), sizePressure?, minSize?, opacityPressure?, flowPressure?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "paint.options",
+    "label": "Paint Options",
+    "params": "{color?, background?, opacity?, flow?, mode?, channels?, durationMode?, customFrames?, eraseMode?, diameter?, angle?, roundness?, hardness?, spacing?, preset?, sizePressure?, minSize?, opacityPressure?, flowPressure?, clonePreset?, cloneSource?, clonePoint?, cloneOffset?, aligned?, lockSourceTime?, cloneTimeShift?, cloneTime?, showOverlay?, overlayOpacity?, overlayDifference?, reset?}"
+  },
+  {
+    "enabled": true,
+    "id": "paint.brushPreset",
+    "label": "Brush Preset",
+    "params": "{preset?: index | name}"
+  },
+  {
+    "enabled": false,
+    "id": "paint.setCloneSource",
+    "label": "Set Clone Source",
+    "params": "{layer?, point: [x,y]}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "paint.removeStroke",
+    "label": "Delete Paint Stroke",
+    "params": "{layer?, stroke: uid | name}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "paint.presets",
+    "label": "Brush Presets"
+  },
+  {
+    "enabled": false,
+    "id": "puppet.addPin",
+    "label": "Add Puppet Pin",
+    "params": "{layer?, kind?: position|advanced|bend|starch|overlap, position: [x,y] (layer space), time? (s) | frame?, mesh?: uid, newMesh?, density?, expansion?, triangles?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "puppet.movePin",
+    "label": "Move Puppet Pin",
+    "params": "{layer?, pin: uid | name, position: [x,y], time? | frame?, merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "puppet.setPin",
+    "label": "Edit Puppet Pin",
+    "params": "{layer?, pin: uid | name, position?, scale? (%), rotation? (\u00b0), amount? (%), extent? (px), inFront?, time? | frame?, merge?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "puppet.removePin",
+    "label": "Delete Puppet Pin",
+    "params": "{layer?, pin?: uid | name, pins?: [uid | name\u2026]} (default: the selected pins)",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "puppet.selectPins",
+    "label": "Select Puppet Pins",
+    "params": "{layer?, pins: [uid | name\u2026] ([] deselects), add?, toggle?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "puppet.mesh",
+    "label": "Puppet Mesh Options",
+    "params": "{layer?, mesh?: uid, density?, expansion?, triangles?, showMesh?, time?, merge?}"
+  },
+  {
+    "enabled": true,
+    "id": "puppet.info",
+    "label": "Puppet Mesh Info",
+    "params": "{layer?, time? | frame?}"
+  },
+  {
+    "enabled": false,
+    "id": "puppet.recordPin",
+    "label": "Record Puppet Pin",
+    "params": "{layer?, pin: uid | name, samples: [[t, x, y]\u2026] (t = seconds since the drag began, layer space), pins?: [uid | name\u2026] (more pins that move by the same displacement), start? (s, default current time), speed? (%, Record Options), smoothing? (Record Options)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "puppet.follow",
+    "label": "Follow-Through...",
+    "params": "{layer?, leader?: uid | name (default: the first selected pin), pins?: [uid | name\u2026] (default: the other selected pins), delay? (s, 0.1), amount? (%, 100), cascade? (true: the k-th nearest pin trails k \u00d7 delay)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "puppet.recordOptions",
+    "label": "Record Options...",
+    "params": "{speed? (%, 100), smoothing? (0-100), useDraftDeformation?, showMesh?}"
+  },
+  {
+    "enabled": false,
+    "id": "liquify.stroke",
+    "label": "Liquify Stroke",
+    "params": "{layer?, effect?: uid, tool?: warp|turbulence|twirlClockwise|twirlCounterclockwise|pucker|bloat|shiftPixels|reflection|clone|reconstruction|freeze|thaw, points: [[x,y],\u2026] (layer space), size?, pressure? (1-100), jitter? (1-100), cloneOffset?: [dx,dy], time? (s) | frame?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "liquify.clear",
+    "label": "Clear Liquify Mesh",
+    "params": "{layer?, effect?: uid}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "prefs.get",
+    "label": "Get Setting",
+    "params": "{key?: e.g. general.undoLevels (omit for all settings)}"
+  },
+  {
+    "enabled": true,
+    "id": "prefs.set",
+    "label": "Change Setting",
+    "params": "{key, value, values?: {key: value}}"
+  },
+  {
+    "enabled": true,
+    "id": "prefs.reset",
+    "label": "Reset Settings",
+    "params": "{page?: general|labels|project|\u2026}"
+  },
+  {
+    "enabled": true,
+    "id": "prefs.open",
+    "label": "Open Settings",
+    "params": "{page?: general|startup|project|composition|previews|appearance|grids|labels|type|import|export|audio|disk|memory|video|3d|scripting}"
+  },
+  {
+    "enabled": true,
+    "id": "prefs.pages",
+    "label": "Settings Pages"
+  },
+  {
+    "enabled": true,
+    "id": "shortcuts.list",
+    "label": "List Keyboard Shortcuts",
+    "params": "{query?, keys?, assigned?: bool}"
+  },
+  {
+    "enabled": true,
+    "id": "shortcuts.set",
+    "label": "Set Keyboard Shortcut",
+    "params": "{command, params?, keys: \"Cmd+Shift+K\" | [keys] | null}"
+  },
+  {
+    "enabled": true,
+    "id": "shortcuts.reset",
+    "label": "Reset Keyboard Shortcuts",
+    "params": "{command?, params?}"
+  },
+  {
+    "enabled": true,
+    "id": "shortcuts.preset",
+    "label": "Keyboard Shortcut Preset",
+    "params": "{op: select|new|duplicate|delete|rename, name?, from?, newName?}"
+  },
+  {
+    "enabled": true,
+    "id": "shortcuts.export",
+    "label": "Export Keyboard Shortcuts",
+    "params": "{preset?, path?}"
+  },
+  {
+    "enabled": true,
+    "id": "shortcuts.import",
+    "label": "Import Keyboard Shortcuts",
+    "params": "{path? | preset?: exported document, name?}"
+  },
+  {
+    "enabled": true,
+    "id": "shortcuts.conflicts",
+    "label": "Keyboard Shortcut Conflicts"
+  },
+  {
+    "enabled": false,
+    "id": "file.openRecent",
+    "label": "Open Recent",
+    "params": "{index? | path?}",
+    "why": "no recent projects"
+  },
+  {
+    "enabled": false,
+    "id": "file.clearRecent",
+    "label": "Clear Recent Projects",
+    "menu": [
+      "File",
+      "Open Recent"
+    ],
+    "why": "no recent projects"
+  },
+  {
+    "enabled": true,
+    "id": "file.autoSave",
+    "label": "Auto-Save Now"
+  },
+  {
+    "enabled": true,
+    "id": "file.recoveryInfo",
+    "label": "Auto-Save Status"
+  },
+  {
+    "enabled": false,
+    "id": "edit.history",
+    "label": "History",
+    "params": "{steps?: n (undo n steps), redo?: n}",
+    "why": "nothing to undo"
+  },
+  {
+    "enabled": false,
+    "id": "file.importRecent",
+    "label": "Import Recent Footage",
+    "params": "{index? | path?}",
+    "why": "no recent footage"
+  },
+  {
+    "enabled": false,
+    "id": "file.clearRecentFootage",
+    "label": "Clear Recent Footage",
+    "menu": [
+      "File",
+      "Import Recent Footage"
+    ],
+    "why": "no recent footage"
+  },
+  {
+    "enabled": false,
+    "id": "anim.applyRecentPreset",
+    "label": "Recent Animation Presets",
+    "params": "{index? | path?, layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "anim.clearRecentPresets",
+    "label": "Clear Recent Presets",
+    "menu": [
+      "Animation",
+      "Recent Animation Presets"
+    ],
+    "why": "no recent animation presets"
+  },
+  {
+    "enabled": true,
+    "id": "file.saveCopyAsXml",
+    "label": "Save a Copy As XML...",
+    "menu": [
+      "File",
+      "Save As"
+    ],
+    "params": "{path: .ecprojx}"
+  },
+  {
+    "enabled": false,
+    "id": "file.replaceWithLayeredComp",
+    "label": "With Layered Comp",
+    "menu": [
+      "File",
+      "Replace Footage"
+    ],
+    "params": "{item?}",
+    "why": "select an item in the Project panel first"
+  },
+  {
+    "enabled": true,
+    "id": "file.executeFile",
+    "label": "Execute File",
+    "params": "{path, confirmed?}"
+  },
+  {
+    "enabled": false,
+    "id": "view.assign3dShortcut",
+    "label": "Assign Shortcut to 3D View",
+    "params": "{slot: F10|F11|F12, comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "window.assignWorkspaceShortcut",
+    "label": "Assign Shortcut to Workspace",
+    "params": "{slot: Shift+F10|Shift+F11|Shift+F12, workspace?}"
+  },
+  {
+    "enabled": true,
+    "id": "help.enableLogging",
+    "label": "Enable Logging",
+    "menu": [
+      "Help"
+    ],
+    "params": "{on?}"
+  },
+  {
+    "enabled": true,
+    "id": "help.revealLogFile",
+    "label": "Reveal Logging File",
+    "menu": [
+      "Help"
+    ]
+  },
+  {
+    "enabled": true,
+    "id": "help.systemReport",
+    "label": "System Compatibility Report...",
+    "menu": [
+      "Help"
+    ],
+    "params": "{quiet?}"
+  },
+  {
+    "enabled": false,
+    "id": "comp.vr.createEnvironment",
+    "label": "Create VR Environment...",
+    "menu": [
+      "Composition",
+      "VR"
+    ],
+    "params": "{comp?, size?: face pixels (1024), position?: [x,y,z]}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "comp.vr.extractCubemap",
+    "label": "Extract Cubemap...",
+    "menu": [
+      "Composition",
+      "VR"
+    ],
+    "params": "{comp?, faceSize?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "help.systemInfo",
+    "label": "System Information"
+  },
+  {
+    "enabled": false,
+    "id": "keys.audioToKeyframes",
+    "label": "Convert Audio to Keyframes",
+    "menu": [
+      "Animation",
+      "Keyframe Assistant"
+    ],
+    "params": "{comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "keys.rpfCameraImport",
+    "label": "RPF Camera Import",
+    "menu": [
+      "Animation",
+      "Keyframe Assistant"
+    ],
+    "params": "{path: .json|.csv camera data, comp?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.setPrimary",
+    "label": "Primary Composition",
+    "params": "{comp}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.setName",
+    "label": "Essential Graphics Name",
+    "params": "{comp?, name}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.addProperty",
+    "label": "Add Property to Essential Graphics",
+    "menu": [
+      "Animation"
+    ],
+    "params": "{comp?, layer?, path?|prop?: uid (default: the selected properties), name?, group?: control id, index?, as?: font (Source Text font family/style/size) | scale (uniform Scale), mirror?: bool (a property already present is added as a mirror; default true)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.addMirror",
+    "label": "Add Mirror",
+    "params": "{comp?, control, name?, group?, index?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.linkProperty",
+    "label": "Link Property to Control",
+    "params": "{comp?, control, layer?, path?|prop? (default: the selected property)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.unlinkProperty",
+    "label": "Unlink Property",
+    "params": "{comp?, control, layer?, path?|prop? (default: the selected property)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.addMedia",
+    "label": "Add Media Replacement",
+    "params": "{layer, name?, group?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.addGroup",
+    "label": "Add Group",
+    "params": "{comp?, name?, index?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.addComment",
+    "label": "Add Comment",
+    "params": "{comp?, text?, group?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.rename",
+    "label": "Rename Control",
+    "params": "{comp?, control, name}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.remove",
+    "label": "Remove Control",
+    "params": "{comp?, control}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.move",
+    "label": "Move Control",
+    "params": "{comp?, control, group?: id (null = top level), index?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.soloSupported",
+    "label": "Solo Supported Properties",
+    "params": "{on?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.exportTemplate",
+    "label": "Essential Graphics Template...",
+    "menu": [
+      "File",
+      "Export"
+    ],
+    "params": "{comp?, path (.ectemplate), name?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "essential.importTemplate",
+    "label": "Essential Graphics Template...",
+    "menu": [
+      "File",
+      "Import"
+    ],
+    "params": "{path (.ectemplate), comp?, addToComp?: bool}"
+  },
+  {
+    "enabled": false,
+    "id": "essential.set",
+    "label": "Set Essential Property",
+    "params": "{layer, control: id|name, value | item (media)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.pushToComp",
+    "label": "Push Override Values to Source",
+    "params": "{layer, control? (default: all overridden)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "essential.revert",
+    "label": "Revert",
+    "params": "{layer, control? (default: all overridden)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "effect.editDropdown",
+    "label": "Edit Dropdown Menu",
+    "params": "{layer, path?|prop?, items: [string]}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "essential.list",
+    "label": "Essential Graphics controls",
+    "params": "{comp?, supported?: bool}"
+  },
+  {
+    "enabled": true,
+    "id": "essential.canAdd",
+    "label": "Can Add Property to Essential Graphics",
+    "params": "{layer, path|prop, as?} \u2192 {ok, type?, reason?}"
+  },
+  {
+    "enabled": false,
+    "id": "comp.openInEssentialGraphics",
+    "label": "Open in Essential Graphics",
+    "menu": [
+      "Composition"
+    ],
+    "params": "{comp?} \u2192 makes it the Essential Graphics panel's Primary composition and shows the panel",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "essential.instance",
+    "label": "Essential Properties of a precomp layer",
+    "params": "{layer}"
+  },
+  {
+    "enabled": true,
+    "id": "essential.templateInfo",
+    "label": "Read a template's manifest",
+    "params": "{path}"
+  },
+  {
+    "enabled": true,
+    "id": "expr.errors",
+    "label": "Expression errors (the error bar)",
+    "params": "{comp?, time? (s)}"
+  },
+  {
+    "enabled": true,
+    "id": "expr.languageMenu",
+    "label": "Expression Language menu"
+  },
+  {
+    "enabled": false,
+    "id": "file.createProxy",
+    "label": "Create Proxy",
+    "params": "{kind: still|movie, comp?|item?, path?|output? (template), resolution? (default 0.5)}",
+    "why": "select a composition"
+  },
+  {
+    "enabled": false,
+    "id": "file.setProxy",
+    "label": "File...",
+    "menu": [
+      "File",
+      "Set Proxy"
+    ],
+    "params": "{path, items?|item?}",
+    "why": "select an item in the Project panel first"
+  },
+  {
+    "enabled": false,
+    "id": "file.setProxyNone",
+    "label": "None",
+    "menu": [
+      "File",
+      "Set Proxy"
+    ],
+    "params": "{items?|item?}",
+    "why": "select an item in the Project panel first"
+  },
+  {
+    "enabled": false,
+    "id": "file.useProxy",
+    "label": "Use Proxy",
+    "params": "{items?|item?, on?}",
+    "why": "select an item in the Project panel first"
+  },
+  {
+    "enabled": false,
+    "id": "file.interpretProxy",
+    "label": "Proxy...",
+    "menu": [
+      "File",
+      "Interpret Footage"
+    ],
+    "params": "{items?|item?, alpha?, matteColor?, invertAlpha?, frameRate?, loop?, pixelAspect?, fields?, colorProfile?, linearLight?}",
+    "why": "select an item in the Project panel first"
+  },
+  {
+    "enabled": true,
+    "id": "file.installScript",
+    "label": "Install Script File...",
+    "menu": [
+      "File",
+      "Scripts"
+    ],
+    "params": "{path (.jsx / .js)} \u2192 copies it to the Scripts folder; it appears in File \u25b8 Scripts"
+  },
+  {
+    "enabled": true,
+    "id": "file.installScriptUIPanel",
+    "label": "Install ScriptUI Panel...",
+    "menu": [
+      "File",
+      "Scripts"
+    ],
+    "params": "{path (.jsx / .js)} \u2192 copies it to the ScriptUI Panels folder; it appears in the Window menu"
+  },
+  {
+    "enabled": true,
+    "id": "file.uninstallScript",
+    "label": "Uninstall Script",
+    "params": "{name}"
+  },
+  {
+    "enabled": true,
+    "id": "file.scripts.list",
+    "label": "List Scripts",
+    "params": "{} \u2192 [{name, panel, source: installed|sample}]"
+  },
+  {
+    "enabled": true,
+    "id": "window.scriptPanel",
+    "label": "ScriptUI Panel",
+    "params": "{name (a script in the ScriptUI Panels folder, e.g. `Layer Tools.jsx`)} \u2192 opens it as a dockable panel"
+  },
+  {
+    "enabled": true,
+    "id": "scriptui.list",
+    "label": "List Script Windows",
+    "params": "{} \u2192 [{window, title, kind: dialog|palette|window|panel, script, modal, size}]"
+  },
+  {
+    "enabled": true,
+    "id": "scriptui.get",
+    "label": "Script Window Controls",
+    "params": "{window?: id | title} \u2192 {id, title, kind, root: {id, type, name, text, value, checked, items, selection, bounds, enabled, draw (onDraw paint list), children\u2026}}"
+  },
+  {
+    "enabled": true,
+    "id": "scriptui.click",
+    "label": "Click Script Window Control",
+    "params": "{window?: id | title, widget: id | \"#id\" | properties.name | text} (buttons, checkboxes, radio buttons, tabs)"
+  },
+  {
+    "enabled": true,
+    "id": "scriptui.set",
+    "label": "Set Script Window Control",
+    "params": "{window?, widget, value: text | number | bool | item index | item text, changing?: bool (a live update: each keystroke / slider step; fires onChanging only)} (edit text, sliders, checkboxes, lists) \u2192 fires onChanging / onChange"
+  },
+  {
+    "enabled": true,
+    "id": "scriptui.close",
+    "label": "Close Script Window",
+    "params": "{window?, result? (a dialog's show() returns it; default 2 = Cancel)}"
+  },
+  {
+    "enabled": true,
+    "id": "jobs.list",
+    "label": "Background Jobs"
+  },
+  {
+    "enabled": true,
+    "id": "jobs.cancel",
+    "label": "Cancel Job",
+    "params": "{job?: render|track|maskTrack|warp|camera|roto|task:<n>|all}"
+  },
+  {
+    "enabled": true,
+    "id": "jobs.wait",
+    "label": "Wait for Background Jobs"
+  },
+  {
+    "enabled": true,
+    "id": "mediaBrowser.list",
+    "label": "List Folder",
+    "params": "{path?, importableOnly?}"
+  },
+  {
+    "enabled": true,
+    "id": "mediaBrowser.go",
+    "label": "Go to Folder",
+    "params": "{path?: folder | \"..\", importableOnly?}"
+  },
+  {
+    "enabled": true,
+    "id": "mediaBrowser.addFavorite",
+    "label": "Add to Favorites",
+    "params": "{path?}"
+  },
+  {
+    "enabled": true,
+    "id": "mediaBrowser.removeFavorite",
+    "label": "Remove from Favorites",
+    "params": "{path?}"
+  },
+  {
+    "enabled": true,
+    "id": "mediaBrowser.import",
+    "label": "Import",
+    "params": "{paths, addToComp?, time?, index?, position? (where the layers go, as in layer.addItem)}"
+  },
+  {
+    "enabled": true,
+    "id": "mediaBrowser.action",
+    "label": "Media Browser Action",
+    "params": "{action}: an action from mediaBrowser.list's `actions` (web: openFolder, addFiles, uploadFolder)"
+  },
+  {
+    "enabled": true,
+    "id": "mediaBrowser.fileInfo",
+    "label": "File Info",
+    "params": "{path}"
+  },
+  {
+    "enabled": true,
+    "id": "item.metadata",
+    "label": "Metadata",
+    "params": "{item?: id|name}"
+  },
+  {
+    "enabled": true,
+    "id": "project.setProjectComment",
+    "label": "Project Comment",
+    "params": "{comment}"
+  },
+  {
+    "enabled": true,
+    "id": "scopes.analyze",
+    "label": "Lumetri Scopes",
+    "params": "{comp?, time?|frame?, scope?: waveformRgb|waveformLuma|waveformYc|vectorscopeYuv|vectorscopeHls|histogram|paradeRgb|paradeYuv, standard?: rec601|rec709|rec2020, float?, clamp?, size?}"
+  },
+  {
+    "enabled": true,
+    "id": "footage.open",
+    "label": "Open in Footage Panel",
+    "params": "{item: id|name}"
+  },
+  {
+    "enabled": true,
+    "id": "footage.info",
+    "label": "Footage Panel State"
+  },
+  {
+    "enabled": false,
+    "id": "footage.setTime",
+    "label": "Footage Panel Time",
+    "params": "{time? (s, source) | frame?}",
+    "why": "open footage in the Footage panel first"
+  },
+  {
+    "enabled": false,
+    "id": "footage.setIn",
+    "label": "Set In Point",
+    "params": "{time? | frame? (default: the panel's time)}",
+    "why": "open footage in the Footage panel first"
+  },
+  {
+    "enabled": false,
+    "id": "footage.setOut",
+    "label": "Set Out Point",
+    "params": "{time? | frame? (default: the panel's time)}",
+    "why": "open footage in the Footage panel first"
+  },
+  {
+    "enabled": false,
+    "id": "footage.clearInOut",
+    "label": "Clear In and Out",
+    "why": "open footage in the Footage panel first"
+  },
+  {
+    "enabled": false,
+    "id": "footage.overlayEdit",
+    "label": "Overlay Edit",
+    "params": "{item?, comp?, in? (s), out? (s), at? (comp s; default the current time)}",
+    "why": "open footage in the Footage panel first"
+  },
+  {
+    "enabled": false,
+    "id": "footage.rippleInsertEdit",
+    "label": "Ripple Insert Edit",
+    "params": "{item?, comp?, in? (s), out? (s), at? (comp s; default the current time)}",
+    "why": "open footage in the Footage panel first"
+  },
+  {
+    "enabled": false,
+    "id": "layer.autoTrace",
+    "label": "Auto-trace...",
+    "menu": [
+      "Layer"
+    ],
+    "params": "{layer?, timeSpan?: currentFrame|workArea, channel?: alpha|red|green|blue|luminance, invert?, blur? (px, 1), tolerance? (px, 1), threshold? (%, 50), minimumArea? (px, 10), cornerRoundness? (%, 50), applyToNewLayer?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.sceneEditDetection",
+    "label": "Scene Edit Detection...",
+    "menu": [
+      "Layer"
+    ],
+    "params": "{layer?, mode?: markers|split|splitPrecompose, threshold? (0\u20261, 0.25), wait?: bool}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.alignVideoToData",
+    "label": "Align Video to Data",
+    "menu": [
+      "Layer",
+      "Time"
+    ],
+    "params": "{layer?, data?: data footage id|name, key?: time field, videoStart?: ISO date-time | hh:mm:ss | timecode | seconds (default: file creation time), dataStart? (comp s of the first sample, 0)}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.align",
+    "label": "Align Layers",
+    "params": "{edge: left|hcenter|right|top|vcenter|bottom, to?: composition|selection (default composition), layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": false,
+    "id": "layer.distribute",
+    "label": "Distribute Layers",
+    "params": "{mode: left|hcenter|right|top|vcenter|bottom (edges or centres), layers?}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "contentFill.set",
+    "label": "Content-Aware Fill Settings",
+    "params": "{method?: object|surface|edgeBlend, range?: workArea|entire, alphaExpansion? (px), lightingCorrection?: none|subtle|moderate|strong, referenceLayer?: layer|null, referenceTime? (s)}"
+  },
+  {
+    "enabled": false,
+    "id": "contentFill.generate",
+    "label": "Generate Fill Layer",
+    "params": "{layer?, method?: object|surface|edgeBlend, range?: workArea|entire, alphaExpansion? (px), lightingCorrection?: none|subtle|moderate|strong, referenceLayer?, referenceTime? (s), outputDir?, wait?: bool}",
+    "why": "no composition is open"
+  },
+  {
+    "enabled": true,
+    "id": "layer.newContentAwareFill",
+    "label": "Content-Aware Fill Layer...",
+    "menu": [
+      "Layer",
+      "New"
+    ],
+    "params": "{layer?, method?: object|surface|edgeBlend, range?: workArea|entire, alphaExpansion? (px), lightingCorrection?: none|subtle|moderate|strong, referenceLayer?, referenceTime? (s), outputDir?, wait?: bool}"
+  },
+  {
+    "enabled": true,
+    "id": "storage.info",
+    "label": "Browser Storage",
+    "params": "{} \u2192 {available, backend, usage, quota, persisted, files: {count, bytes, media, projects, autoSaves}, diskCache: {enabled, entries, bytes, maxBytes, hits, misses, writes, evictions}}"
+  },
+  {
+    "enabled": false,
+    "id": "storage.persist",
+    "label": "Request Persistent Storage",
+    "params": "{} \u2192 {requested, persisted}",
+    "why": "browser storage is only managed in the web app"
+  },
+  {
+    "enabled": false,
+    "id": "storage.clear",
+    "label": "Clear Browser Storage",
+    "params": "{what: diskCache|media|projects|autoSaves|all} \u2192 {cleared, entries, bytes}",
+    "why": "browser storage is only managed in the web app"
+  },
+  {
+    "enabled": true,
+    "id": "learn.list",
+    "label": "Learn Tutorials",
+    "params": "{} \u2192 [{id, title, summary, minutes, steps}]"
+  },
+  {
+    "enabled": true,
+    "id": "learn.state",
+    "label": "Tutorial State",
+    "params": "{} \u2192 {tutorial, step, steps, done, current: {title, text, target, accepts}} | null"
+  },
+  {
+    "enabled": true,
+    "id": "learn.start",
+    "label": "Start Tutorial",
+    "params": "{id}"
+  },
+  {
+    "enabled": true,
+    "id": "learn.step",
+    "label": "Tutorial Step",
+    "params": "{action?: next|back|showMe|goto, index?}"
+  },
+  {
+    "enabled": true,
+    "id": "learn.stop",
+    "label": "Close Tutorial"
+  },
+  {
+    "enabled": true,
+    "id": "templates.list",
+    "label": "Project Templates",
+    "params": "{thumbnails?: bool} \u2192 [{id, name, description, category, builtin, width, height, frameRate, duration, controls, thumbnail? (hex RGB 256\u00d7144)}]"
+  },
+  {
+    "enabled": true,
+    "id": "templates.thumbnail",
+    "label": "Template Thumbnail",
+    "params": "{id} \u2192 {id, width, height, rgb (hex)}"
+  },
+  {
+    "enabled": true,
+    "id": "templates.create",
+    "label": "New Project from Template",
+    "params": "{id (templates.list) | path (.ectemplate), projectPath? (save the new project there; embedded footage goes to `<stem> Footage/` next to it), footageDir?} \u2192 an untitled copy (embedded footage extracted: `footage` lists the files)"
+  },
+  {
+    "enabled": false,
+    "id": "templates.saveAs",
+    "label": "Save as Template...",
+    "menu": [
+      "File"
+    ],
+    "params": "{name, description?, category?, overwrite?: bool (default true), embedFootage?: bool (default true: the footage files go into the template), embedLimitMB? (default 256: footage beyond it stays linked, with a warning)} \u2192 {id, path, embedded, embeddedBytes, linked: [{item, name, reason}], warning?}",
+    "why": "the project has no compositions"
+  },
+  {
+    "enabled": true,
+    "id": "templates.delete",
+    "label": "Delete Template",
+    "params": "{id: user/<file>}"
+  },
+  {
+    "enabled": true,
+    "id": "file.newFromTemplate",
+    "label": "New Project from Template...",
+    "menu": [
+      "File",
+      "New"
+    ],
+    "params": "{} \u2192 the Home screen's Templates tab"
+  },
+  {
+    "enabled": true,
+    "id": "playback.settings.get",
+    "label": "Preview Settings",
+    "params": "{shortcut?: spacebar|shiftSpacebar|numpad0|shiftNumpad0|altNumpad0 (default: the one shown in the Preview panel)} \u2192 options + plan {start, end, first, step, fps}"
+  },
+  {
+    "enabled": true,
+    "id": "playback.settings.set",
+    "label": "Change Preview Settings",
+    "params": "{shortcut?, current?: shortcut shown in the panel, reset?: bool, values?: {\u2026}, includeVideo?, includeAudio?, includeOverlays?, includeLayerControls?, loop?, cacheBeforePlayback?, range?: workArea|workAreaExtended|entireDuration|aroundCurrentTime, preRoll?, postRoll?: seconds, playFrom?: rangeStart|currentTime, frameRate?: fps|\"auto\", skip?, resolution?: auto|full|half|third|quarter|custom, customResolution?, fullScreen?, playCachedFrames?, moveTimeToPreviewTime?}"
+  }
+]

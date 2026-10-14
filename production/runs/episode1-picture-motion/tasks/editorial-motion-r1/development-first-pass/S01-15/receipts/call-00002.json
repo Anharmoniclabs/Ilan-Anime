@@ -1,0 +1,16 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.newSolid",
+    "params": {
+      "name": "Background — black hold",
+      "color": "#000000",
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 4
+  }
+}

@@ -1,0 +1,4 @@
+`17:40:00 → 17:46:00` (144f) · WS · bodega · rate 3s
+- **Action:** Don Chino's bodega: an awning the color of orange soda left too long in a window; a speaker over the door he had never looked up at; two guys on milk crates at a domino table, slapping tiles in the mood to argue.
+- **FX:** `PAINTED_BG(bodega); SPEAKER_INSERT; AWNING_ORANGE(#F26B2A)`
+- **Sound:** Merengue, bright: accordion, güira, horns.

@@ -1,0 +1,73 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.addKey",
+    "params": {
+      "layer": 175,
+      "path": "masks/mask/path",
+      "time": 5.0,
+      "value": {
+        "t": "Path",
+        "v": {
+          "vertices": [
+            [
+              3.0,
+              -48
+            ],
+            [
+              27.0,
+              -48
+            ],
+            [
+              27.0,
+              30
+            ],
+            [
+              3.0,
+              30
+            ]
+          ],
+          "in_tangents": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "out_tangents": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ],
+          "closed": true
+        }
+      }
+    }
+  },
+  "status": "succeeded",
+  "result": 121
+}

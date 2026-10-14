@@ -1,0 +1,32 @@
+{
+  "shot": "S03-12",
+  "selected_moment": "Select first montagebeat ONLY: two approved streetfighters in heated argument outsideBronx cornerbodega at Fridayevening, baldman burgundyhoodie holds small blank scratchoffticket, heavy man olivejacket points accusingly. Otherneighbors avoidthem. Non-graphic tensegesture, no punches/gore. Normal warmshoplight/coldstreet, no invented signage or splitpanels. Dog/twomen separatebeats later.",
+  "script": "`03:56:00 \u2192 04:04:00` (192f) \u00b7 MONTAGE \u00b7 Jerome Ave \u00b7 rate 3s\n- **Action:** The block's been mean lately: (1) Friday fight outside the bodega over a scratch-off; (2) two men who haven't spoken since JC was nine, not speaking, with reasons they can't give; (3) the super's dog bites a delivery guy, the super calls it 'a misunderstanding' as if the dog had misheard the order.\n- **FX:** `HOLD_FLASH(3 cards); SPEED_LINES(fight); PRESS(0.1)`\n- **Sound:** Each vignette has the loop at -30 dB under it.",
+  "prompt": "Use case: illustration-story. Create ONE finished-color cinematic anime story frame, landscape EXACT16:9 composition, opaque fully painted environment edge-to-edge, no transparency, no borders, no collage/multi-panel. Match approved 1990s hand-drawn anime: supple clean lines, expressive soft human faces, simple broad2/3-tone cel shadows, flat warm skin colors, detailed traditionally painted environment. No western comic hatching, no photoreal3D, no glossy muscles. Attached rooftop is STYLE ONLY, never copy its setting/time/sunset; character sources lock identity, age, proportions, hair and costume. Any attached NEW adjacent frame establishes environment continuity, not duplicated action. Natural contacts/hands; rigid canoes/props remain coherent. No invented signage/logos/subtitles/captions; only exact text explicitly requested below. Single selected dramatic moment, do not combine sequential moments spatially. \nSHOT S03-12. Script context: `03:56:00 \u2192 04:04:00` (192f) \u00b7 MONTAGE \u00b7 Jerome Ave \u00b7 rate 3s\n- **Action:** The block's been mean lately: (1) Friday fight outside the bodega over a scratch-off; (2) two men who haven't spoken since JC was nine, not speaking, with reasons they can't give; (3) the super's dog bites a delivery guy, the super calls it 'a misunderstanding' as if the dog had misheard the order.\n- **FX:** `HOLD_FLASH(3 cards); SPEED_LINES(fight); PRESS(0.1)`\n- **Sound:** Each vignette has the loop at -30 dB under it.\nSELECTED MOMENT: Select first montagebeat ONLY: two approved streetfighters in heated argument outsideBronx cornerbodega at Fridayevening, baldman burgundyhoodie holds small blank scratchoffticket, heavy man olivejacket points accusingly. Otherneighbors avoidthem. Non-graphic tensegesture, no punches/gore. Normal warmshoplight/coldstreet, no invented signage or splitpanels. Dog/twomen separatebeats later.\nDo not reproduce photorealistic textures from adjacent frames: use traditionally painted anime background, simple clean cel-shaded people and props. Room layout reference only. Coin reference only for spiral-opening-into-triangle engraving, NOT levitation unless explicitly scripted. Modern Bronx night except explicitly requested historical/Friday inserts. Render selected moment only.",
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/street-fighters.png"
+  ],
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-8175aa17-a40d-42c0-b837-701b1e7296c1.png",
+  "status": "exploratory storyframe",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/opening/generated/S03-12.png",
+  "sha256": "454e37df9504c1ce308a5c26e683986bc387dc225c4f59b63f547ad200a02a8c",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/street-fighters.png",
+      "sha256": "dcdbe693ad733a098230f342b4f629e5072e1e32ca01c93b0567d57f1cde6777"
+    }
+  ],
+  "inspection": "Directly viewed: correct bald burgundy/lightshirt and broad olive fighter with ticket at bodega. Additional incidental onlookers. Only first montage vignette depicted.",
+  "inspection_method": "Direct view_image of entire saved frame; PNG automated decode and dimensions check",
+  "scope": "One representative story frame; not all action beats or motion"
+}

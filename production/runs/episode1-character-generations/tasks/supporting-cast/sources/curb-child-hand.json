@@ -1,0 +1,13 @@
+{
+  "tool": "image_gen__imagegen",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-75ae6c52-039e-4d25-998c-41ba3c8a1c7a.png",
+  "status": "exploratory",
+  "references": [
+    {
+      "path": "projects/cemi_episode_01/assets/references/author-cover-style.png",
+      "role": "style only",
+      "sha256": "2b90a246a6931a198e1b80c724d8f132f0b2279c9e3aff76d09ec34d969f629c"
+    }
+  ],
+  "prompt": "Use case: illustration-story. Exploratory production character source for Heralds of the Cemí Episode 1. Supplied image is STYLE ONLY; never copy its faces, poster layout, text or magical effects. Finished 1990s hand-drawn 2D cel animation with confident variable-width ink, controlled fine hatching, individualized grounded expressive faces, organic asymmetry, rich painterly color and two/three shade planes, restrained navy shadow and warm amber edge light preserving skin pigment. Genuinely transparent background, clean silhouette, no ground shadow/haze, complete anatomy inside frame with generous margin, no words/logos/watermarks or panels. Memory fragment asset of a small unidentified child viewed entirely from behind, face completely concealed, warm-brown skin, short dark hair, slate-blue long-sleeve sweatshirt, tan trousers, sneakers. A single protective adult hand with five fingers gently but firmly grips a fold of child's upper sleeve, adult forearm enters intentionally from left edge, adult identity/face never shown. Child complete head-to-shoes, both child hands visible. No adult torso, no curb, no car or other environment. Do not identify child as JC. Portrait transparent contact drawing."
+}

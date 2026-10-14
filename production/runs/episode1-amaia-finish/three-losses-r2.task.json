@@ -1,0 +1,22 @@
+{
+  "shots": [
+    "S01-03"
+  ],
+  "depends_on": [],
+  "role": "key-animator",
+  "inputs": [
+    "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration",
+    "production/runs/episode1-picture-motion/tasks/amaia-motion",
+    "production/runs/episode1-full-picture/amaia-breakdowns",
+    "production/runs/episode1-full-picture/author-decisions.json",
+    "production/runs/episode1-picture-motion/author-direction.json",
+    "production/runs/episode1-amaia-finish/tasks/three-losses",
+    "production/runs/episode1-amaia-finish/reviews/three-losses/review.json"
+  ],
+  "requires_author_approval": false,
+  "art_direction_mode": "STORY_FRAME",
+  "id": "three-losses-r2",
+  "supersedes": "three-losses-r1",
+  "output_dir": "production/runs/episode1-amaia-finish/tasks/three-losses-r2",
+  "objective": "Finish the previously blocked three-losses matte repair using NEW actual independent complete figure artwork in production/runs/episode1-full-picture/amaia-breakdowns/: ghost-woman-rgba.png, ghost-man-rgba.png, ghost-elder-rgba.png. All three are true RGBA, opaque characters on transparent background, with reconstructed independent laps/knees and no baked river/rail pixels. This specifically resolves r1 drawing blocker; do NOT reuse the overlapping ghosts-opaque-rgba or flattened group. Inspect each new cel. Static layout/scale/position registration to actual seat locations is allowed; do not animate body transforms or invent sliding characters. Preserve silhouettes, mild matte choke/decontamination where needed, arrange three complete seated memories in correct boat interior with hips anchored to bench/seat plane, restore near/front hull occlusion accurately while keeping distant diagonal gunwale BEHIND seated bodies. Do not cut figures at that far-side rail making outside-hull torsos. Keep living Amaia/child and original hull untouched. Reuse prior verified head arc, 192frame24fps timeline, camera, exactly three independent fades at frames42,75,108. User fixed count fourteen-to-eleven. Render a silent production draft with native project, individual editable ghost layers, explicit registration/contact evidence and decoded sequential samples including every fade and last elder fade. No real-time playback claim. Independent review follows. Save only inside own output; sources unchanged. No paid/new generation. If blocked on anything else, identify exact missing drawn contour with pixel evidence; do not submit unresolved blockers as submitted."
+}

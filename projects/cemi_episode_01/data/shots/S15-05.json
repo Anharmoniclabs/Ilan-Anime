@@ -1,0 +1,59 @@
+{
+  "id": "S15-05",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "A third guy comes out of the store and tells them both to lower their voices, in a voice that isn't lower. Camera circles the three; outlines go uniform, shading flattens, motion drops toward holds.",
+  "camera_note": "ORBIT · three men",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S15-05",
+        "header": "18:06:00 → 18:14:00 (192f) · ORBIT · three men · rate 3s",
+        "action": "A third guy comes out of the store and tells them both to lower their voices, in a voice that isn't lower. Camera circles the three; outlines go uniform, shading flattens, motion drops toward holds.\nSOUND: Merengue loses reverb as the loop rises."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {
+    "press": [
+      {
+        "frame": 0,
+        "value": 0.5
+      },
+      {
+        "frame": 191,
+        "value": 0.85
+      }
+    ]
+  },
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "HOLD_FRAMES",
+      "ORBIT"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

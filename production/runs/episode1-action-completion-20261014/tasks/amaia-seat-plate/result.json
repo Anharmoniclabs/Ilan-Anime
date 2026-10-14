@@ -1,0 +1,31 @@
+{
+  "task_id": "amaia-seat-plate",
+  "role": "key-animator",
+  "host_agent_id": "/root/amaia_seat_plate",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/candidate.png",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/prompt.txt",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/continuity.json",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-diagnostic.json",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/seat-anchors.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-combined.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-woman.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-man.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/placement-elder.jpg",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/diagnostic.py",
+    "production/runs/episode1-action-completion-20261014/tasks/amaia-seat-plate/HANDOFF.md"
+  ],
+  "evidence": [
+    "One built-in imagegen edit attached the exact original rest.png; candidate is 1672x941 and saved in assigned output_dir. No paid API or source modification.",
+    "Directly viewed original and candidate; new top/front wood seat surfaces are present inside hull, with existing living figures visually retained. Small global pixel changes are quantified; no exact preservation claim.",
+    "Directly viewed each of three static adult placement diagnostics and their combined layout. New plate alone does not solve old lower-body crops and overlap; this is source-art review only, no animation submission."
+  ],
+  "blockers": [],
+  "downstream_limitations": [
+    "Plate has stepped rather than continuous shared seating; independent reviewer must assess perspective and whether three true adult support positions are usable.",
+    "Existing memory silhouettes need contact-matched lower-body extensions/restaging; woman/man straight source cutoffs are visible and combined adult overlap conceals man face.",
+    "Living figure pixel values differ from source; accepted bench region should be isolated with a reviewed region mask before integrating original head arc.",
+    "No new animated footage, exposure timing, editable native shot or author approval in this source-only task."
+  ]
+}

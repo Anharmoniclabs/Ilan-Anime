@@ -1,0 +1,21 @@
+{
+  "id": "s01-07-writing-action",
+  "shots": [
+    "S01-07"
+  ],
+  "inputs": [
+    "AGENTS.md",
+    "docs/STATUS.md",
+    "production/runs/episode1-picture-motion/author-direction.json",
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+    "production/runs/episode1-anime90s-scenes/shot-index.json",
+    "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png"
+  ],
+  "objective": "Produce a real 168-frame 24fps 16:9 silent S01-07 action draft: Counter remains seated on stump, gaze down, writes one line and a second line below in the ledger on his knee. Preserve current source character, costume, lantern light and moonless mangrove. Need actual hand/wrist/forearm replacement drawings and stable page/pen contact, not translated or warped whole painting. This is an explicit image-demand assignment for missing ACTION DRAWINGS: at most ONE built-in host imagegen call in this worker, using exact viewed source reference, allowed by existing author-direction authorization for new necessary replacement drawings. Read imagegen skill before use. No paid API/provider fallback. Reuse saved appropriate drawings first; one image-tool call may deliver a registered action-cel sheet/clean plate if needed. View output and reject incompatible identity/geometry; no unregistered atlas presented as animation. Use local studio/Craft/FFmpeg workflow, keep reusable cels and compact editable sources plus one MP4 and contact evidence in output_dir; avoid redundant full decoded frame archives when sparse sequential evidence suffices. Return submitted only if real prescribed writing action is delivered. If tool/native capability or missing drawings blocks it, return exact blocker and any real assets. One bounded submission; no extra generation loop.",
+  "role": "key-animator",
+  "output_dir": "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action",
+  "depends_on": [],
+  "art_direction_mode": "STORY_FRAME",
+  "requires_author_approval": false,
+  "require_host_bindings": true
+}

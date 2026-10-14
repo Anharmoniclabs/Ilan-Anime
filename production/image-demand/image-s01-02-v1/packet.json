@@ -1,0 +1,137 @@
+{
+  "version": 1,
+  "run": "image-s01-02-v1",
+  "shot": {
+    "id": "S01-02",
+    "script": "`00:15:00 → 00:27:00` (288f) · CRANE DOWN · WS · rate 3s\n- **Action:** Three dugout canoes in single file down a moonless mangrove channel. Lead: Dairon paddling, Yara behind him with the cemí in stiff cloth against her chest. Amaia with her sleeping son (not yet two). Second: Beheto, drum between his knees, chest whistling every breath. Third: three children, a faint blue breath on their forearms.\n- **FX:** `MULTIPLANE(5 painted layers); TRANSMITTED_LIGHT(blue,children,0.15); FILM_GRAIN`\n- **Sound:** Paddles, hull creak. Beheto's whistling breath is the only tempo (about 2s cycle).",
+    "start_frame": 360,
+    "frames": 288,
+    "end_frame": 648,
+    "keyframes": [
+      "assets/keyframes/S01-02.png"
+    ],
+    "status": "keyframe_available",
+    "animation_status": "not_rigged",
+    "voice_status": "not_recorded"
+  },
+  "neighbors": [
+    {
+      "id": "S01-01",
+      "script": "`00:09:00 → 00:15:00` (144f) · FIX · ECU low on waterline · rate 3s\n- **Action:** Black water, a hand-width of surface. A paddle blade enters, leaves, rings spread. Lower-left small caps: BEFORE.\n- **FX:** `PAINTED_BG(night_water); WATER_CEL(rings); TEXT_SUPER(BEFORE); VIGNETTE(0.7)`\n- **Sound:** Water drip, insects. A frog stops mid-call. No music."
+    },
+    {
+      "id": "S01-03",
+      "script": "`00:27:00 → 00:35:00` (192f) · MCU → CU Amaia · rate 3s\n- **Action:** Amaia's lips count the heads ahead. Each count lands on an empty seat. Pale outlines sit in the empty seats and fade as she looks at them (two lost at the channel, the old man who asked for water, then his wife, then nothing).\n- **FX:** `GHOST_SEATS(alpha .25→0); DOUBLE_EXPOSURE; CEL_SHADE(2-tone)`\n- **Sound:** VO Amaia (spare): “Amaia had fourteen when they put the canoes in. By the third night she had eleven.”"
+    }
+  ],
+  "requested_refs": [],
+  "requested_candidate": null,
+  "correction": null,
+  "route": "review-existing",
+  "candidate_source": "projects/cemi_episode_01/assets/keyframes/S01-02.png",
+  "references": [
+    {
+      "path": "research/supplied_references/approved_style_reference.png",
+      "purpose": "style",
+      "sha256": "bfc27aaaab7a628951e50fbe233e018d08dc7c01536080601557ae285330168c",
+      "state": "baseline-unreviewed",
+      "asset": null,
+      "snapshot": "production/image-demand/image-s01-02-v1/references/01.png"
+    },
+    {
+      "path": "projects/cemi_episode_01/assets/keyframes/S01-02.png",
+      "purpose": "existing-candidate",
+      "sha256": "437e7f9a4f51a254fe5048c3a455ead6861dcdfe3c82029b037f16fcd086266f",
+      "state": "baseline-unreviewed",
+      "asset": null,
+      "snapshot": "production/image-demand/image-s01-02-v1/references/02.png"
+    },
+    {
+      "path": "projects/cemi_episode_01/assets/keyframes/S01-03.png",
+      "purpose": "continuity:S01-03",
+      "sha256": "5066d777dc4c4896ff30933cd130a38210cbfd9897c0283b3a590d29528126ed",
+      "state": "baseline-unreviewed",
+      "asset": null,
+      "snapshot": "production/image-demand/image-s01-02-v1/references/03.png"
+    },
+    {
+      "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/01-Amaia.png",
+      "purpose": "historical-identity-proposal:Amaia",
+      "sha256": "5c0f940e6d3b449749873a5ab4a706e4e4ca29621aed4d67cf50f27f35c071c1",
+      "state": "baseline-unreviewed",
+      "asset": null,
+      "snapshot": "production/image-demand/image-s01-02-v1/references/04.png"
+    },
+    {
+      "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/03-Dairon.png",
+      "purpose": "historical-identity-proposal:Dairon",
+      "sha256": "4caa1c324a2625389b74b6ca510d17c2a70e7d46832d312ef01f7fc5ad8a850f",
+      "state": "baseline-unreviewed",
+      "asset": null,
+      "snapshot": "production/image-demand/image-s01-02-v1/references/05.png"
+    },
+    {
+      "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/04-Yara-Corrected.png",
+      "purpose": "historical-identity-proposal:Yara",
+      "sha256": "d9577ad4f7be806fb5d880ee3519e546c46dcc25a27e54cabadc245dfaf9e4f4",
+      "state": "baseline-unreviewed",
+      "asset": null,
+      "snapshot": "production/image-demand/image-s01-02-v1/references/06.png"
+    },
+    {
+      "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/05-Beheto.png",
+      "purpose": "historical-identity-proposal:Beheto",
+      "sha256": "53bc253e8d92e1c370a42110bcf66c180b1a1e95872d1cf4eb7a694c6b2057fb",
+      "state": "baseline-unreviewed",
+      "asset": null,
+      "snapshot": "production/image-demand/image-s01-02-v1/references/07.png"
+    }
+  ],
+  "documents": [
+    {
+      "path": "production/art_direction.json",
+      "purpose": "contract",
+      "sha256": "5ffd10442effc8856028d674136ea725a78810eec1dc2d204fc07633b2b5be96",
+      "state": "baseline-unreviewed",
+      "asset": null,
+      "snapshot": "production/image-demand/image-s01-02-v1/references/08.json"
+    },
+    {
+      "path": "research/earlier_cemi_pipeline/docs/ART_DIRECTION.md",
+      "purpose": "contract",
+      "sha256": "c97a4493f42f9463a3aad5e6983e9939c6fd9b8089eb457f8c304747843b86b2",
+      "state": "baseline-unreviewed",
+      "asset": null,
+      "snapshot": "production/image-demand/image-s01-02-v1/references/09.md"
+    },
+    {
+      "path": "research/earlier_cemi_pipeline/data/character_bible.txt",
+      "purpose": "contract",
+      "sha256": "3f6b93445688a31a6471e254682f6e054c4d9653fcc8da3f22e946a806b1777f",
+      "state": "baseline-unreviewed",
+      "asset": null,
+      "snapshot": "production/image-demand/image-s01-02-v1/references/10.txt"
+    },
+    {
+      "path": "projects/cemi_episode_01/data/episode.json",
+      "purpose": "contract",
+      "sha256": "64147905e04ba6f0039a0bcfdad73c9a7411490d4a8b66b166577adf9900ef4c",
+      "state": "baseline-unreviewed",
+      "asset": null,
+      "snapshot": "production/image-demand/image-s01-02-v1/references/11.json"
+    }
+  ],
+  "backend": "host-image-tool",
+  "max_images": 0,
+  "checks": [
+    "identity",
+    "costume",
+    "props_and_contact",
+    "composition",
+    "lighting",
+    "line_and_color",
+    "neighbor_continuity",
+    "script_fidelity"
+  ],
+  "truth": "References guide consistency; review must establish it."
+}

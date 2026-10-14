@@ -1,0 +1,40 @@
+{
+  "tool": "list_commands",
+  "arguments": {
+    "filter": "prop.addKey",
+    "schemas": true
+  },
+  "status": "succeeded",
+  "result": [
+    {
+      "enabled": false,
+      "id": "prop.addKey",
+      "label": "Add Keyframe",
+      "params": "{layer?, path|prop, time?, value?}",
+      "schema": {
+        "additionalProperties": false,
+        "description": "{layer?, path|prop, time?, value?}",
+        "properties": {
+          "layer": {
+            "description": "layer?"
+          },
+          "path": {
+            "description": "path|prop"
+          },
+          "prop": {
+            "description": "path|prop"
+          },
+          "time": {
+            "description": "time?"
+          },
+          "value": {
+            "description": "value?"
+          }
+        },
+        "required": [],
+        "type": "object"
+      },
+      "why": "no composition is open"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "tool": "run_command",
+  "arguments": {
+    "command": "select.all",
+    "params": {}
+  },
+  "status": "started"
+}

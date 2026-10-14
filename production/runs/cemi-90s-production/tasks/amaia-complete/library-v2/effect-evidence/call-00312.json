@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 4041,
+      "name": "ribs-son-closeup - sleep-speaking"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

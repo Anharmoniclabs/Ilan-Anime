@@ -1,0 +1,9 @@
+{
+  "tool": "run_command",
+  "arguments": {
+    "command": "select.none",
+    "params": {}
+  },
+  "status": "succeeded",
+  "result": null
+}

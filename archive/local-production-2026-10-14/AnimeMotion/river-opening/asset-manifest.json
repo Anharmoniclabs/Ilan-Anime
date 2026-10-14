@@ -1,0 +1,102 @@
+[
+  {
+    "path": "assets/Cemi-River-Scene/01-Characters/01-Amaia.png",
+    "bytes": 2647059,
+    "sha256": "5c0f940e6d3b449749873a5ab4a706e4e4ca29621aed4d67cf50f27f35c071c1"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/01-Characters/02-Amaias-Son.png",
+    "bytes": 2539524,
+    "sha256": "d043191190e92704882664ebc6adb33be69a6e06af769b8eed36ebb670940a95"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/01-Characters/03-Dairon.png",
+    "bytes": 2681261,
+    "sha256": "4caa1c324a2625389b74b6ca510d17c2a70e7d46832d312ef01f7fc5ad8a850f"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/01-Characters/04-Yara-Corrected.png",
+    "bytes": 2490586,
+    "sha256": "d9577ad4f7be806fb5d880ee3519e546c46dcc25a27e54cabadc245dfaf9e4f4"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/01-Characters/05-Beheto.png",
+    "bytes": 2625209,
+    "sha256": "53bc253e8d92e1c370a42110bcf66c180b1a1e95872d1cf4eb7a694c6b2057fb"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/01-Characters/06-Seven-Year-Old-Girl.png",
+    "bytes": 2502849,
+    "sha256": "1a4f753c033541b8257db0a798caffcde09b3d41c68446a51eb72c7457a6cb2c"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/01-Characters/07-Nine-Year-Old-Boy.png",
+    "bytes": 2357286,
+    "sha256": "612785aa841bff2dd674f1f4deacc5b35ad706dd6d4ddae1b7d6fd27856a4db9"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/01-Characters/08-Third-Lit-Child-Proposal.png",
+    "bytes": 2466535,
+    "sha256": "64f1c932faf759df74b2a3d21f31566b8ae31c8607b38269affb623f9b365ffc"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/01-Characters/09-Background-Survivor-1.png",
+    "bytes": 2523848,
+    "sha256": "45b77296b9199b17f2558bdf8bb2e6757a2a114930d6e499ed410931ae021c7a"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/01-Characters/10-Background-Survivor-2.png",
+    "bytes": 2383734,
+    "sha256": "052bc709b5adf5c91b7e0fc2e119db4db22077b3a548a7a8d24bb5cd3501afcb"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/01-Characters/11-Background-Survivor-3.png",
+    "bytes": 2538493,
+    "sha256": "458382b4b6eb16aa05308d76cd9b3534db1607161a75a3f9897d6a94b0e77ce4"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/01-Characters/12-Bell-Bearing-Soldier.png",
+    "bytes": 2432191,
+    "sha256": "84a948cb418750872774ae181215b61a0938eb442b943a590389788cf57c0725"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/01-Characters/13-Ledger-Keeper.png",
+    "bytes": 2379123,
+    "sha256": "009e7adfd7779d6bf2cd84bcf004de736083bbf27bb5da5c7e6447dce1378c7a"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/02-Backgrounds/BG01-Mangrove-River.png",
+    "bytes": 2288053,
+    "sha256": "5d4a594269e9d25551d04c38d43881d8c4ae97dcbd3437ce6ec49bd7036776e8"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/02-Backgrounds/BG02-Pursuing-Bank.png",
+    "bytes": 2391910,
+    "sha256": "cc7c3194439b0856f8cf44dee359356764b1382ac1048293784884b1b82574a3"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/02-Backgrounds/BG03-Root-Passage.png",
+    "bytes": 2379563,
+    "sha256": "ecb5679d498ad487b4c55692c0915d3912d5bfcf8e23387d507441b715e48172"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/03-Keyframes/K01-Three-Canoes.png",
+    "bytes": 2537735,
+    "sha256": "889a3365d5709e6a454bbf8175813ec676ed10ce405da31eb98ddfa4a7a38cbd"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/03-Keyframes/K02-Amaia-and-Son.png",
+    "bytes": 2246852,
+    "sha256": "243ab71f4122fb26975c2e011c8acfc97ef0ac627c1e5617d5484db906b356d7"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/README-START-HERE.txt",
+    "bytes": 2844,
+    "sha256": "78b1c3061a4e7b21d167eaf1abf94e4921c7450e821ef12e977270f4ab3ecba1"
+  },
+  {
+    "path": "assets/Cemi-River-Scene/04-Planning/Opening-Checkpoint-Earlier-Draft.pdf",
+    "bytes": 54367,
+    "sha256": "ec6695142720b164986140663f17ebbab99543176302753fb4889ba84f893c55"
+  }
+]

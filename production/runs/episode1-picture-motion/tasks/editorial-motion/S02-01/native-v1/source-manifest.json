@@ -1,0 +1,156 @@
+{
+  "shot": "S02-01",
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "exposures": [
+    {
+      "path": "drawings/cel-0000.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0003.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0006.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0009.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0012.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0015.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0018.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0021.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0024.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0027.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0030.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0033.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0036.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0039.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0042.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0045.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0048.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0051.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0054.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0057.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0060.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0063.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0066.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0069.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0072.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0075.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0078.png",
+      "frames": 30
+    },
+    {
+      "path": "drawings/cel-0108.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0111.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0114.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0117.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0120.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0123.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0126.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0129.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0132.png",
+      "frames": 3
+    },
+    {
+      "path": "drawings/cel-0135.png",
+      "frames": 153
+    }
+  ]
+}

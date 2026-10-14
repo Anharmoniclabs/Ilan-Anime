@@ -1,0 +1,62 @@
+{
+  "id": "S05-14",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 96,
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "He is already against the door; the chair is on its side. He did not decide to move. The coin is in his hand, hot now; his fingers recoil but hold.",
+  "camera_note": "JUMP CUT · CU palm",
+  "drawing_rate": 2,
+  "layers": [
+    {
+      "name": "plate_0",
+      "source": "assets/keyframes/S05-14.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 96,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    },
+    {
+      "name": "speed_lines",
+      "rate": 2,
+      "screen_space": true,
+      "generator": {
+        "type": "speed_lines",
+        "direction": "radial",
+        "seed": "S05-14"
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "HEAT_SHIMMER"
+    ],
+    "asset_slot_fx": [
+      "JUMP_CUT"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

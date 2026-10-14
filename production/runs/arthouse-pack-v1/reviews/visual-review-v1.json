@@ -1,0 +1,180 @@
+{
+  "review_id": "arthouse-pack-v1-visual-review",
+  "reviewer_role": "independent-director",
+  "status": "submitted",
+  "decision": "reject",
+  "decision_scope": "Technical visual acceptance of this exact exploratory asset set as a script-faithful production handoff. Preserve as exploratory references/control experiment; no canonical or production-ready approval.",
+  "useful_exploratory_work": [
+    "Two full-color front/profile/back/expression proposals support design discussion. Costume and hair marks are readable and no spurious generated lettering is visible.",
+    "Two contact sheets provide visual prompts for all 15 S01 shot IDs, with S01-14 spread across two panels. This is nominal shot indexing, not complete action coverage.",
+    "Six separate parented bust parts and visibly changed arm positions across rendered frames demonstrate a functioning limited cutout control prototype.",
+    "Native PhotoCraft, EffectCraft, FilmCraft and DesignCraft projects exist and are structurally readable."
+  ],
+  "source_precedence": [
+    "Current author corrections: 16:9/24 fps, stable real acting, no warped/sliding art presented as finished animation.",
+    "Current episode script and tasks/writing/S01_SHOOTING_SCRIPT.md control canoe assignments, shot action and timing.",
+    "research/supplied_references/approved_style_reference.png was directly viewed: textured dusk river image, useful finish reference, not identity approval or moonless lighting authority.",
+    "production/art_direction.json and canonical ART_DIRECTION.md / STYLE_BIBLE.md require individualized ink-drawn geometry. The original author pencil identity source remains unavailable.",
+    "tasks/writing/CHARACTER_DESIGN_BIBLE.md labels older Taíno build/costume descriptions subordinate. No historical authenticity certification is made."
+  ],
+  "limitations_and_defects": [
+    {
+      "severity": "blocking-production",
+      "issue": "Canoe and passenger continuity",
+      "evidence": "Boards S01-02/12/14 omit or fail to clearly stage Yara and wrapped cemí in lead; S01-08 co-locates girl and Dairon. Existing S01-02 frame includes unnamed adult survivors; those adults alone do not fail continuity.",
+      "revision": "Redraw Yara/bundle and girl/Dairon geography against current named cast and source visual staging. Keep unresolved spoken headcount question separate."
+    },
+    {
+      "severity": "blocking-identity",
+      "issue": "Missing pencil likeness authority and homogenized design",
+      "evidence": "Amaia and Dairon share very similar facial construction, tied curly hair and white/rust clothing. Dairon is extremely muscular, contrary to subordinate lean/hard proposal; Amaia is athletic rather than gaunt.",
+      "revision": "Obtain author identity reference/decision, then differentiate landmarks, mass and hair silhouettes; carry approved forms through sheets, boards and puppet."
+    },
+    {
+      "severity": "blocking-model-continuity",
+      "issue": "Accessory and costume mismatch",
+      "evidence": "Amaia full-body front/profile have no pendant while all expression heads and puppet wear it. Board Dairon carries necklaces/arm ornaments missing from model sheet. White wrap drapes and skirt folds are not registered construction drawings.",
+      "revision": "Lock pendant, cord, arm ornaments, wrap route and seam/hem landmarks in a revised turnaround and apply consistently."
+    },
+    {
+      "severity": "blocking-puppet-quality",
+      "issue": "Visible assembly joints and restricted acting",
+      "evidence": "Assembled image and all three sampled frames show outlined oval shoulder/elbow caps and segmented arm seams. Forearms move but no replacement expression or substantive acting is demonstrated. Bust is truncated at waist.",
+      "revision": "Redraw overlapping joint flesh/cloth and clean mattes; verify extremes on contrasting backgrounds; add registered head/mouth/blink/hand and required full-body replacements before shot work."
+    },
+    {
+      "severity": "scope-limit",
+      "issue": "Incomplete production layers and timing",
+      "evidence": "Boards are wide contact-sheet panels, not individual 16:9 scene layouts or exposure sets. Puppet comp is 1024x1024, 24 fps, two seconds, not an S01 shot. No legs, lips or blink controls.",
+      "revision": "Keep prototype labeled; produce shot-specific 1280x720/16:9 assets and exposures when approved; do not claim full scene animation from this test."
+    }
+  ],
+  "shot_coverage": [
+    {
+      "shot": "S01-01",
+      "assessment": "partial",
+      "observation": "Paddle/water contact reads; entry, lift and expanding rings require additional drawings; BEFORE overlay absent from raw board."
+    },
+    {
+      "shot": "S01-02",
+      "assessment": "fail",
+      "observation": "Three hulls read, but lead lacks clearly identifiable Yara with wrapped cemí. Existing S01-02 source frame shows eleven survivors including unnamed adults, so adults in other canoes alone are not a defect."
+    },
+    {
+      "shot": "S01-03",
+      "assessment": "partial",
+      "observation": "Amaia and sleeping son read; empty seats and fading lost-person outlines are absent."
+    },
+    {
+      "shot": "S01-04",
+      "assessment": "partial",
+      "observation": "Arm, lightning and shell imagery represented; fevered children are reduced to an arm, shell becomes a literal luminous spiral object. Treat latter as interpretation, not locked prop."
+    },
+    {
+      "shot": "S01-05",
+      "assessment": "partial",
+      "observation": "Soldier/pole/bell staging visible; swinging bell close-up and independent clapper/contact are not supplied."
+    },
+    {
+      "shot": "S01-06",
+      "assessment": "partial",
+      "observation": "Three children and blue visible. Adult behind them agrees with existing source frame; detached vapor leaning bankward and bodily response still not established."
+    },
+    {
+      "shot": "S01-07",
+      "assessment": "partial",
+      "observation": "Seated writer keeps gaze on ledger. Two line actions and pen/page insert need drawings; rough seat geometry does not clearly establish the specified stump."
+    },
+    {
+      "shot": "S01-08",
+      "assessment": "fail",
+      "observation": "Girl is staged alongside Dairon in same hull; current script keeps girl in third canoe and Dairon in lead. Pointing substitutes for speaking to water; steering response requires separate coverage."
+    },
+    {
+      "shot": "S01-09",
+      "assessment": "partial",
+      "observation": "Root tunnel/bow, snapped wood and cloth are readable. Single pose cannot establish scrape-to-break-to-exit or reversed wind; paddle owner unresolved in script."
+    },
+    {
+      "shot": "S01-10",
+      "assessment": "partial",
+      "observation": "Boy listens toward offscreen bank; lips/performance and approved age-specific likeness missing."
+    },
+    {
+      "shot": "S01-11",
+      "assessment": "partial",
+      "observation": "Both palms contact drum. Beheto is muscular compared with subordinate frail/sunken proposal; adult behind him exists in source visual staging. No weight-transfer poses supplied."
+    },
+    {
+      "shot": "S01-12",
+      "assessment": "fail",
+      "observation": "Three canoes visible; missing/unclear Yara and bundle in lead. Foam turn and independent blade drag/lift not established."
+    },
+    {
+      "shot": "S01-13",
+      "assessment": "partial",
+      "observation": "Sleeping child against Amaia is readable with closed eyes; supporting arm/secure support should remain explicit in final crop and replacement poses."
+    },
+    {
+      "shot": "S01-14",
+      "assessment": "partial",
+      "observation": "Two panels give river roll and closed-book endpoint; inherits missing/unclear Yara and bundle, does not show clear passenger lean or last written line."
+    },
+    {
+      "shot": "S01-15",
+      "assessment": "reference-pass",
+      "observation": "Black panel correct for visual endpoint; sound bridge not assessed."
+    }
+  ],
+  "directly_viewed": [
+    {
+      "path": "production/runs/arthouse-pack-v1/tasks/visuals/art/amaia-model-v1.png",
+      "sha256": "32eea8edb7496819421d11e5401e058094b5b06ed12f0111bf8f0a93ce67ae60"
+    },
+    {
+      "path": "production/runs/arthouse-pack-v1/tasks/visuals/art/dairon-model-v1.png",
+      "sha256": "7fc1680df66ab6191118fad4a636754cd1b8b87ecdc463c6baaf42c53a737b8d"
+    },
+    {
+      "path": "production/runs/arthouse-pack-v1/tasks/visuals/art/storyboard-s01-01-08-v1.png",
+      "sha256": "8d2936be0e857ab4c495352edd2f4369c1f3d4fbcdab3fc8cd6fcd8b03196946"
+    },
+    {
+      "path": "production/runs/arthouse-pack-v1/tasks/visuals/art/storyboard-s01-09-15-v1.png",
+      "sha256": "85ef67b925d840ad361652e53adc9142af753040c9b9fea611aa0b63c4bd5cfa"
+    },
+    {
+      "path": "production/runs/arthouse-pack-v1/tasks/visuals/puppet/take-04/assembled.png",
+      "sha256": "ebb2f15df570010da768fe8c92bb756b587d7c7ff5254377653cc9908d162e13"
+    },
+    {
+      "path": "production/runs/arthouse-pack-v1/tasks/visuals/puppet/take-04/frames/000000.png",
+      "sha256": "7423fc828bc04e006ca79f551d2d79710757c26a5490b5d3dfdee5f346dbd533"
+    },
+    {
+      "path": "production/runs/arthouse-pack-v1/tasks/visuals/puppet/take-04/frames/000012.png",
+      "sha256": "a71d47cf6a18788c26171971524da4e9bbdec6a7c12d5159614a27d1f4915034"
+    },
+    {
+      "path": "production/runs/arthouse-pack-v1/tasks/visuals/puppet/take-04/frames/000036.png",
+      "sha256": "0b2bd884f3b7eb2a76243e5914c64c453107915fb566877d95ffaadc5b3bbfde"
+    }
+  ],
+  "functional_checks": {
+    "method": "Read-only archive/JSON structural inspection and direct sample-frame viewing; no native applications reopened by this reviewer.",
+    "photocraft": "Five .pcraft archives exist, contain manifest/composite/tile content and pass ZIP CRC. This does not prove per-feature character separation.",
+    "effectcraft": "amaia-puppet.ecproj parses; comp.json names head, torso, both upper arms and forearms, with head/arms parented to torso and forearms to upper arms. rig.json identifies 48 frames at 24 fps; 48 PNGs exist.",
+    "filmcraft": "rig-preview.filmcraft parses with format/schema/project fields; MP4 exists. Full playback/audio not reviewed.",
+    "designcraft": "production-book-v2/arthouse-art-book.designcraft passes ZIP CRC with document.json and image assets."
+  },
+  "not_claimed": [
+    "Canonical identity or exact historical costume",
+    "Finished shot animation, full motion review or sound quality",
+    "All scripted action drawn merely because all shot IDs have a representative panel",
+    "Author approval or asset/ledger promotion"
+  ],
+  "next_handoff": "Return continuity/model/puppet revisions to coordinator. Preserve exact reviewed versions; revised versions require new review. Useful exploratory references may be shown with these limitations.",
+  "review_notes": [
+    "Amended after directly viewing existing projects/cemi_episode_01/assets/keyframes/S01-02.png. It shows eleven occupants: four lead, three second, four third. Extra unnamed survivors alone are not a defect. Earlier inference that named cast exhausts survivors is withdrawn. Awaiting targeted v2 artwork for further review."
+  ]
+}

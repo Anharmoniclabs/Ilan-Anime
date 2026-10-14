@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 152,
+      "name": "Rigid generated paddle - drawn exposures on3s"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

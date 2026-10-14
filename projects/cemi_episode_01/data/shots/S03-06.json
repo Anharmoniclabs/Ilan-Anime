@@ -1,0 +1,77 @@
+{
+  "id": "S03-06",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 240,
+  "fps": 24,
+  "status": "keyframe_available",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "The coin on the nightstand: copper, spirals and hooked triangles. He picks it up; faint warm shimmer like a seat someone just left. Flash cut: JC at 12 asleep, fever, dirt under his fingernails on the fourth floor of a building with no dirt in it; Abuela sets the coin in his hand.",
+  "camera_note": "MACRO → CU",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "plate_0",
+      "source": "assets/keyframes/S03-06A.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 0,
+      "out": 120,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    },
+    {
+      "name": "plate_1",
+      "source": "assets/keyframes/S03-06B.png",
+      "fit": "cover",
+      "rate": 1,
+      "smooth": true,
+      "in": 120,
+      "out": 240,
+      "tags": [
+        "bg"
+      ],
+      "parallax": 1.0
+    }
+  ],
+  "camera": [
+    {
+      "frame": 0,
+      "scale": 1.0,
+      "ease": "smooth"
+    },
+    {
+      "frame": 239,
+      "scale": 1.08
+    }
+  ],
+  "post": {
+    "grade": "flashback"
+  },
+  "audio": null,
+  "notes": {
+    "unplaced_fx": [
+      "HEAT_SHIMMER"
+    ],
+    "assumptions": [
+      "2 keyframes split the shot evenly; real cut points are unset"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

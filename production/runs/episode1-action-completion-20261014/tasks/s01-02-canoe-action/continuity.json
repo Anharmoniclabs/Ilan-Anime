@@ -1,0 +1,32 @@
+{
+  "candidate_sha256": "59a7be4e2de2676ef4e5c5ad9c3136b374b0012d6ed202ad7a2bf9c60040fb33",
+  "references": {
+    "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-02.png": "903d79ac2f20d292b1a2a8f812a35285cb89be897b6f87c398f0836fd9f97596",
+    "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png": "b59f3a3a48a916e6b3fa001eec74d45ae59a3afaf113dba675cb0435fc0ad0a6",
+    "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+  },
+  "status": "exploratory; unsuitable for shot assembly without redraw",
+  "checks": {
+    "identity": "Dark tied-back hair, tan/brown skin, white diagonal drape and rust skirt broadly retain Dairon identity. Face/head size and knee shape vary between cells.",
+    "costume": "White drape and rust wrap broadly consistent; cloth folds and waist shape need anchored redraw.",
+    "props_and_contact": "Single paddle visually present in each cell but tips cropped in multiple poses; seventh pose lower hand leaves shaft; rigid shaft/blade continuity not established.",
+    "composition": "Four columns by two rows; seated lower legs cropped and whole paddle not preserved. Current wide-shot high angle reduced to near-level character view.",
+    "lighting": "Cool dark hair and shadow with warm brown skin. Stored RGB has gradient backing but alpha makes background transparent; silhouette matte needs separate review.",
+    "line_and_color": "Clean painted anime contours and broad cel planes consistent with newer direction.",
+    "neighbor_continuity": "Source shot uses higher camera and different seated foreshortening; cannot paste directly without redraw.",
+    "script_fidelity": "Only exploratory Dairon action keys. Beheto breath, Amaia cradle, Yara grip and children forearm light not supplied."
+  },
+  "continuity": {
+    "character_ids": [
+      "dairon"
+    ],
+    "costume_ids": [
+      "dairon-white-drape-rust-wrap"
+    ],
+    "prop_ids": [
+      "wooden-paddle"
+    ],
+    "time": "moonless historical night",
+    "location": "mangrove channel"
+  }
+}

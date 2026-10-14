@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "markers.addRange",
+    "params": {
+      "time": 75442752000000,
+      "durationFrames": 216,
+      "name": "S05-04 missing",
+      "comment": "reveal near couples; crane deeper; bandstand; date super"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "marker": 54
+  }
+}

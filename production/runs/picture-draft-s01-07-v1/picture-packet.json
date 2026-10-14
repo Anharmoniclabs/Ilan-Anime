@@ -1,0 +1,171 @@
+{
+  "mode": "picture-draft",
+  "shot": {
+    "shot": "S01-07",
+    "frames": 168,
+    "start_frame": 1416,
+    "script": "`00:59:00 → 01:06:00` (168f) · MS low angle · rate 3s\n- **Action:** A second man sits on a stump, ledger open on his knee. He never looks at the canoes. He writes one line, then another under it.\n- **FX:** `FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`\n- **Sound:** Pen scratch placed forward in the mix, louder than it should be.\n- **Note:** Ledger-man is the first 'Counter'. Same pose language as the thin man (S12) and Vale's notebook (S14).",
+    "artwork": {
+      "shot": "S01-07",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+      "sha256": "2cad53dd8dfffbac39753fb51c4f6f84a6702823d81cdd9b4cb442cc12bef365",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "Low medium view ledger clerk alone seated on rough stump on muddy mangrove bank, open leather ledger flat across knee, one hand supports book, quill tip touches page while eyes stay lowered. Small offscreen torch warms cheek; background deep black roots. No readable text on pages. Quiet bureaucratic menace.",
+      "inspection": "Clerkseated stump, bookon knee,quillcontact. Directly viewed.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/opening/provenance/S01-07.json",
+      "revision": 1,
+      "task": "opening",
+      "start_frame": 1416,
+      "frames": 168,
+      "script": "`00:59:00 → 01:06:00` (168f) · MS low angle · rate 3s\n- **Action:** A second man sits on a stump, ledger open on his knee. He never looks at the canoes. He writes one line, then another under it.\n- **FX:** `FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`\n- **Sound:** Pen scratch placed forward in the mix, louder than it should be.\n- **Note:** Ledger-man is the first 'Counter'. Same pose language as the thin man (S12) and Vale's notebook (S14)."
+    },
+    "action_contract": {
+      "shot": "S01-07",
+      "status": "submitted-contract-not-animation",
+      "start_frame": 1416,
+      "end_frame_exclusive": 1584,
+      "frames": 168,
+      "fps": 24,
+      "source_frame": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "sha256": "2cad53dd8dfffbac39753fb51c4f6f84a6702823d81cdd9b4cb442cc12bef365",
+        "selected_moment": "Low medium view ledger clerk alone seated on rough stump on muddy mangrove bank, open leather ledger flat across knee, one hand supports book, quill tip touches page while eyes stay lowered. Small offscreen torch warms cheek; background deep black roots. No readable text on pages. Quiet bureaucratic menace."
+      },
+      "script_action": "A second man sits on a stump, ledger open on his knee. He never looks at the canoes. He writes one line, then another under it.",
+      "departments": {
+        "character": {
+          "action": "clerk shoulder wrist two writing strokes eyes down",
+          "required_registered_drawings": [
+            "clerk shoulder wrist two writing strokes eyes down — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them"
+          ],
+          "base_exposure_frames": 3
+        },
+        "props": {
+          "action": "ledger knee pen nib",
+          "requirements": [
+            "ledger knee pen nib — rigid shapes, independent pivot/occlusion masks, registered contact drawings"
+          ]
+        },
+        "environment_fx": {
+          "action": "torch light localized",
+          "script_fx": "`FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`",
+          "requirements": [
+            "torch light localized — clean plate plus isolated moving overlays; retain unmoving landmarks"
+          ]
+        },
+        "camera": {
+          "script_mode": "MS low angle",
+          "phases": [
+            {
+              "start": 0,
+              "end_exclusive": 168,
+              "action": "MS low angle follows authored action phase framing; freeze during inserts/contact emphasis",
+              "sampling_frames": 1
+            }
+          ],
+          "layout_requirement": "Expanded or alternate-angle painted plates where camera reveals pixels; no whole-character distortion",
+          "status": "blocking camera mode and interval; numeric crop/transform path awaits registered layout"
+        },
+        "sound_later": {
+          "excluded_now": true,
+          "mouth_timing_dependency": "No on-screen dialogue mouth sync assigned; downstream sound cues can reference these picture frames",
+          "dialogue_candidate": false,
+          "script_cue": "Pen scratch placed forward in the mix, louder than it should be."
+        }
+      },
+      "phases": [
+        {
+          "start": 0,
+          "end_exclusive": 42,
+          "action": "first line",
+          "key_pose_frames": [
+            0,
+            39
+          ],
+          "cadence_frames": 3,
+          "allocation_status": "proposed blocking; microkeys override"
+        },
+        {
+          "start": 42,
+          "end_exclusive": 84,
+          "action": "reposition nib",
+          "key_pose_frames": [
+            42,
+            81
+          ],
+          "cadence_frames": 3,
+          "allocation_status": "proposed blocking; microkeys override"
+        },
+        {
+          "start": 84,
+          "end_exclusive": 126,
+          "action": "second line",
+          "key_pose_frames": [
+            84,
+            123
+          ],
+          "cadence_frames": 3,
+          "allocation_status": "proposed blocking; microkeys override"
+        },
+        {
+          "start": 126,
+          "end_exclusive": 168,
+          "action": "pen close insert",
+          "key_pose_frames": [
+            126,
+            165
+          ],
+          "cadence_frames": 3,
+          "allocation_status": "proposed blocking; microkeys override"
+        }
+      ],
+      "microkeys": [],
+      "contact_and_continuity_locks": [
+        "nib on page ledger fixed knee gaze never follows canoe"
+      ],
+      "coverage_gap": {
+        "all_action_phases_need_motion_validation": true,
+        "single_frame_is_not_motion": true,
+        "missing_work": [
+          "first line",
+          "reposition nib",
+          "second line",
+          "pen close insert"
+        ],
+        "cast_pose_sources_are_not_registered_action_sequences": true
+      },
+      "script_conflicts": [],
+      "motion_acceptance": [
+        "Inspect contact start/mid/release at native resolution; no shape warping or grip drift",
+        "Play full shot and adjacent cut; verify all listed actions, not just camera movement",
+        "Verify exposure cadence, frame range, collision/occlusion and final16:9 framing"
+      ],
+      "author_approved": false
+    },
+    "existing_motion_status": "missing",
+    "existing_draft": null
+  },
+  "fps": 24,
+  "aspect": "16:9",
+  "sound": "deferred",
+  "canonical_delivery_allowed": false,
+  "repair_reports": {
+    "production/runs/episode1-action-completion-20261014/reviews/s01-07-writing-action/review.json": "b2146509c297bb8c1ce216b263c8819baeae177e343e8beb54ce1201b15673cd",
+    "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-r1/REPORT.md": "ec48839ee5d5ffaae2dfeec5ac548f45073778b2e7262f967c19bec80c377d31"
+  },
+  "catalog_sha256": "f15e2e35f7bc3f58332036e4e0fb1ad95b0c33f189f79d3793dd32edb4a86a1f",
+  "source_hashes": {
+    "projects/cemi_episode_01/data/episode.json": "59263084b567bafbdd3dec543be5955ecc32bef721ddd9b2ba5c7442a24bacd8",
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md": "cfa3367d57ea61a8811730e84810b271c8b5e0e86bfce3418fceb3d2b090257c",
+    "production/runs/episode1-anime90s-scenes/shot-index.json": "3d76c85459b6d8516323c967d6c4a45304f03042e632feba03757ca1d6f1a3ca",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/timeline.json": "87dd8b17fbd3ed75b6e3a2d0c6de2137367b46b4536aa0495f8ec22de4805b4b",
+    "production/pipeline_templates/complete_shot.json": "22dcff22990be76200f56ce1c7608b7c3fcc5f6205ab26654661e90374202dda",
+    "production/roles.json": "6698806e3f1f51e8baae464b4da3387a425ead95e6ead22735e98e18c989cb0d"
+  },
+  "image_execution": "Host image tool through one explicit image-demand subtask when necessary; never an unattended CLI promise",
+  "references_are": "Provisional draft references; no technical or author approval inferred"
+}

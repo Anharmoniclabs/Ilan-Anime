@@ -1,0 +1,54 @@
+{
+  "shot": "S01-02",
+  "measured": {
+    "width": 1440,
+    "height": 1080,
+    "pix_fmt": "yuv420p",
+    "avg_frame_rate": "24/1",
+    "nb_read_frames": "288"
+  },
+  "source_start_frame": 360,
+  "limitations": [
+    "Held passenger poses; individual paddling cycles and five separate depth plates still pending.",
+    "Preserves accepted fleet seating; script's placement of Amaia differs from this asset.",
+    "No dialogue, breathing or water audio yet."
+  ],
+  "audio": "pending",
+  "plan": {
+    "kind": "composite",
+    "background": "assets/bg/mangrove-moonless.png",
+    "camera": {
+      "x": [
+        0,
+        64
+      ],
+      "y": [
+        0,
+        80
+      ]
+    },
+    "water": {
+      "top": 0.65
+    },
+    "layers": [
+      {
+        "image": "assets/cels/fleet.png",
+        "width": 0.89,
+        "x": [
+          0.015,
+          0.105
+        ],
+        "y": [
+          0.15,
+          0.08
+        ],
+        "bob": 2.0
+      }
+    ],
+    "limitations": [
+      "Held passenger poses; individual paddling cycles and five separate depth plates still pending.",
+      "Preserves accepted fleet seating; script's placement of Amaia differs from this asset.",
+      "No dialogue, breathing or water audio yet."
+    ]
+  }
+}

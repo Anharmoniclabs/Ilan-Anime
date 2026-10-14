@@ -1,0 +1,24 @@
+{
+  "j": {
+    "id": "jc-nine",
+    "desc": "Draw JC as a NINE-YEAR-OLD Dominican-American slim boy. Family facial landmarks: light brown skin, dark almond eyes, uneven brows, short dark curls. Child proportions about five and a half heads tall, child cheeks and youthful jaw, no beard, stubble, headphones or electronics. Faded charcoal pullover hoodie, plain blue jeans and worn sneakers. Quiet questioning expression appropriate to asking Mam\u00e1 about his absent father. Neutral three-quarter standing pose. Both hands OUTSIDE hoodie pocket, hanging relaxed clearly visible beside hips."
+  },
+  "refs": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png"
+  ],
+  "prompt": "Use case: illustration-story. NEW standalone full-body character master for Heralds of the Cem\u00ed Episode1. Match exactly the SAME 1990s hand-drawn anime SHOW as the two attached style references: image1 rooftop establishes expressive anime facial language, image2 Amaia establishes clean supple character outlines and simple cel color. These are STYLE references only, not costumes/identity. Soft human noses and mouths, expressive almond anime eyes, human asymmetry, broad simple two-or-three-tone cel shadows, flat warm colors, clean elegant contour. NO dense hatching, crosshatching, gritty realistic cloth texture, photorealism, glossy muscles or western comic poster. NO illustration-poster rim glow. All body parts head, both complete hands and both shoes visible with generous margin. Portrait composition, single figure unless the requested classmates bank. Genuinely transparent background, no scenery, floor, text, labels, logos, shadow haze or checkerboard. Draw JC as a NINE-YEAR-OLD Dominican-American slim boy. Family facial landmarks: light brown skin, dark almond eyes, uneven brows, short dark curls. Child proportions about five and a half heads tall, child cheeks and youthful jaw, no beard, stubble, headphones or electronics. Faded charcoal pullover hoodie, plain blue jeans and worn sneakers. Quiet questioning expression appropriate to asking Mam\u00e1 about his absent father. Neutral three-quarter standing pose. Both hands OUTSIDE hoodie pocket, hanging relaxed clearly visible beside hips.",
+  "src": "/home/alabs/.codex/generated_images/01a13832-614b-7170-a021-a70768e6e0f9/exec-6993a3f0-93f9-435b-b7ee-b622dae36c45.png",
+  "output": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-nine.png",
+  "sha256": "485fae9e134a11d34da96d53f9f674951b57cb93b5ff153bcea79830d7c0f628",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+      "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+    }
+  ]
+}

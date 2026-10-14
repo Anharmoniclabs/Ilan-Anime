@@ -1,0 +1,15 @@
+S01-03 source seating plate — submitted for independent source-art review
+
+Created candidate.png with exactly one built-in imagegen call, using exact original rest.png as attached edit target. The final verbatim prompt is prompt.txt. Originals are untouched. No paid API, new video or native animation project was created in this source-only task.
+
+Direct inspection shows three broad stepped wood seat surfaces with front edges and shaded support, contained by the pre-existing canoe hull. The left living pair, far rail and foreground hull remain visually recognizable in the same positions. This is stepped seating rather than the requested continuous shared bench. Review must decide whether the resulting construction and seat dimensions are plausible. Do not infer approval from this worker's submission.
+
+The generator has not preserved source pixels exactly. Original/candidate comparisons: living ROI mean absolute RGB-channel difference 2.51 out of 255, foreground hull 1.28, upper background 2.14. For motion integration, isolate only the accepted new bench geometry with a reviewed mask and retain the original living figures and head arc; no such production mask is supplied or certified here.
+
+The one bounded static adult placement diagnostic is not production artwork. Woman/man/elder uniform scales .65/.70/.75 place chosen source hip landmarks at (900,690)/(1015,755)/(1135,810), actual visible bench regions. This is a test of existing sources, not proof of anatomy or contact. Woman and man reveal straight lower source crops above the near hull. In combined view the nearer figures heavily overlap, hiding the man's face. The elder nearly reaches the right frame edge. This means old figures still need contact-matched complete lower bodies, revised pose directions and reviewed spacing. Do not shrink adults again or cover the cutoffs with arbitrary black polygons. Sequential isolated apparitions would avoid the combined overlap but require explicit staging/timing review against current three-loss beats.
+
+Viewed original plate, all three ghost sources, supplied style reference, candidate, seat anchors, three individual placements and combined placement. No motion playback performed. The preserved timing endpoints 42/75/108 and exact three-loss story decision are future integration requirements, not newly verified motion here.
+
+STORY_FRAME scope: living identity/costume/style/grade/setting visually preserved; no added text or cast. Geometry and crop remain limited as documented. Clean generated source plate exists; separate production mask and new contact-matched figures remain outstanding. Action criterion does not pass for an entire shot: this task produces only missing source art.
+
+Run diagnostic.py with repository .venv/bin/python to reproduce fixed source placements and pixel comparisons. Independent reviewer should evaluate candidate.png as source plate, and use diagnostic images to identify downstream drawing work. No self-approval or canonical promotion.

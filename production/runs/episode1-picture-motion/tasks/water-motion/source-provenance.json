@@ -1,0 +1,41 @@
+{
+  "native_source": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/S01-01.ecproj",
+  "native_sha256": "72d46cde4267469339bdd0a430ec6e8bf8a82104b972e078d00802383f213dd0",
+  "items": [
+    {
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/water-cels-atlas.png",
+      "snapshot": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion/sources/water-cels-atlas.png",
+      "sha256": "13a6b1a25a4ca93995f186d3b434de50bbc9836e0a222f6bad91932b4edcf991"
+    },
+    {
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/night-water.png",
+      "snapshot": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion/sources/night-water.png",
+      "sha256": "9038ea7c687f39a39924f9d2b41671417c625e01f3fe9003cd5fc34cc13b373d"
+    },
+    {
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/cels/paddle.png",
+      "snapshot": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion/sources/paddle.png",
+      "sha256": "dd37cab0535050dafae469d53d935b1de07142cc25ac365f315c086d9ee27707"
+    },
+    {
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/cels/ripple-contact.png",
+      "snapshot": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion/sources/ripple-contact.png",
+      "sha256": "0e27a9d245c85390ba16cde819ed7cd6f26a261589373e417552a99f31048488"
+    },
+    {
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/cels/ripple-small.png",
+      "snapshot": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion/sources/ripple-small.png",
+      "sha256": "436c294cbad433df9a2245575a3e29e8a5c2a7d4f5aedc87c0f8e23507f8c795"
+    },
+    {
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/cels/ripple-medium.png",
+      "snapshot": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion/sources/ripple-medium.png",
+      "sha256": "ba81ecb2ddd6c5f59c9530df11e39aed9b0cc32e935f03c70178c31e5c65fd9a"
+    },
+    {
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/s01-01/cels/ripple-large.png",
+      "snapshot": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/water-motion/sources/ripple-large.png",
+      "sha256": "45b11574c73e65c55cade94b41503121b83ffcdd250999b7ee4e7f12e0959580"
+    }
+  ]
+}

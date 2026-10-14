@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "kind": "image_edit",
+  "model": "Qwen/Qwen-Image-Edit-2509",
+  "provider": "fal-ai",
+  "transport": "huggingface-router",
+  "output": "art/ch01-jerome-0307-v1.png",
+  "status": "generated",
+  "created_at": 1791473482.557831,
+  "references": [
+    {
+      "path": "cemi_training_pack/references/style_board.png",
+      "sha256": "11dd21fb90b7ff5afe1d3aebd5201d7a01e0988e1838382d2017b3d2a41d2ec7"
+    }
+  ],
+  "parameters": {
+    "prompt": "Use the supplied moodboard ONLY as a drawing-style and JC portrait visual reference. Create ONE new cinematic 16:9 finished scene, absolutely no moodboard layout, no collage, no lettering, no panels or captions. Heralds of the Cemi, chapter one: at 3:07 AM, Juan Carlos, a 25-year-old Dominican electronics builder and artist, sits at a cluttered work desk in his small fourth-floor back bedroom above Jerome Avenue in the Bronx. Show him from waist up in three-quarter profile, left-center of frame, with face and hands visible. Match the JC reference's warm brown complexion, loose scribbled black curls, expressive heavy eyebrows, tired lively eyes; make him clearly an adult, wearing a charcoal hoodie and headphones around his neck. His hands rest naturally on a laptop keyboard. Development boards, loose cables, a small projector and a glass leftovers container sit on the desk. On the right, a cracked-open window reveals elevated train tracks and a passing New York subway train in the night. Intimate lived-in room, rumpled laundry in a corner, amber desk lamp balanced with cobalt night light and gentle laptop glow. The screen shows only abstract light, no legible text. Strong hand-drawn graphite texture, uneven ink contours, deliberate crosshatching, circular scribbled curls, painterly terracotta and indigo color beneath visible pencil strokes, warm human expressive character, cinematic animated graphic novel. Preserve the rough artisanal line quality of the reference. No glossy plastic, no photorealism, no smooth generic anime face, no 3D CGI, no historical costume, no extra people, no supernatural portal yet. Composition should support subtle typing, breathing and turning toward the window in the next animation stage.",
+    "seed": 3072026,
+    "image_size": "landscape_16_9",
+    "num_inference_steps": 50,
+    "num_images": 1,
+    "output_format": "png"
+  },
+  "billed_cost": null,
+  "request_id": "01a11c24-0422-76c3-9301-872516675655",
+  "result_path": "/fal-ai/qwen-image-edit-2509/requests/01a11c24-0422-76c3-9301-872516675655",
+  "provider_status": "COMPLETED",
+  "checked_at": 1791473525.6567945,
+  "media": {
+    "width": 1376,
+    "height": 768,
+    "codec": "png",
+    "fps": "25/1",
+    "frames": "1",
+    "duration": null
+  },
+  "sha256": "12b17ef52da1d86c3a3a05dede7b62a99c99c5fa1a2b0bc1fdcb96d7528ffb39",
+  "completed_at": 1791473526.8919055,
+  "returned_seed": 3072026,
+  "bytes": 656535
+}

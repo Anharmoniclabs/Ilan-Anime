@@ -1,0 +1,16 @@
+Independent source-art review: S01-03 / amaia-seat-plate
+
+Decision: reject the claimed three-adult seating solution; preserve the candidate as useful exploratory source art.
+
+Exact candidate SHA-256: 352df00d92a175b2713fc0de41b0738caaf1b3cfca1347bcdf133b5b8e8de2b4
+Reviewer: /root/review_amaia_seat_plate. Creator: /root/amaia_seat_plate. Reviewer binding confirmed in handoffs.json. No creator files or ledger were changed.
+
+The new plate is a real improvement over the original dark interior. It contains visible wood top/front planes with plausible wall connections; I am not rejecting it as wholly floating geometry. Amaia, her sleeping child, the near gunwale, outer hull silhouette and mangrove remain visually recognizable in their original positions. Pixel-exact preservation is not established, and the original living figures must be retained during integration.
+
+The assignment requires three usable adult support positions. The intended contact spread was x950/1175/1430; the diagnostic instead places contacts at x900/1015/1135. The resulting stepped ledges and compressed placement do not yet demonstrate three seated adult volumes with room for their thighs. In individual images the woman and man's laps consume the next position; in the combined image adult bodies overlap and the man's face is mostly concealed. A named point over wood does not establish buttock weight/contact or correct seated perspective. This is a failure of the submitted layout evidence, not a mathematical claim that no future pose can use this plate.
+
+Separate downstream failures: the woman and man have hard horizontal lower-source cutoffs above the foreground hull; the elder's skirt escapes outside the near hull at the lower right. These defects are in the figure sources/placement/matte, not painted into the empty candidate. New complete contact-matched drawings and an accurate hull occluder are required regardless of the plate choice. Their absence alone would not justify rejecting a source-only plate; the unresolved three-seat spatial arrangement is the deciding issue.
+
+Viable next step: make a simple adult-scale pelvis/torso/thigh layout on the retained hull before another detailed generation. Show each buttock resting on an actual top/front support and make all three heads readable in the combined view. If simultaneous apparitions cannot fit, the script permits three distinct count/loss beats, but sequential visibility would need an explicit reviewed timing plan rather than silently changing the existing 42/75/108 endpoints. Use the new bench pixels if that layout works; no need to throw away this candidate or generate more wood blindly. Then draw complete lower bodies, rebuild the hull matte and isolate only accepted bench changes from the original living artwork.
+
+Directly viewed exact rest.png, candidate.png, seat-anchors.jpg, all three individual placement images, placement-combined.jpg and supplied style reference. Independently computed the candidate SHA-256. Read assignment, result, continuity, handoff, placement metadata, current author decision/resume, rejected prior review and script. No animation, fade timing, motion playback, native project or full-shot completion was reviewed. This decision grants no technical approval, author approval or canonical promotion.

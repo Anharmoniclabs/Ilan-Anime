@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.addProperty",
+    "params": {
+      "layer": 442,
+      "path": "transform/rotation",
+      "name": "pony rotation"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "controls": [
+      864
+    ],
+    "mirrors": []
+  }
+}

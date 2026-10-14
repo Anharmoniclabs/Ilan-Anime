@@ -1,0 +1,39 @@
+{
+  "id": "S11-06",
+  "source": "/home/alabs/.codex/generated_images/01a13832-ef2b-7852-8919-6147a4fbf94f/exec-d42e2d32-a8b8-4ac8-ae60-64aa452dac14.png",
+  "refs": [
+    {
+      "path": "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "role": "style only",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "role": "identity jc-present",
+      "sha256": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/manny.png",
+      "role": "identity manny-present",
+      "sha256": "305af827941d0bdc65d261711681847d07c4d231c094ef945d0fef8f568ed47e"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S11-03.png",
+      "role": "set continuity only",
+      "sha256": "e3e4fda34ad4b078b5a97df51ef309d3041a7d204d518eb223fa55a2f3c22286"
+    }
+  ],
+  "prompt": "Finished single 16:9 cinematic anime STORY FRAME, landscape1536x864, full opaque richly painted environment edge to edge. Match approved1990s anime series: clean supple ink, expressive human anime faces, broad2/3tone cel shading, handpainted detailed backgrounds, restrained cinematic light. Rooftop image reference only for rendering STYLE, never its sunset/location/people. Character source images control exact identities/costumes/age/body proportions. Previous scene reference controls set layout only; change camera and action to this shot. NO poster, collage, panel grid, transparent cutouts, hatching-heavy comic, speech bubbles, random words/logos. Over JC's shoulder toward Manny at cafe counter, Manny holds JC's black phone in one large hand reading commission, earnest hopeful smile, JC tense refusal in foreground profile. Drum case at Manny's side, two coffees on counter. Warm caf\u00e9 dialogue, no flash insert/collage/text.",
+  "frame": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S11-06.png",
+  "status": "exploratory",
+  "representative_moment": "Over JC's shoulder toward Manny at cafe counter, Manny holds JC's black phone in one large hand reading commission, earnest hopeful smile, JC tense refusal in foreground profile. Drum case at Manny's side, two coffees on counter. Warm caf\u00e9 dialogue, no flash insert/collage/text.",
+  "motion_remaining": "All motion, dialogue, camera transitions and any other script phases still require later drawings.",
+  "sha256": "2dab2c08cfc182e1672a79b3bbccef194779a316f697e2f9eb491ab0a67439b7",
+  "size": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "aspect_ratio": 1.7768331562167907,
+  "visually_inspected": true
+}

@@ -1,0 +1,48 @@
+{
+  "id": "S12-03",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 96,
+  "fps": 24,
+  "status": "missing_art",
+  "stage": "animatic",
+  "animation_status": "not_rigged",
+  "action": "The building shakes the way it always does. His eyes, which had no vote, go where his ear went.",
+  "camera_note": "ECU eyes",
+  "drawing_rate": 3,
+  "layers": [
+    {
+      "name": "slate",
+      "screen_space": true,
+      "rate": 3,
+      "generator": {
+        "type": "slate",
+        "shot": "S12-03",
+        "header": "11:56:00 → 12:00:00 (96f) · ECU eyes · rate 3s",
+        "action": "The building shakes the way it always does. His eyes, which had no vote, go where his ear went.\nSOUND: A held train bed."
+      }
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "notes": {
+    "asset_slot_fx": [
+      "EYELINE_SHIFT",
+      "REFLECT_CEL"
+    ]
+  },
+  "truth": "Animatic spec: held keyframes, slates and procedural FX. Not production animation.",
+  "required_layers": [
+    "clean_background",
+    "body",
+    "head",
+    "eyes",
+    "mouth_if_speaking",
+    "hands_or_props",
+    "foreground",
+    "drawn_fx"
+  ]
+}

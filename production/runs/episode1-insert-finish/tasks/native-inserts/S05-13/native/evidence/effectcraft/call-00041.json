@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.addKey",
+    "params": {
+      "layer": "0-0 wood clean plate",
+      "path": "transform/position",
+      "time": 1.4583333333333333,
+      "value": [
+        640.0,
+        360.0
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": 36
+}

@@ -1,0 +1,46 @@
+{
+  "shot": "S13-03",
+  "start_frame": 19536,
+  "end_frame_exclusive": 19776,
+  "frames": 240,
+  "fps": 24,
+  "duration_seconds": 10.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "draft_pending_review",
+      "file": "start.png",
+      "sha256": "83974e589b0d727db8f2393e1f8edd0ce466d8f74a7968f88255c91e5ba520b8",
+      "method": "local_ui",
+      "source_file": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S13-03/start/start-local-ui.png"
+    },
+    "end": {
+      "state": "draft_pending_review",
+      "file": "end.png",
+      "sha256": "60abe4ae456ab071c3fbed135e788aab5afe23f1a3a0d934f766f55feec2874d",
+      "method": "local_ui",
+      "source_file": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S13-03/end/end-local-ui.png"
+    }
+  },
+  "status": "draft_pack_not_approved",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false,
+  "reference_history": [
+    {
+      "start": {
+        "state": "missing",
+        "file": null
+      }
+    },
+    {
+      "end": {
+        "state": "missing",
+        "file": null
+      }
+    }
+  ]
+}

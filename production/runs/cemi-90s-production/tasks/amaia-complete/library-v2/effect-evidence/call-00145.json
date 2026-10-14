@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.new",
+    "params": {
+      "name": "SHEET - mouths",
+      "width": 1254,
+      "height": 1254,
+      "frameRate": 24,
+      "duration": 1,
+      "background": "#26323e"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 1847
+  }
+}

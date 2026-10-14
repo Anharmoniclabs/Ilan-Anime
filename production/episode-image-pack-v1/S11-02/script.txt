@@ -1,0 +1,4 @@
+`10:43:00 → 10:57:00` (336f) · CU phone · push · rate 3s
+- **Action:** The email body scrolls, key phrases glowing slightly: 'building-listening practice', 'real resources', 'Founders' Night … Kingsbridge Armory', 'no strings on the creative', 'We'd like to take it off you.' Signed Adrian Vale, Director of Community Partnerships.
+- **FX:** `TEXT_HIGHLIGHT(CEL); READ_TWICE_CUT(2x)`
+- **Sound:** Voice read: neutral, warm. Behind it the café quiets.

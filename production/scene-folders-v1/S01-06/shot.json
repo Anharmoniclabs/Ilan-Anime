@@ -1,0 +1,41 @@
+{
+  "shot": "S01-06",
+  "start_frame": 1176,
+  "end_frame_exclusive": 1416,
+  "frames": 240,
+  "fps": 24,
+  "duration_seconds": 10.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "unreviewed_candidate",
+      "file": "start/start-candidate.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/keyframes/S01-06.png",
+      "sha256": "cda06fe8cba86eef9d0600a7784e480222d19d0c648b4235777824efe7e7c285"
+    },
+    "end": {
+      "state": "generated_candidate_awaiting_review",
+      "file": "end/end-candidate-v1.png",
+      "sha256": "06bd51292f84076165bf665791d7ed0f86023e27275baa123667c5a5881a8625",
+      "method": "built-in image_gen reference edit",
+      "reference": "start/start-candidate.png"
+    }
+  },
+  "status": "draft_pack_not_approved",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false,
+  "draft_review": {
+    "reviewer": "/root/review_endpoint",
+    "verdict": "acceptable_for_exploratory_test",
+    "evidence": "Same three children, readable hands, detached vapor moves left. Bank destination must remain clear in motion.",
+    "author_approved": false,
+    "reviewed_hashes": {
+      "start": "cda06fe8cba86eef9d0600a7784e480222d19d0c648b4235777824efe7e7c285",
+      "end": "06bd51292f84076165bf665791d7ed0f86023e27275baa123667c5a5881a8625"
+    }
+  }
+}

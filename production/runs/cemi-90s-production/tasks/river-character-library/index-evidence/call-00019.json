@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 5,
+      "rect": [
+        25,
+        700,
+        975,
+        835
+      ],
+      "content": "text",
+      "text": "Native: 07-nine-year-old-boy.pcraft\nShort dense dark curls, red rough tunic, pale sash and knee shorts; seated bent knee and three worried/speech/downcast busts.\nRequired: Seated forearm lift and bankward lean; bell-facing head tilt and registered speech mouths; fever insert and turn counterbalance.\nUnapproved historical reference. No separated joints, rig, pose registration or motion approval."
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 63,
+    "story": 64
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "tool": "new_document",
+  "arguments": {
+    "title": "Episode 1 character inventory — submitted planning index",
+    "width": 792,
+    "height": 612,
+    "pages": 21,
+    "facingPages": false
+  },
+  "status": "succeeded",
+  "result": {
+    "index": 1
+  }
+}

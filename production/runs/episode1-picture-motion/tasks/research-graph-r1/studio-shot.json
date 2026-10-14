@@ -1,0 +1,659 @@
+{
+  "id": "S14-03",
+  "size": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "frames": 384,
+  "status": "exploratory",
+  "stage": "draft",
+  "note": "QA/render interchange only. Editable master is native-r1/shot.ecproj; these are its rendered exposures.",
+  "layers": [
+    {
+      "name": "native UI render interchange",
+      "exposures": [
+        {
+          "start": 0,
+          "end": 3,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000000.png"
+        },
+        {
+          "start": 3,
+          "end": 6,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000003.png"
+        },
+        {
+          "start": 6,
+          "end": 9,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000006.png"
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000009.png"
+        },
+        {
+          "start": 12,
+          "end": 15,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000012.png"
+        },
+        {
+          "start": 15,
+          "end": 18,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000015.png"
+        },
+        {
+          "start": 18,
+          "end": 21,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000018.png"
+        },
+        {
+          "start": 21,
+          "end": 24,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000021.png"
+        },
+        {
+          "start": 24,
+          "end": 27,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000024.png"
+        },
+        {
+          "start": 27,
+          "end": 30,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000027.png"
+        },
+        {
+          "start": 30,
+          "end": 33,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000030.png"
+        },
+        {
+          "start": 33,
+          "end": 36,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000033.png"
+        },
+        {
+          "start": 36,
+          "end": 39,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000036.png"
+        },
+        {
+          "start": 39,
+          "end": 42,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000039.png"
+        },
+        {
+          "start": 42,
+          "end": 45,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000042.png"
+        },
+        {
+          "start": 45,
+          "end": 48,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000045.png"
+        },
+        {
+          "start": 48,
+          "end": 51,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000048.png"
+        },
+        {
+          "start": 51,
+          "end": 54,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000051.png"
+        },
+        {
+          "start": 54,
+          "end": 57,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000054.png"
+        },
+        {
+          "start": 57,
+          "end": 60,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000057.png"
+        },
+        {
+          "start": 60,
+          "end": 63,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000060.png"
+        },
+        {
+          "start": 63,
+          "end": 66,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000063.png"
+        },
+        {
+          "start": 66,
+          "end": 69,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000066.png"
+        },
+        {
+          "start": 69,
+          "end": 72,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000069.png"
+        },
+        {
+          "start": 72,
+          "end": 75,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000072.png"
+        },
+        {
+          "start": 75,
+          "end": 78,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000075.png"
+        },
+        {
+          "start": 78,
+          "end": 81,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000078.png"
+        },
+        {
+          "start": 81,
+          "end": 84,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000081.png"
+        },
+        {
+          "start": 84,
+          "end": 87,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000084.png"
+        },
+        {
+          "start": 87,
+          "end": 90,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000087.png"
+        },
+        {
+          "start": 90,
+          "end": 93,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000090.png"
+        },
+        {
+          "start": 93,
+          "end": 96,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000093.png"
+        },
+        {
+          "start": 96,
+          "end": 99,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000096.png"
+        },
+        {
+          "start": 99,
+          "end": 102,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000099.png"
+        },
+        {
+          "start": 102,
+          "end": 105,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000102.png"
+        },
+        {
+          "start": 105,
+          "end": 108,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000105.png"
+        },
+        {
+          "start": 108,
+          "end": 111,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000108.png"
+        },
+        {
+          "start": 111,
+          "end": 114,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000111.png"
+        },
+        {
+          "start": 114,
+          "end": 117,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000114.png"
+        },
+        {
+          "start": 117,
+          "end": 120,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000117.png"
+        },
+        {
+          "start": 120,
+          "end": 123,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000120.png"
+        },
+        {
+          "start": 123,
+          "end": 126,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000123.png"
+        },
+        {
+          "start": 126,
+          "end": 129,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000126.png"
+        },
+        {
+          "start": 129,
+          "end": 132,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000129.png"
+        },
+        {
+          "start": 132,
+          "end": 135,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000132.png"
+        },
+        {
+          "start": 135,
+          "end": 138,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000135.png"
+        },
+        {
+          "start": 138,
+          "end": 141,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000138.png"
+        },
+        {
+          "start": 141,
+          "end": 144,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000141.png"
+        },
+        {
+          "start": 144,
+          "end": 147,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000144.png"
+        },
+        {
+          "start": 147,
+          "end": 150,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000147.png"
+        },
+        {
+          "start": 150,
+          "end": 153,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000150.png"
+        },
+        {
+          "start": 153,
+          "end": 156,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000153.png"
+        },
+        {
+          "start": 156,
+          "end": 159,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000156.png"
+        },
+        {
+          "start": 159,
+          "end": 162,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000159.png"
+        },
+        {
+          "start": 162,
+          "end": 165,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000162.png"
+        },
+        {
+          "start": 165,
+          "end": 168,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000165.png"
+        },
+        {
+          "start": 168,
+          "end": 171,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000168.png"
+        },
+        {
+          "start": 171,
+          "end": 174,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000171.png"
+        },
+        {
+          "start": 174,
+          "end": 177,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000174.png"
+        },
+        {
+          "start": 177,
+          "end": 180,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000177.png"
+        },
+        {
+          "start": 180,
+          "end": 183,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000180.png"
+        },
+        {
+          "start": 183,
+          "end": 186,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000183.png"
+        },
+        {
+          "start": 186,
+          "end": 189,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000186.png"
+        },
+        {
+          "start": 189,
+          "end": 192,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000189.png"
+        },
+        {
+          "start": 192,
+          "end": 195,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000192.png"
+        },
+        {
+          "start": 195,
+          "end": 198,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000195.png"
+        },
+        {
+          "start": 198,
+          "end": 201,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000198.png"
+        },
+        {
+          "start": 201,
+          "end": 204,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000201.png"
+        },
+        {
+          "start": 204,
+          "end": 207,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000204.png"
+        },
+        {
+          "start": 207,
+          "end": 210,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000207.png"
+        },
+        {
+          "start": 210,
+          "end": 213,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000210.png"
+        },
+        {
+          "start": 213,
+          "end": 216,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000213.png"
+        },
+        {
+          "start": 216,
+          "end": 219,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000216.png"
+        },
+        {
+          "start": 219,
+          "end": 222,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000219.png"
+        },
+        {
+          "start": 222,
+          "end": 225,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000222.png"
+        },
+        {
+          "start": 225,
+          "end": 228,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000225.png"
+        },
+        {
+          "start": 228,
+          "end": 231,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000228.png"
+        },
+        {
+          "start": 231,
+          "end": 234,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000231.png"
+        },
+        {
+          "start": 234,
+          "end": 237,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000234.png"
+        },
+        {
+          "start": 237,
+          "end": 240,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000237.png"
+        },
+        {
+          "start": 240,
+          "end": 243,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000240.png"
+        },
+        {
+          "start": 243,
+          "end": 246,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000243.png"
+        },
+        {
+          "start": 246,
+          "end": 249,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000246.png"
+        },
+        {
+          "start": 249,
+          "end": 252,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000249.png"
+        },
+        {
+          "start": 252,
+          "end": 255,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000252.png"
+        },
+        {
+          "start": 255,
+          "end": 258,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000255.png"
+        },
+        {
+          "start": 258,
+          "end": 261,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000258.png"
+        },
+        {
+          "start": 261,
+          "end": 264,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000261.png"
+        },
+        {
+          "start": 264,
+          "end": 267,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000264.png"
+        },
+        {
+          "start": 267,
+          "end": 270,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000267.png"
+        },
+        {
+          "start": 270,
+          "end": 273,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000270.png"
+        },
+        {
+          "start": 273,
+          "end": 276,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000273.png"
+        },
+        {
+          "start": 276,
+          "end": 279,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000276.png"
+        },
+        {
+          "start": 279,
+          "end": 282,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000279.png"
+        },
+        {
+          "start": 282,
+          "end": 285,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000282.png"
+        },
+        {
+          "start": 285,
+          "end": 288,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000285.png"
+        },
+        {
+          "start": 288,
+          "end": 291,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000288.png"
+        },
+        {
+          "start": 291,
+          "end": 294,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000291.png"
+        },
+        {
+          "start": 294,
+          "end": 297,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000294.png"
+        },
+        {
+          "start": 297,
+          "end": 300,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000297.png"
+        },
+        {
+          "start": 300,
+          "end": 303,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000300.png"
+        },
+        {
+          "start": 303,
+          "end": 306,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000303.png"
+        },
+        {
+          "start": 306,
+          "end": 309,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000306.png"
+        },
+        {
+          "start": 309,
+          "end": 312,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000309.png"
+        },
+        {
+          "start": 312,
+          "end": 315,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000312.png"
+        },
+        {
+          "start": 315,
+          "end": 318,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000315.png"
+        },
+        {
+          "start": 318,
+          "end": 321,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000318.png"
+        },
+        {
+          "start": 321,
+          "end": 324,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000321.png"
+        },
+        {
+          "start": 324,
+          "end": 327,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000324.png"
+        },
+        {
+          "start": 327,
+          "end": 330,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000327.png"
+        },
+        {
+          "start": 330,
+          "end": 333,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000330.png"
+        },
+        {
+          "start": 333,
+          "end": 336,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000333.png"
+        },
+        {
+          "start": 336,
+          "end": 339,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000336.png"
+        },
+        {
+          "start": 339,
+          "end": 342,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000339.png"
+        },
+        {
+          "start": 342,
+          "end": 345,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000342.png"
+        },
+        {
+          "start": 345,
+          "end": 348,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000345.png"
+        },
+        {
+          "start": 348,
+          "end": 351,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000348.png"
+        },
+        {
+          "start": 351,
+          "end": 354,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000351.png"
+        },
+        {
+          "start": 354,
+          "end": 357,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000354.png"
+        },
+        {
+          "start": 357,
+          "end": 360,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000357.png"
+        },
+        {
+          "start": 360,
+          "end": 363,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000360.png"
+        },
+        {
+          "start": 363,
+          "end": 366,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000363.png"
+        },
+        {
+          "start": 366,
+          "end": 369,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000366.png"
+        },
+        {
+          "start": 369,
+          "end": 372,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000369.png"
+        },
+        {
+          "start": 372,
+          "end": 375,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000372.png"
+        },
+        {
+          "start": 375,
+          "end": 378,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000375.png"
+        },
+        {
+          "start": 378,
+          "end": 381,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000378.png"
+        },
+        {
+          "start": 381,
+          "end": 384,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion/tasks/research-graph-r1/frames/000381.png"
+        }
+      ]
+    }
+  ]
+}
