@@ -1,4 +1,0 @@
-`05:17:00 → 05:22:00` (120f) · TOP SHOT · floor inlay · rate 3s
-- **Action:** The floor inlay in darker wood: the spiral opening into a triangle. Dancers circle it without ever looking down. Insert: the coin on the nightstand, glinting.
-- **FX:** `TOP_DOWN_ROTATE(slow); SIGIL_INLAY(gold edge); MATCH_INSERT(coin)`
-- **Sound:** Cowbell fades under JC's whisper: “It was the mark on my coin.”

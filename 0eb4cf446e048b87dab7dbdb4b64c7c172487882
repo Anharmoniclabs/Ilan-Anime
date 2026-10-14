@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 776,
+      "name": "head-neutral"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

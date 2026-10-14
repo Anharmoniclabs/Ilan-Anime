@@ -1,0 +1,28 @@
+{
+  "tool": "set_property",
+  "arguments": {
+    "layer": 465,
+    "path": "transform/position",
+    "value": [
+      433,
+      703
+    ]
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": false,
+    "expression": null,
+    "keys": [],
+    "layer": 465,
+    "match": "position",
+    "name": "Position",
+    "time": 0.0,
+    "type": "vec3",
+    "uid": 470,
+    "value": [
+      433.0,
+      703.0,
+      0.0
+    ]
+  }
+}

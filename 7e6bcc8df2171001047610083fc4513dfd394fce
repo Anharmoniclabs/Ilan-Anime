@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 832,
+      "name": "head-talk"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

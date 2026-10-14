@@ -1,0 +1,1566 @@
+Title: HERALDS OF THE CEMÍ
+Credit: Episode 1 — “3:07”
+Author: Story and source screenplay by Luis M. Minier
+Source: Production reading adaptation of supplied EPISODE_SCRIPT.md
+Draft date: 2026-10-13
+
+/* EXPLORATORY SCRIPT COMPANION. No new story canon. All 128 body shots retained. 1280×720, 16:9, 24 fps overrides historical 4:3. Timings are from episode.json; end frames exclusive. Exact source quotation text retained, including punctuation and ellipses. Partial dialogue, paraphrased VO, UI text and unassigned quoted fragments remain in action; this is not a completed recording script. Speaker attribution where implicit in exchanges is an editorial proposal for review. Source action and sound are preserved even where dialogue is separately extracted below. This intentional reference duplication must not be recorded twice. */
+
+
+.EPIGRAPH - NAVY FIELD
+
+[[S00-01 | 00:00:00–00:04:00 | 96 frames | SOURCE SHOT]]
+
+Navy field (#14202B). The cemí sigil (spiral opening into a triangle) draws itself in one continuous gold line, like a pen that never lifts.
+
+
+!SOUND: Room tone only. One low hand-drum hit as the line closes.
+
+[[CAMERA / DRAWING: FIX · ECU · rate 3s; FX: SPIRAL_SIGIL(draw=3s,gold); FILM_GRAIN(0.5); GATE_WEAVE(0.3)]]
+
+[[S00-02 | 00:04:00–00:09:00 | 120 frames | SOURCE SHOT]]
+
+Cream serif, wide tracking: ELLOS CUENTAN. / NOSOTROS RECORDAMOS. Small gold sub-line: They count. We remember. — ABUELA.
+
+
+!SOUND: Abuela VO, old, unhurried, no music. Spanish only; English as subtitle.
+
+[[CAMERA / DRAWING: FIX · text card · rate 3s; FX: DISSOLVE(24f); FILM_GRAIN]]
+
+
+.EXT. MANGROVE CHANNEL - NIGHT - BEFORE
+
+[[S01-01 | 00:09:00–00:15:00 | 144 frames | SOURCE SHOT]]
+
+Black water, a hand-width of surface. A paddle blade enters, leaves, rings spread. Lower-left small caps: BEFORE.
+
+
+!SOUND: Water drip, insects. A frog stops mid-call. No music.
+
+[[CAMERA / DRAWING: FIX · ECU low on waterline · rate 3s; FX: PAINTED_BG(night_water); WATER_CEL(rings); TEXT_SUPER(BEFORE); VIGNETTE(0.7)]]
+
+[[S01-02 | 00:15:00–00:27:00 | 288 frames | SOURCE SHOT]]
+
+Three dugout canoes in single file down a moonless mangrove channel. Lead: Dairon paddling, Yara behind him with the cemí in stiff cloth against her chest. Amaia with her sleeping son (not yet two). Second: Beheto, drum between his knees, chest whistling every breath. Third: three children, a faint blue breath on their forearms.
+
+
+!SOUND: Paddles, hull creak. Beheto's whistling breath is the only tempo (about 2s cycle).
+
+[[CAMERA / DRAWING: CRANE DOWN · WS · rate 3s; FX: MULTIPLANE(5 painted layers); TRANSMITTED_LIGHT(blue,children,0.15); FILM_GRAIN]]
+
+[[S01-03 | 00:27:00–00:35:00 | 192 frames | SOURCE SHOT]]
+
+Amaia's lips count the heads ahead. Each count lands on an empty seat. Pale outlines sit in the empty seats and fade as she looks at them (two lost at the channel, the old man who asked for water, then his wife, then nothing).
+
+
+@AMAIA (V.O.)
+Amaia had fourteen when they put the canoes in. By the third night she had eleven.
+
+
+!SOUND: VO Amaia (spare): “Amaia had fourteen when they put the canoes in. By the third night she had eleven.”
+
+[[CAMERA / DRAWING: MCU → CU Amaia · rate 3s; FX: GHOST_SEATS(alpha .25→0); DOUBLE_EXPOSURE; CEL_SHADE(2-tone)]]
+
+[[S01-04 | 00:35:00–00:42:00 | 168 frames | SOURCE SHOT]]
+
+Memory inserts of the blue: children in fever; a flash of lightning; the color itself, 'the inside of a shell'. Each gone before she can point at it.
+
+
+!SOUND: Held breath. One high glass-like partial, cut dead.
+
+[[CAMERA / DRAWING: FIX · three hard cuts · rate 2s; FX: TRANSMITTED_LIGHT(shell_blue); FLASH_FRAME(1f); AIRBRUSH_GLOW]]
+
+[[S01-05 | 00:42:00–00:49:00 | 168 frames | SOURCE SHOT]]
+
+Behind them on the bank the soldier torches have stopped. One soldier lifts a pole with a brass bell and rings it, hard. Cut to the bell swinging, close.
+
+
+!SOUND: The BELL: dry, inharmonic brass, no reverb tail, 3–5 kHz bite. Amaia feels it 'in her back teeth'. There is no song in it.
+
+[[CAMERA / DRAWING: POV Amaia → CU bell · rate 3s; FX: CAMERA_SHAKE(2f); SPEED_LINES(bell); CHROMA_BLEED]]
+
+[[S01-06 | 00:49:00–00:59:00 | 240 frames | SOURCE SHOT]]
+
+The three children lift the blue off their arms; it peels away like vapor and leans out over the black water toward the bank. They lean with it. Amaia wants to hear one of them cry.
+
+
+!SOUND: Bell rings again, thinner. Children silent.
+
+[[CAMERA / DRAWING: MS → CU hands · rate 2s; FX: TRANSMITTED_LIGHT; AIRBRUSH_RIBBONS(blue,8); PULL_TOWARD(bank)]]
+
+[[S01-07 | 00:59:00–01:06:00 | 168 frames | SOURCE SHOT]]
+
+A second man sits on a stump, ledger open on his knee. He never looks at the canoes. He writes one line, then another under it.
+
+
+!SOUND: Pen scratch placed forward in the mix, louder than it should be.
+
+[[CAMERA / DRAWING: MS low angle · rate 3s; FX: FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)]]
+
+[[SOURCE NOTE: Ledger-man is the first 'Counter'. Same pose language as the thin man (S12) and Vale's notebook (S14).]]
+
+[[S01-08 | 01:06:00–01:12:00 | 144 frames | SOURCE SHOT]]
+
+The girl of seven says to the water: “There's a way under the roots.” Dairon turns the bow without asking how she knew.
+
+
+@GIRL OF SEVEN
+There's a way under the roots.
+
+
+!SOUND: Her voice small and certain. Hull turn.
+
+[[CAMERA / DRAWING: MS side · rate 3s; FX: HOLD(cel bank)]]
+
+[[S01-09 | 01:12:00–01:26:00 | 336 frames | SOURCE SHOT]]
+
+The canoe shrieks through mangrove roots on both sides; a paddle snaps; wood chips. The roots open into air that smells of salt 'from the wrong direction'. Cloth and hair flutter the opposite way.
+
+
+!SOUND: Wood scream on hull. Snap. Then sudden wide air and a wind change.
+
+[[CAMERA / DRAWING: POV bow · tunnel · rate 2s; FX: MULTIPLANE_RUSH(root layers z1–z5); SPEED_BG; SPLINTER_CEL; WIND_REVERSE]]
+
+[[S01-10 | 01:26:00–01:32:00 | 144 frames | SOURCE SHOT]]
+
+The boy of nine, head tilted toward the bell: “They know where we were. They don't know where we are.”
+
+
+@BOY OF NINE
+They know where we were. They don't know where we are.
+
+
+!SOUND: Bell far behind, now hollow.
+
+[[CAMERA / DRAWING: MCU boy · bell offscreen · rate 3s; FX: TRANSMITTED_LIGHT(blue,rim)]]
+
+[[S01-11 | 01:32:00–01:42:00 | 240 frames | SOURCE SHOT]]
+
+Beheto puts both palms on the drum and leans his weight into it. The sound goes through hull, water and roots.
+
+
+!SOUND: Not a boom. A deep skin-and-wood note with no attack, felt as sub.
+
+[[CAMERA / DRAWING: CU Beheto → WS · rate 2s; FX: SHOCKWAVE_RING(water, subtle); ROOT_VEINS(gold, 0.4); WOOD_GRAIN_PULSE]]
+
+[[SOURCE NOTE: SHOWCASE CUT 0 begins.]]
+
+[[S01-12 | 01:42:00–01:56:00 | 336 frames | SOURCE SHOT]]
+
+'Nothing rose up and nothing parted.' The canoes simply move a little faster than the paddles. Blades drag and lift. Surface foam turns 90 degrees.
+
+
+!SOUND: Water hiss rising.
+
+[[CAMERA / DRAWING: WS → MS paddles · rate 2s; FX: FLOW_TURN(foam,90deg); WATER_STREAK_CEL; WIND_STREAKS]]
+
+[[S01-13 | 01:56:00–02:02:00 | 144 frames | SOURCE SHOT]]
+
+Her son, asleep, says into her ribs in a voice too old for him: “It's turning with us. Turn with it.”
+
+
+@AMAIA’S SON
+It's turning with us. Turn with it.
+
+
+!SOUND: Child's voice with a quiet adult register layered under it.
+
+[[CAMERA / DRAWING: CU Amaia's ribs · rate 3s; FX: HOLD; EYES_CLOSED]]
+
+[[S01-14 | 02:02:00–02:11:00 | 216 frames | SOURCE SHOT]]
+
+She turns with it. Every body leans into the turn; the camera rolls with them. Behind them on the bank the ledger man finishes his line and closes the book.
+
+
+!SOUND: Wood and water. Book closing: a flat clap.
+
+[[CAMERA / DRAWING: ROLL 12° · WS · rate 3s; FX: CAMERA_ROLL(0→12deg); CROSS_DISSOLVE_TO(book)]]
+
+[[S01-15 | 02:11:00–02:15:00 | 96 frames | SOURCE SHOT]]
+
+Black. The clap of the book rings into a keyboard clack (match to S03).
+
+
+!SOUND: Book clap → keyboard key.
+
+[[CAMERA / DRAWING: FIX · black · rate —; FX: MATCH_SOUND]]
+
+
+.TITLE CARD
+
+[[S02-01 | 02:15:00–02:27:00 | 288 frames | SOURCE SHOT]]
+
+Navy field. Sigil draws in gold. HERALDS OF THE CEMÍ in cream serif caps; below, EPISODE 1 · 3:07.
+
+
+!SOUND: Silence, then a low drone swells under the title and stops on the cut.
+
+[[CAMERA / DRAWING: FIX · title card · rate 3s; FX: SPIRAL_SIGIL; FILM_GRAIN; TITLE_SHIMMER(1 pass)]]
+
+
+.INT./EXT. JC'S ROOM / JEROME AVENUE - NIGHT
+
+[[S03-01 | 02:27:00–02:34:00 | 168 frames | SOURCE SHOT]]
+
+Jerome Ave at night. The elevated 4 train rumbles past in strobing window-light bars across the street. Crane up the brick back wall of JC's building to a lit fourth-floor window. Super: 3:07 AM · TUESDAY · MARCH.
+
+
+@JC (V.O.)
+I'll start with the part I'm not proud of, because my mother says if you start with the part you're proud of, God stops listening.
+
+
+!SOUND: The 4: rail scream, rising and falling. VO JC: “I'll start with the part I'm not proud of, because my mother says if you start with the part you're proud of, God stops listening.”
+
+[[CAMERA / DRAWING: CRANE UP · WS · rate 3s; FX: PAINTED_BG(night_street); TRAIN_STROBE(bars on street, 24fps); TEXT_SUPER]]
+
+[[S03-02 | 02:34:00–02:38:00 | 96 frames | SOURCE SHOT]]
+
+Gag: the window is so close to the El that JC extends a sandwich toward the passing conductor. Frame holds on the arm as the train blurs by.
+
+
+@JC (V.O.)
+...I could pass a sandwich to the conductor.
+
+
+!SOUND: VO: “...I could pass a sandwich to the conductor.” Mamá VO: pneumonia warning.
+
+[[CAMERA / DRAWING: FIX · MS window · rate 2s; FX: SPEED_LINES(horizontal); CEL_SMEAR(arm)]]
+
+[[S03-03 | 02:38:00–02:50:00 | 288 frames | SOURCE SHOT]]
+
+Room inventory pan on a single wide painted BG: radiator banging with little steam puffs; dev boards and cable; a Pyrex of arroz con habichuelas that belongs to the lady on three; a chair buried in laundry; the nightstand with the coin.
+
+
+!SOUND: Radiator bang. Bachata from the bodega radio. A rosary clicking through the wall.
+
+[[CAMERA / DRAWING: PAN L→R · interior · rate 3s; FX: PAINTED_BG(room_wide); PAN_STILL; CEL_OVERLAYS(steam,fan)]]
+
+[[S03-04 | 02:50:00–03:01:00 | 264 frames | SOURCE SHOT]]
+
+Dollhouse cross-section of the whole building. Colored ribbons rise through the floors: the 4 (steel white), radiator (rust), bachata (magenta), rosary (gold dots), a trumpet on six playing the same solo 'since the Obama administration'. All of them end at JC's closet.
+
+
+!SOUND: Each ribbon's sound mixes in as it's labelled. Trumpet solo repeats and cuts off mid-phrase.
+
+[[CAMERA / DRAWING: CUTAWAY · building section · rate 3s; FX: CUTAWAY_BG(building_section); SOUND_RIBBON(5 sources); LABEL_CELS]]
+
+[[S03-05 | 03:01:00–03:08:00 | 168 frames | SOURCE SHOT]]
+
+ECU: a contact mic clamped to the iron steam riser. Follow the pipe up through the wall to the roof. JC's laptop: a diegetic HUD. The mapping reads like a legend: pitch → color, rhythm → motion, loud → big. Name card: CHISMOSA.
+
+
+@JC (V.O.)
+...all it did was listen through the walls and tell me everybody's business.
+
+
+!SOUND: Pipe hum; VO JC: “...all it did was listen through the walls and tell me everybody's business.”
+
+[[CAMERA / DRAWING: INSERT · closet · rate 3s; FX: UI_LAPTOP(chismosa); SOUND_RIBBON; TEXT_SUPER(CHISMOSA)]]
+
+[[S03-06 | 03:08:00–03:18:00 | 240 frames | SOURCE SHOT]]
+
+The coin on the nightstand: copper, spirals and hooked triangles. He picks it up; faint warm shimmer like a seat someone just left. Flash cut: JC at 12 asleep, fever, dirt under his fingernails on the fourth floor of a building with no dirt in it; Abuela sets the coin in his hand.
+
+
+@JC (V.O.)
+The coin is copper, heavy for its size...it runs warm.
+
+
+!SOUND: VO: “The coin is copper, heavy for its size...it runs warm.”
+
+[[CAMERA / DRAWING: MACRO → CU · rate 3s; FX: HEAT_SHIMMER(low); FLASHBACK_GRADE(sepia, 3s); FILM_GRAIN(↑)]]
+
+[[S03-07 | 03:18:00–03:24:00 | 144 frames | SOURCE SHOT]]
+
+A hand-lettered list of things he can't explain, scrolling past. #47 circled: THE COIN.
+
+
+!SOUND: Pen on paper.
+
+[[CAMERA / DRAWING: INSERT · list · rate 3s; FX: HANDWRITING_CEL; SCROLL_CARD]]
+
+[[S03-08 | 03:24:00–03:30:00 | 144 frames | SOURCE SHOT]]
+
+The 4 goes by; he types one line. A small diegetic timer reads 8:00 and counts down to the next train: 'the train comes, I get eight minutes'.
+
+
+!SOUND: The 4, then keystrokes.
+
+[[CAMERA / DRAWING: FIX · MS desk · rate 3s; FX: UI_TIMER(8:00); TRAIN_STROBE]]
+
+[[S03-09 | 03:30:00–03:39:00 | 216 frames | SOURCE SHOT]]
+
+The ground floor of the building, four dissolves in order: Ballroom (1957 sign and doors) → laundromat → church → vape shop → current community arts space. An AR mural test is seen on a phone screen over brick.
+
+
+!SOUND: VO JC on the 'Ballroom' history. Dance-hall brass ghosted under each dissolve.
+
+[[CAMERA / DRAWING: DISSOLVES · facade · rate 3s; FX: FADE_BETWEEN(5 painted facades); UI_PHONE(AR_overlay)]]
+
+[[S03-10 | 03:39:00–03:48:00 | 216 frames | SOURCE SHOT]]
+
+First anomaly: a spiral that opens into a triangle, folded in itself. It resolves from static in three places with the same proportions each time: the screech of the 4, the heater upstairs, the hiss between radio stations. Match-cuts between the three. JC loses a whole Saturday ('I fall in and send a postcard').
+
+
+!SOUND: Static resolves toward a tone, three times.
+
+[[CAMERA / DRAWING: SPLIT · laptop UI · rate 3s; FX: SIGIL_FROM_STATIC; MATCH_CUT(x3); SPECTRAL_UI]]
+
+[[S03-11 | 03:48:00–03:56:00 | 192 frames | SOURCE SHOT]]
+
+Second anomaly: under everything, an 8-second pressed band repeating. He hits DEL; the band returns. He deleted it 'a dozen times as garbage'. A counter of DEL presses ticks up to 12.
+
+
+!SOUND: A dry, low 8s texture under the room. Key taps.
+
+[[CAMERA / DRAWING: FIX · laptop UI · rate 3s; FX: UI_LAPTOP(wave_lanes); PRESS(0.15 on UI only); UI_COUNTER]]
+
+[[SOURCE NOTE: Introduces the 192-frame loop; lock LOOP_FRAMES in all later cues.]]
+
+[[S03-12 | 03:56:00–04:04:00 | 192 frames | SOURCE SHOT]]
+
+The block's been mean lately: (1) Friday fight outside the bodega over a scratch-off; (2) two men who haven't spoken since JC was nine, not speaking, with reasons they can't give; (3) the super's dog bites a delivery guy, the super calls it 'a misunderstanding' as if the dog had misheard the order.
+
+
+!SOUND: Each vignette has the loop at -30 dB under it.
+
+[[CAMERA / DRAWING: MONTAGE · Jerome Ave · rate 3s; FX: HOLD_FLASH(3 cards); SPEED_LINES(fight); PRESS(0.1)]]
+
+[[S03-13 | 04:04:00–04:12:00 | 192 frames | SOURCE SHOT]]
+
+2:41 AM. Manny texts from the 6 train: u alive / define alive / breathing + bad decision energy / then yes / send the kid his EP / it's not done / it's been done for a week gremlin. JC turns the phone face down: 'Nobody should be known that well at three in the morning.'
+
+
+!SOUND: Phone buzz; keyclicks.
+
+[[CAMERA / DRAWING: UI · phone · rate 3s; FX: UI_PHONE(chat bubbles typed on); CUT_TO_BACK_OF_PHONE]]
+
+
+.INT. JC'S ROOM - NIGHT - THE OVERRIDE
+
+[[S04-01 | 04:12:00–04:18:00 | 144 frames | SOURCE SHOT]]
+
+Digital clock flips 12:07 → 3:07. Three demitasse cups appear and empty, one per hour. The train passes three times.
+
+
+!SOUND: Cafecito stir. The clock ticks faster each hour.
+
+[[CAMERA / DRAWING: FIX · desk, time-lapse · rate 3s; FX: CLOCK_FLIP; CUP_APPEAR(3); TRAIN_STROBE]]
+
+[[S04-02 | 04:18:00–04:24:00 | 144 frames | SOURCE SHOT]]
+
+The filter stack as three gauze panes between the pipe and the projector: SMOOTHING (a comb), GATING (a door), NOISE FLOOR (a line). The shape and the loop pass through all three unchanged.
+
+
+!SOUND: Muffled filter hum. The sigil tone passes clear.
+
+[[CAMERA / DRAWING: ABSTRACT · UI · rate 3s; FX: PANES_CEL(3); PASS_THROUGH(sigil,loop)]]
+
+[[S04-03 | 04:24:00–04:30:00 | 144 frames | SOURCE SHOT]]
+
+JC selects the config and deletes all of it. The three panes shatter into dust and vanish.
+
+
+!SOUND: Glass without reverb.
+
+[[CAMERA / DRAWING: CU hands · screen · rate 2s; FX: PANE_SHATTER_CEL; CAMERA_SHAKE(2f)]]
+
+[[S04-04 | 04:30:00–04:36:00 | 144 frames | SOURCE SHOT]]
+
+The projector, aimed at his bedroom wall, throws his cobalt handle test loop. The fan hums. Small reasonable voice (VO): this could fry the board.
+
+
+!SOUND: Fan hum. VO is JC's own voice, a half-step higher and tidy.
+
+[[CAMERA / DRAWING: WS room · rate 3s; FX: COBALT_HANDLE_UI; PROJECTOR_BEAM(dust)]]
+
+[[S04-05 | 04:36:00–04:43:00 | 168 frames | SOURCE SHOT]]
+
+A finger above the Enter key. The 4 is about to pass. His reflection in the dark screen. He hits Enter. The fan clicks. The 4 goes by.
+
+
+!SOUND: Silence. One key. Fan click.
+
+[[CAMERA / DRAWING: ECU finger → CU face · rate 3s; FX: HOLD(4s); FLASH_FRAME(1f on keypress)]]
+
+
+.INT. JC'S ROOM / 1957 BALLROOM ECHO - NIGHT
+
+[[S05-01 | 04:43:00–04:46:00 | 72 frames | SOURCE SHOT]]
+
+His ears pop 'like an elevator dropping a floor'. Air thickens at the edges of the frame.
+
+
+!SOUND: Pitch-fall pop. Fan click.
+
+[[CAMERA / DRAWING: DOLLY-ZOOM · CU JC · rate 3s; FX: DOLLY_ZOOM(3s); VIGNETTE_PUMP; HEAT_WAVE(edges)]]
+
+[[S05-02 | 04:46:00–04:51:00 | 120 frames | SOURCE SHOT]]
+
+The projector coughs. The cobalt 'JC' test loop breaks into static, which pulls toward the middle of the wall. The plaster surface ripples in concentric rings.
+
+
+!SOUND: Static sucks inward; plaster creak.
+
+[[CAMERA / DRAWING: WS room → CU wall · rate 2s; FX: STATIC_PULL(center); SHOCKWAVE_RING(wall); PLASTER_CRACK(hand-drawn, 2s)]]
+
+[[S05-03 | 04:51:00–04:57:00 | 144 frames | SOURCE SHOT]]
+
+'It was a room.' The wall gives way. The plaster goes back and back: a long hall, a floor with a shine, chandeliers that don't hang from JC's ceiling, a bandstand far away.
+
+
+!SOUND: Air rush. Orchestral brass fades up from inside the headphones around his neck.
+
+[[CAMERA / DRAWING: PUSH THROUGH WALL · rate 3s; FX: PERSPECTIVE_TUNNEL(painted BG, 6 layers); PLASTER_PEEL_CEL; FLASH_FRAME(1f)]]
+
+[[S05-04 | 04:57:00–05:06:00 | 216 frames | SOURCE SHOT]]
+
+The Ballroom, 1957. About forty couples made of light (blue and gold), two-tone shoes, skirts catching air; horn section on the bandstand; a cowbell ridden 'with no hurry at all'. Date super: THE BALLROOM · 1957.
+
+
+!SOUND: Horns, cowbell, shoe leather on maple, a woman laughing at the end of a phrase.
+
+[[CAMERA / DRAWING: CRANE & PAN · WS reveal · rate 3s; FX: LIGHT_FIGURE(dancers, bank cycles x3); PAINTED_BG(ballroom); GLOW_AIRBRUSH; FILM_GRAIN]]
+
+[[S05-05 | 05:06:00–05:09:00 | 72 frames | SOURCE SHOT]]
+
+The headphones around his neck, leaking music, tiny sound-lines. He has not put them on.
+
+
+!SOUND: Tinny, small, then opens to full range as the hall appears.
+
+[[CAMERA / DRAWING: INSERT · neck · rate 3s; FX: SOUND_LEAK_CEL]]
+
+[[S05-06 | 05:09:00–05:17:00 | 192 frames | SOURCE SHOT]]
+
+Hero pass: three couples in quick cuts. Footwork, a spin, a skirt flare. The cowbell hits the shoe strikes; the maple floor reflects them.
+
+
+!SOUND: Two-tone shoes on wood, in time with the cowbell.
+
+[[CAMERA / DRAWING: TRACK · hero dancers · rate 2s; FX: SKIRT_FLARE_CEL(2s); FLOOR_REFLECTION; SPEED_LINES(spin)]]
+
+[[SOURCE NOTE: The one passage allowed on 2s full dance animation; everything else here holds on 3s.]]
+
+[[S05-07 | 05:17:00–05:22:00 | 120 frames | SOURCE SHOT]]
+
+The floor inlay in darker wood: the spiral opening into a triangle. Dancers circle it without ever looking down. Insert: the coin on the nightstand, glinting.
+
+
+@JC (V.O.)
+It was the mark on my coin.
+
+
+!SOUND: Cowbell fades under JC's whisper: “It was the mark on my coin.”
+
+[[CAMERA / DRAWING: TOP SHOT · floor inlay · rate 3s; FX: TOP_DOWN_ROTATE(slow); SIGIL_INLAY(gold edge); MATCH_INSERT(coin)]]
+
+[[S05-08 | 05:22:00–05:27:00 | 120 frames | SOURCE SHOT]]
+
+Camera drops through the floors of the building, 4th to ground, as the year numerals tick down: 2026 … 1957. The Ballroom glows at the bottom. 'One floor under my feet and almost seventy years down.'
+
+
+!SOUND: Whoosh without Doppler; music stays centered.
+
+[[CAMERA / DRAWING: FALLING CAMERA · section · rate 2s; FX: BUILDING_SECTION_BG; YEAR_COUNTER(rapid); SPEED_BG(vertical)]]
+
+[[S05-09 | 05:27:00–05:33:00 | 144 frames | SOURCE SHOT]]
+
+'I felt it before I heard it': a pulse climbs the iron riser into JC's soles. Cut to a long dark window across the street. 'Across the street, I thought.' The loop arrives: dry, tuneless, the loudest thing on the block.
+
+
+!SOUND: Sub pulse up the pipe, then the 8s loop: no reverb, mono.
+
+[[CAMERA / DRAWING: INSERT → CROSSCUT · rate 3s; FX: PIPE_PULSE_CEL; MATCH_CUT(window across); PRESS(0.25 on audio only)]]
+
+[[S05-10 | 05:33:00–05:41:00 | 192 frames | SOURCE SHOT]]
+
+The band keeps playing. One couple loses the step, then the next. A woman's smile goes slack mid-turn. A man puts his hand on his partner's back and stands still.
+
+
+!SOUND: Brass loses high end and stereo width as the loop rises.
+
+[[CAMERA / DRAWING: MS ×3 → CU · rate 3s; FX: HOLD_FRAMES(drop to 6s on couples); SLACK_CEL_SEQ(see keys); PRESS(0.3 → 0.6 over the shot)]]
+
+[[SOURCE NOTE: SHOWCASE CUT 1 begins.]]
+
+[[S05-11 | 05:41:00–05:51:00 | 240 frames | SOURCE SHOT]]
+
+Pair by pair down the floor the shoulders drop and the faces empty, until the band is playing for a hall of people standing in their good clothes. The wave of stillness crosses toward the bandstand. The horns keep going.
+
+
+!SOUND: Music continues, drier each second; loop fills the gap.
+
+[[CAMERA / DRAWING: WS · long frame · rate 3s; FX: STILL_WAVE(near→far, 6s); PRESS(0.6→0.9); DEPTH_FLATTEN(parallax→0)]]
+
+[[S05-12 | 05:51:00–06:03:00 | 288 frames | SOURCE SHOT]]
+
+'The color didn't fade. It ran.' Blue and gold stream off the dancers as airbrushed ribbons, all leaning one way, across the hall and out through JC's window toward the empty building. Dancers turn gray-white. The floor mark goes as dark as the boards.
+
+
+!SOUND: A long exhale made of brass partials, falling in pitch.
+
+[[CAMERA / DRAWING: WHIP · WS · rate 2s; FX: AIRBRUSH_RIBBONS(blue,gold; count 40; 2s); STREAK_CEL; WHIP_PAN(follow river); SIGIL_GOES_DARK]]
+
+[[S05-13 | 06:03:00–06:07:00 | 96 frames | SOURCE SHOT]]
+
+'Something ticked on the nightstand.' The coin lifts half an inch, hangs, drops. Impact on wood.
+
+
+!SOUND: Single metallic tick.
+
+[[CAMERA / DRAWING: ECU · nightstand · rate 1s; FX: COIN_LIFT(see keys); FLASH_FRAME(1f at contact)]]
+
+[[SOURCE NOTE: A 1s moment, used sparingly.]]
+
+[[S05-14 | 06:07:00–06:11:00 | 96 frames | SOURCE SHOT]]
+
+He is already against the door; the chair is on its side. He did not decide to move. The coin is in his hand, hot now; his fingers recoil but hold.
+
+
+!SOUND: Chair clatters. Coin sizzle.
+
+[[CAMERA / DRAWING: JUMP CUT · CU palm · rate 2s; FX: JUMP_CUT(no inbetween); SPEED_LINES; HEAT_SHIMMER(red)]]
+
+[[S05-15 | 06:11:00–06:15:00 | 96 frames | SOURCE SHOT]]
+
+Everything in the apartment goes out at once: laptop, lamp, router LEDs, fan spin-down. Black.
+
+
+!SOUND: Fan whine falls. Total silence for 1s.
+
+[[CAMERA / DRAWING: FIX · room · rate —; FX: BLACKOUT_POP(sequential 3f gaps)]]
+
+[[S05-16 | 06:15:00–06:21:00 | 144 frames | SOURCE SHOT]]
+
+For two more seconds the dancers hang on the wall, blue and gold, with no projector under them. Then they go. The radiators tick back to normal, 'because as far as the radiators were concerned nothing had happened'.
+
+
+!SOUND: One last cowbell. Radiator ticks.
+
+[[CAMERA / DRAWING: FIX · wall in darkness · rate 3s; FX: TRANSMITTED_LIGHT_ONLY; FADE_OUT(48f); HOLD_BLACK]]
+
+
+.INT./EXT. JC'S BUILDING - BLACKOUT
+
+[[S06-01 | 06:21:00–06:26:00 | 120 frames | SOURCE SHOT]]
+
+Darkness. Two taps on the door: one to ask, one to tell you what she decided. Slippers show as shadows under the door.
+
+
+!SOUND: Two taps: first rising, second falling. Rosary clicks.
+
+[[CAMERA / DRAWING: FIX · door · rate 3s; FX: SHADOW_CEL(door gap); CHROMA_BLEED]]
+
+[[S06-02 | 06:26:00–06:42:00 | 384 frames | SOURCE SHOT]]
+
+Mamá: “Juan Carlos. Se fue la luz.” JC: “It's the whole block, Má.” (He hadn't checked; said with 'total confidence and no evidence'.) The rosary clicks in her fist; he can hear her decide not to ask. “Acuéstate.” Her slippers go down the hall and stop; she stands at the end of the hall, as she does.
+
+
+@MAMÁ
+Juan Carlos. Se fue la luz.
+
+
+@JC
+It's the whole block, Má.
+
+
+@MAMÁ
+Acuéstate.
+
+
+!SOUND: Muffled Spanish through wood. Rosary. Slippers.
+
+[[CAMERA / DRAWING: TWO-SHOT split door · rate 3s; FX: HOLD(bank cel); MOUTH_FLAP(3 drawings); DOOR_CROSS_CUT]]
+
+[[S06-03 | 06:42:00–06:48:00 | 144 frames | SOURCE SHOT]]
+
+The block is out: streetlights, bodega sign, the laundromat on Jerome, every window up and down. Distant city skyline glows normally beyond the block's edge.
+
+
+!SOUND: Distant city hum; none on the block.
+
+[[CAMERA / DRAWING: WS · window POV · rate 3s; FX: PAINTED_BG(night_block_dark); AMBIENT_GLOW(far skyline)]]
+
+[[SOURCE NOTE: [ADAPT] The far skyline lit makes the blackout read as block-sized.]]
+
+[[S06-04 | 06:48:00–06:56:00 | 192 frames | SOURCE SHOT]]
+
+Foreground sill → across the street: one window on the third floor of the empty building (blue construction netting) is lit, flat white, no flicker. A man in headphones stands there facing JC's building.
+
+
+!SOUND: Room tone. The loop is almost gone: a thread at -40 dB.
+
+[[CAMERA / DRAWING: RACK FOCUS · PUSH-IN · rate 3s; FX: RACK_FOCUS; PUSH_IN(5% over 8s); FLAT_LIGHT_CEL]]
+
+[[S06-05 | 06:56:00–07:02:00 | 144 frames | SOURCE SHOT]]
+
+When he steps back from the glass the man does not move. Hold. Smash to black.
+
+
+!SOUND: Cut to silence, then rosary click fades.
+
+[[CAMERA / DRAWING: MCU JC → WS window · rate 3s; FX: HOLD(4s); SMASH_CUT_BLACK]]
+
+[[SOURCE NOTE: Do not identify the man. See flags in the closing section.]]
+
+
+.INT. KITCHEN / STAIRWELL - MORNING
+
+[[S07-01 | 07:02:00–07:06:00 | 96 frames | SOURCE SHOT]]
+
+Super: TUESDAY · MORNING. Kitchen, dawn light through the window. Radio on low, a merengue. Chair rocks on a short leg propped by a folded Con Ed bill (since 2011).
+
+
+!SOUND: Merengue on radio; the chair's rock clicks.
+
+[[CAMERA / DRAWING: FIX · title super · rate 3s; FX: PAINTED_BG(kitchen_dawn); TEXT_SUPER; INSERT_CU(chair)]]
+
+[[S07-02 | 07:06:00–07:12:00 | 144 frames | SOURCE SHOT]]
+
+Mamá turns salami with a fork. Queso frito sizzles. Mangú steam. Real food painting: background-grade cels for the food.
+
+
+!SOUND: Sizzle, radio, fork on pan.
+
+[[CAMERA / DRAWING: ECU series · rate 3s; FX: FOOD_PAINT_CEL; STEAM_LOOP(bank)]]
+
+[[S07-03 | 07:12:00–07:34:00 | 528 frames | SOURCE SHOT]]
+
+Mamá: “La luz se fue a las tres y volvió a las cuatro. Con Ed says transformer. The super says Con Ed. Doña Fela on five says it was the Lord.” “What do you say?” “I say the keyboard stopped at three-oh-seven. I look at the clock when you don't sleep. Siéntate.” (Los tres golpes.)
+
+
+@MAMÁ
+La luz se fue a las tres y volvió a las cuatro. Con Ed says transformer. The super says Con Ed. Doña Fela on five says it was the Lord.
+
+
+@JC
+What do you say?
+
+
+@MAMÁ
+I say the keyboard stopped at three-oh-seven. I look at the clock when you don't sleep. Siéntate.
+
+
+!SOUND: Pan, kitchen sounds, Mamá's dry voice.
+
+[[CAMERA / DRAWING: TWO-SHOT / OTS · rate 3s; FX: HOLD(bank cel); MOUTH_FLAP]]
+
+[[S07-04 | 07:34:00–07:48:00 | 336 frames | SOURCE SHOT]]
+
+Mamá gives him 'the slow inspection that doesn't miss anything.' “Tu abuela llamó anoche. Antes de que se fuera la luz.” “She good?” “She's old, she's stubborn, she's good.” (practiced pause) “She asked if it already started.” The mangú turns to wet sand in his mouth.
+
+
+@MAMÁ
+Tu abuela llamó anoche. Antes de que se fuera la luz.
+
+
+@JC
+She good?
+
+
+@MAMÁ
+She's old, she's stubborn, she's good.
+
+
+@MAMÁ
+She asked if it already started.
+
+
+!SOUND: Radio drops away on 'started'.
+
+[[CAMERA / DRAWING: MCU · slow · rate 3s; FX: FOOD_DESATURATE(to wet sand, 3s); LOOK_HOLD(2s)]]
+
+[[S07-05 | 07:48:00–07:58:00 | 240 frames | SOURCE SHOT]]
+
+'The Look': Mamá looks over her coffee and decides not to answer. Dissolve through JC at nine (asking where Papá goes on nights he doesn't come home) and after the fever at twelve. Same pose, same angle, three eras of warm light.
+
+
+!SOUND: Silence except coffee cup on saucer. Each time: her 'Mm' with a sermon folded inside.
+
+[[CAMERA / DRAWING: TRIPTYCH · dissolves · rate —; FX: HARMONY_CUT(freeze + pastel posterize); DISSOLVE_TRIPTYCH]]
+
+[[SOURCE NOTE: [ADAPT] The Dezaki-style freeze + hatched pastel still is the 90s answer to a flashback.]]
+
+[[S07-06 | 07:58:00–08:10:00 | 288 frames | SOURCE SHOT]]
+
+“Eat lunch. A real one. Not coffee.” “Promise.” “You said that yesterday.” “I'll mean it harder today.” The coin is warm against his hip; something that kept its mouth shut for twenty-five years clears its throat.
+
+
+@MAMÁ
+Eat lunch. A real one. Not coffee.
+
+
+@JC
+Promise.
+
+
+@MAMÁ
+You said that yesterday.
+
+
+@JC
+I'll mean it harder today.
+
+
+!SOUND: Under radio and Mamá's back, a low throat-clear rumble.
+
+[[CAMERA / DRAWING: CU · pocket · rate 3s; FX: HEAT_SHIMMER(pocket); LIST_APPEND(Ballroom, dancers, man in window, grandmother's question); GLOW_AIRBRUSH(low)]]
+
+[[S07-07 | 08:10:00–08:16:00 | 144 frames | SOURCE SHOT]]
+
+He heads for work down four flights. At the fourth-floor stairwell wall his hand brushes the plaster; for a frame he almost listens.
+
+
+!SOUND: Stairwell echo; a very faint wall hum that isn't there.
+
+[[CAMERA / DRAWING: TRACK · stairwell · rate 3s; FX: PAINTED_BG(stairwell); HAND_BRUSH_CEL]]
+
+[[SOURCE NOTE: [ADAPT] Plants Mikey (S14).]]
+
+
+.EXT. JEROME AVENUE - MORNING
+
+[[S08-01 | 08:16:00–08:21:00 | 120 frames | SOURCE SHOT]]
+
+Banner on the netting, four stories tall: smiling mural people, 'A CALMER BLOCK STARTS HERE.' in rounded friendly type.
+
+
+!SOUND: Street ambience. Light jingle ghost.
+
+[[CAMERA / DRAWING: TILT UP · WS · rate 3s; FX: PAINTED_BG(banner); STOCK_PHOTO_STYLE(flat vector, deliberately bland)]]
+
+[[S08-02 | 08:21:00–08:26:00 | 120 frames | SOURCE SHOT]]
+
+Logo: a camera iris. As JC's eyes trace the blades, the overlapped curve lines up with the cemí spiral for exactly 3 frames, then un-aligns. Text: Aperture Civic. Community Spaces, Coming Soon.
+
+
+!SOUND: A tiny soft 'click' like a shutter.
+
+[[CAMERA / DRAWING: CU logo · rate 3s; FX: SIGIL_RHYME(3f overlay, 40% alpha); FLASH_FRAME(1f)]]
+
+[[S08-03 | 08:26:00–08:42:00 | 384 frames | SOURCE SHOT]]
+
+Two guys in hi-vis bolting the last corner to the scaffold. The one with the ladder has headphones around his neck. “Morning.” “You guys work late?” “Nights? Nah. Union. We clock out at three-thirty. Daylight only.” JC glances at the third-floor window: dark.
+
+
+@WORKER
+Morning.
+
+
+@JC
+You guys work late?
+
+
+@WORKER
+Nights? Nah. Union. We clock out at three-thirty. Daylight only.
+
+
+!SOUND: Wrench clicks; elevated train in distance.
+
+[[CAMERA / DRAWING: TWO-SHOT · rate 3s; FX: HOLD(bank cel); MOUTH_FLAP; INSERT_CU(window dark)]]
+
+[[SOURCE NOTE: Give him a distinct face. The headphone silhouette is a deliberate rhyme, not the window man.]]
+
+[[S08-04 | 08:42:00–08:48:00 | 144 frames | SOURCE SHOT]]
+
+JC thanks him 'like a normal person' and walks toward the train. His heart does something rude: a heartbeat pulse in the frame edges.
+
+
+!SOUND: Footsteps; heartbeat low.
+
+[[CAMERA / DRAWING: TRACK · walk · rate 3s; FX: HEARTBEAT_PUMP(vignette); PAN_WITH_WALK]]
+
+
+.INT./EXT. EL DISCO CAFÉ - MORNING
+
+[[S09-01 | 08:48:00–08:53:00 | 120 frames | SOURCE SHOT]]
+
+El Disco Café under the El. A train passes overhead and the sign shakes. Where the paint has worn, older letters come through: DISCOS QUISQUEYA.
+
+
+!SOUND: Train roar; shake; everyone inside keeps talking.
+
+[[CAMERA / DRAWING: WS · exterior · rate 3s; FX: PAINTED_BG(cafe_exterior); TRAIN_SHAKE(CAMERA); PALIMPSEST_TEXT(fade)]]
+
+[[S09-02 | 08:53:00–08:58:00 | 120 frames | SOURCE SHOT]]
+
+Narrow room, tin ceiling, no two chairs from the same family, back wall where record bins used to run. The whole place shakes; cups rattle.
+
+
+!SOUND: Background chatter loop; steamer; grinder.
+
+[[CAMERA / DRAWING: PAN · interior · rate 3s; FX: PAINTED_BG(cafe_interior); CUP_RATTLE_CEL]]
+
+[[S09-03 | 08:58:00–09:18:00 | 480 frames | SOURCE SHOT]]
+
+Mr. Rodríguez, not looking up: “Dime a ver, poeta. And that face.” “What face?” “That one. You look like you're getting a station the rest of us don't get.” “Long night. The power went out.” “The whole block, sí. Doña Fela says the Lord. Go. It's Tuesday, three gigs, no lunch. I'm not paying you to look haunted. Although it's good for the brand.”
+
+
+@MR. RODRÍGUEZ
+Dime a ver, poeta. And that face.
+
+
+@JC
+What face?
+
+
+@MR. RODRÍGUEZ
+That one. You look like you're getting a station the rest of us don't get.
+
+
+@JC
+Long night. The power went out.
+
+
+@MR. RODRÍGUEZ
+The whole block, sí. Doña Fela says the Lord. Go. It's Tuesday, three gigs, no lunch. I'm not paying you to look haunted. Although it's good for the brand.
+
+
+!SOUND: Tray on counter; his dry delivery.
+
+[[CAMERA / DRAWING: OTS · eyebrows insert · rate 3s; FX: EYEBROW_GAG(CU, 2s); HOLD(bank cel); MOUTH_FLAP]]
+
+[[S09-04 | 09:18:00–09:24:00 | 144 frames | SOURCE SHOT]]
+
+JC's rent math as floating numbers: café pays Friday, mural milestone, kid pays his half. Nine days. Sums orbit, cross each other out; 'it has never once come out even.' Tigueraje.
+
+
+!SOUND: Calculator tick; his mouth moves silently.
+
+[[CAMERA / DRAWING: OVERLAY · JC · rate 3s; FX: NUMBER_ORBIT(handwritten); CROSS_OUT_CEL]]
+
+[[S09-05 | 09:24:00–09:33:00 | 216 frames | SOURCE SHOT]]
+
+The map on butcher paper: Jerome Ave from 161st to 170th in pencil and marker, covered in index cards: Casa Fela, shoe repair, 1968–1994. Don Chino's barbershop (the line went out the door on Sundays). The Rialto, 25¢ Saturdays. A new card each week. One corner is blank.
+
+
+!SOUND: Pencil on paper over the café hum.
+
+[[CAMERA / DRAWING: PAN · map · rate 3s; FX: PAN_STILL(painted map); CARD_POP(8 cards, hand-drawn icons)]]
+
+[[S09-06 | 09:33:00–09:44:00 | 264 frames | SOURCE SHOT]]
+
+“Your building's empty. The Ballroom. Saturday nights, mambo bands, my mother in her best shoes. I have the dates wrong, I know I do. You live upstairs. Ask your mother.” Hands over a blank card and marker. “Because when they change the block they change the story, and I want the story on paper first.” The 4 goes through, the cups rattle, he's gone to a table.
+
+
+@MR. RODRÍGUEZ
+Your building's empty. The Ballroom. Saturday nights, mambo bands, my mother in her best shoes. I have the dates wrong, I know I do. You live upstairs. Ask your mother.
+
+
+@MR. RODRÍGUEZ
+Because when they change the block they change the story, and I want the story on paper first.
+
+
+!SOUND: Train roar punctuates the line; cups.
+
+[[CAMERA / DRAWING: CU · blank card · rate 3s; FX: TRAIN_SHAKE; HOLD; PUSH_IN(blank card)]]
+
+
+.INT. EL DISCO CAFÉ - MORNING - MANNY
+
+[[S10-01 | 09:44:00–09:49:00 | 120 frames | SOURCE SHOT]]
+
+9:30. Manny enters backward, shouldering the door with a drum case in one hand and two iced coffees in the other. “For the labor. I'm management now. I delegate hydration.”
+
+
+@MANNY
+For the labor. I'm management now. I delegate hydration.
+
+
+!SOUND: Door bell. Ice rattles.
+
+[[CAMERA / DRAWING: WS door → MS · rate 3s; FX: DOOR_BUMP_CEL; SMEAR_CEL(1f)]]
+
+[[S10-02 | 09:49:00–09:58:00 | 216 frames | SOURCE SHOT]]
+
+Quick intro vignettes: nine-year-old Manny hits a city trash can with two pencils so clean a grown man stops to listen; Manny at six-three doing a salsa step like a refrigerator; “allergic to emotions.”
+
+
+!SOUND: Pencil-on-trash-can groove, tight.
+
+[[CAMERA / DRAWING: BIO CARDS · rate 2s; FX: VIGNETTE_CARDS(3); SPEED_LINES; SMEAR_CEL]]
+
+[[S10-03 | 09:58:00–10:12:00 | 336 frames | SOURCE SHOT]]
+
+Manny rests one palm flat on the drum case. The café has six noises (grinder, steamer, a stroller with a squeaky wheel, two guys on the Yankees bullpen, the freelancer's keyboard, Jerome traffic). They quit arguing and fall into one groove; you can almost hear a window click into its track; the baby, about to scream, sighs and closes her eyes. Manny doesn't notice. JC watches.
+
+
+!SOUND: The six sounds start as noise, then lock into one pocket tempo. The steamer whistle sits on a clean A (440 Hz).
+
+[[CAMERA / DRAWING: CU palm → WS · rate 3s; FX: SOUND_RIBBON(6; amber,white,lime,red,cyan,violet); RIBBONS_BRAID(1.5s); WINDOW_CLICK_INSERT; BABY_SIGH_CU]]
+
+[[S10-04 | 10:12:00–10:30:00 | 432 frames | SOURCE SHOT]]
+
+“You good?” “Long night.” “You always say long night. You ever have a short one?” “Twice. 2019. It was great.” “How's the kid's EP?” “Done.” “So send it.” “It needs one more pass.” “It's needed one more pass for a week, gremlin. Sunday. Rafa's circle in the park, you coming? Bring nothing. Stand in the back.” “I'll try.” “That's a no in a nicer shirt.”
+
+
+@MANNY
+You good?
+
+
+@JC
+Long night.
+
+
+@MANNY
+You always say long night. You ever have a short one?
+
+
+@JC
+Twice. 2019. It was great.
+
+
+@MANNY
+How's the kid's EP?
+
+
+@JC
+Done.
+
+
+@MANNY
+So send it.
+
+
+@JC
+It needs one more pass.
+
+
+@MANNY
+It's needed one more pass for a week, gremlin. Sunday. Rafa's circle in the park, you coming? Bring nothing. Stand in the back.
+
+
+@JC
+I'll try.
+
+
+@MANNY
+That's a no in a nicer shirt.
+
+
+!SOUND: Warm café ambience; Manny's easy bass voice.
+
+[[CAMERA / DRAWING: OTS dialogue · rate 3s; FX: HOLD(bank cel); MOUTH_FLAP; CHEEK_SMEAR(laugh)]]
+
+[[S10-05 | 10:30:00–10:38:00 | 192 frames | SOURCE SHOT]]
+
+Yari's daily text: did you eat / define eat / juan carlos. He sends a photo of the iced coffee; she replies with one skull.
+
+
+!SOUND: Phone buzz and whoosh.
+
+[[CAMERA / DRAWING: UI · phone · rate 3s; FX: UI_PHONE(bubbles); EMOJI_CEL]]
+
+
+.INT. EL DISCO CAFÉ - MORNING - THE EMAIL
+
+[[S11-01 | 10:38:00–10:43:00 | 120 frames | SOURCE SHOT]]
+
+10:40. Email: From: Partnerships Team, Aperture Civic. Subject: Juan Carlos — we've been watching your work.
+
+
+!SOUND: Buzz.
+
+[[CAMERA / DRAWING: CU phone · rate 3s; FX: UI_PHONE(email)]]
+
+[[S11-02 | 10:43:00–10:57:00 | 336 frames | SOURCE SHOT]]
+
+The email body scrolls, key phrases glowing slightly: 'building-listening practice', 'real resources', 'Founders' Night … Kingsbridge Armory', 'no strings on the creative', 'We'd like to take it off you.' Signed Adrian Vale, Director of Community Partnerships.
+
+
+!SOUND: Voice read: neutral, warm. Behind it the café quiets.
+
+[[CAMERA / DRAWING: CU phone · push · rate 3s; FX: TEXT_HIGHLIGHT(CEL); READ_TWICE_CUT(2x)]]
+
+[[S11-03 | 10:57:00–11:05:00 | 192 frames | SOURCE SHOT]]
+
+JC reads it twice; the second reading is worse because they are right. Flattery he can shrug off. This named the thing he is proud of. Nine days from rent, on cafecito and spite.
+
+
+!SOUND: VO as in the book, trimmed.
+
+[[CAMERA / DRAWING: MS counter · rate 3s; FX: OVERLAY_SUMS(callback S09); FLATTEN(0.15)]]
+
+[[S11-04 | 11:05:00–11:14:00 | 216 frames | SOURCE SHOT]]
+
+On the third read, at 'take it off you': the coin goes from warm to a heat he feels through the denim. The steamer whistle, sitting on a clean A (440 Hz), sags half a step flat (≈415 Hz). Manny's palm is still on the case: the note comes back.
+
+
+!SOUND: Whistle sag and recovery are the sound cue.
+
+[[CAMERA / DRAWING: ECU pocket · rate 3s; FX: HEAT_SHIMMER(pocket ↑); PITCH_SAG(audio -100 cents, 2s → recover 1s); PRESS(0.12)]]
+
+[[S11-05 | 11:14:00–11:22:00 | 192 frames | SOURCE SHOT]]
+
+Thumb above the screen: open it, read the rest, see the number. He forwards the preview to Sofía (is this anything) and flips the phone face down. Flash: a hand gripping a small child's sleeve at a curb as a car passes. 'No. Not them.'
+
+
+!SOUND: Car horn dopplering; one breath.
+
+[[CAMERA / DRAWING: CU thumb → flash · rate 3s; FX: FLASH_CUT(3 cards, 4f each); PHONE_FACE_DOWN]]
+
+[[SOURCE NOTE: Don't show the face of whoever held the sleeve.]]
+
+[[S11-06 | 11:22:00–11:46:00 | 576 frames | SOURCE SHOT]]
+
+“What was that face?” “Spam.” Manny holds out his hand. JC lets him read it. “Bro. Hardware? A budget? A commission at the Armory? That's a real stage, JC.” “I'm not calling them back.” “Why.” “I can't explain it. I'm not doing it.” “Last time you couldn't explain it, it was the dude selling Hennessy out a Honda, and you were right. It'll cost you, though. Real money.” “I know.” “Just so the record reflects I tried to make you rich. Sofía's gonna make a spreadsheet. It's gonna have tabs.”
+
+
+@MANNY
+What was that face?
+
+
+@JC
+Spam.
+
+
+@MANNY
+Bro. Hardware? A budget? A commission at the Armory? That's a real stage, JC.
+
+
+@JC
+I'm not calling them back.
+
+
+@MANNY
+Why.
+
+
+@JC
+I can't explain it. I'm not doing it.
+
+
+@MANNY
+Last time you couldn't explain it, it was the dude selling Hennessy out a Honda, and you were right. It'll cost you, though. Real money.
+
+
+@JC
+I know.
+
+
+@MANNY
+Just so the record reflects I tried to make you rich. Sofía's gonna make a spreadsheet. It's gonna have tabs.
+
+
+!SOUND: Warm café ambience; the train arrives at the end.
+
+[[CAMERA / DRAWING: OTS dialogue · rate 3s; FX: HOLD(bank cel); MOUTH_FLAP; HONDA_FLASH_CEL(2f)]]
+
+[[SOURCE NOTE: The Honda flash plants Ch.5.]]
+
+
+.INT. EL DISCO CAFÉ / DISCOS QUISQUEYA ECHO - 1973
+
+[[S12-01 | 11:46:00–11:51:00 | 120 frames | SOURCE SHOT]]
+
+11:12. The 4 hits the curve up the block and screams on the rail. Inside the café the steamer whistle lands on the same note. Two sound-ribbons merge into one line.
+
+
+!SOUND: Train + whistle unison, then a shimmer on top.
+
+[[CAMERA / DRAWING: WS street · ECU rail · rate 3s; FX: RIBBON_MERGE(steel_white + brass_gold); SPARKS_CEL; TEXT_SUPER(11:12)]]
+
+[[S12-02 | 11:51:00–11:56:00 | 120 frames | SOURCE SHOT]]
+
+The contact-mic puck on the steel counter edge takes the train, the steamer and everything the old counter ever stood next to, and pours it into his left ear: a luminous ribbon travels counter → earbud.
+
+
+!SOUND: Left channel loaded: stereo mix goes hard left.
+
+[[CAMERA / DRAWING: ECU puck → ear · rate 3s; FX: SOUND_STREAM_CEL; HOLD(puck)]]
+
+[[S12-03 | 11:56:00–12:00:00 | 96 frames | SOURCE SHOT]]
+
+The building shakes the way it always does. His eyes, which had no vote, go where his ear went.
+
+
+!SOUND: A held train bed.
+
+[[CAMERA / DRAWING: ECU eyes · rate 3s; FX: EYELINE_SHIFT; REFLECT_CEL(tin ceiling)]]
+
+[[S12-04 | 12:00:00–12:07:00 | 168 frames | SOURCE SHOT]]
+
+The tin ceiling stays as the anchor. Everything else changes front-to-back: mismatched chairs → a uniform set; empty bins fill with 45s in paper sleeves; two box fans appear; the air shimmers with heat. Color grade swings to warm 1973.
+
+
+!SOUND: Mambo from a lunchbox radio fades in; fan whir.
+
+[[CAMERA / DRAWING: WIPE_ERA · interior · rate 3s; FX: WIPE_ERA(anchor=ceiling); BIN_FILL_STAGGER(1s); LIGHT_FIGURE(0.4); FILM_GRAIN↑; HALATION]]
+
+[[S12-05 | 12:07:00–12:15:00 | 192 frames | SOURCE SHOT]]
+
+Sign: HOY NO SE FÍA, MAÑANA SÍ. Behind the register a man with a mustache, a good shirt, Mr. Rodríguez's eyebrows 'half a century early'. Flyer in the window: BACK TO SCHOOL JAM — SEDGWICK — SAT.
+
+
+!SOUND: Mambo; register bell.
+
+[[CAMERA / DRAWING: MS · counterman · rate 3s; FX: EYEBROW_MATCH_CUT(S09); PAINTED_BG(shop_1973); DUST_IN_LIGHT]]
+
+[[S12-06 | 12:15:00–12:31:00 | 384 frames | SOURCE SHOT]]
+
+A kid, fifteen or sixteen, shell-toe Adidas, a milk crate on his hip, puts down two copies of the same record. “Dos iguales? You got two turntables?” “Todavía no.” He pays in quarters and leaves with the crate. The counterman shakes his head, smiling, as if told a good lie.
+
+
+@COUNTERMAN
+Dos iguales? You got two turntables?
+
+
+@CRATE KID
+Todavía no.
+
+
+!SOUND: Quarters on the counter, spinning.
+
+[[CAMERA / DRAWING: LOW ANGLE counter · rate 3s; FX: QUARTERS_SPIN_CEL; MOUTH_FLAP; SHOE_INSERT]]
+
+[[S12-07 | 12:31:00–12:41:00 | 240 frames | SOURCE SHOT]]
+
+At the far end, where the sun doesn't reach, a thin man in a brown suit with a small notebook. He bought nothing. He writes quickly, one mark at a time. His eyes follow the kid to the door, then the street, 'as if the street were part of the sale'. He ticks something. Then he looks up past the register, at the exact spot in the air where JC stands.
+
+
+!SOUND: Pen tick placed forward. At the eye-lock, a cut to silence.
+
+[[CAMERA / DRAWING: WHIP-PAN · MS · rate 3s; FX: WHIP_PAN(eyeline to street); PUSH_IN(thin man, 6%); FLASH_FRAME(2f at eye-lock); DOUBLE_EXPOSURE(window man, 8f)]]
+
+[[SOURCE NOTE: SHOWCASE CUT 2 climaxes here. Show the window man for 8 frames in double exposure, not a clear reveal.]]
+
+[[S12-08 | 12:41:00–12:49:00 | 192 frames | SOURCE SHOT]]
+
+Snap back. The pitcher is overflowing; milk runs over JC's knuckles, hot, and he didn't feel it. “JC. JC.” Manny's hand on his shoulder; the freelancer is staring; Mr. Rodríguez is already halfway across the room. JC's voice comes from 'the far side of a wall'.
+
+
+@MANNY
+JC. JC.
+
+
+!SOUND: Sound returns with a slam; JC's voice delayed and muffled, then clear.
+
+[[CAMERA / DRAWING: CU milk → CU Manny · rate 2s; FX: MILK_OVERFLOW_CEL(see keys); FLASH_FRAME(1f); VOICE_MUFFLE → CLEAR]]
+
+[[S12-09 | 12:49:00–13:07:00 | 432 frames | SOURCE SHOT]]
+
+“You went somewhere.” Low, just for him; his other palm is still flat on the case and the room comes back together around it. “That wasn't a tired thing.” “It was a tired thing.” “JC.” “It was a tired thing, Manny.” He wipes the milk: his skin is pink and fine. He dumps the latte and starts another, 'performing steady'. “I didn't eat. I told my mom I'd eaten. I didn't eat.” Manny takes his hand off slowly, watches from the side of his eye.
+
+
+@MANNY
+You went somewhere.
+
+
+@MANNY
+That wasn't a tired thing.
+
+
+@JC
+It was a tired thing.
+
+
+@MANNY
+JC.
+
+
+@JC
+It was a tired thing, Manny.
+
+
+@JC
+I didn't eat. I told my mom I'd eaten. I didn't eat.
+
+
+!SOUND: Café noises braiding back together.
+
+[[CAMERA / DRAWING: OTS dialogue · rate 3s; FX: SIX_NOISES_REKNIT; HOLD; MOUTH_FLAP]]
+
+[[S12-10 | 13:07:00–13:15:00 | 192 frames | SOURCE SHOT]]
+
+Twenty cortados in a rhythm montage with the 4 passing and the steamer on a clean A. On number fourteen, JC realizes what bothered him about the email: it said 'building-listening'. Nobody had ever called it that. Inserts: closet, raw feed, one laptop on the fourth floor.
+
+
+!SOUND: Rhythmic cup-and-steam beat; sudden quiet on the realization.
+
+[[CAMERA / DRAWING: MONTAGE · rate 2s; FX: COUNTER_TICKER(1→20); INSERT_CLOSET; TEXT_HIGHLIGHT('building-listening')]]
+
+[[S12-11 | 13:15:00–13:24:00 | 216 frames | SOURCE SHOT]]
+
+He takes a blank card and writes: Ballroom, Saturday nights, mambo bands. Ask Mamá. A yellow pushpin pins it to the empty corner of Jerome. The 4 comes through, the whole room shakes, and everybody keeps talking.
+
+
+!SOUND: Pen. Pin. Train. Chatter continues.
+
+[[CAMERA / DRAWING: CU card → PUSH-IN map · rate 3s; FX: HANDWRITING_CEL; PUSHPIN_INSERT; TRAIN_SHAKE]]
+
+
+.INT. CONCOURSE LIBRARY / READING ROOM ECHO - DAY
+
+[[S13-01 | 13:24:00–13:29:00 | 120 frames | SOURCE SHOT]]
+
+Super: 2:15 PM. Library vending machine: platanitos and a ginger ale. 'That counts.' Mamá's disapproving VO: she would call it a funeral for a lunch.
+
+
+!SOUND: Machine thump; ginger-ale hiss.
+
+[[CAMERA / DRAWING: WS · vending machine · rate 3s; FX: PAINTED_BG(library_hall); TEXT_SUPER]]
+
+[[S13-02 | 13:29:00–13:34:00 | 120 frames | SOURCE SHOT]]
+
+The old branch on the Concourse: green-shaded lamps, oak tables rubbed shiny by ninety years of elbows, a radiator that knocks, a man in a Mets jacket snoring in 'long, generous phrases' (JC calls him a public service).
+
+
+!SOUND: Radiator knock; snore; lamp buzz.
+
+[[CAMERA / DRAWING: WS · reading room · rate 3s; FX: PAINTED_BG(library_interior); LAMP_GLOW]]
+
+[[S13-03 | 13:34:00–13:44:00 | 240 frames | SOURCE SHOT]]
+
+Sofía's text flood: that 'is this anything' email / JC / where are you / ok i'm not waiting. it's not spam. it's so much worse than spam / you in a hole. you're in a hole aren't you / i can see your location you absolute bobo. don't move. Then Denise: Hi JC! Quick heads up, the board is holding your milestone payment until our partner review next week. Just process!
+
+
+!SOUND: Rapid buzzes; Denise's text read in a chirpy VO.
+
+[[CAMERA / DRAWING: UI · phone · rate 3s; FX: UI_PHONE(chat typed fast); EXCLAMATION_CEL; OVERLAY_SUMS]]
+
+[[S13-04 | 13:44:00–13:53:00 | 216 frames | SOURCE SHOT]]
+
+Four searches and a museum site that looks like 2003. A glass-case photo from three angles: a three-pointed dark stone, size of a fist, a face carved on the front, on the back a spiral opening into a triangle. Card: Zemí (cemí), Dominican Republic, c. 1000–1500. The Taíno thought of a cemí as a spirit and the thing the spirit lived in, both at once.
+
+
+!SOUND: Dial-up-adjacent modem texture, tastefully; VO reads the card.
+
+[[CAMERA / DRAWING: CU laptop · rate 3s; FX: WEB_1999_UI(frames, tiled bg); STONE_ROTATE_3VIEWS; TEXT_SUPER(card)]]
+
+[[S13-05 | 13:53:00–14:00:00 | 168 frames | SOURCE SHOT]]
+
+He lays the coin beside the screen. The hooks match; the spiral turns the same way and opens in the same place. A pen draws both with one stroke: 'same handwriting'.
+
+
+!SOUND: A very soft chime on alignment.
+
+[[CAMERA / DRAWING: CU coin vs screen · rate 3s; FX: OVERLAY_ALIGN(coin ↔ stone, gold glow); HANDWRITING_CEL(single stroke)]]
+
+[[S13-06 | 14:00:00–14:10:00 | 240 frames | SOURCE SHOT]]
+
+JC at eight, the only visit he remembers: bright room, a closet, a bundle wrapped in old cloth the size of two cupped hands. He reaches. Abuela's hand catches his wrist, quick and not hard, the way you stop a glass going off a counter. “No se toca a la Madre.” Then she gives him a mango and that ends the discussion.
+
+
+@ABUELA
+No se toca a la Madre.
+
+
+!SOUND: Ceiling fan, distant moto, no score.
+
+[[CAMERA / DRAWING: FLASHBACK · Santo Domingo · rate 3s; FX: FLASHBACK_PALETTE(saturated tropical, watercolor BG); HOLD; HANDS_ONLY(Abuela, face withheld); HARMONY_CUT(end freeze)]]
+
+[[SOURCE NOTE: [ADAPT] Abuela's face withheld on purpose; reveal later.]]
+
+[[S13-07 | 14:10:00–14:15:00 | 120 frames | SOURCE SHOT]]
+
+He doesn't call her. Calling would make it a thing, and she'd pick up on the first ring. He takes out the contact mic puck instead and sets it on the oak.
+
+
+!SOUND: Phantom first-ring sound that never comes.
+
+[[CAMERA / DRAWING: CU phone · back to library · rate 3s; FX: PHONE_GLOW_THEN_DARK; PUCK_ON_TABLE]]
+
+[[S13-08 | 14:15:00–14:21:00 | 144 frames | SOURCE SHOT]]
+
+Quiet check. Three sounds agree with each other: the radiator knock, the Mets fan's snore, the lamp's thin buzz. They snap together into one chord. He has never worked out why.
+
+
+!SOUND: The three real sounds tune into 4:5:6.
+
+[[CAMERA / DRAWING: ECU puck · rate 3s; FX: SOUND_RIBBON(3); RIBBON_CHORD_LOCK; PITCH_LABELS(root, major-third, fifth)]]
+
+[[SOURCE NOTE: [ADAPT] Chord as a hint that 'alive' sound is consonant.]]
+
+[[S13-09 | 14:21:00–14:28:00 | 168 frames | SOURCE SHOT]]
+
+Lamp buzz expands to full orchestral lamps; tables fill with people made of light. Super: SATURDAY, 1934, judging by the hats. A pan of hats.
+
+
+!SOUND: Lamp buzz fades into five languages.
+
+[[CAMERA / DRAWING: DISSOLVE · ECHO · rate 3s; FX: WIPE_ERA(anchor=oak table); LIGHT_FIGURE; PERIOD_GRADE(1934: amber+green lamp tint, low sat)]]
+
+[[S13-10 | 14:28:00–14:46:00 | 432 frames | SOURCE SHOT]]
+
+A single left-to-right move past each table: a grandfather reading a Yiddish paper with his lips moving; two Irish girls splitting an apple under the table, passing a penknife; a man in a porter's cap, one finger under the line; a Puerto Rican mother steering two kids to picture books by the backs of their collars; a boy copying a world map from an atlas, tongue between teeth, while a boy a shade darker borrows his eraser without asking and returns it without thanks, and neither looks up; a librarian with spectacles on a chain stamping due dates hard enough to make the pencils jump; a hand-lettered card: FREE CONCERT, CONCOURSE PLAZA, SUNDAY, ALL WELCOME.
+
+
+!SOUND: Each table's sound pans in as the camera passes: Yiddish murmur, giggle, pencil, rumba through the wall, stamp.
+
+[[CAMERA / DRAWING: LONG LATERAL TRACK · rate 3s; FX: MULTIPLANE_LATERAL(painted BG strip, 5 layers); LANE_FIELD(6 lanes); LIGHT_FIGURE; PENCIL_JUMP_CEL; FILM_GRAIN]]
+
+[[SOURCE NOTE: SHOWCASE CUT 3. See keys.]]
+
+[[S13-11 | 14:46:00–14:54:00 | 192 frames | SOURCE SHOT]]
+
+He goes looking for the 'pressed place', pushing on the bruise to see if it's still there. Nothing. He listens until his ear hurts. His eyes sting over a rumba and an eraser. Super over his face: TEN BLOCKS FROM MY BUILDING. 'Nobody had ever mentioned it used to sound like this.'
+
+
+!SOUND: Reading-room sound thins to the quietest one thing.
+
+[[CAMERA / DRAWING: CU JC · rate 3s; FX: LANE_FIELD(empty floor lane); EAR_PAIN_PULSE; TEARS_CEL(sting)]]
+
+[[S13-12 | 14:54:00–14:58:00 | 96 frames | SOURCE SHOT]]
+
+Back to the present: fluorescent tubes, a water stain on the ceiling shaped like Staten Island, the Mets fan going strong.
+
+
+!SOUND: Fluorescent hum replaces the lamps.
+
+[[CAMERA / DRAWING: WIPE_ERA · rate 3s; FX: WIPE_ERA(reverse); PAINTED_BG(library_present)]]
+
+
+.INT. CONCOURSE LIBRARY / CHILDHOOD MEMORIES - DAY
+
+[[S14-01 | 14:58:00–15:03:00 | 120 frames | SOURCE SHOT]]
+
+“You're doing the thing.” Sofía's hand hovers over his shoulder without landing. She's got the laptop open before she's sat. Gag: split card: SOFÍA (ASLEEP) / SOFÍA (PROSECUTING).
+
+
+@SOFÍA
+You're doing the thing.
+
+
+!SOUND: Chair scrape; laptop open chime.
+
+[[CAMERA / DRAWING: MS · behind JC · rate 3s; FX: SPLIT_CARD_GAG; SMEAR_CEL(sitting)]]
+
+[[S14-02 | 15:03:00–15:08:00 | 120 frames | SOURCE SHOT]]
+
+“Where'd you go?” “Nowhere. Library. I'm researching.” “With a face like somebody ran over your dog.” Flash: Sofía reading a lease aloud to a landlord; by page four he's changed the lock on his own door. 'She looks at a system and sees what it's for, and then she tells it.'
+
+
+@SOFÍA
+Where'd you go?
+
+
+@JC
+Nowhere. Library. I'm researching.
+
+
+@SOFÍA
+With a face like somebody ran over your dog.
+
+
+!SOUND: Landlord gulp.
+
+[[CAMERA / DRAWING: CU Sofía · rate 3s; FX: FLASH_VIGNETTE(lease); HOLD]]
+
+[[S14-03 | 15:08:00–15:24:00 | 384 frames | SOURCE SHOT]]
+
+Aperture Civic: registered 2024; five-month-old gorgeous website; no employees on any record. The shell tree builds itself on screen: three shells → paper that 'turns into a lawyer's lunch' (sandwich icon) → a holding company → a youth digital-wellness nonprofit, a music-licensing outfit, a development group with permits on four buildings, including his. The Ballroom, the arts space, the mural: his. Eleven tabs; a pie chart; 'Manny owes me a dollar.'
+
+
+!SOUND: Trackpad taps; each node pings once.
+
+[[CAMERA / DRAWING: UI GRAPH · rate 3s; FX: UI_GRAPH_CEL(nodes+lines, draw-on); BUILDING_PINS(block map); SANDWICH_GAG]]
+
+[[S14-04 | 15:24:00–15:34:00 | 240 frames | SOURCE SHOT]]
+
+The date: JUNE THIRTEENTH, FOUNDERS' NIGHT, the Armory. A photo of Adrian Vale (tall, gray, courteous, good coat) with giant scissors in one hand and a small black notebook in the other. A grid of nine photos: the notebook in all nine. 'Who brings a notebook to a ribbon-cutting?' JC looks at it longer than he wants. Triptych flash: ledger man's book / thin man's notebook / Vale's notebook.
+
+
+!SOUND: Pen tick ×3, once for each notebook.
+
+[[CAMERA / DRAWING: CU laptop → grid · rate 3s; FX: PHOTO_GRID(9); NOTEBOOK_TRIPTYCH(3x 6f); HOLD]]
+
+[[SOURCE NOTE: Visual rhyme only. Do not confirm they are the same person.]]
+
+[[S14-05 | 15:34:00–15:54:00 | 480 frames | SOURCE SHOT]]
+
+JC tells her about the loop and puts an earbud in her hand. “That's a loop. That's every hold music in America.” “It's under everything on the block. No tune. It makes whatever it's under feel pressed flat. And the block's been mean lately.” “I've noticed it's been a long winter and the landlord on Creston is a monster.” She sets the earbud down 'like evidence'. “What I don't have is a number... I need a control. A block without it.”
+
+
+@SOFÍA
+That's a loop. That's every hold music in America.
+
+
+@JC
+It's under everything on the block. No tune. It makes whatever it's under feel pressed flat. And the block's been mean lately.
+
+
+@SOFÍA
+I've noticed it's been a long winter and the landlord on Creston is a monster.
+
+
+@SOFÍA
+What I don't have is a number... I need a control. A block without it.
+
+
+!SOUND: The loop in the earbud; mid-line cut to bland hold-music for the gag.
+
+[[CAMERA / DRAWING: OTS · earbud · rate 3s; FX: HOLD; MOUTH_FLAP; EARBUD_INSERT; HOLD_MUSIC_GAG(2s)]]
+
+[[S14-06 | 15:54:00–16:14:00 | 480 frames | SOURCE SHOT]]
+
+SOUND OF THE BLOCK: in January the licensing arm gave away free in-store systems: bodega, laundromat, barbershop, two nail salons, the dentist. One page-and-a-half contract; 'community partner' decal in each window. “Name me the one inside a mile that didn't sign.” Cut to Mr. Rodríguez telling the rep to take the speaker back 'to whatever planet it came from'. He plays his own records. The radiator knocks twice, as an answer. “A control.” Sofía looks 'completely, unfairly happy': “I'm in love with a coffee shop.”
+
+
+!SOUND: Six bland playlists overlap into slurry; then the café record player alone.
+
+[[CAMERA / DRAWING: MONTAGE · storefronts · rate 3s; FX: STOREFRONT_CARDS(6, speaker glow); DECAL_INSERT; CAFE_CUTAWAY; HARMONY_CUT(Sofía joy freeze)]]
+
+[[S14-07 | 16:14:00–16:23:00 | 216 frames | SOURCE SHOT]]
+
+The registered-agent address 'has had other names'. Rewind: Aperture Civic ← a data startup ← a consultancy ← Quiet Hours Foundation. A grainy scanned PDF: state seal; Early Calm Pilot: Final Report, 2007. A grant: four elementary schools, all in this zip code; a 'calm environment' program: ambient tones in the classrooms plus a screening tool. JC's hand stops on the table.
+
+
+!SOUND: Typewriter rewind; a flat drone as the PDF comes up.
+
+[[CAMERA / DRAWING: UI · rewind · rate 3s; FX: NAME_REWIND_CEL; SCAN_PDF_FX(grain, skew); HAND_FREEZE]]
+
+[[S14-08 | 16:23:00–16:51:00 | 672 frames | SOURCE SHOT]]
+
+A supply closet, a beige mesh-faced box above the cubbies, a rug shaped like the United States (JC always got Nebraska). After lunch is 'quiet time': lights off, heads down. The box puts out one low even tone, like a dentist's waiting room with nobody in it. Everyone puts their heads on their arms. For six-year-old JC the whole room goes flat: air, light, his own hands. He taps the desk leg, a little rhythm, because it's the only thing his body has to push back with. A teacher writes it down; a woman with a lanyard watches with a clipboard; a letter comes home. Father reads it standing in the kitchen with his careful electric-bill face. One word: “Nivel dos.” Mamá puts the letter in the drawer for papers that matter: the lease, his father's death certificate in a folder she still hasn't opened, the school letters nobody answered. The drawer shuts from the other room.
+
+
+@FATHER
+Nivel dos.
+
+
+!SOUND: A dental-waiting-room tone: mono, dry, no stereo. His tapping is the only reverb in the room.
+
+[[CAMERA / DRAWING: FLASHBACK · classroom · rate 3s → 6s as p rises; FX: PRESS(0→0.9 over 6s; ONLY the tapping hand keeps color; see keys); BEIGE_PALETTE; HOLD(6s fps); FILM_GRAIN↑; HARMONY_CUT(letter)]]
+
+[[SOURCE NOTE: SHOWCASE CUT 4. The first time PRESS is applied to a person's memory.]]
+
+[[S14-09 | 16:51:00–17:00:00 | 216 frames | SOURCE SHOT]]
+
+“Level two,” the letter said. Sofía scrolls: the Calm Index, one to four. Level 2: 'Atypical response to ambient stimulus.' Hand-tapping, vocalizing, agitation during rest periods. “That's you.” “That's a sentence you write when you're looking for the kids who react. We need the screening records.”
+
+
+!SOUND: Quiet UI; the loop thin and far.
+
+[[CAMERA / DRAWING: OTS · laptop rubric · rate 3s; FX: RUBRIC_UI(highlight line); NECK_CHILL_FX(ring); HOLD]]
+
+[[S14-10 | 17:00:00–17:15:00 | 360 frames | SOURCE SHOT]]
+
+Mikey lived on four and was in JC's class. JC can't remember his score; he remembers what the mothers called it: 'the three', low, in the voice they used for a man who'd gone upstate. Mikey's mother said it most. Eight-year-old Mikey puts his ear to the fourth-floor stairwell wall and says the building is humming; he stays there long after a joke would be over. “Listen,” he says. JC listens to a wall and laughs at him. The wall hums in concentric gold rings. Present: JC has a microphone clamped to his own wall.
+
+
+@MIKEY
+Listen,
+
+
+!SOUND: Wall hum, soft and musical; a hush from the building.
+
+[[CAMERA / DRAWING: FLASHBACK · stairwell · rate 3s; FX: STAIRWELL_BG; WALL_RING_CEL(gold, 4 rings); HARMONY_CUT(Mikey freeze); MATCH_CUT(mic on riser)]]
+
+[[S14-11 | 17:15:00–17:35:00 | 480 frames | SOURCE SHOT]]
+
+“Every shell on this screen is trying to predict something. The grant, the playlists, the permits. Somebody's got a model of this block, and I think they've been checking it since you were six. Nineteen years.” She half-closes the laptop (which, from Sofía, is a gesture of love on the order of a kidney). “We need to find out what they did with the children who kept reacting. Don't answer the email. Don't delete it. And don't walk home past the bodega.” “Why?” “Because I just spent an hour telling you I don't believe in your loop, and I'd like to still be wrong tomorrow. Also eat a vegetable. Platanitos don't count.”
+
+
+@SOFÍA
+Every shell on this screen is trying to predict something. The grant, the playlists, the permits. Somebody's got a model of this block, and I think they've been checking it since you were six. Nineteen years.
+
+
+@SOFÍA
+We need to find out what they did with the children who kept reacting. Don't answer the email. Don't delete it. And don't walk home past the bodega.
+
+
+@JC
+Why?
+
+
+@SOFÍA
+Because I just spent an hour telling you I don't believe in your loop, and I'd like to still be wrong tomorrow. Also eat a vegetable. Platanitos don't count.
+
+
+!SOUND: Library quiet; her voice drops as she gets scared.
+
+[[CAMERA / DRAWING: CU Sofía · rate 3s; FX: HOLD; MOUTH_FLAP; LAPTOP_HALF_CLOSE_CEL; PUSH_IN(slow)]]
+
+
+.EXT. DON CHINO'S BODEGA - DAY
+
+[[S15-01 | 17:35:00–17:40:00 | 120 frames | SOURCE SHOT]]
+
+A tiny route map: library → home, avoiding the El. The bodega is on the only route. JC rationalizes; an insert of a stove burner glows red and a finger approaches. 'I am somebody who has to touch the stove to find out.'
+
+
+!SOUND: VO as in the book, deadpan.
+
+[[CAMERA / DRAWING: MAP GAG · track · rate 3s; FX: ROUTE_MAP_CEL; STOVE_GAG(2s)]]
+
+[[S15-02 | 17:40:00–17:46:00 | 144 frames | SOURCE SHOT]]
+
+Don Chino's bodega: an awning the color of orange soda left too long in a window; a speaker over the door he had never looked up at; two guys on milk crates at a domino table, slapping tiles in the mood to argue.
+
+
+!SOUND: Merengue, bright: accordion, güira, horns.
+
+[[CAMERA / DRAWING: WS · bodega · rate 3s; FX: PAINTED_BG(bodega); SPEAKER_INSERT; AWNING_ORANGE(#F26B2A)]]
+
+[[S15-03 | 17:46:00–17:54:00 | 192 frames | SOURCE SHOT]]
+
+He stands on the sidewalk and listens on purpose. Under the song, bar after bar, a flat gray plate: the same spot, eight seconds wide, again.
+
+
+!SOUND: The song continues; the 8s plate is nearly inaudible but felt.
+
+[[CAMERA / DRAWING: CU JC · eyes closed · rate 3s; FX: SOUND_RIBBON(accordion yellow, guira green, horn red); PLATE_CEL(gray, 192f cycle); LOOP_RING(speaker)]]
+
+[[S15-04 | 17:54:00–18:06:00 | 288 frames | SOURCE SHOT]]
+
+Cycle after cycle the men's faces dull a little (PRESS +0.08 per cycle). One slaps a tile too hard and says something he'd have been ashamed of on a normal Tuesday. The other says something back.
+
+
+!SOUND: Tile slap; the words are masked by the merengue.
+
+[[CAMERA / DRAWING: MS tiles · rate 3s; FX: PRESS(per cycle +0.08); IMPACT_FLASH(1f on slap); MOUTH_FLAP(indistinct)]]
+
+[[S15-05 | 18:06:00–18:14:00 | 192 frames | SOURCE SHOT]]
+
+A third guy comes out of the store and tells them both to lower their voices, in a voice that isn't lower. Camera circles the three; outlines go uniform, shading flattens, motion drops toward holds.
+
+
+!SOUND: Merengue loses reverb as the loop rises.
+
+[[CAMERA / DRAWING: ORBIT · three men · rate 3s; FX: ORBIT(120°); PRESS(0.5→0.85); HOLD_FRAMES(6s)]]
+
+[[S15-06 | 18:14:00–18:22:00 | 192 frames | SOURCE SHOT]]
+
+Inside a minute it goes out of all three of them: red-brown anger visible as a smoke that drains down into the pavement and across to the speaker. Nobody apologizes. They sit like men who've hauled groceries up four flights and stare at the tiles. The third goes back inside.
+
+
+!SOUND: A sigh with no voice in it.
+
+[[CAMERA / DRAWING: WS · sidewalk · rate 3s; FX: ANGER_SMOKE_CEL(2s); DRAIN_TO_SPEAKER; PRESS(0.9)]]
+
+[[S15-07 | 18:22:00–18:30:00 | 192 frames | SOURCE SHOT]]
+
+The merengue keeps going. The next song starts. The plate is there, in the same spot. JC looks up at the speaker over the door.
+
+
+!SOUND: Next track cut in; loop unchanged.
+
+[[CAMERA / DRAWING: CU JC → CU speaker · rate 3s; FX: SONG_CHANGE(cut on downbeat); PLATE_CEL(same position); PUSH_IN(speaker, decal)]]
+
+[[S15-08 | 18:30:00–18:42:00 | 288 frames | SOURCE SHOT]]
+
+He is small under the orange awning. Camera rises up the building to the dark third-floor window across the street; the netting moves. Cut to black.
+
+
+!SOUND: The song fades out, leaving only the loop.
+
+[[CAMERA / DRAWING: PULL-BACK · crane · rate 3s; FX: CRANE_UP; PAINTED_BG(facade); DARK_WINDOW_HOLD(2s)]]
+
+[[S15-09 | 18:42:00–18:50:00 | 192 frames | SOURCE SHOT]]
+
+Black. The 8-second loop plays once, unmasked, exactly 192 frames. At the start of the next cycle, hard cut to silence.
+
+
+!SOUND: THE LOOP, once. Then nothing.
+
+[[CAMERA / DRAWING: BLACK · rate —; FX: HOLD_BLACK; LOOP_PLAY(192f); HARD_SILENCE]]
+
+[[SOURCE NOTE: The only time the audience hears it clean.]]
+
+
+.ENDING — SEPARATELY PLANNED
+
+Slow, unhurried 90s ending: the copper coin turning on navy, then Mr. Rodríguez's butcher-paper map filling with index cards, one per location from the episode (Ballroom, café, library, bodega, banner), drawn by hand and pinned on beat. Slow pans over painted stills with cream credit type. The music is an original instrumental (hand drum, upright bass, a single trumpet phrase). End on a held frame of the blank corner of Jerome Avenue. After the credits, a 10 s silent black with the sigil.
+
+[[ED is not part of the 27,120-frame body. episode.json declares 2,160 ED frames; whether the final ten-second black is included remains unresolved.]]

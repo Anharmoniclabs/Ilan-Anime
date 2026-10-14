@@ -1,0 +1,41 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "mask.new",
+    "params": {
+      "layer": 516,
+      "vertices": [
+        [
+          35,
+          0
+        ],
+        [
+          94,
+          0
+        ],
+        [
+          140,
+          100
+        ],
+        [
+          160,
+          280
+        ],
+        [
+          0,
+          280
+        ],
+        [
+          0,
+          110
+        ]
+      ],
+      "closed": true,
+      "mode": "Add"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "mask": 539
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 55,
+      "name": "right-whole-arm"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

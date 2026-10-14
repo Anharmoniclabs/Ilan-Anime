@@ -1,4 +1,0 @@
-`04:12:00 → 04:18:00` (144f) · FIX · desk, time-lapse · rate 3s
-- **Action:** Digital clock flips 12:07 → 3:07. Three demitasse cups appear and empty, one per hour. The train passes three times.
-- **FX:** `CLOCK_FLIP; CUP_APPEAR(3); TRAIN_STROBE`
-- **Sound:** Cafecito stir. The clock ticks faster each hour.

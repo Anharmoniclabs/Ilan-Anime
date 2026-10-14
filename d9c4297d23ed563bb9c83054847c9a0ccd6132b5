@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.addItem",
+    "params": {
+      "item": "pony.png",
+      "position": [
+        428,
+        220
+      ],
+      "index": 1
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 442
+  }
+}

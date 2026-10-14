@@ -1,0 +1,31 @@
+{
+  "tool": "set_property",
+  "arguments": {
+    "layer": 75,
+    "path": "effects/#1/keyColor",
+    "value": [
+      0.93,
+      0.89,
+      0.81,
+      1
+    ]
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": false,
+    "expression": null,
+    "keys": [],
+    "layer": 75,
+    "match": "keyColor",
+    "name": "Key Color",
+    "time": 0.0,
+    "type": "color",
+    "uid": 152,
+    "value": [
+      0.93,
+      0.89,
+      0.81,
+      1.0
+    ]
+  }
+}

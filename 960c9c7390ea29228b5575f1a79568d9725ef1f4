@@ -1,0 +1,28 @@
+{
+  "tool": "set_property",
+  "arguments": {
+    "layer": 191,
+    "path": "transform/anchor",
+    "value": [
+      189,
+      55
+    ]
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": false,
+    "expression": null,
+    "keys": [],
+    "layer": 191,
+    "match": "anchor",
+    "name": "Anchor Point",
+    "time": 0.0,
+    "type": "vec3",
+    "uid": 195,
+    "value": [
+      189.0,
+      55.0,
+      0.0
+    ]
+  }
+}

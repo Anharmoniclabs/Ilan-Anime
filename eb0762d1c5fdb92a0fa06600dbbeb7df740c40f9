@@ -1,0 +1,74 @@
+{
+  "tool": "add_keyframe",
+  "arguments": {
+    "layer": 465,
+    "path": "effects/#1/slider",
+    "keys": [
+      {
+        "time": 0,
+        "value": 0
+      },
+      {
+        "time": 0.5,
+        "value": 1
+      },
+      {
+        "time": 0.625,
+        "value": 0
+      },
+      {
+        "time": 1,
+        "value": 2
+      },
+      {
+        "time": 1.25,
+        "value": 0
+      }
+    ],
+    "interpolation": "hold"
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": true,
+    "expression": null,
+    "keys": [
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 0.0,
+        "value": 0.0
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 0.5,
+        "value": 1.0
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 0.625,
+        "value": 0.0
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 1.0,
+        "value": 2.0
+      },
+      {
+        "in": "Hold",
+        "out": "Hold",
+        "time": 1.25,
+        "value": 0.0
+      }
+    ],
+    "layer": 465,
+    "match": "slider",
+    "name": "Slider",
+    "time": 0.0,
+    "type": "scalar",
+    "uid": 470,
+    "value": 0.0
+  }
+}

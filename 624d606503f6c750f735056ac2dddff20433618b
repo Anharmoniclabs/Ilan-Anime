@@ -1,4 +1,0 @@
-`02:50:00 → 03:01:00` (264f) · CUTAWAY · building section · rate 3s
-- **Action:** Dollhouse cross-section of the whole building. Colored ribbons rise through the floors: the 4 (steel white), radiator (rust), bachata (magenta), rosary (gold dots), a trumpet on six playing the same solo 'since the Obama administration'. All of them end at JC's closet.
-- **FX:** `CUTAWAY_BG(building_section); SOUND_RIBBON(5 sources); LABEL_CELS`
-- **Sound:** Each ribbon's sound mixes in as it's labelled. Trumpet solo repeats and cuts off mid-phrase.

@@ -1,4 +1,0 @@
-`01:42:00 → 01:56:00` (336f) · WS → MS paddles · rate 2s
-- **Action:** 'Nothing rose up and nothing parted.' The canoes simply move a little faster than the paddles. Blades drag and lift. Surface foam turns 90 degrees.
-- **FX:** `FLOW_TURN(foam,90deg); WATER_STREAK_CEL; WIND_STREAKS`
-- **Sound:** Water hiss rising.

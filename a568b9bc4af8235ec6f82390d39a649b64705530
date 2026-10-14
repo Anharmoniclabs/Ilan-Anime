@@ -1,0 +1,21 @@
+{
+  "tool": "set_property",
+  "arguments": {
+    "layer": 75,
+    "path": "effects/#1/colorTolerance",
+    "value": 60
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": false,
+    "expression": null,
+    "keys": [],
+    "layer": 75,
+    "match": "colorTolerance",
+    "name": "Color Tolerance",
+    "time": 0.0,
+    "type": "scalar",
+    "uid": 153,
+    "value": 60.0
+  }
+}

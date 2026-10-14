@@ -1,0 +1,59 @@
+{
+  "task_id": "amaia-complete",
+  "items": [
+    {
+      "asset": "Seated Amaia carrying sleeping son younger than two",
+      "shots": [
+        "S01-02",
+        "S01-13"
+      ],
+      "needed": "Registered mother/child overlap drawings, both supporting hands and hidden torso/forearm surfaces; close-up ribs/child contact. Standing master and relaxed hands cannot establish support contact.",
+      "available_candidate": "contact-s01-13/candidate.png",
+      "remaining": "Independent review, separate mother-child layers and occluded surfaces"
+    },
+    {
+      "asset": "Counting mouth and eye-direction replacements",
+      "shots": [
+        "S01-03"
+      ],
+      "needed": "Closed/rest, counting phonemes and glances registered to the approved face; current controls only neutral, closed eyelids and one open mouth, not a phoneme set."
+    },
+    {
+      "asset": "Seated weight-shift/lean drawings",
+      "shots": [
+        "S01-14"
+      ],
+      "needed": "Starting support pose, anticipation, lean, settle with son held consistently; no rotated standing cutout substitute."
+    },
+    {
+      "asset": "Articulated joint overlap and master fit",
+      "shots": [
+        "S01-02",
+        "S01-03",
+        "S01-13",
+        "S01-14"
+      ],
+      "needed": "Shoulder, elbow, wrist, neck, hip and knee hidden surfaces registered to approved r2 anatomy. Saved arm pieces are isolated in source atlas coordinates, no demonstrated moving join."
+    },
+    {
+      "asset": "Independent hair, clothing and accessories",
+      "shots": [
+        "S01-02",
+        "S01-14"
+      ],
+      "needed": "Rear/front hair, ties, pendant/cord, wrap and skirt secondary-motion art with revealed surfaces. Current body underpaint still combines these."
+    },
+    {
+      "asset": "Functional hands and expressions",
+      "shots": [
+        "S01-02",
+        "S01-03",
+        "S01-13",
+        "S01-14"
+      ],
+      "needed": "Cradle/grip/support hands and worried/counting/listening facial states. Current hand atlas provides only relaxed left/right shapes.",
+      "available_candidate": "Cradle/support hands in contact-s01-13/candidate.png"
+    }
+  ],
+  "next_step": "Independent review of saved library, then bounded reference-attached drawing assignments for missing scene-specific art."
+}

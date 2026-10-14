@@ -1,0 +1,10 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.newNull"
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 2
+  }
+}

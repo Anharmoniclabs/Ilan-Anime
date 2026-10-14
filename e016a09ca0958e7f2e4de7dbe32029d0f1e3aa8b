@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 3535,
+      "name": "seated-son-poses - look-back"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

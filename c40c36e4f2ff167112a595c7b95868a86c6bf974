@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 142,
+      "name": "view-back"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

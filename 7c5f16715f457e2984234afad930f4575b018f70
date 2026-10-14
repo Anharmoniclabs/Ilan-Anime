@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 3746,
+      "name": "cradle"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

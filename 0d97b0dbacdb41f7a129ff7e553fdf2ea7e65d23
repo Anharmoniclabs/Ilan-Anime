@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 753,
+      "name": "skirt"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

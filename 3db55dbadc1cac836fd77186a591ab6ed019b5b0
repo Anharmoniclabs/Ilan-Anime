@@ -1,4 +1,0 @@
-`06:15:00 → 06:21:00` (144f) · FIX · wall in darkness · rate 3s
-- **Action:** For two more seconds the dancers hang on the wall, blue and gold, with no projector under them. Then they go. The radiators tick back to normal, 'because as far as the radiators were concerned nothing had happened'.
-- **FX:** `TRANSMITTED_LIGHT_ONLY; FADE_OUT(48f); HOLD_BLACK`
-- **Sound:** One last cowbell. Radiator ticks.

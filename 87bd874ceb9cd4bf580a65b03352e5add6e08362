@@ -1,0 +1,11 @@
+{
+  "tool": "save_document",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/arthouse-pack-v1/tasks/visuals/production-book-v2/arthouse-art-book.designcraft"
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 12494542,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/arthouse-pack-v1/tasks/visuals/production-book-v2/arthouse-art-book.designcraft"
+  }
+}

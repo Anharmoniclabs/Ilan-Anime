@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.addProperty",
+    "params": {
+      "layer": 231,
+      "path": "effects/#1/slider",
+      "name": "Mouth: 0 approved / 1 rest / 2 pressed / 3 parted / 4 open / 5 wide / 6 rounded / 7 pursed / 8 teeth / 9 tongue"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "controls": [
+      498
+    ],
+    "mirrors": []
+  }
+}

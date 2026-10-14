@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 357,
+      "name": "mouth-wide"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

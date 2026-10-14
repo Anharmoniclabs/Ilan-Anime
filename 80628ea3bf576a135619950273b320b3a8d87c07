@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.addProperty",
+    "params": {
+      "layer": 404,
+      "path": "transform/rotation",
+      "name": "body-control rotation"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "controls": [
+      861
+    ],
+    "mirrors": []
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.new",
+    "params": {
+      "name": "Discovery",
+      "width": 100,
+      "height": 100
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "tool": "save_document",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/arthouse-pack-v1/tasks/visuals/written-books/PRODUCTION_GUIDE.designcraft"
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 8130,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/arthouse-pack-v1/tasks/visuals/written-books/PRODUCTION_GUIDE.designcraft"
+  }
+}

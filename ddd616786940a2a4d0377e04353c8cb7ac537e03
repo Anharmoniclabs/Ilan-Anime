@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.new",
+    "params": {
+      "name": "SOURCE left-forearm",
+      "width": 190,
+      "height": 480,
+      "frameRate": 24,
+      "duration": 2
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 77
+  }
+}

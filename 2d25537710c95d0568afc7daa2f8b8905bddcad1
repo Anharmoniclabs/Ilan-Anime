@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 3817,
+      "name": "look-back"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

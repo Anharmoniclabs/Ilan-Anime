@@ -1,0 +1,15 @@
+{
+  "tool": "doc_open",
+  "arguments": {
+    "path": "production/runs/cemi-90s-production/tasks/amaia-complete/library-v2/expressions.psd"
+  },
+  "status": "succeeded",
+  "result": {
+    "height": 1024,
+    "index": 1,
+    "layers": 6,
+    "name": "expressions.psd",
+    "warnings": [],
+    "width": 1536
+  }
+}

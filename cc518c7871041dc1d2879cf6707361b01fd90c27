@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 2691,
+      "name": "hands - left-relaxed"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

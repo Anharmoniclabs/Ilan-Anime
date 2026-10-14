@@ -1,0 +1,13 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.setPrimary",
+    "params": {
+      "comp": 386
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 386
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "tool": "add_effect",
+  "arguments": {
+    "layer": 428,
+    "effect": "Slider Control"
+  },
+  "status": "succeeded",
+  "result": {
+    "index": 1,
+    "layer": 428,
+    "name": "Slider Control",
+    "params": [
+      {
+        "path": "effects/#1/slider",
+        "type": "scalar",
+        "value": 0.0
+      }
+    ],
+    "path": "effects/#1",
+    "set": []
+  }
+}

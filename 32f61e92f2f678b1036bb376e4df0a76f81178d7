@@ -1,0 +1,14 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.setName",
+    "params": {
+      "name": "Amaia R2 - undistorted whole-part controls"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 4,
+    "name": "Amaia R2 - undistorted whole-part controls"
+  }
+}

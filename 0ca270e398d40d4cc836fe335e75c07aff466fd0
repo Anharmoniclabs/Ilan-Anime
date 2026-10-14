@@ -1,0 +1,22 @@
+{
+  "tool": "set_property",
+  "arguments": {
+    "layer": 153,
+    "path": "transform/opacity",
+    "expression": "var m=thisComp.layer(\"Face controls\").effect(\"Slider Control\")(\"Slider\"); m>=0.5&&m<1.5?100:0"
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": false,
+    "evaluated": 0.0,
+    "expression": "var m=thisComp.layer(\"Face controls\").effect(\"Slider Control\")(\"Slider\"); m>=0.5&&m<1.5?100:0",
+    "keys": [],
+    "layer": 153,
+    "match": "opacity",
+    "name": "Opacity",
+    "time": 0.0,
+    "type": "scalar",
+    "uid": 164,
+    "value": 100.0
+  }
+}

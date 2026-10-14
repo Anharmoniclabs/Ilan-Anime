@@ -1,0 +1,28 @@
+{
+  "task_id": "visuals",
+  "role": "art-director",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/arthouse-pack-v1/tasks/visuals/art/amaia-model-v1.png",
+    "production/runs/arthouse-pack-v1/tasks/visuals/art/amaia-model-v2.png",
+    "production/runs/arthouse-pack-v1/tasks/visuals/art/amaia-puppet-atlas-v1.png",
+    "production/runs/arthouse-pack-v1/tasks/visuals/art/dairon-model-v1.png",
+    "production/runs/arthouse-pack-v1/tasks/visuals/art/storyboard-s01-01-08-v1.png",
+    "production/runs/arthouse-pack-v1/tasks/visuals/art/storyboard-s01-01-08-v2.png",
+    "production/runs/arthouse-pack-v1/tasks/visuals/art/storyboard-s01-09-15-v1.png",
+    "production/runs/arthouse-pack-v1/tasks/visuals/art/storyboard-s01-09-15-v2.png",
+    "production/runs/arthouse-pack-v1/tasks/visuals/production-book-v3/arthouse-art-book.pdf",
+    "production/runs/arthouse-pack-v1/tasks/visuals/puppet/take-04/amaia-puppet-controls.ecproj",
+    "production/runs/arthouse-pack-v1/tasks/visuals/puppet/take-04/rig-control-preview.mp4",
+    "production/runs/arthouse-pack-v1/tasks/visuals/written-books/SCREENPLAY.pdf"
+  ],
+  "evidence": [
+    "Built-in image generation produced original model, storyboard and puppet artwork; exact prompts preserved.",
+    "Directly inspected generated model sheets, two storyboard pages and assembled puppet.",
+    "Craft engines created native PhotoCraft files, DesignCraft layout/PDF, six-layer parented EffectCraft puppet and FilmCraft test sequence.",
+    "Independent /root/visual_review reviewed first and revised artifacts. Remaining continuity and puppet finish defects retained explicitly.",
+    "ffprobe confirmed 48 frames at 24 fps; cleaned native puppet reopened with six layers."
+  ],
+  "blockers": [],
+  "creative_status": "exploratory; production acceptance rejected pending revision"
+}
