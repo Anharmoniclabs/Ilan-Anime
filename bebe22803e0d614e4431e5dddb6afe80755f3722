@@ -1,0 +1,30 @@
+{
+  "id": "03-dairon",
+  "name": "Dairon",
+  "status": "exploratory",
+  "kind": "editable-reference-library",
+  "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/03-Dairon.png",
+  "source_sha256": "4caa1c324a2625389b74b6ca510d17c2a70e7d46832d312ef01f7fc5ad8a850f",
+  "snapshot": "source.png",
+  "identity_observations": "Lean muscular adult, long dark tied curls, pale one-shoulder cloth, russet wrap, barefoot; wooden paddle and seated power-stroke pose.",
+  "script_shots": [
+    "S01-02",
+    "S01-08",
+    "S01-09",
+    "S01-12",
+    "S01-14"
+  ],
+  "missing_art": "Seated reach/plant/pull/lift/recovery drawings using fixed paddle shaft and grips; bow-turn bracing; hair and cloth reversal.",
+  "directly_viewed": true,
+  "source_approval": "not established by this task",
+  "rig_status": "not built",
+  "registration_status": "not registered",
+  "motion_status": "not tested",
+  "native": "../native-alpha-preserved-v2/03-dairon.pcraft",
+  "layer_design": [
+    "Hidden locked archived source",
+    "Visible editable full-sheet reference"
+  ],
+  "separated_parts": false,
+  "separation_decision": "Source alpha is present: the warm backdrop seen in raw RGB is transparent. Existing views can be manually selected for future reference use; this task preserves the full sheet. Hair/clothing/limbs and hidden contact surfaces still need newly drawn separated parts."
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "place_image",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/10-background-survivor-2/source.png",
+    "spread": 8,
+    "x": 25,
+    "y": 60,
+    "width": 950
+  },
+  "status": "succeeded",
+  "result": {
+    "asset": 79,
+    "id": 80
+  }
+}

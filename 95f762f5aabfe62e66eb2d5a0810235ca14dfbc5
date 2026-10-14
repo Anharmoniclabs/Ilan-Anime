@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 2,
+      "rect": [
+        25,
+        950,
+        975,
+        1080
+      ],
+      "content": "text",
+      "text": "Lean youthful face, short dense curls, charcoal hoodie, headphones and mic puck. Shoe symbols resemble commercial marks; review design intent. No coin held in this pose.\nSHA-256: e4609e083a908ad3127cb470e6ecb14027def90faa3c1168efead05f63ee0cdb\nNative PhotoCraft + layered PSD: protected hidden original and one visible editable copy. Body parts remain flattened.\nSource alpha and premultiplied RGB preserved exactly in native and reopened PSD exports."
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 69,
+    "story": 70
+  }
+}

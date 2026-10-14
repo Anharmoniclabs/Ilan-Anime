@@ -1,0 +1,1399 @@
+{
+  "tool": "inspect_document",
+  "arguments": {},
+  "status": "succeeded",
+  "result": {
+    "activeLayer": 1,
+    "canUndo": true,
+    "characterStyles": [
+      "[None]"
+    ],
+    "dirty": false,
+    "layers": [
+      {
+        "color": [
+          43,
+          155,
+          255
+        ],
+        "id": 1,
+        "locked": false,
+        "name": "Layer 1",
+        "printable": true,
+        "showGuides": true,
+        "suppressWrapWhenHidden": false,
+        "visible": true
+      }
+    ],
+    "pageCount": 12,
+    "paragraphStyles": [
+      "[No Paragraph Style]",
+      "[Basic Paragraph]"
+    ],
+    "parents": [
+      {
+        "id": 3,
+        "items": 0,
+        "label": "A-Parent"
+      }
+    ],
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/river-source-index.designcraft",
+    "selection": {
+      "content": false,
+      "items": [],
+      "text": {
+        "anchor": 475,
+        "focus": 475,
+        "frame": 99,
+        "story": 100
+      }
+    },
+    "settings": {
+      "facingPages": false,
+      "intent": "print",
+      "pageHeight": 850.0,
+      "pageWidth": 1000.0
+    },
+    "spreads": [
+      {
+        "index": 0,
+        "items": [
+          {
+            "bounds": [
+              25.0,
+              15.0,
+              975.0,
+              55.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 29,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 30,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "asset": 31,
+            "bounds": [
+              25.0,
+              60.0,
+              975.0,
+              693.3333333333334
+            ],
+            "fill": "[None]",
+            "hidden": false,
+            "id": 32,
+            "kind": "<image>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "bounds": [
+              25.0,
+              700.0,
+              975.0,
+              835.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 33,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 34,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          }
+        ],
+        "pages": [
+          {
+            "bounds": [
+              0.0,
+              0.0,
+              1000.0,
+              850.0
+            ],
+            "columns": 1,
+            "index": 0,
+            "margins": {
+              "bottom": 25.0,
+              "inside": 25.0,
+              "outside": 25.0,
+              "top": 25.0
+            },
+            "name": "1",
+            "parent": "A-Parent",
+            "side": "single"
+          }
+        ]
+      },
+      {
+        "index": 1,
+        "items": [
+          {
+            "bounds": [
+              25.0,
+              15.0,
+              975.0,
+              55.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 35,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 36,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "asset": 37,
+            "bounds": [
+              25.0,
+              60.0,
+              975.0,
+              693.3333333333334
+            ],
+            "fill": "[None]",
+            "hidden": false,
+            "id": 38,
+            "kind": "<image>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "bounds": [
+              25.0,
+              700.0,
+              975.0,
+              835.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 39,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 40,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          }
+        ],
+        "pages": [
+          {
+            "bounds": [
+              0.0,
+              0.0,
+              1000.0,
+              850.0
+            ],
+            "columns": 1,
+            "index": 1,
+            "margins": {
+              "bottom": 25.0,
+              "inside": 25.0,
+              "outside": 25.0,
+              "top": 25.0
+            },
+            "name": "2",
+            "parent": "A-Parent",
+            "side": "single"
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "items": [
+          {
+            "bounds": [
+              25.0,
+              15.0,
+              975.0,
+              55.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 41,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 42,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "asset": 43,
+            "bounds": [
+              25.0,
+              60.0,
+              975.0,
+              693.3333333333334
+            ],
+            "fill": "[None]",
+            "hidden": false,
+            "id": 44,
+            "kind": "<image>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "bounds": [
+              25.0,
+              700.0,
+              975.0,
+              835.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 45,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 46,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          }
+        ],
+        "pages": [
+          {
+            "bounds": [
+              0.0,
+              0.0,
+              1000.0,
+              850.0
+            ],
+            "columns": 1,
+            "index": 2,
+            "margins": {
+              "bottom": 25.0,
+              "inside": 25.0,
+              "outside": 25.0,
+              "top": 25.0
+            },
+            "name": "3",
+            "parent": "A-Parent",
+            "side": "single"
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "items": [
+          {
+            "bounds": [
+              25.0,
+              15.0,
+              975.0,
+              55.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 47,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 48,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "asset": 49,
+            "bounds": [
+              25.0,
+              60.0,
+              975.0,
+              693.3333333333334
+            ],
+            "fill": "[None]",
+            "hidden": false,
+            "id": 50,
+            "kind": "<image>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "bounds": [
+              25.0,
+              700.0,
+              975.0,
+              835.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 51,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 52,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          }
+        ],
+        "pages": [
+          {
+            "bounds": [
+              0.0,
+              0.0,
+              1000.0,
+              850.0
+            ],
+            "columns": 1,
+            "index": 3,
+            "margins": {
+              "bottom": 25.0,
+              "inside": 25.0,
+              "outside": 25.0,
+              "top": 25.0
+            },
+            "name": "4",
+            "parent": "A-Parent",
+            "side": "single"
+          }
+        ]
+      },
+      {
+        "index": 4,
+        "items": [
+          {
+            "bounds": [
+              25.0,
+              15.0,
+              975.0,
+              55.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 53,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 54,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "asset": 55,
+            "bounds": [
+              25.0,
+              60.0,
+              975.0,
+              693.3333333333334
+            ],
+            "fill": "[None]",
+            "hidden": false,
+            "id": 56,
+            "kind": "<image>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "bounds": [
+              25.0,
+              700.0,
+              975.0,
+              835.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 57,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 58,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          }
+        ],
+        "pages": [
+          {
+            "bounds": [
+              0.0,
+              0.0,
+              1000.0,
+              850.0
+            ],
+            "columns": 1,
+            "index": 4,
+            "margins": {
+              "bottom": 25.0,
+              "inside": 25.0,
+              "outside": 25.0,
+              "top": 25.0
+            },
+            "name": "5",
+            "parent": "A-Parent",
+            "side": "single"
+          }
+        ]
+      },
+      {
+        "index": 5,
+        "items": [
+          {
+            "bounds": [
+              25.0,
+              15.0,
+              975.0,
+              55.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 59,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 60,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "asset": 61,
+            "bounds": [
+              25.0,
+              60.0,
+              975.0,
+              693.3333333333334
+            ],
+            "fill": "[None]",
+            "hidden": false,
+            "id": 62,
+            "kind": "<image>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "bounds": [
+              25.0,
+              700.0,
+              975.0,
+              835.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 63,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 64,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          }
+        ],
+        "pages": [
+          {
+            "bounds": [
+              0.0,
+              0.0,
+              1000.0,
+              850.0
+            ],
+            "columns": 1,
+            "index": 5,
+            "margins": {
+              "bottom": 25.0,
+              "inside": 25.0,
+              "outside": 25.0,
+              "top": 25.0
+            },
+            "name": "6",
+            "parent": "A-Parent",
+            "side": "single"
+          }
+        ]
+      },
+      {
+        "index": 6,
+        "items": [
+          {
+            "bounds": [
+              25.0,
+              15.0,
+              975.0,
+              55.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 65,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 66,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "asset": 67,
+            "bounds": [
+              25.0,
+              60.0,
+              975.0,
+              693.3333333333334
+            ],
+            "fill": "[None]",
+            "hidden": false,
+            "id": 68,
+            "kind": "<image>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "bounds": [
+              25.0,
+              700.0,
+              975.0,
+              835.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 69,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 70,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          }
+        ],
+        "pages": [
+          {
+            "bounds": [
+              0.0,
+              0.0,
+              1000.0,
+              850.0
+            ],
+            "columns": 1,
+            "index": 6,
+            "margins": {
+              "bottom": 25.0,
+              "inside": 25.0,
+              "outside": 25.0,
+              "top": 25.0
+            },
+            "name": "7",
+            "parent": "A-Parent",
+            "side": "single"
+          }
+        ]
+      },
+      {
+        "index": 7,
+        "items": [
+          {
+            "bounds": [
+              25.0,
+              15.0,
+              975.0,
+              55.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 71,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 72,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "asset": 73,
+            "bounds": [
+              25.0,
+              60.0,
+              975.0,
+              693.3333333333334
+            ],
+            "fill": "[None]",
+            "hidden": false,
+            "id": 74,
+            "kind": "<image>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "bounds": [
+              25.0,
+              700.0,
+              975.0,
+              835.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 75,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 76,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          }
+        ],
+        "pages": [
+          {
+            "bounds": [
+              0.0,
+              0.0,
+              1000.0,
+              850.0
+            ],
+            "columns": 1,
+            "index": 7,
+            "margins": {
+              "bottom": 25.0,
+              "inside": 25.0,
+              "outside": 25.0,
+              "top": 25.0
+            },
+            "name": "8",
+            "parent": "A-Parent",
+            "side": "single"
+          }
+        ]
+      },
+      {
+        "index": 8,
+        "items": [
+          {
+            "bounds": [
+              25.0,
+              15.0,
+              975.0,
+              55.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 77,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 78,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "asset": 79,
+            "bounds": [
+              25.0,
+              60.0,
+              975.0,
+              693.3333333333334
+            ],
+            "fill": "[None]",
+            "hidden": false,
+            "id": 80,
+            "kind": "<image>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "bounds": [
+              25.0,
+              700.0,
+              975.0,
+              835.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 81,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 82,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          }
+        ],
+        "pages": [
+          {
+            "bounds": [
+              0.0,
+              0.0,
+              1000.0,
+              850.0
+            ],
+            "columns": 1,
+            "index": 8,
+            "margins": {
+              "bottom": 25.0,
+              "inside": 25.0,
+              "outside": 25.0,
+              "top": 25.0
+            },
+            "name": "9",
+            "parent": "A-Parent",
+            "side": "single"
+          }
+        ]
+      },
+      {
+        "index": 9,
+        "items": [
+          {
+            "bounds": [
+              25.0,
+              15.0,
+              975.0,
+              55.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 83,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 84,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "asset": 85,
+            "bounds": [
+              25.0,
+              60.0,
+              975.0,
+              693.3333333333334
+            ],
+            "fill": "[None]",
+            "hidden": false,
+            "id": 86,
+            "kind": "<image>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "bounds": [
+              25.0,
+              700.0,
+              975.0,
+              835.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 87,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 88,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          }
+        ],
+        "pages": [
+          {
+            "bounds": [
+              0.0,
+              0.0,
+              1000.0,
+              850.0
+            ],
+            "columns": 1,
+            "index": 9,
+            "margins": {
+              "bottom": 25.0,
+              "inside": 25.0,
+              "outside": 25.0,
+              "top": 25.0
+            },
+            "name": "10",
+            "parent": "A-Parent",
+            "side": "single"
+          }
+        ]
+      },
+      {
+        "index": 10,
+        "items": [
+          {
+            "bounds": [
+              25.0,
+              15.0,
+              975.0,
+              55.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 89,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 90,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "asset": 91,
+            "bounds": [
+              25.0,
+              60.0,
+              975.0,
+              693.3333333333334
+            ],
+            "fill": "[None]",
+            "hidden": false,
+            "id": 92,
+            "kind": "<image>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "bounds": [
+              25.0,
+              700.0,
+              975.0,
+              835.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 93,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 94,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          }
+        ],
+        "pages": [
+          {
+            "bounds": [
+              0.0,
+              0.0,
+              1000.0,
+              850.0
+            ],
+            "columns": 1,
+            "index": 10,
+            "margins": {
+              "bottom": 25.0,
+              "inside": 25.0,
+              "outside": 25.0,
+              "top": 25.0
+            },
+            "name": "11",
+            "parent": "A-Parent",
+            "side": "single"
+          }
+        ]
+      },
+      {
+        "index": 11,
+        "items": [
+          {
+            "bounds": [
+              25.0,
+              15.0,
+              975.0,
+              55.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 95,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 96,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "asset": 97,
+            "bounds": [
+              25.0,
+              60.0,
+              975.0,
+              693.3333333333334
+            ],
+            "fill": "[None]",
+            "hidden": false,
+            "id": 98,
+            "kind": "<image>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          },
+          {
+            "bounds": [
+              25.0,
+              700.0,
+              975.0,
+              835.0
+            ],
+            "columns": 1,
+            "fill": "[None]",
+            "hidden": false,
+            "id": 99,
+            "kind": "<text frame>",
+            "layer": 1,
+            "locked": false,
+            "name": "",
+            "story": 100,
+            "stroke": {
+              "swatch": "[None]",
+              "weight": 1.0
+            }
+          }
+        ],
+        "pages": [
+          {
+            "bounds": [
+              0.0,
+              0.0,
+              1000.0,
+              850.0
+            ],
+            "columns": 1,
+            "index": 11,
+            "margins": {
+              "bottom": 25.0,
+              "inside": 25.0,
+              "outside": 25.0,
+              "top": 25.0
+            },
+            "name": "12",
+            "parent": "A-Parent",
+            "side": "single"
+          }
+        ]
+      }
+    ],
+    "stories": [
+      {
+        "frames": [
+          29
+        ],
+        "id": 30,
+        "length": 48,
+        "lines": 1,
+        "overset": false,
+        "paragraphs": 1,
+        "preview": "01 / Amaias son — exploratory source reference"
+      },
+      {
+        "frames": [
+          33
+        ],
+        "id": 34,
+        "length": 422,
+        "lines": 4,
+        "overset": false,
+        "paragraphs": 4,
+        "preview": "Native: 02-amaias-son.pcraft\nShort dark wavy curls, round toddler face, white sl"
+      },
+      {
+        "frames": [
+          35
+        ],
+        "id": 36,
+        "length": 44,
+        "lines": 1,
+        "overset": false,
+        "paragraphs": 1,
+        "preview": "02 / Dairon — exploratory source reference"
+      },
+      {
+        "frames": [
+          39
+        ],
+        "id": 40,
+        "length": 392,
+        "lines": 4,
+        "overset": false,
+        "paragraphs": 4,
+        "preview": "Native: 03-dairon.pcraft\nLean muscular adult, long dark tied curls, pale one-sho"
+      },
+      {
+        "frames": [
+          41
+        ],
+        "id": 42,
+        "length": 42,
+        "lines": 1,
+        "overset": false,
+        "paragraphs": 1,
+        "preview": "03 / Yara — exploratory source reference"
+      },
+      {
+        "frames": [
+          45
+        ],
+        "id": 46,
+        "length": 409,
+        "lines": 4,
+        "overset": false,
+        "paragraphs": 4,
+        "preview": "Native: 04-yara-corrected.pcraft\nBroad adult woman, long thick single braid, whi"
+      },
+      {
+        "frames": [
+          47
+        ],
+        "id": 48,
+        "length": 44,
+        "lines": 1,
+        "overset": false,
+        "paragraphs": 1,
+        "preview": "04 / Beheto — exploratory source reference"
+      },
+      {
+        "frames": [
+          51
+        ],
+        "id": 52,
+        "length": 424,
+        "lines": 4,
+        "overset": false,
+        "paragraphs": 4,
+        "preview": "Native: 05-beheto.pcraft\nOlder angular man, gray swept-back tied hair, hollow ch"
+      },
+      {
+        "frames": [
+          53
+        ],
+        "id": 54,
+        "length": 57,
+        "lines": 1,
+        "overset": false,
+        "paragraphs": 1,
+        "preview": "05 / Seven-year-old girl — exploratory source reference"
+      },
+      {
+        "frames": [
+          57
+        ],
+        "id": 58,
+        "length": 410,
+        "lines": 4,
+        "overset": false,
+        "paragraphs": 4,
+        "preview": "Native: 06-seven-year-old-girl.pcraft\nLong dark curls with half-up braid, blue s"
+      },
+      {
+        "frames": [
+          59
+        ],
+        "id": 60,
+        "length": 55,
+        "lines": 1,
+        "overset": false,
+        "paragraphs": 1,
+        "preview": "06 / Nine-year-old boy — exploratory source reference"
+      },
+      {
+        "frames": [
+          63
+        ],
+        "id": 64,
+        "length": 397,
+        "lines": 4,
+        "overset": false,
+        "paragraphs": 4,
+        "preview": "Native: 07-nine-year-old-boy.pcraft\nShort dense dark curls, red rough tunic, pal"
+      },
+      {
+        "frames": [
+          65
+        ],
+        "id": 66,
+        "length": 62,
+        "lines": 1,
+        "overset": false,
+        "paragraphs": 1,
+        "preview": "07 / Third lit child proposal — exploratory source reference"
+      },
+      {
+        "frames": [
+          69
+        ],
+        "id": 70,
+        "length": 407,
+        "lines": 4,
+        "overset": false,
+        "paragraphs": 4,
+        "preview": "Native: 08-third-lit-child-proposal.pcraft\nSmaller child, soft short dark hair, "
+      },
+      {
+        "frames": [
+          71
+        ],
+        "id": 72,
+        "length": 59,
+        "lines": 1,
+        "overset": false,
+        "paragraphs": 1,
+        "preview": "08 / Background survivor 1 — exploratory source reference"
+      },
+      {
+        "frames": [
+          75
+        ],
+        "id": 76,
+        "length": 416,
+        "lines": 4,
+        "overset": false,
+        "paragraphs": 4,
+        "preview": "Native: 09-background-survivor-1.pcraft\nOlder broad woman, gray temples and low "
+      },
+      {
+        "frames": [
+          77
+        ],
+        "id": 78,
+        "length": 59,
+        "lines": 1,
+        "overset": false,
+        "paragraphs": 1,
+        "preview": "09 / Background survivor 2 — exploratory source reference"
+      },
+      {
+        "frames": [
+          81
+        ],
+        "id": 82,
+        "length": 416,
+        "lines": 4,
+        "overset": false,
+        "paragraphs": 4,
+        "preview": "Native: 10-background-survivor-2.pcraft\nYoung lean man, short wavy dark hair, bl"
+      },
+      {
+        "frames": [
+          83
+        ],
+        "id": 84,
+        "length": 59,
+        "lines": 1,
+        "overset": false,
+        "paragraphs": 1,
+        "preview": "10 / Background survivor 3 — exploratory source reference"
+      },
+      {
+        "frames": [
+          87
+        ],
+        "id": 88,
+        "length": 416,
+        "lines": 4,
+        "overset": false,
+        "paragraphs": 4,
+        "preview": "Native: 11-background-survivor-3.pcraft\nBroad stocky man, jaw-length straight da"
+      },
+      {
+        "frames": [
+          89
+        ],
+        "id": 90,
+        "length": 58,
+        "lines": 1,
+        "overset": false,
+        "paragraphs": 1,
+        "preview": "11 / Bell-bearing soldier — exploratory source reference"
+      },
+      {
+        "frames": [
+          93
+        ],
+        "id": 94,
+        "length": 441,
+        "lines": 4,
+        "overset": false,
+        "paragraphs": 4,
+        "preview": "Native: 12-bell-bearing-soldier.pcraft\nBearded adult with steel brimmed helmet, "
+      },
+      {
+        "frames": [
+          95
+        ],
+        "id": 96,
+        "length": 51,
+        "lines": 1,
+        "overset": false,
+        "paragraphs": 1,
+        "preview": "12 / Ledger keeper — exploratory source reference"
+      },
+      {
+        "frames": [
+          99
+        ],
+        "id": 100,
+        "length": 475,
+        "lines": 5,
+        "overset": false,
+        "paragraphs": 4,
+        "preview": "Native: 13-ledger-keeper.pcraft\nMiddle-aged receding wavy hair, short beard, pal"
+      }
+    ],
+    "swatches": [
+      "[None]",
+      "[Registration]",
+      "[Paper]",
+      "[Black]",
+      "C=100 M=0 Y=0 K=0",
+      "C=0 M=100 Y=0 K=0",
+      "C=0 M=0 Y=100 K=0",
+      "C=0 M=100 Y=100 K=0",
+      "C=100 M=0 Y=100 K=0",
+      "C=100 M=100 Y=0 K=0",
+      "C=15 M=100 Y=100 K=0",
+      "C=75 M=5 Y=100 K=0",
+      "C=100 M=90 Y=10 K=0"
+    ],
+    "title": "river-source-index.designcraft",
+    "tool": "selection"
+  }
+}

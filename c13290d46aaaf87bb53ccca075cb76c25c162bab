@@ -1,0 +1,13 @@
+{
+  "tool": "doc_export",
+  "arguments": {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/rodriguez-master-a5adea68a029/preview.png"
+  },
+  "status": "succeeded",
+  "result": {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/rodriguez-master-a5adea68a029/preview.png",
+    "warnings": [
+      "2 layer(s) flattened; layers, masks and blend modes are not kept"
+    ]
+  }
+}
