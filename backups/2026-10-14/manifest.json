@@ -22,6 +22,33 @@
       "sha256": "e9d2cf7c037e9db4fba8664d2d62d7f6eaf6d5aecfe5ea38f21509fc0c3f0b80",
       "git_blob_sha": "61091f66f8a67ec90097e96dfd47acb0be9d3ed0",
       "entries": 24
+    },
+    {
+      "index": 2,
+      "filename": "03-shot-artwork-001.zip",
+      "section": "03-shot-artwork",
+      "bytes": 23161829,
+      "sha256": "bf20892b8add8bd461b1023e6f61037aa4a7a679f121048263073fe62d212c6c",
+      "git_blob_sha": "896b317d91c4b6f85c6022875e79211fa7afa833",
+      "entries": 147
+    },
+    {
+      "index": 3,
+      "filename": "03-shot-artwork-002.zip",
+      "section": "03-shot-artwork",
+      "bytes": 23296098,
+      "sha256": "e78a4fd599073defe9bd14e0a5b3b26eb8bcbe3397c4e99c0a406d4bd2b36c74",
+      "git_blob_sha": "4bb61079f64ca99d4f45ae1d37b5009dbb75fdd6",
+      "entries": 9
+    },
+    {
+      "index": 4,
+      "filename": "03-shot-artwork-003.zip",
+      "section": "03-shot-artwork",
+      "bytes": 24235481,
+      "sha256": "18cb446d3e934cecedd2a16d9ed7637cefe204d49c4f89aadd0e9f8cb7b9fecb",
+      "git_blob_sha": "5457c728a6f86bf3679ac5df3c2ccf1e4e9f364d",
+      "entries": 12
     }
   ],
   "expected_volumes": 299,
