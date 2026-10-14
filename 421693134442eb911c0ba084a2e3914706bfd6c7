@@ -1,0 +1,65 @@
+[
+  {
+    "description": "Project overview: file path, dirty flag, bit depth, every item (id, name, type Composition/Footage/Solid/Folder, size, duration, layer count), the active comp id, current time (s), selected layers and the undo stack.",
+    "inputSchema": {
+      "properties": {},
+      "required": [],
+      "type": "object"
+    },
+    "name": "get_project"
+  },
+  {
+    "description": "A composition: id, name, size, frame rate, duration, work area, background and its layers top to bottom (id, index, name, type, in/out/start seconds, blend mode, parent, track matte, switches). Layer ids feed get_layer, get_property/set_property and commands.",
+    "inputSchema": {
+      "properties": {
+        "comp": {
+          "description": "Composition item id or name; omit for the active comp.",
+          "type": [
+            "integer",
+            "string"
+          ]
+        }
+      },
+      "required": [],
+      "type": "object"
+    },
+    "name": "get_comp"
+  },
+  {
+    "description": "Render a composition frame (default: the active comp at the current time) and return it as a PNG image, longest side `max_side` (default 960, 0 = full size). `path` also writes the PNG to disk; `inline: false` returns only the metadata. Use it to check your work.",
+    "inputSchema": {
+      "properties": {
+        "comp": {
+          "description": "Composition item id or name; omit for the active comp.",
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "inline": {
+          "description": "Include the image in the reply (default true).",
+          "type": "boolean"
+        },
+        "max_side": {
+          "description": "Longest side in pixels (default 960; 0 = full comp size).",
+          "type": "integer"
+        },
+        "path": {
+          "description": "Also write the PNG here.",
+          "type": "string"
+        },
+        "time": {
+          "description": "Comp time in seconds (default: current time).",
+          "type": "number"
+        },
+        "transparent": {
+          "description": "Keep the frame's alpha (RGBA PNG, as an RGB + Alpha render writes it) instead of compositing over the comp's background colour.",
+          "type": "boolean"
+        }
+      },
+      "required": [],
+      "type": "object"
+    },
+    "name": "render_frame"
+  }
+]

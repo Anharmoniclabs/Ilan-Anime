@@ -1,0 +1,565 @@
+{
+  "shot": "S01-03",
+  "status": "exploratory",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 192,
+  "elements": [
+    {
+      "name": "stable-reference",
+      "kind": "plate",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/layers/stable-plate.png"
+    },
+    {
+      "name": "Amaia-replacements",
+      "kind": "character",
+      "rate": 3,
+      "poses": [
+        {
+          "frame": 0,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/rest.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 18,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/look-a.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 24,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/count-a.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 30,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/look-a.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 42,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/rest.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 51,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/look-o.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 57,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/count-o.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 63,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/look-o.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 75,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/rest.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 84,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/look-a.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 90,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/count-a.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 96,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/look-o.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 108,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/rest.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 117,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/blink.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 120,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/head-early.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 126,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/head-down-refined.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 132,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/head-lower-candidate.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 150,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/head-down-refined.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 156,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/head-early.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 162,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/rest.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 174,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/look-a.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        },
+        {
+          "frame": 183,
+          "drawing": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/cels/rest.png",
+          "points": {
+            "shoulder": [
+              230,
+              318
+            ],
+            "child-cheek": [
+              449,
+              389
+            ],
+            "cradle": [
+              533,
+              495
+            ],
+            "hull": [
+              780,
+              540
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "element": "Amaia-replacements",
+      "point": "shoulder",
+      "anchor": {
+        "element": "stable-reference",
+        "xy": [
+          230,
+          318
+        ]
+      },
+      "start": 0,
+      "end": 192,
+      "tolerance": 0.1
+    },
+    {
+      "element": "Amaia-replacements",
+      "point": "child-cheek",
+      "anchor": {
+        "element": "stable-reference",
+        "xy": [
+          449,
+          389
+        ]
+      },
+      "start": 0,
+      "end": 192,
+      "tolerance": 0.1
+    },
+    {
+      "element": "Amaia-replacements",
+      "point": "cradle",
+      "anchor": {
+        "element": "stable-reference",
+        "xy": [
+          533,
+          495
+        ]
+      },
+      "start": 0,
+      "end": 192,
+      "tolerance": 0.1
+    },
+    {
+      "element": "Amaia-replacements",
+      "point": "hull",
+      "anchor": {
+        "element": "stable-reference",
+        "xy": [
+          780,
+          540
+        ]
+      },
+      "start": 0,
+      "end": 192,
+      "tolerance": 0.1
+    }
+  ]
+}
