@@ -1,0 +1,144 @@
+{
+  "canvas": [
+    1672,
+    941
+  ],
+  "records": [
+    {
+      "figure": "woman",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/amaia-breakdowns/ghost-woman-rgba.png",
+      "sha256": "11ca3a91f5e3eb4c22ae72a5f87946647921dedba5ccfa944e0564cb9178e373",
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "opaque_pixels": 462,
+      "scale_static": 0.39,
+      "translation_static": [
+        726,
+        508
+      ],
+      "hip_source": [
+        550,
+        800
+      ],
+      "seat_contact_native": [
+        940,
+        820
+      ],
+      "animation": "opacity only; no body transform",
+      "choke_source_pixels": 1,
+      "source_lower_crop_hidden_by_front_hull": true
+    },
+    {
+      "figure": "man",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/amaia-breakdowns/ghost-man-rgba.png",
+      "sha256": "d59bdf6ce48bc4e644c9e535d6f6fa5ad18c20d9513f0f9ed5060db2981c652e",
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "opaque_pixels": 379,
+      "scale_static": 0.39,
+      "translation_static": [
+        948,
+        508
+      ],
+      "hip_source": [
+        620,
+        800
+      ],
+      "seat_contact_native": [
+        1190,
+        820
+      ],
+      "animation": "opacity only; no body transform",
+      "choke_source_pixels": 1,
+      "source_lower_crop_hidden_by_front_hull": true
+    },
+    {
+      "figure": "elder",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/amaia-breakdowns/ghost-elder-rgba.png",
+      "sha256": "c4b1383ae3184f88c0fe9a01712bdb68e65e5e670259a18100352851d311c03a",
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "opaque_pixels": 233,
+      "scale_static": 0.39,
+      "translation_static": [
+        1134,
+        508
+      ],
+      "hip_source": [
+        580,
+        800
+      ],
+      "seat_contact_native": [
+        1360,
+        820
+      ],
+      "animation": "opacity only; no body transform",
+      "choke_source_pixels": 1,
+      "source_lower_crop_hidden_by_front_hull": true
+    }
+  ],
+  "occlusion": "near cross-hull only; far rail behind complete figures; hip anchors on interior seat plane above near cross-hull",
+  "native_front_edge": [
+    [
+      0,
+      780
+    ],
+    [
+      130,
+      798
+    ],
+    [
+      230,
+      836
+    ],
+    [
+      335,
+      872
+    ],
+    [
+      700,
+      871
+    ],
+    [
+      1000,
+      867
+    ],
+    [
+      1300,
+      864
+    ],
+    [
+      1500,
+      862
+    ],
+    [
+      1617,
+      863
+    ],
+    [
+      1615,
+      887
+    ],
+    [
+      1672,
+      904
+    ],
+    [
+      1672,
+      941
+    ],
+    [
+      0,
+      941
+    ]
+  ]
+}

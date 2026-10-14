@@ -1,0 +1,70 @@
+{
+  "reopen_max_pixel_difference": {
+    "0": 0,
+    "42": 0,
+    "75": 0,
+    "108": 0,
+    "191": 0
+  },
+  "source_integrity": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/native-review-recipe.json",
+      "unchanged": true
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/action-timeline-review.json",
+      "unchanged": true
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/sources/rest.png",
+      "unchanged": true
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/amaia-breakdowns/ghost-woman-rgba.png",
+      "unchanged": true
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/amaia-breakdowns/ghost-man-rgba.png",
+      "unchanged": true
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/amaia-breakdowns/ghost-elder-rgba.png",
+      "unchanged": true
+    }
+  ],
+  "after_losses_matches_prior_verified_frames": true,
+  "frame_count": 192,
+  "fps": "24/1",
+  "audio_streams": 0,
+  "protected_living_and_front_hull_against_unmodified_acting_cels": {
+    "0": {
+      "living_left_680px": 0,
+      "front_hull_below_680px": 0
+    },
+    "24": {
+      "living_left_680px": 0,
+      "front_hull_below_680px": 0
+    },
+    "42": {
+      "living_left_680px": 0,
+      "front_hull_below_680px": 0
+    },
+    "57": {
+      "living_left_680px": 0,
+      "front_hull_below_680px": 0
+    },
+    "75": {
+      "living_left_680px": 0,
+      "front_hull_below_680px": 0
+    },
+    "90": {
+      "living_left_680px": 0,
+      "front_hull_below_680px": 0
+    },
+    "108": {
+      "living_left_680px": 0,
+      "front_hull_below_680px": 0
+    }
+  },
+  "contact_comparison_note": "Prior rejected render contained ghosts in the left rectangle, so protection is compared against the unmodified acting cel, not the rejected ghost composite."
+}

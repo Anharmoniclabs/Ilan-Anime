@@ -1,0 +1,16 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "file.saveAs",
+    "params": {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/edit.filmcraft"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "backup": null,
+    "bytes": 4938,
+    "ms": 26.968848,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/edit.filmcraft"
+  }
+}
