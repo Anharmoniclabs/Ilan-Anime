@@ -1,0 +1,27 @@
+{
+  "shot": "S05-13",
+  "output": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/review-matte.mp4",
+  "mode": "review",
+  "quality": "final",
+  "frames": 96,
+  "size": [
+    1280,
+    720
+  ],
+  "draft": true,
+  "status": "exploratory",
+  "engine": "2.0.0",
+  "fingerprint": "c9d4ab038923a4e73bc4be2f5b69ba9c037e24a37d8495feae06c2b3cb97d77c",
+  "inputs": {
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/clean-plate.png": "d3329573d4e4ff01e27123020028f7bd3003e539a2c737a260a9ce1a09054fcd",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/coin-matte-clean.png": "f7659440dae91bb617e6f5c94b727bad712b09ba3e2e0c438c4475ed7ed1055c",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/contact-shadow.png": "70d9695fdd01dd67730fb339f2090b24542bc8ebe9a79ab2d114bd6a9156b18e",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/glint-a.png": "f95d628449c105814616460148511342037c3d8a62c2b6bc6f4c2202effe5909",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/glint-b.png": "abe9388fe52969134733a27f20db47a83e91f881ce49e756f66b451fb50adc5b",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/glint-c.png": "c54d6712e72ae00d0eb55c985c0f589da240bff5e3b49272b1f50ea7751d68e5",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/white-contact-flash.png": "8cf658589e6dea2cf7e2fa9684cef015849612e5ffa8b6792dd0564ec9b9bafb"
+  },
+  "output_sha256": "e40edbb2d978dc78d8994f8322d084a02e7d689f52f0b2d53de3310d8527acc2",
+  "seconds": 9953.36,
+  "truth": "A successful render proves the spec executes, not that the animation is good."
+}

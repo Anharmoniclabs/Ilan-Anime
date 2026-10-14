@@ -1,0 +1,21 @@
+{
+  "shot": "S06-03",
+  "output": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/review.mp4",
+  "mode": "review",
+  "quality": "final",
+  "frames": 144,
+  "size": [
+    1280,
+    720
+  ],
+  "draft": true,
+  "status": "exploratory",
+  "engine": "2.0.0",
+  "fingerprint": "567f04efa634eaf7e44be89637bd0b8117f17d04aef55d383e9a943274c1ffb8",
+  "inputs": {
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/blackout-plate.png": "3168e593ac3e7ccb71f95e2711dc3a795aaeb6ec645a98f9d51efcae23387f92"
+  },
+  "output_sha256": "d1a84e32672f6e1429e3fb9b6d8d398e90585dc2099c85294613c5c195b6929d",
+  "seconds": 2.69,
+  "truth": "A successful render proves the spec executes, not that the animation is good."
+}

@@ -1,0 +1,621 @@
+{
+  "id": "S04-02",
+  "size": [
+    1280,
+    720
+  ],
+  "fps": 24,
+  "frames": 144,
+  "status": "exploratory",
+  "layers": [
+    {
+      "name": "room",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/room.png",
+      "rate": 1,
+      "keys": [
+        {
+          "frame": 0,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "pipe endpoint",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pipe-masked.png",
+      "rate": 1,
+      "keys": [
+        {
+          "frame": 0,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "projector endpoint",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/projector-masked.png",
+      "rate": 1,
+      "keys": [
+        {
+          "frame": 0,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "SMOOTHING gauze",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-1-gauze.png",
+      "rate": 1,
+      "keys": [
+        {
+          "frame": 0,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "SMOOTHING label and icon",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-1-label.png",
+      "rate": 1,
+      "keys": [
+        {
+          "frame": 0,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "GATING gauze",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-2-gauze.png",
+      "rate": 1,
+      "keys": [
+        {
+          "frame": 0,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "GATING label and icon",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-2-label.png",
+      "rate": 1,
+      "keys": [
+        {
+          "frame": 0,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "NOISE FLOOR gauze",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-3-gauze.png",
+      "rate": 1,
+      "keys": [
+        {
+          "frame": 0,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "NOISE FLOOR label and icon",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-3-label.png",
+      "rate": 1,
+      "keys": [
+        {
+          "frame": 0,
+          "x": 0,
+          "y": 0
+        }
+      ]
+    },
+    {
+      "name": "shared connected sigil travels unchanged",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/rigid-shared-sigil.png",
+      "rate": 3,
+      "keys": [
+        {
+          "frame": 0,
+          "x": 180.0,
+          "y": 393
+        },
+        {
+          "frame": 3,
+          "x": 198.72340425531914,
+          "y": 393
+        },
+        {
+          "frame": 6,
+          "x": 217.4468085106383,
+          "y": 393
+        },
+        {
+          "frame": 9,
+          "x": 236.17021276595744,
+          "y": 393
+        },
+        {
+          "frame": 12,
+          "x": 254.8936170212766,
+          "y": 393
+        },
+        {
+          "frame": 15,
+          "x": 273.6170212765958,
+          "y": 393
+        },
+        {
+          "frame": 18,
+          "x": 292.3404255319149,
+          "y": 393
+        },
+        {
+          "frame": 21,
+          "x": 311.063829787234,
+          "y": 393
+        },
+        {
+          "frame": 24,
+          "x": 329.7872340425532,
+          "y": 393
+        },
+        {
+          "frame": 27,
+          "x": 348.51063829787233,
+          "y": 393
+        },
+        {
+          "frame": 30,
+          "x": 367.2340425531915,
+          "y": 393
+        },
+        {
+          "frame": 33,
+          "x": 385.95744680851067,
+          "y": 393
+        },
+        {
+          "frame": 36,
+          "x": 404.6808510638298,
+          "y": 393
+        },
+        {
+          "frame": 39,
+          "x": 423.40425531914894,
+          "y": 393
+        },
+        {
+          "frame": 42,
+          "x": 442.12765957446805,
+          "y": 393
+        },
+        {
+          "frame": 45,
+          "x": 460.8510638297872,
+          "y": 393
+        },
+        {
+          "frame": 48,
+          "x": 479.5744680851064,
+          "y": 393
+        },
+        {
+          "frame": 51,
+          "x": 498.29787234042556,
+          "y": 393
+        },
+        {
+          "frame": 54,
+          "x": 517.0212765957447,
+          "y": 393
+        },
+        {
+          "frame": 57,
+          "x": 535.7446808510638,
+          "y": 393
+        },
+        {
+          "frame": 60,
+          "x": 554.468085106383,
+          "y": 393
+        },
+        {
+          "frame": 63,
+          "x": 573.1914893617021,
+          "y": 393
+        },
+        {
+          "frame": 66,
+          "x": 591.9148936170213,
+          "y": 393
+        },
+        {
+          "frame": 69,
+          "x": 610.6382978723404,
+          "y": 393
+        },
+        {
+          "frame": 72,
+          "x": 629.3617021276596,
+          "y": 393
+        },
+        {
+          "frame": 75,
+          "x": 648.0851063829787,
+          "y": 393
+        },
+        {
+          "frame": 78,
+          "x": 666.8085106382979,
+          "y": 393
+        },
+        {
+          "frame": 81,
+          "x": 685.5319148936171,
+          "y": 393
+        },
+        {
+          "frame": 84,
+          "x": 704.2553191489361,
+          "y": 393
+        },
+        {
+          "frame": 87,
+          "x": 722.9787234042553,
+          "y": 393
+        },
+        {
+          "frame": 90,
+          "x": 741.7021276595744,
+          "y": 393
+        },
+        {
+          "frame": 93,
+          "x": 760.4255319148936,
+          "y": 393
+        },
+        {
+          "frame": 96,
+          "x": 779.1489361702128,
+          "y": 393
+        },
+        {
+          "frame": 99,
+          "x": 797.8723404255319,
+          "y": 393
+        },
+        {
+          "frame": 102,
+          "x": 816.5957446808511,
+          "y": 393
+        },
+        {
+          "frame": 105,
+          "x": 835.3191489361702,
+          "y": 393
+        },
+        {
+          "frame": 108,
+          "x": 854.0425531914893,
+          "y": 393
+        },
+        {
+          "frame": 111,
+          "x": 872.7659574468086,
+          "y": 393
+        },
+        {
+          "frame": 114,
+          "x": 891.4893617021277,
+          "y": 393
+        },
+        {
+          "frame": 117,
+          "x": 910.2127659574468,
+          "y": 393
+        },
+        {
+          "frame": 120,
+          "x": 928.936170212766,
+          "y": 393
+        },
+        {
+          "frame": 123,
+          "x": 947.6595744680851,
+          "y": 393
+        },
+        {
+          "frame": 126,
+          "x": 966.3829787234042,
+          "y": 393
+        },
+        {
+          "frame": 129,
+          "x": 985.1063829787234,
+          "y": 393
+        },
+        {
+          "frame": 132,
+          "x": 1003.8297872340426,
+          "y": 393
+        },
+        {
+          "frame": 135,
+          "x": 1022.5531914893618,
+          "y": 393
+        },
+        {
+          "frame": 138,
+          "x": 1041.276595744681,
+          "y": 393
+        },
+        {
+          "frame": 141,
+          "x": 1060.0,
+          "y": 393
+        }
+      ]
+    },
+    {
+      "name": "same waveform travels unchanged",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/rigid-waveform.png",
+      "rate": 3,
+      "keys": [
+        {
+          "frame": 0,
+          "x": 168.0,
+          "y": 503
+        },
+        {
+          "frame": 3,
+          "x": 186.72340425531914,
+          "y": 503
+        },
+        {
+          "frame": 6,
+          "x": 205.4468085106383,
+          "y": 503
+        },
+        {
+          "frame": 9,
+          "x": 224.17021276595744,
+          "y": 503
+        },
+        {
+          "frame": 12,
+          "x": 242.8936170212766,
+          "y": 503
+        },
+        {
+          "frame": 15,
+          "x": 261.6170212765958,
+          "y": 503
+        },
+        {
+          "frame": 18,
+          "x": 280.3404255319149,
+          "y": 503
+        },
+        {
+          "frame": 21,
+          "x": 299.063829787234,
+          "y": 503
+        },
+        {
+          "frame": 24,
+          "x": 317.7872340425532,
+          "y": 503
+        },
+        {
+          "frame": 27,
+          "x": 336.51063829787233,
+          "y": 503
+        },
+        {
+          "frame": 30,
+          "x": 355.2340425531915,
+          "y": 503
+        },
+        {
+          "frame": 33,
+          "x": 373.95744680851067,
+          "y": 503
+        },
+        {
+          "frame": 36,
+          "x": 392.6808510638298,
+          "y": 503
+        },
+        {
+          "frame": 39,
+          "x": 411.40425531914894,
+          "y": 503
+        },
+        {
+          "frame": 42,
+          "x": 430.12765957446805,
+          "y": 503
+        },
+        {
+          "frame": 45,
+          "x": 448.8510638297872,
+          "y": 503
+        },
+        {
+          "frame": 48,
+          "x": 467.5744680851064,
+          "y": 503
+        },
+        {
+          "frame": 51,
+          "x": 486.29787234042556,
+          "y": 503
+        },
+        {
+          "frame": 54,
+          "x": 505.02127659574467,
+          "y": 503
+        },
+        {
+          "frame": 57,
+          "x": 523.7446808510638,
+          "y": 503
+        },
+        {
+          "frame": 60,
+          "x": 542.468085106383,
+          "y": 503
+        },
+        {
+          "frame": 63,
+          "x": 561.1914893617021,
+          "y": 503
+        },
+        {
+          "frame": 66,
+          "x": 579.9148936170213,
+          "y": 503
+        },
+        {
+          "frame": 69,
+          "x": 598.6382978723404,
+          "y": 503
+        },
+        {
+          "frame": 72,
+          "x": 617.3617021276596,
+          "y": 503
+        },
+        {
+          "frame": 75,
+          "x": 636.0851063829787,
+          "y": 503
+        },
+        {
+          "frame": 78,
+          "x": 654.8085106382979,
+          "y": 503
+        },
+        {
+          "frame": 81,
+          "x": 673.5319148936171,
+          "y": 503
+        },
+        {
+          "frame": 84,
+          "x": 692.2553191489361,
+          "y": 503
+        },
+        {
+          "frame": 87,
+          "x": 710.9787234042553,
+          "y": 503
+        },
+        {
+          "frame": 90,
+          "x": 729.7021276595744,
+          "y": 503
+        },
+        {
+          "frame": 93,
+          "x": 748.4255319148936,
+          "y": 503
+        },
+        {
+          "frame": 96,
+          "x": 767.1489361702128,
+          "y": 503
+        },
+        {
+          "frame": 99,
+          "x": 785.8723404255319,
+          "y": 503
+        },
+        {
+          "frame": 102,
+          "x": 804.5957446808511,
+          "y": 503
+        },
+        {
+          "frame": 105,
+          "x": 823.3191489361702,
+          "y": 503
+        },
+        {
+          "frame": 108,
+          "x": 842.0425531914893,
+          "y": 503
+        },
+        {
+          "frame": 111,
+          "x": 860.7659574468086,
+          "y": 503
+        },
+        {
+          "frame": 114,
+          "x": 879.4893617021277,
+          "y": 503
+        },
+        {
+          "frame": 117,
+          "x": 898.2127659574468,
+          "y": 503
+        },
+        {
+          "frame": 120,
+          "x": 916.936170212766,
+          "y": 503
+        },
+        {
+          "frame": 123,
+          "x": 935.6595744680851,
+          "y": 503
+        },
+        {
+          "frame": 126,
+          "x": 954.3829787234042,
+          "y": 503
+        },
+        {
+          "frame": 129,
+          "x": 973.1063829787234,
+          "y": 503
+        },
+        {
+          "frame": 132,
+          "x": 991.8297872340426,
+          "y": 503
+        },
+        {
+          "frame": 135,
+          "x": 1010.5531914893618,
+          "y": 503
+        },
+        {
+          "frame": 138,
+          "x": 1029.276595744681,
+          "y": 503
+        },
+        {
+          "frame": 141,
+          "x": 1048.0,
+          "y": 503
+        }
+      ]
+    }
+  ],
+  "post": {
+    "grain": 0,
+    "weave": 0,
+    "chroma": 0,
+    "vignette": 0,
+    "halation": 0
+  }
+}

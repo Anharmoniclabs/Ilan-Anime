@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.addKey",
+    "params": {
+      "layer": "9-0 shared connected sigil travels unchanged",
+      "path": "transform/position",
+      "time": 2.75,
+      "value": [
+        641.9148936170213,
+        443.0
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": 67
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/blink-native.png",
+    "sha256": "192651b0203084f2de612263a42354650d81b537916dd52d2e82f755ec65fae5"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/blink.png",
+    "sha256": "a76a19b67d65220c3b33372a599a0faa1feedb0dd6b297c1da45f811de97ea75"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/count-a-native.png",
+    "sha256": "95e987254d301ff8e4db49e7192391aafce5fe70e6ac7564c61fcf5e997d600e"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/count-a.png",
+    "sha256": "812adc1a3ee5085181ed3d9c146adcb8fe3a9e0c3c8b22cfb635b216f54da3bd"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/count-o-native.png",
+    "sha256": "e6438932b3166a7316ac945016490a70bb0543e9ba4332e987bc2b39e7c2ec90"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/count-o.png",
+    "sha256": "8dbda7ea1c78c6c93eb0836acf48fd02abf04257801e4475a5283ad1832fdf95"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/head-down-native.png",
+    "sha256": "2badc1537a49db568d84fab6d169a71c5eea83b7ee54c634564ff23a69e35397"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/head-down.png",
+    "sha256": "5189651a52f46e879eba5428a3383fc27712ab05af05fe0b3aad1d0ee3aef3d5"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/look-a-native.png",
+    "sha256": "937d4ccd1215b163fd8c3c658ebfe3145d64b1229f93926d782ed56f19fdc662"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/look-a.png",
+    "sha256": "148e512abb513074b71ce865f41557cccd10e8fa4af8e0fe19cd5773a1c9d09b"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/look-o-native.png",
+    "sha256": "c59f92c26759a9179b857d9d500556d6cd0d96d4bf091e9447c9d8f05acae867"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/look-o.png",
+    "sha256": "89e844fa79ca10bd80c0372a617ad38d3244542ebef1022c9e4f917b3115d7c1"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/rest-native.png",
+    "sha256": "979085d51505997a231ff007f45f5008a21bc1229405d64c25a9d58c5f018c01"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/cels/rest.png",
+    "sha256": "30c543646e1904b42f63ed1322f651a5205ce1a9ebdfca7752447b66926daae0"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/layers/blink-overlay.png",
+    "sha256": "2ddc4423208b051df81ea84d423286f9e2395daa8000be78551b3793fe764ae5"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/layers/count-a-overlay.png",
+    "sha256": "e137df6d693282ef7ea2f2ed352271a03732485db2200e366a1d762898025857"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/layers/count-o-overlay.png",
+    "sha256": "b95c5e3ad95c7b5c664fdcde2a296d7fc53b6819297bbf832ab295087a1fed3a"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/layers/head-down-overlay.png",
+    "sha256": "a298d5290b466c45dbf258b81765b4af9693361f4c8d3636cc37326d880d2ce5"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/layers/look-a-overlay.png",
+    "sha256": "6e4aedcfa4fa5302b279398fffd9ef7b4d7b834b80a08020ca5f3e4fd329e0d6"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/layers/look-o-overlay.png",
+    "sha256": "08a8d49a78639f92fd8b8c648542cd71a4a30929bd1742001066390ae5ecc916"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/layers/rest-overlay.png",
+    "sha256": "57e988b2a857cf7b257e8f07f2aea9e62d403e944d2c9286945f3cb298b7c689"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/layers/stable-plate-native.png",
+    "sha256": "979085d51505997a231ff007f45f5008a21bc1229405d64c25a9d58c5f018c01"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/layers/stable-plate.png",
+    "sha256": "30c543646e1904b42f63ed1322f651a5205ce1a9ebdfca7752447b66926daae0"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/masks/contact-lock.png",
+    "sha256": "fb1fc35d70b6529e515b4a54375745934dc1b8fd3eb34feb66688a8ae6060d20"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/masks/eyes.png",
+    "sha256": "1082dd4114a5a833eafbb94664b9ec399b701b278484fb2a12eb3f9fe51375ff"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/masks/head-down.png",
+    "sha256": "b29ea5d86bd41a26bf0244777ef238735eb706ffb0d41b08dba2fca396eccc23"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/masks/mouth.png",
+    "sha256": "ec6fe95eee19dbd15d1218e0e80c26fdb6ca7f6a4d7ed9ed49b9d9eb89c19b7b"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/review-v2/decoded-acting-01.jpg",
+    "sha256": "83fac0306c377d65032a13fde381b59a4b17bff7b8659ed8dbc02d8e38b2962f"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/review-v2/decoded-acting-02.jpg",
+    "sha256": "093feba1b6a5f16380a300ee6c0a6b222a4b6d2042f89654da1c0287cc57f396"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/review-v2/decoded-acting-03.jpg",
+    "sha256": "20eef10f4c74080e8694f43b779669e535800b0517c23bbc016c1132c907d5e6"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/review-v2/decoded-acting-04.jpg",
+    "sha256": "998635db61a02880a61fe17157b059d1d525e34b3a98a7697a22941573d90a72"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/review-v2/decoded-sequential-01.jpg",
+    "sha256": "febd726efe3be5429596636082d918c6a057515c6f9d14bf0ee35866c8e1c875"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/review-v2/decoded-sequential-02.jpg",
+    "sha256": "d8c0757a05e5315797232e548885921462cc08318bbe456049d51abfd1a702ec"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/review-v2/decoded-sequential-03.jpg",
+    "sha256": "f1a5efe3b7260189c54b0e167db33eb53857f5a1792ba12a8c40ade8b6f8f37e"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/review-v2/decoded-sequential-04.jpg",
+    "sha256": "436c9361fe600f5960c12236ac53b3e20f9f870747e9f5dba73395dca6c7f780"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/review-v2/decoded-sequential-05.jpg",
+    "sha256": "bacd4172f89646d6a91aa204261b9ca460768657f824da6342ef85df0f7e22a2"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/review-v2/decoded-sequential-06.jpg",
+    "sha256": "c7915c108d60cfeab9fcaaf96ebcf2ffbd3edd888921e234e46c3fe35b40c762"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/review-v2/decoded-sequential-07.jpg",
+    "sha256": "13d8273110316309f11c295f31d2b648d80b867bd7e48f10a23ee8cb025f2bdd"
+  },
+  {
+    "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/review-v2/decoded-sequential-08.jpg",
+    "sha256": "7263186040863756904b941522e01e8eb40372f302b3ee6a3468ddfa1e0bed52"
+  }
+]

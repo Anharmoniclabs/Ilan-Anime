@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.addKey",
+    "params": {
+      "layer": "1-0 pipe endpoint",
+      "path": "transform/position",
+      "time": 4.208333333333333,
+      "value": [
+        640.0,
+        360.0
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": 102
+}

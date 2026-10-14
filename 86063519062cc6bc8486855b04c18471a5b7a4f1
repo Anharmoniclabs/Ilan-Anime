@@ -1,0 +1,11 @@
+{
+  "tool": "save_project",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/native/shot.ecproj"
+  },
+  "status": "succeeded",
+  "result": {
+    "dirty": false,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/native/shot.ecproj"
+  }
+}

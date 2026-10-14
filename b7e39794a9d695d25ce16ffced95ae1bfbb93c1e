@@ -1,0 +1,1103 @@
+{
+  "tool": "get_project",
+  "arguments": {},
+  "status": "succeeded",
+  "result": {
+    "activeComp": 1,
+    "bitDepth": "8 bpc",
+    "dirty": false,
+    "items": [
+      {
+        "duration": 12.0,
+        "frameRate": 24.0,
+        "id": 1,
+        "label": "Sandstone",
+        "layers": 97,
+        "name": "S03-03",
+        "parent": null,
+        "size": [
+          1280,
+          720
+        ],
+        "type": "Composition"
+      },
+      {
+        "id": 2,
+        "label": "Lavender",
+        "name": "room-wide.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 26,
+        "label": "Lavender",
+        "name": "steam-a.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 50,
+        "label": "Lavender",
+        "name": "steam-b.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 74,
+        "label": "Lavender",
+        "name": "steam-c.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 98,
+        "label": "Lavender",
+        "name": "steam-d.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 122,
+        "label": "Lavender",
+        "name": "steam-e.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 146,
+        "label": "Lavender",
+        "name": "steam-f.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 170,
+        "label": "Lavender",
+        "name": "steam-g.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 194,
+        "label": "Lavender",
+        "name": "steam-h.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 218,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 242,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 266,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 290,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 314,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 338,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 362,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 386,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 410,
+        "label": "Lavender",
+        "name": "steam-a.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 434,
+        "label": "Lavender",
+        "name": "steam-b.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 458,
+        "label": "Lavender",
+        "name": "steam-c.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 482,
+        "label": "Lavender",
+        "name": "steam-d.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 506,
+        "label": "Lavender",
+        "name": "steam-e.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 530,
+        "label": "Lavender",
+        "name": "steam-f.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 554,
+        "label": "Lavender",
+        "name": "steam-g.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 578,
+        "label": "Lavender",
+        "name": "steam-h.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 602,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 626,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 650,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 674,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 698,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 722,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 746,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 770,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 794,
+        "label": "Lavender",
+        "name": "steam-a.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 818,
+        "label": "Lavender",
+        "name": "steam-b.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 842,
+        "label": "Lavender",
+        "name": "steam-c.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 866,
+        "label": "Lavender",
+        "name": "steam-d.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 890,
+        "label": "Lavender",
+        "name": "steam-e.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 914,
+        "label": "Lavender",
+        "name": "steam-f.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 938,
+        "label": "Lavender",
+        "name": "steam-g.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 962,
+        "label": "Lavender",
+        "name": "steam-h.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 986,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1010,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1034,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1058,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1082,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1106,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1130,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1154,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1178,
+        "label": "Lavender",
+        "name": "steam-a.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1202,
+        "label": "Lavender",
+        "name": "steam-b.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1226,
+        "label": "Lavender",
+        "name": "steam-c.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1250,
+        "label": "Lavender",
+        "name": "steam-d.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1274,
+        "label": "Lavender",
+        "name": "steam-e.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1298,
+        "label": "Lavender",
+        "name": "steam-f.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1322,
+        "label": "Lavender",
+        "name": "steam-g.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1346,
+        "label": "Lavender",
+        "name": "steam-h.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1370,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1394,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1418,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1442,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1466,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1490,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1514,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1538,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1562,
+        "label": "Lavender",
+        "name": "steam-a.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1586,
+        "label": "Lavender",
+        "name": "steam-b.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1610,
+        "label": "Lavender",
+        "name": "steam-c.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1634,
+        "label": "Lavender",
+        "name": "steam-d.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1658,
+        "label": "Lavender",
+        "name": "steam-e.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1682,
+        "label": "Lavender",
+        "name": "steam-f.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1706,
+        "label": "Lavender",
+        "name": "steam-g.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1730,
+        "label": "Lavender",
+        "name": "steam-h.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1754,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1778,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1802,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1826,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1850,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1874,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1898,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1922,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1946,
+        "label": "Lavender",
+        "name": "steam-a.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1970,
+        "label": "Lavender",
+        "name": "steam-b.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 1994,
+        "label": "Lavender",
+        "name": "steam-c.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2018,
+        "label": "Lavender",
+        "name": "steam-d.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2042,
+        "label": "Lavender",
+        "name": "steam-e.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2066,
+        "label": "Lavender",
+        "name": "steam-f.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2090,
+        "label": "Lavender",
+        "name": "steam-g.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2114,
+        "label": "Lavender",
+        "name": "steam-h.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2138,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2162,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2186,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2210,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2234,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2258,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2282,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      },
+      {
+        "id": 2306,
+        "label": "Lavender",
+        "name": "steam-clear.png",
+        "parent": null,
+        "size": [
+          1408,
+          792
+        ],
+        "type": "Image"
+      }
+    ],
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S03-03/native/shot.ecproj",
+    "renderer": {
+      "active": "cpu",
+      "adapter": null,
+      "gpuAcceleration": true,
+      "renderer": "Mercury GPU Acceleration"
+    },
+    "selectedLayers": [],
+    "time": 0.0,
+    "undo": []
+  }
+}

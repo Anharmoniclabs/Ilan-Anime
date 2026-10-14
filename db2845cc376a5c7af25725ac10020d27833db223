@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.addKey",
+    "params": {
+      "layer": "4-0 SMOOTHING label and icon",
+      "path": "transform/position",
+      "time": 1.9583333333333333,
+      "value": [
+        640.0,
+        360.0
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": 48
+}

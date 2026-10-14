@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "prop.addKey",
+    "params": {
+      "layer": "5-0 GATING gauze",
+      "path": "transform/position",
+      "time": 4.541666666666667,
+      "value": [
+        640.0,
+        360.0
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": 110
+}

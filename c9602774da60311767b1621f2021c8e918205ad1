@@ -1,0 +1,31 @@
+{
+  "shot": "S04-02",
+  "output": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/review.mp4",
+  "mode": "review",
+  "quality": "final",
+  "frames": 144,
+  "size": [
+    1280,
+    720
+  ],
+  "draft": true,
+  "status": "exploratory",
+  "engine": "2.0.0",
+  "fingerprint": "87e551feb4c7126dd1885c6ef67441aa3c175d0b16e387c368d08a93f2b01fe5",
+  "inputs": {
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-1-gauze.png": "4b7606612890e14cbad29f5f7252d9574d0e2a9a4e6708f57c8c283e8fa5e2e3",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-1-label.png": "5b448cc9cbdfa62215b13b1d76e6b82d6f5fd055cde9cce27bd5b87b10279a04",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-2-gauze.png": "0df8a5115d43c1d3f7da289cdea14e34324060c988a7f637f5e6341f3dc15ec1",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-2-label.png": "837be3b79ce5f95f02e8937a4df3a1bd6995ebc7ca3798cfc359574815bced34",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-3-gauze.png": "d76e4ed315937821e0eb68630279c44389ca2b6841c98e87822fe2fd90ecdc8b",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pane-3-label.png": "bdcb3b281283e22ba589f77ea33e87403c924bcc7545a63ab08897a7b59d865e",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/pipe.png": "7aef1a11310a2e4f7e6aba786e969d5d2ef870178416f5b8a6f7aba78c6fd261",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/projector.png": "3b43dc5a55606ee4177cf3cf2540b011e0d4070902756f6ac222a2be0316c8b1",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/rigid-shared-sigil.png": "69e505f4c5436174d4395f5ac1f14d6195ca0f9883389c68570a3055df132bcd",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/rigid-waveform.png": "d567f46e1ac8b1862ffbf167aea63676015a6bf6dd8acc84788a1546b5153214",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/room.png": "e1a743dafb70afb21745b6648cc3e8c62194c9710de7a980e4e70e56bea7e32d"
+  },
+  "output_sha256": "825addb4846974e5c6ee6bd080f78cf7f535ac1b71581b868f0c866e13bad5a8",
+  "seconds": 3.91,
+  "truth": "A successful render proves the spec executes, not that the animation is good."
+}

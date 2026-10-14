@@ -1,0 +1,92 @@
+{
+  "steps": [
+    {
+      "app": "effectcraft",
+      "tool": "open_project",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S03-03/native/shot.ecproj"
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "get_project",
+      "arguments": {}
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0,
+        "path": "${OUT}/S03-03-reopened.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "open_project",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/native-matte/shot.ecproj"
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "get_project",
+      "arguments": {}
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0,
+        "path": "${OUT}/S04-02-reopened.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "open_project",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/native-matte/shot.ecproj"
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "get_project",
+      "arguments": {}
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0,
+        "path": "${OUT}/S05-13-reopened.png",
+        "max_side": 0,
+        "inline": false
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "open_project",
+      "arguments": {
+        "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/native/shot.ecproj"
+      }
+    },
+    {
+      "app": "effectcraft",
+      "tool": "get_project",
+      "arguments": {}
+    },
+    {
+      "app": "effectcraft",
+      "tool": "render_frame",
+      "arguments": {
+        "time": 0,
+        "path": "${OUT}/S06-03-reopened.png",
+        "max_side": 0,
+        "inline": false
+      }
+    }
+  ]
+}
