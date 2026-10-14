@@ -1,0 +1,17 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "project.duplicate",
+    "params": {
+      "items": [
+        5
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "items": [
+      426
+    ]
+  }
+}

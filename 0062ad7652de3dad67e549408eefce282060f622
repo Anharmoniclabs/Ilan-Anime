@@ -1,0 +1,53 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "mask.new",
+    "params": {
+      "layer": 46,
+      "vertices": [
+        [
+          0,
+          250
+        ],
+        [
+          350,
+          250
+        ],
+        [
+          338,
+          305
+        ],
+        [
+          331,
+          342
+        ],
+        [
+          331,
+          405
+        ],
+        [
+          327,
+          472
+        ],
+        [
+          321,
+          520
+        ],
+        [
+          307,
+          552
+        ],
+        [
+          0,
+          600
+        ]
+      ],
+      "closed": true,
+      "mode": "Subtract"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "mask": 130
+  }
+}

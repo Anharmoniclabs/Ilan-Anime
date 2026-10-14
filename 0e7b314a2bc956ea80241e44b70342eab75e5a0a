@@ -1,0 +1,28 @@
+{
+  "id": "04-yara-corrected",
+  "name": "Yara",
+  "status": "exploratory",
+  "kind": "editable-reference-library",
+  "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/04-Yara-Corrected.png",
+  "source_sha256": "d9577ad4f7be806fb5d880ee3519e546c46dcc25a27e54cabadc245dfaf9e4f4",
+  "snapshot": "source.png",
+  "identity_observations": "Broad adult woman, long thick single braid, white sleeveless top, ochre wrap, barefoot; cradled round cloth bundle and seated protective pose.",
+  "script_shots": [
+    "S01-02",
+    "S01-09",
+    "S01-14"
+  ],
+  "missing_art": "Seated torso-turn and counterbalance with rigid cloth-wrapped cemi, accurate finger overlap; braid and skirt overlap surfaces.",
+  "directly_viewed": true,
+  "source_approval": "not established by this task",
+  "rig_status": "not built",
+  "registration_status": "not registered",
+  "motion_status": "not tested",
+  "native": "../native/04-yara-corrected.pcraft",
+  "layer_design": [
+    "Archived source - unchanged pixels",
+    "Editable full-sheet reference - unchanged duplicate"
+  ],
+  "separated_parts": false,
+  "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+}

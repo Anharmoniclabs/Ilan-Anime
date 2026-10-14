@@ -1,0 +1,400 @@
+{
+  "id": "S01-02",
+  "size": [
+    1280,
+    720
+  ],
+  "frames": 72,
+  "fps": 24,
+  "shot_offset": 0,
+  "status": "exploratory",
+  "stage": "video_candidate",
+  "animation_status": "needs_review",
+  "layers": [
+    {
+      "name": "generated_video",
+      "rate": 1,
+      "drawing_rate": 1,
+      "tags": [
+        "generated_video",
+        "exploratory"
+      ],
+      "in": 0,
+      "out": 72,
+      "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000000.png",
+      "exposures": [
+        {
+          "start": 0,
+          "end": 1,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000000.png"
+        },
+        {
+          "start": 1,
+          "end": 2,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000001.png"
+        },
+        {
+          "start": 2,
+          "end": 3,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000002.png"
+        },
+        {
+          "start": 3,
+          "end": 4,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000003.png"
+        },
+        {
+          "start": 4,
+          "end": 5,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000004.png"
+        },
+        {
+          "start": 5,
+          "end": 6,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000005.png"
+        },
+        {
+          "start": 6,
+          "end": 7,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000006.png"
+        },
+        {
+          "start": 7,
+          "end": 8,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000007.png"
+        },
+        {
+          "start": 8,
+          "end": 9,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000008.png"
+        },
+        {
+          "start": 9,
+          "end": 10,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000009.png"
+        },
+        {
+          "start": 10,
+          "end": 11,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000010.png"
+        },
+        {
+          "start": 11,
+          "end": 12,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000011.png"
+        },
+        {
+          "start": 12,
+          "end": 13,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000012.png"
+        },
+        {
+          "start": 13,
+          "end": 14,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000013.png"
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000014.png"
+        },
+        {
+          "start": 15,
+          "end": 16,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000015.png"
+        },
+        {
+          "start": 16,
+          "end": 17,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000016.png"
+        },
+        {
+          "start": 17,
+          "end": 18,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000017.png"
+        },
+        {
+          "start": 18,
+          "end": 19,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000018.png"
+        },
+        {
+          "start": 19,
+          "end": 20,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000019.png"
+        },
+        {
+          "start": 20,
+          "end": 21,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000020.png"
+        },
+        {
+          "start": 21,
+          "end": 22,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000021.png"
+        },
+        {
+          "start": 22,
+          "end": 23,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000022.png"
+        },
+        {
+          "start": 23,
+          "end": 24,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000023.png"
+        },
+        {
+          "start": 24,
+          "end": 25,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000024.png"
+        },
+        {
+          "start": 25,
+          "end": 26,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000025.png"
+        },
+        {
+          "start": 26,
+          "end": 27,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000026.png"
+        },
+        {
+          "start": 27,
+          "end": 28,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000027.png"
+        },
+        {
+          "start": 28,
+          "end": 29,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000028.png"
+        },
+        {
+          "start": 29,
+          "end": 30,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000029.png"
+        },
+        {
+          "start": 30,
+          "end": 31,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000030.png"
+        },
+        {
+          "start": 31,
+          "end": 32,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000031.png"
+        },
+        {
+          "start": 32,
+          "end": 33,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000032.png"
+        },
+        {
+          "start": 33,
+          "end": 34,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000033.png"
+        },
+        {
+          "start": 34,
+          "end": 35,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000034.png"
+        },
+        {
+          "start": 35,
+          "end": 36,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000035.png"
+        },
+        {
+          "start": 36,
+          "end": 37,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000036.png"
+        },
+        {
+          "start": 37,
+          "end": 38,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000037.png"
+        },
+        {
+          "start": 38,
+          "end": 39,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000038.png"
+        },
+        {
+          "start": 39,
+          "end": 40,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000039.png"
+        },
+        {
+          "start": 40,
+          "end": 41,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000040.png"
+        },
+        {
+          "start": 41,
+          "end": 42,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000041.png"
+        },
+        {
+          "start": 42,
+          "end": 43,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000042.png"
+        },
+        {
+          "start": 43,
+          "end": 44,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000043.png"
+        },
+        {
+          "start": 44,
+          "end": 45,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000044.png"
+        },
+        {
+          "start": 45,
+          "end": 46,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000045.png"
+        },
+        {
+          "start": 46,
+          "end": 47,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000046.png"
+        },
+        {
+          "start": 47,
+          "end": 48,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000047.png"
+        },
+        {
+          "start": 48,
+          "end": 49,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000048.png"
+        },
+        {
+          "start": 49,
+          "end": 50,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000049.png"
+        },
+        {
+          "start": 50,
+          "end": 51,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000050.png"
+        },
+        {
+          "start": 51,
+          "end": 52,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000051.png"
+        },
+        {
+          "start": 52,
+          "end": 53,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000052.png"
+        },
+        {
+          "start": 53,
+          "end": 54,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000053.png"
+        },
+        {
+          "start": 54,
+          "end": 55,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000054.png"
+        },
+        {
+          "start": 55,
+          "end": 56,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000055.png"
+        },
+        {
+          "start": 56,
+          "end": 57,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000056.png"
+        },
+        {
+          "start": 57,
+          "end": 58,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000057.png"
+        },
+        {
+          "start": 58,
+          "end": 59,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000058.png"
+        },
+        {
+          "start": 59,
+          "end": 60,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000059.png"
+        },
+        {
+          "start": 60,
+          "end": 61,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000060.png"
+        },
+        {
+          "start": 61,
+          "end": 62,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000061.png"
+        },
+        {
+          "start": 62,
+          "end": 63,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000062.png"
+        },
+        {
+          "start": 63,
+          "end": 64,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000063.png"
+        },
+        {
+          "start": 64,
+          "end": 65,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000064.png"
+        },
+        {
+          "start": 65,
+          "end": 66,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000065.png"
+        },
+        {
+          "start": 66,
+          "end": 67,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000066.png"
+        },
+        {
+          "start": 67,
+          "end": 68,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000067.png"
+        },
+        {
+          "start": 68,
+          "end": 69,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000068.png"
+        },
+        {
+          "start": 69,
+          "end": 70,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000069.png"
+        },
+        {
+          "start": 70,
+          "end": 71,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000070.png"
+        },
+        {
+          "start": 71,
+          "end": 72,
+          "source": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/imported/frames/000071.png"
+        }
+      ],
+      "provenance": {
+        "provider": "Pepe104/MiniMax-H3-Turbo-Lora-UNCENSORED",
+        "source_sha256": "c0ea6d285b6fd03edea99f7c7edde0ce323e578d862251fd7a70b519fdfeb921",
+        "job": "/home/alabs/Projects/Ilan-Anime/production/video-jobs/s01-02-test-v1/job.json",
+        "method": "image_to_video"
+      },
+      "screen_space": true
+    }
+  ],
+  "camera": [],
+  "post": {},
+  "audio": null,
+  "truth": "Generated video candidate. Review motion, anatomy, contacts and references before approval. Original generated soundtrack retained only in source.mp4; final audio is separate."
+}

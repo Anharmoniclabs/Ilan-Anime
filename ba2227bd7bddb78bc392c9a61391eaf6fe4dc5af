@@ -1,0 +1,2 @@
+# Optional client only. Model weights stay on the selected HF Space.
+gradio_client>=1.10,<3

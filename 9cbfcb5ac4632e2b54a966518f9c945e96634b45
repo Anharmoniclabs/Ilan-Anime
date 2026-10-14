@@ -1,0 +1,15 @@
+{
+  "tool": "place_image",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/keyframes/S06-02.png",
+    "spread": 4,
+    "x": 28,
+    "y": 330,
+    "width": 115
+  },
+  "status": "succeeded",
+  "result": {
+    "asset": 183,
+    "id": 184
+  }
+}

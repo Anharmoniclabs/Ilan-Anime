@@ -1,0 +1,11 @@
+{
+  "videos": [
+    {
+      "label": "Ending loop",
+      "status": "exploratory episode draft",
+      "path": "production/episode-first-pass/ending/S15-09-review.mp4",
+      "duration_seconds": 8.0,
+      "sha256": "83bdb5d256706de0cc21b776680a645d16ea34048e142334847bfe1a57d17c7b"
+    }
+  ]
+}

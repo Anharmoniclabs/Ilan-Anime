@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.addProperty",
+    "params": {
+      "layer": 6,
+      "path": "transform/position",
+      "name": "Body position"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "controls": [
+      213
+    ],
+    "mirrors": []
+  }
+}

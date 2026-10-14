@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 3,
+      "rect": [
+        161,
+        232,
+        764,
+        324
+      ],
+      "content": "text",
+      "text": "on-screen | present 2026 | reference-only\nHoodie, restless fingers, mic, earbud/headphones, coin, laptop; do not import later injuries or deafness.\nShots: S03-02, S03-06, S03-08, S03-10, S03-11, S03-13, S04-01, S04-03, S04-04, S04-05, S05-01, S05-05, S05-09, S05-14, S06-02, S06-05, S07-03, S07-04, S07… (full list in JSON)"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 151,
+    "story": 152
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "08-third-lit-child-proposal",
+  "name": "Third lit child proposal",
+  "status": "exploratory",
+  "kind": "editable-reference-library",
+  "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/08-Third-Lit-Child-Proposal.png",
+  "source_sha256": "64f1c932faf759df74b2a3d21f31566b8ae31c8607b38269affb623f9b365ffc",
+  "snapshot": "source.png",
+  "identity_observations": "Smaller child, soft short dark hair, faded green tunic and pale shorts, bare feet; seated knees hugged; open-mouth and downcast busts.",
+  "script_shots": [
+    "S01-02",
+    "S01-04",
+    "S01-06",
+    "S01-14"
+  ],
+  "missing_art": "Identity and age remain proposal; seated arm lift from knee-hug pose, bankward lean, fever insert and turn counterbalance.",
+  "directly_viewed": true,
+  "source_approval": "not established by this task",
+  "rig_status": "not built",
+  "registration_status": "not registered",
+  "motion_status": "not tested",
+  "native": "../native/08-third-lit-child-proposal.pcraft",
+  "layer_design": [
+    "Archived source - unchanged pixels",
+    "Editable full-sheet reference - unchanged duplicate"
+  ],
+  "separated_parts": false,
+  "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+}

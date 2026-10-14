@@ -1,0 +1,46 @@
+{
+  "status": "exploratory",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "source": "approved r2 master with generated body-underpaint.png",
+  "scale": [
+    100,
+    100
+  ],
+  "parts": {
+    "body-skirt-legs": [
+      506,
+      561
+    ],
+    "right-whole-arm": [
+      365,
+      323
+    ],
+    "left-whole-arm": [
+      629,
+      323
+    ],
+    "head-neutral": [
+      503,
+      240
+    ]
+  },
+  "layers": {
+    "body-control": 6,
+    "body-skirt-legs": 18,
+    "right-whole-arm": 46,
+    "left-whole-arm": 74,
+    "head-neutral": 102,
+    "Face controls": 140,
+    "blink-eyes": 154,
+    "talk-mouth": 182
+  },
+  "limits": [
+    "Exact original silhouette at neutral; native source masks only.",
+    "Whole-arm rotation only. No elbow/wrist rig. Generated underpaint supplies hidden hair/sash.",
+    "Knees and feet remain integrated in body/skirt layer to preserve exact anatomy.",
+    "Generated hidden body plate, exact approved visible arm pixels; whole-arm demonstration limited to five degrees."
+  ]
+}

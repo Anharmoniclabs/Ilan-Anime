@@ -1,0 +1,27 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "file.import",
+    "params": {
+      "paths": [
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-blink.png",
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-talk.png",
+        "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-complete/generated/body-underpaint.png"
+      ]
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comps": [],
+    "errors": [],
+    "items": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "unlabeledAlpha": [],
+    "warnings": []
+  }
+}

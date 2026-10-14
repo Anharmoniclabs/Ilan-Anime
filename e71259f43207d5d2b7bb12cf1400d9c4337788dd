@@ -1,0 +1,38 @@
+# S01-02 independent sampled-frame motion review
+
+Decision: **REVISE for production; useful exploratory backend test. Do not scale this exact setup to episode-wide generation yet.** This is technical analysis only, not Luis's approval, asset promotion, or a release QA decision.
+
+## Scope and evidence
+
+Reviewed `first.png`, `contact-sheet.jpg`, and the actual decoded `imported/frames/000000.png`, `000014.png`, `000028.png`, `000032.png`, `000036.png`, `000040.png`, `000042.png`, `000046.png`, `000056.png`, and `000071.png` at displayed full-frame resolution. Times below are zero-based frame / 24. I did **not** watch continuous playback, listen to audio, or inspect all intervening frames. Consequently this cannot certify temporal smoothness, single-frame defects, audible breathing, or complete paddle physics.
+
+Read AGENTS.md, worker and quality-review contracts, README, STATUS, art_direction.json, canonical ART_DIRECTION and STYLE_BIBLE, rejected-motion audit, and S01-02's script in the existing image-demand packet. Viewed the supplied approved style reference. No formal task envelope or exact art_direction_mode was supplied for this separate technical analysis; STORY_FRAME criteria inform the observations, but no formal art acceptance record is being issued. No tier-1 facial identity comparison was performed.
+
+The imported shot is 72 frames / 3 seconds at 24 fps, offset zero of the scripted 288-frame / 12-second shot (episode 00:15–00:27). This is only one quarter of its duration. Source reference is 1024×576; inspected imported images are 1280×720, so larger delivery dimensions do not imply additional source detail.
+
+## Findings
+
+| Area | Evidence | Finding and repair |
+|---|---|---|
+| Actual action | f0 (0.00s), f14 (0.58s), f28 (1.17s), f36 (1.50s), f46 (1.92s), f71 (2.96s) | Lead paddler visibly changes elbow, shoulder, hand and paddle poses. This is more than a camera pan over a held picture. However, the samples show pull/recovery and another pull, rather than the requested single coherent pull. Lock a stroke exposure plan before extending the shot. |
+| Grip | f14, f28, f32, f36, f40, f46 | Both visible hands broadly remain around the shaft, with no obvious detached hand in these samples. Fine digits and wrist continuity are not established at this scale. Inspect consecutive cropped contact frames before passing; preserve one shaft and fixed grip spacing in repair drawings. |
+| Paddle recovery and crop | f28 (1.17s), f32 (1.33s), f36 (1.50s), f40 (1.67s), f42 (1.75s) | Blade sweeps from a low rightward position to a steep foreground position. It becomes conspicuously large and runs below the bottom edge during recovery; the full blade path/contact is therefore hidden. This may include perspective change, so these still samples alone do not prove bending. Repair with a readable recovery arc and stable blade proportions, and keep the contact/re-entry inside framing. |
+| Water contact | f0, f14, f28, f32, f36, f46, f56 | Water rings lie near the lead blade through the pull. A ring persists to its right after the blade has moved away at f32–36: encouraging evidence of a detached disturbance. The samples cannot establish continuous drag, submerged blade depth, or correct wake velocity. Require a consecutive-frame/playback check of entry, drag, exit, recovery and re-entry. |
+| Faces and seating continuity | f0, f28, f42, f71 | Foreground faces, hairstyles, necklaces, the held sleeping child, and occupant order remain broadly recognizable relative to first.png. No foreground character appears or disappears in the inspected samples. This supports short-clip reference retention, not exact identity certification or longer-shot consistency. |
+| Script cast discrepancy inherited from reference | first.png; f0, f28, f71 | Lead canoe visibly contains paddler, woman holding a wrapped object, and mother with sleeping child, consistent in broad staging. Second canoe contains three visible adults, whereas the script assigns Beheto there without specifying these additional passengers. Third canoe contains three children plus an adult rear paddler. These extra adults already exist in the input; they are not newly invented by this clip. Resolve the staging against the script before regenerating a production source frame. |
+| Child blue effect | first.png versus f0, f28, f42, f71 | The reference has small blue chest/upper-body highlights. By f28 and f42 these read as conspicuous luminous blue flame-like shapes around the distant children, rather than the script's faint breath on forearms. Suppress generated glow and composite restrained, independently controllable forearm effects. The reference itself also needs localization checked. |
+| Hull rigidity | f0, f14, f28, f42, f56, f71 | No gross flexible-hull collapse or pulsing is obvious in these samples; long gunwale silhouettes remain broadly coherent. This is not a landmark-tracked rigidity pass. The nearly unchanged lead-canoe framing makes the amount of real translation versus camera compensation difficult to establish. Do not claim verified canoe travel or a completed crane-down from these images alone. |
+| Passenger acting and breathing | f0, f28, f42, f71 | Passenger poses remain nearly held. Subtle motion may exist between samples, but convincing counterbalance and Beheto's scripted breathing are not demonstrated by this review. Add restrained purposeful replacement poses and inspect playback; final breath audio remains separate. |
+| Style | first.png and all listed frames | The overall dark mangrove palette, warm edge accents, textured surfaces and recognizable source illustration style are retained. No generated text is apparent. Foreground arm/torso details shift with the new poses; cross-shot matching still requires exact approved character references. |
+| Editable structure | imported/shot.json | One generated_video layer with per-frame exposures is flattened footage, not separable character, hull, water, FX and depth layers. Missing layers are a workflow limitation, not proof that visible animation is absent. Rebuild/mask the elements needed for repair and crane control rather than treating automatic layer flags as a visual verdict. |
+
+## Prioritized repair and scaling recommendation
+
+1. Correct or explicitly resolve the source-frame passenger assignments and blue-effect placement. Preserve the existing image/video as exploratory evidence.
+2. Produce one reviewed lead-paddle stroke with a fixed prop silhouette, contact landmarks, visible recovery path and controlled water disturbance. Reuse the stable source faces and hull; avoid broad image warps.
+3. Keep water/blue FX independently controllable; add subtle passenger balance and Beheto breathing where visible. Confirm the intended crane movement from a proper shot plan.
+4. Review the revised short clip continuously, with consecutive contact crops, before author review. Then assess extension seams and the remaining nine seconds; do not loop this test and call the shot complete.
+
+**Backend recommendation:** retain as a candidate for bounded reference-conditioned drafts. It demonstrates useful articulated paddle poses and broad short-term likeness retention, making it worth a controlled repair/validation test. The current evidence does not support unattended full-episode scaling: inherited staging errors, effect exaggeration, obscured contact, flattened output, unverified motion cadence, and only three seconds of coverage remain. A successful download proves the bridge works, not that the episode is ready for production.
+
+No generation, paid tools, asset changes, approvals or ledger changes were performed for this review.

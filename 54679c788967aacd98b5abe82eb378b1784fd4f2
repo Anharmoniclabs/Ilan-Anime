@@ -1,0 +1,19 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "file.exportPdf",
+    "params": {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/episode1-cast/episode1-cast.pdf",
+      "title": "Episode 1 Character Inventory",
+      "author": "Production inventory",
+      "compressImages": true
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 40690008,
+    "pages": 21,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/episode1-cast/episode1-cast.pdf",
+    "warnings": []
+  }
+}

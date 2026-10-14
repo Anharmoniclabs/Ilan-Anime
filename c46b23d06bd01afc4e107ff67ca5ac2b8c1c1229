@@ -1,0 +1,14 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "comp.openInEssentialGraphics",
+    "params": {
+      "comp": 5
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 5,
+    "name": "AMAIA - approved proportions and whole-arm controls"
+  }
+}

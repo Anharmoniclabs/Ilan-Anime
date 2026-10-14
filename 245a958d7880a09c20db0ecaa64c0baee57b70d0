@@ -1,0 +1,363 @@
+{
+  "task_id": "river-character-library",
+  "status": "exploratory",
+  "characters": [
+    {
+      "id": "02-amaias-son",
+      "name": "Amaias son",
+      "status": "exploratory",
+      "kind": "editable-reference-library",
+      "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/02-Amaias-Son.png",
+      "source_sha256": "d043191190e92704882664ebc6adb33be69a6e06af769b8eed36ebb670940a95",
+      "snapshot": "source.png",
+      "identity_observations": "Short dark wavy curls, round toddler face, white sleeveless tunic and shorts; standing front, side, back; seated reach; three bust expressions including asleep.",
+      "script_shots": [
+        "S01-02",
+        "S01-13",
+        "S01-14"
+      ],
+      "missing_art": "Sleeping fullbody supported against Amaia ribs; closed-eye registered speech mouth set; body contact and turn counterbalance.",
+      "directly_viewed": true,
+      "source_approval": "not established by this task",
+      "rig_status": "not built",
+      "registration_status": "not registered",
+      "motion_status": "not tested",
+      "native": "../native/02-amaias-son.pcraft",
+      "layer_design": [
+        "Archived source - unchanged pixels",
+        "Editable full-sheet reference - unchanged duplicate"
+      ],
+      "separated_parts": false,
+      "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+    },
+    {
+      "id": "03-dairon",
+      "name": "Dairon",
+      "status": "exploratory",
+      "kind": "editable-reference-library",
+      "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/03-Dairon.png",
+      "source_sha256": "4caa1c324a2625389b74b6ca510d17c2a70e7d46832d312ef01f7fc5ad8a850f",
+      "snapshot": "source.png",
+      "identity_observations": "Lean muscular adult, long dark tied curls, pale one-shoulder cloth, russet wrap, barefoot; wooden paddle and seated power-stroke pose.",
+      "script_shots": [
+        "S01-02",
+        "S01-08",
+        "S01-09",
+        "S01-12",
+        "S01-14"
+      ],
+      "missing_art": "Seated reach/plant/pull/lift/recovery drawings using fixed paddle shaft and grips; bow-turn bracing; hair and cloth reversal.",
+      "directly_viewed": true,
+      "source_approval": "not established by this task",
+      "rig_status": "not built",
+      "registration_status": "not registered",
+      "motion_status": "not tested",
+      "native": "../native/03-dairon.pcraft",
+      "layer_design": [
+        "Archived source - unchanged pixels",
+        "Editable full-sheet reference - unchanged duplicate"
+      ],
+      "separated_parts": false,
+      "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+    },
+    {
+      "id": "04-yara-corrected",
+      "name": "Yara",
+      "status": "exploratory",
+      "kind": "editable-reference-library",
+      "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/04-Yara-Corrected.png",
+      "source_sha256": "d9577ad4f7be806fb5d880ee3519e546c46dcc25a27e54cabadc245dfaf9e4f4",
+      "snapshot": "source.png",
+      "identity_observations": "Broad adult woman, long thick single braid, white sleeveless top, ochre wrap, barefoot; cradled round cloth bundle and seated protective pose.",
+      "script_shots": [
+        "S01-02",
+        "S01-09",
+        "S01-14"
+      ],
+      "missing_art": "Seated torso-turn and counterbalance with rigid cloth-wrapped cemi, accurate finger overlap; braid and skirt overlap surfaces.",
+      "directly_viewed": true,
+      "source_approval": "not established by this task",
+      "rig_status": "not built",
+      "registration_status": "not registered",
+      "motion_status": "not tested",
+      "native": "../native/04-yara-corrected.pcraft",
+      "layer_design": [
+        "Archived source - unchanged pixels",
+        "Editable full-sheet reference - unchanged duplicate"
+      ],
+      "separated_parts": false,
+      "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+    },
+    {
+      "id": "05-beheto",
+      "name": "Beheto",
+      "status": "exploratory",
+      "kind": "editable-reference-library",
+      "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/05-Beheto.png",
+      "source_sha256": "53bc253e8d92e1c370a42110bcf66c180b1a1e95872d1cf4eb7a694c6b2057fb",
+      "snapshot": "source.png",
+      "identity_observations": "Older angular man, gray swept-back tied hair, hollow cheek planes, pale wrap top, charcoal wrap, rope-tensioned drum; seated palms contact pose.",
+      "script_shots": [
+        "S01-02",
+        "S01-11",
+        "S01-12",
+        "S01-14"
+      ],
+      "missing_art": "Registered hover/contact/weight press/settle drawing sequence on fixed drum; breathing torso; seated anatomy and hidden hand/drum contact surfaces.",
+      "directly_viewed": true,
+      "source_approval": "not established by this task",
+      "rig_status": "not built",
+      "registration_status": "not registered",
+      "motion_status": "not tested",
+      "native": "../native/05-beheto.pcraft",
+      "layer_design": [
+        "Archived source - unchanged pixels",
+        "Editable full-sheet reference - unchanged duplicate"
+      ],
+      "separated_parts": false,
+      "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+    },
+    {
+      "id": "06-seven-year-old-girl",
+      "name": "Seven-year-old girl",
+      "status": "exploratory",
+      "kind": "editable-reference-library",
+      "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/06-Seven-Year-Old-Girl.png",
+      "source_sha256": "1a4f753c033541b8257db0a798caffcde09b3d41c68446a51eb72c7457a6cb2c",
+      "snapshot": "source.png",
+      "identity_observations": "Long dark curls with half-up braid, blue sleeveless tied dress, barefoot; worried brows, kneeling outstretched hand, three expressive busts.",
+      "script_shots": [
+        "S01-02",
+        "S01-04",
+        "S01-06",
+        "S01-08",
+        "S01-14"
+      ],
+      "missing_art": "Seated forearm lift, bankward lean, fever insert, confident water-facing speech mouth set; fullbody turn with fixed contact.",
+      "directly_viewed": true,
+      "source_approval": "not established by this task",
+      "rig_status": "not built",
+      "registration_status": "not registered",
+      "motion_status": "not tested",
+      "native": "../native/06-seven-year-old-girl.pcraft",
+      "layer_design": [
+        "Archived source - unchanged pixels",
+        "Editable full-sheet reference - unchanged duplicate"
+      ],
+      "separated_parts": false,
+      "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+    },
+    {
+      "id": "07-nine-year-old-boy",
+      "name": "Nine-year-old boy",
+      "status": "exploratory",
+      "kind": "editable-reference-library",
+      "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/07-Nine-Year-Old-Boy.png",
+      "source_sha256": "612785aa841bff2dd674f1f4deacc5b35ad706dd6d4ddae1b7d6fd27856a4db9",
+      "snapshot": "source.png",
+      "identity_observations": "Short dense dark curls, red rough tunic, pale sash and knee shorts; seated bent knee and three worried/speech/downcast busts.",
+      "script_shots": [
+        "S01-02",
+        "S01-04",
+        "S01-06",
+        "S01-10",
+        "S01-14"
+      ],
+      "missing_art": "Seated forearm lift and bankward lean; bell-facing head tilt and registered speech mouths; fever insert and turn counterbalance.",
+      "directly_viewed": true,
+      "source_approval": "not established by this task",
+      "rig_status": "not built",
+      "registration_status": "not registered",
+      "motion_status": "not tested",
+      "native": "../native/07-nine-year-old-boy.pcraft",
+      "layer_design": [
+        "Archived source - unchanged pixels",
+        "Editable full-sheet reference - unchanged duplicate"
+      ],
+      "separated_parts": false,
+      "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+    },
+    {
+      "id": "08-third-lit-child-proposal",
+      "name": "Third lit child proposal",
+      "status": "exploratory",
+      "kind": "editable-reference-library",
+      "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/08-Third-Lit-Child-Proposal.png",
+      "source_sha256": "64f1c932faf759df74b2a3d21f31566b8ae31c8607b38269affb623f9b365ffc",
+      "snapshot": "source.png",
+      "identity_observations": "Smaller child, soft short dark hair, faded green tunic and pale shorts, bare feet; seated knees hugged; open-mouth and downcast busts.",
+      "script_shots": [
+        "S01-02",
+        "S01-04",
+        "S01-06",
+        "S01-14"
+      ],
+      "missing_art": "Identity and age remain proposal; seated arm lift from knee-hug pose, bankward lean, fever insert and turn counterbalance.",
+      "directly_viewed": true,
+      "source_approval": "not established by this task",
+      "rig_status": "not built",
+      "registration_status": "not registered",
+      "motion_status": "not tested",
+      "native": "../native/08-third-lit-child-proposal.pcraft",
+      "layer_design": [
+        "Archived source - unchanged pixels",
+        "Editable full-sheet reference - unchanged duplicate"
+      ],
+      "separated_parts": false,
+      "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+    },
+    {
+      "id": "09-background-survivor-1",
+      "name": "Background survivor 1",
+      "status": "exploratory",
+      "kind": "editable-reference-library",
+      "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/09-Background-Survivor-1.png",
+      "source_sha256": "45b77296b9199b17f2558bdf8bb2e6757a2a114930d6e499ed410931ae021c7a",
+      "snapshot": "source.png",
+      "identity_observations": "Older broad woman, gray temples and low bun, muted purple top, blue wrap with gray sash, paddle; seated stroke and three busts.",
+      "script_shots": [
+        "S01-02",
+        "S01-09",
+        "S01-12",
+        "S01-14"
+      ],
+      "missing_art": "Current-script canoe assignment needed before layout; registered seated stroke phases, stable paddle grip, cloth reversal and counterbalance.",
+      "directly_viewed": true,
+      "source_approval": "not established by this task",
+      "rig_status": "not built",
+      "registration_status": "not registered",
+      "motion_status": "not tested",
+      "native": "../native/09-background-survivor-1.pcraft",
+      "layer_design": [
+        "Archived source - unchanged pixels",
+        "Editable full-sheet reference - unchanged duplicate"
+      ],
+      "separated_parts": false,
+      "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+    },
+    {
+      "id": "10-background-survivor-2",
+      "name": "Background survivor 2",
+      "status": "exploratory",
+      "kind": "editable-reference-library",
+      "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/10-Background-Survivor-2.png",
+      "source_sha256": "052bc709b5adf5c91b7e0fc2e119db4db22077b3a548a7a8d24bb5cd3501afcb",
+      "snapshot": "source.png",
+      "identity_observations": "Young lean man, short wavy dark hair, blue tunic, pale sash and tan knee trousers, paddle; kneeling stroke and expressive busts.",
+      "script_shots": [
+        "S01-02",
+        "S01-09",
+        "S01-12",
+        "S01-14"
+      ],
+      "missing_art": "Current-script canoe assignment needed before layout; seated or kneeling stroke phases with fixed shaft and hands; bracing and reverse wind.",
+      "directly_viewed": true,
+      "source_approval": "not established by this task",
+      "rig_status": "not built",
+      "registration_status": "not registered",
+      "motion_status": "not tested",
+      "native": "../native/10-background-survivor-2.pcraft",
+      "layer_design": [
+        "Archived source - unchanged pixels",
+        "Editable full-sheet reference - unchanged duplicate"
+      ],
+      "separated_parts": false,
+      "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+    },
+    {
+      "id": "11-background-survivor-3",
+      "name": "Background survivor 3",
+      "status": "exploratory",
+      "kind": "editable-reference-library",
+      "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/11-Background-Survivor-3.png",
+      "source_sha256": "458382b4b6eb16aa05308d76cd9b3534db1607161a75a3f9897d6a94b0e77ce4",
+      "snapshot": "source.png",
+      "identity_observations": "Broad stocky man, jaw-length straight dark hair, ochre tunic and blue knee trousers, paddle; seated rowing pose and three busts.",
+      "script_shots": [
+        "S01-02",
+        "S01-09",
+        "S01-12",
+        "S01-14"
+      ],
+      "missing_art": "Current-script canoe assignment needed before layout; seated stroke cycle, stable blade proportions and hand grip; heavy-body turn response.",
+      "directly_viewed": true,
+      "source_approval": "not established by this task",
+      "rig_status": "not built",
+      "registration_status": "not registered",
+      "motion_status": "not tested",
+      "native": "../native/11-background-survivor-3.pcraft",
+      "layer_design": [
+        "Archived source - unchanged pixels",
+        "Editable full-sheet reference - unchanged duplicate"
+      ],
+      "separated_parts": false,
+      "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+    },
+    {
+      "id": "12-bell-bearing-soldier",
+      "name": "Bell-bearing soldier",
+      "status": "exploratory",
+      "kind": "editable-reference-library",
+      "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/12-Bell-Bearing-Soldier.png",
+      "source_sha256": "84a948cb418750872774ae181215b61a0938eb442b943a590389788cf57c0725",
+      "snapshot": "source.png",
+      "identity_observations": "Bearded adult with steel brimmed helmet, metal cuirass, quilted brown sleeves, dark breeches and boots; pole-mounted brass bell and braced lifting pose.",
+      "script_shots": [
+        "S01-05",
+        "S01-06"
+      ],
+      "missing_art": "Pole lift/ring/recover drawings with separate rigid bell, suspension and free clapper; hand/pole contact; helmet and armor occlusion surfaces.",
+      "directly_viewed": true,
+      "source_approval": "not established by this task",
+      "rig_status": "not built",
+      "registration_status": "not registered",
+      "motion_status": "not tested",
+      "native": "../native/12-bell-bearing-soldier.pcraft",
+      "layer_design": [
+        "Archived source - unchanged pixels",
+        "Editable full-sheet reference - unchanged duplicate"
+      ],
+      "separated_parts": false,
+      "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+    },
+    {
+      "id": "13-ledger-keeper",
+      "name": "Ledger keeper",
+      "status": "exploratory",
+      "kind": "editable-reference-library",
+      "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/13-Ledger-Keeper.png",
+      "source_sha256": "009e7adfd7779d6bf2cd84bcf004de736083bbf27bb5da5c7e6447dce1378c7a",
+      "snapshot": "source.png",
+      "identity_observations": "Middle-aged receding wavy hair, short beard, pale collar, dark pleated coat with puff sleeves, belt inkpot, fitted trousers and shoes; stump-seated writing pose.",
+      "script_shots": [
+        "S01-07",
+        "S01-14"
+      ],
+      "missing_art": "Writing hand and quill/page-contact registered sequence; finish-line and book-close sequence; separate stump, ledger, quill and inkpot. Do not identify with thin man or Vale.",
+      "directly_viewed": true,
+      "source_approval": "not established by this task",
+      "rig_status": "not built",
+      "registration_status": "not registered",
+      "motion_status": "not tested",
+      "native": "../native/13-ledger-keeper.pcraft",
+      "layer_design": [
+        "Archived source - unchanged pixels",
+        "Editable full-sheet reference - unchanged duplicate"
+      ],
+      "separated_parts": false,
+      "separation_decision": "Opaque painted backgrounds, pose-specific overlaps and missing hidden surfaces prevent honest production-part separation. Retain full reference views for new drawings; no automatic matte or cutout claimed."
+    }
+  ],
+  "source_precedence": [
+    "current author corrections in production/art_direction.json",
+    "current EPISODE_SCRIPT.md",
+    "approved identity references when supplied",
+    "archived river proposal sheets"
+  ],
+  "limitations": [
+    "Original author pencil portraits are unavailable in these assigned inputs; no identity approval inferred.",
+    "Historical archive canoe placements are not promoted over the current script.",
+    "All 12 sheets are opaque multiview references; no alpha atlas, registered joints or motion validation exists.",
+    "Source views include fullbody, expressions and one action; these do not form completed action cycles."
+  ]
+}
