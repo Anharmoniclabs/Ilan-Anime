@@ -1,0 +1,30 @@
+{
+  "shot_id": "S05-04",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-04.png",
+  "status": "exploratory",
+  "sha256": "6e780561bfd2e6aeb83332050eb8064692c7dddb747323ae99c808908f58f8af",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-04.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-03.png",
+      "sha256": "abd88571d4830d484e3c57eb57bc3afc792195bffa2f57c12560e442f35b1508"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-band-master.png",
+      "sha256": "3380449c29efb9c87b35f27074e7b06a2bb316785604658fe81fa812953e9ed6"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-a-master.png",
+      "sha256": "d9bdeb2260d578208ced560bd70ce3b622c6e618f41b7d337cec28a3a5063b41"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Crane and pan reveal, dance cycles, horn/cowbell movement and date super in post.",
+  "inspection": "Directly viewed tool output: populated period ballroom, foreground couples preserve bank-A likeness, layered depth and band. Material limitation: people render largely opaque/local-colored rather than strongly blue-gold transmitted light; exact forty couples not count-verified. Extra distant band players appear.",
+  "directly_viewed": true
+}

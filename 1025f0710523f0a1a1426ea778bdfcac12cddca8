@@ -1,0 +1,34 @@
+{
+  "shot_id": "S08-03",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-03.png",
+  "status": "exploratory",
+  "sha256": "5a719faf490d0a8ad280deb3373ff22c1181053a748fa6d9bd267e714e9cf801",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S08-03.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "sha256": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/union-speaker.png",
+      "sha256": "61ab20ca359d65500f764414642a2622128eda01aa39fd9d9ebb25696207b8c6"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/union-second.png",
+      "sha256": "4e252e23496fca0ba7be3fc6409f85ede802947eea4e59fa849643e86f6e27f5"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-01.png",
+      "sha256": "a6ca0d3ceec300658cb2f0cecd6842642ab49eca46127bcaf0772b12b008b522"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Dialogue mouthstates, lastcorner bolting, JCglance and separate darkthird-floorwindow insert.",
+  "inspection": "Directly viewed: JC and2distinctworkers, headphonesaround speakerneck, hardhatheld correctly, otherworkerladder/wrench. Wrenchnearcorner butpreciseboltcontact requireslaterregistration.",
+  "directly_viewed": true
+}

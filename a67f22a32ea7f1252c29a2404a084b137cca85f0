@@ -1,0 +1,26 @@
+{
+  "shot_id": "S06-05",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-05.png",
+  "status": "exploratory",
+  "sha256": "df99330f8ccef202ee2ba1e23a7d9a9a1c47d9f47073072518d7afe81b4a13cf",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S06-05.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "sha256": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-04.png",
+      "sha256": "63ee56e956fca841e5277f1b88392d5bc327d5e681696091cae8a1126b8a4544"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "JC stepsback,4second manhold, reverse/widecut and smashtoblack.",
+  "inspection": "Directly viewed: JC retreats with raisedhand, properheadphones, samefacelesswhitewindow acrossstreet, darkblock. Staticmoment not retreatmotion.",
+  "directly_viewed": true
+}

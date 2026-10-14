@@ -1,0 +1,27 @@
+{
+  "name": "mama",
+  "prompt": "NEW full-body MAM\u00c1 Do\u00f1a Altagracia Cabral,53-year-old Dominican woman of sturdy medium build, mediumbrown skin, dark almond family eyes, level watchful expression, pulled-back dark hair streaked gray, natural age lines drawn with only a few clean strokes. Simple plum house blouse, charcoal slacks, house slippers, dish towel over one shoulder, small rosary loosely around her right fist. Left hand relaxed visible. DRAW in EXACT1990s hand-drawn ANIME style of attached rooftop friends and Amaia: expressive almond anime eyes adapted for middle age, softly simplified individual face, clean supple black contours, warm natural color and broad2/3flat cel shadows. Full-body neutral slightthreequarter with both complete hands/slippers in spacious portrait1024x1536 true transparent canvas. No scenery/text/logo/ground shadow. No realistic fabric texture, no graphic-novel crosshatching, no dense wrinkles or gritty poster treatment. Same animated show as references, but an authentic53-year-old mother, not a teenage face or copied Amaia character. Brand-new drawing from bible, not a repaint of old asset.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-890339f5-f27c-444c-80d6-7ba03914aa17.png",
+  "cast_ids": [
+    "mama-present"
+  ],
+  "references": {
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+  },
+  "file": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/mama.png",
+  "sha256": "9a035989f12ee15319dcd5d55eff9e72c855d8f20d2bbb22f52de017249045e7",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "status": "exploratory",
+  "tool": "built-in image_gen",
+  "author_approved": false,
+  "rigged": false
+}

@@ -1,0 +1,42 @@
+{
+  "id": "ballroom-hero-couple-a",
+  "status": "exploratory",
+  "tool": "built-in image_gen",
+  "source": "/home/alabs/.codex/generated_images/01a13832-a6e9-77c3-9ea5-4675615eb57d/exec-011d9e6f-770f-4b96-b9a7-b5b19945b88b.png",
+  "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-a-master.png",
+  "sha256": "4347925f3dda06f4ae30d31e9b292ca45ee96d2cf2002e8440a2c67d3a24ac2d",
+  "prompt": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/ensemble-cast/prompts/ballroom-hero-couple-a.txt",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f",
+      "authority": "current author anime style reference"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+      "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687",
+      "authority": "approved Amaia r2 style reference only"
+    }
+  ],
+  "image_size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "transparent_pixels": 795898,
+  "opaque_pixels": 0,
+  "partial_alpha_pixels": 776966,
+  "alpha_bbox": [
+    0,
+    0,
+    1024,
+    1536
+  ],
+  "approval": null,
+  "inspection": "Two full dancers, hands clasped and hand-on-back contact visible, four shoes, flared yellow skirt close to right canvas edge.",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "near_opaque_pixels_250_255": 691773
+}

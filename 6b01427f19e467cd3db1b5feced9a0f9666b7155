@@ -1,0 +1,12 @@
+{
+  "name": "abuela-hands",
+  "prompt": "Illustration story prop/character insert source. Only two elderly grandmother hands and forearms shown, separated with space: one relaxed open palm facing upward, one gently halfcurled hand seen back three-quarter view. Abuela79 Dominican warm tan brown skin, narrow aged hands with subtle veins and knuckles drawn with sparse clean lines, modest ivory cotton housedress cuffs end both forearms. Anatomically five fingers each. No head, torso or face because character face withheld in story. No coin or jewelry or extra props. References exclusively stylistic: clean 1990s handdrawn anime, expressive clean contours, flat two-tone cel shadow shapes matching Amaia. True transparent backdrop generous margin. No dense wrinkles crosshatching photorealistic skin or text.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-f6ba014a-28f4-407b-abbf-2d02c79be9d2.png",
+  "cast_ids": [
+    "abuela-hands"
+  ],
+  "references": [
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png"
+  ]
+}

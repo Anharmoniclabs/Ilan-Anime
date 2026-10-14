@@ -1,0 +1,26 @@
+{
+  "shot_id": "S05-07",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-07.png",
+  "status": "exploratory",
+  "sha256": "42d19bca9c8313209d15f6904f81a4d657fa39476aee2fa27de70b0d9e98fd71",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-07.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-06.png",
+      "sha256": "6471ca1c951ac6dc772cefd77cad4a9f9d9ba12dd27a29f9a6b4663e83e7a59e"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-a-master.png",
+      "sha256": "d9bdeb2260d578208ced560bd70ce3b622c6e618f41b7d337cec28a3a5063b41"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Slow overhead rotation, dancers circle, separate coin-nightstand match insert and whisper.",
+  "inspection": "Directly viewed tool output: high overhead floor inlay, spiral opens into triangle, surrounding couples. Foreground couples too opaque despite requested light treatment; symbol not independently locked to coin yet.",
+  "directly_viewed": true
+}

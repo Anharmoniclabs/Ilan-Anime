@@ -1,0 +1,26 @@
+{
+  "shot_id": "S05-16",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-16.png",
+  "status": "exploratory",
+  "sha256": "20f6171d2919ef9c948b50d1878e65f23c96c9fd1d287c814b1f87a5d53b1116",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S05-16.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-15.png",
+      "sha256": "c67ed4734bd2a4d36eb9dd72d9b4b68467db5e3dd3c3e74b22c432a40ae248d6"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-12.png",
+      "sha256": "ca8f210ebd34ca385050dbbe7a61e292f9b94e56d95b82394340782cc6568724"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Residual dancerlight holds2s then fades48frames toblack; radiator ticks audio.",
+  "inspection": "Directly viewed: residual lightcouples on intactwall, darkprojector no beam, darkblock; chair now turned sideways. Staticfade key only.",
+  "directly_viewed": true
+}

@@ -1,0 +1,27 @@
+{
+  "name": "rodriguez",
+  "prompt": "Use case illustration-story. New full-body source of Rodriguez, Dominican cafe owner about70, stocky lightbrown man, clean-shaven, thick expressive eyebrows, short silver hair, generous lined face with warm shrewd eyes. Rolled-sleeve pale blue shirt, dark cafe apron, charcoal trousers, practical brown shoes, cleaning rag held loosely in one visible hand. Stand relaxed three-quarter with both hands and complete feet in frame. Reference1 supplies 1990s anime character aesthetic only, reference2 approved production cel drawing style only. Render with clean handdrawn anime lines, expressive simplified facial anatomy, broad two-tone cel shadows, sparse folds and sparse age lines. Not gritty comic, no dense hatch, no photoreal textures, no glossy rendering. Transparent background, no scene, no text or logos, ample margin.",
+  "generated_path": "/home/alabs/.codex/generated_images/01a13814-3cdf-7020-87d8-992072937033/exec-fb7d4e26-48e5-4803-b849-ea7f92a1151c.png",
+  "cast_ids": [
+    "rodriguez"
+  ],
+  "references": {
+    "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f",
+    "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687"
+  },
+  "file": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/main-cast/rodriguez.png",
+  "sha256": "9905f8de24bf976f02de2ec3749eb6e5e9fc2d9064ba04601b416474a5ee18b0",
+  "size": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "status": "exploratory",
+  "tool": "built-in image_gen",
+  "author_approved": false,
+  "rigged": false
+}

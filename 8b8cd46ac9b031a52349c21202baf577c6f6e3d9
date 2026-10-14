@@ -1,0 +1,26 @@
+{
+  "shot_id": "S06-04",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-04.png",
+  "status": "exploratory",
+  "sha256": "63ee56e956fca841e5277f1b88392d5bc327d5e681696091cae8a1126b8a4544",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S06-04.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/window-man.png",
+      "sha256": "9695873af0b3b3b9fee5649c3dbf6055f91a6c0d2b0d2ac50e8d80f422a8df97"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-03.png",
+      "sha256": "c8c8c38e9dc0b3f83e3e5d5162df1bfca0d95603410ccac45f90ee6654cbe6cb"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Rackfocus sill\u2192window and5percent push-in, flatlight nonflicker hold.",
+  "inspection": "Directly viewed: oneflatwhitewindow, headphone silhouetteface hidden, blue nettingscaffold, allotherwindowsdark. Thirdfloor assignment should be checked against finalbuilding layout.",
+  "directly_viewed": true
+}

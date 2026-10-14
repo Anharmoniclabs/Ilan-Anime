@@ -1,0 +1,802 @@
+{
+  "task_id": "cross-review-support",
+  "reviewer": "generate_support",
+  "independent_of": [
+    "main-cast",
+    "age-variants",
+    "historical-cast",
+    "river-cast"
+  ],
+  "scope": "Generation-only source coverage and corrected 1990s anime style. No canonical, final identity, rig or animation approval.",
+  "decision": "approve-generation-completion-only",
+  "status": "submitted",
+  "reviewed": [
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/abuela-hands.png",
+      "sha256": "6737c70027c4c1aea7118e381b2957217b108033bd5a0e9af039c48ffef9ac49",
+      "group": "main-cast",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/curb-child-hand.png",
+      "sha256": "8d463fc7fdb5fb6383f877d62e86341657491bfea14536011ed956abfaf45744",
+      "group": "main-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "sha256": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51",
+      "group": "main-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.png",
+      "sha256": "9a035989f12ee15319dcd5d55eff9e72c855d8f20d2bbb22f52de017249045e7",
+      "group": "main-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/manny.png",
+      "sha256": "305af827941d0bdc65d261711681847d07c4d231c094ef945d0fef8f568ed47e",
+      "group": "main-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/rodriguez.png",
+      "sha256": "9905f8de24bf976f02de2ec3749eb6e5e9fc2d9064ba04601b416474a5ee18b0",
+      "group": "main-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/sofia.png",
+      "sha256": "27bbd1be662e25094e7ce4e98980ef74791e6428645dcf0baafeb83eee9e7cf5",
+      "group": "main-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/vale-r2.png",
+      "sha256": "c55d1187903f6dd2b6968ee0761b00a987b613ac46f98d173eb9634d176eadf4",
+      "group": "main-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/window-man.png",
+      "sha256": "9695873af0b3b3b9fee5649c3dbf6055f91a6c0d2b0d2ac50e8d80f422a8df97",
+      "group": "main-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/class-teacher.png",
+      "sha256": "2cb614f94f5621d31096916d85638908ccf93b3732b477c1cf6af3e54275057c",
+      "group": "age-variants",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/classmates.png",
+      "sha256": "d3233fccb0264b171e391590f08759c43bb739fae3a8cafca51866724fad1b63",
+      "group": "age-variants",
+      "size": [
+        1774,
+        887
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-eight.png",
+      "sha256": "7bf0bfe5c60ecf08c2c1ea7b769ac47599b0eb2050102582a66a343de7aaf053",
+      "group": "age-variants",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-father.png",
+      "sha256": "5fbb7645a57cacfb512025773556daf9fbf0604f4a1c4deb7ffd1d9282ffb4ac",
+      "group": "age-variants",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-nine.png",
+      "sha256": "485fae9e134a11d34da96d53f9f674951b57cb93b5ff153bcea79830d7c0f628",
+      "group": "age-variants",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-six.png",
+      "sha256": "57c69e78386e217c4ddcf592036ec6dd3fb8018dfc21fd264c4ff3361bcd9907",
+      "group": "age-variants",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-twelve.png",
+      "sha256": "ca4126be74ecbef30cb8108465db5a1995b863f3d6c2a4f5e1dec024a12f6ceb",
+      "group": "age-variants",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/lanyard-woman.png",
+      "sha256": "cb16ac20013c2361b392271a708a6ed5ae7390daf13cd4ce0df90facccf8f2f8",
+      "group": "age-variants",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-34.png",
+      "sha256": "b710c29428b2e41fc105e0fae0e15ddcfb77500602e1db8dc84c94555ba77d2a",
+      "group": "age-variants",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-37.png",
+      "sha256": "ed7b964e4e7f497a9a8d3dfcb8b0dcf4bc5852a959f4e3a248f2ec47187f106e",
+      "group": "age-variants",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-40.png",
+      "sha256": "b040ebe0eecc005e75c256c600ae0f76afa2f57470c14ec570b50974241207d6",
+      "group": "age-variants",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/manny-listener.png",
+      "sha256": "6d98497e0cbe0238fb69cbf802bb80ee058de4754e3e329cea605fd92b76afe6",
+      "group": "age-variants",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/manny-nine.png",
+      "sha256": "0503e3b40891fb2f565d4d4c7e65a58f7dc9fd2a68c44a20d04c6f6a5029fe7c",
+      "group": "age-variants",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mikey-eight.png",
+      "sha256": "73e35a3855ba5c6bc24c964700ec85f329053404bf797644d9a90ad66f065e33",
+      "group": "age-variants",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/atlas-boy-master.png",
+      "sha256": "a9d64b837cbb49e7faa6c0f8e415a9f61725abc982abcd5fb3f6721d0ddaac15",
+      "group": "historical-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/counterman-1973-master.png",
+      "sha256": "0732a02f45c1f96ec38dcc74b09ce5e707e6ed41163cbfaddfcc8692f6bcc9f4",
+      "group": "historical-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/eraser-boy-master.png",
+      "sha256": "6ada742b4085bc9fb19b9e8e7e842095de36ecf6bfb4c73b7a4a492bd6419ded",
+      "group": "historical-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/irish-girls-master.png",
+      "sha256": "1386c96fb3086fb63376bcd10cb3bdfde1aa04ce4da8602ffb52fb9fe43ec7b9",
+      "group": "historical-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/librarian-1934-master.png",
+      "sha256": "8f8a4534dd4de56650cd59f6a9f78a7913233c8c5b554874820253c69aed201f",
+      "group": "historical-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/porter-master.png",
+      "sha256": "b1eb809c75db298bd0e0b9715cc12a77b00a4c691300915c225621d101f74375",
+      "group": "historical-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/pr-kids-master.png",
+      "sha256": "7e65fb8fb89b30e38e1568e03fbb0967859f8dadad178947d7660f61e915d2e2",
+      "group": "historical-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/pr-mother-master.png",
+      "sha256": "68d0ba14546160555e93eef4935b528a0d640ad571949add62708535e9a0e88d",
+      "group": "historical-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/reading-room-extras-master.png",
+      "sha256": "a26260c3c6c6a7b48bfbba0f7c24d1954fe14900a59b3f9d6e39fab84239ba84",
+      "group": "historical-cast",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/record-kid-1973-master.png",
+      "sha256": "3804e55031a6c43fc72f07d87b435d00637e181ecc1834db14bc8ec81de0a5a0",
+      "group": "historical-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/thin-man-1973-master.png",
+      "sha256": "f4a0be5b5f87f0ceded7fe5e99ebc4417b6c8dd07470fdd05424c674d9710dbd",
+      "group": "historical-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/yiddish-grandfather-master.png",
+      "sha256": "558d0f6ed8d6daf74d956f317c7c1417293b31e97163285ffbe9c43be87bf1cf",
+      "group": "historical-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/amaia-son.png",
+      "sha256": "dfe1f6cac780ec27f3f24f09922fdfe27032477b7c813a2c0fcf5518e0df2948",
+      "group": "river-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/beheto.png",
+      "sha256": "d1c97af3ea999c752df31df00c6e075fb843e834cdddc42a1959139346ba9c83",
+      "group": "river-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/bell-soldier.png",
+      "sha256": "591e342be10ad0e941d60c046ad445a267158f1f878d02e24015c3dc311b510d",
+      "group": "river-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-1.png",
+      "sha256": "ae23e57bec5dfc13a9960a105e2f75115502c0f0212f193ff1695b127f6b6571",
+      "group": "river-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-2.png",
+      "sha256": "ca72dccfea0f81b8417bfea22c0d874dac5b2c6e9a88e90fca96ef3760059a86",
+      "group": "river-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-3.png",
+      "sha256": "b4f899aa67c375fd9bcb6cf12f94c79d04e95ebcdaefdf221dff5c9bff610dc7",
+      "group": "river-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png",
+      "sha256": "b59f3a3a48a916e6b3fa001eec74d45ae59a3afaf113dba675cb0435fc0ad0a6",
+      "group": "river-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/ledger-man.png",
+      "sha256": "907fbd555c51a7f58b8dc910d45c16d86a0f5f05b1210089bcac17c552a1e92c",
+      "group": "river-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-boy-nine.png",
+      "sha256": "f7aea88e762231b8da8b7997413c31236815e83f34d173e6ab6553a357378ce3",
+      "group": "river-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-child-third.png",
+      "sha256": "1f2332fd3d490ab819e22228555abc0ef1438ab65a33a1b214998a74050fd30e",
+      "group": "river-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-girl-seven.png",
+      "sha256": "91c86174e5cbfc347f233d9e49a51d1c982e7ab988517cb960dcae62bfaabdfc",
+      "group": "river-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/yara.png",
+      "sha256": "b0b4c0fa069e6877c103472b6d7ef3070f2d4ea6220b218bc4cc8cc32f073aa4",
+      "group": "river-cast",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "directly_viewed": "contact sheet; mama also viewed individually"
+    }
+  ],
+  "style_finding": "Four batches consistently use clean expressive 1990s anime faces, broad hard cel planes and supple ink, materially closer to rooftop/Amaia direction than rejected etched graphic-novel batch.",
+  "findings": [
+    {
+      "severity": "source-design-caveat",
+      "assets": [
+        "mama.png",
+        "mama-younger-34.png",
+        "mama-younger-37.png",
+        "mama-younger-40.png"
+      ],
+      "detail": "Present Mama has visible gray streaks and sparse age lines on individual inspection, but apparent age reads younger than53 at contact-sheet size. Young variants broadly share facial language; precise identity/age lock remains author judgment."
+    },
+    {
+      "severity": "source-design-caveat",
+      "assets": [
+        "jc.png",
+        "jc-six.png",
+        "jc-eight.png",
+        "jc-nine.png",
+        "jc-twelve.png"
+      ],
+      "detail": "Child-to-adult progression readable, but curl shape and side fade change. These are independent sources, not registered aging replacement drawings."
+    },
+    {
+      "severity": "later-shot-pose",
+      "assets": [
+        "curb-child-hand.png"
+      ],
+      "detail": "Anonymous identities preserved; full child and protective adult hand provided. Hand rests on shoulder rather than gripping sleeve, child hands in pockets. Source coverage present but scripted protective sleeve contact still requires a pose drawing."
+    },
+    {
+      "severity": "later-shot-pose",
+      "assets": [
+        "abuela-hands.png"
+      ],
+      "detail": "Face correctly withheld. Open and half-curled hands present; coin exchange pose/prop still needs source-specific drawing."
+    },
+    {
+      "severity": "later-shot-pose",
+      "assets": [
+        "jc-twelve.png",
+        "classmates.png",
+        "manny-nine.png"
+      ],
+      "detail": "Standing JC12 does not supply sleeping contact; seated classmates have no desks; Manny9 sticks need trash-can contact. Source counts complete, motion not tested."
+    },
+    {
+      "severity": "later-production",
+      "assets": [
+        "all historical-cast"
+      ],
+      "detail": "Twelve historical assets present. Distinct1934/1973 costumes and role props read clearly; character interaction geometry, seated supports and prop separation remain production work. Counterman is distinct from present Rodriguez; no same-person inference for notebook men."
+    },
+    {
+      "severity": "later-production",
+      "assets": [
+        "all river-cast"
+      ],
+      "detail": "Twelve requested individual sources present with intact feet/hands at review-sheet scale. Amaia son sleepy seated, Yara bundle, bell soldier bell pole, ledger man closed book/quill are present. Dairon/Beheto neutral masters do not replace paddling/drumming contact drawings; canoe staging and environmental contact untested."
+    }
+  ],
+  "material_missing_source": [],
+  "blockers": [],
+  "evidence": [
+    "Viewed four newly assembled gray-background main/historical contact sheets.",
+    "Viewed both age and both river source review sheets; all source entries visible.",
+    "Viewed present Mama full-size to distinguish faint age lines from absence.",
+    "PNG decode/hash/alpha checked for every reviewed path; alpha confirms RGB glow behind figures does not imply opaque background.",
+    "Read art-director skill and previously read worker contract/art_direction.json. Current user anime correction controls finish; historical dense hatching directives superseded."
+  ],
+  "not_approved": [
+    "author identity",
+    "canonical use",
+    "native separated puppet",
+    "registered replacement atlas",
+    "animation",
+    "episode completion"
+  ],
+  "role": "art-director",
+  "skill_read": ".agents/skills/anime-art-director/SKILL.md",
+  "art_direction_mode": "CHARACTER_ASSET",
+  "approval_scope": "Independent generation-completion review of main, age, historical, river source batches only. Does not approve author identity, canon, exact art direction in final scenes, native rigs or animation. Supporting-cast authored by this reviewer is excluded."
+}

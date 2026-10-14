@@ -1,0 +1,290 @@
+[
+  {
+    "id": "amaia-son",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox_over127": [
+      135,
+      116,
+      942,
+      1443
+    ],
+    "transparent_pixels": 929135,
+    "corner_alphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "beheto",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox_over127": [
+      245,
+      11,
+      780,
+      1526
+    ],
+    "transparent_pixels": 1110244,
+    "corner_alphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "bell-soldier",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox_over127": [
+      186,
+      8,
+      799,
+      1517
+    ],
+    "transparent_pixels": 1062827,
+    "corner_alphas": [
+      0,
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "canoe-survivor-1",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox_over127": [
+      279,
+      14,
+      783,
+      1518
+    ],
+    "transparent_pixels": 1100879,
+    "corner_alphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "canoe-survivor-2",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox_over127": [
+      240,
+      14,
+      820,
+      1520
+    ],
+    "transparent_pixels": 1173509,
+    "corner_alphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "canoe-survivor-3",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox_over127": [
+      228,
+      17,
+      809,
+      1522
+    ],
+    "transparent_pixels": 1077847,
+    "corner_alphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "dairon",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox_over127": [
+      242,
+      9,
+      787,
+      1528
+    ],
+    "transparent_pixels": 1104270,
+    "corner_alphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "ledger-man",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox_over127": [
+      222,
+      9,
+      805,
+      1520
+    ],
+    "transparent_pixels": 1119219,
+    "corner_alphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "lit-boy-nine",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox_over127": [
+      280,
+      15,
+      777,
+      1512
+    ],
+    "transparent_pixels": 1156597,
+    "corner_alphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "lit-child-third",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox_over127": [
+      259,
+      58,
+      762,
+      1485
+    ],
+    "transparent_pixels": 1142080,
+    "corner_alphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "lit-girl-seven",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox_over127": [
+      257,
+      28,
+      760,
+      1507
+    ],
+    "transparent_pixels": 1121401,
+    "corner_alphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "yara",
+    "size": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "alpha_bbox_over127": [
+      302,
+      11,
+      763,
+      1526
+    ],
+    "transparent_pixels": 1181541,
+    "corner_alphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]

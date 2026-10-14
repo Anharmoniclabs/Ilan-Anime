@@ -1,0 +1,26 @@
+{
+  "shot_id": "S07-07-r2",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-07-r2.png",
+  "status": "exploratory",
+  "sha256": "7746bb466201aae6e856e8b5e33f39ab2b412e170584f60990795ec2e8a47a1d",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S07-07-r2.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-07.png",
+      "sha256": "c0fdf945c412e1d151c96475313739b7794ebb7a8b1ea55420d4817a91cf2d93"
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "sha256": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Downwardwalkcyclefourflights, fingertipbrush andlisteningbeat.",
+  "inspection": "Directly viewed: JC nowback3quarter descendingaway towardlowerlanding, leadfootlower, handwallcontact; bothshoeswithinframe.",
+  "directly_viewed": true
+}

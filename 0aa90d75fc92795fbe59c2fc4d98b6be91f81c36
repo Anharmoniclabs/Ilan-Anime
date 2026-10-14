@@ -1,0 +1,26 @@
+{
+  "shot_id": "S07-07",
+  "path": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-07.png",
+  "status": "exploratory",
+  "sha256": "c0fdf945c412e1d151c96475313739b7794ebb7a8b1ea55420d4817a91cf2d93",
+  "dimensions": [
+    1672,
+    941
+  ],
+  "mode": "RGB",
+  "prompt": "production/runs/episode1-anime90s-scenes/tasks/ballroom-morning/prompts/S07-07.txt",
+  "references": [
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+      "sha256": "09dbacdff580a6678c00593f8f23d7411a6c2217d0ed5abaaa7228d7c1120d51"
+    },
+    {
+      "path": "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "remaining_motion": "Tracking descentfourflights, handbrushcontact and fleetinglisteningreaction.",
+  "inspection": "Directly viewed: wallbrush anddaystairwell, butpose readsascending andnearestshoe crops bottom; superseded bydescentrevision.",
+  "directly_viewed": true
+}

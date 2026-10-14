@@ -1,0 +1,317 @@
+{
+  "task_id": "ensemble-cast",
+  "role": "art-director",
+  "reviewer": "/root/generate_ages",
+  "independent_of_producer": true,
+  "decision": "pass",
+  "scope": "Source-generation coverage and static visual style only; not native assembly or animation acceptance.",
+  "source_count": 9,
+  "coverage": {
+    "hero_couples": 3,
+    "crowd_banks": 3,
+    "crowd_couples_per_bank": 4,
+    "musicians": 4,
+    "torch_soldiers": 3,
+    "seated_ghost_candidates": 4
+  },
+  "findings": [
+    "All9 generated PNG sources directly viewed as gray-composited full-image previews saved in this review folder. Character faces use expressive anime eyes and softer human facial construction; clean contours and broad cel shadows match the new rooftop/Amaia direction without dense crosshatching.",
+    "Requested group types present. Ballroom costume palette and broad1950s silhouettes are coherent. Torches/boots and all figures fit source framing; no obvious edge-cut head, limb or footwear.",
+    "Ghosts are four pale seated proposals with complete hands/feet; unresolved script3-versus4 count is retained.",
+    "All9 source hashes verified against individual provenance. All attached references recorded as current rooftop+approved Amaia only; no rejected cover or older master reference. Genuine alpha confirmed by file checks and gray composites."
+  ],
+  "limitations": [
+    "Hero coupleC woman far foot is occluded within pose; hidden drawing needed for separated parts, not proof of missing anatomy.",
+    "Band trombone occupies saxophonist space and instrument/hand layers are not separable; production redraw/separation required.",
+    "Crowd bankB gaps are tight, and couples overlap internally; use source banks for design/layout, not registered independently articulated puppets.",
+    "Only30 dance figures (6hero+24background) drawn here, not every individual of the scripted about80 crowd. Banks provide reusable source cast coverage; scene population and distinct-pose coverage remain downstream.",
+    "No motion, partner contact arcs, registration, speaking, PRESS transitions, instrument playing or torch animation validated.",
+    "No author, canonical or finished-animation approval asserted."
+  ],
+  "material_generation_blockers": [],
+  "viewed_evidence": [
+    "production/runs/episode1-anime90s-cast/tasks/cross-review-ages/ballroom-band-master-slate.jpg",
+    "production/runs/episode1-anime90s-cast/tasks/cross-review-ages/ballroom-crowd-bank-a-master-slate.jpg",
+    "production/runs/episode1-anime90s-cast/tasks/cross-review-ages/ballroom-crowd-bank-b-master-slate.jpg",
+    "production/runs/episode1-anime90s-cast/tasks/cross-review-ages/ballroom-crowd-bank-c-master-slate.jpg",
+    "production/runs/episode1-anime90s-cast/tasks/cross-review-ages/ballroom-hero-couple-a-master-slate.jpg",
+    "production/runs/episode1-anime90s-cast/tasks/cross-review-ages/ballroom-hero-couple-b-master-slate.jpg",
+    "production/runs/episode1-anime90s-cast/tasks/cross-review-ages/ballroom-hero-couple-c-master-slate.jpg",
+    "production/runs/episode1-anime90s-cast/tasks/cross-review-ages/ghosts-slate.jpg",
+    "production/runs/episode1-anime90s-cast/tasks/cross-review-ages/torch-soldiers-master-slate.jpg"
+  ],
+  "file_checks": [
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-band-master.png",
+      "sha256": "3380449c29efb9c87b35f27074e7b06a2bb316785604658fe81fa812953e9ed6",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "nonzero_bbox": [
+        21,
+        9,
+        1505,
+        1008
+      ],
+      "opaque_bbox": [
+        27,
+        23,
+        1500,
+        1002
+      ],
+      "transparent_pixel_count": 756315
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-a-master.png",
+      "sha256": "d9bdeb2260d578208ced560bd70ce3b622c6e618f41b7d337cec28a3a5063b41",
+      "size": [
+        1214,
+        1295
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "nonzero_bbox": [
+        0,
+        0,
+        1213,
+        1295
+      ],
+      "opaque_bbox": [
+        29,
+        6,
+        1189,
+        1280
+      ],
+      "transparent_pixel_count": 776483
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-b-master.png",
+      "sha256": "bcd0ce8fbb3c77c64242252ef67058644b09bf02bd58c933e08a5e9c7b85280d",
+      "size": [
+        1222,
+        1287
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "nonzero_bbox": [
+        0,
+        0,
+        1222,
+        1287
+      ],
+      "opaque_bbox": [
+        14,
+        13,
+        1213,
+        1263
+      ],
+      "transparent_pixel_count": 724889
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-c-master.png",
+      "sha256": "c1e2ef01586cc1c187d21498f1754d97dba0e4e3803d9ba570df2d3aaf9f23fd",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "nonzero_bbox": [
+        0,
+        16,
+        1023,
+        1536
+      ],
+      "opaque_bbox": [
+        64,
+        20,
+        974,
+        1500
+      ],
+      "transparent_pixel_count": 763929
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-a-master.png",
+      "sha256": "4347925f3dda06f4ae30d31e9b292ca45ee96d2cf2002e8440a2c67d3a24ac2d",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "nonzero_bbox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "opaque_bbox": [
+        77,
+        11,
+        1017,
+        1523
+      ],
+      "transparent_pixel_count": 795898
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-b-master.png",
+      "sha256": "954bd408a00f5f8f24d34bbb892bb91c6d670a9e36e8794548eecb804336131e",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "nonzero_bbox": [
+        0,
+        21,
+        1024,
+        1536
+      ],
+      "opaque_bbox": [
+        13,
+        89,
+        1017,
+        1448
+      ],
+      "transparent_pixel_count": 880856
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-c-master.png",
+      "sha256": "7b9e4bd911781f36b6f8217b52082e1ab80b78906bdf132449591854e744cdc2",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "nonzero_bbox": [
+        43,
+        16,
+        1006,
+        1536
+      ],
+      "opaque_bbox": [
+        151,
+        19,
+        989,
+        1503
+      ],
+      "transparent_pixel_count": 938602
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/lost-ghosts-master.png",
+      "sha256": "7d0834ba86f431d0b37706e78e36dd3ad0c99dead281afa1094743a4a2402cff",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "nonzero_bbox": [
+        0,
+        0,
+        1024,
+        1536
+      ],
+      "opaque_bbox": [
+        45,
+        19,
+        985,
+        1507
+      ],
+      "transparent_pixel_count": 641459
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/torch-soldiers-master.png",
+      "sha256": "d005cc4f7ec713897352737a8ae3b93a24c249d400be332fff8d4268ced729f5",
+      "size": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "nonzero_bbox": [
+        0,
+        17,
+        1520,
+        1024
+      ],
+      "opaque_bbox": [
+        78,
+        20,
+        1497,
+        1001
+      ],
+      "transparent_pixel_count": 893980
+    }
+  ],
+  "provenance_checks": [
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-band.json",
+      "source_hash_matches": true,
+      "refs_only_current_rooftop_and_amaia": true
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-crowd-bank-a.json",
+      "source_hash_matches": true,
+      "refs_only_current_rooftop_and_amaia": true
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-crowd-bank-b.json",
+      "source_hash_matches": true,
+      "refs_only_current_rooftop_and_amaia": true
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-crowd-bank-c.json",
+      "source_hash_matches": true,
+      "refs_only_current_rooftop_and_amaia": true
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-hero-couple-a.json",
+      "source_hash_matches": true,
+      "refs_only_current_rooftop_and_amaia": true
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-hero-couple-b.json",
+      "source_hash_matches": true,
+      "refs_only_current_rooftop_and_amaia": true
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-hero-couple-c.json",
+      "source_hash_matches": true,
+      "refs_only_current_rooftop_and_amaia": true
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/lost-ghosts.json",
+      "source_hash_matches": true,
+      "refs_only_current_rooftop_and_amaia": true
+    },
+    {
+      "path": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/torch-soldiers.json",
+      "source_hash_matches": true,
+      "refs_only_current_rooftop_and_amaia": true
+    }
+  ]
+}

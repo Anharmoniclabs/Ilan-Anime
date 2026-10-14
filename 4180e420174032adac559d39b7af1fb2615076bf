@@ -1,0 +1,42 @@
+{
+  "id": "torch-soldiers",
+  "status": "exploratory",
+  "tool": "built-in image_gen",
+  "source": "/home/alabs/.codex/generated_images/01a13832-a6e9-77c3-9ea5-4675615eb57d/exec-31f9b3af-f48e-4fdd-a67d-d6c78e0dd30e.png",
+  "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/torch-soldiers-master.png",
+  "sha256": "d005cc4f7ec713897352737a8ae3b93a24c249d400be332fff8d4268ced729f5",
+  "prompt": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/ensemble-cast/prompts/torch-soldiers.txt",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f",
+      "authority": "current author anime style reference"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+      "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687",
+      "authority": "approved Amaia r2 style reference only"
+    }
+  ],
+  "image_size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "transparent_pixels": 893980,
+  "opaque_pixels": 0,
+  "partial_alpha_pixels": 678884,
+  "alpha_bbox": [
+    0,
+    17,
+    1520,
+    1024
+  ],
+  "approval": null,
+  "inspection": "Three full soldiers with three complete torches, free hands and boots. Undated BEFORE. Small flames retained; no bell.",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "near_opaque_pixels_250_255": 576232
+}

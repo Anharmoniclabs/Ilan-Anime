@@ -1,0 +1,42 @@
+{
+  "id": "ballroom-band",
+  "status": "exploratory",
+  "tool": "built-in image_gen",
+  "source": "/home/alabs/.codex/generated_images/01a13832-a6e9-77c3-9ea5-4675615eb57d/exec-49b2e6e8-46c3-4e04-a64d-68b43d8cf816.png",
+  "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-band-master.png",
+  "sha256": "3380449c29efb9c87b35f27074e7b06a2bb316785604658fe81fa812953e9ed6",
+  "prompt": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-anime90s-cast/tasks/ensemble-cast/prompts/ballroom-band.txt",
+  "references": [
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+      "sha256": "deb2bcecb4012cdcd18e5cd4edfebfb2b5b9b3ae7c03c8b6fc85f19380117e5f",
+      "authority": "current author anime style reference"
+    },
+    {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+      "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687",
+      "authority": "approved Amaia r2 style reference only"
+    }
+  ],
+  "image_size": [
+    1536,
+    1024
+  ],
+  "mode": "RGBA",
+  "transparent_pixels": 756315,
+  "opaque_pixels": 0,
+  "partial_alpha_pixels": 816549,
+  "alpha_bbox": [
+    21,
+    9,
+    1505,
+    1008
+  ],
+  "approval": null,
+  "inspection": "Four musicians: trumpet, trombone, saxophone, cowbell/stick. Full instruments and shoes; trombone slide crosses in front of saxophonist torso so players not individually separable without hidden-surface repair.",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "near_opaque_pixels_250_255": 711899
+}
