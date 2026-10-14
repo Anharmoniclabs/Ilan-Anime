@@ -1,1 +1,0 @@
-[0:v]settb=1/60,setpts=PTS-STARTPTS[v0];[1:v]settb=1/60,setpts=PTS-STARTPTS[v1];[2:v]settb=1/60,setpts=PTS-STARTPTS[v2];[v0][v1]xfade=transition=fade:duration=0.150000000:offset=1.933333333[o1];[o1][v2]xfade=transition=fade:duration=0.150000000:offset=3.866666667[o2]

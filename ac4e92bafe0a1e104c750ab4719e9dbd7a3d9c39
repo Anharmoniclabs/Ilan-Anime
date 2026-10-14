@@ -1,0 +1,22 @@
+{
+  "title": "Untitled film",
+  "style": "2D anime animation, clean ink lines, cel shading, strong key poses, intentional timing, consistent palette.",
+  "characters": "",
+  "world": "",
+  "shots": [
+    {
+      "id": "3be4e0ce511f",
+      "image": "assets/6b9a8d81c4754ed1aa1ea7f8026b9c16.png",
+      "title": "Untitled2",
+      "start": "",
+      "action": "",
+      "end": "",
+      "secondary": "Hair and fabric follow the body action.",
+      "camera": "Locked camera; readable full-body action.",
+      "continuity": "Maintain screen direction, outfit, proportions and lighting.",
+      "seconds": "5",
+      "takes": [],
+      "active": 0
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "style": "Quiet 1990s cel-anime travel shot",
+  "measured": {
+    "width": 1280,
+    "height": 720,
+    "avg_frame_rate": "24/1",
+    "duration": "8.000000",
+    "nb_read_frames": "192"
+  },
+  "camera_pan_pixels": 104,
+  "boat_world_travel_pixels": 220,
+  "boat_screen_travel_pixels": 116.0,
+  "background_sha256": "5d4a594269e9d25551d04c38d43881d8c4ae97dcbd3437ce6ec49bd7036776e8",
+  "fleet_sha256": "6b95785330482838509231c2b7d91792c95a118e59534df75985f1bdc68ab251",
+  "method": "Held transparent fleet cel, continuous world travel, independent background pan, gentle heave, looping water surface, light luma grain. No earlier action-cycle frames.",
+  "limitation": "Passenger poses are held. All three boats share one travel layer; this pass does not add character performance or independent boat pitching."
+}

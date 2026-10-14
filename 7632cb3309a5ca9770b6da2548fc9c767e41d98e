@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "trigger": "cemi_lm_style",
+  "items": [],
+  "minimum_pilot_images": 30,
+  "holdout_fraction": 0.1,
+  "notes": "Moodboard is a synthetic composite reference, excluded from training. No original approved training images supplied."
+}

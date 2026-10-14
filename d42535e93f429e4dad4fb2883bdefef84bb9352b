@@ -1,1 +1,0 @@
-[0:v]settb=1/60,setpts=PTS-STARTPTS[v0];[1:v]settb=1/60,setpts=PTS-STARTPTS[v1];[2:v]settb=1/60,setpts=PTS-STARTPTS[v2];[v0][v1]concat=n=2:v=1:a=0,settb=1/60[o1];[o1][v2]concat=n=2:v=1:a=0,settb=1/60[o2]
