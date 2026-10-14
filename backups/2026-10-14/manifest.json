@@ -1,0 +1,29 @@
+{
+  "format": "Ilan-Anime Git-object ZIP backup v1",
+  "repository": "https://github.com/Anharmoniclabs/Ilan-Anime",
+  "base_commit": "e10efd46ea5162d2f3396322b1cd74a1b3b6bc80",
+  "saved_commit": "a01870d4b0609adb9236d2e9262eac3b23b720dd",
+  "object_count": 24327,
+  "volumes": [
+    {
+      "index": 0,
+      "filename": "01-git-history-001.zip",
+      "section": "01-git-history",
+      "bytes": 1301403,
+      "sha256": "59729bc1738364a9c4756988ef8516651a5afb839b8c4bb92e7254834bf511e2",
+      "git_blob_sha": "914428b698921376619a3fbcd023bf2531755b4c",
+      "entries": 1544
+    },
+    {
+      "index": 1,
+      "filename": "02-engine-and-docs-001.zip",
+      "section": "02-engine-and-docs",
+      "bytes": 119334,
+      "sha256": "e9d2cf7c037e9db4fba8664d2d62d7f6eaf6d5aecfe5ea38f21509fc0c3f0b80",
+      "git_blob_sha": "61091f66f8a67ec90097e96dfd47acb0be9d3ed0",
+      "entries": 24
+    }
+  ],
+  "expected_volumes": 299,
+  "complete": false
+}
