@@ -1,0 +1,4 @@
+`05:22:00 → 05:27:00` (120f) · FALLING CAMERA · section · rate 2s
+- **Action:** Camera drops through the floors of the building, 4th to ground, as the year numerals tick down: 2026 … 1957. The Ballroom glows at the bottom. 'One floor under my feet and almost seventy years down.'
+- **FX:** `BUILDING_SECTION_BG; YEAR_COUNTER(rapid); SPEED_BG(vertical)`
+- **Sound:** Whoosh without Doppler; music stays centered.

@@ -1,0 +1,4 @@
+`04:36:00 → 04:43:00` (168f) · ECU finger → CU face · rate 3s
+- **Action:** A finger above the Enter key. The 4 is about to pass. His reflection in the dark screen. He hits Enter. The fan clicks. The 4 goes by.
+- **FX:** `HOLD(4s); FLASH_FRAME(1f on keypress)`
+- **Sound:** Silence. One key. Fan click.

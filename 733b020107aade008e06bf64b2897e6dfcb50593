@@ -1,7 +1,0 @@
-{
-  "status": "stopped",
-  "completed_steps": 1,
-  "creative_status": "exploratory",
-  "error": "doc_save: ERROR: automation path rejected: absolute paths are not allowed: `/home/alabs/Projects/Ilan-Anime/production/craft-validation/workbench-v1/paint.pcraft`",
-  "recovery": "Inspect receipts and saved files; no automatic retry."
-}

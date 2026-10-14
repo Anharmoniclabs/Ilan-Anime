@@ -1,0 +1,4 @@
+`11:46:00 → 11:51:00` (120f) · WS street · ECU rail · rate 3s
+- **Action:** 11:12. The 4 hits the curve up the block and screams on the rail. Inside the café the steamer whistle lands on the same note. Two sound-ribbons merge into one line.
+- **FX:** `RIBBON_MERGE(steel_white + brass_gold); SPARKS_CEL; TEXT_SUPER(11:12)`
+- **Sound:** Train + whistle unison, then a shimmer on top.

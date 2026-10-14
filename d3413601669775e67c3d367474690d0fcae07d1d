@@ -1,0 +1,5 @@
+`06:03:00 → 06:07:00` (96f) · ECU · nightstand · rate 1s
+- **Action:** 'Something ticked on the nightstand.' The coin lifts half an inch, hangs, drops. Impact on wood.
+- **FX:** `COIN_LIFT(see keys); FLASH_FRAME(1f at contact)`
+- **Sound:** Single metallic tick.
+- **Note:** A 1s moment, used sparingly.

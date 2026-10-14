@@ -1,0 +1,29 @@
+{
+  "shot": "S05-11",
+  "start_frame": 8184,
+  "end_frame_exclusive": 8424,
+  "frames": 240,
+  "fps": 24,
+  "duration_seconds": 10.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "unreviewed_candidate",
+      "file": "start.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/keyframes/S05-11.png",
+      "sha256": "732aebfe0e6d9aa648c6bfa411ff20c3ef653dd44bd25153a4edd892f2042dee",
+      "source_file": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S05-11/start/start-candidate.png"
+    },
+    "end": {
+      "state": "missing",
+      "file": null
+    }
+  },
+  "status": "draft_pack_not_approved",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false
+}

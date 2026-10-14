@@ -1,0 +1,38 @@
+{
+  "shot": "S01-08",
+  "frames": 144,
+  "fps": 24,
+  "duration_seconds": 6.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "images": {
+    "start": {
+      "file": "start.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S01-08/start/start-candidate-v3.png",
+      "sha256": "f85175639a2a77828a8c8d8826bb49dc78f2e160667bcee2f9c1fe4ee6731b58",
+      "status": "reviewed_exploratory"
+    },
+    "end": {
+      "file": "end.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S01-08/end/end-candidate-v2.png",
+      "sha256": "99df5a74b5564a6509d6d50779fe83fdb3839b31fe6ae2e6b98c2e51468c9b3a",
+      "status": "reviewed_exploratory"
+    }
+  },
+  "review": {
+    "reviewer": "/root/review_endpoint",
+    "verdict": "acceptable_for_exploratory_test",
+    "evidence": "All eight people preserved, extra paddle gone, speaking girl mouth closes. User chose these detailed child designs. Turn must become legible in motion.",
+    "author_approved": false,
+    "reviewed_hashes": {
+      "start": "f85175639a2a77828a8c8d8826bb49dc78f2e160667bcee2f9c1fe4ee6731b58",
+      "end": "99df5a74b5564a6509d6d50779fe83fdb3839b31fe6ae2e6b98c2e51468c9b3a"
+    }
+  },
+  "author_approval_recorded": false,
+  "status": "current_draft_delivery_not_final_episode",
+  "image_processing": "unchanged source bytes; may require fitting to exact 16:9 before remote submission"
+}

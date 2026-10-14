@@ -1,0 +1,4 @@
+`11:05:00 → 11:14:00` (216f) · ECU pocket · rate 3s
+- **Action:** On the third read, at 'take it off you': the coin goes from warm to a heat he feels through the denim. The steamer whistle, sitting on a clean A (440 Hz), sags half a step flat (≈415 Hz). Manny's palm is still on the case: the note comes back.
+- **FX:** `HEAT_SHIMMER(pocket ↑); PITCH_SAG(audio -100 cents, 2s → recover 1s); PRESS(0.12)`
+- **Sound:** Whistle sag and recovery are the sound cue.

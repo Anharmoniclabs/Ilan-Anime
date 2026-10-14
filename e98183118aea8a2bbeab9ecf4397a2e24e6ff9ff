@@ -1,0 +1,41 @@
+{
+  "shot": "S03-05",
+  "start_frame": 4344,
+  "end_frame_exclusive": 4512,
+  "frames": 168,
+  "fps": 24,
+  "duration_seconds": 7.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "references": {
+    "start": {
+      "state": "unreviewed_candidate",
+      "file": "start.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/projects/cemi_episode_01/assets/keyframes/S03-05.png",
+      "sha256": "c0997d40a8603ccd32740b0af5d1c690355581ad55785f1ac25dad65dffe3701",
+      "source_file": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S03-05/start/start-candidate.png"
+    },
+    "end": {
+      "state": "draft_pending_review",
+      "file": "end.png",
+      "sha256": "4e078afde082612d1b57ab7e7a5f0f278e85e1245e45b568e8ad388ed03e3294",
+      "method": "reference_conditioned_candidate",
+      "prompt_file": "end-generation-prompt.txt",
+      "source_file": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S03-05/end/end-candidate-v1.png"
+    }
+  },
+  "status": "draft_pack_not_approved",
+  "image_transform": "none; original files copied unchanged",
+  "generation_submitted": false,
+  "reference_history": [
+    {
+      "end": {
+        "state": "missing",
+        "file": null
+      }
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "tool": "doc_save",
-  "arguments": {
-    "path": "/home/alabs/Projects/Ilan-Anime/production/craft-validation/workbench-v1/paint.pcraft"
-  },
-  "status": "failed",
-  "result": "ERROR: automation path rejected: absolute paths are not allowed: `/home/alabs/Projects/Ilan-Anime/production/craft-validation/workbench-v1/paint.pcraft`",
-  "exception": "doc_save: ERROR: automation path rejected: absolute paths are not allowed: `/home/alabs/Projects/Ilan-Anime/production/craft-validation/workbench-v1/paint.pcraft`"
-}

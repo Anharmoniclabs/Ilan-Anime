@@ -1,0 +1,38 @@
+{
+  "shot": "S01-02",
+  "frames": 288,
+  "fps": 24,
+  "duration_seconds": 12.0,
+  "canvas": "1024x576 · 16:9 fast",
+  "steps": 6,
+  "lora": "larry",
+  "upsample": false,
+  "needs_segment_plan": false,
+  "images": {
+    "start": {
+      "file": "start.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S01-02/start/start-candidate-v3.png",
+      "sha256": "5a7837c8b423a79c48e3e056d6252b852d186fa64122b9c656b96fd9b5b1e22c",
+      "status": "reviewed_exploratory"
+    },
+    "end": {
+      "file": "end.png",
+      "source": "/home/alabs/Projects/Ilan-Anime/production/scene-folders-v1/S01-02/end/end-candidate-v2.png",
+      "sha256": "bbbf3ae102d71450384b3215137cc59d4c0b115ea177eb930089dbc45bc12163",
+      "status": "reviewed_exploratory"
+    }
+  },
+  "review": {
+    "reviewer": "/root/review_endpoint",
+    "verdict": "acceptable_for_exploratory_test",
+    "evidence": "Same eight people and grips; headband mismatch removed. Precise distant child face/curls matching remains unverified. Full crane-down not established.",
+    "author_approved": false,
+    "reviewed_hashes": {
+      "start": "5a7837c8b423a79c48e3e056d6252b852d186fa64122b9c656b96fd9b5b1e22c",
+      "end": "bbbf3ae102d71450384b3215137cc59d4c0b115ea177eb930089dbc45bc12163"
+    }
+  },
+  "author_approval_recorded": false,
+  "status": "current_draft_delivery_not_final_episode",
+  "image_processing": "unchanged source bytes; may require fitting to exact 16:9 before remote submission"
+}
