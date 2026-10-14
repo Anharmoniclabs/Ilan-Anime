@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 8,
+      "rect": [
+        25,
+        20,
+        975,
+        65
+      ],
+      "content": "text",
+      "text": "window-man-master.png / exploratory source-design review"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 101,
+    "story": 102
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 8,
+      "rect": [
+        28,
+        94,
+        148,
+        184
+      ],
+      "content": "text",
+      "text": "No dedicated\nreference found"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 291,
+    "story": 292
+  }
+}

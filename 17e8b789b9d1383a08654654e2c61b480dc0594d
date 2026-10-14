@@ -1,0 +1,132 @@
+{
+  "tool": "list_commands",
+  "arguments": {
+    "filter": "export"
+  },
+  "status": "succeeded",
+  "result": {
+    "commands": [
+      {
+        "disabled_reason": "nothing selected",
+        "enabled": false,
+        "id": "snippet.export",
+        "label": "Export Selection as Snippet",
+        "menu": [
+          "File",
+          "Export"
+        ],
+        "params": "{path?} — the selected items (with their stories, styles and images) as a .designcraft snippet; no path: {base64}",
+        "shortcut": null
+      },
+      {
+        "enabled": true,
+        "id": "file.exportIdml",
+        "label": "Export IDML…",
+        "menu": [],
+        "params": "{path?, embedImages?: true} — writes an IDML package to `path`, or returns {base64} without a path",
+        "shortcut": null
+      },
+      {
+        "enabled": true,
+        "id": "file.exportPdf",
+        "label": "Export PDF…",
+        "menu": [
+          "File"
+        ],
+        "params": "{path?, pages?: \"1-3,5\" | [1,3] (1-based positions; default all), flatten?: high|medium|low|ppi (Transparency Flattener: spreads with transparency are rasterised), spreads?: bool, fullScreen?: bool, bookmarksPanel?: bool, pageLayout?: single|continuous|twoUp|twoUpCover|twoUpContinuous, view?: fitPage|fitWidth|actual, advanceSeconds?: number (interactive PDF), bleed?: bool (document bleed), marks?: bool | {crop?, bleed?, pageInfo?, weight?, offset?}, standard?: \"none\"|\"x4\"|\"a2b\", compressImages?: bool, tagged?: bool (structure tree: stories as paragraphs, figures with alt text), media?: bool (interactive: embed placed video and sound), title?, author?} → {path, bytes, pages, warnings} (no path: {base64, …})",
+        "shortcut": null
+      },
+      {
+        "enabled": true,
+        "id": "file.exportEpub",
+        "label": "Export EPUB (Reflowable)…",
+        "menu": [
+          "File"
+        ],
+        "params": "{path?, title?, author?, language?: \"en\", cover?: bool (the first page as the cover image), fixedLayout?: bool (pre-paginated: each page as an image with its text)} → {path, bytes} (no path: {base64, bytes})",
+        "shortcut": null
+      },
+      {
+        "enabled": true,
+        "id": "file.exportFixedEpub",
+        "label": "Export EPUB (Fixed Layout)…",
+        "menu": [
+          "File"
+        ],
+        "params": "{path?, title?, author?, language?} — pre-paginated EPUB → {path, bytes} (no path: {base64, bytes})",
+        "shortcut": null
+      },
+      {
+        "enabled": true,
+        "id": "file.exportHtml",
+        "label": "Export HTML…",
+        "menu": [
+          "File"
+        ],
+        "params": "{path?, title?, language?} — one self-contained page (styles inline, images embedded), stories and graphics in reading order → {path, bytes} (no path: {text, bytes})",
+        "shortcut": null
+      },
+      {
+        "disabled_reason": "edit text or select a text frame",
+        "enabled": false,
+        "id": "file.exportText",
+        "label": "Export Text…",
+        "menu": [
+          "File"
+        ],
+        "params": "{path?, format?: \"txt\"|\"rtf\"|\"tagged\" (Tagged Text; default from the path, else txt), story?, frame?} — the story being edited or of the selected frame → {path, bytes} (no path: {text, bytes})",
+        "shortcut": null
+      },
+      {
+        "disabled_reason": "nothing selected",
+        "enabled": false,
+        "id": "object.exportOptions",
+        "label": "Object Export Options…",
+        "menu": [
+          "Object"
+        ],
+        "params": "{ids?, artifact?: bool (tagged PDF decoration), rasterize?: bool (EPUB/HTML image), align?: left|center|right|\"\", pageBreakBefore?: bool, altText?}",
+        "shortcut": null
+      },
+      {
+        "disabled_reason": "nothing selected",
+        "enabled": false,
+        "id": "object.altText",
+        "label": "Object Export Options",
+        "menu": [
+          "Object"
+        ],
+        "params": "{text, ids?} — alternative text for tagged PDF and EPUB",
+        "shortcut": null
+      },
+      {
+        "disabled_reason": "no book open",
+        "enabled": false,
+        "id": "book.exportPdf",
+        "label": "Export Book to PDF…",
+        "menu": [],
+        "params": "{path?} — every document in order as one PDF → {path, bytes, pages} (no path: {base64, …})",
+        "shortcut": null
+      },
+      {
+        "enabled": true,
+        "id": "file.exportXml",
+        "label": "Export XML…",
+        "menu": [
+          "File"
+        ],
+        "params": "{path?} — the tagged content in reading order → {path, bytes} (no path: {text})",
+        "shortcut": null
+      },
+      {
+        "enabled": true,
+        "id": "style.exportTag",
+        "label": "Export Tagging",
+        "menu": [],
+        "params": "{style, character?: bool, tag?: p|h1…h6|blockquote|pre|li|… (span|em|strong|code|sup|sub… for characters; \"\" = automatic), class?} → the tagging",
+        "shortcut": null
+      }
+    ],
+    "count": 12
+  }
+}

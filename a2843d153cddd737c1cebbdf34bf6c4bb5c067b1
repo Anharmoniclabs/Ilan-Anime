@@ -1,0 +1,90 @@
+{
+  "status": "native asset pack; modest control demonstration reviewed",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "source": "approved r2 master with generated body-underpaint.png",
+  "scale": [
+    100,
+    100
+  ],
+  "parts": {
+    "body-skirt-legs": [
+      506,
+      561
+    ],
+    "right-whole-arm": [
+      365,
+      323
+    ],
+    "left-whole-arm": [
+      629,
+      323
+    ],
+    "head-neutral": [
+      503,
+      240
+    ]
+  },
+  "layers": {
+    "body-control": 7,
+    "body-skirt-legs": 19,
+    "right-whole-arm": 47,
+    "left-whole-arm": 75,
+    "head-neutral": 103,
+    "Face controls": 161,
+    "blink-eyes": 175,
+    "talk-mouth": 203,
+    "Mouth controls": 231,
+    "mouth-rest": 245,
+    "mouth-pressed": 273,
+    "mouth-parted": 301,
+    "mouth-open": 329,
+    "mouth-wide": 357,
+    "mouth-rounded": 385,
+    "mouth-pursed": 413,
+    "mouth-teeth": 441,
+    "mouth-tongue": 469
+  },
+  "limits": [
+    "Approved visible arm pixels at 100 percent scale; generated hidden-body underpaint.",
+    "Whole-arm rotation only. No elbow/wrist rig. Generated underpaint supplies hidden hair/sash.",
+    "Knees and feet remain integrated in body/skirt layer to preserve exact anatomy.",
+    "Generated hidden body plate, exact approved visible arm pixels; whole-arm demonstration limited to five degrees.",
+    "Mouth states are descriptive replacement cels, not phoneme-validated lip sync. Rest and pressed are similar.",
+    "Shoulder overlap changes shading slightly under rotation; control demonstration limited to five degrees.",
+    "This is a two-second control test, not a finished anime shot."
+  ],
+  "controls": {
+    "face": {
+      "0": "approved",
+      "1": "blink",
+      "2": "legacy talk"
+    },
+    "mouth": {
+      "0": "approved original",
+      "1": "rest",
+      "2": "pressed",
+      "3": "parted",
+      "4": "open",
+      "5": "wide",
+      "6": "rounded",
+      "7": "pursed",
+      "8": "teeth",
+      "9": "tongue"
+    },
+    "arm_demo_degrees": [
+      -5,
+      5
+    ]
+  },
+  "verification": {
+    "main_comp_reopen": "neutral",
+    "essential_controls": 5,
+    "demo_frames": 48,
+    "frame_rate": 24,
+    "every_three_frames_identical": true,
+    "independent_visual_review": "no blocker in modest neutral/blink/talk poses"
+  }
+}

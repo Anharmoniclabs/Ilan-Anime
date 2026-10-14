@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 13,
+      "rect": [
+        161,
+        110,
+        764,
+        202
+      ],
+      "content": "text",
+      "text": "background-group | 2026 | missing-dedicated-art\nConversational bank and rhythm alignment.\nShots: S10-03"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 445,
+    "story": 446
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "place_image",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/manny-master-v2-736d023266a9/source-still.png",
+    "spread": 4,
+    "x": 216.66666666666669,
+    "y": 75,
+    "width": 566.6666666666666
+  },
+  "status": "succeeded",
+  "result": {
+    "asset": 79,
+    "id": 80
+  }
+}

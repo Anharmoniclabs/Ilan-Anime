@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 0,
+      "rect": [
+        25,
+        1030,
+        975,
+        1085
+      ],
+      "content": "text",
+      "text": "Sources preserve transparency; white is review-page backing. Exact source hashes and per-file alpha checks are in the assembly manifest. New drawings require separate technical and author review."
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 57,
+    "story": 58
+  }
+}

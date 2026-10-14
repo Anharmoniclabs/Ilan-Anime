@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 8,
+      "rect": [
+        161,
+        232,
+        764,
+        324
+      ],
+      "content": "text",
+      "text": "on-screen | 1934 Echo | missing-dedicated-art\nLips moving, period hat.\nShots: S13-09, S13-10"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 301,
+    "story": 302
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 17,
+      "rect": [
+        161,
+        476,
+        764,
+        568
+      ],
+      "content": "text",
+      "text": "mentioned-only | various | no-character-drawing-required\nDialogue mention and Casa Fela map card; do not assert same person/business family.\nShots: S07-03, S09-03, S09-05"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 583,
+    "story": 584
+  }
+}

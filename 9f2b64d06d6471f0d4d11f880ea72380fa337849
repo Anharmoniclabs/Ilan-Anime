@@ -1,0 +1,2303 @@
+{
+  "task_id": "episode1-cast",
+  "status": "submitted",
+  "source": "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+  "source_sha256": "5a493a429cacf068216a13ab0c5d92c52203de72c1ab2d101c768b902fcbc9a1",
+  "scope": "Every Episode 1 role and explicitly required age/era variant; groups retained as groups, not a headcount. No HTML per author correction.",
+  "entries": [
+    {
+      "id": "amaia",
+      "name": "Amaia",
+      "appearance": "on-screen",
+      "era": "BEFORE",
+      "count": 1,
+      "shot_evidence": [
+        "S01-02",
+        "S01-03",
+        "S01-06",
+        "S01-13",
+        "S01-14"
+      ],
+      "script_constraints": "Approved r2 anatomy and blink/mouth only; complete hidden joints, articulation and mother/son contact.",
+      "references": [
+        {
+          "path": "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png",
+          "sha256": "ba3641ea1c66fbb89a6d4ea9c7a4087eb1f7f0965e4bba0ddfa834891f0eb687",
+          "authority": "Ledger amaia-assets-r2 author-approved design only; not final animation",
+          "viewed": "prior review in ledger; not directly inspected by inventory worker"
+        }
+      ],
+      "production_state": "author-approved-design-limited-controls",
+      "missing": [
+        "hidden joint underpainting",
+        "validated whole-head/limb articulation",
+        "scripted mother/son contact replacement drawings",
+        "multi-view and expanded mouth/hand library"
+      ],
+      "line_evidence": {
+        "S01-02": 407,
+        "S01-03": 412,
+        "S01-06": 427,
+        "S01-13": 464,
+        "S01-14": 469
+      }
+    },
+    {
+      "id": "amaia-son",
+      "name": "Amaia’s son, under two",
+      "appearance": "on-screen",
+      "era": "BEFORE",
+      "count": 1,
+      "shot_evidence": [
+        "S01-02",
+        "S01-13",
+        "S01-14"
+      ],
+      "script_constraints": "Sleeping, held at ribs; spoken line eyes closed.",
+      "references": [
+        {
+          "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/02-Amaias-Son.png",
+          "sha256": "d043191190e92704882664ebc6adb33be69a6e06af769b8eed36ebb670940a95",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S01-02": 407,
+        "S01-13": 464,
+        "S01-14": 469
+      }
+    },
+    {
+      "id": "dairon",
+      "name": "Dairon",
+      "appearance": "on-screen",
+      "era": "BEFORE",
+      "count": 1,
+      "shot_evidence": [
+        "S01-02",
+        "S01-08",
+        "S01-09",
+        "S01-12",
+        "S01-14"
+      ],
+      "script_constraints": "Lead canoe paddler, changes bow heading, paddle drag/lift; rigid hull and grip.",
+      "references": [
+        {
+          "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/03-Dairon.png",
+          "sha256": "4caa1c324a2625389b74b6ca510d17c2a70e7d46832d312ef01f7fc5ad8a850f",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S01-02": 407,
+        "S01-08": 438,
+        "S01-09": 443,
+        "S01-12": 459,
+        "S01-14": 469
+      }
+    },
+    {
+      "id": "yara",
+      "name": "Yara",
+      "appearance": "on-screen",
+      "era": "BEFORE",
+      "count": 1,
+      "shot_evidence": [
+        "S01-02",
+        "S01-14"
+      ],
+      "script_constraints": "Behind Dairon, wrapped cemí against chest.",
+      "references": [
+        {
+          "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/04-Yara-Corrected.png",
+          "sha256": "d9577ad4f7be806fb5d880ee3519e546c46dcc25a27e54cabadc245dfaf9e4f4",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S01-02": 407,
+        "S01-14": 469
+      }
+    },
+    {
+      "id": "beheto",
+      "name": "Beheto",
+      "appearance": "on-screen",
+      "era": "BEFORE",
+      "count": 1,
+      "shot_evidence": [
+        "S01-02",
+        "S01-11",
+        "S01-12",
+        "S01-14"
+      ],
+      "script_constraints": "Second canoe, drum between knees, breath, both palms land then weight press.",
+      "references": [
+        {
+          "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/05-Beheto.png",
+          "sha256": "53bc253e8d92e1c370a42110bcf66c180b1a1e95872d1cf4eb7a694c6b2057fb",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S01-02": 407,
+        "S01-11": 453,
+        "S01-12": 459,
+        "S01-14": 469
+      }
+    },
+    {
+      "id": "lit-girl-seven",
+      "name": "Lit girl, seven",
+      "appearance": "on-screen",
+      "era": "BEFORE",
+      "count": 1,
+      "shot_evidence": [
+        "S01-02",
+        "S01-04",
+        "S01-06",
+        "S01-08",
+        "S01-14"
+      ],
+      "script_constraints": "Third canoe with two other lit children; roots dialogue.",
+      "references": [
+        {
+          "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/06-Seven-Year-Old-Girl.png",
+          "sha256": "1a4f753c033541b8257db0a798caffcde09b3d41c68446a51eb72c7457a6cb2c",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S01-02": 407,
+        "S01-04": 417,
+        "S01-06": 427,
+        "S01-08": 438,
+        "S01-14": 469
+      }
+    },
+    {
+      "id": "lit-boy-nine",
+      "name": "Lit boy, nine",
+      "appearance": "on-screen",
+      "era": "BEFORE",
+      "count": 1,
+      "shot_evidence": [
+        "S01-02",
+        "S01-04",
+        "S01-06",
+        "S01-10",
+        "S01-14"
+      ],
+      "script_constraints": "Head tilted toward bell; dialogue.",
+      "references": [
+        {
+          "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/07-Nine-Year-Old-Boy.png",
+          "sha256": "612785aa841bff2dd674f1f4deacc5b35ad706dd6d4ddae1b7d6fd27856a4db9",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S01-02": 407,
+        "S01-04": 417,
+        "S01-06": 427,
+        "S01-10": 448,
+        "S01-14": 469
+      }
+    },
+    {
+      "id": "lit-child-third",
+      "name": "Third lit child",
+      "appearance": "on-screen",
+      "era": "BEFORE",
+      "count": 1,
+      "shot_evidence": [
+        "S01-02",
+        "S01-04",
+        "S01-06",
+        "S01-14"
+      ],
+      "script_constraints": "Script leaves identity/age unspecified; existing sheet explicitly proposal.",
+      "references": [
+        {
+          "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/08-Third-Lit-Child-Proposal.png",
+          "sha256": "64f1c932faf759df74b2a3d21f31566b8ae31c8607b38269affb623f9b365ffc",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S01-02": 407,
+        "S01-04": 417,
+        "S01-06": 427,
+        "S01-14": 469
+      }
+    },
+    {
+      "id": "canoe-survivors",
+      "name": "Three additional canoe survivors",
+      "appearance": "background-group",
+      "era": "BEFORE",
+      "count": 3,
+      "shot_evidence": [
+        "S01-02",
+        "S01-03",
+        "S01-14"
+      ],
+      "script_constraints": "11 survivors minus 8 explicitly specified people implies 3; archival sheets are proposed residual cast, no silent adoption of older canoe assignments.",
+      "references": [
+        {
+          "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/09-Background-Survivor-1.png",
+          "sha256": "45b77296b9199b17f2558bdf8bb2e6757a2a114930d6e499ed410931ae021c7a",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        },
+        {
+          "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/10-Background-Survivor-2.png",
+          "sha256": "052bc709b5adf5c91b7e0fc2e119db4db22077b3a548a7a8d24bb5cd3501afcb",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        },
+        {
+          "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/11-Background-Survivor-3.png",
+          "sha256": "458382b4b6eb16aa05308d76cd9b3534db1607161a75a3f9897d6a94b0e77ce4",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S01-02": 407,
+        "S01-03": 412,
+        "S01-14": 469
+      }
+    },
+    {
+      "id": "lost-survivor-ghosts",
+      "name": "Lost survivors’ pale seat outlines",
+      "appearance": "background-group",
+      "era": "BEFORE memory",
+      "count": "unresolved 3 versus 4",
+      "shot_evidence": [
+        "S01-03"
+      ],
+      "script_constraints": "Ambiguous count: prose says lost 3, action lists two at channel, old man, wife (4). Preserve ambiguity; do not invent biographies.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S01-03": 412
+      }
+    },
+    {
+      "id": "bell-soldier",
+      "name": "Bell-bearing soldier",
+      "appearance": "on-screen",
+      "era": "BEFORE",
+      "count": 1,
+      "shot_evidence": [
+        "S01-05"
+      ],
+      "script_constraints": "Lifts pole, rings brass bell; bell/clapper independent rigid props.",
+      "references": [
+        {
+          "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/12-Bell-Bearing-Soldier.png",
+          "sha256": "84a948cb418750872774ae181215b61a0938eb442b943a590389788cf57c0725",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S01-05": 422
+      }
+    },
+    {
+      "id": "torch-soldiers",
+      "name": "Bank torch soldiers",
+      "appearance": "background-group",
+      "era": "BEFORE",
+      "count": "unspecified",
+      "shot_evidence": [
+        "S01-05"
+      ],
+      "script_constraints": "Plural pursuing soldiers; count unspecified, bell soldier separate.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S01-05A.png",
+          "sha256": "1e09fd47f377ec0f4f9ba2696552bf2c4b01ee442f7fead8cab69956323d33a7",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S01-05": 422
+      }
+    },
+    {
+      "id": "ledger-man",
+      "name": "Ledger man",
+      "appearance": "on-screen",
+      "era": "BEFORE",
+      "count": 1,
+      "shot_evidence": [
+        "S01-07",
+        "S01-14",
+        "S14-04"
+      ],
+      "script_constraints": "Stump, ledger on knee, writes/closes; notebook rhyme only. Archival design differs from scene keyframes; identity decision needed.",
+      "references": [
+        {
+          "path": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/13-Ledger-Keeper.png",
+          "sha256": "009e7adfd7779d6bf2cd84bcf004de736083bbf27bb5da5c7e6447dce1378c7a",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        },
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S01-07.png",
+          "sha256": "d8ee48e756b44ea9fa150f9e687ed2d100038dbf8e1207b6bc1ef4a24f054347",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S01-07": 432,
+        "S01-14": 469,
+        "S14-04": 1114
+      }
+    },
+    {
+      "id": "jc-present",
+      "name": "JC — age 25",
+      "appearance": "on-screen",
+      "era": "present 2026",
+      "count": 1,
+      "shot_evidence": [
+        "S03-02",
+        "S03-06",
+        "S03-08",
+        "S03-10",
+        "S03-11",
+        "S03-13",
+        "S04-01",
+        "S04-03",
+        "S04-04",
+        "S04-05",
+        "S05-01",
+        "S05-05",
+        "S05-09",
+        "S05-14",
+        "S06-02",
+        "S06-05",
+        "S07-03",
+        "S07-04",
+        "S07-06",
+        "S07-07",
+        "S08-02",
+        "S08-03",
+        "S08-04",
+        "S09-03",
+        "S09-04",
+        "S09-06",
+        "S10-03",
+        "S10-04",
+        "S10-05",
+        "S11-01",
+        "S11-03",
+        "S11-04",
+        "S11-05",
+        "S11-06",
+        "S12-02",
+        "S12-03",
+        "S12-08",
+        "S12-09",
+        "S12-10",
+        "S12-11",
+        "S13-01",
+        "S13-03",
+        "S13-04",
+        "S13-05",
+        "S13-07",
+        "S13-08",
+        "S13-11",
+        "S14-01",
+        "S14-02",
+        "S14-05",
+        "S14-07",
+        "S14-09",
+        "S14-10",
+        "S14-11",
+        "S15-01",
+        "S15-03",
+        "S15-07",
+        "S15-08"
+      ],
+      "script_constraints": "Hoodie, restless fingers, mic, earbud/headphones, coin, laptop; do not import later injuries or deafness.",
+      "references": [
+        {
+          "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/jc-master.png",
+          "sha256": "e4609e083a908ad3127cb470e6ecb14027def90faa3c1168efead05f63ee0cdb",
+          "authority": "exploratory newly generated master; not reviewed/canonical/rigged",
+          "viewed": "index preview thumbnail"
+        },
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S05-01.png",
+          "sha256": "0a4e661f6965f40f1e66327cc180c9fb0811ea56bc5940fb58b20a2ece0485ef",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        },
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S07-04.png",
+          "sha256": "2c056cb5450f30c4ad313089e92fbc7656b386b0377b345309132c1b543250c1",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "exploratory-master-available-not-rigged",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S03-02": 515,
+        "S03-06": 535,
+        "S03-08": 545,
+        "S03-10": 555,
+        "S03-11": 560,
+        "S03-13": 571,
+        "S04-01": 583,
+        "S04-03": 593,
+        "S04-04": 598,
+        "S04-05": 603,
+        "S05-01": 615,
+        "S05-05": 635,
+        "S05-09": 656,
+        "S05-14": 683,
+        "S06-02": 731,
+        "S06-05": 747,
+        "S07-03": 770,
+        "S07-04": 775,
+        "S07-06": 786,
+        "S07-07": 791,
+        "S08-02": 809,
+        "S08-03": 814,
+        "S08-04": 820,
+        "S09-03": 842,
+        "S09-04": 847,
+        "S09-06": 857,
+        "S10-03": 879,
+        "S10-04": 884,
+        "S10-05": 889,
+        "S11-01": 901,
+        "S11-03": 911,
+        "S11-04": 916,
+        "S11-05": 921,
+        "S11-06": 927,
+        "S12-02": 945,
+        "S12-03": 950,
+        "S12-08": 976,
+        "S12-09": 981,
+        "S12-10": 986,
+        "S12-11": 991,
+        "S13-01": 1013,
+        "S13-03": 1023,
+        "S13-04": 1028,
+        "S13-05": 1033,
+        "S13-07": 1044,
+        "S13-08": 1049,
+        "S13-11": 1066,
+        "S14-01": 1099,
+        "S14-02": 1104,
+        "S14-05": 1120,
+        "S14-07": 1130,
+        "S14-09": 1141,
+        "S14-10": 1146,
+        "S14-11": 1151,
+        "S15-01": 1177,
+        "S15-03": 1187,
+        "S15-07": 1207,
+        "S15-08": 1212
+      }
+    },
+    {
+      "id": "jc-six",
+      "name": "JC — age 6",
+      "appearance": "on-screen",
+      "era": "childhood flashback",
+      "count": 1,
+      "shot_evidence": [
+        "S14-08"
+      ],
+      "script_constraints": "2007 classroom PRESS; only tapping hand retains color.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S14-08": 1135
+      }
+    },
+    {
+      "id": "jc-eight",
+      "name": "JC — age 8",
+      "appearance": "on-screen",
+      "era": "childhood flashback",
+      "count": 1,
+      "shot_evidence": [
+        "S13-06",
+        "S14-10"
+      ],
+      "script_constraints": "Santo Domingo reach/mango; stairwell friend of Mikey, same-class inferred peer age, do not force unspecified year.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S13-06": 1038,
+        "S14-10": 1146
+      }
+    },
+    {
+      "id": "jc-nine",
+      "name": "JC — age 9",
+      "appearance": "on-screen",
+      "era": "childhood flashback",
+      "count": 1,
+      "shot_evidence": [
+        "S07-05"
+      ],
+      "script_constraints": "Asks about absent father; younger Mamá Look.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S07-05": 780
+      }
+    },
+    {
+      "id": "jc-twelve",
+      "name": "JC — age 12",
+      "appearance": "on-screen",
+      "era": "childhood flashback",
+      "count": 1,
+      "shot_evidence": [
+        "S03-06",
+        "S07-05"
+      ],
+      "script_constraints": "Fever, sleeping, dirt under fingernails; coin in hand.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S03-06B.png",
+          "sha256": "0e5ce08abb14f1b04f2e38381ed3982eeb575f3049482c8f4dbc099fd904e95b",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S03-06": 535,
+        "S07-05": 780
+      }
+    },
+    {
+      "id": "mama-present",
+      "name": "Mamá — present",
+      "appearance": "on-screen",
+      "era": "2026",
+      "count": 1,
+      "shot_evidence": [
+        "S06-01",
+        "S06-02",
+        "S07-02",
+        "S07-03",
+        "S07-04",
+        "S07-05",
+        "S07-06"
+      ],
+      "script_constraints": "Rosary fist, slippers, kitchen gestures, slow Look; no full wardrobe approval inferred.",
+      "references": [
+        {
+          "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/mama-master.png",
+          "sha256": "d574a084b616dfbefda4b5fa3aa124a362b8728598f83d7ef5a9e661c9556730",
+          "authority": "exploratory newly generated master; not reviewed/canonical/rigged",
+          "viewed": "index preview thumbnail"
+        },
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S06-02.png",
+          "sha256": "8164b339d29e3bace1a8a66b6cc2631165e1f0c45fcc64950a0eb2e76830140c",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        },
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S07-03.png",
+          "sha256": "b44df99b05b9565d6eac6065c1037324fbf40ec28d980f638e21f679870f76a0",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "exploratory-master-available-not-rigged",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S06-01": 726,
+        "S06-02": 731,
+        "S07-02": 765,
+        "S07-03": 770,
+        "S07-04": 775,
+        "S07-05": 780,
+        "S07-06": 786
+      }
+    },
+    {
+      "id": "mama-younger",
+      "name": "Mamá — younger variants",
+      "appearance": "on-screen",
+      "era": "JC ages 6,9,12",
+      "count": 3,
+      "shot_evidence": [
+        "S07-05",
+        "S14-08"
+      ],
+      "script_constraints": "2007 letter drawer, same-angle Look at 9 and 12; keep age variants registered.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S07-05.png",
+          "sha256": "50cdb4af5cadb8560aec9dbcc82895ef57df972ad2e4bae3e5193ba71bdc9533",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S07-05": 780,
+        "S14-08": 1135
+      }
+    },
+    {
+      "id": "abuela",
+      "name": "Abuela — hands and voice only",
+      "appearance": "partial-body",
+      "era": "JC ages 8 and 12; epigraph VO",
+      "count": 1,
+      "shot_evidence": [
+        "S00-02",
+        "S03-06",
+        "S13-06"
+      ],
+      "script_constraints": "Face withheld: coin handoff, wrist catch, mango. No full-face design required for episode.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S03-06B.png",
+          "sha256": "0e5ce08abb14f1b04f2e38381ed3982eeb575f3049482c8f4dbc099fd904e95b",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S00-02": 390,
+        "S03-06": 535,
+        "S13-06": 1038
+      }
+    },
+    {
+      "id": "manny-present",
+      "name": "Manny — adult",
+      "appearance": "on-screen",
+      "era": "2026",
+      "count": 1,
+      "shot_evidence": [
+        "S10-01",
+        "S10-02",
+        "S10-03",
+        "S10-04",
+        "S11-04",
+        "S11-06",
+        "S12-08",
+        "S12-09"
+      ],
+      "script_constraints": "6ft3, broad; drum case, iced coffees, palm contact, shoulder reassurance; no taped ribs or event tux.",
+      "references": [
+        {
+          "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/manny-master.png",
+          "sha256": "a9e761a596802d9d131e01d0d76501d87d6e425e1e843cc3c5f09a299d17a252",
+          "authority": "exploratory newly generated master; not reviewed/canonical/rigged",
+          "viewed": "index preview thumbnail"
+        }
+      ],
+      "production_state": "exploratory-master-available-not-rigged",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S10-01": 869,
+        "S10-02": 874,
+        "S10-03": 879,
+        "S10-04": 884,
+        "S11-04": 916,
+        "S11-06": 927,
+        "S12-08": 976,
+        "S12-09": 981
+      }
+    },
+    {
+      "id": "manny-nine",
+      "name": "Manny — nine",
+      "appearance": "on-screen",
+      "era": "childhood",
+      "count": 1,
+      "shot_evidence": [
+        "S10-02"
+      ],
+      "script_constraints": "Trash can percussion with two pencils; distinct child proportions.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S10-02": 874
+      }
+    },
+    {
+      "id": "sofia",
+      "name": "Sofía",
+      "appearance": "on-screen",
+      "era": "2026 and lease vignette",
+      "count": 1,
+      "shot_evidence": [
+        "S14-01",
+        "S14-02",
+        "S14-05",
+        "S14-06",
+        "S14-09",
+        "S14-11"
+      ],
+      "script_constraints": "Laptop, investigative expressions, asleep/prosecuting gag, earbud handoff, lease vignette.",
+      "references": [
+        {
+          "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/generated/sofia-master.png",
+          "sha256": "4a2503596a619637605e5776d8e057dd8dfc777bd05ffd032ff880b04e67f17f",
+          "authority": "exploratory newly generated master; not reviewed/canonical/rigged",
+          "viewed": "index preview thumbnail"
+        }
+      ],
+      "production_state": "exploratory-master-available-not-rigged",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S14-01": 1099,
+        "S14-02": 1104,
+        "S14-05": 1120,
+        "S14-06": 1125,
+        "S14-09": 1141,
+        "S14-11": 1151
+      }
+    },
+    {
+      "id": "rodriguez",
+      "name": "Mr. Rodríguez",
+      "appearance": "on-screen",
+      "era": "2026 and recent speaker refusal",
+      "count": 1,
+      "shot_evidence": [
+        "S09-03",
+        "S09-06",
+        "S12-08",
+        "S14-06"
+      ],
+      "script_constraints": "Café owner/poet, expressive eyebrows, marker/card, refusal pose; do not use later observer vest.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S09-03": 842,
+        "S09-06": 857,
+        "S12-08": 976,
+        "S14-06": 1125
+      }
+    },
+    {
+      "id": "window-man",
+      "name": "Unidentified man in window",
+      "appearance": "on-screen",
+      "era": "2026 / double exposure",
+      "count": 1,
+      "shot_evidence": [
+        "S06-04",
+        "S06-05",
+        "S12-07"
+      ],
+      "script_constraints": "Headphones silhouette. Do not identify as Danny or confirm relation to thin man/ledger/Vale.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S06-04.png",
+          "sha256": "a4fea381b1d7a184edcb77406c1ca74c9ab2726bd6bcb37428e8fe51ad936296",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S06-04": 742,
+        "S06-05": 747,
+        "S12-07": 970
+      }
+    },
+    {
+      "id": "vale-photo",
+      "name": "Adrian Vale — photographs",
+      "appearance": "photo-only",
+      "era": "2026",
+      "count": 1,
+      "shot_evidence": [
+        "S14-04"
+      ],
+      "script_constraints": "Nine photos, tall gray courteous good coat, scissors and black notebook. No live acting needed; photo approvals separate.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "photo artwork"
+      ],
+      "line_evidence": {
+        "S14-04": 1114
+      }
+    },
+    {
+      "id": "ballroom-hero-couples",
+      "name": "Three hero dance couples",
+      "appearance": "background-group",
+      "era": "1957 Echo",
+      "count": 6,
+      "shot_evidence": [
+        "S05-06",
+        "S05-10"
+      ],
+      "script_constraints": "Six hero figures; footwork/spin/skirt flare, slack smile and hand on partner back. Subset of total crowd.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S05-06.png",
+          "sha256": "6066e45e3d1595934f452e294fd76b7c9714d17540f57b5341020fbd58576c09",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        },
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S05-10.png",
+          "sha256": "227f0e2ba1beeea83675632baf53bba837a9e9c331998b9149c7b4e60ff5000c",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S05-06": 640,
+        "S05-10": 661
+      }
+    },
+    {
+      "id": "ballroom-crowd",
+      "name": "Remaining Ballroom couples",
+      "appearance": "background-group",
+      "era": "1957 Echo",
+      "count": "about 74",
+      "shot_evidence": [
+        "S05-04",
+        "S05-07",
+        "S05-11",
+        "S05-12",
+        "S05-16"
+      ],
+      "script_constraints": "About 40 couples total INCLUDING 3 hero couples; about 37 others. Blue/gold transmitted light, PRESS and drained forms.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S05-04.png",
+          "sha256": "2442d3f9a5bf3bbfc9b70d3ee50da370e6b993e2fc3e81233496bdb36ed7e6f2",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        },
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S05-11.png",
+          "sha256": "732aebfe0e6d9aa648c6bfa411ff20c3ef653dd44bd25153a4edd892f2042dee",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S05-04": 630,
+        "S05-07": 646,
+        "S05-11": 667,
+        "S05-12": 672,
+        "S05-16": 693
+      }
+    },
+    {
+      "id": "ballroom-band",
+      "name": "Ballroom horn section and cowbell player",
+      "appearance": "background-group",
+      "era": "1957 Echo",
+      "count": "unspecified",
+      "shot_evidence": [
+        "S05-04",
+        "S05-10",
+        "S05-11"
+      ],
+      "script_constraints": "Musicians remain playing as dancers stop; instrument contact and period clothes.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S05-04.png",
+          "sha256": "2442d3f9a5bf3bbfc9b70d3ee50da370e6b993e2fc3e81233496bdb36ed7e6f2",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S05-04": 630,
+        "S05-10": 661,
+        "S05-11": 667
+      }
+    },
+    {
+      "id": "counterman-1973",
+      "name": "1973 counterman / Rodríguez’s father",
+      "appearance": "on-screen",
+      "era": "1973 Echo",
+      "count": 1,
+      "shot_evidence": [
+        "S12-05",
+        "S12-06"
+      ],
+      "script_constraints": "Mustache, good shirt, shared eyebrows. Separate generation from present Rodríguez.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S12-05": 960,
+        "S12-06": 965
+      }
+    },
+    {
+      "id": "record-kid-1973",
+      "name": "Record buyer, fifteen or sixteen",
+      "appearance": "on-screen",
+      "era": "1973 Echo",
+      "count": 1,
+      "shot_evidence": [
+        "S12-06",
+        "S12-07"
+      ],
+      "script_constraints": "Shell-toes, milk crate, two identical records, quarters. Do not identify a real musician.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S12-06": 965,
+        "S12-07": 970
+      }
+    },
+    {
+      "id": "thin-man-1973",
+      "name": "Thin notebook man",
+      "appearance": "on-screen",
+      "era": "1973 Echo",
+      "count": 1,
+      "shot_evidence": [
+        "S12-07",
+        "S14-04"
+      ],
+      "script_constraints": "Brown suit, pen marks, eye-lock. Older bible Anthony association must not become episode identity reveal.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S12-07": 970,
+        "S14-04": 1114
+      }
+    },
+    {
+      "id": "yiddish-grandfather",
+      "name": "Grandfather with Yiddish newspaper",
+      "appearance": "on-screen",
+      "era": "1934 Echo",
+      "count": 1,
+      "shot_evidence": [
+        "S13-09",
+        "S13-10"
+      ],
+      "script_constraints": "Lips moving, period hat.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S13-09": 1055,
+        "S13-10": 1060
+      }
+    },
+    {
+      "id": "irish-girls",
+      "name": "Two Irish girls",
+      "appearance": "on-screen",
+      "era": "1934 Echo",
+      "count": 2,
+      "shot_evidence": [
+        "S13-09",
+        "S13-10"
+      ],
+      "script_constraints": "Apple and penknife handoff under table.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S13-09": 1055,
+        "S13-10": 1060
+      }
+    },
+    {
+      "id": "porter",
+      "name": "Man in porter’s cap",
+      "appearance": "on-screen",
+      "era": "1934 Echo",
+      "count": 1,
+      "shot_evidence": [
+        "S13-09",
+        "S13-10"
+      ],
+      "script_constraints": "Finger tracking text.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S13-09": 1055,
+        "S13-10": 1060
+      }
+    },
+    {
+      "id": "pr-mother",
+      "name": "Puerto Rican mother",
+      "appearance": "on-screen",
+      "era": "1934 Echo",
+      "count": 1,
+      "shot_evidence": [
+        "S13-09",
+        "S13-10"
+      ],
+      "script_constraints": "Steers two children by collars.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S13-09": 1055,
+        "S13-10": 1060
+      }
+    },
+    {
+      "id": "pr-kids",
+      "name": "Two children with mother",
+      "appearance": "on-screen",
+      "era": "1934 Echo",
+      "count": 2,
+      "shot_evidence": [
+        "S13-09",
+        "S13-10"
+      ],
+      "script_constraints": "Picture books, collar contact.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S13-09": 1055,
+        "S13-10": 1060
+      }
+    },
+    {
+      "id": "atlas-boy",
+      "name": "Boy copying world map",
+      "appearance": "on-screen",
+      "era": "1934 Echo",
+      "count": 1,
+      "shot_evidence": [
+        "S13-09",
+        "S13-10"
+      ],
+      "script_constraints": "Tongue between teeth, pencil, atlas.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S13-09": 1055,
+        "S13-10": 1060
+      }
+    },
+    {
+      "id": "eraser-boy",
+      "name": "Boy borrowing eraser",
+      "appearance": "on-screen",
+      "era": "1934 Echo",
+      "count": 1,
+      "shot_evidence": [
+        "S13-09",
+        "S13-10"
+      ],
+      "script_constraints": "A shade darker than atlas boy; handoff without looking.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S13-09": 1055,
+        "S13-10": 1060
+      }
+    },
+    {
+      "id": "librarian-1934",
+      "name": "Librarian with spectacles chain",
+      "appearance": "on-screen",
+      "era": "1934 Echo",
+      "count": 1,
+      "shot_evidence": [
+        "S13-09",
+        "S13-10"
+      ],
+      "script_constraints": "Stamp impact; spectacles on chain.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S13-09": 1055,
+        "S13-10": 1060
+      }
+    },
+    {
+      "id": "reading-room-extras",
+      "name": "Additional reading-room patrons",
+      "appearance": "background-group",
+      "era": "1934 Echo",
+      "count": "unspecified",
+      "shot_evidence": [
+        "S13-09"
+      ],
+      "script_constraints": "Tables fill; reuse six scripted table group banks where possible.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S13-09": 1055
+      }
+    },
+    {
+      "id": "street-fighters",
+      "name": "Scratch-off fight participants",
+      "appearance": "background-group",
+      "era": "2026",
+      "count": "at least 2",
+      "shot_evidence": [
+        "S03-12"
+      ],
+      "script_constraints": "Outside bodega; do not merge with S15 men without evidence.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S03-12-A.png",
+          "sha256": "74b5dce1c8caeb55b600e844397f34fb2e40c0637736bd02efe3d7cc6544e396",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S03-12": 566
+      }
+    },
+    {
+      "id": "feuding-men",
+      "name": "Two long-feuding men",
+      "appearance": "background-group",
+      "era": "2026",
+      "count": 2,
+      "shot_evidence": [
+        "S03-12"
+      ],
+      "script_constraints": "Stopped speaking since JC was nine; present vignette only.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S03-12-B.png",
+          "sha256": "e17b0db43097a24937cf6dd06b6e889e5d50418565e34af1e2634faffe2a29f0",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S03-12": 566
+      }
+    },
+    {
+      "id": "super",
+      "name": "Building superintendent",
+      "appearance": "on-screen",
+      "era": "2026",
+      "count": 1,
+      "shot_evidence": [
+        "S03-12"
+      ],
+      "script_constraints": "Dog owner calls bite misunderstanding.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S03-12-C.png",
+          "sha256": "abd6944e40f1d072e0d408205638422a675b227fe7f5b5acaac3fac55b7a5b25",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S03-12": 566
+      }
+    },
+    {
+      "id": "delivery-worker",
+      "name": "Delivery worker",
+      "appearance": "on-screen",
+      "era": "2026",
+      "count": 1,
+      "shot_evidence": [
+        "S03-12"
+      ],
+      "script_constraints": "Dog bite gag; hand/body contact.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S03-12-C.png",
+          "sha256": "abd6944e40f1d072e0d408205638422a675b227fe7f5b5acaac3fac55b7a5b25",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S03-12": 566
+      }
+    },
+    {
+      "id": "supers-dog",
+      "name": "Super’s dog",
+      "appearance": "on-screen",
+      "era": "2026",
+      "count": 1,
+      "shot_evidence": [
+        "S03-12"
+      ],
+      "script_constraints": "Actual animal action cast, not prop.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S03-12-C.png",
+          "sha256": "abd6944e40f1d072e0d408205638422a675b227fe7f5b5acaac3fac55b7a5b25",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S03-12": 566
+      }
+    },
+    {
+      "id": "banner-people",
+      "name": "Smiling mural banner people",
+      "appearance": "photo-only",
+      "era": "2026 banner",
+      "count": "unspecified",
+      "shot_evidence": [
+        "S08-01"
+      ],
+      "script_constraints": "Embedded illustrated stock-photo people only; no separate puppet.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S08-01.png",
+          "sha256": "4e7b2835d48ed5fec0b30fc155f6259dd3c0f0bc9d6356c676ba51b50303e94f",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "photo artwork"
+      ],
+      "line_evidence": {
+        "S08-01": 804
+      }
+    },
+    {
+      "id": "union-speaker",
+      "name": "Union worker with headphones",
+      "appearance": "on-screen",
+      "era": "2026",
+      "count": 1,
+      "shot_evidence": [
+        "S08-03",
+        "S08-04"
+      ],
+      "script_constraints": "Hi-vis, ladder, dialogue; DISTINCT face from window man.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S08-03": 814,
+        "S08-04": 820
+      }
+    },
+    {
+      "id": "union-second",
+      "name": "Second hi-vis worker",
+      "appearance": "on-screen",
+      "era": "2026",
+      "count": 1,
+      "shot_evidence": [
+        "S08-03"
+      ],
+      "script_constraints": "Bolting banner/scaffold with colleague.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S08-03": 814
+      }
+    },
+    {
+      "id": "manny-listener",
+      "name": "Adult listening to young Manny",
+      "appearance": "on-screen",
+      "era": "childhood",
+      "count": 1,
+      "shot_evidence": [
+        "S10-02"
+      ],
+      "script_constraints": "Stops at trash-can rhythm.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S10-02": 874
+      }
+    },
+    {
+      "id": "cafe-baby",
+      "name": "Baby in stroller",
+      "appearance": "on-screen",
+      "era": "2026",
+      "count": 1,
+      "shot_evidence": [
+        "S10-03"
+      ],
+      "script_constraints": "About to scream, sighs, eyes close; stroller separate.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S10-03": 879
+      }
+    },
+    {
+      "id": "yankees-men",
+      "name": "Two Yankees bullpen talkers",
+      "appearance": "background-group",
+      "era": "2026",
+      "count": 2,
+      "shot_evidence": [
+        "S10-03"
+      ],
+      "script_constraints": "Conversational bank and rhythm alignment.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S10-03": 879
+      }
+    },
+    {
+      "id": "freelancer",
+      "name": "Café freelancer",
+      "appearance": "on-screen",
+      "era": "2026",
+      "count": 1,
+      "shot_evidence": [
+        "S10-03",
+        "S12-08"
+      ],
+      "script_constraints": "Keyboard typing then staring at JC.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S10-03": 879,
+        "S12-08": 976
+      }
+    },
+    {
+      "id": "cafe-patrons",
+      "name": "Other café patrons",
+      "appearance": "background-group",
+      "era": "2026",
+      "count": "unspecified",
+      "shot_evidence": [
+        "S09-01",
+        "S09-02",
+        "S12-11"
+      ],
+      "script_constraints": "Chatter ambience; count and need for visible extras layout-dependent.",
+      "references": [
+        {
+          "path": "projects/cemi_episode_01/assets/keyframes/S09-02.png",
+          "sha256": "ec20069e96e265e80986265f39fa4c99e49b4721626826aebc66d786ab61b680",
+          "authority": "exploratory prior artwork; no canonical approval inferred",
+          "viewed": "contact-sheet thumbnail"
+        }
+      ],
+      "production_state": "reference-only",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S09-01": 832,
+        "S09-02": 837,
+        "S12-11": 991
+      }
+    },
+    {
+      "id": "curb-adult-hand",
+      "name": "Unidentified protective hand",
+      "appearance": "partial-body",
+      "era": "half-memory",
+      "count": 1,
+      "shot_evidence": [
+        "S11-05"
+      ],
+      "script_constraints": "Grips child sleeve, never show adult face; identity unresolved.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S11-05": 921
+      }
+    },
+    {
+      "id": "curb-child",
+      "name": "Child at curb",
+      "appearance": "partial-body",
+      "era": "half-memory",
+      "count": 1,
+      "shot_evidence": [
+        "S11-05"
+      ],
+      "script_constraints": "Small child sleeve/body; may be JC but script does not identify.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S11-05": 921
+      }
+    },
+    {
+      "id": "honda-seller",
+      "name": "Man selling Hennessy from Honda",
+      "appearance": "on-screen",
+      "era": "brief memory",
+      "count": 1,
+      "shot_evidence": [
+        "S11-06"
+      ],
+      "script_constraints": "Two-frame Honda flash; seller only if needed in chosen flash composition.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S11-06": 927
+      }
+    },
+    {
+      "id": "mets-sleeper",
+      "name": "Man in Mets jacket",
+      "appearance": "on-screen",
+      "era": "2026",
+      "count": 1,
+      "shot_evidence": [
+        "S13-02",
+        "S13-08",
+        "S13-12"
+      ],
+      "script_constraints": "Snoring bank before/after Echo.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S13-02": 1018,
+        "S13-08": 1049,
+        "S13-12": 1071
+      }
+    },
+    {
+      "id": "lease-landlord",
+      "name": "Landlord in lease vignette",
+      "appearance": "on-screen",
+      "era": "recent memory",
+      "count": 1,
+      "shot_evidence": [
+        "S14-02"
+      ],
+      "script_constraints": "Changes lock while Sofía reads; do not assume Creston landlord identity.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S14-02": 1104
+      }
+    },
+    {
+      "id": "speaker-rep",
+      "name": "Music-system representative",
+      "appearance": "on-screen",
+      "era": "January 2026 cutaway",
+      "count": 1,
+      "shot_evidence": [
+        "S14-06"
+      ],
+      "script_constraints": "Receives rejected speaker from Rodríguez.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S14-06": 1125
+      }
+    },
+    {
+      "id": "class-teacher",
+      "name": "Classroom teacher",
+      "appearance": "on-screen",
+      "era": "2007",
+      "count": 1,
+      "shot_evidence": [
+        "S14-08"
+      ],
+      "script_constraints": "Writes down JC tapping; PRESS teaching example.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S14-08": 1135
+      }
+    },
+    {
+      "id": "lanyard-woman",
+      "name": "Woman with lanyard and clipboard",
+      "appearance": "on-screen",
+      "era": "2007",
+      "count": 1,
+      "shot_evidence": [
+        "S14-08"
+      ],
+      "script_constraints": "Observes pupils; clipboard remains saturated.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S14-08": 1135
+      }
+    },
+    {
+      "id": "classmates",
+      "name": "Young JC’s classroom pupils",
+      "appearance": "background-group",
+      "era": "2007",
+      "count": "unspecified",
+      "shot_evidence": [
+        "S14-08"
+      ],
+      "script_constraints": "Heads down on arms, PRESS flattening; do not require Mikey visible in class.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S14-08": 1135
+      }
+    },
+    {
+      "id": "jc-father",
+      "name": "JC’s father",
+      "appearance": "on-screen",
+      "era": "2007 memory",
+      "count": 1,
+      "shot_evidence": [
+        "S14-08"
+      ],
+      "script_constraints": "Reads letter standing in kitchen, says Nivel dos. Do not import later novel scenes.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S14-08": 1135
+      }
+    },
+    {
+      "id": "mikey-eight",
+      "name": "Mikey — eight",
+      "appearance": "on-screen",
+      "era": "childhood stairwell",
+      "count": 1,
+      "shot_evidence": [
+        "S14-10"
+      ],
+      "script_constraints": "Ear to wall; speaks Listen. Adult Mikey not on screen.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S14-10": 1146
+      }
+    },
+    {
+      "id": "bodega-men",
+      "name": "Two domino players and third mediator",
+      "appearance": "background-group",
+      "era": "2026",
+      "count": 3,
+      "shot_evidence": [
+        "S15-02",
+        "S15-04",
+        "S15-05",
+        "S15-06"
+      ],
+      "script_constraints": "Three distinct men, arguments, tile slap, PRESS drain, third returns inside; third not identified Don Chino.",
+      "references": [],
+      "production_state": "missing-dedicated-art",
+      "missing": [
+        "approved design",
+        "registered separated layers",
+        "action-specific replacement drawings",
+        "motion and contact review"
+      ],
+      "line_evidence": {
+        "S15-02": 1182,
+        "S15-04": 1192,
+        "S15-05": 1197,
+        "S15-06": 1202
+      }
+    },
+    {
+      "id": "yari",
+      "name": "Yari",
+      "appearance": "text-ui-only",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S10-05"
+      ],
+      "script_constraints": "Messages only; relationship not stated in episode.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S10-05": 889
+      }
+    },
+    {
+      "id": "denise",
+      "name": "Denise",
+      "appearance": "text-ui-only",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S13-03"
+      ],
+      "script_constraints": "Message and chirpy text-read VO; no body drawing.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S13-03": 1023
+      }
+    },
+    {
+      "id": "vale-email",
+      "name": "Adrian Vale / Partnerships Team email",
+      "appearance": "text-ui-only",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S11-01",
+        "S11-02"
+      ],
+      "script_constraints": "Signature/email read; related photo entry separate.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S11-01": 901,
+        "S11-02": 906
+      }
+    },
+    {
+      "id": "rafa",
+      "name": "Rafa",
+      "appearance": "mentioned-only",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S10-04"
+      ],
+      "script_constraints": "Sunday circle invitation only.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S10-04": 884
+      }
+    },
+    {
+      "id": "fela",
+      "name": "Doña Fela",
+      "appearance": "mentioned-only",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S07-03",
+        "S09-03",
+        "S09-05"
+      ],
+      "script_constraints": "Dialogue mention and Casa Fela map card; do not assert same person/business family.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S07-03": 770,
+        "S09-03": 842,
+        "S09-05": 852
+      }
+    },
+    {
+      "id": "don-chino",
+      "name": "Don Chino",
+      "appearance": "mentioned-only",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S09-05",
+        "S15-02"
+      ],
+      "script_constraints": "Business names only; bodega third man not named.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S09-05": 852,
+        "S15-02": 1182
+      }
+    },
+    {
+      "id": "rodriguez-mother",
+      "name": "Rodríguez’s mother",
+      "appearance": "mentioned-only",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S09-06"
+      ],
+      "script_constraints": "Best shoes in Ballroom remembered verbally; not assigned to hero dancers.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S09-06": 857
+      }
+    },
+    {
+      "id": "mikey-mother",
+      "name": "Mikey’s mother and neighborhood mothers",
+      "appearance": "mentioned-only",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S14-10"
+      ],
+      "script_constraints": "Narration about saying the three; visible flashback only explicitly shows boys.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S14-10": 1146
+      }
+    },
+    {
+      "id": "ep-client",
+      "name": "JC’s unnamed EP client",
+      "appearance": "mentioned-only",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S03-13",
+        "S09-04",
+        "S10-04"
+      ],
+      "script_constraints": "The kid in dialogue, no shown face.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S03-13": 571,
+        "S09-04": 847,
+        "S10-04": 884
+      }
+    },
+    {
+      "id": "pyrex-neighbor",
+      "name": "Lady on three",
+      "appearance": "mentioned-only",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S03-03"
+      ],
+      "script_constraints": "Pyrex ownership, no required visible person.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S03-03": 520
+      }
+    },
+    {
+      "id": "trumpeter-six",
+      "name": "Trumpeter on sixth floor",
+      "appearance": "audio-only",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S03-04"
+      ],
+      "script_constraints": "Sound ribbon/source label; body optional if cross-section layout depicts it.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S03-04": 525
+      }
+    },
+    {
+      "id": "conductor",
+      "name": "Train conductor",
+      "appearance": "optional-implied",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S03-02"
+      ],
+      "script_constraints": "Sandwich extends toward passing conductor; script does not demand visible face/body.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S03-02": 515
+      }
+    },
+    {
+      "id": "stroller-carer",
+      "name": "Baby’s caregiver",
+      "appearance": "optional-implied",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S10-03"
+      ],
+      "script_constraints": "Not specified; include only if stroller layout requires adult.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S10-03": 879
+      }
+    },
+    {
+      "id": "creston-landlord",
+      "name": "Landlord on Creston",
+      "appearance": "mentioned-only",
+      "era": "various",
+      "count": 1,
+      "shot_evidence": [
+        "S14-05"
+      ],
+      "script_constraints": "Dialogue only, not necessarily lease vignette landlord.",
+      "references": [],
+      "production_state": "no-character-drawing-required",
+      "missing": [],
+      "line_evidence": {
+        "S14-05": 1120
+      }
+    }
+  ],
+  "summary": {
+    "inventory_entries": 81,
+    "drawable_entries": 67,
+    "full_episode_character_completion": false,
+    "canonical_approval": "No new approvals granted. Amaia r2 design approval only inherited from ledger."
+  },
+  "risks": [
+    "BEFORE 14→11 survivors conflicts with four listed ghost losses; count decision retained.",
+    "1957 description says about forty couples; FX says forty figure ribbons. Keep crowd scope separate from FX count.",
+    "Script year and age arithmetic not silently normalized; JC8 Mikey8 stairwell grouping is peer-age inference.",
+    "Archived river style and scene identities can conflict; these are reference sources, not canonicalized costumes.",
+    "No numbered keyframes beyond S09-05 found. New exploratory adult JC/Manny/Mama/Sofia masters cross-linked; all other later cast still lack dedicated visual references in inspected assets.",
+    "Full articulation, underpainting, multi-view/expression libraries and action review remain missing for almost all cast."
+  ],
+  "dependency_plan": [
+    "Approve existing/proposed identity per character and age variant.",
+    "Generate one bounded character/shot request with exact references through assigned art worker.",
+    "Independent anatomy/style review and author exact-file approval.",
+    "Separate source art, hidden surfaces, rigid props, hair/clothes and hands; register views and replacements.",
+    "Native editable rig, limb/contact/expression motion checks; independent review.",
+    "Shot-specific action/lip sync and compositing; final shot and episode approval remain separate."
+  ],
+  "excluded_older_bible_examples": [
+    "Adult Mikey, old JC2057, Vale2007, Yanaisa, Yúcahu, Yenni, Mama Tete, Vanessa, Okafor, Dalia, Pri, Desmond, Alan Vale: not required as drawable Episode 1 cast by current script."
+  ],
+  "decisions_requiring_author": [
+    "Exact proposed identity and variant artwork before canonical promotion.",
+    "Ghost loss count / canoe residual placement."
+  ],
+  "evidence_method": "Read complete scene-by-scene script and cast/asset sections; inspected 92 source thumbnails across 5 contact sheets. Thumbnail inspection establishes presence, not anatomy/alpha/rig validity."
+}

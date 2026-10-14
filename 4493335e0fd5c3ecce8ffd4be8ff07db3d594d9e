@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 4,
+      "rect": [
+        161,
+        452,
+        764,
+        474
+      ],
+      "content": "text",
+      "text": "Mamá — younger variants"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 191,
+    "story": 192
+  }
+}

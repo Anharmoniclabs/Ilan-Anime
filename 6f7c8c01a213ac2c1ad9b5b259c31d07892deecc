@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 12,
+      "rect": [
+        161,
+        354,
+        764,
+        446
+      ],
+      "content": "text",
+      "text": "on-screen | childhood | missing-dedicated-art\nStops at trash-can rhythm.\nShots: S10-02"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 427,
+    "story": 428
+  }
+}

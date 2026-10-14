@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 7,
+      "rect": [
+        161,
+        110,
+        764,
+        202
+      ],
+      "content": "text",
+      "text": "background-group | 1957 Echo | reference-only\nAbout 40 couples total INCLUDING 3 hero couples; about 37 others. Blue/gold transmitted light, PRESS and drained forms.\nShots: S05-04, S05-07, S05-11, S05-12, S05-16"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 265,
+    "story": 266
+  }
+}

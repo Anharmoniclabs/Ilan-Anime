@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 5,
+      "rect": [
+        161,
+        110,
+        764,
+        202
+      ],
+      "content": "text",
+      "text": "partial-body | JC ages 8 and 12; epigraph VO | reference-only\nFace withheld: coin handoff, wrist catch, mango. No full-face design required for episode.\nShots: S00-02, S03-06, S13-06"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 205,
+    "story": 206
+  }
+}

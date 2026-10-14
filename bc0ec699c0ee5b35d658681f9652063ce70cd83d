@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 19,
+      "rect": [
+        161,
+        354,
+        764,
+        446
+      ],
+      "content": "text",
+      "text": "optional-implied | various | no-character-drawing-required\nSandwich extends toward passing conductor; script does not demand visible face/body.\nShots: S03-02"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 637,
+    "story": 638
+  }
+}

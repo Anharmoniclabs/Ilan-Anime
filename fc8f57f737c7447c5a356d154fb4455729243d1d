@@ -1,0 +1,15 @@
+{
+  "tool": "place_image",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/abuela-hands-master-03b48acca87a/source-still.png",
+    "spread": 1,
+    "x": 50.0,
+    "y": 75,
+    "width": 900
+  },
+  "status": "succeeded",
+  "result": {
+    "asset": 61,
+    "id": 62
+  }
+}

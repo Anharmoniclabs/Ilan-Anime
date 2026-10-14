@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 19,
+      "rect": [
+        161,
+        232,
+        764,
+        324
+      ],
+      "content": "text",
+      "text": "audio-only | various | no-character-drawing-required\nSound ribbon/source label; body optional if cross-section layout depicts it.\nShots: S03-04"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 631,
+    "story": 632
+  }
+}

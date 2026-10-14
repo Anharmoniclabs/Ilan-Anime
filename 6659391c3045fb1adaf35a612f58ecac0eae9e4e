@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 9,
+      "rect": [
+        28,
+        18,
+        764,
+        45
+      ],
+      "content": "text",
+      "text": "EPISODE 1 / CHARACTER INVENTORY / 10 of 21"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 317,
+    "story": 318
+  }
+}

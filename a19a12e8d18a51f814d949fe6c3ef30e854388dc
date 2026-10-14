@@ -1,0 +1,15 @@
+{
+  "tool": "doc_open",
+  "arguments": {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/manny-master-a9e761a59680/source-still.png"
+  },
+  "status": "succeeded",
+  "result": {
+    "height": 1536,
+    "index": 0,
+    "layers": 1,
+    "name": "source-still.png",
+    "warnings": [],
+    "width": 1024
+  }
+}

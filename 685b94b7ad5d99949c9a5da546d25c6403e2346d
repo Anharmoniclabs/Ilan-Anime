@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 6,
+      "rect": [
+        28,
+        588,
+        764,
+        606
+      ],
+      "content": "text",
+      "text": "Amaia r2: design + limited face controls approved. Full character animation remains unfinished. No new approvals."
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 255,
+    "story": 256
+  }
+}

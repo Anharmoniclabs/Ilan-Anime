@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 4,
+      "rect": [
+        25,
+        950,
+        975,
+        1080
+      ],
+      "content": "text",
+      "text": "Very broad shoulders and chest, close crop, warm grin, rust tee and track pants. Conga and performance pose absent; hands remain part of the flat source drawing.\nSHA-256: 736d023266a936942850ae0a5c7cd2df4fbd27efba60fd2bceb66c14a65df5f7\nNative PhotoCraft + layered PSD: protected hidden original and one visible editable copy. Body parts remain flattened.\nSource alpha and premultiplied RGB preserved exactly in native and reopened PSD exports."
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 81,
+    "story": 82
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 9,
+      "rect": [
+        161,
+        452,
+        764,
+        474
+      ],
+      "content": "text",
+      "text": "Boy borrowing eraser"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 341,
+    "story": 342
+  }
+}
