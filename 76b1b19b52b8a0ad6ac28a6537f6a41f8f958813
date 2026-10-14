@@ -1,0 +1,305 @@
+[
+  {
+    "description": "List engine commands: id, label, menu path, shortcut, `params` doc (e.g. `{name?, width?, height?, frameRate?, duration? (s)}`) and whether it can run now (`why` if not). Every menu item, shortcut and panel gesture maps to one of these ids; run them with execute_command. Narrow with `filter` (e.g. `layer.new`, `keys`, `effect`).",
+    "inputSchema": {
+      "properties": {
+        "enabled_only": {
+          "description": "Only commands that can run right now.",
+          "type": "boolean"
+        },
+        "filter": {
+          "description": "Only commands whose id or label contains this text (case-insensitive).",
+          "type": "string"
+        },
+        "schemas": {
+          "description": "Also return each command's parameter JSON Schema (`schema`).",
+          "type": "boolean"
+        }
+      },
+      "required": [],
+      "type": "object"
+    },
+    "name": "list_commands"
+  },
+  {
+    "description": "One command in full: id, label, menu path, shortcut, the `params` doc, a JSON Schema of its parameters (`schema`: properties, required, additionalProperties) and whether it can run now (`why` if not). Use before execute_command when unsure of the parameters; execute_command rejects unknown keys.",
+    "inputSchema": {
+      "properties": {
+        "command": {
+          "description": "Command id, e.g. `layer.newText`.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "command"
+      ],
+      "type": "object"
+    },
+    "name": "describe_command"
+  },
+  {
+    "description": "A layer's property tree (transform, masks, effects, text, shape contents, ...): every node has a `path` usable with get_property/set_property/add_keyframe, plus uid, match id, name, type, value at `time`, keyframes and expression. `flat: true` returns just a list of {path, type, value, keys, expression} (compact).",
+    "inputSchema": {
+      "properties": {
+        "comp": {
+          "description": "Composition item id or name; omit for the active comp.",
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "depth": {
+          "description": "Group depth to expand (default all).",
+          "type": "integer"
+        },
+        "flat": {
+          "description": "Return a flat list of properties instead of the tree.",
+          "type": "boolean"
+        },
+        "layer": {
+          "description": "Layer id (from get_comp), \"#n\" (1-based index from the top) or layer name.",
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "time": {
+          "description": "Comp time in seconds for values (default: current time).",
+          "type": "number"
+        }
+      },
+      "required": [
+        "layer"
+      ],
+      "type": "object"
+    },
+    "name": "get_layer"
+  },
+  {
+    "description": "Read one property: type, value at `time` (comp seconds; default the current time), whether it is animated, its keyframes (time, value, in/out interpolation) and expression.",
+    "inputSchema": {
+      "properties": {
+        "comp": {
+          "description": "Composition item id or name; omit for the active comp.",
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "layer": {
+          "description": "Layer id (from get_comp), \"#n\" (1-based index from the top) or layer name.",
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "path": {
+          "description": "Property path from get_layer: match ids joined by `/`, `#n` for the nth child, or `@uid`. E.g. `transform/position`, `transform/opacity`, `transform/scale`, `transform/rotation`, `effects/#1/blurriness`, `masks/#1/feather`, `@57`.",
+          "type": "string"
+        },
+        "time": {
+          "description": "Comp time in seconds.",
+          "type": "number"
+        }
+      },
+      "required": [
+        "layer",
+        "path"
+      ],
+      "type": "object"
+    },
+    "name": "get_property"
+  },
+  {
+    "description": "Set a property. Without `time`: sets the static value (or a key at the current time if already animated). With `time`: adds/replaces a keyframe there, turning the stopwatch on. `expression` sets an After Effects-style JS expression (\"\" removes it). Returns the property as get_property does. Examples: {\"layer\":3,\"path\":\"transform/opacity\",\"value\":50}; {\"layer\":\"Title\",\"path\":\"transform/position\",\"value\":[200,540],\"time\":0}; {\"layer\":3,\"path\":\"transform/rotation\",\"expression\":\"time*90\"}.",
+    "inputSchema": {
+      "properties": {
+        "comp": {
+          "description": "Composition item id or name; omit for the active comp.",
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "expression": {
+          "description": "Expression text; empty string removes the expression.",
+          "type": "string"
+        },
+        "layer": {
+          "description": "Layer id (from get_comp), \"#n\" (1-based index from the top) or layer name.",
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "path": {
+          "description": "Property path from get_layer: match ids joined by `/`, `#n` for the nth child, or `@uid`. E.g. `transform/position`, `transform/opacity`, `transform/scale`, `transform/rotation`, `effects/#1/blurriness`, `masks/#1/feather`, `@57`.",
+          "type": "string"
+        },
+        "time": {
+          "description": "Keyframe time in seconds (layer time; equals comp time unless the layer is offset/stretched).",
+          "type": "number"
+        },
+        "value": {
+          "description": "Number for 1-D properties (50), array for vectors ([960,540]), \"#rrggbb\" or [r,g,b,a] (0-1) for colours, bool for checkboxes, string for text/menus."
+        }
+      },
+      "required": [
+        "layer",
+        "path"
+      ],
+      "type": "object"
+    },
+    "name": "set_property"
+  },
+  {
+    "description": "Add keyframes to a property (turns the stopwatch on): one with `time` (+ optional `value`, default the current value) or many with `keys: [{time, value}]`, then optionally set their `interpolation`: linear, bezier, hold, easyEase, easyEaseIn, easyEaseOut. Example: {\"layer\":1,\"path\":\"transform/position\",\"keys\":[{\"time\":0,\"value\":[0,540]},{\"time\":2,\"value\":[1920,540]}],\"interpolation\":\"easyEase\"}.",
+    "inputSchema": {
+      "properties": {
+        "comp": {
+          "description": "Composition item id or name; omit for the active comp.",
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "interpolation": {
+          "enum": [
+            "linear",
+            "bezier",
+            "hold",
+            "easyEase",
+            "easyEaseIn",
+            "easyEaseOut"
+          ],
+          "type": "string"
+        },
+        "keys": {
+          "description": "Several keys at once.",
+          "items": {
+            "properties": {
+              "time": {
+                "type": "number"
+              },
+              "value": {
+                "description": "Number for 1-D properties (50), array for vectors ([960,540]), \"#rrggbb\" or [r,g,b,a] (0-1) for colours, bool for checkboxes, string for text/menus."
+              }
+            },
+            "required": [
+              "time"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "layer": {
+          "description": "Layer id (from get_comp), \"#n\" (1-based index from the top) or layer name.",
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "path": {
+          "description": "Property path from get_layer: match ids joined by `/`, `#n` for the nth child, or `@uid`. E.g. `transform/position`, `transform/opacity`, `transform/scale`, `transform/rotation`, `effects/#1/blurriness`, `masks/#1/feather`, `@57`.",
+          "type": "string"
+        },
+        "time": {
+          "description": "Key time in seconds (layer time).",
+          "type": "number"
+        },
+        "value": {
+          "description": "Number for 1-D properties (50), array for vectors ([960,540]), \"#rrggbb\" or [r,g,b,a] (0-1) for colours, bool for checkboxes, string for text/menus."
+        }
+      },
+      "required": [
+        "layer",
+        "path"
+      ],
+      "type": "object"
+    },
+    "name": "add_keyframe"
+  },
+  {
+    "description": "Apply an effect to a layer and optionally set its parameters in one undoable call. `effect` is an id (`ec.blur.gaussian`) or After Effects name (`Gaussian Blur`; see list_effects); `values` maps parameter ids to values, e.g. {\"blurriness\": 12}. One undo step; if a value fails, nothing is applied. Returns the instance `path` (`effects/#n`, for set_property / add_keyframe) and its parameters with their paths and current values.",
+    "inputSchema": {
+      "properties": {
+        "comp": {
+          "description": "Composition item id or name; omit for the active comp.",
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "effect": {
+          "description": "Effect id or name, e.g. `Gaussian Blur`, `Glow`, `Curves`, `ec.color.levels`.",
+          "type": "string"
+        },
+        "layer": {
+          "description": "Layer id (from get_comp), \"#n\" (1-based index from the top) or layer name.",
+          "type": [
+            "integer",
+            "string"
+          ]
+        },
+        "values": {
+          "additionalProperties": true,
+          "description": "Parameter id -> value (ids are in the returned `params` paths), e.g. {\"blurriness\": 12}.",
+          "type": "object"
+        }
+      },
+      "required": [
+        "layer",
+        "effect"
+      ],
+      "type": "object"
+    },
+    "name": "add_effect"
+  },
+  {
+    "description": "Where things stand: the editor state (active comp, current time, selected layers/keys/items, open comps, tool, work area) plus what this build can do (`app`: version, command and effect counts, GPU effects, import/export formats, After Effects parity summary). Cheap; call it to re-orient after a series of edits.",
+    "inputSchema": {
+      "properties": {},
+      "required": [],
+      "type": "object"
+    },
+    "name": "get_state"
+  },
+  {
+    "description": "Run several engine commands in one call as ONE undo step (engine.batch). Later steps can use earlier results: a string param \"$N\" or \"$N.key\" is step N's result (1-based), e.g. create a layer, then key and style it: {\"steps\":[{\"command\":\"layer.newText\",\"params\":{\"text\":\"Hi\",\"name\":\"Title\"}},{\"command\":\"prop.addKey\",\"params\":{\"layer\":\"$1.layer\",\"path\":\"transform/opacity\",\"time\":0,\"value\":0}},{\"command\":\"effect.apply\",\"params\":{\"layer\":\"$1.layer\",\"effect\":\"Glow\"}}]}. Returns {steps, results}. If a step fails the whole batch is rolled back (unless atomic: false) and the error names the step.",
+    "inputSchema": {
+      "properties": {
+        "atomic": {
+          "description": "Roll everything back when a step fails (default true).",
+          "type": "boolean"
+        },
+        "label": {
+          "description": "Undo step name (default Batch).",
+          "type": "string"
+        },
+        "steps": {
+          "items": {
+            "properties": {
+              "command": {
+                "type": "string"
+              },
+              "params": {
+                "additionalProperties": true,
+                "type": "object"
+              }
+            },
+            "required": [
+              "command"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "steps"
+      ],
+      "type": "object"
+    },
+    "name": "batch"
+  }
+]
