@@ -1,0 +1,41 @@
+{
+  "status": "blocked preflight; no revised production render",
+  "opaque_source": {
+    "path": "production/runs/episode1-full-picture/amaia-breakdowns/ghosts-opaque-rgba.png",
+    "size": [
+      1672,
+      941
+    ],
+    "mode": "RGBA",
+    "alpha_zero": 796242,
+    "alpha_255": 346,
+    "alpha_partial": 776764
+  },
+  "evidence_origin": "prior-fade sheets are crops of existing decoded-review frames, not a new render",
+  "source_hashes": [
+    {
+      "path": "production/runs/episode1-full-picture/amaia-breakdowns/ghosts-opaque-rgba.png",
+      "sha256": "a4c6f20cfe5c8cc5548469b87b4ad0484f45fdde3ca56a1e707a1cc645afb9d4"
+    },
+    {
+      "path": "production/runs/episode1-amaia-finish/tasks/three-losses/sources/three-seated-memories.png",
+      "sha256": "d24c9febf90f405e65bd419648cf6c361a4d2664822e755ff53fbc1acda4b38d"
+    },
+    {
+      "path": "production/runs/episode1-amaia-finish/tasks/three-losses/sources/rest.png",
+      "sha256": "e985d519e4e1d2c4814afc8779c79cea33623bb4fe9da0df39d9e3c16033d6c9"
+    },
+    {
+      "path": "production/runs/episode1-amaia-finish/tasks/three-losses/action-timeline-review.json",
+      "sha256": "49578b6dc30948397356481f8474ade494dad79cbe86e0443afcf96102600a8f"
+    },
+    {
+      "path": "production/runs/episode1-amaia-finish/tasks/three-losses/native-review/shot.ecproj",
+      "sha256": "95d2ec73d376a9a6a00a29c925199bf94f4fee591cd4f45c298a1057ca3f3768"
+    },
+    {
+      "path": "production/runs/episode1-amaia-finish/tasks/three-losses/S01-03-three-losses-silent-review.mp4",
+      "sha256": "706c2ac3016e3aa1770341d790b6690cdd431e43106fa8a484624300f842eb0a"
+    }
+  ]
+}

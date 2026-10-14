@@ -1,8 +1,0 @@
-{
-  "tool": "list_commands",
-  "arguments": {
-    "filter": "edit.delete"
-  },
-  "status": "succeeded",
-  "result": []
-}

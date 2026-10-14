@@ -1,0 +1,61 @@
+{
+  "inflight": {},
+  "history": [
+    {
+      "at": "2026-10-14T05:17:33Z",
+      "action": "submitted",
+      "task": "three-losses",
+      "status": "submitted",
+      "host_agent_id": "01a138cf-4fb4-70e1-ab85-36870f674051"
+    },
+    {
+      "at": "2026-10-14T05:20:41Z",
+      "action": "reviewed",
+      "task": "three-losses",
+      "decision": "reject",
+      "reviewer": "01a138d8-2b2a-7780-b85e-e96ea96950d8"
+    },
+    {
+      "at": "2026-10-14T05:20:41Z",
+      "action": "revision-created",
+      "task": "three-losses-r1",
+      "supersedes": "three-losses"
+    },
+    {
+      "at": "2026-10-14T08:13:33Z",
+      "action": "submitted",
+      "task": "three-losses-r1",
+      "status": "blocked",
+      "host_agent_id": "01a13977-7b35-7793-9f36-32c9ebcd10da"
+    },
+    {
+      "at": "2026-10-14T08:13:33Z",
+      "action": "blocked",
+      "task": "three-losses-r1",
+      "blockers": [
+        "Missing independently complete seated young-man lap/hip/leg artwork revealed after the woman fades, and elder lower-body artwork revealed after the young man fades. Saved overlapping RGBA artwork does not contain those hidden contours; the original flattened scene contains baked river/rail pixels.",
+        "Clean individual seat-contact registration and hull occlusion remain unresolved. Matching completion drawings or complete separate cels are needed before a revised production draft can be submitted; further image generation is prohibited in this worker."
+      ]
+    },
+    {
+      "at": "2026-10-14T08:30:25Z",
+      "action": "submitted",
+      "task": "three-losses-r2",
+      "status": "submitted",
+      "host_agent_id": "01a13984-04b7-7b20-a1ad-c0ab9c70847d"
+    },
+    {
+      "at": "2026-10-14T08:40:18Z",
+      "action": "reviewed",
+      "task": "three-losses-r2",
+      "decision": "reject",
+      "reviewer": "01a13988-bf3c-7322-b033-44fdfbe66bda"
+    },
+    {
+      "at": "2026-10-14T08:40:18Z",
+      "action": "paused",
+      "task": "three-losses-r2",
+      "reason": "revision limit"
+    }
+  ]
+}

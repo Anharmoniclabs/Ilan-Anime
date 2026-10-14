@@ -1,0 +1,102 @@
+[
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/S01-03-three-losses-r2-silent.mp4",
+    "sha256": "771efbac20c15b1c977b47d7c146b11171a695c38e44d8916eab8c87f2a198d0"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/native/shot.ecproj",
+    "sha256": "45474c9c3e745d18abfad9aa1975a313881f48e42f94b3e9870758ca7486b5d2"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/registration.json",
+    "sha256": "729c45ed370e4868fbd3a6e4690e3f91e30aa004665dc12087e8bd16be0841e9"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/action-timeline.json",
+    "sha256": "49578b6dc30948397356481f8474ade494dad79cbe86e0443afcf96102600a8f"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/verification.json",
+    "sha256": "cb7f6b7f8eeef40b6fdca98710afb9177c10c507687898978a727d769fb98fa8"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/probe.json",
+    "sha256": "41d3845aa6bc708fe80c5e787fe31f4de2acf9be5521565d8298acebd1234cfa"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/motion-check.json",
+    "sha256": "2a64d71881b9b107f4978ead04afb72ffb05c86b150e8c870395794dead56410"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/HANDOFF.md",
+    "sha256": "0d4e57a1f34502c3c976ec2ec50d052af9f00a7a23e774d4277108e731cafc83"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/layers/apparition-woman-cel.png",
+    "sha256": "ebf13fbebf4ae217fe6b4ce616cc0642dc54bbb5a907b38bdd5c4574e29a1302"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/layers/apparition-young-man-cel.png",
+    "sha256": "20015721f7f6cea9f0777eb6968aa1e4e8282df619e83d806cc90dc44921bf11"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/layers/apparition-elder-cel.png",
+    "sha256": "28be3629e4309d5c281c0370bdffc4d34cc69c6a458e323c8f02fa18e56d64cf"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/masks/near-hull.png",
+    "sha256": "c39eff078d31f93280ee4f8c36fbef022251ea7b60423a86435576107b05ecc7"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/contact-registration.png",
+    "sha256": "ef9b96ea2e778ce1db15f5ff8c0db833462c8a37da0cf83302ed1ed7630f66f9"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/opaque-registration-diagnostic.png",
+    "sha256": "ab0c5d37c7f8393b7f50188d3c4ae7ac7a4a1092e491f407e73d113a19ca0e81"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/fade-woman.jpg",
+    "sha256": "181bd062f3c73630a8086ab381adf95f6c2c8a3e038d2bd67c3df4b3e9b549ba"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/fade-man.jpg",
+    "sha256": "5c37aaecba7f977771be10ee8fc33ea2ed9834501b563d1b4702e540a78785e8"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/fade-elder.jpg",
+    "sha256": "62eb4b9bf3a624dfab8dc23ef82b45473e0665cad16f750baa909c3186d92557"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-01.jpg",
+    "sha256": "f5383ef5c7b4f432756776f5a277003dd5ee77e4eb9f9456d9621e4da9484f35"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-02.jpg",
+    "sha256": "7ff8e7f38a0f7cf7229c48d8f124a1d789b0880801f79e87ce036ae7414bcd07"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-03.jpg",
+    "sha256": "aef2979a387d5aee5f04e5de30563bdecb466c4704f7aa750e8861555fc97eee"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-04.jpg",
+    "sha256": "c7960b865734c981fdd7abd88a1f1f52856a70d96f12a342dc1520d57a5ddb32"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-05.jpg",
+    "sha256": "39656f76410b486d691bc45492179dac3f1d090d6e30ac7b1385b4dcc7afd975"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-06.jpg",
+    "sha256": "0180d41182002efc7efcc6162388c762315e1afee50bb3a46e53fb654d111c55"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-07.jpg",
+    "sha256": "d062c3a8d552f199ed80621474def19a9d1b8d3ee511417c7be9831d27a2990c"
+  },
+  {
+    "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/review/sequential-08.jpg",
+    "sha256": "bd2fceac82c72620f1ed98534cdaea64daa7e78551a736f8c8a0ddb4c5686731"
+  }
+]

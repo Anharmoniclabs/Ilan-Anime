@@ -1,1 +1,0 @@
-{"type": "object", "additionalProperties": false, "required": ["decision", "evidence", "repair_notes"], "properties": {"decision": {"type": "string", "enum": ["approve", "reject"]}, "evidence": {"type": "string"}, "repair_notes": {"type": "array", "items": {"type": "string"}}}}
