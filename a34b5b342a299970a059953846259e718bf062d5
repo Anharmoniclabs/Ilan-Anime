@@ -1,0 +1,19 @@
+{
+  "id": "three-losses",
+  "role": "key-animator",
+  "shots": [
+    "S01-03"
+  ],
+  "depends_on": [],
+  "inputs": [
+    "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration",
+    "production/runs/episode1-picture-motion/tasks/amaia-motion",
+    "production/runs/episode1-full-picture/amaia-breakdowns",
+    "production/runs/episode1-full-picture/author-decisions.json",
+    "production/runs/episode1-picture-motion/author-direction.json"
+  ],
+  "output_dir": "production/runs/episode1-amaia-finish/tasks/three-losses",
+  "requires_author_approval": false,
+  "art_direction_mode": "STORY_FRAME",
+  "objective": "Complete and render S01-03 from saved native v2 and newly generated real drawings. User resolved continuity: keep fourteen-to-eleven, exactly THREE losses. Integrate three-seated-memories.png into three separate registered apparition layers that each fade from pale .25 to zero on three discrete counting/gaze beats; preserve exact stable source protagonist/child/hull and restore proper foreground occlusion. Exclude ghosts-placement-rejected.png entirely. New head-early.png, existing original head-down.png, and head-lower-candidate.png can supply an ordered head-lowering/return arc; assess actual landmarks and choose order, do not trust filenames. Add real drawing-based breakdowns to remove abrupt head endpoint switches, reverse actual drawing exposures on return if appropriate. No face warp or transformed head. Preserve three-frame drawing cadence, native editable camera independent of cels, 192 frames24fps16:9 silent. Frame the camera so three ghost count beats remain visible before closeup; no early crop hiding required action. Reuse native continuity-safe masking and registrations from prior worker, refine as needed. Deliver MP4, editable EffectCraft/FilmCraft, masks/layers, action timeline, registration/contact checks and decoded motion evidence. View all new input drawings and sequential decoded frames. Do not pretend real-time playback occurred; reviewer can inspect sequential evidence, later user playback approval remains separate and is not a blocker to a draft submission. No paid generation or further images in this worker. No edits to source tasks/ledger. Result submitted only if the defined production draft is ready for independent review with evidence and empty blockers; if actual missing drawings still prevent it, report blocked accurately and name missing actions. Native tool failure or interrupted external call must stop with checkpoint."
+}

@@ -1,0 +1,17 @@
+{
+  "tool": "render_frame",
+  "arguments": {
+    "time": 1.7916666666666667,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/native/000043.png",
+    "max_side": 0,
+    "inline": false
+  },
+  "status": "succeeded",
+  "result": {
+    "comp": 1,
+    "height": 720,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-amaia-finish/tasks/three-losses/native/000043.png",
+    "time": 1.7916666666666667,
+    "width": 1280
+  }
+}

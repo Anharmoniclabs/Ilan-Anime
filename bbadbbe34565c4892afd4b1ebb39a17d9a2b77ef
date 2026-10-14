@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/sources/rest.png",
+    "sha256": "e985d519e4e1d2c4814afc8779c79cea33623bb4fe9da0df39d9e3c16033d6c9"
+  },
+  {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/sources/head-down.png",
+    "sha256": "97921710cd75d7ae8c27c0b838369f0bc8aabcb5f1f6ec8131678971f7c1e681"
+  },
+  {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/amaia-breakdowns/head-early.png",
+    "sha256": "3b187319b9a4ce3f922254fbb1ba5e044205c0e427cb2f29f55b73cce1971abf"
+  },
+  {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/amaia-breakdowns/head-lower-candidate.png",
+    "sha256": "afce0044a5b9ed756b9d1e74d0507547ef92b2c2db24438f36492767fe6a2c17"
+  },
+  {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/episode1-full-picture/amaia-breakdowns/three-seated-memories.png",
+    "sha256": "d24c9febf90f405e65bd419648cf6c361a4d2664822e755ff53fbc1acda4b38d"
+  }
+]

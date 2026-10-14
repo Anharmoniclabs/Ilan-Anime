@@ -1,0 +1,797 @@
+{
+  "entries": [
+    {
+      "id": "amaia",
+      "name": "Amaia",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "amaia-son",
+      "name": "Amaia\u2019s son, under two",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/amaia-son.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "dairon",
+      "name": "Dairon",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "yara",
+      "name": "Yara",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/yara.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "beheto",
+      "name": "Beheto",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/beheto.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "lit-girl-seven",
+      "name": "Lit girl, seven",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-girl-seven.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "lit-boy-nine",
+      "name": "Lit boy, nine",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-boy-nine.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "lit-child-third",
+      "name": "Third lit child",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-child-third.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "canoe-survivors",
+      "name": "Three additional canoe survivors",
+      "appearance": "background-group",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-1.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-2.png",
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-3.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "lost-survivor-ghosts",
+      "name": "Lost survivors\u2019 pale seat outlines",
+      "appearance": "background-group",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/lost-ghosts-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "bell-soldier",
+      "name": "Bell-bearing soldier",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/bell-soldier.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "torch-soldiers",
+      "name": "Bank torch soldiers",
+      "appearance": "background-group",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/torch-soldiers-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "ledger-man",
+      "name": "Ledger man",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/ledger-man.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "jc-present",
+      "name": "JC \u2014 age 25",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "jc-six",
+      "name": "JC \u2014 age 6",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-six.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "jc-eight",
+      "name": "JC \u2014 age 8",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-eight.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "jc-nine",
+      "name": "JC \u2014 age 9",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-nine.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "jc-twelve",
+      "name": "JC \u2014 age 12",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-twelve.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "mama-present",
+      "name": "Mam\u00e1 \u2014 present",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "mama-younger",
+      "name": "Mam\u00e1 \u2014 younger variants",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-34.png",
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-37.png",
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-40.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "abuela",
+      "name": "Abuela \u2014 hands and voice only",
+      "appearance": "partial-body",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/abuela-hands.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "manny-present",
+      "name": "Manny \u2014 adult",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/manny.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "manny-nine",
+      "name": "Manny \u2014 nine",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/manny-nine.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "sofia",
+      "name": "Sof\u00eda",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/sofia.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "rodriguez",
+      "name": "Mr. Rodr\u00edguez",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/rodriguez.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "window-man",
+      "name": "Unidentified man in window",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/window-man.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "vale-photo",
+      "name": "Adrian Vale \u2014 photographs",
+      "appearance": "photo-only",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/vale-r2.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "ballroom-hero-couples",
+      "name": "Three hero dance couples",
+      "appearance": "background-group",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-a-master.png",
+        "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-b-master.png",
+        "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-c-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "ballroom-crowd",
+      "name": "Remaining Ballroom couples",
+      "appearance": "background-group",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-a-master.png",
+        "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-b-master.png",
+        "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-c-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "ballroom-band",
+      "name": "Ballroom horn section and cowbell player",
+      "appearance": "background-group",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-band-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "counterman-1973",
+      "name": "1973 counterman / Rodr\u00edguez\u2019s father",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/counterman-1973-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "record-kid-1973",
+      "name": "Record buyer, fifteen or sixteen",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/record-kid-1973-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "thin-man-1973",
+      "name": "Thin notebook man",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/thin-man-1973-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "yiddish-grandfather",
+      "name": "Grandfather with Yiddish newspaper",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/yiddish-grandfather-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "irish-girls",
+      "name": "Two Irish girls",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/irish-girls-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "porter",
+      "name": "Man in porter\u2019s cap",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/porter-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "pr-mother",
+      "name": "Puerto Rican mother",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/pr-mother-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "pr-kids",
+      "name": "Two children with mother",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/pr-kids-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "atlas-boy",
+      "name": "Boy copying world map",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/atlas-boy-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "eraser-boy",
+      "name": "Boy borrowing eraser",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/eraser-boy-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "librarian-1934",
+      "name": "Librarian with spectacles chain",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/librarian-1934-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "reading-room-extras",
+      "name": "Additional reading-room patrons",
+      "appearance": "background-group",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/reading-room-extras-master.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "street-fighters",
+      "name": "Scratch-off fight participants",
+      "appearance": "background-group",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/street-fighters.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "feuding-men",
+      "name": "Two long-feuding men",
+      "appearance": "background-group",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/feuding-men.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "super",
+      "name": "Building superintendent",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/super.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "delivery-worker",
+      "name": "Delivery worker",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/delivery-worker.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "supers-dog",
+      "name": "Super\u2019s dog",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/supers-dog.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "banner-people",
+      "name": "Smiling mural banner people",
+      "appearance": "photo-only",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/banner-people-v2.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "union-speaker",
+      "name": "Union worker with headphones",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/union-speaker.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "union-second",
+      "name": "Second hi-vis worker",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/union-second.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "manny-listener",
+      "name": "Adult listening to young Manny",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/manny-listener.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "cafe-baby",
+      "name": "Baby in stroller",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/cafe-baby.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "yankees-men",
+      "name": "Two Yankees bullpen talkers",
+      "appearance": "background-group",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/yankees-men.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "freelancer",
+      "name": "Caf\u00e9 freelancer",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/freelancer.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "cafe-patrons",
+      "name": "Other caf\u00e9 patrons",
+      "appearance": "background-group",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/cafe-patrons.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "curb-adult-hand",
+      "name": "Unidentified protective hand",
+      "appearance": "partial-body",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/curb-child-hand.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "curb-child",
+      "name": "Child at curb",
+      "appearance": "partial-body",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/main-cast/curb-child-hand.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "honda-seller",
+      "name": "Man selling Hennessy from Honda",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/honda-seller.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "mets-sleeper",
+      "name": "Man in Mets jacket",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/mets-sleeper.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "lease-landlord",
+      "name": "Landlord in lease vignette",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/lease-landlord.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "speaker-rep",
+      "name": "Music-system representative",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/speaker-rep.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "class-teacher",
+      "name": "Classroom teacher",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/class-teacher.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "lanyard-woman",
+      "name": "Woman with lanyard and clipboard",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/lanyard-woman.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "classmates",
+      "name": "Young JC\u2019s classroom pupils",
+      "appearance": "background-group",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/classmates.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "jc-father",
+      "name": "JC\u2019s father",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-father.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "mikey-eight",
+      "name": "Mikey \u2014 eight",
+      "appearance": "on-screen",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mikey-eight.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "bodega-men",
+      "name": "Two domino players and third mediator",
+      "appearance": "background-group",
+      "generation_required": true,
+      "sources": [
+        "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/bodega-men.png"
+      ],
+      "status": "source_available"
+    },
+    {
+      "id": "yari",
+      "name": "Yari",
+      "appearance": "text-ui-only",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    },
+    {
+      "id": "denise",
+      "name": "Denise",
+      "appearance": "text-ui-only",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    },
+    {
+      "id": "vale-email",
+      "name": "Adrian Vale / Partnerships Team email",
+      "appearance": "text-ui-only",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    },
+    {
+      "id": "rafa",
+      "name": "Rafa",
+      "appearance": "mentioned-only",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    },
+    {
+      "id": "fela",
+      "name": "Do\u00f1a Fela",
+      "appearance": "mentioned-only",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    },
+    {
+      "id": "don-chino",
+      "name": "Don Chino",
+      "appearance": "mentioned-only",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    },
+    {
+      "id": "rodriguez-mother",
+      "name": "Rodr\u00edguez\u2019s mother",
+      "appearance": "mentioned-only",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    },
+    {
+      "id": "mikey-mother",
+      "name": "Mikey\u2019s mother and neighborhood mothers",
+      "appearance": "mentioned-only",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    },
+    {
+      "id": "ep-client",
+      "name": "JC\u2019s unnamed EP client",
+      "appearance": "mentioned-only",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    },
+    {
+      "id": "pyrex-neighbor",
+      "name": "Lady on three",
+      "appearance": "mentioned-only",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    },
+    {
+      "id": "trumpeter-six",
+      "name": "Trumpeter on sixth floor",
+      "appearance": "audio-only",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    },
+    {
+      "id": "conductor",
+      "name": "Train conductor",
+      "appearance": "optional-implied",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    },
+    {
+      "id": "stroller-carer",
+      "name": "Baby\u2019s caregiver",
+      "appearance": "optional-implied",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    },
+    {
+      "id": "creston-landlord",
+      "name": "Landlord on Creston",
+      "appearance": "mentioned-only",
+      "generation_required": false,
+      "sources": [],
+      "status": "no_drawn_source_required"
+    }
+  ],
+  "required_roles": 67,
+  "covered_roles": 67,
+  "missing": []
+}

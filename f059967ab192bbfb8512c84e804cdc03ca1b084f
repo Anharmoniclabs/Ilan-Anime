@@ -1,0 +1,593 @@
+{
+  "version": 1,
+  "run": "episode1-anime90s-cast",
+  "paused": false,
+  "pause_reason": null,
+  "tasks": {
+    "age-variants": {
+      "id": "age-variants",
+      "depends_on": [],
+      "role": "character-designer",
+      "inputs": [
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "research/earlier_cemi_pipeline/data/character_bible.txt",
+        "production/runs/cemi-90s-production/tasks/episode1-cast/cast.json",
+        "production/art_direction.json",
+        "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+        "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png"
+      ],
+      "output_dir": "production/runs/episode1-anime90s-cast/tasks/age-variants",
+      "shots": [],
+      "objective": "STYLE CORRECTION: Generate NEW age-variants source drawings using ONLY rooftop and approved Amaia r2 for 1990s anime style. Do not attach cover or rejected images. Current user correction supersedes older graphic-novel hatching instructions. Finish all assigned IDs in cast_ids. Finish requested exploratory source generations for assigned Episode1 cast IDs: jc-six, jc-eight, jc-nine, jc-twelve, mama-younger, manny-nine, jc-father, mikey-eight, class-teacher, lanyard-woman, classmates, manny-listener. User explicitly says finish the generations; continue source generation without waiting for design approval, do not confer approval. Built-in image tool only, one call per asset or required variant. Save real PNGs, prompts, provenance, inspect outputs. No native assembly needed in this generation task.",
+      "requires_author_approval": false,
+      "art_direction_mode": "CHARACTER_ASSET",
+      "state": "approved",
+      "agent_id": "age-variants-new",
+      "result": {
+        "task_id": "age-variants",
+        "role": "character-designer",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/alpha-checks.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/class-teacher-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/classmates-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/class-teacher.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/classmates.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-eight.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-father.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-nine.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-six.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/jc-twelve.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/lanyard-woman.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-34.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-37.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mama-younger-40.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/manny-listener.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/manny-nine.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/generated/mikey-eight.png",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/inspection.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/jc-eight-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/jc-father-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/jc-nine-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/jc-six-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/jc-twelve-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/lanyard-woman-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/mama-younger-34-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/mama-younger-37-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/mama-younger-40-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/manifest.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/manny-listener-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/manny-nine-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/mikey-eight-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/class-teacher.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/classmates.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/jc-eight.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/jc-father.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/jc-nine.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/jc-six.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/jc-twelve.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/lanyard-woman.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/mama-younger-34.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/mama-younger-37.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/mama-younger-40.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/manny-listener.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/manny-nine.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/prompts/mikey-eight.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/review-1.jpg",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/review-2.jpg"
+        ],
+        "evidence": [
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/inspection.txt",
+          "production/runs/episode1-anime90s-cast/tasks/age-variants/alpha-checks.json"
+        ],
+        "blockers": []
+      },
+      "review": {
+        "role": "art-director",
+        "agent_id": "generate_support-independent-review",
+        "decision": "approve",
+        "evidence": "production/runs/episode1-anime90s-cast/tasks/cross-review-support/review.json: independent inspection confirms new-style generation source coverage only; not author/canonical/rig/animation approval."
+      }
+    },
+    "historical-cast": {
+      "shots": [],
+      "id": "historical-cast",
+      "objective": "STYLE CORRECTION: Generate NEW historical-cast source drawings using ONLY rooftop and approved Amaia r2 for 1990s anime style. Do not attach cover or rejected images. Current user correction supersedes older graphic-novel hatching instructions. Finish all assigned IDs in cast_ids. Finish requested exploratory source generations for assigned Episode1 cast IDs: counterman-1973, record-kid-1973, thin-man-1973, yiddish-grandfather, irish-girls, porter, pr-mother, pr-kids, atlas-boy, eraser-boy, librarian-1934, reading-room-extras. User explicitly says finish the generations; continue source generation without waiting for design approval, do not confer approval. Built-in image tool only, one call per asset or required variant. Save real PNGs, prompts, provenance, inspect outputs. No native assembly needed in this generation task.",
+      "depends_on": [],
+      "inputs": [
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "research/earlier_cemi_pipeline/data/character_bible.txt",
+        "production/runs/cemi-90s-production/tasks/episode1-cast/cast.json",
+        "production/art_direction.json",
+        "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+        "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png"
+      ],
+      "role": "character-designer",
+      "output_dir": "production/runs/episode1-anime90s-cast/tasks/historical-cast",
+      "requires_author_approval": false,
+      "art_direction_mode": "CHARACTER_ASSET",
+      "state": "approved",
+      "agent_id": "historical-cast-new",
+      "result": {
+        "task_id": "historical-cast",
+        "role": "character-designer",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/atlas-boy-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/counterman-1973-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/eraser-boy-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/irish-girls-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/librarian-1934-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/porter-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/pr-kids-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/pr-mother-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/reading-room-extras-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/record-kid-1973-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/thin-man-1973-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/generated/yiddish-grandfather-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/manifest.json",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/prompts/atlas-boy.txt",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/prompts/counterman-1973.txt",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/prompts/eraser-boy.txt",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/prompts/irish-girls.txt",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/prompts/librarian-1934.txt",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/prompts/porter.txt",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/prompts/pr-kids.txt",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/prompts/pr-mother.txt",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/prompts/reading-room-extras.txt",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/prompts/record-kid-1973.txt",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/prompts/thin-man-1973.txt",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/prompts/yiddish-grandfather.txt",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/provenance/atlas-boy.json",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/provenance/counterman-1973.json",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/provenance/eraser-boy.json",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/provenance/irish-girls.json",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/provenance/librarian-1934.json",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/provenance/porter.json",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/provenance/pr-kids.json",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/provenance/pr-mother.json",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/provenance/reading-room-extras.json",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/provenance/record-kid-1973.json",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/provenance/thin-man-1973.json",
+          "production/runs/episode1-anime90s-cast/tasks/historical-cast/provenance/yiddish-grandfather.json"
+        ],
+        "evidence": [
+          "12 new source PNGs, 17 figures, from12 successful built-in image_gen calls.",
+          "All12 directly viewed; exact prompts, attached-reference hashes, asset hashes and RGBA checks persisted.",
+          "Only new rooftop anime and approved Amaia r2 used as image refs; previous source generations not reused.",
+          "No assembly, rig, animation or approval claim."
+        ],
+        "blockers": []
+      },
+      "review": {
+        "role": "art-director",
+        "agent_id": "generate_support-independent-review",
+        "decision": "approve",
+        "evidence": "production/runs/episode1-anime90s-cast/tasks/cross-review-support/review.json: independent inspection confirms new-style generation source coverage only; not author/canonical/rig/animation approval."
+      }
+    },
+    "supporting-cast": {
+      "output_dir": "production/runs/episode1-anime90s-cast/tasks/supporting-cast",
+      "objective": "STYLE CORRECTION: Generate NEW supporting-cast source drawings using ONLY rooftop and approved Amaia r2 for 1990s anime style. Do not attach cover or rejected images. Current user correction supersedes older graphic-novel hatching instructions. Finish all assigned IDs in cast_ids. Finish requested exploratory source generations for assigned Episode1 cast IDs: street-fighters, feuding-men, super, delivery-worker, supers-dog, banner-people, union-speaker, union-second, cafe-baby, yankees-men, freelancer, cafe-patrons, curb-adult-hand, curb-child, honda-seller, mets-sleeper, lease-landlord, speaker-rep, bodega-men. User explicitly says finish the generations; continue source generation without waiting for design approval, do not confer approval. Built-in image tool only, one call per asset or required variant. Save real PNGs, prompts, provenance, inspect outputs. No native assembly needed in this generation task.",
+      "shots": [],
+      "depends_on": [],
+      "inputs": [
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "research/earlier_cemi_pipeline/data/character_bible.txt",
+        "production/runs/cemi-90s-production/tasks/episode1-cast/cast.json",
+        "production/art_direction.json",
+        "research/supplied_references/2026-10-13-anime-correction/bronx-90s-anime.png",
+        "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-master.png"
+      ],
+      "role": "character-designer",
+      "id": "supporting-cast",
+      "requires_author_approval": false,
+      "art_direction_mode": "CHARACTER_ASSET",
+      "state": "approved",
+      "agent_id": "supporting-cast-new",
+      "result": {
+        "task_id": "supporting-cast",
+        "role": "character-designer",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/failure.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/manifest.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/banner-people-v2.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/banner-people.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/bodega-men.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/cafe-baby.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/cafe-patrons.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/curb-child-hand.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/delivery-worker.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/feuding-men.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/freelancer.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/honda-seller.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/lease-landlord.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/mets-sleeper.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/speaker-rep.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/street-fighters.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/super.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/supers-dog.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/union-second.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/union-speaker.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/prompts/yankees-men.txt",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/banner-people-v2.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/banner-people-v2.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/banner-people.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/banner-people.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/bodega-men.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/bodega-men.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/cafe-baby.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/cafe-baby.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/cafe-patrons.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/cafe-patrons.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/delivery-worker.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/delivery-worker.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/feuding-men.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/feuding-men.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/freelancer.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/freelancer.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/honda-seller.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/honda-seller.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/lease-landlord.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/lease-landlord.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/mets-sleeper.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/mets-sleeper.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/speaker-rep.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/speaker-rep.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/street-fighters.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/street-fighters.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/super.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/super.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/supers-dog.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/supers-dog.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/union-second.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/union-second.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/union-speaker.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/union-speaker.png",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/yankees-men.json",
+          "production/runs/episode1-anime90s-cast/tasks/supporting-cast/sources/yankees-men.png"
+        ],
+        "evidence": [
+          "17 distinct new source banks/individuals plus banner framing correction, 18 actual PNG files. All images directly visually inspected and RGBA decode/alpha checked.",
+          "Both mandatory new style references directly viewed and attached. All prompts/provenance/reference hashes saved.",
+          "Initial curb contact call failed output moderation; no retry by worker. Coordinator separately supplied 2 remaining cast IDs. Failure evidence preserved.",
+          "No technical or author approval asserted. Source generation complete, assembly and animation not in scope."
+        ],
+        "blockers": []
+      },
+      "review": {
+        "role": "art-director",
+        "agent_id": "generate_history-independent-review",
+        "decision": "approve",
+        "evidence": "production/runs/episode1-anime90s-cast/tasks/cross-review-history/review.json: usable exploratory generation drafts with local corrections documented. Source coverage completion only; no canonical identity, final design, puppet or animation approval."
+      }
+    },
+    "main-cast": {
+      "id": "main-cast",
+      "role": "character-designer",
+      "inputs": [
+        "production/art_direction.json",
+        "research/earlier_cemi_pipeline/data/character_bible.txt"
+      ],
+      "depends_on": [],
+      "objective": "Generate new modern principal source masters matching current rooftop+Amaia1990s anime style correction; no prior cover/rejected master references.",
+      "shots": [],
+      "output_dir": "production/runs/episode1-anime90s-cast/tasks/main-cast",
+      "requires_author_approval": false,
+      "art_direction_mode": "CHARACTER_ASSET",
+      "state": "approved",
+      "agent_id": "coordinator-new-style",
+      "result": {
+        "task_id": "main-cast",
+        "role": "character-designer",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.png",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/jc-prompt.txt",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.request.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/jc.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/manny.request.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/manny.png",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/manny.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.request.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.png",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/mama.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/sofia.request.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/sofia.png",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/sofia.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/rodriguez.request.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/rodriguez.png",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/rodriguez.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/vale.request.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/vale.png",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/vale.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/window-man.request.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/window-man.png",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/window-man.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/abuela-hands.request.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/abuela-hands.png",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/abuela-hands.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/vale-r2.request.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/vale-r2.png",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/vale-r2.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/curb-child-hand.request.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/curb-child-hand.png",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/curb-child-hand.json",
+          "production/runs/episode1-anime90s-cast/tasks/main-cast/manifest.json"
+        ],
+        "evidence": [
+          "All source output images directly viewed; Vale revised to read middle-aged.",
+          "RGBA alpha minimum0; source drawings only."
+        ],
+        "blockers": []
+      },
+      "review": {
+        "role": "art-director",
+        "agent_id": "generate_support-independent-review",
+        "decision": "approve",
+        "evidence": "production/runs/episode1-anime90s-cast/tasks/cross-review-support/review.json: independent inspection confirms new-style generation source coverage only; not author/canonical/rig/animation approval."
+      }
+    },
+    "river-cast": {
+      "objective": "Generate twelve NEW river sources: Amaia son under2, Dairon, Yara, Beheto, girl7, boy9, thirdlit child, three distinct canoe survivors, bell soldier, ledger man. Preserve approved Amaia. Inspect old river sheets for identity/costume only; attach ONLY new rooftop reference and approved Amaia r2. Match clean90s anime style. Finish sources prompts hashes manifests and FILE-only result. No rig or canonical approval.",
+      "id": "river-cast",
+      "inputs": [
+        "production/art_direction.json",
+        "production/runs/cemi-90s-production/tasks/episode1-cast/cast.json"
+      ],
+      "shots": [],
+      "role": "character-designer",
+      "output_dir": "production/runs/episode1-anime90s-cast/tasks/river-cast",
+      "depends_on": [],
+      "requires_author_approval": false,
+      "art_direction_mode": "CHARACTER_ASSET",
+      "state": "approved",
+      "agent_id": "river-cast-new",
+      "result": {
+        "task_id": "river-cast",
+        "role": "character-designer",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/alpha-checks.json",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/amaia-son-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/beheto-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/bell-soldier-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/canoe-survivor-1-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/canoe-survivor-2-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/canoe-survivor-3-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/costume-reading-1.jpg",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/costume-reading-2.jpg",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/dairon-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/amaia-son.png",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/beheto.png",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/bell-soldier.png",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-1.png",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-2.png",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/canoe-survivor-3.png",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/dairon.png",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/ledger-man.png",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-boy-nine.png",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-child-third.png",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/lit-girl-seven.png",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/generated/yara.png",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/inspection.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/ledger-man-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/lit-boy-nine-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/lit-child-third-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/lit-girl-seven-provenance.json",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/manifest.json",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/amaia-son.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/beheto.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/bell-soldier.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/canoe-survivor-1.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/canoe-survivor-2.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/canoe-survivor-3.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/dairon.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/ledger-man.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/lit-boy-nine.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/lit-child-third.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/lit-girl-seven.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/prompts/yara.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/review-1.jpg",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/review-2.jpg",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/yara-provenance.json"
+        ],
+        "evidence": [
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/inspection.txt",
+          "production/runs/episode1-anime90s-cast/tasks/river-cast/alpha-checks.json"
+        ],
+        "blockers": []
+      },
+      "review": {
+        "role": "art-director",
+        "agent_id": "generate_support-independent-review",
+        "decision": "approve",
+        "evidence": "production/runs/episode1-anime90s-cast/tasks/cross-review-support/review.json: independent inspection confirms new-style generation source coverage only; not author/canonical/rig/animation approval."
+      }
+    },
+    "ensemble-cast": {
+      "depends_on": [],
+      "inputs": [
+        "production/art_direction.json",
+        "production/runs/cemi-90s-production/tasks/episode1-cast/cast.json"
+      ],
+      "objective": "Generate NEW clean90s anime ballroom ensemble: three hero dancing couples, three background banks each4 couples, hornsection with cowbell player; torch soldiers bank and lostghost seated outline variants. Only rooftop and Amaia r2 attached. Inspect current script, preserve 1957 ballroom dress; no invented year for BEFORE. Ghost script count contradiction retain unresolved. Finish sources prompts hashes manifests FILE-only result. No canonical approval.",
+      "output_dir": "production/runs/episode1-anime90s-cast/tasks/ensemble-cast",
+      "role": "character-designer",
+      "id": "ensemble-cast",
+      "shots": [],
+      "requires_author_approval": false,
+      "art_direction_mode": "CHARACTER_ASSET",
+      "state": "approved",
+      "agent_id": "ensemble-cast-new",
+      "result": {
+        "task_id": "ensemble-cast",
+        "role": "character-designer",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-band-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-a-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-b-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-crowd-bank-c-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-a-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-b-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/ballroom-hero-couple-c-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/lost-ghosts-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/generated/torch-soldiers-master.png",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/manifest.json",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/prompts/ballroom-band.txt",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/prompts/ballroom-crowd-bank-a.txt",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/prompts/ballroom-crowd-bank-b.txt",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/prompts/ballroom-crowd-bank-c.txt",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/prompts/ballroom-hero-couple-a.txt",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/prompts/ballroom-hero-couple-b.txt",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/prompts/ballroom-hero-couple-c.txt",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/prompts/lost-ghosts.txt",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/prompts/torch-soldiers.txt",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-band.json",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-crowd-bank-a.json",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-crowd-bank-b.json",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-crowd-bank-c.json",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-hero-couple-a.json",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-hero-couple-b.json",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/ballroom-hero-couple-c.json",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/lost-ghosts.json",
+          "production/runs/episode1-anime90s-cast/tasks/ensemble-cast/provenance/torch-soldiers.json"
+        ],
+        "evidence": [
+          "9 new built-in image calls, all outputs directly viewed.",
+          "Exact prompts, reference hashes and PNG hashes saved per call; alpha checked.",
+          "Current script S01 and S05 read; count contradictions explicitly preserved.",
+          "Same current clean1990s anime direction; only rooftop and Amaia attached."
+        ],
+        "blockers": []
+      },
+      "review": {
+        "role": "art-director",
+        "agent_id": "generate_ages-independent-review",
+        "decision": "approve",
+        "evidence": "production/runs/episode1-anime90s-cast/tasks/cross-review-ages/review.json: source-generation completion only, no author or animation approval."
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "age-variants"
+    },
+    {
+      "action": "add",
+      "task_id": "historical-cast"
+    },
+    {
+      "action": "add",
+      "task_id": "supporting-cast"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "age-variants",
+      "agent_id": "age-variants-new"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "historical-cast",
+      "agent_id": "historical-cast-new"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "supporting-cast",
+      "agent_id": "supporting-cast-new"
+    },
+    {
+      "action": "add",
+      "task_id": "main-cast"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "main-cast",
+      "agent_id": "coordinator-new-style"
+    },
+    {
+      "action": "add",
+      "task_id": "river-cast"
+    },
+    {
+      "action": "add",
+      "task_id": "ensemble-cast"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "river-cast",
+      "agent_id": "river-cast-new"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "ensemble-cast",
+      "agent_id": "ensemble-cast-new"
+    },
+    {
+      "action": "submit",
+      "task_id": "main-cast",
+      "status": "submitted"
+    },
+    {
+      "action": "submit",
+      "task_id": "age-variants",
+      "status": "submitted"
+    },
+    {
+      "action": "submit",
+      "task_id": "historical-cast",
+      "status": "submitted"
+    },
+    {
+      "action": "submit",
+      "task_id": "supporting-cast",
+      "status": "submitted"
+    },
+    {
+      "action": "submit",
+      "task_id": "river-cast",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "main-cast",
+      "decision": "approve"
+    },
+    {
+      "action": "review",
+      "task_id": "age-variants",
+      "decision": "approve"
+    },
+    {
+      "action": "review",
+      "task_id": "historical-cast",
+      "decision": "approve"
+    },
+    {
+      "action": "review",
+      "task_id": "river-cast",
+      "decision": "approve"
+    },
+    {
+      "action": "submit",
+      "task_id": "ensemble-cast",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "ensemble-cast",
+      "decision": "approve"
+    },
+    {
+      "action": "review",
+      "task_id": "supporting-cast",
+      "decision": "approve"
+    }
+  ]
+}
