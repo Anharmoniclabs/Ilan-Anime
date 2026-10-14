@@ -1,0 +1,15 @@
+{
+  "tool": "list_commands",
+  "arguments": {
+    "filter": "project.select"
+  },
+  "status": "succeeded",
+  "result": [
+    {
+      "enabled": true,
+      "id": "project.select",
+      "label": "Select Project Items",
+      "params": "{items: [id|name], add?}"
+    }
+  ]
+}

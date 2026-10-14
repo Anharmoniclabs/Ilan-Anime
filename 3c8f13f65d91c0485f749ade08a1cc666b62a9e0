@@ -1,0 +1,18 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "essential.addProperty",
+    "params": {
+      "layer": 152,
+      "path": "transform/rotation",
+      "name": "Paddle rotation"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "controls": [
+      339
+    ],
+    "mirrors": []
+  }
+}

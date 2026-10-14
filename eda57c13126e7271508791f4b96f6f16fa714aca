@@ -1,0 +1,64 @@
+{
+  "tool": "add_keyframe",
+  "arguments": {
+    "layer": 299,
+    "path": "transform/opacity",
+    "keys": [
+      {
+        "time": 0,
+        "value": 0
+      },
+      {
+        "time": 0.4,
+        "value": 85
+      },
+      {
+        "time": 5.5,
+        "value": 85
+      },
+      {
+        "time": 5.958,
+        "value": 0
+      }
+    ],
+    "interpolation": "linear"
+  },
+  "status": "succeeded",
+  "result": {
+    "animated": true,
+    "expression": null,
+    "keys": [
+      {
+        "in": "Linear",
+        "out": "Linear",
+        "time": 0.0,
+        "value": 0.0
+      },
+      {
+        "in": "Linear",
+        "out": "Linear",
+        "time": 0.4166666666666667,
+        "value": 85.0
+      },
+      {
+        "in": "Linear",
+        "out": "Linear",
+        "time": 5.5,
+        "value": 85.0
+      },
+      {
+        "in": "Linear",
+        "out": "Linear",
+        "time": 5.958333333333333,
+        "value": 0.0
+      }
+    ],
+    "layer": 299,
+    "match": "opacity",
+    "name": "Opacity",
+    "time": 0.0,
+    "type": "scalar",
+    "uid": 326,
+    "value": 0.0
+  }
+}

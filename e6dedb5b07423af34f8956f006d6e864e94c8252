@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 251,
+      "name": "ripple-medium - replacement water cel"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

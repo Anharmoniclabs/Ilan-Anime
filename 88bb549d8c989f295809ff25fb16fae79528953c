@@ -1,0 +1,12 @@
+{
+  "tool": "execute_command",
+  "arguments": {
+    "command": "layer.rename",
+    "params": {
+      "layer": 203,
+      "name": "ripple-contact - replacement water cel"
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

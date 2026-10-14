@@ -1,0 +1,259 @@
+{
+  "tool": "list_commands",
+  "arguments": {
+    "filter": "mask."
+  },
+  "status": "succeeded",
+  "result": [
+    {
+      "enabled": false,
+      "id": "mask.new",
+      "label": "New Mask from Points",
+      "params": "{layer?, vertices: [[x,y]…], inTangents?, outTangents?, closed?, mode?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "mask.addVertex",
+      "label": "Add Mask Vertex",
+      "params": "{layer?, mask, point: [x,y], in?, out?, index?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "mask.setVertex",
+      "label": "Set Mask Vertex",
+      "params": "{layer?, mask, index, point?, in?, out?, merge?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "mask.setClosed",
+      "label": "Closed",
+      "menu": [
+        "Layer",
+        "Mask and Shape Path"
+      ],
+      "params": "{layer?, mask, closed?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "mask.selectVertices",
+      "label": "Select Mask Vertices",
+      "params": "{vertices: [{layer, mask, index}], add?, toggle?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "mask.moveVertices",
+      "label": "Move Mask Vertices",
+      "params": "{vertices?: [{layer, mask, index}], delta: [dx,dy], merge?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "mask.deleteVertices",
+      "label": "Delete Mask Vertices",
+      "params": "{vertices?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "mask.convertVertex",
+      "label": "Convert Vertex",
+      "params": "{layer?, mask: uid (mask or shape Path item), index, smooth?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "mask.insertVertex",
+      "label": "Add Vertex",
+      "params": "{layer?, mask: uid (mask or shape Path item), segment, t?: 0..1}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "mask.featherPoint.add",
+      "label": "Add Mask Feather Point",
+      "params": "{layer?, mask, segment?, t?: 0..1, point?: [x,y] (layer space), radius? (px, negative = inner), tension? (%)} → {index}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "mask.featherPoint.set",
+      "label": "Move Mask Feather Point",
+      "params": "{layer?, mask, index, segment?, t?, point? (slide along the path), radius?, toward?: [x,y] (radius from the drag point, layer space), tension? (%), merge?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "mask.featherPoint.remove",
+      "label": "Delete Mask Feather Point",
+      "params": "{layer?, mask, index? | all?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": true,
+      "id": "mask.featherPoint.list",
+      "label": "Mask Feather Points",
+      "params": "{layer?, mask}"
+    },
+    {
+      "enabled": false,
+      "id": "mask.remove",
+      "label": "Remove Mask",
+      "params": "{layer?, mask}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "mask.removeAll",
+      "label": "Remove All Masks",
+      "params": "{layer?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "layer.mask.motionBlur",
+      "label": "Motion Blur",
+      "params": "{layer?, mask?, mode: sameAsLayer|on|off}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "layer.mask.featherFalloff",
+      "label": "Feather Falloff",
+      "params": "{layer?, mask?, mode: smooth|linear}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "layer.mask.hideLocked",
+      "label": "Hide Locked Masks",
+      "menu": [
+        "Layer",
+        "Mask"
+      ],
+      "params": "{value?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "layer.mask.shape",
+      "label": "Mask Shape...",
+      "menu": [
+        "Layer",
+        "Mask"
+      ],
+      "params": "{layer?, mask?, rect: [x, y, w, h], shape?: rect|ellipse}",
+      "shortcut": "Cmd+Shift+M",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "layer.mask.set",
+      "label": "Mask Settings",
+      "params": "{layer?, mask?, field: feather|opacity|expansion, value}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "layer.mask.reset",
+      "label": "Reset Mask",
+      "menu": [
+        "Layer",
+        "Mask"
+      ],
+      "params": "{layer?, mask?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "layer.mask.remove",
+      "label": "Remove Mask",
+      "menu": [
+        "Layer",
+        "Mask"
+      ],
+      "params": "{layer?, mask?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "layer.mask.removeAll",
+      "label": "Remove All Masks",
+      "menu": [
+        "Layer",
+        "Mask"
+      ],
+      "params": "{layers?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "layer.mask.mode",
+      "label": "Mask Mode",
+      "params": "{layer?, mask?, mode: None|Add|Subtract|Intersect|Lighten|Darken|Difference}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "layer.mask.invert",
+      "label": "Inverted",
+      "menu": [
+        "Layer",
+        "Mask"
+      ],
+      "params": "{layer?, mask?, value?}",
+      "shortcut": "Cmd+Shift+I",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "layer.mask.lock",
+      "label": "Locked",
+      "menu": [
+        "Layer",
+        "Mask"
+      ],
+      "params": "{layer?, mask?, value?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "layer.mask.unlockAll",
+      "label": "Unlock All Masks",
+      "menu": [
+        "Layer",
+        "Mask"
+      ],
+      "params": "{layers?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "layer.mask.lockOthers",
+      "label": "Lock Other Masks",
+      "menu": [
+        "Layer",
+        "Mask"
+      ],
+      "params": "{layer?, mask?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": false,
+      "id": "mask.interpolate",
+      "label": "Apply Mask Interpolation",
+      "params": "{layer?, mask?, times?: [from, to] (s; default the selected Mask Path keys), keyframeRate?: n|auto, keyframeFields?, linearVertexPaths?, bendingResistance? (0-100), quality? (0-100), addVertices?: n|false, addVerticesUnit?: pixels|total|percent, matchingMethod?: auto|curve|polyline, oneToOne?, firstVerticesMatch?}",
+      "why": "no composition is open"
+    },
+    {
+      "enabled": true,
+      "id": "mask.interpolationOptions",
+      "label": "Mask Interpolation Options",
+      "params": "{keyframeRate?: n|auto, keyframeFields?, linearVertexPaths?, bendingResistance?, quality?, addVertices?: n|false, addVerticesUnit?: pixels|total|percent, matchingMethod?: auto|curve|polyline, oneToOne?, firstVerticesMatch?}"
+    }
+  ]
+}
