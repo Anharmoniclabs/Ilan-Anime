@@ -1,0 +1,37 @@
+{
+  "kind": "triposr",
+  "status": "generated",
+  "model": "stabilityai/TripoSR",
+  "backend": "local",
+  "image": "sources/character-images/12-prepared.png",
+  "input_sha256": "709f5a48436ef3a5829838fdebf25802151314953b89dcdf2a049c57f4cba031",
+  "output": "models/triposr/12/0/mesh.glb",
+  "argv": [
+    "/home/alabs/.local/opt/TripoSR/.venv/bin/python",
+    "/home/alabs/.local/opt/TripoSR/run.py",
+    "/home/alabs/Projects/HeraldsOfTheCemi/models/triposr/12/source.png",
+    "--device",
+    "cpu",
+    "--chunk-size",
+    "2048",
+    "--mc-resolution",
+    "128",
+    "--output-dir",
+    "/home/alabs/Projects/HeraldsOfTheCemi/models/triposr/12",
+    "--model-save-format",
+    "glb",
+    "--no-remove-bg"
+  ],
+  "cwd": "/home/alabs/.local/opt/TripoSR",
+  "started_at": 1791482363.608663,
+  "timeout": 1800,
+  "pid": 6283,
+  "mesh": {
+    "primitives": 1,
+    "vertices": 4725,
+    "bytes": 189368,
+    "validation": "GLB structure and geometry counts; visual review required"
+  },
+  "sha256": "78edd92141bf652d8da91771eab3e9a7a63f0ef22314ced4a01e1fe8c5794003",
+  "seconds": 69.39805245399475
+}

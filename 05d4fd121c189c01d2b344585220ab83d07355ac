@@ -1,0 +1,65 @@
+{
+  "controller": "Nessa Agent.run",
+  "main_model": "zai-org/GLM-5.3",
+  "response_budget": 8192,
+  "reasoning_effort": "low",
+  "evidence_directory": "/home/alabs/.agentharness/runs/cemi-autonomous-1791474713411736613/evidence",
+  "model_turns": [
+    {
+      "served_model": "zai-org/glm-5.3",
+      "finish_reason": "tool_calls",
+      "calls": [
+        "read_file",
+        "read_file",
+        "read_file",
+        "read_file",
+        "read_file"
+      ]
+    },
+    {
+      "served_model": "zai-org/glm-5.3",
+      "finish_reason": "tool_calls",
+      "calls": [
+        "write_file"
+      ]
+    },
+    {
+      "served_model": "zai-org/glm-5.3",
+      "finish_reason": "tool_calls",
+      "calls": [
+        "image_generate"
+      ]
+    },
+    {
+      "served_model": "zai-org/glm-5.3",
+      "finish_reason": "tool_calls",
+      "calls": [
+        "media_probe",
+        "production_update"
+      ]
+    },
+    {
+      "served_model": "zai-org/glm-5.3",
+      "finish_reason": "tool_calls",
+      "calls": [
+        "run_check"
+      ]
+    },
+    {
+      "served_model": "zai-org/glm-5.3",
+      "finish_reason": "tool_calls",
+      "calls": [
+        "write_file"
+      ]
+    },
+    {
+      "served_model": "zai-org/glm-5.3",
+      "finish_reason": "tool_calls",
+      "calls": [
+        "finish"
+      ]
+    }
+  ],
+  "animation_submitted": false,
+  "user_image_approval": "pending"
+}

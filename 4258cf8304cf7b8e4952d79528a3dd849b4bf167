@@ -1,0 +1,13 @@
+{
+  "operation_id": "d08705113e9046a2b57f5492ed0a368b",
+  "tool_name": "mesh_status",
+  "arguments": {
+    "job": "models/character-v1/reconstruction/job.json"
+  },
+  "call_id": "15",
+  "kind": "read",
+  "status": "completed",
+  "started_at": 1791499905.0620542,
+  "finished_at": 1791499905.0676951,
+  "output": "{\"status\": \"generated\", \"image\": \"sources/10.png\", \"output\": \"models/character-v1/reconstruction/0/mesh.glb\", \"blend\": null, \"sha256\": \"cd6d13146327814a25dafe40849a8f9abd8e0d41fb5386e979465cabfeda6805\", \"input_sha256\": \"a8f9d8056caf81cd9ac881890e021db57376b2654964d1b55354314df93f8d4f\", \"mesh\": {\"primitives\": 1, \"vertices\": 5921, \"bytes\": 237396, \"validation\": \"GLB structure and geometry counts; visual review required\"}, \"error\": null, \"seconds\": 130.39379334449768, \"pid\": 17656}"
+}

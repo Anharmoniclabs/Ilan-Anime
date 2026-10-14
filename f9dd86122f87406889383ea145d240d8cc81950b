@@ -1,0 +1,31 @@
+{
+  "kind": "triposr",
+  "status": "interrupted",
+  "model": "stabilityai/TripoSR",
+  "backend": "local",
+  "image": "sources/character-images/14-prepared.png",
+  "input_sha256": "07475445b7c70900d1f3cae9ca4e9c7b9ea3eb2bab339939f6c3e5be8a2b4cf1",
+  "output": "models/triposr/14/0/mesh.glb",
+  "argv": [
+    "/home/alabs/.local/opt/TripoSR/.venv/bin/python",
+    "/home/alabs/.local/opt/TripoSR/run.py",
+    "/home/alabs/Projects/HeraldsOfTheCemi/models/triposr/14/source.png",
+    "--device",
+    "cpu",
+    "--chunk-size",
+    "2048",
+    "--mc-resolution",
+    "128",
+    "--output-dir",
+    "/home/alabs/Projects/HeraldsOfTheCemi/models/triposr/14",
+    "--model-save-format",
+    "glb",
+    "--no-remove-bg"
+  ],
+  "cwd": "/home/alabs/.local/opt/TripoSR",
+  "started_at": 1791482557.0977604,
+  "timeout": 1800,
+  "pid": 7125,
+  "error": "User requested finished textured models; original batch service was stopped.",
+  "stopped_at": 1791482973.525026
+}
