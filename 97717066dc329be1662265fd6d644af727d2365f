@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 2,
+      "rect": [
+        25,
+        15,
+        975,
+        55
+      ],
+      "content": "text",
+      "text": "03 / Yara — exploratory source reference"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 41,
+    "story": 42
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "tool": "place_image",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/07-nine-year-old-boy/source.png",
+    "spread": 5,
+    "x": 25,
+    "y": 60,
+    "width": 950
+  },
+  "status": "succeeded",
+  "result": {
+    "asset": 61,
+    "id": 62
+  }
+}

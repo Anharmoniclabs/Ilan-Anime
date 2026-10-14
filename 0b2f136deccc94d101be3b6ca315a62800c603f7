@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "02-amaias-son",
+    "native_reopened": true,
+    "state": {
+      "activeLayer": 3,
+      "canRedo": false,
+      "canUndo": false,
+      "channels": {
+        "alpha": [],
+        "colors": [
+          {
+            "name": "Red",
+            "visible": true
+          },
+          {
+            "name": "Green",
+            "visible": true
+          },
+          {
+            "name": "Blue",
+            "visible": true
+          }
+        ],
+        "composite": "RGB",
+        "compositeVisible": true,
+        "layerMaskView": null,
+        "quickMask": null,
+        "target": {
+          "kind": "composite"
+        }
+      },
+      "depth": 8,
+      "hasSelection": false,
+      "height": 1024,
+      "history": [
+        "Open"
+      ],
+      "isolatedLayers": [],
+      "lastAppliedComp": null,
+      "layerComps": [],
+      "layerMaskView": null,
+      "layers": [
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 3,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Editable reference sheet \u2014 not rig parts",
+          "opacity": 1.0,
+          "selected": true,
+          "visible": true
+        },
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 2,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Archived source \u2014 identity unapproved",
+          "opacity": 1.0,
+          "selected": false,
+          "visible": true
+        }
+      ],
+      "measurement": {
+        "count": 0,
+        "countGroups": 0,
+        "ruler": null,
+        "scale": "1 pixels = 1.0000 pixels"
+      },
+      "mode": "Rgb",
+      "name": "source.png",
+      "notes": [],
+      "quickMask": false,
+      "resolution": 72.0,
+      "revision": 1,
+      "selectedLayers": [
+        3
+      ],
+      "selectionBounds": null,
+      "timeline": null,
+      "variables": null,
+      "width": 1536
+    }
+  },
+  {
+    "id": "03-dairon",
+    "native_reopened": true,
+    "state": {
+      "activeLayer": 6,
+      "canRedo": false,
+      "canUndo": false,
+      "channels": {
+        "alpha": [],
+        "colors": [
+          {
+            "name": "Red",
+            "visible": true
+          },
+          {
+            "name": "Green",
+            "visible": true
+          },
+          {
+            "name": "Blue",
+            "visible": true
+          }
+        ],
+        "composite": "RGB",
+        "compositeVisible": true,
+        "layerMaskView": null,
+        "quickMask": null,
+        "target": {
+          "kind": "composite"
+        }
+      },
+      "depth": 8,
+      "hasSelection": false,
+      "height": 1024,
+      "history": [
+        "Open"
+      ],
+      "isolatedLayers": [],
+      "lastAppliedComp": null,
+      "layerComps": [],
+      "layerMaskView": null,
+      "layers": [
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 6,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Editable reference sheet \u2014 not rig parts",
+          "opacity": 1.0,
+          "selected": true,
+          "visible": true
+        },
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 5,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Archived source \u2014 identity unapproved",
+          "opacity": 1.0,
+          "selected": false,
+          "visible": true
+        }
+      ],
+      "measurement": {
+        "count": 0,
+        "countGroups": 0,
+        "ruler": null,
+        "scale": "1 pixels = 1.0000 pixels"
+      },
+      "mode": "Rgb",
+      "name": "source.png",
+      "notes": [],
+      "quickMask": false,
+      "resolution": 72.0,
+      "revision": 1,
+      "selectedLayers": [
+        6
+      ],
+      "selectionBounds": null,
+      "timeline": null,
+      "variables": null,
+      "width": 1536
+    }
+  },
+  {
+    "id": "04-yara-corrected",
+    "native_reopened": true,
+    "state": {
+      "activeLayer": 9,
+      "canRedo": false,
+      "canUndo": false,
+      "channels": {
+        "alpha": [],
+        "colors": [
+          {
+            "name": "Red",
+            "visible": true
+          },
+          {
+            "name": "Green",
+            "visible": true
+          },
+          {
+            "name": "Blue",
+            "visible": true
+          }
+        ],
+        "composite": "RGB",
+        "compositeVisible": true,
+        "layerMaskView": null,
+        "quickMask": null,
+        "target": {
+          "kind": "composite"
+        }
+      },
+      "depth": 8,
+      "hasSelection": false,
+      "height": 1024,
+      "history": [
+        "Open"
+      ],
+      "isolatedLayers": [],
+      "lastAppliedComp": null,
+      "layerComps": [],
+      "layerMaskView": null,
+      "layers": [
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 9,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Editable reference sheet \u2014 not rig parts",
+          "opacity": 1.0,
+          "selected": true,
+          "visible": true
+        },
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 8,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Archived source \u2014 identity unapproved",
+          "opacity": 1.0,
+          "selected": false,
+          "visible": true
+        }
+      ],
+      "measurement": {
+        "count": 0,
+        "countGroups": 0,
+        "ruler": null,
+        "scale": "1 pixels = 1.0000 pixels"
+      },
+      "mode": "Rgb",
+      "name": "source.png",
+      "notes": [],
+      "quickMask": false,
+      "resolution": 72.0,
+      "revision": 1,
+      "selectedLayers": [
+        9
+      ],
+      "selectionBounds": null,
+      "timeline": null,
+      "variables": null,
+      "width": 1536
+    }
+  },
+  {
+    "id": "05-beheto",
+    "native_reopened": true,
+    "state": {
+      "activeLayer": 12,
+      "canRedo": false,
+      "canUndo": false,
+      "channels": {
+        "alpha": [],
+        "colors": [
+          {
+            "name": "Red",
+            "visible": true
+          },
+          {
+            "name": "Green",
+            "visible": true
+          },
+          {
+            "name": "Blue",
+            "visible": true
+          }
+        ],
+        "composite": "RGB",
+        "compositeVisible": true,
+        "layerMaskView": null,
+        "quickMask": null,
+        "target": {
+          "kind": "composite"
+        }
+      },
+      "depth": 8,
+      "hasSelection": false,
+      "height": 1024,
+      "history": [
+        "Open"
+      ],
+      "isolatedLayers": [],
+      "lastAppliedComp": null,
+      "layerComps": [],
+      "layerMaskView": null,
+      "layers": [
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 12,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Editable reference sheet \u2014 not rig parts",
+          "opacity": 1.0,
+          "selected": true,
+          "visible": true
+        },
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 11,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Archived source \u2014 identity unapproved",
+          "opacity": 1.0,
+          "selected": false,
+          "visible": true
+        }
+      ],
+      "measurement": {
+        "count": 0,
+        "countGroups": 0,
+        "ruler": null,
+        "scale": "1 pixels = 1.0000 pixels"
+      },
+      "mode": "Rgb",
+      "name": "source.png",
+      "notes": [],
+      "quickMask": false,
+      "resolution": 72.0,
+      "revision": 1,
+      "selectedLayers": [
+        12
+      ],
+      "selectionBounds": null,
+      "timeline": null,
+      "variables": null,
+      "width": 1536
+    }
+  },
+  {
+    "id": "06-seven-year-old-girl",
+    "native_reopened": true,
+    "state": {
+      "activeLayer": 15,
+      "canRedo": false,
+      "canUndo": false,
+      "channels": {
+        "alpha": [],
+        "colors": [
+          {
+            "name": "Red",
+            "visible": true
+          },
+          {
+            "name": "Green",
+            "visible": true
+          },
+          {
+            "name": "Blue",
+            "visible": true
+          }
+        ],
+        "composite": "RGB",
+        "compositeVisible": true,
+        "layerMaskView": null,
+        "quickMask": null,
+        "target": {
+          "kind": "composite"
+        }
+      },
+      "depth": 8,
+      "hasSelection": false,
+      "height": 1024,
+      "history": [
+        "Open"
+      ],
+      "isolatedLayers": [],
+      "lastAppliedComp": null,
+      "layerComps": [],
+      "layerMaskView": null,
+      "layers": [
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 15,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Editable reference sheet \u2014 not rig parts",
+          "opacity": 1.0,
+          "selected": true,
+          "visible": true
+        },
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 14,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Archived source \u2014 identity unapproved",
+          "opacity": 1.0,
+          "selected": false,
+          "visible": true
+        }
+      ],
+      "measurement": {
+        "count": 0,
+        "countGroups": 0,
+        "ruler": null,
+        "scale": "1 pixels = 1.0000 pixels"
+      },
+      "mode": "Rgb",
+      "name": "source.png",
+      "notes": [],
+      "quickMask": false,
+      "resolution": 72.0,
+      "revision": 1,
+      "selectedLayers": [
+        15
+      ],
+      "selectionBounds": null,
+      "timeline": null,
+      "variables": null,
+      "width": 1536
+    }
+  },
+  {
+    "id": "07-nine-year-old-boy",
+    "native_reopened": true,
+    "state": {
+      "activeLayer": 18,
+      "canRedo": false,
+      "canUndo": false,
+      "channels": {
+        "alpha": [],
+        "colors": [
+          {
+            "name": "Red",
+            "visible": true
+          },
+          {
+            "name": "Green",
+            "visible": true
+          },
+          {
+            "name": "Blue",
+            "visible": true
+          }
+        ],
+        "composite": "RGB",
+        "compositeVisible": true,
+        "layerMaskView": null,
+        "quickMask": null,
+        "target": {
+          "kind": "composite"
+        }
+      },
+      "depth": 8,
+      "hasSelection": false,
+      "height": 1024,
+      "history": [
+        "Open"
+      ],
+      "isolatedLayers": [],
+      "lastAppliedComp": null,
+      "layerComps": [],
+      "layerMaskView": null,
+      "layers": [
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 18,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Editable reference sheet \u2014 not rig parts",
+          "opacity": 1.0,
+          "selected": true,
+          "visible": true
+        },
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 17,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Archived source \u2014 identity unapproved",
+          "opacity": 1.0,
+          "selected": false,
+          "visible": true
+        }
+      ],
+      "measurement": {
+        "count": 0,
+        "countGroups": 0,
+        "ruler": null,
+        "scale": "1 pixels = 1.0000 pixels"
+      },
+      "mode": "Rgb",
+      "name": "source.png",
+      "notes": [],
+      "quickMask": false,
+      "resolution": 72.0,
+      "revision": 1,
+      "selectedLayers": [
+        18
+      ],
+      "selectionBounds": null,
+      "timeline": null,
+      "variables": null,
+      "width": 1536
+    }
+  },
+  {
+    "id": "08-third-lit-child-proposal",
+    "native_reopened": true,
+    "state": {
+      "activeLayer": 21,
+      "canRedo": false,
+      "canUndo": false,
+      "channels": {
+        "alpha": [],
+        "colors": [
+          {
+            "name": "Red",
+            "visible": true
+          },
+          {
+            "name": "Green",
+            "visible": true
+          },
+          {
+            "name": "Blue",
+            "visible": true
+          }
+        ],
+        "composite": "RGB",
+        "compositeVisible": true,
+        "layerMaskView": null,
+        "quickMask": null,
+        "target": {
+          "kind": "composite"
+        }
+      },
+      "depth": 8,
+      "hasSelection": false,
+      "height": 1024,
+      "history": [
+        "Open"
+      ],
+      "isolatedLayers": [],
+      "lastAppliedComp": null,
+      "layerComps": [],
+      "layerMaskView": null,
+      "layers": [
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 21,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Editable reference sheet \u2014 not rig parts",
+          "opacity": 1.0,
+          "selected": true,
+          "visible": true
+        },
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 20,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Archived source \u2014 identity unapproved",
+          "opacity": 1.0,
+          "selected": false,
+          "visible": true
+        }
+      ],
+      "measurement": {
+        "count": 0,
+        "countGroups": 0,
+        "ruler": null,
+        "scale": "1 pixels = 1.0000 pixels"
+      },
+      "mode": "Rgb",
+      "name": "source.png",
+      "notes": [],
+      "quickMask": false,
+      "resolution": 72.0,
+      "revision": 1,
+      "selectedLayers": [
+        21
+      ],
+      "selectionBounds": null,
+      "timeline": null,
+      "variables": null,
+      "width": 1536
+    }
+  },
+  {
+    "id": "09-background-survivor-1",
+    "native_reopened": true,
+    "state": {
+      "activeLayer": 24,
+      "canRedo": false,
+      "canUndo": false,
+      "channels": {
+        "alpha": [],
+        "colors": [
+          {
+            "name": "Red",
+            "visible": true
+          },
+          {
+            "name": "Green",
+            "visible": true
+          },
+          {
+            "name": "Blue",
+            "visible": true
+          }
+        ],
+        "composite": "RGB",
+        "compositeVisible": true,
+        "layerMaskView": null,
+        "quickMask": null,
+        "target": {
+          "kind": "composite"
+        }
+      },
+      "depth": 8,
+      "hasSelection": false,
+      "height": 1024,
+      "history": [
+        "Open"
+      ],
+      "isolatedLayers": [],
+      "lastAppliedComp": null,
+      "layerComps": [],
+      "layerMaskView": null,
+      "layers": [
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 24,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Editable reference sheet \u2014 not rig parts",
+          "opacity": 1.0,
+          "selected": true,
+          "visible": true
+        },
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 23,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Archived source \u2014 identity unapproved",
+          "opacity": 1.0,
+          "selected": false,
+          "visible": true
+        }
+      ],
+      "measurement": {
+        "count": 0,
+        "countGroups": 0,
+        "ruler": null,
+        "scale": "1 pixels = 1.0000 pixels"
+      },
+      "mode": "Rgb",
+      "name": "source.png",
+      "notes": [],
+      "quickMask": false,
+      "resolution": 72.0,
+      "revision": 1,
+      "selectedLayers": [
+        24
+      ],
+      "selectionBounds": null,
+      "timeline": null,
+      "variables": null,
+      "width": 1536
+    }
+  },
+  {
+    "id": "10-background-survivor-2",
+    "native_reopened": true,
+    "state": {
+      "activeLayer": 27,
+      "canRedo": false,
+      "canUndo": false,
+      "channels": {
+        "alpha": [],
+        "colors": [
+          {
+            "name": "Red",
+            "visible": true
+          },
+          {
+            "name": "Green",
+            "visible": true
+          },
+          {
+            "name": "Blue",
+            "visible": true
+          }
+        ],
+        "composite": "RGB",
+        "compositeVisible": true,
+        "layerMaskView": null,
+        "quickMask": null,
+        "target": {
+          "kind": "composite"
+        }
+      },
+      "depth": 8,
+      "hasSelection": false,
+      "height": 1024,
+      "history": [
+        "Open"
+      ],
+      "isolatedLayers": [],
+      "lastAppliedComp": null,
+      "layerComps": [],
+      "layerMaskView": null,
+      "layers": [
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 27,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Editable reference sheet \u2014 not rig parts",
+          "opacity": 1.0,
+          "selected": true,
+          "visible": true
+        },
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 26,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Archived source \u2014 identity unapproved",
+          "opacity": 1.0,
+          "selected": false,
+          "visible": true
+        }
+      ],
+      "measurement": {
+        "count": 0,
+        "countGroups": 0,
+        "ruler": null,
+        "scale": "1 pixels = 1.0000 pixels"
+      },
+      "mode": "Rgb",
+      "name": "source.png",
+      "notes": [],
+      "quickMask": false,
+      "resolution": 72.0,
+      "revision": 1,
+      "selectedLayers": [
+        27
+      ],
+      "selectionBounds": null,
+      "timeline": null,
+      "variables": null,
+      "width": 1536
+    }
+  },
+  {
+    "id": "11-background-survivor-3",
+    "native_reopened": true,
+    "state": {
+      "activeLayer": 30,
+      "canRedo": false,
+      "canUndo": false,
+      "channels": {
+        "alpha": [],
+        "colors": [
+          {
+            "name": "Red",
+            "visible": true
+          },
+          {
+            "name": "Green",
+            "visible": true
+          },
+          {
+            "name": "Blue",
+            "visible": true
+          }
+        ],
+        "composite": "RGB",
+        "compositeVisible": true,
+        "layerMaskView": null,
+        "quickMask": null,
+        "target": {
+          "kind": "composite"
+        }
+      },
+      "depth": 8,
+      "hasSelection": false,
+      "height": 1024,
+      "history": [
+        "Open"
+      ],
+      "isolatedLayers": [],
+      "lastAppliedComp": null,
+      "layerComps": [],
+      "layerMaskView": null,
+      "layers": [
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 30,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Editable reference sheet \u2014 not rig parts",
+          "opacity": 1.0,
+          "selected": true,
+          "visible": true
+        },
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 29,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Archived source \u2014 identity unapproved",
+          "opacity": 1.0,
+          "selected": false,
+          "visible": true
+        }
+      ],
+      "measurement": {
+        "count": 0,
+        "countGroups": 0,
+        "ruler": null,
+        "scale": "1 pixels = 1.0000 pixels"
+      },
+      "mode": "Rgb",
+      "name": "source.png",
+      "notes": [],
+      "quickMask": false,
+      "resolution": 72.0,
+      "revision": 1,
+      "selectedLayers": [
+        30
+      ],
+      "selectionBounds": null,
+      "timeline": null,
+      "variables": null,
+      "width": 1536
+    }
+  },
+  {
+    "id": "12-bell-bearing-soldier",
+    "native_reopened": true,
+    "state": {
+      "activeLayer": 33,
+      "canRedo": false,
+      "canUndo": false,
+      "channels": {
+        "alpha": [],
+        "colors": [
+          {
+            "name": "Red",
+            "visible": true
+          },
+          {
+            "name": "Green",
+            "visible": true
+          },
+          {
+            "name": "Blue",
+            "visible": true
+          }
+        ],
+        "composite": "RGB",
+        "compositeVisible": true,
+        "layerMaskView": null,
+        "quickMask": null,
+        "target": {
+          "kind": "composite"
+        }
+      },
+      "depth": 8,
+      "hasSelection": false,
+      "height": 1024,
+      "history": [
+        "Open"
+      ],
+      "isolatedLayers": [],
+      "lastAppliedComp": null,
+      "layerComps": [],
+      "layerMaskView": null,
+      "layers": [
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 33,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Editable reference sheet \u2014 not rig parts",
+          "opacity": 1.0,
+          "selected": true,
+          "visible": true
+        },
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 32,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Archived source \u2014 identity unapproved",
+          "opacity": 1.0,
+          "selected": false,
+          "visible": true
+        }
+      ],
+      "measurement": {
+        "count": 0,
+        "countGroups": 0,
+        "ruler": null,
+        "scale": "1 pixels = 1.0000 pixels"
+      },
+      "mode": "Rgb",
+      "name": "source.png",
+      "notes": [],
+      "quickMask": false,
+      "resolution": 72.0,
+      "revision": 1,
+      "selectedLayers": [
+        33
+      ],
+      "selectionBounds": null,
+      "timeline": null,
+      "variables": null,
+      "width": 1536
+    }
+  },
+  {
+    "id": "13-ledger-keeper",
+    "native_reopened": true,
+    "state": {
+      "activeLayer": 36,
+      "canRedo": false,
+      "canUndo": false,
+      "channels": {
+        "alpha": [],
+        "colors": [
+          {
+            "name": "Red",
+            "visible": true
+          },
+          {
+            "name": "Green",
+            "visible": true
+          },
+          {
+            "name": "Blue",
+            "visible": true
+          }
+        ],
+        "composite": "RGB",
+        "compositeVisible": true,
+        "layerMaskView": null,
+        "quickMask": null,
+        "target": {
+          "kind": "composite"
+        }
+      },
+      "depth": 8,
+      "hasSelection": false,
+      "height": 1024,
+      "history": [
+        "Open"
+      ],
+      "isolatedLayers": [],
+      "lastAppliedComp": null,
+      "layerComps": [],
+      "layerMaskView": null,
+      "layers": [
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 36,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Editable reference sheet \u2014 not rig parts",
+          "opacity": 1.0,
+          "selected": true,
+          "visible": true
+        },
+        {
+          "blend": "Normal",
+          "bounds": [
+            0,
+            0,
+            1536,
+            1024
+          ],
+          "clipped": false,
+          "fill": 1.0,
+          "hasMask": false,
+          "id": 35,
+          "kind": "Pixel",
+          "linkGroup": null,
+          "name": "Archived source \u2014 identity unapproved",
+          "opacity": 1.0,
+          "selected": false,
+          "visible": true
+        }
+      ],
+      "measurement": {
+        "count": 0,
+        "countGroups": 0,
+        "ruler": null,
+        "scale": "1 pixels = 1.0000 pixels"
+      },
+      "mode": "Rgb",
+      "name": "source.png",
+      "notes": [],
+      "quickMask": false,
+      "resolution": 72.0,
+      "revision": 1,
+      "selectedLayers": [
+        36
+      ],
+      "selectionBounds": null,
+      "timeline": null,
+      "variables": null,
+      "width": 1536
+    }
+  }
+]

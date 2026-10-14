@@ -1,0 +1,41 @@
+{
+  "task_id": "river-character-library",
+  "role": "character-designer",
+  "status": "submitted",
+  "artifacts": [
+    "production/runs/cemi-90s-production/tasks/river-character-library/library-manifest.json",
+    "production/runs/cemi-90s-production/tasks/river-character-library/river-source-index.pdf",
+    "production/runs/cemi-90s-production/tasks/river-character-library/river-source-index.designcraft",
+    "production/runs/cemi-90s-production/tasks/river-character-library/verification-final.json",
+    "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/02-amaias-son.pcraft",
+    "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/03-dairon.pcraft",
+    "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/04-yara-corrected.pcraft",
+    "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/05-beheto.pcraft",
+    "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/06-seven-year-old-girl.pcraft",
+    "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/07-nine-year-old-boy.pcraft",
+    "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/08-third-lit-child-proposal.pcraft",
+    "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/09-background-survivor-1.pcraft",
+    "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/10-background-survivor-2.pcraft",
+    "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/11-background-survivor-3.pcraft",
+    "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/12-bell-bearing-soldier.pcraft",
+    "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2/13-ledger-keeper.pcraft"
+  ],
+  "evidence": [
+    "Directly viewed all twelve assigned source PNGs and approved_style_reference.png. Recorded character-specific visible landmarks and S01 action requirements in twelve reference.json files.",
+    "Saved and reopened all twelve final PhotoCraft files; each has a visible editable reference layer and hidden archived source layer.",
+    "Automated verification of all final PNG exports: maximum alpha delta 0; maximum premultiplied RGB delta 0 against each source. Original PNG snapshots have exact source hashes.",
+    "Built native 12-page DesignCraft index and PDF; inspected first rendered page; automated check found zero overset stories. Directly viewed Beheto final native export.",
+    "These are preparatory source libraries, not finished character rigs. Current-script canoe assignments take precedence over historical archive arrangement."
+  ],
+  "blockers": [],
+  "remaining_for_character_completion": [
+    "Per-character separated hair/clothing/accessories and hidden joint surfaces; registered replacement drawings; motion/contact checks.",
+    "Exact-file independent review and Luis identity/author approval remain outstanding.",
+    "Third lit child remains an identity proposal; background survivors require current-script staging decisions."
+  ],
+  "superseded": [
+    "native: initial duplicate compositing changed alpha; do not use",
+    "native-alpha-preserved: incomplete correction after deterministic layer-ID mismatch; do not use"
+  ],
+  "final_native_directory": "production/runs/cemi-90s-production/tasks/river-character-library/native-alpha-preserved-v2"
+}

@@ -1,9 +1,0 @@
-{
-  "shot": "AMAIA-FACIAL-CONTROL-CHECK",
-  "errors": [],
-  "warnings": [
-    "no environmental or prop action (water, wakes, props) is animated"
-  ],
-  "contacts": [],
-  "truth": "Passing check means timing, files and contacts are consistent; it does not approve the drawing."
-}

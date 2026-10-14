@@ -1,0 +1,18 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "file.exportPdf",
+    "params": {
+      "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/river-source-index.pdf",
+      "title": "River cast source reference library",
+      "author": "Ilan Anime production"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "bytes": 37521177,
+    "pages": 12,
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/river-character-library/river-source-index.pdf",
+    "warnings": []
+  }
+}

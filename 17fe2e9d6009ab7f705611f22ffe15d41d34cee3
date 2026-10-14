@@ -1,0 +1,727 @@
+{
+  "description": "Native editable reference packaging only; unchanged source images. Not completed rigs or new character artwork.",
+  "outputs": [
+    "02-amaias-son.pcraft",
+    "03-dairon.pcraft",
+    "04-yara-corrected.pcraft",
+    "05-beheto.pcraft",
+    "06-seven-year-old-girl.pcraft",
+    "07-nine-year-old-boy.pcraft",
+    "08-third-lit-child-proposal.pcraft",
+    "09-background-survivor-1.pcraft",
+    "10-background-survivor-2.pcraft",
+    "11-background-survivor-3.pcraft",
+    "12-bell-bearing-soldier.pcraft",
+    "13-ledger-keeper.pcraft"
+  ],
+  "steps": [
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "production/runs/cemi-90s-production/tasks/river-character-library/02-amaias-son/source.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Archived source — identity unapproved",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.duplicate",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Editable reference sheet — not rig parts",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/02-amaias-son.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/02-amaias-son.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "production/runs/cemi-90s-production/tasks/river-character-library/03-dairon/source.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Archived source — identity unapproved",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.duplicate",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Editable reference sheet — not rig parts",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/03-dairon.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/03-dairon.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "production/runs/cemi-90s-production/tasks/river-character-library/04-yara-corrected/source.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Archived source — identity unapproved",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.duplicate",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Editable reference sheet — not rig parts",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/04-yara-corrected.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/04-yara-corrected.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "production/runs/cemi-90s-production/tasks/river-character-library/05-beheto/source.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Archived source — identity unapproved",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.duplicate",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Editable reference sheet — not rig parts",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/05-beheto.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/05-beheto.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "production/runs/cemi-90s-production/tasks/river-character-library/06-seven-year-old-girl/source.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Archived source — identity unapproved",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.duplicate",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Editable reference sheet — not rig parts",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/06-seven-year-old-girl.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/06-seven-year-old-girl.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "production/runs/cemi-90s-production/tasks/river-character-library/07-nine-year-old-boy/source.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Archived source — identity unapproved",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.duplicate",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Editable reference sheet — not rig parts",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/07-nine-year-old-boy.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/07-nine-year-old-boy.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "production/runs/cemi-90s-production/tasks/river-character-library/08-third-lit-child-proposal/source.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Archived source — identity unapproved",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.duplicate",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Editable reference sheet — not rig parts",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/08-third-lit-child-proposal.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/08-third-lit-child-proposal.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "production/runs/cemi-90s-production/tasks/river-character-library/09-background-survivor-1/source.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Archived source — identity unapproved",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.duplicate",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Editable reference sheet — not rig parts",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/09-background-survivor-1.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/09-background-survivor-1.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "production/runs/cemi-90s-production/tasks/river-character-library/10-background-survivor-2/source.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Archived source — identity unapproved",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.duplicate",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Editable reference sheet — not rig parts",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/10-background-survivor-2.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/10-background-survivor-2.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "production/runs/cemi-90s-production/tasks/river-character-library/11-background-survivor-3/source.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Archived source — identity unapproved",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.duplicate",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Editable reference sheet — not rig parts",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/11-background-survivor-3.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/11-background-survivor-3.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "production/runs/cemi-90s-production/tasks/river-character-library/12-bell-bearing-soldier/source.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Archived source — identity unapproved",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.duplicate",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Editable reference sheet — not rig parts",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/12-bell-bearing-soldier.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/12-bell-bearing-soldier.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_open",
+      "arguments": {
+        "path": "production/runs/cemi-90s-production/tasks/river-character-library/13-ledger-keeper/source.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Archived source — identity unapproved",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.duplicate",
+        "params": {}
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "layer.setProps",
+        "params": {
+          "name": "Editable reference sheet — not rig parts",
+          "locked": false
+        }
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_save",
+      "arguments": {
+        "path": "${OUT}/13-ledger-keeper.pcraft"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "doc_export",
+      "arguments": {
+        "path": "${OUT}/13-ledger-keeper.png"
+      }
+    },
+    {
+      "app": "photocraft",
+      "tool": "command_run",
+      "arguments": {
+        "id": "file.close",
+        "params": {}
+      }
+    }
+  ]
+}

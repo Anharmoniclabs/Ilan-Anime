@@ -1,0 +1,15 @@
+{
+  "tool": "place_image",
+  "arguments": {
+    "path": "/home/alabs/Projects/Ilan-Anime/production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/sofia-master-4a2503596a61/source-still.png",
+    "spread": 6,
+    "x": 216.66666666666669,
+    "y": 75,
+    "width": 566.6666666666666
+  },
+  "status": "succeeded",
+  "result": {
+    "asset": 91,
+    "id": 92
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "09-background-survivor-1",
+  "name": "Background survivor 1",
+  "status": "exploratory",
+  "kind": "editable-reference-library",
+  "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/09-Background-Survivor-1.png",
+  "source_sha256": "45b77296b9199b17f2558bdf8bb2e6757a2a114930d6e499ed410931ae021c7a",
+  "snapshot": "source.png",
+  "identity_observations": "Older broad woman, gray temples and low bun, muted purple top, blue wrap with gray sash, paddle; seated stroke and three busts.",
+  "script_shots": [
+    "S01-02",
+    "S01-09",
+    "S01-12",
+    "S01-14"
+  ],
+  "missing_art": "Current-script canoe assignment needed before layout; registered seated stroke phases, stable paddle grip, cloth reversal and counterbalance.",
+  "directly_viewed": true,
+  "source_approval": "not established by this task",
+  "rig_status": "not built",
+  "registration_status": "not registered",
+  "motion_status": "not tested",
+  "native": "../native-alpha-preserved-v2/09-background-survivor-1.pcraft",
+  "layer_design": [
+    "Hidden locked archived source",
+    "Visible editable full-sheet reference"
+  ],
+  "separated_parts": false,
+  "separation_decision": "Source alpha is present: the warm backdrop seen in raw RGB is transparent. Existing views can be manually selected for future reference use; this task preserves the full sheet. Hair/clothing/limbs and hidden contact surfaces still need newly drawn separated parts."
+}

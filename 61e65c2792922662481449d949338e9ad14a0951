@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 0,
+      "rect": [
+        25,
+        15,
+        975,
+        55
+      ],
+      "content": "text",
+      "text": "01 / Amaias son — exploratory source reference"
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 29,
+    "story": 30
+  }
+}

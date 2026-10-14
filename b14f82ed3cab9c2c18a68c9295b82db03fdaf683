@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 5,
+      "rect": [
+        25,
+        950,
+        975,
+        1080
+      ],
+      "content": "text",
+      "text": "Cafe keeper source-design proposal. Revised body build and clean-shaven face require identity review; serving and speaking views absent.\nSHA-256: cae297ecc00556c8e173b0acdbd7310b70b0bab2e7cd0668250a39d76957c320\nNative PhotoCraft + layered PSD: protected hidden original and one visible editable copy. Body parts remain flattened.\nSource alpha and premultiplied RGB preserved exactly in native and reopened PSD exports."
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 87,
+    "story": 88
+  }
+}

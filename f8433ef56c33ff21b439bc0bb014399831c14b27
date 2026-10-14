@@ -1,0 +1,30 @@
+{
+  "id": "07-nine-year-old-boy",
+  "name": "Nine-year-old boy",
+  "status": "exploratory",
+  "kind": "editable-reference-library",
+  "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/07-Nine-Year-Old-Boy.png",
+  "source_sha256": "612785aa841bff2dd674f1f4deacc5b35ad706dd6d4ddae1b7d6fd27856a4db9",
+  "snapshot": "source.png",
+  "identity_observations": "Short dense dark curls, red rough tunic, pale sash and knee shorts; seated bent knee and three worried/speech/downcast busts.",
+  "script_shots": [
+    "S01-02",
+    "S01-04",
+    "S01-06",
+    "S01-10",
+    "S01-14"
+  ],
+  "missing_art": "Seated forearm lift and bankward lean; bell-facing head tilt and registered speech mouths; fever insert and turn counterbalance.",
+  "directly_viewed": true,
+  "source_approval": "not established by this task",
+  "rig_status": "not built",
+  "registration_status": "not registered",
+  "motion_status": "not tested",
+  "native": "../native-alpha-preserved-v2/07-nine-year-old-boy.pcraft",
+  "layer_design": [
+    "Hidden locked archived source",
+    "Visible editable full-sheet reference"
+  ],
+  "separated_parts": false,
+  "separation_decision": "Source alpha is present: the warm backdrop seen in raw RGB is transparent. Existing views can be manually selected for future reference use; this task preserves the full sheet. Hair/clothing/limbs and hidden contact surfaces still need newly drawn separated parts."
+}

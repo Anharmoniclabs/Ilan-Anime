@@ -1,0 +1,11 @@
+{
+  "tool": "doc_export",
+  "arguments": {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/jc-master-v2-63ea6611a922/master.psd"
+  },
+  "status": "succeeded",
+  "result": {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/jc-master-v2-63ea6611a922/master.psd",
+    "warnings": []
+  }
+}

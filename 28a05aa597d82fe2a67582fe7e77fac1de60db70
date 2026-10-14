@@ -1,0 +1,27 @@
+{
+  "id": "12-bell-bearing-soldier",
+  "name": "Bell-bearing soldier",
+  "status": "exploratory",
+  "kind": "editable-reference-library",
+  "source": "research/archive_imports/river_2026_10_11/Cemi-River-Scene/01-Characters/12-Bell-Bearing-Soldier.png",
+  "source_sha256": "84a948cb418750872774ae181215b61a0938eb442b943a590389788cf57c0725",
+  "snapshot": "source.png",
+  "identity_observations": "Bearded adult with steel brimmed helmet, metal cuirass, quilted brown sleeves, dark breeches and boots; pole-mounted brass bell and braced lifting pose.",
+  "script_shots": [
+    "S01-05",
+    "S01-06"
+  ],
+  "missing_art": "Pole lift/ring/recover drawings with separate rigid bell, suspension and free clapper; hand/pole contact; helmet and armor occlusion surfaces.",
+  "directly_viewed": true,
+  "source_approval": "not established by this task",
+  "rig_status": "not built",
+  "registration_status": "not registered",
+  "motion_status": "not tested",
+  "native": "../native-alpha-preserved-v2/12-bell-bearing-soldier.pcraft",
+  "layer_design": [
+    "Hidden locked archived source",
+    "Visible editable full-sheet reference"
+  ],
+  "separated_parts": false,
+  "separation_decision": "Source alpha is present: the warm backdrop seen in raw RGB is transparent. Existing views can be manually selected for future reference use; this task preserves the full sheet. Hair/clothing/limbs and hidden contact surfaces still need newly drawn separated parts."
+}

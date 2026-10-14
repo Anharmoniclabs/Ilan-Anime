@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 2,
+      "rect": [
+        25,
+        950,
+        975,
+        1080
+      ],
+      "content": "text",
+      "text": "Lean youthful face, short dense curls, charcoal hoodie, headphones and mic puck. No coin held in this pose. A source master only; expression and action banks are missing.\nSHA-256: 63ea6611a922f448805d77f4a01df3e10d45219dd985a14a6bdafd903c8a26bf\nNative PhotoCraft + layered PSD: protected hidden original and one visible editable copy. Body parts remain flattened.\nSource alpha and premultiplied RGB preserved exactly in native and reopened PSD exports."
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 69,
+    "story": 70
+  }
+}

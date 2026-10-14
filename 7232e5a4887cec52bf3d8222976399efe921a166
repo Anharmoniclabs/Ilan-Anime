@@ -1,0 +1,11 @@
+{
+  "tool": "doc_save",
+  "arguments": {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/vale-master-93b33c36e25a/master.pcraft"
+  },
+  "status": "succeeded",
+  "result": {
+    "path": "production/runs/cemi-90s-production/tasks/episode1-modern-assets/native/vale-master-93b33c36e25a/master.pcraft",
+    "warnings": []
+  }
+}

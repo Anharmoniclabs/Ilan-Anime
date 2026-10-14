@@ -1,0 +1,13 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "layer.setProps",
+    "params": {
+      "layer": 8,
+      "visible": false,
+      "locked": true
+    }
+  },
+  "status": "succeeded",
+  "result": null
+}

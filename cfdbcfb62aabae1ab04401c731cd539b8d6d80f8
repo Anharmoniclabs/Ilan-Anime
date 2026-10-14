@@ -1,0 +1,22 @@
+{
+  "tool": "execute",
+  "arguments": {
+    "command": "frame.create",
+    "params": {
+      "spread": 0,
+      "rect": [
+        25,
+        700,
+        975,
+        835
+      ],
+      "content": "text",
+      "text": "Native: 02-amaias-son.pcraft\nShort dark wavy curls, round toddler face, white sleeveless tunic and shorts; standing front, side, back; seated reach; three bust expressions including asleep.\nRequired: Sleeping fullbody supported against Amaia ribs; closed-eye registered speech mouth set; body contact and turn counterbalance.\nUnapproved historical reference. No separated joints, rig, pose registration or motion approval."
+    }
+  },
+  "status": "succeeded",
+  "result": {
+    "id": 33,
+    "story": 34
+  }
+}

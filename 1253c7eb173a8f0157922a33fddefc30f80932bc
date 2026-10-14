@@ -1,0 +1,11 @@
+{
+  "tool": "command_run",
+  "arguments": {
+    "id": "layer.duplicate",
+    "params": {}
+  },
+  "status": "succeeded",
+  "result": {
+    "layer": 9
+  }
+}
