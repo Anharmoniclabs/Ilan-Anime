@@ -333,11 +333,12 @@ def assemble_draft(scene, out, root=ROOT):
     """Build ONLY an explicitly labeled silent inspection cut; never final output."""
     root = Path(root)
     packet = _packet(root, scene)
+    submissions = [(shot, _receipt(root, scene, shot["shot"])) for shot in packet["shots"]]
+    missing = [shot["shot"] for shot, receipt in submissions if not receipt]
+    if missing:
+        raise CloudError(f"Refusing incomplete scene: missing clips for {', '.join(missing)}")
     files = []
-    for shot in packet["shots"]:
-        receipt = _receipt(root, scene, shot["shot"])
-        if not receipt:
-            raise CloudError(f"Refusing incomplete scene: {shot['shot']} has no clip")
+    for shot, receipt in submissions:
         path = root / receipt["media_path"]
         if not path.is_file() or sha256(path) != receipt["sha256"]:
             raise CloudError(f"Refusing changed or missing clip: {shot['shot']}")
