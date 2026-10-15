@@ -90,6 +90,14 @@ class CloudTests(unittest.TestCase):
             with self.assertRaisesRegex(cloud.CloudError, "different submission"):
                 cloud.ingest("S01-05", "S01-05", clip, self.root)
 
+    def test_full_bell_reference_has_exact_frame_mechanics(self):
+        from production.cloud.examples.bell_blockout import build
+        evidence, review = build()
+        self.assertEqual(len(evidence["poses"]), 168)
+        self.assertEqual(review["measured_count"], 168)
+        self.assertTrue(review["mechanics_verified"], review["errors"])
+        self.assertFalse(review["art_and_acting_approved"])
+
     def test_scene_names_reject_traversal(self):
         with self.assertRaises(cloud.CloudError):
             cloud.plan("../../etc", self.root)
