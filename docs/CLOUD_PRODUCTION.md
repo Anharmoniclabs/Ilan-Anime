@@ -118,6 +118,6 @@ drawings are unavailable, flag and block the shot.
   registrar, independent reviewer and author gate.
 - ChatGPT can generate media with tools available in the current chat. If a
   tool is unavailable, the workflow explicitly reports the missing capability.
-- Test with: python -m unittest tests.test_cloud -v
+- Test with: python -m unittest discover -s tests -p test_cloud.py -v
 
 Runtime tests validate contracts, not cinematography or expressive acting.
