@@ -1,0 +1,310 @@
+{
+  "schema": "ilan.chat-cloud.kickoff.v1",
+  "scene": "S01",
+  "title": "BEFORE — Moonless River Opening",
+  "production_mode": "cloud",
+  "switchable_modes": [
+    "cloud",
+    "local",
+    "hybrid"
+  ],
+  "script_basis": "projects/cemi_episode_01/data/episode.json",
+  "shot_index": "production/runs/episode1-anime90s-scenes/shot-index.json",
+  "art_direction": "production/art_direction.json",
+  "author_decisions": "production/runs/episode1-full-picture/author-decisions.json",
+  "recorded_source_hashes": {
+    "projects/cemi_episode_01/data/episode.json": "59263084b567bafbdd3dec543be5955ecc32bef721ddd9b2ba5c7442a24bacd8",
+    "production/runs/episode1-picture-motion/tasks/motion-contracts/contracts.json": "317c958cfbf4b9e3367245fd1976fa96e49d84c85a3edc65c824fc55216529ac",
+    "production/runs/episode1-anime90s-scenes/shot-index.json": "3d76c85459b6d8516323c967d6c4a45304f03042e632feba03757ca1d6f1a3ca",
+    "production/runs/episode1-picture-motion/author-direction.json": "4fd09927909a9256decf70897b28c43db558a18e6c6377beac459bb0254dedf3",
+    "production/art_direction.json": "cfb3ec6698350fa16acf139baf8da0e4a4035acd08ec026cdfe04a27d1bed6fb",
+    "production/runs/episode1-full-picture/author-decisions.json": "e7a9ed68c8f75926d41b6363a0569a417f14b27595df64b3b056c7e92fbb306f"
+  },
+  "shot_count": 15,
+  "frames": 3024,
+  "fps": 24,
+  "width": 1280,
+  "height": 720,
+  "seconds": 126,
+  "author_corrections": {
+    "S01_03": {
+      "source": "User response in current session",
+      "decision": "Keep the fourteen-to-eleven count; show three losses",
+      "implementation": "Exactly three distinct empty-seat apparition/count beats. Dialogue count remains fourteen-to-eleven. Do not animate a fourth loss. This overrides conflicting count in historical action text.",
+      "sound": "Deferred to separate department; record count for future voice work.",
+      "script_cleanup": "Current Episode script and episode.json now list two channel losses plus the old man, exactly three. Historical generated frames/contracts remain preserved; this current decision takes precedence."
+    }
+  },
+  "bell_stress_test": {
+    "shot": "S01-05",
+    "frames": 168,
+    "required": "registered grip, limb lengths, independently moving bell shell and clapper, verified rim impact at actual authored frames",
+    "gate": "no full-frame mechanics or art/acting approval inferred from sparse keyposes"
+  },
+  "delivery_contract": [
+    "source-approved character and prop identity",
+    "registered key poses and action breakdowns",
+    "all required shot motion and audio delivered as separate reviewable assets",
+    "independent full-speed and frame-step review",
+    "author acceptance bound to exact asset hash"
+  ],
+  "status": "source-planned-not-rendered",
+  "final_eligible": false,
+  "shots": [
+    {
+      "shot": "S01-01",
+      "start_frame": 216,
+      "frames": 144,
+      "end_frame_exclusive": 360,
+      "script": "`00:09:00 → 00:15:00` (144f) · FIX · ECU low on waterline · rate 3s\n- **Action:** Black water, a hand-width of surface. A paddle blade enters, leaves, rings spread. Lower-left small caps: BEFORE.\n- **FX:** `PAINTED_BG(night_water); WATER_CEL(rings); TEXT_SUPER(BEFORE); VIGNETTE(0.7)`\n- **Sound:** Water drip, insects. A frog stops mid-call. No music.",
+      "required_action": "Black water, a hand-width of surface. A paddle blade enters, leaves, rings spread. Lower-left small caps: BEFORE.",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-01.png",
+        "sha256": "73f1b8fe5fe72187e7492feb98816106e8b091c18bd9605e3c232177c1142343",
+        "selected_moment": "Extreme close-up water only: black mangrove water seen at waterline, a wooden paddle blade just lifting free with two falling droplets and expanding rings. No shoreline, people or sky. Predawn moonless deep navy. Leave lower-left quiet space for BEFORE super added later; no text.",
+        "revision": 1,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-02",
+      "start_frame": 360,
+      "frames": 288,
+      "end_frame_exclusive": 648,
+      "script": "`00:15:00 → 00:27:00` (288f) · CRANE DOWN · WS · rate 3s\n- **Action:** Three dugout canoes in single file down a moonless mangrove channel. Lead: Dairon paddling, Yara behind him with the cemí in stiff cloth against her chest. Amaia with her sleeping son (not yet two). Second: Beheto, drum between his knees, chest whistling every breath. Third: three children, a faint blue breath on their forearms.\n- **FX:** `MULTIPLANE(5 painted layers); TRANSMITTED_LIGHT(blue,children,0.15); FILM_GRAIN`\n- **Sound:** Paddles, hull creak. Beheto's whistling breath is the only tempo (about 2s cycle).",
+      "required_action": "Three dugout canoes in single file down a moonless mangrove channel. Lead: Dairon paddling, Yara behind him with the cemí in stiff cloth against her chest. Amaia with her sleeping son (not yet two). Second: Beheto, drum between his knees, chest whistling every breath. Third: three children, a faint blue breath on their forearms.",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-02.png",
+        "sha256": "903d79ac2f20d292b1a2a8f812a35285cb89be897b6f87c398f0836fd9f97596",
+        "selected_moment": "High oblique crane establishing shot EXACTLY THREE long dugout canoes in single file curving diagonally through narrow black mangrove channel, whole hulls readable. EXACTLY ELEVEN survivors total. Lead boat: Dairon at bow paddling, Yara behind holding bundle, Amaia behind them with her sleeping toddler against ribs (4 people). Second boat: Beheto with drum between knees plus3 supporting adult survivors (4 people). Third boat: exactly3 lit children girl7blue dress,boy9red tunic,smaller child green tunic; no adults (3 people). Low faint blue forearm glow, no bright magic. Current script staging. Dairon andYara same boat asAmaia, Beheto second, all children third.",
+        "revision": 1,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-03",
+      "start_frame": 648,
+      "frames": 192,
+      "end_frame_exclusive": 840,
+      "script": "`00:27:00 → 00:35:00` (192f) · MCU → CU Amaia · rate 3s\n- **Action:** Amaia's lips count the heads ahead. Each count lands on an empty seat. Pale outlines sit in the empty seats and fade as she looks at them (exactly three losses: two lost at the channel and the old man who asked for water, then nothing).\n- **FX:** `GHOST_SEATS(alpha .25→0); DOUBLE_EXPOSURE; CEL_SHADE(2-tone)`\n- **Sound:** VO Amaia (spare): “Amaia had fourteen when they put the canoes in. By the third night she had eleven.”",
+      "required_action": "Amaia's lips count the heads ahead. Each count lands on an empty seat. Pale outlines sit in the empty seats and fade as she looks at them (exactly three losses: two lost at the channel and the old man who asked for water, then nothing).",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-03.png",
+        "sha256": "e5531adb6abb4ecddc1068bfaf0a6e90340349f009bea7496423471dffcf22a6",
+        "selected_moment": "Medium closeup Amaia seated in leadcanoe holding sleeping son, looking forward past empty seat with quiet counting lips. One faint elderly seated ghost silhouette on empty bench as a selected memory beat, not actual passenger. Do not assert ghost count; rest of ghosts need later drawings. Mangrove roots dark and water behind. Keep toddler face asleep.",
+        "revision": 1,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-04",
+      "start_frame": 840,
+      "frames": 168,
+      "end_frame_exclusive": 1008,
+      "script": "`00:35:00 → 00:42:00` (168f) · FIX · three hard cuts · rate 2s\n- **Action:** Memory inserts of the blue: children in fever; a flash of lightning; the color itself, 'the inside of a shell'. Each gone before she can point at it.\n- **FX:** `TRANSMITTED_LIGHT(shell_blue); FLASH_FRAME(1f); AIRBRUSH_GLOW`\n- **Sound:** Held breath. One high glass-like partial, cut dead.",
+      "required_action": "Memory inserts of the blue: children in fever; a flash of lightning; the color itself, 'the inside of a shell'. Each gone before she can point at it.",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-04.png",
+        "sha256": "7b1f79c034cc33e9810af6c2762876827668349440e2d45925a789d7e14582f4",
+        "selected_moment": "ONE memory insert, not montage: close three-quarter view of same7-year-old girl in blue dress lying feverish on simple woven mat, two other lit children in soft background, faint shell-blue glow beneath skin, exhausted closed eyes. Dark humble shelter, cool storm flash at doorway. No lightning montage or panels. Later lightning/color inserts not depicted.",
+        "revision": 1,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-05",
+      "start_frame": 1008,
+      "frames": 168,
+      "end_frame_exclusive": 1176,
+      "script": "`00:42:00 → 00:49:00` (168f) · POV Amaia → CU bell · rate 3s\n- **Action:** Behind them on the bank the soldier torches have stopped. One soldier lifts a pole with a brass bell and rings it, hard. Cut to the bell swinging, close.\n- **FX:** `CAMERA_SHAKE(2f); SPEED_LINES(bell); CHROMA_BLEED`\n- **Sound:** The BELL: dry, inharmonic brass, no reverb tail, 3–5 kHz bite. Amaia feels it 'in her back teeth'. There is no song in it.",
+      "required_action": "Behind them on the bank the soldier torches have stopped. One soldier lifts a pole with a brass bell and rings it, hard. Cut to the bell swinging, close.",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-05.png",
+        "sha256": "af6344e3fe51555c66326ddb81bfb74b3e01cb14405924cedd6da340e15ed6eb",
+        "selected_moment": "Second scripted moment: brassbell closeup swinging.",
+        "revision": 2,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-06",
+      "start_frame": 1176,
+      "frames": 240,
+      "end_frame_exclusive": 1416,
+      "script": "`00:49:00 → 00:59:00` (240f) · MS → CU hands · rate 2s\n- **Action:** The three children lift the blue off their arms; it peels away like vapor and leans out over the black water toward the bank. They lean with it. Amaia wants to hear one of them cry.\n- **FX:** `TRANSMITTED_LIGHT; AIRBRUSH_RIBBONS(blue,8); PULL_TOWARD(bank)`\n- **Sound:** Bell rings again, thinner. Children silent.",
+      "required_action": "The three children lift the blue off their arms; it peels away like vapor and leans out over the black water toward the bank. They lean with it. Amaia wants to hear one of them cry.",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-06.png",
+        "sha256": "1d23fd278d1edd06c591b6fbef8e86e3dc0c4db425d884b796b514145074ddc4",
+        "selected_moment": "Medium side view third canoe ONLY the3 child identities seated: girl7blue dress left,boy9red middle,smaller green right. They lean silently toward bank screenright with forearms raised;8 thin restrained shell-blue vapor ribbons peel off arms across water. Bare feet inside canoe, coherent seating. No Amaia in this frame since she is in leadboat offscreen.",
+        "revision": 1,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-07",
+      "start_frame": 1416,
+      "frames": 168,
+      "end_frame_exclusive": 1584,
+      "script": "`00:59:00 → 01:06:00` (168f) · MS low angle · rate 3s\n- **Action:** A second man sits on a stump, ledger open on his knee. He never looks at the canoes. He writes one line, then another under it.\n- **FX:** `FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`\n- **Sound:** Pen scratch placed forward in the mix, louder than it should be.\n- **Note:** Ledger-man is the first 'Counter'. Same pose language as the thin man (S12) and Vale's notebook (S14).",
+      "required_action": "A second man sits on a stump, ledger open on his knee. He never looks at the canoes. He writes one line, then another under it.",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png",
+        "sha256": "2cad53dd8dfffbac39753fb51c4f6f84a6702823d81cdd9b4cb442cc12bef365",
+        "selected_moment": "Low medium view ledger clerk alone seated on rough stump on muddy mangrove bank, open leather ledger flat across knee, one hand supports book, quill tip touches page while eyes stay lowered. Small offscreen torch warms cheek; background deep black roots. No readable text on pages. Quiet bureaucratic menace.",
+        "revision": 1,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-08",
+      "start_frame": 1584,
+      "frames": 144,
+      "end_frame_exclusive": 1728,
+      "script": "`01:06:00 → 01:12:00` (144f) · MS side · rate 3s\n- **Action:** The girl of seven says to the water: “There's a way under the roots.” Dairon turns the bow without asking how she knew.\n- **FX:** `HOLD(cel bank)`\n- **Sound:** Her voice small and certain. Hull turn.",
+      "required_action": "The girl of seven says to the water: “There's a way under the roots.” Dairon turns the bow without asking how she knew.",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-08.png",
+        "sha256": "33e680175b324c02dea539d31118c58b1ddba7682bc5a235234e57fedb4fe66f",
+        "selected_moment": "Medium side view girl7 at near thirdcanoe gunwale facing water and speaking softly, eyes resolved, mouth slightly open. Distant upper-left leadcanoe Dairon turning his bow with paddle, other boats mostly outside frame; do not put girl in Dairon boat. Quiet blue rim glow and moonless mangrove tunnel ahead.",
+        "revision": 1,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-09",
+      "start_frame": 1728,
+      "frames": 336,
+      "end_frame_exclusive": 2064,
+      "script": "`01:12:00 → 01:26:00` (336f) · POV bow · tunnel · rate 2s\n- **Action:** The canoe shrieks through mangrove roots on both sides; a paddle snaps; wood chips. The roots open into air that smells of salt 'from the wrong direction'. Cloth and hair flutter the opposite way.\n- **FX:** `MULTIPLANE_RUSH(root layers z1–z5); SPEED_BG; SPLINTER_CEL; WIND_REVERSE`\n- **Sound:** Wood scream on hull. Snap. Then sudden wide air and a wind change.",
+      "required_action": "The canoe shrieks through mangrove roots on both sides; a paddle snaps; wood chips. The roots open into air that smells of salt 'from the wrong direction'. Cloth and hair flutter the opposite way.",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-09.png",
+        "sha256": "fa7a4688ad675281c79a0043474583550aa09d5ef34c1792ece06c91de3df347",
+        "selected_moment": "Dynamic forward POV over sharp wooden canoe bow squeezing between mangrove roots on both sides, wood splinters from a paddle shaft snapping at lower right; hands ofDairon gripping shaft visible without showing face. Tight dark tunnel opening toward dark blue widerwater, no dawn/sunset. Splinters physically small, no explosion.",
+        "revision": 1,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-10",
+      "start_frame": 2064,
+      "frames": 144,
+      "end_frame_exclusive": 2208,
+      "script": "`01:26:00 → 01:32:00` (144f) · MCU boy · bell offscreen · rate 3s\n- **Action:** The boy of nine, head tilted toward the bell: “They know where we were. They don't know where we are.”\n- **FX:** `TRANSMITTED_LIGHT(blue,rim)`\n- **Sound:** Bell far behind, now hollow.",
+      "required_action": "The boy of nine, head tilted toward the bell: “They know where we were. They don't know where we are.”",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-10.png",
+        "sha256": "4d9ab5008379e29690efb7b6829a3169d29f02622f1d6ae88b2179e2c78ef6e4",
+        "selected_moment": "Medium closeup nine-year-old boy in red tunic seated inside thirdcanoe, head gently tilted back toward offscreen bell, lips slightly parted in serious speech, subtle blue edge light, black watery mangrove behind. Other children outof crop. Recognizable exact boy, no adult anatomy.",
+        "revision": 1,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-11",
+      "start_frame": 2208,
+      "frames": 240,
+      "end_frame_exclusive": 2448,
+      "script": "`01:32:00 → 01:42:00` (240f) · CU Beheto → WS · rate 2s\n- **Action:** Beheto puts both palms on the drum and leans his weight into it. The sound goes through hull, water and roots.\n- **FX:** `SHOCKWAVE_RING(water, subtle); ROOT_VEINS(gold, 0.4); WOOD_GRAIN_PULSE`\n- **Sound:** Not a boom. A deep skin-and-wood note with no attack, felt as sub.\n- **Note:** SHOWCASE CUT 0 begins.",
+      "required_action": "Beheto puts both palms on the drum and leans his weight into it. The sound goes through hull, water and roots.",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-11.png",
+        "sha256": "246b51ba50a5a09a2fb3c1fe62c55eb00055b84fe0ba6af9fbaf82abfb0607be",
+        "selected_moment": "Close-to-medium Beheto in SECOND canoe, drum fixed between knees, BOTH palms flat on drumskin with fingers spread, shoulders leaning weight forward and gaunt chest bent naturally. Rigid darkwood drum, natural contact shadow under palms. Water outside hull carries single subtle ring, faint gold root-veins barely visible. No fantasy explosion.",
+        "revision": 1,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-12",
+      "start_frame": 2448,
+      "frames": 336,
+      "end_frame_exclusive": 2784,
+      "script": "`01:42:00 → 01:56:00` (336f) · WS → MS paddles · rate 2s\n- **Action:** 'Nothing rose up and nothing parted.' The canoes simply move a little faster than the paddles. Blades drag and lift. Surface foam turns 90 degrees.\n- **FX:** `FLOW_TURN(foam,90deg); WATER_STREAK_CEL; WIND_STREAKS`\n- **Sound:** Water hiss rising.",
+      "required_action": "'Nothing rose up and nothing parted.' The canoes simply move a little faster than the paddles. Blades drag and lift. Surface foam turns 90 degrees.",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-12.png",
+        "sha256": "0101cc4c5a42010c59556ba52e03f4d895cce3b732cbc01d4603c5b1beacb73c",
+        "selected_moment": "Wide highwater-level view of exactly3 canoes gliding into broader darkwater with foam making subtle90degree turn; leadcanoe Dairon lifts dragging paddle, Yara clutches bundle, Amaia cradles child; secondBeheto/drum and3adults; third3children. No levitation, parted sea, or giant waves; boats sit naturally onwater. Eleven survivors same distribution asestablishing.",
+        "revision": 2,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-13",
+      "start_frame": 2784,
+      "frames": 144,
+      "end_frame_exclusive": 2928,
+      "script": "`01:56:00 → 02:02:00` (144f) · CU Amaia's ribs · rate 3s\n- **Action:** Her son, asleep, says into her ribs in a voice too old for him: “It's turning with us. Turn with it.”\n- **FX:** `HOLD; EYES_CLOSED`\n- **Sound:** Child's voice with a quiet adult register layered under it.",
+      "required_action": "Her son, asleep, says into her ribs in a voice too old for him: “It's turning with us. Turn with it.”",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-13.png",
+        "sha256": "c55655dad2a80945b95101cbf1d592af33ad08f3893dd7cec815ac658b72dcb9",
+        "selected_moment": "Intimate closeup Amaia ribs and sleeping toddler cradled firmly against torso, his eyes FULLY CLOSED, lips slightly parted as if murmuring, mother forearm supports his bottom and back naturally. Her offwhite wrap and rustcloth clear; dark canoe edge and moonless water background. No fullmotherface required. Toddler truly22months, not schoolchild.",
+        "revision": 1,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-14",
+      "start_frame": 2928,
+      "frames": 216,
+      "end_frame_exclusive": 3144,
+      "script": "`02:02:00 → 02:11:00` (216f) · ROLL 12° · WS · rate 3s\n- **Action:** She turns with it. Every body leans into the turn; the camera rolls with them. Behind them on the bank the ledger man finishes his line and closes the book.\n- **FX:** `CAMERA_ROLL(0→12deg); CROSS_DISSOLVE_TO(book)`\n- **Sound:** Wood and water. Book closing: a flat clap.",
+      "required_action": "She turns with it. Every body leans into the turn; the camera rolls with them. Behind them on the bank the ledger man finishes his line and closes the book.",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-14.png",
+        "sha256": "232ea312f9bbcbafe9e0a3aa4251c112fdb6062d552cf4dc738abf2a1dc8f045",
+        "selected_moment": "Wide image camera tilted12degrees with exactly3canoes sweeping turn, all11 survivors lean same direction naturally, distribution same asestablishing. Farbank small ledgerclerk closing book, not extra canoe passenger. No splitpanel. LeadDairon/Yara/Amaia+son, secondBeheto+3adults, third3children.",
+        "revision": 3,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    },
+    {
+      "shot": "S01-15",
+      "start_frame": 3144,
+      "frames": 96,
+      "end_frame_exclusive": 3240,
+      "script": "`02:11:00 → 02:15:00` (96f) · FIX · black · rate —\n- **Action:** Black. The clap of the book rings into a keyboard clack (match to S03).\n- **FX:** `MATCH_SOUND`\n- **Sound:** Book clap → keyboard key.",
+      "required_action": "Black. The clap of the book rings into a keyboard clack (match to S03).",
+      "selected_reference": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-15.png",
+        "sha256": "0f52608dd021e7069ef19f9d8f46f6d651aaf5cbac5154465092de3574cf8514",
+        "selected_moment": null,
+        "revision": 1,
+        "creative_status": "exploratory; author review required"
+      },
+      "status": "requires-drawn-action-and-motion-review",
+      "full_motion_verified": false
+    }
+  ]
+}
