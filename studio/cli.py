@@ -263,6 +263,9 @@ def cmd_blender(args):
 def main(argv=None):
     # Keep video dependencies optional; pass through to the bounded Space bridge.
     video_args = list(sys.argv[1:] if argv is None else argv)
+    if video_args and video_args[0] == "cloud":
+        from studio.cloud import main as cloud_main
+        return cloud_main(video_args[1:])
     if video_args and video_args[0] == "picture":
         from studio.picture import main as picture_main
         return picture_main(video_args[1:])
@@ -281,6 +284,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(prog="python -m studio", description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="command", required=True)
+    sub.add_parser("cloud", help="Cloud | Local | Hybrid: prepare, ingest, bridge, review")
     sub.add_parser("craft", help="Craft engines: doctor | tools | run | cels")
     sub.add_parser("picture", help="specialist picture drafts: plan | start | status | handoff")
     sub.add_parser("episode", help="persistent episode draft queue: init | run | status | assemble")
