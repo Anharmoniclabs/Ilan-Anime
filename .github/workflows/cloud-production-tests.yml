@@ -1,0 +1,29 @@
+name: Cloud production contract tests
+
+on:
+  push:
+    branches:
+      - 'feature/chatgpt-cloud-production-*'
+  pull_request:
+    paths:
+      - 'studio/cloud.py'
+      - 'studio/cloud_rig.py'
+      - 'production/cloud/**'
+      - 'tests/test_cloud.py'
+      - '.github/workflows/cloud-production-tests.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cloud-contracts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate ChatGPT Cloud handoff and bell geometry
+        run: python -m unittest discover -s tests -p 'test_cloud.py' -v
