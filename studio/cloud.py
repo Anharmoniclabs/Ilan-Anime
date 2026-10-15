@@ -306,7 +306,7 @@ def bridge(scene, shot, root=ROOT):
         "id": shot, "size": receipt["media"]["size"], "frames": len(pngs),
         "status": "exploratory", "stage": "cloud-import",
         "layers": [{"name": "cloud-candidate-frames",
-                    "sequence": [f"frames/{p.name}" for p in pngs], "rate": 1}],
+                    "sequence": [(p.relative_to(root)).as_posix() for p in pngs], "rate": 1}],
         "camera": [{"frame": 0, "scale": 1}],
         "source_clip_sha256": receipt["sha256"],
         "final_eligible": False,
