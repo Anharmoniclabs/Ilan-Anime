@@ -2,6 +2,28 @@
 
 # Anime Motion
 
+
+## Production modes — Cloud / Local / Hybrid
+
+**Cloud:** ChatGPT can read the verified Episode 1 source and selected stills,
+produce artwork and motion using tools in this chat, and import actual video
+candidates without requiring a local Codex/NESSA agent. **Local:** retain the
+existing studio and Codex worker pipeline. **Hybrid:** convert a cloud candidate
+into a local studio-engine frame sequence for finishing. All three modes
+share shot timing and the independent asset/author approval gates.
+
+Start the source-bound **15-shot / 2:06 S01 river sequence** with:
+
+    python -m studio cloud mode cloud
+    python -m studio cloud prepare S01
+    python -m studio cloud status S01
+
+See [Cloud Production](docs/CLOUD_PRODUCTION.md) and the
+[actual S01 screenplay-grounded chat brief](production/cloud/briefs/S01-river.json).
+The cloud bridge does not silently generate missing drawings or claim video is
+finished until real media is imported and reviewed.
+
+
 A local animation studio for directing image-to-video shots, comparing takes, inspecting every decoded frame and assembling a reviewed film.
 
 ## Camera and editing tooling
