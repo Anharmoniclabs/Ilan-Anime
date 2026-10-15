@@ -31,6 +31,44 @@ def _lerp(a, b, t):
     return (a[0] * (1 - t) + b[0] * t, a[1] * (1 - t) + b[1] * t)
 
 
+def solve_two_bone_ik(shoulder, wrist, upper_length, lower_length, *, bend=1):
+    """Place an elbow with exact limb lengths between fixed shoulder and wrist.
+
+    This is a 2D joint constraint, NOT an animator or an anatomy estimator.
+    Its solution must be adapted to a drawing with real approved keys.
+    """
+    shoulder = _point(shoulder, "shoulder")
+    wrist = _point(wrist, "wrist")
+    if any(v <= 0 or not math.isfinite(v) for v in (upper_length, lower_length)):
+        raise RigError("Limb lengths must be finite and positive")
+    if bend not in (-1, 1):
+        raise RigError("Bend must be -1 or 1")
+    dx = wrist[0] - shoulder[0]
+    dy = wrist[1] - shoulder[1]
+    distance = math.hypot(dx, dy)
+    if distance <= abs(upper_length - lower_length) + 1e-7 \
+            or distance >= upper_length + lower_length - 1e-7:
+        raise RigError("Hand target is unreachable at the locked limb lengths")
+    axis = (upper_length ** 2 - lower_length ** 2 + distance ** 2) / (2 * distance)
+    lateral = math.sqrt(max(0.0, upper_length ** 2 - axis ** 2))
+    return [
+        shoulder[0] + axis * dx / distance - bend * lateral * dy / distance,
+        shoulder[1] + axis * dy / distance + bend * lateral * dx / distance,
+    ]
+
+
+def lock_hand_to_pole(a, b, grip_t):
+    """One permanent normalized grip position on a rigid pole."""
+    a = _point(a, "pole.a")
+    b = _point(b, "pole.b")
+    if isinstance(grip_t, bool) or not isinstance(grip_t, (int, float)) \
+            or not 0 <= grip_t <= 1:
+        raise RigError("Grip position must be between 0 and 1")
+    if _distance(a, b) < 20:
+        raise RigError("Pole geometry degenerate")
+    return list(_lerp(a, b, grip_t))
+
+
 def validate_action(spec):
     """Validate bell mechanics from explicit frame-indexed observed poses.
 
