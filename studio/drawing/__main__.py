@@ -64,6 +64,25 @@ def cmd_flux(a):
                                    steps=a.steps, seed=a.seed, timeout=a.timeout), indent=2))
 
 
+def cmd_constrain(a):
+    """Apply approved-by-task constraints to a draft IR, writing a NEW take."""
+    from studio.drawing.separation import apply_drawing
+    from studio.drawing import render
+    from studio.paths import write_json
+    original = json.loads(Path(a.input).read_text(encoding="utf-8"))
+    rules = json.loads(Path(a.rules).read_text(encoding="utf-8")) if a.rules else None
+    corrected, report = apply_drawing(original, rules)
+    out = _new_dir(a.out)
+    write_json(out / "corrected.drawing.json", corrected)
+    write_json(out / "separation-report.json", {"input": a.input, "rules": report,
+                                              "applied_count": sum(r["delta"] > 0 for r in report),
+                                              "status": "exploratory", "approved": False})
+    (out / "drawing.svg").write_text(render.to_svg(corrected), encoding="utf-8")
+    render.render(corrected).save(out / "preview.png")
+    print(json.dumps({"output": str(out), "applied_count": sum(r["delta"] > 0 for r in report),
+                      "approved": False}, indent=2))
+
+
 def cmd_gate(a):
     from studio.drawing.review import gate_file
     result = gate_file(a.image)
@@ -105,6 +124,12 @@ def main(argv=None):
     s.add_argument("--seed", type=int, default=42)
     s.add_argument("--timeout", type=int, default=3600)
     s.set_defaults(func=cmd_flux)
+
+    s = sub.add_parser("constrain", help="non-destructively apply minimum-gap constraints to any drawing IR")
+    s.add_argument("--input", required=True, help="drawing JSON containing optional separation_constraints")
+    s.add_argument("--rules", help="optional JSON list of explicit pairs; overrides embedded rules")
+    s.add_argument("--out", required=True, help="new empty take directory (never overwrite)")
+    s.set_defaults(func=cmd_constrain)
 
     s = sub.add_parser("gate", help="structural plausibility gate (fails the one-square benchmark)")
     s.add_argument("image")
