@@ -73,7 +73,7 @@ footer{margin-top:auto;color:var(--muted);font-size:11px}
 </div>
 <script>
 "use strict";
-let state=null,frame=0,selected="camera",bounds=[],shotIds=[],showBounds=true,requestCount=0,drag=null,reviewUrl=null,episodePoll=null;
+let state=null,frame=0,selected="camera",bounds=[],shotIds=[],showBounds=true,requestCount=0,drag=null,reviewUrl=null,episodePoll=null,previewSize=null;
 const $=id=>document.getElementById(id);
 const notify=(message,error=false)=>{const node=$("status");node.textContent=message;node.style.color=error?"#ff8f7e":"#a8c5c5"};
 async function api(path,data) {
@@ -167,7 +167,7 @@ function drawBounds(){
     svg.append(poly);
   }
   const rect=document.createElementNS(ns,"rect");
-  const w=state.size[0]*.5,h=state.size[1]*.5;
+  const w=previewSize[0],h=previewSize[1];
   rect.setAttribute("x",w*.05);rect.setAttribute("y",h*.05);
   rect.setAttribute("width",w*.9);rect.setAttribute("height",h*.9);
   rect.setAttribute("class","guide");svg.append(rect);
@@ -175,7 +175,7 @@ function drawBounds(){
 window.addEventListener("pointerup",async e=>{
   if(!drag)return;
   const d=drag;drag=null;
-  const px=(e.clientX-d.x)*(state.size[0]*.5)/d.w,py=(e.clientY-d.y)*(state.size[1]*.5)/d.h;
+  const px=(e.clientX-d.x)*previewSize[0]/d.w,py=(e.clientY-d.y)*previewSize[1]/d.h;
   if(Math.hypot(px,py)<1)return;
   const [[ax,ay],[bx,by]]=d.basis;
   const det=ax*by-ay*bx;
@@ -193,19 +193,21 @@ async function updateFrame(){
   const current=++requestCount;
   $("timecode").textContent=frame+" / "+(state.frames-1);
   $("scrub").value=frame;
-  $("overlays").setAttribute("viewBox","0 0 "+(state.size[0]*.5)+" "+(state.size[1]*.5));
+  // The compositor rounds preview dimensions to even integers; read actual size from the server.
   $("stage").style.aspectRatio=state.size[0]+"/"+state.size[1];
   try{
     const [img,b]=await Promise.all([api("/api/frame?frame="+frame+"&v="+state.revision),api("/api/bounds?frame="+frame)]);
     if(current!==requestCount)return;
     const blob=await img.blob(),url=URL.createObjectURL(blob),prev=$("preview").dataset.url;
     $("preview").src=url;$("preview").dataset.url=url;if(prev)URL.revokeObjectURL(prev);
-    bounds=b.bounds;drawBounds();renderInspector();
+    previewSize=b.size;bounds=b.bounds;
+    $("overlays").setAttribute("viewBox","0 0 "+previewSize[0]+" "+previewSize[1]);
+    drawBounds();renderInspector();
   }catch(e){notify("Preview issue: "+e.message,true)}
 }
 async function selectShot(shot){
   try{notify("Loading entire shot "+shot+"…");clearReview();state=await api("/api/select?shot="+encodeURIComponent(shot));
-    frame=0;selected="camera";$("scrub").max=state.frames-1;
+    frame=0;selected="camera";previewSize=null;$("scrub").max=state.frames-1;
     $("shotTitle").textContent=state.shot;
     $("shotMeta").textContent=state.size.join("×")+" · "+state.frames+" frames · "+state.stage;
     $("report").textContent="Full-scene preview. All layers, camera and transform keys are available. Run Audit full shot to inspect screen-space layer bounds and missing acting.";
