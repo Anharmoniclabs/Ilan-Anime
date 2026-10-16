@@ -8,6 +8,7 @@ Start with the map to locate files, then use the guide for the work you are doin
 
 | Document | Purpose |
 |---|---|
+| [Engineer manual](ENGINEER_MANUAL.md) | Full top-to-bottom guide: story, code, data formats, workflow, duplication audit |
 | [Repository map](REPOSITORY_MAP.md) | Paths and responsibilities for assets, code, production runs, archives and backups |
 | [Status](STATUS.md) | Current picture coverage, blockers, rejected approaches and dated progress history |
 | [Episode workspace](../projects/cemi_episode_01/README.md) | Script/timing sources, original assets and local compositor commands |
