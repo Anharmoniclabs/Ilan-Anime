@@ -103,16 +103,18 @@ def _motion(rows, rule, output, correct, dims, fps, kind):
         png = str(output / root / f"{idx:04d}.png")
         ir = _read(output / "corrected_ir" / f"{idx:04d}.drawing.json") if correct else _read(row["source"])
         frames.append(png)
-        point_map[png] = {"seam.upper": _point(ir, rule["upper"]),
-                          "seam.lower": _point(ir, rule["lower"])}
+        point_map[png] = {label: _point(ir, ref)
+                          for j, pair in enumerate(rule)
+                          for label, ref in ((f"pair{j}.upper", pair["upper"]),
+                                             (f"pair{j}.lower", pair["lower"]))}
+    qa_rules = [{"upper": f"pair{j}.upper", "lower": f"pair{j}.lower",
+                 "minimum": pair["minimum"], "axis": pair.get("axis",[0,-1])}
+                for j,pair in enumerate(rule)]
     return {"shot":"SEPARATION-TEST-001", "size":list(dims), "frames":len(rows),
             "fps":fps, "status":"exploratory", "source_kind":kind,
             "elements":[{"name":"constrained_layer", "kind":"fx", "rate":1,
                          "sequence":frames, "loop":False, "points":point_map,
-                         "separation_constraints":[{
-                             "upper":"seam.upper", "lower":"seam.lower",
-                             "minimum":rule["minimum"], "axis":rule.get("axis",[0,-1])
-                         }]}]}
+                         "separation_constraints":qa_rules}]}
 
 
 def run(manifest, out):
@@ -175,8 +177,8 @@ def run(manifest, out):
     violations_after = sum(any(row["after_gaps"][j]<r["minimum"]-1e-6
                                for j,r in enumerate(rules)) for row in rows)
     _graph(rows, rules[0]["minimum"], out/"measurement.png")
-    _save(out/"before-motion.json",_motion(rows,rules[0],out,False,dims,fps,kind))
-    _save(out/"after-motion.json",_motion(rows,rules[0],out,True,dims,fps,kind))
+    _save(out/"before-motion.json",_motion(rows,rules,out,False,dims,fps,kind))
+    _save(out/"after-motion.json",_motion(rows,rules,out,True,dims,fps,kind))
     videos={part:_video(out/f"{part}.mp4",out/part,fps)
             for part in ("before","after","comparison")}
     report={"frame_count":len(rows),"fps":fps,"source_kind":kind,
