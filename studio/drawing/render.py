@@ -44,6 +44,9 @@ def _rgba(hex_color, opacity=1.0):
 
 def polygons(drawing):
     """Yield (primitive, polygon) in draw order."""
+    if drawing.get("separation_constraints"):
+        from studio.drawing.separation import apply_drawing
+        drawing, _ = apply_drawing(drawing)
     for prim in drawing["primitives"]:
         if prim["kind"] == "fill":
             yield prim, sample(prim["curve"])
