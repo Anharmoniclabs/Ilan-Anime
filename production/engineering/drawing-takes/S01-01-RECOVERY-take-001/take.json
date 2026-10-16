@@ -1,0 +1,29 @@
+{
+  "take": "S01-01-RECOVERY-take-001",
+  "kind": "recovery re-render of approved plan (not new animation)",
+  "renderer": "episode-01/episode.py (byte-identical to approved-workflow-v1/episode.py)",
+  "plan": "episode-01/build/take-02/S01-01.json",
+  "output": "episode-01/build/take-04-recovery/S01-01.mp4",
+  "output_sha256": "be9e9c75e7d849b11dd6b48cc509c4d42d6059b034d346301487ff1878232e77",
+  "probe": {
+    "size": [
+      1440,
+      1080
+    ],
+    "fps": 24,
+    "frames": 144,
+    "pix_fmt": "yuv420p"
+  },
+  "inputs_sha256": {
+    "paddle-sheet": "6cd482986c6b4d4a9158130bd33f662d472f1e70a958f2ce040d990ffdfa0eea",
+    "night-water": "ebeb2994c9e322a89ecc1364fc3dc1112c3d0e2cba773c8a9d85553b62cf969c"
+  },
+  "inspected": "frames 0-33 every 3rd (cycle-frames-0-33.png): 8 distinct drawn cels, entry/splash/pull/exit/drip; BEFORE super present",
+  "gaps": [
+    "script 'rings spread' after exit has no ring cels",
+    "audio pending (water drip, insects, frog)"
+  ],
+  "side_effect": "validate regenerated tracked build/take-01/review.html byte-identically (git shows no diff)",
+  "status": "awaiting-author-review",
+  "approved": false
+}

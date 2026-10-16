@@ -1,0 +1,12 @@
+{
+  "take": "AMAIA-FACE-take-001",
+  "kind": "procedural-new-drawing",
+  "source_sha256": "bbfa41e8693615838e187e2cd3cb5045ebeb51db548358bc22a78e1ef24370aa",
+  "status": "rejected-by-engineer-v1",
+  "approved": false,
+  "authorship": {
+    "brows_eyes_mouth": "procedural (face.construct)",
+    "rest_of_face": "source pixels",
+    "erased_regions": "OpenCV inpaint"
+  }
+}

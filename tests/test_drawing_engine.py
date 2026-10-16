@@ -154,3 +154,39 @@ class ModelPlanTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class FluxCommandTest(unittest.TestCase):
+    def test_command_is_bounded_and_reference_conditioned(self):
+        from studio.drawing import flux
+        argv = flux.command("ref.png", "Amaia, three-quarter view", "out.png", root="/x")
+        self.assertIn("-r", argv)
+        self.assertEqual(argv[argv.index("-r") + 1], "ref.png")
+        self.assertEqual(argv[argv.index("--steps") + 1], "4")
+        for bad in ({"width": 500}, {"width": 4096, "height": 4096}, {"steps": 50}):
+            with self.subTest(bad):
+                with self.assertRaises(flux.FluxError):
+                    flux.command("ref.png", "x", "out.png", root="/x", **bad)
+        with self.assertRaises(flux.FluxError):
+            flux.command("ref.png", "", "out.png", root="/x")
+
+    def test_generate_refuses_without_backend_and_never_downloads(self):
+        from studio.drawing import flux
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertFalse(flux.doctor(root=tmp)["ready"])
+            with self.assertRaises(flux.FluxError):
+                flux.generate("ref.png", "x", f"{tmp}/take", root=tmp)
+
+
+class CliTest(unittest.TestCase):
+    def test_help_for_every_command(self):
+        import contextlib
+        import io
+        from studio.drawing.__main__ import main
+        for command in ("extract", "face", "plan", "flux", "gate"):
+            with self.subTest(command):
+                buf = io.StringIO()
+                with contextlib.redirect_stdout(buf), self.assertRaises(SystemExit) as ctx:
+                    main([command, "--help"])
+                self.assertEqual(ctx.exception.code, 0)
+                self.assertIn("usage", buf.getvalue())

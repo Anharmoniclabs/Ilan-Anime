@@ -1,0 +1,20 @@
+{
+  "model": "qwen2.5-coder:1.5b",
+  "line": "Amaia counts the empty seats in the canoe, grieving the missing",
+  "prompt": "You direct facial acting for an anime character.\nAction line: \"Amaia counts the empty seats in the canoe, grieving the missing\"\nChoose the facial expression for this moment.\nexpression: one of ['fear', 'neutral', 'resolve', 'sorrow', 'stern', 'surprise']\nintensity: number from 0.0 to 1.0\ngaze: one of ['center', 'down', 'left', 'right', 'up']\nReply with only JSON, for example: {\"expression\": \"fear\", \"intensity\": 0.8, \"gaze\": \"left\"}",
+  "attempts": [
+    {
+      "attempt": 1,
+      "raw": "{\"expression\": \"sorrow\", \"intensity\": 0.9, \"gaze\": \"center\"}",
+      "error": null,
+      "seconds": 1.95,
+      "eval_count": 24
+    }
+  ],
+  "plan": {
+    "expression": "sorrow",
+    "intensity": 0.9,
+    "gaze": "center"
+  },
+  "authorship": "model-chosen menu values; geometry is procedural"
+}

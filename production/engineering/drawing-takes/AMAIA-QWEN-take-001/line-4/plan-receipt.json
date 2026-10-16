@@ -1,0 +1,20 @@
+{
+  "model": "qwen2.5-coder:1.5b",
+  "line": "Amaia grips the paddle and sets her jaw, ready to lead the canoe",
+  "prompt": "You direct facial acting for an anime character.\nAction line: \"Amaia grips the paddle and sets her jaw, ready to lead the canoe\"\nChoose the facial expression for this moment.\nexpression: one of ['fear', 'neutral', 'resolve', 'sorrow', 'stern', 'surprise']\nintensity: number from 0.0 to 1.0\ngaze: one of ['center', 'down', 'left', 'right', 'up']\nReply with only JSON, for example: {\"expression\": \"fear\", \"intensity\": 0.8, \"gaze\": \"left\"}",
+  "attempts": [
+    {
+      "attempt": 1,
+      "raw": "{\"expression\": \"resolve\", \"intensity\": 1.0, \"gaze\": \"center\"}",
+      "error": null,
+      "seconds": 1.96,
+      "eval_count": 23
+    }
+  ],
+  "plan": {
+    "expression": "resolve",
+    "intensity": 1.0,
+    "gaze": "center"
+  },
+  "authorship": "model-chosen menu values; geometry is procedural"
+}

@@ -1,0 +1,29 @@
+{
+  "prompt": "The same young woman from the reference image, same face, same curly black hair, same white shoulder wrap and shell necklace, now with her head turned three-quarter view toward her left, frightened expression, eyes wide, brows raised, lips parted. 1990s cel anime, clean variable-weight ink lines, flat cel shading, dark navy background.",
+  "seed": 42,
+  "steps": 4,
+  "size": [
+    512,
+    768
+  ],
+  "model": "flux-2-klein-4b-Q4_0.gguf",
+  "llm": "Qwen3-4B-Q4_K_M.gguf",
+  "runner": "stable-diffusion.cpp 8cd731e CPU",
+  "exit": 0,
+  "seconds": 5017.4,
+  "peak_rss_mb": 4461,
+  "take": "FLUX-BENCH-take-001",
+  "output_sha256": "bafcde6061613b869504786b084d92902ef5ba6869ac9e2110fec2f81d7a8d75",
+  "timing_s": {
+    "total_wall": 5017.4,
+    "generate_image": 1355.8,
+    "sampling_4_steps": 1202.5,
+    "vae_encode": 33.7,
+    "text_condition": 24.8,
+    "vae_decode": 94.8,
+    "load_and_other": 3661.6
+  },
+  "kind": "model-generated (FLUX.2 Klein 4B, reference-conditioned); raster only, not editable layers",
+  "status": "awaiting-author-review",
+  "approved": false
+}

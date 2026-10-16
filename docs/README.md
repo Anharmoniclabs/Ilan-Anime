@@ -22,6 +22,7 @@ Start with the map to locate files, then use the guide for the work you are doin
 | Guide | Purpose |
 |---|---|
 | [Studio runtime](STUDIO_RUNTIME.md) | `python -m studio`, workers, rendering, QA, motion, sound and generation controls |
+| [Drawing engine](DRAWING_ENGINE.md) | Reconstruct, construct, Qwen-directed and FLUX drawing routes; build methodology, code, commands, measured results |
 | [Craft workbench](CRAFT_WORKBENCH.md) | Seven local editing engines, native projects, recipes, receipts and cel exposures |
 | [Engine](ENGINE.md) | Shot JSON, layers, compositing, FX and post-processing |
 | [Shot pipeline](SHOT_PIPELINE.md) | Stage dependencies from source drawings through final review |

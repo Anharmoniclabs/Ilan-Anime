@@ -1,0 +1,60 @@
+{
+  "kind": "reconstruction",
+  "note": "Extracted from approved source pixels; not a newly drawn or model-authored drawing.",
+  "source": "production/engineering/drawing-takes/PADDLE-REF-take-001/cels/paddle_06.png",
+  "source_sha256": "6834f91c5838ba50fb50425225db7879a986700fb97a5fd430dc820041b894cb",
+  "size": [
+    443,
+    443
+  ],
+  "layers": {
+    "flats": {
+      "path": "production/engineering/drawing-takes/PADDLE-REF-take-001/extract/paddle_06/flats.png",
+      "sha256": "9512b84db9718af0919439e3cbd7099dea0385f048a0084dae2b08be3057b9cf"
+    },
+    "shade": {
+      "path": "production/engineering/drawing-takes/PADDLE-REF-take-001/extract/paddle_06/shade.png",
+      "sha256": "a228e8de3d9ebd876b2696b41b414818f69d147b6166ad63673c427da5891265"
+    },
+    "ink": {
+      "path": "production/engineering/drawing-takes/PADDLE-REF-take-001/extract/paddle_06/ink.png",
+      "sha256": "933a425bf92d2cd65238c65f4a00b7f9c0051512867587851fef01a61f5934a2"
+    },
+    "matte": {
+      "path": "production/engineering/drawing-takes/PADDLE-REF-take-001/extract/paddle_06/matte.png",
+      "sha256": "ae09b514ae8a2384a6835d224238740063eb4c61726d9509a8d3b0dd3e8186e0"
+    }
+  },
+  "svg": "production/engineering/drawing-takes/PADDLE-REF-take-001/extract/paddle_06/drawing.svg",
+  "composite": "production/engineering/drawing-takes/PADDLE-REF-take-001/extract/paddle_06/composite.png",
+  "stats": {
+    "fills": 44,
+    "strokes": 76,
+    "stroke_points": 174,
+    "fill_points": 498,
+    "ink_coverage": 0.0094
+  },
+  "params": {
+    "colors": 8,
+    "min_region": 48,
+    "ink_colors": 2,
+    "ink_contrast": 0.1,
+    "line_epsilon": 0.8,
+    "fill_epsilon": 1.0
+  },
+  "metrics": {
+    "vector_only": {
+      "mean_color_error": 8.89,
+      "p95_color_error": 44.0,
+      "alpha_iou": 0.9545,
+      "edge_f1_2px": 0.8976
+    },
+    "layered": {
+      "mean_color_error": 5.07,
+      "p95_color_error": 27.0,
+      "alpha_iou": 1.0,
+      "edge_f1_2px": 0.9571
+    }
+  },
+  "seconds": 0.19
+}
