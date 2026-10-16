@@ -88,6 +88,16 @@ class FullCanvasControlTest(unittest.TestCase):
         with self.assertRaises(CanvasError):
             self.session.save()
 
+    def test_episode_inventory_scans_all_shots_without_motion_claims(self):
+        self.session.select("S01-05")
+        inventory = self.session.inventory()
+        self.assertEqual(inventory["shot_count"], 1)
+        self.assertEqual(inventory["shots_without_character_action_evidence"], 1)
+        self.assertEqual(inventory["shots_with_missing_files"], 0)
+        self.assertEqual(inventory["shots"][0]["layers"], 3)
+        self.assertEqual(inventory["shots"][0]["motion_evidence"], "not demonstrated")
+        self.assertFalse(inventory["author_approved"])
+
     def test_new_take_contains_actual_full_canvas_spec_and_audit(self):
         self.session.select("S01-05")
         self.session.edit({"target": "camera", "frame": 24, "property": "scale", "value": 1.1})
