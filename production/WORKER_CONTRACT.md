@@ -70,6 +70,20 @@ motion, QA, sound and author-review steps; engine success is not creative approv
 
 Inspect what you produced. State which images, frames, audio or video you directly viewed or heard, and which checks were only automated. A text spec, a static sheet or a successful decode never proves movement.
 
+### General geometry clearance tool
+
+Where a task explicitly supplies named upper/lower control-point pairs and a
+minimum spacing, visual workers may use `python -m studio.drawing constrain`
+to apply the symmetric minimum-gap rule to **new draft drawing IRs only**.
+The drawing renderer honors opt-in `separation_constraints` on generic
+strokes and fills (not only facial features). `studio.motion.check` checks
+named pose-point separation for any element with such rules, but does **not**
+rewrite character drawings or approved artwork. Use axis `[0,-1]` for
+screen-space vertical up, or specify an oriented axis for a seam, cloth gap,
+hand/prop clearance, or other geometry. See `studio/drawing/separation.py`
+and `docs/DRAWING_SEPARATION.md`. This is a local constraint tool, not an
+artistic-quality or author-approval gate.
+
 ## 8. Result
 
 Write `result.json` in `output_dir` and return the same object:
