@@ -108,6 +108,8 @@ class CanvasSession:
         self.revision = 0
         self._lock = threading.RLock()
         self._video = None  # (shot, revision, metadata, validated MP4 bytes)
+        self._episode_job = None
+        self._audit_thread = None
 
     def shots(self):
         return [p.stem for p in sorted(self.spec_root.glob("*.json")) if SHOT_RE.fullmatch(p.stem)]
@@ -283,6 +285,67 @@ class CanvasSession:
             "author_approved": False,
         }
 
+    def episode_audit(self):
+        """Snapshot of the explicit all-shot rendered-sample inspection job."""
+        with self._lock:
+            if self._episode_job is None:
+                return {"state": "not_started", "scope": "no render checks performed"}
+            return copy.deepcopy(self._episode_job)
+
+    def start_episode_audit(self):
+        """Launch local CPU-only samples; never mutate approved art or source specs."""
+        with self._lock:
+            if self._audit_thread and self._audit_thread.is_alive():
+                return self.episode_audit()
+            shots = self.shots()
+            self._episode_job = {
+                "state": "running", "completed": 0, "total": len(shots),
+                "render_failures": 0, "rendered_samples": 0, "shots": [],
+                "scope": "actual compositor renders at sampled frames; no full-motion, visual-quality or approval certification",
+                "author_approved": False,
+            }
+            self._audit_thread = threading.Thread(target=self._episode_audit_worker,
+                                                   args=(shots,), daemon=True, name="canvas-episode-audit")
+            self._audit_thread.start()
+            return self.episode_audit()
+
+    def _episode_audit_worker(self, shots):
+        for shot in shots:
+            try:
+                spec = load_json(self.spec_root / f"{shot}.json")
+                comp = Compositor(spec, base=self.project, quality="draft", scale=0.125)
+                count = comp.frames
+                # Cover head, middle, tail and important cel/visibility transitions.
+                sample = {0, count // 2, count - 1}
+                for layer in spec.get("layers", []):
+                    for key in ("in", "out"):
+                        if key in layer:
+                            sample.update((int(layer[key]) - 1, int(layer[key])))
+                    for exposure in layer.get("exposures", []):
+                        sample.update((int(exposure["start"]) - 1, int(exposure["start"]),
+                                       int(exposure["end"]) - 1, int(exposure["end"])))
+                frames = sorted(f for f in sample if 0 <= f < count)
+                # Always include first/middle/last; cap remaining boundary samples.
+                essentials = {0, count // 2, count - 1}
+                frames = sorted(essentials | set((f for f in frames if f not in essentials)[:21]))
+                for frame in frames:
+                    rendered = comp.draw(frame)
+                    if rendered.size != comp.size or rendered.mode != "RGB":
+                        raise CanvasError(f"frame {frame}: wrong output shape/mode")
+                row = {"shot": shot, "state": "sampled_render_pass",
+                       "frames_tested": frames, "total_frames": count,
+                       "visual_quality": "not_assessed", "author_approved": False}
+            except (OSError, ValueError, KeyError, TypeError, RuntimeError) as exc:
+                row = {"shot": shot, "state": "render_failed", "error": str(exc),
+                       "frames_tested": [], "author_approved": False}
+            with self._lock:
+                self._episode_job["completed"] += 1
+                self._episode_job["rendered_samples"] += len(row["frames_tested"])
+                self._episode_job["render_failures"] += (row["state"] == "render_failed")
+                self._episode_job["shots"].append(row)
+        with self._lock:
+            self._episode_job["state"] = "completed"
+
     def _comp(self):
         return Compositor(copy.deepcopy(self.spec), base=self.project, quality="draft", scale=0.5)
 
@@ -439,6 +502,8 @@ class CanvasHandler(BaseHTTPRequestHandler):
                 return self._send(200, self.session.state())
             if url.path == "/api/review-video":
                 return self._send(200, self.session.video_bytes(), "video/mp4")
+            if url.path == "/api/episode-audit":
+                return self._send(200, self.session.episode_audit())
             if url.path == "/api/inventory":
                 return self._send(200, self.session.inventory())
             if url.path in ("/api/frame", "/api/bounds"):
@@ -470,6 +535,8 @@ class CanvasHandler(BaseHTTPRequestHandler):
                 return self._send(200, self.session.edit(data))
             if path == "/api/reorder":
                 return self._send(200, self.session.reorder(data.get("layer"), data.get("direction")))
+            if path == "/api/start-episode-audit":
+                return self._send(200, self.session.start_episode_audit())
             if path == "/api/render-review":
                 return self._send(200, self.session.render_review())
             if path == "/api/save":
