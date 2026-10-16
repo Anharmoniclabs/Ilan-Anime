@@ -104,6 +104,30 @@ class FullCanvasControlTest(unittest.TestCase):
         self.assertEqual(inventory["shots"][0]["motion_evidence"], "not demonstrated")
         self.assertFalse(inventory["author_approved"])
 
+    def test_painted_alpha_bounds_not_full_transparent_registration(self):
+        cel = Image.new("RGBA", (30, 40), (0, 0, 0, 0))
+        cel.paste((184, 120, 81, 255), (4, 5, 14, 20))
+        cel.save(self.project / "assets" / "character.png")
+        self.session.select("S01-05")
+        _, geometry = self.session.preview(0)
+        amaia = next(item for item in geometry if item["name"] == "amaia")
+        self.assertEqual(amaia["painted_source_bounds"], [4, 5, 14, 20])
+        self.assertTrue(amaia["alpha_registered"])
+        self.assertLess(amaia["bounds"]["right"] - amaia["bounds"]["left"], 30 * .5)
+
+    def test_all_shot_sampled_compositor_preflight_reports_rendered_frames(self):
+        self.session.select("S01-05")
+        started = self.session.start_episode_audit()
+        self.assertEqual(started["total"], 1)
+        self.session._audit_thread.join(timeout=15)
+        report = self.session.episode_audit()
+        self.assertEqual(report["state"], "completed")
+        self.assertEqual(report["completed"], 1)
+        self.assertEqual(report["render_failures"], 0, report["shots"])
+        self.assertGreaterEqual(report["rendered_samples"], 3)
+        self.assertEqual(report["shots"][0]["state"], "sampled_render_pass")
+        self.assertFalse(report["author_approved"])
+
     def test_full_shot_video_is_frame_verified_and_cache_invalidates(self):
         from unittest.mock import patch
 
