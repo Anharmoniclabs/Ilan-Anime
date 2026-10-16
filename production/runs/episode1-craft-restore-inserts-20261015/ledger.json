@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "run": "episode1-craft-restore-inserts-20261015",
+  "paused": false,
+  "pause_reason": null,
+  "tasks": {
+    "restore-inserts": {
+      "output_dir": "production/runs/episode1-craft-restore-inserts-20261015/tasks/restore-inserts",
+      "role": "compositor",
+      "inputs": [
+        "AGENTS.md",
+        "docs/STATUS.md",
+        "docs/CRAFT_WORKBENCH.md",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "production/runs/episode1-full-picture/author-decisions.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/shot-index.json",
+        "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout",
+        "production/runs/episode1-insert-finish/tasks/native-inserts",
+        "production/runs/episode1-insert-finish/reviews/native-inserts"
+      ],
+      "shots": [
+        "S03-03",
+        "S04-02",
+        "S05-13",
+        "S06-03"
+      ],
+      "depends_on": [],
+      "objective": "Restore the four historically reviewed insert shots from their actual native EffectCraft sources into NEW output paths. Old MP4s are LFS pointers. Read original builder scripts and exact review evidence. Preserve all originals, actual timing 288/144/96/144 frames, separate layers and prescribed actions. Use ArtCraft to reopen/re-render native compositions; save new native sources, FilmCraft timeline, playable MP4s, sparse decoded evidence and exact hashes. Do not present recovered footage as new animation or transfer old approval. Inspect each result visually and technically. If a source is absent, report that exact source; do not insert stills. One submission for independent animation-supervisor review. No generation or paid services.",
+      "id": "restore-inserts",
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "state": "submitted",
+      "agent_id": "host-restore-inserts",
+      "result": {
+        "task_id": "restore-inserts",
+        "role": "compositor",
+        "status": "submitted",
+        "host_agent_id": "/root/craft_restore",
+        "artifacts": [
+          "production/runs/episode1-craft-restore-inserts-20261015/tasks/restore-inserts/shot-native-index.json",
+          "production/runs/episode1-craft-restore-inserts-20261015/tasks/restore-inserts/HANDOFF.md",
+          "production/runs/episode1-craft-restore-inserts-20261015/tasks/restore-inserts/verification.json",
+          "production/runs/episode1-craft-restore-inserts-20261015/tasks/restore-inserts/restore.py",
+          "production/runs/episode1-craft-restore-inserts-20261015/tasks/restore-inserts/verify.py",
+          "production/runs/episode1-craft-restore-inserts-20261015/tasks/restore-inserts/S03-03/preview.mp4",
+          "production/runs/episode1-craft-restore-inserts-20261015/tasks/restore-inserts/S04-02/preview.mp4",
+          "production/runs/episode1-craft-restore-inserts-20261015/tasks/restore-inserts/S05-13/preview.mp4",
+          "production/runs/episode1-craft-restore-inserts-20261015/tasks/restore-inserts/S06-03/preview.mp4"
+        ],
+        "evidence": [
+          "shot-native-index.json binds all four clips, new native EffectCraft projects, per-shot FilmCraft timelines, copied source dependencies and exact SHA-256 hashes.",
+          "Each native/status.json records successful saved-recipe execution: reopened original compositions after dependency relinking, saved new projects and rendered every frame.",
+          "Each probe.json verifies 288/144/96/144 frames respectively, 1280x720, 24 fps and no audio. Each timeline.json confirms matching FilmCraft duration.",
+          "verification.json: all native item structures equal original after reversing path relinks; original input hashes preserved; native unique-frame counts 288/48/17/1.",
+          "verification.json: coin rigid tracking gives f1 x+2, f12/f15 y-12, f16 y-9, f18 y-1, f19/f95 rest. Frame 17 white; all frames 19-95 pixel-identical.",
+          "Directly viewed decoded-sheet.png for all four shots and full-resolution S05-13 decoded/frame-0012.png; exact frame lists and STORY_FRAME observations in HANDOFF.md. Sequential-frame inspection, not real-time playback.",
+          "Restoration only: historical approval is not transferred. Room fan remains absent; no new action drawings, sound, character acting or episode completion claimed. Separate animation-supervisor review required."
+        ],
+        "blockers": []
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "restore-inserts"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "restore-inserts",
+      "agent_id": "host-restore-inserts"
+    },
+    {
+      "action": "submit",
+      "task_id": "restore-inserts",
+      "status": "submitted"
+    }
+  ]
+}

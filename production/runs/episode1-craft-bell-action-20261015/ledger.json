@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "run": "episode1-craft-bell-action-20261015",
+  "paused": true,
+  "pause_reason": "Generated soldier grips change their distances along the pole between low and high poses without controlled regrip drawings. Cannot register these by rigid transforms while preserving stable hands and pole.; Missing controlled lift/shake breakdowns and separable bell shell/interior/clapper assets with verified rim contacts prevent valid complete 168-frame action.; One generation permitted by envelope was used. Native PhotoCraft source is exploratory drawing material, not completed or approved motion.",
+  "tasks": {
+    "bell-action": {
+      "output_dir": "production/runs/episode1-craft-bell-action-20261015/tasks/bell-action",
+      "role": "key-animator",
+      "inputs": [
+        "AGENTS.md",
+        "docs/STATUS.md",
+        "docs/CRAFT_WORKBENCH.md",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "production/runs/episode1-full-picture/author-decisions.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/shot-index.json"
+      ],
+      "shots": [
+        "S01-05"
+      ],
+      "depends_on": [],
+      "objective": "Create missing 168-frame S01-05 actual action in ArtCraft: stopped soldier torches on bank, one soldier lifts bell pole and rings it hard, cut to swinging brass bell closeup. Clapper moves independently and meets rim at impacts; a flattened full-scene rotation is not action. Inspect selected new reference and all usable bell assets. This explicit image-demand assignment permits ONE built-in host imagegen call for missing action drawings using the viewed exact reference; use imagegen skill, no paid API/fallback. Reuse suitable editable art; isolate stable rigid bell/clapper/pole and registered character lift cels, preserving geometry and hands. Produce editable EffectCraft/FilmCraft, exact exposures and keyframes, 168-frame silent preview at 24fps, sparse sequence evidence and prompt. Current full-episode author-direction uses16:9; preserve 4:3 baseline separately. If one generation lacks required poses, report exact blocker instead of false completion. No final creative approval.",
+      "id": "bell-action",
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "state": "blocked",
+      "agent_id": "host-bell-action",
+      "result": {
+        "task_id": "bell-action",
+        "role": "key-animator",
+        "host_agent_id": "/root/craft_bell",
+        "status": "blocked",
+        "artifacts": [
+          "production/runs/episode1-craft-bell-action-20261015/tasks/bell-action/soldier-lift-candidate.png",
+          "production/runs/episode1-craft-bell-action-20261015/tasks/bell-action/generation-prompt.txt",
+          "production/runs/episode1-craft-bell-action-20261015/tasks/bell-action/continuity.json",
+          "production/runs/episode1-craft-bell-action-20261015/tasks/bell-action/save-candidate.json",
+          "production/runs/episode1-craft-bell-action-20261015/tasks/bell-action/native-source/soldier-lift-candidate.pcraft",
+          "production/runs/episode1-craft-bell-action-20261015/tasks/bell-action/native-source/status.json"
+        ],
+        "evidence": [
+          "One authorized built-in imagegen call produced six exploratory soldier poses; actual PNG viewed and alpha inspected.",
+          "Live PhotoCraft schemas discovered; saved recipe imported PNG and saved native document successfully.",
+          "Directly inspected selected bell closeup, supplied bank soldier, current cast soldier, old bell cel and clean plate. Old bell cel includes scene and attached clapper; clean plate still contains pole and hand.",
+          "No animation rendered because action drawing continuity fails; no EffectCraft or FilmCraft shot delivered."
+        ],
+        "blockers": [
+          "Generated soldier grips change their distances along the pole between low and high poses without controlled regrip drawings. Cannot register these by rigid transforms while preserving stable hands and pole.",
+          "Missing controlled lift/shake breakdowns and separable bell shell/interior/clapper assets with verified rim contacts prevent valid complete 168-frame action.",
+          "One generation permitted by envelope was used. Native PhotoCraft source is exploratory drawing material, not completed or approved motion."
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "bell-action"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "bell-action",
+      "agent_id": "host-bell-action"
+    },
+    {
+      "action": "submit",
+      "task_id": "bell-action",
+      "status": "blocked"
+    }
+  ]
+}

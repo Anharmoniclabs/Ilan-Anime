@@ -1,0 +1,88 @@
+{
+  "version": 1,
+  "run": "episode1-craft-boy-dialogue-20261015",
+  "paused": false,
+  "pause_reason": null,
+  "tasks": {
+    "boy-dialogue": {
+      "output_dir": "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue",
+      "objective": "User priority all116missing motion shots FIRST then wiring. Produce144-frame silent S01-10 actual boy acting draft through ArtCraft: nine-year-old boy head tilted toward offscreen bell, says exact scripted line. Read selected new source art and references; preserve current identity/costume/lighting and stable head shape. Actual replacement facial/mouth drawings and restrained eye acting, no full-image pan or morph. Explicit image-demand assignment permits ONE built-in imagegen call for distinct registered facial/mouth states attached to exact viewed current reference, using imagegen skill; focus only needed face edits, not whole multi-body pose atlas. Inspect the generated edits, retain clean reference background/shoulders, isolate coherent drawn facial cels without seams. Mouth timing is a provisional silent dialogue exposure sheet based on script, not audio-synced final lip sync; label that limitation. Save editable EffectCraft/FilmCraft,144frames24fps1280x720 where source permits; exact reference aspect preserved, no indiscriminate cropping. Save prompts, cels, exposure keys, sparse decoded evidence and SHA256s. No paid API, no approval or episode wiring. One submission to independent review; if identity/contact/drawing fails report exact issue without false complete claim.",
+      "depends_on": [],
+      "shots": [
+        "S01-10"
+      ],
+      "role": "key-animator",
+      "inputs": [
+        "AGENTS.md",
+        "docs/STATUS.md",
+        "docs/CRAFT_WORKBENCH.md",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "production/runs/episode1-full-picture/author-decisions.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/shot-index.json"
+      ],
+      "id": "boy-dialogue",
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "state": "submitted",
+      "agent_id": "host-boy-dialogue",
+      "result": {
+        "task_id": "boy-dialogue",
+        "role": "key-animator",
+        "host_agent_id": "/root/craft_memory",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/native/preview.mp4",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/native/shot.ecproj",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/native/edit.filmcraft",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/native/probe.json",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/native/timeline.json",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/source-atlas.png",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/face-reference.png",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/prompt.txt",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/prepare.py",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/build.py",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/exposures.json",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/registered-mouth/registration.json",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/registered-eyes/registration.json",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/registration-evidence.png",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/decoded-face-evidence.png",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/continuity.json",
+          "production/runs/episode1-craft-boy-dialogue-20261015/tasks/boy-dialogue/hashes.json"
+        ],
+        "evidence": [
+          "Exactly one built-in image generation using the viewed exact face crop and original S01-10 as attached references.",
+          "Four mouth drawings pass nose-region registration: NCC .8971-.9385, residual .049-.0538, translation approximately (-14,-4) source pixels; no scale/shape warp.",
+          "Only feathered mouth regions are used; source hair, skull, nose, eyes, shoulders, hands, canoe and background remain fixed.",
+          "144-frame 1280x720 24fps silent EffectCraft render saved with editable native layers and FilmCraft timeline; FFprobe frame count and full FFmpeg decode succeeded.",
+          "Directly viewed decoded MP4 face frames 0,12,15,18,72,105 and full native frame15. Closed, teeth, open-A and rounded-O states visibly differ without broad face deformation.",
+          "Rechecked EPISODE_SCRIPT.md lines 448-451: the scripted action requires tilted head and dialogue, not a blink. Coordinator clarified added eye acting is optional; original eyes retain the scripted offscreen-bell gaze.",
+          "Optional generated blink/half-eye drawings failed registration (NCC .7822/.6437, residual .079/.096) and were excluded. Their defects do not appear in the submitted clip.",
+          "Speech exposure timing is provisional for the exact scripted line; final lip sync awaits voice recording. No sound-final or author approval is claimed."
+        ],
+        "blockers": [],
+        "creative_status": "Exploratory silent motion draft submitted for independent review. Optional blink drawings excluded after geometry failure; original tilted-head gaze preserved. Dialogue exposures provisional until recorded voice; not audio-final or author-approved."
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "boy-dialogue"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "boy-dialogue",
+      "agent_id": "host-boy-dialogue"
+    },
+    {
+      "action": "submit",
+      "task_id": "boy-dialogue",
+      "status": "submitted"
+    }
+  ]
+}

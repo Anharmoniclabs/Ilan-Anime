@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "run": "episode1-craft-memory-repair-20261015",
+  "paused": false,
+  "pause_reason": null,
+  "tasks": {
+    "memory-repair": {
+      "shots": [
+        "S01-04"
+      ],
+      "inputs": [
+        "AGENTS.md",
+        "docs/STATUS.md",
+        "docs/CRAFT_WORKBENCH.md",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "production/runs/episode1-full-picture/author-decisions.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/shot-index.json",
+        "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action",
+        "production/runs/episode1-craft-memory-action-20261015/reviews/memory-action"
+      ],
+      "output_dir": "production/runs/episode1-craft-memory-repair-20261015/tasks/memory-repair",
+      "id": "memory-repair",
+      "objective": "Repair only S01-04 exact review defects: eliminate double jaw/eyebrow remnants at12/20 with registered stable source features and clean replacement masks; replace glossy pearl/orb with current90s cel-painted shell-blue color insert, no invented pearl. Preserve correct168frames/24fps boundaries and flash56. Read previous native-v2/build.py and exact review with decoded evidence. Use one targeted built-in imagegen edit if needed for shell drawing (single asset, exact viewed references); explicit image-demand, one call, no paid fallback. No need to invent cloth lifting absent script. Existing generated facial states may be reusable with localized mouth/eyelid masks confined inside invariant face contour; inspect every pose transition. Save NEW native source and render at1280x720 if feasible, no overwriting previous attempts. Real fever facial movement must remain; cannot solve ghosting by freezing all faces. Use ArtCraft as existing build does; no episode wiring. Exact prompts/cels/native EffectCraft/FilmCraft/MP4/probes/decoded evidence and result.json for separate reviewer. User priority116missing motion first.",
+      "role": "key-animator",
+      "depends_on": [],
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "state": "running",
+      "agent_id": "host-memory-repair"
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "memory-repair"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "memory-repair",
+      "agent_id": "host-memory-repair"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "run": "episode1-craft-memory-repair-20261015",
+  "bindings": {
+    "memory-repair": {
+      "creator": {
+        "ledger_alias": "host-memory-repair",
+        "host": "collaboration",
+        "host_agent_id": "/root/craft_bell",
+        "role": "key-animator",
+        "state": "active",
+        "note": "Creator bound after host spawn"
+      }
+    }
+  }
+}

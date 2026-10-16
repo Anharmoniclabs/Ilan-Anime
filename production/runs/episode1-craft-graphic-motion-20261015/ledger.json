@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "run": "episode1-craft-graphic-motion-20261015",
+  "paused": false,
+  "pause_reason": null,
+  "tasks": {
+    "graphic-motion": {
+      "id": "graphic-motion",
+      "depends_on": [],
+      "shots": [
+        "S03-07",
+        "S03-11",
+        "S08-02",
+        "S09-04"
+      ],
+      "objective": "Latest user priority: finish all116missing motion shots FIRST, no episode wiring yet. Animate these four missing graphic/editorial shots with native ArtCraft paths/text/layers at their EXACT source frame counts. S03-07 handwritten unexplained-things list scroll with47circled THE COIN; S03-11 pressed eight-second band, twelve discrete DEL presses/returns; S08-02 iris blades align to shared cemi motif for exactly3frames then unalign plus exact Aperture Civic text; S09-04 rent arithmetic orbiting/crossing out under nine-day pressure. Read exact scripts and source images and existing shared motif assets. Do not invent exact historical facts or story numbers if absent; use provided source-spec details. These are native graphic actions, no character acting or generated portraits needed unless script requires them; if actual missing required character action cannot be authored, flag incomplete. Use EffectCraft custom native paths/text/keys, separate editable elements and FilmCraft per-shot timelines; each shot needs real scripted motion, source dimensions1280x720/24fps, sparse sequential inspection and probes. Do not flatten all artwork into a pan or turn a storyboard into footage. Preserve source still and old takes. No image generation, paid calls, final approval, episode assembly or timeline wiring. Save all four previews and exact native evidence in task output. Submit separate per-shot status in shot-index.json, plus result.json for independent animation-supervisor review.",
+      "inputs": [
+        "AGENTS.md",
+        "docs/STATUS.md",
+        "docs/CRAFT_WORKBENCH.md",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "production/runs/episode1-full-picture/author-decisions.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/shot-index.json"
+      ],
+      "role": "compositor",
+      "output_dir": "production/runs/episode1-craft-graphic-motion-20261015/tasks/graphic-motion",
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "state": "running",
+      "agent_id": "host-graphic-motion"
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "graphic-motion"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "graphic-motion",
+      "agent_id": "host-graphic-motion"
+    }
+  ]
+}

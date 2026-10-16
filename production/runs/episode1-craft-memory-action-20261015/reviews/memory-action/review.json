@@ -1,0 +1,26 @@
+{
+  "decision": "reject",
+  "reviewer_role": "animation-supervisor",
+  "host_agent_id": "/root/craft_bell",
+  "shot": "S01-04",
+  "art_direction_mode": "STORY_FRAME",
+  "evidence": "Independent review of exact native-v2 submission. Full MP4 decoded successfully to 168 PNGs; ffprobe confirms one silent video stream, 960x540 (16:9), 24/1 fps, 7 seconds. Directly inspected decoded frames 0,11,12,19,20,24,31,32,39,40,48,55,56,57,58,60,64,68,76,100,110,111,112,113,138,167, including enlarged girl face and all drawing-change boundaries. This is sampled-frame sequence inspection plus full automated decode, NOT real-time playback. Current script requires fever children, lightning, then shell-blue color; cloth lift is not required. Forehead cloth/hand contact, mat and environment remain fixed. Flash occupies frame56 only, with distinct storm at57 and shell at112; lightning decay and separate rain continue through111. Facial replacements at12 and20 visibly shift cheek/jaw and eyebrow construction while soft masks retain old outlines: enlarged face-registration.jpg shows doubled chin contour and translucent eyebrow remnants. Fixed skull/contact geometry criterion fails despite restrained intended breathing. Insert112–167 contains a glossy pearl-like sphere and reflective shell with near-photographic specular detail, materially different from current reference ink/cel style and adding an unrequested focal object. Shell light pulse is visible138 vs112/167, so not an entirely frozen insert. Long holds are disclosed: 8–16 frames per fever drawing, storm and shell plates held56frames each under independent light/rain. Limited holds are not independently rejected, but exposure wording 'on twos' does not mean fresh drawings every2frames. Native saved layers/timeline were inspected as JSON; projects were not reopened in this review. 960x540 is review-draft resolution, not finished master. No author creative approval inferred.",
+  "repair_notes": [
+    "At fever drawing boundaries12,20,32,40, lock the girl's hairline, skull/jaw silhouette, nose base, forehead-cloth contact and ear coordinates to the first drawing. Redraw only controlled mouth/eyelid and breathing changes; use clean registered facial cels/appropriate opaque interior masks so no base jaw or eyebrow remains visible beneath a moved contour. Do not reduce the motion amplitude as a substitute for fixing registration. Inspect matching before/after enlarged decoded frames.",
+    "Replace shell insert112–167 with a painted/inked 1990s cel-compatible shell-blue interior/color field matching current source palette. Remove the glossy pearl/orb focal object; retain separate transmitted-light pulse and exact56-frame duration. Existing script does not require a photorealistic shell or pearl.",
+    "Preserve validated168-frame/24fps/silent16:9 timing and frame56 one-frame flash. Keep960x540 labeled draft; create a properly sourced higher-resolution master only after visual corrections. Clarify exposure description as deliberate8–16frame character holds with effects, not continuous fresh2-frame drawings.",
+    "After repairs, submit a new version with new exact hashes and decoded transition/face evidence for independent review. No cloth-lift or additional hand action is required."
+  ],
+  "hashes": {
+    "native-v2/preview.mp4": "ebf0d26e745f0421d6e829ddd67c65173d6207f380c919d28ad05b3e373c42dd",
+    "native-v2/shot.ecproj": "914da97d24979fbb242ac85e39996a38a49a5cdd0cfafe298790650a408ebc86",
+    "native-v2/edit.filmcraft": "a7926be3566f7105ffcc88ae7b5124a74f14ac21d80c746e1c362bdebfb31922"
+  },
+  "evidence_files": [
+    "key-frames.jpg",
+    "pose-changes.jpg",
+    "face-registration.jpg",
+    "insert-boundaries.jpg"
+  ],
+  "creative_approval": false
+}

@@ -1,0 +1,727 @@
+{
+ "note": "Git LFS pointer stubs; the real video/zip bytes were never uploaded and cannot be recovered. A re-render can be checked against lost_sha256 only if it is bit-identical.",
+ "count": 144,
+ "lost_total_bytes": 301864729,
+ "files": [
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/cel-demo/camera-test-take-01/camera.mp4",
+   "lost_sha256": "bdefa086a82b6b5fa7692f545016c9247657b30e1fa07fe5f6ced603f8a13139",
+   "lost_bytes": 3771561
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/cel-demo/camera-test-take-01/shots/000.mp4",
+   "lost_sha256": "a9da6278317d82abd71cf121578f0141ff3ac90c3ffa7cf958ca51973a126e85",
+   "lost_bytes": 1247438
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/cel-demo/camera-test-take-01/shots/001.mp4",
+   "lost_sha256": "7a1e7c04dac579a7330ef506935d27ae013d824969e9563bba35ebbbbc3068ee",
+   "lost_bytes": 1321787
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/cel-demo/camera-test-take-01/shots/002.mp4",
+   "lost_sha256": "9e4efa2475ee1d97e17dcfd7d943bfb123730f34ea360d4d5b4f51dd4e4b4c56",
+   "lost_bytes": 1292724
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/cel-demo/camera-test-take-02/camera.mp4",
+   "lost_sha256": "8782b8d4e79e81fe7858ae88d51e94fd7db63605e22426b7450cfbaf80cc09f0",
+   "lost_bytes": 3640624
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/cel-demo/camera-test-take-02/shots/000.mp4",
+   "lost_sha256": "b43330081f5ddc13dbf1010657843143808bcb0c435aa97b2f89ff8620495bad",
+   "lost_bytes": 1250122
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/cel-demo/camera-test-take-02/shots/001.mp4",
+   "lost_sha256": "94a53f56ad211ca4b03d8680c3c06c3af812b28ab549b9e13fa60720b044412a",
+   "lost_bytes": 1253203
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/cel-demo/camera-test-take-02/shots/002.mp4",
+   "lost_sha256": "68e7e094eb593efe07c3b4ba6852940f0b0e976610834fcde817acaa3db23338",
+   "lost_bytes": 1248665
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/cel-demo/dairon-refined-source/animation.mp4",
+   "lost_sha256": "5ca2d91fdbef0b57401faba1ed05c09ad975448801828345ed166b0e2994690f",
+   "lost_bytes": 697642
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/cel-demo/dairon-take-01/animation.mp4",
+   "lost_sha256": "4fae648c14357440edc456b280b9dc90064e8b5b47c402d0d930bcbb7d7a7842",
+   "lost_bytes": 508418
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/cel-demo/jump-take-01/animation.mp4",
+   "lost_sha256": "8d54918a4901fec1bb1548721e2be5e54e419387012d26e4da198145d72f5f79",
+   "lost_bytes": 189963
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/approved-workflow-v1/reference/opening-assembly.mp4",
+   "lost_sha256": "a17ab4263d88cacac51d6a9933c3c1993f5af18a1f40a98c27077bfefa130019",
+   "lost_bytes": 5909970
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/new-night-scene-take-01/animation.mp4",
+   "lost_sha256": "a1591799cfa1fa61c635c553603aea68fab2cd34ce613723e6ed3afddd9e8aa6",
+   "lost_bytes": 2170189
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/take-01/S00-01.mp4",
+   "lost_sha256": "affc9619cda8d1be81c0f0e1789e81f3ef15634285e58f10dd9e6d840895c5dd",
+   "lost_bytes": 19483
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/take-01/S00-02.mp4",
+   "lost_sha256": "f4b8bd4fba0ff2a93b9e6c4cd04d9ef0b3b10b9c14453c33b0852511294d68b4",
+   "lost_bytes": 33695
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/take-01/S01-01.mp4",
+   "lost_sha256": "be9e9c75e7d849b11dd6b48cc509c4d42d6059b034d346301487ff1878232e77",
+   "lost_bytes": 876706
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/take-01/S01-02.mp4",
+   "lost_sha256": "e70aa711adaaf4d58a39d97db28dda42f25ecd8c6192bc05c9c65227913bcc95",
+   "lost_bytes": 2260036
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/take-01/S01-03.mp4",
+   "lost_sha256": "c709a5a6b2d9516525f3ec679c096b98bc3a3d857688efc44665f668b0efc4c2",
+   "lost_bytes": 1548406
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/take-01/shot-gbxkxc6j/video.mp4",
+   "lost_sha256": "5181dfdca17a06c43d5aeca3559dd1121fac47a7d95368bc43e1c40d13177749",
+   "lost_bytes": 262192
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/take-01/shot-nf9blhj7/video.mp4",
+   "lost_sha256": "64d52708f594e8a1a3a4f76deef7275c8ad5184480c9473d8f60a0c9b6f4628b",
+   "lost_bytes": 48
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/take-02/S00-01.mp4",
+   "lost_sha256": "affc9619cda8d1be81c0f0e1789e81f3ef15634285e58f10dd9e6d840895c5dd",
+   "lost_bytes": 19483
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/take-02/S00-02.mp4",
+   "lost_sha256": "f4b8bd4fba0ff2a93b9e6c4cd04d9ef0b3b10b9c14453c33b0852511294d68b4",
+   "lost_bytes": 33695
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/take-02/S01-01.mp4",
+   "lost_sha256": "be9e9c75e7d849b11dd6b48cc509c4d42d6059b034d346301487ff1878232e77",
+   "lost_bytes": 876706
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/take-02/S01-02.mp4",
+   "lost_sha256": "56fc3f48eecaeee74b7276592e6d5c84a262e7a26aada3063706dd465c710ef1",
+   "lost_bytes": 3434885
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/take-02/S01-03.mp4",
+   "lost_sha256": "c709a5a6b2d9516525f3ec679c096b98bc3a3d857688efc44665f668b0efc4c2",
+   "lost_bytes": 1548406
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/episode-01/build/take-02/opening-assembly.mp4",
+   "lost_sha256": "a17ab4263d88cacac51d6a9933c3c1993f5af18a1f40a98c27077bfefa130019",
+   "lost_bytes": 5909970
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/river-opening/camera-build-2pwj4hct/result/shots/000.mp4",
+   "lost_sha256": "f873913bc38236ad75fda14e93fd4de5f1c57cfff1d806b65e04149f295f0bf0",
+   "lost_bytes": 4343527
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/river-opening/camera-build-2pwj4hct/result/shots/001.mp4",
+   "lost_sha256": "998302accb7613003eb1d3a5b62bf2c28c4b95df27db3c8d29c1feae82950345",
+   "lost_bytes": 262192
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/river-opening/full-scene-v2/preview-loop.mp4",
+   "lost_sha256": "7670743567d1819a3ec0aaa0c7ae5d71432b611b746389616d92dded41838e91",
+   "lost_bytes": 4406238
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/river-opening/full-scene-v2/take-01/animation.mp4",
+   "lost_sha256": "c3fb9b25e873060117adb8358609e8989e43ab6b9abb3f13e76d7a86dcb604c5",
+   "lost_bytes": 1469310
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/river-opening/opening-4K/camera.mp4",
+   "lost_sha256": "1aa5b2f91b958591beebcf5740baab55f68b46e6c52bd4062abf50fd366292fb",
+   "lost_bytes": 14637766
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/river-opening/opening-4K/shots/000.mp4",
+   "lost_sha256": "a1f4a67951ce1a7535381b1b08ba0c31bca9ceba8444b5df04de48af2c795afe",
+   "lost_bytes": 10991933
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/river-opening/opening-4K/shots/001.mp4",
+   "lost_sha256": "3c852525e7ff72d305c75da9e902913038a297832ec05dbf3242f5c32da784b6",
+   "lost_bytes": 3646508
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/river-opening/opening-HD/camera.mp4",
+   "lost_sha256": "7763fd5044544c920783b6ce92e50a8c1b5a9b6710aebc7c0e41c1db4c733b8e",
+   "lost_bytes": 5362968
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/river-opening/scene-build-ncv3bt7y/result/scene.mp4",
+   "lost_sha256": "2d98112286d667eba37d46cf698e2d8c70c64113fb25954017205d3b9bef2f5e",
+   "lost_bytes": 524336
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/river-opening/shot-01-take-02/scene.mp4",
+   "lost_sha256": "8bb8956b339a2605e34b62453693a5573ebcd193c9fc5b908163720df62f6667",
+   "lost_bytes": 2933386
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/river-opening/shot-02-take-01/scene.mp4",
+   "lost_sha256": "6510515e238f3ade75f027294e65b2342e1fa657e097ef7823fc04dbc8f9a3ff",
+   "lost_bytes": 1283097
+  },
+  {
+   "path": "archive/local-production-2026-10-14/AnimeMotion/river-opening/vintage-90s/take-01/animation.mp4",
+   "lost_sha256": "3695aa48c611dc00a4cbcf3e06e066bc8fdc6f99c3c4a0b8a3beb5b97a71f8bc",
+   "lost_bytes": 1743542
+  },
+  {
+   "path": "archive/local-production-2026-10-14/HeraldsOfTheCemi/delivery/ch01-jerome-0307-v2.mp4",
+   "lost_sha256": "d9e3c56a63cc6fd3db3dcbad59d2807473a0330108ed40fc2d356721b1d87781",
+   "lost_bytes": 5809506
+  },
+  {
+   "path": "archive/local-production-2026-10-14/HeraldsOfTheCemi/production/assets/d9e3c56a63cc6fd3db3dcbad59d2807473a0330108ed40fc2d356721b1d87781.mp4",
+   "lost_sha256": "d9e3c56a63cc6fd3db3dcbad59d2807473a0330108ed40fc2d356721b1d87781",
+   "lost_bytes": 5809506
+  },
+  {
+   "path": "backups/2026-10-14/01-git-history-001.zip",
+   "lost_sha256": "59729bc1738364a9c4756988ef8516651a5afb839b8c4bb92e7254834bf511e2",
+   "lost_bytes": 1301403
+  },
+  {
+   "path": "backups/2026-10-14/02-engine-and-docs-001.zip",
+   "lost_sha256": "e9d2cf7c037e9db4fba8664d2d62d7f6eaf6d5aecfe5ea38f21509fc0c3f0b80",
+   "lost_bytes": 119334
+  },
+  {
+   "path": "backups/2026-10-14/03-shot-artwork-001.zip",
+   "lost_sha256": "bf20892b8add8bd461b1023e6f61037aa4a7a679f121048263073fe62d212c6c",
+   "lost_bytes": 23161829
+  },
+  {
+   "path": "backups/2026-10-14/03-shot-artwork-002.zip",
+   "lost_sha256": "e78a4fd599073defe9bd14e0a5b3b26eb8bcbe3397c4e99c0a406d4bd2b36c74",
+   "lost_bytes": 23296098
+  },
+  {
+   "path": "backups/2026-10-14/03-shot-artwork-003.zip",
+   "lost_sha256": "18cb446d3e934cecedd2a16d9ed7637cefe204d49c4f89aadd0e9f8cb7b9fecb",
+   "lost_bytes": 24235481
+  },
+  {
+   "path": "cel-demo/camera-test-take-01/camera.mp4",
+   "lost_sha256": "bdefa086a82b6b5fa7692f545016c9247657b30e1fa07fe5f6ced603f8a13139",
+   "lost_bytes": 3771561
+  },
+  {
+   "path": "cel-demo/camera-test-take-01/shots/000.mp4",
+   "lost_sha256": "a9da6278317d82abd71cf121578f0141ff3ac90c3ffa7cf958ca51973a126e85",
+   "lost_bytes": 1247438
+  },
+  {
+   "path": "cel-demo/camera-test-take-01/shots/001.mp4",
+   "lost_sha256": "7a1e7c04dac579a7330ef506935d27ae013d824969e9563bba35ebbbbc3068ee",
+   "lost_bytes": 1321787
+  },
+  {
+   "path": "cel-demo/camera-test-take-01/shots/002.mp4",
+   "lost_sha256": "9e4efa2475ee1d97e17dcfd7d943bfb123730f34ea360d4d5b4f51dd4e4b4c56",
+   "lost_bytes": 1292724
+  },
+  {
+   "path": "cel-demo/camera-test-take-02/camera.mp4",
+   "lost_sha256": "8782b8d4e79e81fe7858ae88d51e94fd7db63605e22426b7450cfbaf80cc09f0",
+   "lost_bytes": 3640624
+  },
+  {
+   "path": "cel-demo/camera-test-take-02/shots/000.mp4",
+   "lost_sha256": "b43330081f5ddc13dbf1010657843143808bcb0c435aa97b2f89ff8620495bad",
+   "lost_bytes": 1250122
+  },
+  {
+   "path": "cel-demo/camera-test-take-02/shots/001.mp4",
+   "lost_sha256": "94a53f56ad211ca4b03d8680c3c06c3af812b28ab549b9e13fa60720b044412a",
+   "lost_bytes": 1253203
+  },
+  {
+   "path": "cel-demo/camera-test-take-02/shots/002.mp4",
+   "lost_sha256": "68e7e094eb593efe07c3b4ba6852940f0b0e976610834fcde817acaa3db23338",
+   "lost_bytes": 1248665
+  },
+  {
+   "path": "cel-demo/dairon-refined-source/animation.mp4",
+   "lost_sha256": "5ca2d91fdbef0b57401faba1ed05c09ad975448801828345ed166b0e2994690f",
+   "lost_bytes": 697642
+  },
+  {
+   "path": "cel-demo/dairon-take-01/animation.mp4",
+   "lost_sha256": "4fae648c14357440edc456b280b9dc90064e8b5b47c402d0d930bcbb7d7a7842",
+   "lost_bytes": 508418
+  },
+  {
+   "path": "cel-demo/jump-take-01/animation.mp4",
+   "lost_sha256": "8d54918a4901fec1bb1548721e2be5e54e419387012d26e4da198145d72f5f79",
+   "lost_bytes": 189963
+  },
+  {
+   "path": "episode-01/approved-workflow-v1/reference/opening-assembly.mp4",
+   "lost_sha256": "a17ab4263d88cacac51d6a9933c3c1993f5af18a1f40a98c27077bfefa130019",
+   "lost_bytes": 5909970
+  },
+  {
+   "path": "episode-01/build/new-night-scene-take-01/animation.mp4",
+   "lost_sha256": "a1591799cfa1fa61c635c553603aea68fab2cd34ce613723e6ed3afddd9e8aa6",
+   "lost_bytes": 2170189
+  },
+  {
+   "path": "episode-01/build/take-01/S00-01.mp4",
+   "lost_sha256": "affc9619cda8d1be81c0f0e1789e81f3ef15634285e58f10dd9e6d840895c5dd",
+   "lost_bytes": 19483
+  },
+  {
+   "path": "episode-01/build/take-01/S00-02.mp4",
+   "lost_sha256": "f4b8bd4fba0ff2a93b9e6c4cd04d9ef0b3b10b9c14453c33b0852511294d68b4",
+   "lost_bytes": 33695
+  },
+  {
+   "path": "episode-01/build/take-01/S01-01.mp4",
+   "lost_sha256": "be9e9c75e7d849b11dd6b48cc509c4d42d6059b034d346301487ff1878232e77",
+   "lost_bytes": 876706
+  },
+  {
+   "path": "episode-01/build/take-01/S01-02.mp4",
+   "lost_sha256": "e70aa711adaaf4d58a39d97db28dda42f25ecd8c6192bc05c9c65227913bcc95",
+   "lost_bytes": 2260036
+  },
+  {
+   "path": "episode-01/build/take-01/S01-03.mp4",
+   "lost_sha256": "c709a5a6b2d9516525f3ec679c096b98bc3a3d857688efc44665f668b0efc4c2",
+   "lost_bytes": 1548406
+  },
+  {
+   "path": "episode-01/build/take-01/shot-gbxkxc6j/video.mp4",
+   "lost_sha256": "5181dfdca17a06c43d5aeca3559dd1121fac47a7d95368bc43e1c40d13177749",
+   "lost_bytes": 262192
+  },
+  {
+   "path": "episode-01/build/take-01/shot-nf9blhj7/video.mp4",
+   "lost_sha256": "64d52708f594e8a1a3a4f76deef7275c8ad5184480c9473d8f60a0c9b6f4628b",
+   "lost_bytes": 48
+  },
+  {
+   "path": "episode-01/build/take-02/S00-01.mp4",
+   "lost_sha256": "affc9619cda8d1be81c0f0e1789e81f3ef15634285e58f10dd9e6d840895c5dd",
+   "lost_bytes": 19483
+  },
+  {
+   "path": "episode-01/build/take-02/S00-02.mp4",
+   "lost_sha256": "f4b8bd4fba0ff2a93b9e6c4cd04d9ef0b3b10b9c14453c33b0852511294d68b4",
+   "lost_bytes": 33695
+  },
+  {
+   "path": "episode-01/build/take-02/S01-01.mp4",
+   "lost_sha256": "be9e9c75e7d849b11dd6b48cc509c4d42d6059b034d346301487ff1878232e77",
+   "lost_bytes": 876706
+  },
+  {
+   "path": "episode-01/build/take-02/S01-02.mp4",
+   "lost_sha256": "56fc3f48eecaeee74b7276592e6d5c84a262e7a26aada3063706dd465c710ef1",
+   "lost_bytes": 3434885
+  },
+  {
+   "path": "episode-01/build/take-02/S01-03.mp4",
+   "lost_sha256": "c709a5a6b2d9516525f3ec679c096b98bc3a3d857688efc44665f668b0efc4c2",
+   "lost_bytes": 1548406
+  },
+  {
+   "path": "episode-01/build/take-02/opening-assembly.mp4",
+   "lost_sha256": "a17ab4263d88cacac51d6a9933c3c1993f5af18a1f40a98c27077bfefa130019",
+   "lost_bytes": 5909970
+  },
+  {
+   "path": "production/craft-validation/cels-v1/preview.mp4",
+   "lost_sha256": "febf8b99880a5ba29d8e91dbe734b573ccab179ffa4ad4c2ff87fe1a647616c3",
+   "lost_bytes": 2414
+  },
+  {
+   "path": "production/craft-validation/cels-v2/preview.mp4",
+   "lost_sha256": "26b4dd94834a1d1e4b16e2d3b1d428a7c1d870049195d3272cf289862d5ca8ac",
+   "lost_bytes": 2426
+  },
+  {
+   "path": "production/craft-validation/cels-v3/local-review.mp4",
+   "lost_sha256": "99e0f552f18d2fc983e04f1772b839133ee9b93f11522b7bb46e1b7516642ce2",
+   "lost_bytes": 2390
+  },
+  {
+   "path": "production/craft-validation/cels-v3/preview.mp4",
+   "lost_sha256": "26b4dd94834a1d1e4b16e2d3b1d428a7c1d870049195d3272cf289862d5ca8ac",
+   "lost_bytes": 2426
+  },
+  {
+   "path": "production/episode-automation-v1/jobs/S01-01/imported/source.mp4",
+   "lost_sha256": "ce085a9c083994d1adba0b878ccb700221bb282554daed13a21c1c31065ac164",
+   "lost_bytes": 748647
+  },
+  {
+   "path": "production/episode-automation-v1/shots/S00-01.mp4",
+   "lost_sha256": "2c19483d64e1636a32fd2636b2f6b97bb6240cbf592839b03c10a0a52e7e0679",
+   "lost_bytes": 19023
+  },
+  {
+   "path": "production/episode-automation-v1/shots/S00-02.mp4",
+   "lost_sha256": "042018f5234b9efbd1e552994f03fa46d727bf447bd63962da8c3c0af73958e2",
+   "lost_bytes": 52733
+  },
+  {
+   "path": "production/episode-automation-v1/shots/S01-01.mp4",
+   "lost_sha256": "c914d978ebd7d34023ff2b80864e4be294e6256b5a835129ac17d7a48dce88f0",
+   "lost_bytes": 1402446
+  },
+  {
+   "path": "production/episode-first-pass/ending/S15-09-review.mp4",
+   "lost_sha256": "83bdb5d256706de0cc21b776680a645d16ea34048e142334847bfe1a57d17c7b",
+   "lost_bytes": 153709
+  },
+  {
+   "path": "production/episode-first-pass/opening/S00-01.mp4",
+   "lost_sha256": "2c19483d64e1636a32fd2636b2f6b97bb6240cbf592839b03c10a0a52e7e0679",
+   "lost_bytes": 19023
+  },
+  {
+   "path": "production/episode-first-pass/opening/S00-02.mp4",
+   "lost_sha256": "042018f5234b9efbd1e552994f03fa46d727bf447bd63962da8c3c0af73958e2",
+   "lost_bytes": 52733
+  },
+  {
+   "path": "production/episode-first-pass/opening/opening-picture-review.mp4",
+   "lost_sha256": "0e9683f6142497fd1aad744a06c17f224fe4909532dbdd97e4ed816528430c64",
+   "lost_bytes": 70982
+  },
+  {
+   "path": "production/runs/cemi-90s-production/tasks/amaia-assets-r2/amaia-control-demo.mp4",
+   "lost_sha256": "371fc5e9b9552831a2a52872ca407ed91229abdeeb434103521d5b589dca252c",
+   "lost_bytes": 105536
+  },
+  {
+   "path": "production/runs/cemi-90s-production/tasks/amaia-assets/amaia-control-demo.mp4",
+   "lost_sha256": "fa50fec7caeb8fbd2a119f300dc9a07008b80c895000e5174839a3060f09dc71",
+   "lost_bytes": 184060
+  },
+  {
+   "path": "production/runs/cemi-90s-production/tasks/amaia-complete/amaia-control-demo.mp4",
+   "lost_sha256": "371fc5e9b9552831a2a52872ca407ed91229abdeeb434103521d5b589dca252c",
+   "lost_bytes": 105536
+  },
+  {
+   "path": "production/runs/cemi-90s-production/tasks/amaia-complete/amaia-facial-check-16x9.mp4",
+   "lost_sha256": "3e745f943d251c6d5aabf4616855f596afa6e5868ddc930455676b544bc24940",
+   "lost_bytes": 98949
+  },
+  {
+   "path": "production/runs/cemi-90s-production/tasks/amaia-complete/native/amaia-control-demo.mp4",
+   "lost_sha256": "75713dd89d72339614c8b1683aee7f7b673e3398a364ec99b0e5f7c038244bd0",
+   "lost_bytes": 138361
+  },
+  {
+   "path": "production/runs/cemi-90s-production/tasks/amaia-complete/native/joint-experiment/amaia-controls.mp4",
+   "lost_sha256": "df27c43b65b382340eec4bc89617b5777ed08752bfaadf15d4e6e0076d778941",
+   "lost_bytes": 143244
+  },
+  {
+   "path": "production/runs/cemi-90s-production/tasks/s01-01/S01-01-preview.mp4",
+   "lost_sha256": "f1568350cb6911623ac74280bfbbcce39f35d3460f9488af19928dcd77fb80c1",
+   "lost_bytes": 712961
+  },
+  {
+   "path": "production/runs/episode1-action-completion-20261014/tasks/s01-07-writing-action/native/preview.mp4",
+   "lost_sha256": "b450b7c5fdfa20be3161d4cb6f573e2c25b5ab9e49c15730aedd1cf96cefac6c",
+   "lost_bytes": 766390
+  },
+  {
+   "path": "production/runs/episode1-amaia-finish/tasks/three-losses-r2/S01-03-three-losses-r2-silent.mp4",
+   "lost_sha256": "771efbac20c15b1c977b47d7c146b11171a695c38e44d8916eab8c87f2a198d0",
+   "lost_bytes": 1739794
+  },
+  {
+   "path": "production/runs/episode1-amaia-finish/tasks/three-losses/S01-03-three-losses-silent-final.mp4",
+   "lost_sha256": "b270effedf8c7003ed779519f36281671dcd69b2e22850ba4f0d9330f7c9ef7a",
+   "lost_bytes": 1786328
+  },
+  {
+   "path": "production/runs/episode1-amaia-finish/tasks/three-losses/S01-03-three-losses-silent-review.mp4",
+   "lost_sha256": "706c2ac3016e3aa1770341d790b6690cdd431e43106fa8a484624300f842eb0a",
+   "lost_bytes": 1786706
+  },
+  {
+   "path": "production/runs/episode1-amaia-finish/tasks/three-losses/S01-03-three-losses-silent-v2.mp4",
+   "lost_sha256": "59c9a7594085c0dea4279157b45e9c35222b950c1b0e7d7be25367fbce50e072",
+   "lost_bytes": 1731270
+  },
+  {
+   "path": "production/runs/episode1-amaia-finish/tasks/three-losses/S01-03-three-losses-silent.mp4",
+   "lost_sha256": "45ccbbcd1e603df2bfa7d58afbcdbe97f5d80e3252fc7e743695d49956c6c89c",
+   "lost_bytes": 1672923
+  },
+  {
+   "path": "production/runs/episode1-insert-finish/tasks/native-inserts/S05-13/review.mp4",
+   "lost_sha256": "0b609c7e4ac72cf979cc22f11914be57ed8ab21bfa240c19199a55a59adf302b",
+   "lost_bytes": 295501
+  },
+  {
+   "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S03-03/review.mp4",
+   "lost_sha256": "d6350a50951c72aaa0f8e0a37d63595d5b738347c2de18af5b410b32e65136ad",
+   "lost_bytes": 2750676
+  },
+  {
+   "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/review-matte.mp4",
+   "lost_sha256": "92c043e29ec20f1d672955bad5e14c7c382ac30bea4c7922eeb84292f02e3aa4",
+   "lost_bytes": 382757
+  },
+  {
+   "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/review.mp4",
+   "lost_sha256": "825addb4846974e5c6ee6bd080f78cf7f535ac1b71581b868f0c866e13bad5a8",
+   "lost_bytes": 383363
+  },
+  {
+   "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/review-matte.mp4",
+   "lost_sha256": "e40edbb2d978dc78d8994f8322d084a02e7d689f52f0b2d53de3310d8527acc2",
+   "lost_bytes": 220550
+  },
+  {
+   "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S05-13/review.mp4",
+   "lost_sha256": "92d06c7027a851857a727d7115970a67299972501c78993de892bb655505faea",
+   "lost_bytes": 221646
+  },
+  {
+   "path": "production/runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/review.mp4",
+   "lost_sha256": "d1a84e32672f6e1429e3fb9b6d8d398e90585dc2099c85294613c5c195b6929d",
+   "lost_bytes": 240910
+  },
+  {
+   "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/S01-03-partial-silent-v2.mp4",
+   "lost_sha256": "75d82d3b6d9a1a6daf83b1e4f9859ed03b2201d508a5be0d16288d2d6bf8daf5",
+   "lost_bytes": 1943458
+  },
+  {
+   "path": "production/runs/episode1-picture-motion-continuation/tasks/amaia-registration/S01-03-partial-silent.mp4",
+   "lost_sha256": "41ab36b31869fccc964e1bc728bb894a57788ebd90ce04de11b02ff8a298bb4e",
+   "lost_bytes": 1881324
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/checkpoints/2026-10-14-recovery/S00-01.mp4",
+   "lost_sha256": "5d1099171a161f160a96ae33d9400885d822c08ebda9a56456d3b56e9a051590",
+   "lost_bytes": 19312
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/checkpoints/2026-10-14-recovery/S00-02.mp4",
+   "lost_sha256": "090981ae90c0b0d7ff29ed15272c16217b05cacdf0ff64f7c7f03f1f71637d1d",
+   "lost_bytes": 58388
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/checkpoints/2026-10-14-recovery/S01-01.mp4",
+   "lost_sha256": "236c44b8c39a063e40e99bd55b662566da891ac1e300a552dbc62dceb5206151",
+   "lost_bytes": 343924
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/checkpoints/2026-10-14-recovery/S01-15.mp4",
+   "lost_sha256": "6a69ac2b2d2c4e6a20897857ab15e916c9a398881d74fab718c0e2b65a77e5e7",
+   "lost_bytes": 10384
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/checkpoints/2026-10-14-recovery/S02-01.mp4",
+   "lost_sha256": "639a4dff93b45a74f459923a2b5700acb985995d08e2745d59b79b3e186ec2b7",
+   "lost_bytes": 71784
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/checkpoints/2026-10-14-recovery/S14-03.mp4",
+   "lost_sha256": "953b32fc2317c1ee55bf54248d65839e09a4794dd38dfc9784dd15677d9adb3b",
+   "lost_bytes": 128689
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/checkpoints/2026-10-14-recovery/S15-09.mp4",
+   "lost_sha256": "9c82ee0bfd2b51aa64bfc4abe45a14dd6efe74d987b701057ec0e697147c1fc3",
+   "lost_bytes": 15241
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/checkpoints/2026-10-14-recovery/silent-motion-excerpts.mp4",
+   "lost_sha256": "fc84086ef2695c20d06779f45e5d48b7ce1aaf20e220d1c4074db8825f0f4e89",
+   "lost_bytes": 642840
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/S00-01/preview.mp4",
+   "lost_sha256": "a20cb94003c1aa896b85223798ed5915665e1004bc8d0e1b59c502d978049be9",
+   "lost_bytes": 7813872
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/S00-02/preview.mp4",
+   "lost_sha256": "26e88b612222bde1e1aca9a7549ecf1c90baef6a5fd3c0e202e590bb8b51f726",
+   "lost_bytes": 7026755
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/S01-15/preview.mp4",
+   "lost_sha256": "9a5042af10e6e7ed4ac79758cb37fc557f25f53157129f5d677eac6bd5f8df5c",
+   "lost_bytes": 6704
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/S02-01/preview.mp4",
+   "lost_sha256": "b41263703d7d7764e594c9f00657e56d12a9c213a95917f62a0586100c68a59c",
+   "lost_bytes": 16965707
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/S15-09/preview.mp4",
+   "lost_sha256": "384538c41aa3d53051a152f6f3727a140b7fd845394746b926608716b0bbd664",
+   "lost_bytes": 11696
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/development-first-pass/S00-01/preview.mp4",
+   "lost_sha256": "ddb6d9f95936f4223fcad9eeb4da1533decc8062d9fef3b6068994f9d1797a6a",
+   "lost_bytes": 1983346
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/development-first-pass/S00-02/preview.mp4",
+   "lost_sha256": "f5c1ec9a2039c01bc3f9706ce34714c531a9c658c083b5e2816f0656e13ba9d9",
+   "lost_bytes": 1502724
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/development-first-pass/S01-15/preview.mp4",
+   "lost_sha256": "9a5042af10e6e7ed4ac79758cb37fc557f25f53157129f5d677eac6bd5f8df5c",
+   "lost_bytes": 6704
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/development-first-pass/S02-01/preview.mp4",
+   "lost_sha256": "9369c6c75176799cee47d0cf7297492a9c6e952bc6db84209fe3b89ae2bf0739",
+   "lost_bytes": 1533081
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion-r1/development-first-pass/S15-09/preview.mp4",
+   "lost_sha256": "384538c41aa3d53051a152f6f3727a140b7fd845394746b926608716b0bbd664",
+   "lost_bytes": 11696
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-01/native-v1/preview.mp4",
+   "lost_sha256": "e1c2d295a647317a058b8c8832ac54bdffab71e4591a1e665fdaaffdee2715b9",
+   "lost_bytes": 16348
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion/S00-02/native-v1/preview.mp4",
+   "lost_sha256": "e0d11580973209bc66fb053f0ec5b28e2d1b1b57bbc069c2775bec800a485f9c",
+   "lost_bytes": 33881
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion/S01-15/native-v1/preview.mp4",
+   "lost_sha256": "c8a4dbb33bfe8550bea14c3c7c4201bbda01c706517b8a5e90735a7c4cfa6bd2",
+   "lost_bytes": 6680
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion/S02-01/native-v1/preview.mp4",
+   "lost_sha256": "4767fa6d5c56574982aeb3b7f086a0b1375fe9c28cb0d845802df59b2ec37493",
+   "lost_bytes": 63144
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/editorial-motion/S15-09/native-v1/preview.mp4",
+   "lost_sha256": "6d57fdbc4856cd49b32657dc8b272e542205dc81c2894858a2fd9d8f6f5460ed",
+   "lost_bytes": 11648
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/research-graph-r1/preview.mp4",
+   "lost_sha256": "991196773a90375254c77d68f9144cdd8aba4692f06907cdac7d4aa5bd66e9d7",
+   "lost_bytes": 177661
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/research-graph/native-v1/preview.mp4",
+   "lost_sha256": "2c6d8d0a255f319ae5f34ac2a20c7a7c08c07967855333a735e1bb04d8dcc1cc",
+   "lost_bytes": 128187
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/water-motion-r1/S01-01-silent-preview.mp4",
+   "lost_sha256": "0bfc632286891607aab304cea218bf5360be9f141c22fe47d9b68d318010be3b",
+   "lost_bytes": 767546
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/water-motion/S01-01-silent-preview.mp4",
+   "lost_sha256": "a2a7fdf1e7b1eb06d6b1f6e5be2a5a3c5ba1ac76a78a66219de8baa5de73f308",
+   "lost_bytes": 749539
+  },
+  {
+   "path": "production/runs/episode1-picture-motion/tasks/water-motion/take-v1/S01-01-silent-preview.mp4",
+   "lost_sha256": "703d476774075d9d3fb9305051b87032081e5122146d8c86740592b1984af808",
+   "lost_bytes": 750110
+  },
+  {
+   "path": "production/video-jobs/s01-02-test-v1/downloads/c0ea6d285b6fd03edea99f7c7edde0ce323e578d862251fd7a70b519fdfeb921/h3-1791842766679.mp4",
+   "lost_sha256": "c0ea6d285b6fd03edea99f7c7edde0ce323e578d862251fd7a70b519fdfeb921",
+   "lost_bytes": 1005047
+  },
+  {
+   "path": "production/video-jobs/s01-02-test-v1/imported/source.mp4",
+   "lost_sha256": "c0ea6d285b6fd03edea99f7c7edde0ce323e578d862251fd7a70b519fdfeb921",
+   "lost_bytes": 1005047
+  },
+  {
+   "path": "production/video-jobs/s01-02-test-v1/review.mp4",
+   "lost_sha256": "67d2f5074f9cd72a0515497ac3387f52a0e180e65c1dec6ae682006318dea5df",
+   "lost_bytes": 1991548
+  },
+  {
+   "path": "production/video-jobs/s01-02-test-v1/source.mp4",
+   "lost_sha256": "c0ea6d285b6fd03edea99f7c7edde0ce323e578d862251fd7a70b519fdfeb921",
+   "lost_bytes": 1005047
+  },
+  {
+   "path": "projects/cemi_episode_01/assets/audio/loop_8s_48000.wav",
+   "lost_sha256": "578f1952f0ffadd2917faf27732489cd55db89d4588a5dc61c02f59a5fe287dd",
+   "lost_bytes": 768044
+  },
+  {
+   "path": "projects/cemi_episode_01/renders/Bell_motion_test.mp4",
+   "lost_sha256": "e6d0b73199a18ae8158b1a14c7b24a286811f54989cfd34054bc6bbbe7c84739",
+   "lost_bytes": 925061
+  },
+  {
+   "path": "projects/cemi_episode_01/renders/Bell_motion_test.wav",
+   "lost_sha256": "9994cae277ded0e3059d4ee09da346e6d971e4dd26b2cec892248d72b5546853",
+   "lost_bytes": 960044
+  },
+  {
+   "path": "projects/cemi_episode_01/renders/Cemi_SC0_Current_Turns_motion_test.mp4",
+   "lost_sha256": "229a5dd694af60f85365663e287ece9290e880e62cf2613a13d4b5d39d4e7b00",
+   "lost_bytes": 5727120
+  },
+  {
+   "path": "projects/cemi_episode_01/renders/Cemi_SC0_Current_Turns_motion_test.wav",
+   "lost_sha256": "beb4f026e94537084d3341b2a8d437dac2789c5b235200248d20f778eee7a53b",
+   "lost_bytes": 4608044
+  },
+  {
+   "path": "projects/cemi_episode_01/renders/minimax/S01-01-to-S01-02-user-transition-take-01.mp4",
+   "lost_sha256": "9d2c572c78b072a1b3e7b5c01de368e883e237a2b6243c7fb3be447ef4fa78bd",
+   "lost_bytes": 2452300
+  },
+  {
+   "path": "projects/cemi_episode_01/renders/minimax/S01-01-user-take-01.mp4",
+   "lost_sha256": "ce085a9c083994d1adba0b878ccb700221bb282554daed13a21c1c31065ac164",
+   "lost_bytes": 748647
+  }
+ ]
+}

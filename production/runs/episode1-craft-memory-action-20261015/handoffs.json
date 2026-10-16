@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "run": "episode1-craft-memory-action-20261015",
+  "bindings": {
+    "memory-action": {
+      "creator": {
+        "ledger_alias": "host-memory-action",
+        "host": "collaboration",
+        "host_agent_id": "/root/craft_memory",
+        "role": "key-animator",
+        "state": "completed",
+        "note": "Independent review completed"
+      },
+      "reviewer": {
+        "host": "collaboration",
+        "host_agent_id": "/root/craft_bell",
+        "role": "animation-supervisor",
+        "state": "completed",
+        "note": "Independent review of exact native-v2 submission. Full MP4 decoded successfully to 168 PNGs; ffprobe confirms one silent video stream, 960x540 (16:9), 24/1 fps, 7 seconds. Directly inspected decoded frames 0,11,12,19,20,24,31,32,39,40,48,55,56,57,58,60,64,68,76,100,110,111,112,113,138,167, including enlarged girl face and all drawing-change boundaries. This is sampled-frame sequence inspection plus full automated decode, NOT real-time playback. Current script requires fever children, lightning, then shell-blue color; cloth lift is not required. Forehead cloth/hand contact, mat and environment remain fixed. Flash occupies frame56 only, with distinct storm at57 and shell at112; lightning decay and separate rain continue through111. Facial replacements at12 and20 visibly shift cheek/jaw and eyebrow construction while soft masks retain old outlines: enlarged face-registration.jpg shows doubled chin contour and translucent eyebrow remnants. Fixed skull/contact geometry criterion fails despite restrained intended breathing. Insert112\u2013167 contains a glossy pearl-like sphere and reflective shell with near-photographic specular detail, materially different from current reference ink/cel style and adding an unrequested focal object. Shell light pulse is visible138 vs112/167, so not an entirely frozen insert. Long holds are disclosed: 8\u201316 frames per fever drawing, storm and shell plates held56frames each under independent light/rain. Limited holds are not independently rejected, but exposure wording 'on twos' does not mean fresh drawings every2frames. Native saved layers/timeline were inspected as JSON; projects were not reopened in this review. 960x540 is review-draft resolution, not finished master. No author creative approval inferred."
+      }
+    }
+  }
+}

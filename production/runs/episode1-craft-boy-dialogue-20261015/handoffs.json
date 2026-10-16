@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "run": "episode1-craft-boy-dialogue-20261015",
+  "bindings": {
+    "boy-dialogue": {
+      "creator": {
+        "ledger_alias": "host-boy-dialogue",
+        "host": "collaboration",
+        "host_agent_id": "/root/craft_memory",
+        "role": "key-animator",
+        "state": "submitted",
+        "note": "Result submitted"
+      }
+    }
+  }
+}

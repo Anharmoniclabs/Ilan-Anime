@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "run": "episode1-craft-phone-flood-20261015",
+  "bindings": {
+    "phone-flood": {
+      "creator": {
+        "ledger_alias": "host-phone-flood",
+        "host": "collaboration",
+        "host_agent_id": "/root",
+        "role": "compositor",
+        "state": "submitted",
+        "note": "Result submitted"
+      },
+      "reviewer": {
+        "host": "collaboration",
+        "host_agent_id": "/root/craft_memory",
+        "role": "animation-supervisor",
+        "state": "active",
+        "note": "Reviewer bound after host spawn"
+      }
+    }
+  }
+}

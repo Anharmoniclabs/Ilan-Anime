@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "run": "episode1-craft-bell-action-20261015",
+  "bindings": {
+    "bell-action": {
+      "creator": {
+        "ledger_alias": "host-bell-action",
+        "host": "collaboration",
+        "host_agent_id": "/root/craft_bell",
+        "role": "key-animator",
+        "state": "interrupted",
+        "note": "Generated soldier grips change their distances along the pole between low and high poses without controlled regrip drawings. Cannot register these by rigid transforms while preserving stable hands and pole.; Missing controlled lift/shake breakdowns and separable bell shell/interior/clapper assets with verified rim contacts prevent valid complete 168-frame action.; One generation permitted by envelope was used. Native PhotoCraft source is exploratory drawing material, not completed or approved motion."
+      }
+    }
+  }
+}

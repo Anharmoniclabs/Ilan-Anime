@@ -1,0 +1,161 @@
+{
+  "mode": "picture-draft",
+  "shot": {
+    "shot": "S01-04",
+    "frames": 168,
+    "start_frame": 840,
+    "script": "`00:35:00 → 00:42:00` (168f) · FIX · three hard cuts · rate 2s\n- **Action:** Memory inserts of the blue: children in fever; a flash of lightning; the color itself, 'the inside of a shell'. Each gone before she can point at it.\n- **FX:** `TRANSMITTED_LIGHT(shell_blue); FLASH_FRAME(1f); AIRBRUSH_GLOW`\n- **Sound:** Held breath. One high glass-like partial, cut dead.",
+    "artwork": {
+      "shot": "S01-04",
+      "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-04.png",
+      "sha256": "7b1f79c034cc33e9810af6c2762876827668349440e2d45925a789d7e14582f4",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "opaque": true,
+      "selected_moment": "ONE memory insert, not montage: close three-quarter view of same7-year-old girl in blue dress lying feverish on simple woven mat, two other lit children in soft background, faint shell-blue glow beneath skin, exhausted closed eyes. Dark humble shelter, cool storm flash at doorway. No lightning montage or panels. Later lightning/color inserts not depicted.",
+      "inspection": "Directly viewed. Girl feverish, boy and smaller child watching in shelter; lightning visible outside. Only fever memory illustrated.",
+      "provenance": "production/runs/episode1-anime90s-scenes/tasks/opening/provenance/S01-04.json",
+      "revision": 1,
+      "task": "opening",
+      "start_frame": 840,
+      "frames": 168,
+      "script": "`00:35:00 → 00:42:00` (168f) · FIX · three hard cuts · rate 2s\n- **Action:** Memory inserts of the blue: children in fever; a flash of lightning; the color itself, 'the inside of a shell'. Each gone before she can point at it.\n- **FX:** `TRANSMITTED_LIGHT(shell_blue); FLASH_FRAME(1f); AIRBRUSH_GLOW`\n- **Sound:** Held breath. One high glass-like partial, cut dead."
+    },
+    "action_contract": {
+      "shot": "S01-04",
+      "status": "submitted-contract-not-animation",
+      "start_frame": 840,
+      "end_frame_exclusive": 1008,
+      "frames": 168,
+      "fps": 24,
+      "source_frame": {
+        "path": "production/runs/episode1-anime90s-scenes/tasks/opening/generated/S01-04.png",
+        "sha256": "7b1f79c034cc33e9810af6c2762876827668349440e2d45925a789d7e14582f4",
+        "selected_moment": "ONE memory insert, not montage: close three-quarter view of same7-year-old girl in blue dress lying feverish on simple woven mat, two other lit children in soft background, faint shell-blue glow beneath skin, exhausted closed eyes. Dark humble shelter, cool storm flash at doorway. No lightning montage or panels. Later lightning/color inserts not depicted."
+      },
+      "script_action": "Memory inserts of the blue: children in fever; a flash of lightning; the color itself, 'the inside of a shell'. Each gone before she can point at it.",
+      "departments": {
+        "character": {
+          "action": "three fever children",
+          "required_registered_drawings": [
+            "three fever children — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them"
+          ],
+          "base_exposure_frames": 2
+        },
+        "props": {
+          "action": "woven mat shell color insert",
+          "requirements": [
+            "woven mat shell color insert — rigid shapes, independent pivot/occlusion masks, registered contact drawings"
+          ]
+        },
+        "environment_fx": {
+          "action": "lightning flash and shelter",
+          "script_fx": "`TRANSMITTED_LIGHT(shell_blue); FLASH_FRAME(1f); AIRBRUSH_GLOW`",
+          "requirements": [
+            "lightning flash and shelter — clean plate plus isolated moving overlays; retain unmoving landmarks"
+          ]
+        },
+        "camera": {
+          "script_mode": "FIX",
+          "phases": [
+            {
+              "start": 0,
+              "end_exclusive": 168,
+              "action": "FIX follows authored action phase framing; freeze during inserts/contact emphasis",
+              "sampling_frames": 1
+            }
+          ],
+          "layout_requirement": "Expanded or alternate-angle painted plates where camera reveals pixels; no whole-character distortion",
+          "status": "blocking camera mode and interval; numeric crop/transform path awaits registered layout"
+        },
+        "sound_later": {
+          "excluded_now": true,
+          "mouth_timing_dependency": "No on-screen dialogue mouth sync assigned; downstream sound cues can reference these picture frames",
+          "dialogue_candidate": false,
+          "script_cue": "Held breath. One high glass-like partial, cut dead."
+        }
+      },
+      "phases": [
+        {
+          "start": 0,
+          "end_exclusive": 56,
+          "action": "fever bodies",
+          "key_pose_frames": [
+            0,
+            54
+          ],
+          "cadence_frames": 2,
+          "allocation_status": "proposed blocking; microkeys override"
+        },
+        {
+          "start": 56,
+          "end_exclusive": 112,
+          "action": "lightning insert",
+          "key_pose_frames": [
+            56,
+            110
+          ],
+          "cadence_frames": 2,
+          "allocation_status": "proposed blocking; microkeys override"
+        },
+        {
+          "start": 112,
+          "end_exclusive": 168,
+          "action": "shell blue insert",
+          "key_pose_frames": [
+            112,
+            166
+          ],
+          "cadence_frames": 2,
+          "allocation_status": "proposed blocking; microkeys override"
+        }
+      ],
+      "microkeys": [],
+      "contact_and_continuity_locks": [
+        "three separate cuts no morphing fever anatomy"
+      ],
+      "coverage_gap": {
+        "all_action_phases_need_motion_validation": true,
+        "single_frame_is_not_motion": true,
+        "missing_work": [
+          "fever bodies",
+          "lightning insert",
+          "shell blue insert"
+        ],
+        "cast_pose_sources_are_not_registered_action_sequences": true
+      },
+      "script_conflicts": [],
+      "motion_acceptance": [
+        "Inspect contact start/mid/release at native resolution; no shape warping or grip drift",
+        "Play full shot and adjacent cut; verify all listed actions, not just camera movement",
+        "Verify exposure cadence, frame range, collision/occlusion and final16:9 framing"
+      ],
+      "author_approved": false
+    },
+    "existing_motion_status": "missing",
+    "existing_draft": null
+  },
+  "fps": 24,
+  "aspect": "16:9",
+  "sound": "deferred",
+  "canonical_delivery_allowed": false,
+  "repair_reports": {},
+  "catalog_sha256": "f15e2e35f7bc3f58332036e4e0fb1ad95b0c33f189f79d3793dd32edb4a86a1f",
+  "source_hashes": {
+    "projects/cemi_episode_01/data/episode.json": "59263084b567bafbdd3dec543be5955ecc32bef721ddd9b2ba5c7442a24bacd8",
+    "projects/cemi_episode_01/data/EPISODE_SCRIPT.md": "cfa3367d57ea61a8811730e84810b271c8b5e0e86bfce3418fceb3d2b090257c",
+    "production/runs/episode1-anime90s-scenes/shot-index.json": "3d76c85459b6d8516323c967d6c4a45304f03042e632feba03757ca1d6f1a3ca",
+    "production/runs/episode1-full-picture/tasks/episode-wiring/timeline.json": "87dd8b17fbd3ed75b6e3a2d0c6de2137367b46b4536aa0495f8ec22de4805b4b",
+    "production/pipeline_templates/complete_shot.json": "22dcff22990be76200f56ce1c7608b7c3fcc5f6205ab26654661e90374202dda",
+    "production/roles.json": "6698806e3f1f51e8baae464b4da3387a425ead95e6ead22735e98e18c989cb0d"
+  },
+  "image_execution": "Host image tool through one explicit image-demand subtask when necessary; never an unattended CLI promise",
+  "references_are": "Provisional draft references; no technical or author approval inferred",
+  "reference_hashes": {
+    "production/art_direction.json": "cfb3ec6698350fa16acf139baf8da0e4a4035acd08ec026cdfe04a27d1bed6fb",
+    "production/roles.json": "6698806e3f1f51e8baae464b4da3387a425ead95e6ead22735e98e18c989cb0d",
+    "production/pipeline_templates/complete_shot.json": "22dcff22990be76200f56ce1c7608b7c3fcc5f6205ab26654661e90374202dda"
+  }
+}

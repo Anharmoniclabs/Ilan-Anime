@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "run": "episode1-craft-phone-flood-20261015",
+  "paused": false,
+  "pause_reason": null,
+  "tasks": {
+    "phone-flood": {
+      "id": "phone-flood",
+      "objective": "Create240-frame S13-03 phone UI text flood through editable native ArtCraft shapes/text. Exact Sof\u00eda and Denise script messages, staged fast typing on3s, exclamation cels and withheld payment overlay. Current library still is context only; this is explicitly a UI insert, not generated character acting. Preserve current palette/source context, exact spelling and all messages, no made-up amounts. Save standalone native EffectCraft/FilmCraft and silent preview with timing and hashes. No episode wiring, no paid generation or final approval. Independent review required.",
+      "role": "compositor",
+      "depends_on": [],
+      "shots": [
+        "S13-03"
+      ],
+      "output_dir": "production/runs/episode1-craft-phone-flood-20261015/tasks/phone-flood",
+      "inputs": [
+        "AGENTS.md",
+        "docs/STATUS.md",
+        "docs/CRAFT_WORKBENCH.md",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "production/runs/episode1-full-picture/author-decisions.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/shot-index.json"
+      ],
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "state": "submitted",
+      "agent_id": "host-phone-flood",
+      "result": {
+        "task_id": "phone-flood",
+        "role": "compositor",
+        "host_agent_id": "/root",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-craft-phone-flood-20261015/tasks/phone-flood/native-v2/preview.mp4",
+          "production/runs/episode1-craft-phone-flood-20261015/tasks/phone-flood/native-v2/shot.ecproj",
+          "production/runs/episode1-craft-phone-flood-20261015/tasks/phone-flood/native-v2/edit.filmcraft",
+          "production/runs/episode1-craft-phone-flood-20261015/tasks/phone-flood/native-v2/probe.json",
+          "production/runs/episode1-craft-phone-flood-20261015/tasks/phone-flood/native-v2/timeline.json",
+          "production/runs/episode1-craft-phone-flood-20261015/tasks/phone-flood/native-commands.json",
+          "production/runs/episode1-craft-phone-flood-20261015/tasks/phone-flood/timing.json",
+          "production/runs/episode1-craft-phone-flood-20261015/tasks/phone-flood/build.py",
+          "production/runs/episode1-craft-phone-flood-20261015/tasks/phone-flood/hashes.json"
+        ],
+        "evidence": [
+          "EffectCraft generated240frames at1280x720/24fps from independent native shapes and exact editable text layers; FilmCraft saved standalone per-shot timeline.",
+          "Viewed current source S13-03 and actual native frames15,108,210: exact early message, earlier/current message contrast, full Denise text and withheld-payment overlay are readable.",
+          "timing.json records seven exact message arrivals and text reveals on three-frame intervals; native frame15 shows completed first message,108 shows fifth and previous message,210 shows full Denise message.",
+          "Native graphic phone UI cutaway, not a recreation of the full over-shoulder source illustration. Flat native graphics require style review; no character motion is claimed.",
+          "Silent picture draft only; dialogue VO/buzzes and finished mix are absent, no episode wiring performed. Native display has deliberately wide UI for text readability rather than the source portrait phone framing."
+        ],
+        "blockers": []
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "phone-flood"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "phone-flood",
+      "agent_id": "host-phone-flood"
+    },
+    {
+      "action": "submit",
+      "task_id": "phone-flood",
+      "status": "submitted"
+    }
+  ]
+}

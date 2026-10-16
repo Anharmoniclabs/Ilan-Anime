@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "run": "episode1-craft-restore-inserts-20261015",
+  "bindings": {
+    "restore-inserts": {
+      "creator": {
+        "ledger_alias": "host-restore-inserts",
+        "host": "collaboration",
+        "host_agent_id": "/root/craft_restore",
+        "role": "compositor",
+        "state": "submitted",
+        "note": "Result submitted"
+      }
+    }
+  }
+}

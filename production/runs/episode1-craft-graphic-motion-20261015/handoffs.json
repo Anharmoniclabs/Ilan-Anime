@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "run": "episode1-craft-graphic-motion-20261015",
+  "bindings": {
+    "graphic-motion": {
+      "creator": {
+        "ledger_alias": "host-graphic-motion",
+        "host": "collaboration",
+        "host_agent_id": "/root/craft_restore",
+        "role": "compositor",
+        "state": "active",
+        "note": "Creator bound after host spawn"
+      }
+    }
+  }
+}

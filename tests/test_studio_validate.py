@@ -48,6 +48,10 @@ class StudioValidationTests(unittest.TestCase):
         shots = [{"id": "S01-01", "animation_status": "approved", "voice_status": "approved"}]
         ready, evidence = episode_release_evidence(self.root, shots)
         self.assertFalse(ready)
+        self.assertTrue(evidence["missing"])
+        with tempfile.TemporaryDirectory() as directory:
+            ready, evidence = episode_release_evidence(Path(directory), shots)
+        self.assertFalse(ready)
         self.assertIn("canonical production asset registry", evidence["missing"])
 
     def test_fake_named_qa_task_cannot_satisfy_release(self):

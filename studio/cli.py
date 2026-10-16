@@ -263,6 +263,9 @@ def cmd_blender(args):
 def main(argv=None):
     # Keep video dependencies optional; pass through to the bounded Space bridge.
     video_args = list(sys.argv[1:] if argv is None else argv)
+    if video_args and video_args[0] == "navigate":
+        from studio.navigate import main as navigate_main
+        return navigate_main(video_args[1:])
     if video_args and video_args[0] == "picture":
         from studio.picture import main as picture_main
         return picture_main(video_args[1:])
@@ -278,6 +281,9 @@ def main(argv=None):
     if video_args and video_args[0] == "video":
         from studio.video import main as video_main
         return video_main(video_args[1:])
+    if video_args and video_args[0] == "workspace":
+        from production.workspace import main as workspace_main
+        return workspace_main(video_args[1:])
     parser = argparse.ArgumentParser(prog="python -m studio", description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -286,6 +292,8 @@ def main(argv=None):
     sub.add_parser("episode", help="persistent episode draft queue: init | run | status | assemble")
     sub.add_parser("video", help="HF video prepare | submit | import | plan | doctor")
     sub.add_parser("demand", help="one needed image: ensure | need | work | collect | status | video")
+    sub.add_parser("workspace", help="interactive local scene workspace")
+    sub.add_parser("navigate", help="build searchable shot navigator and audit local media")
 
     sub.add_parser("status", help="episode, runs, registry and spend summary").set_defaults(func=cmd_status)
 

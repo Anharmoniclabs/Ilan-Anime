@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "run": "episode1-craft-memory-action-20261015",
+  "paused": false,
+  "pause_reason": null,
+  "tasks": {
+    "memory-action": {
+      "output_dir": "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action",
+      "role": "key-animator",
+      "inputs": [
+        "AGENTS.md",
+        "docs/STATUS.md",
+        "docs/CRAFT_WORKBENCH.md",
+        "production/runs/episode1-picture-motion/author-direction.json",
+        "production/runs/episode1-full-picture/author-decisions.json",
+        "projects/cemi_episode_01/data/EPISODE_SCRIPT.md",
+        "production/runs/episode1-anime90s-scenes/shot-index.json",
+        "production/runs/picture-draft-s01-04-v1"
+      ],
+      "shots": [
+        "S01-04"
+      ],
+      "depends_on": [],
+      "objective": "Create the missing full 168-frame S01-04 memory-insert action through ArtCraft: three hard cuts, feverish children, lightning flash and shell-blue interior. Inspect current shot still and prior picture-draft-s01-04-v1 work and preserve references. Actual subtle breath/fever replacement drawings, authored flash frame and living transmitted light; no whole-still pan or fake action. This is an explicit image-demand assignment authorizing ONE built-in host imagegen call for missing necessary action drawings, with exact viewed reference attached and imagegen skill. No paid API/fallback. Reuse sound existing drawings where available, inspect and register generated cels. Produce editable EffectCraft and FilmCraft, 168-frame silent preview at 24fps, exposures, exact prompt, continuity evidence and result.json. Current full-episode author-direction explicitly uses 16:9; preserve existing 4:3 baseline separately. New current cast references govern. No final author approval. Stop with specific evidence if one image cannot provide coherent cels; do not mislabel failed anatomy as finished animation.",
+      "id": "memory-action",
+      "requires_author_approval": false,
+      "art_direction_mode": "STORY_FRAME",
+      "require_host_bindings": true,
+      "state": "rejected",
+      "agent_id": "host-memory-action",
+      "result": {
+        "task_id": "memory-action",
+        "role": "key-animator",
+        "host_agent_id": "/root/craft_memory",
+        "status": "submitted",
+        "artifacts": [
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/native-v2/preview.mp4",
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/native-v2/shot.ecproj",
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/native-v2/edit.filmcraft",
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/native-v2/probe.json",
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/native-v2/timeline.json",
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/native-v2/layers.json",
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/source-atlas.png",
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/exposures.json",
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/prompt.txt",
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/build.py",
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/continuity.json",
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/frame-evidence-v2.jpg",
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/decoded-evidence.png",
+          "production/runs/episode1-craft-memory-action-20261015/tasks/memory-action/hashes.json"
+        ],
+        "evidence": [
+          "Generated exactly one reference-attached atlas; directly viewed all six panels; four fever states isolated with fixed-background masks.",
+          "EffectCraft saved native layered project and rendered all 168 frames; FilmCraft saved 960x540 24fps sequence.",
+          "FFprobe confirmed 168 video frames at 24/1, one video stream, silent; full FFmpeg decode succeeded.",
+          "Directly viewed actual native frames 0,24,48,56,57,64,111,112,138,167 and decoded MP4 samples 24,56,111,138.",
+          "Frame 56 is the authored one-frame flash; subsequent lightning decay and rain remain independent layers. Shell blue intensity rises at 138 and settles by 167.",
+          "Initial native/ is superseded: layer-local timing was corrected in native-v2/. Use native-v2/ for review. No ledger, source files, publishing or child agents touched."
+        ],
+        "blockers": [],
+        "creative_status": "exploratory; independent animation-supervisor review and author approval pending"
+      },
+      "review": {
+        "role": "animation-supervisor",
+        "agent_id": "/root/craft_bell",
+        "decision": "reject",
+        "evidence": "Independent review of exact native-v2 submission. Full MP4 decoded successfully to 168 PNGs; ffprobe confirms one silent video stream, 960x540 (16:9), 24/1 fps, 7 seconds. Directly inspected decoded frames 0,11,12,19,20,24,31,32,39,40,48,55,56,57,58,60,64,68,76,100,110,111,112,113,138,167, including enlarged girl face and all drawing-change boundaries. This is sampled-frame sequence inspection plus full automated decode, NOT real-time playback. Current script requires fever children, lightning, then shell-blue color; cloth lift is not required. Forehead cloth/hand contact, mat and environment remain fixed. Flash occupies frame56 only, with distinct storm at57 and shell at112; lightning decay and separate rain continue through111. Facial replacements at12 and20 visibly shift cheek/jaw and eyebrow construction while soft masks retain old outlines: enlarged face-registration.jpg shows doubled chin contour and translucent eyebrow remnants. Fixed skull/contact geometry criterion fails despite restrained intended breathing. Insert112\u2013167 contains a glossy pearl-like sphere and reflective shell with near-photographic specular detail, materially different from current reference ink/cel style and adding an unrequested focal object. Shell light pulse is visible138 vs112/167, so not an entirely frozen insert. Long holds are disclosed: 8\u201316 frames per fever drawing, storm and shell plates held56frames each under independent light/rain. Limited holds are not independently rejected, but exposure wording 'on twos' does not mean fresh drawings every2frames. Native saved layers/timeline were inspected as JSON; projects were not reopened in this review. 960x540 is review-draft resolution, not finished master. No author creative approval inferred."
+      }
+    }
+  },
+  "events": [
+    {
+      "action": "initialize"
+    },
+    {
+      "action": "add",
+      "task_id": "memory-action"
+    },
+    {
+      "action": "dispatch",
+      "task_id": "memory-action",
+      "agent_id": "host-memory-action"
+    },
+    {
+      "action": "submit",
+      "task_id": "memory-action",
+      "status": "submitted"
+    },
+    {
+      "action": "review",
+      "task_id": "memory-action",
+      "decision": "reject"
+    }
+  ]
+}

@@ -1,0 +1,890 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Episode 1 navigator</title><style>body{font:17px system-ui;max-width:1000px;margin:2rem auto;padding:0 1rem;background:#14202b;color:#eee}a{color:#f0ce83}article{border:1px solid #697880;padding:1rem;margin:1rem 0;border-radius:8px}pre{white-space:pre-wrap;overflow-wrap:anywhere}input{font:inherit;padding:.7rem;width:90%}</style><h1>Episode 1 — production navigator</h1><p><a href="../../START_HERE.md">Start here</a> · <a href="../../docs/REPOSITORY_MAP.md">Folder map</a> · <a href="../../docs/WORKSPACE.md">Desktop app</a> · <a href="../../episode-01/WORKFLOW.md">Approved workflow</a> · <a href="../runs">Production runs</a></p><p>Work in progress. This page inventories actual local files; it is not a finished episode.</p><p>Hash mismatches mean a saved review cannot verify the current video. Restored renders need fresh review.</p><pre>{
+  &quot;shot_count&quot;: 128,
+  &quot;frames&quot;: 27120,
+  &quot;format&quot;: {
+    &quot;fps&quot;: 24,
+    &quot;width&quot;: 1280,
+    &quot;height&quot;: 720
+  },
+  &quot;motion_counts&quot;: {
+    &quot;lfs_pointer&quot;: 12,
+    &quot;unassigned&quot;: 116
+  },
+  &quot;artwork_counts&quot;: {
+    &quot;present&quot;: 128
+  },
+  &quot;automation&quot;: {
+    &quot;state&quot;: &quot;awaiting_motion_review&quot;,
+    &quot;blocked_shot&quot;: &quot;S01-01&quot;,
+    &quot;reason&quot;: &quot;Recovered existing video; no generation call sent.&quot;
+  }
+}</pre><h2>Recovered motion — requires fresh review</h2><ul><li><a href="../restored-motion-20261014/S00-01.mp4">production/restored-motion-20261014/S00-01.mp4</a> — present</li><li><a href="../restored-motion-20261014/S00-02.mp4">production/restored-motion-20261014/S00-02.mp4</a> — present</li><li><a href="../restored-motion-20261014/S01-15.mp4">production/restored-motion-20261014/S01-15.mp4</a> — present</li><li><a href="../restored-motion-20261014/S02-01.mp4">production/restored-motion-20261014/S02-01.mp4</a> — present</li><li><a href="../restored-motion-20261014/S15-09.mp4">production/restored-motion-20261014/S15-09.mp4</a> — present</li><li><a href="../restored-motion-20261014/research-graph-r1.mp4">production/restored-motion-20261014/research-graph-r1.mp4</a> — present</li><li><a href="../restored-motion-20261014/water-motion-r1.mp4">production/restored-motion-20261014/water-motion-r1.mp4</a> — present</li><li><a href="../../episode-01/build/take-03-restored/S00-01.mp4">episode-01/build/take-03-restored/S00-01.mp4</a> — present</li><li><a href="../../episode-01/build/take-03-restored/S00-02.mp4">episode-01/build/take-03-restored/S00-02.mp4</a> — present</li><li><a href="../../episode-01/build/take-03-restored/S01-01.mp4">episode-01/build/take-03-restored/S01-01.mp4</a> — present</li><li><a href="../../episode-01/build/take-03-restored/S01-02.mp4">episode-01/build/take-03-restored/S01-02.mp4</a> — present</li><li><a href="../../episode-01/build/take-03-restored/S01-03.mp4">episode-01/build/take-03-restored/S01-03.mp4</a> — present</li><li><a href="../../episode-01/build/take-03-restored/opening-assembly.mp4">episode-01/build/take-03-restored/opening-assembly.mp4</a> — present</li></ul><label for="search">Find a shot, character, action or file status</label><p><input id="search" type="search" placeholder="S01-03, Amaia, hash_mismatch…"></p><article id="S00-01"><h2>S00-01</h2><p>96 frames · starts at 0 · Saved status: technical-approved</p><p><a href="../../projects/cemi_episode_01/data/shots/S00-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S00-01.png">Artwork</a> — present<br><a href="../runs/episode1-picture-motion/tasks/editorial-motion-r1/S00-01/preview.mp4">Motion</a> — lfs_pointer<br><a href="../runs/episode1-picture-motion/tasks/editorial-motion-r1/S00-01/shot.ecproj">Native</a> — present<br><a href="../runs/episode1-picture-motion/reviews/editorial-motion-r1/review.json">Review</a> — present</p><details><summary>Script and remaining work</summary><pre>`00:00:00 → 00:04:00` (96f) · FIX · ECU · rate 3s
+- **Action:** Navy field (#14202B). The cemí sigil (spiral opening into a triangle) draws itself in one continuous gold line, like a pen that never lifts.
+- **FX:** `SPIRAL_SIGIL(draw=3s,gold); FILM_GRAIN(0.5); GATE_WEAVE(0.3)`
+- **Sound:** Room tone only. One low hand-drum hit as the line closes.</pre><h3>Recorded unvalidated action / drawings</h3><pre>trace spiral
+open triangle
+hold closed stroke</pre><p>Voice: not_recorded</p></details></article><article id="S00-02"><h2>S00-02</h2><p>120 frames · starts at 96 · Saved status: technical-approved</p><p><a href="../../projects/cemi_episode_01/data/shots/S00-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S00-02.png">Artwork</a> — present<br><a href="../runs/episode1-picture-motion/tasks/editorial-motion-r1/S00-02/preview.mp4">Motion</a> — lfs_pointer<br><a href="../runs/episode1-picture-motion/tasks/editorial-motion-r1/S00-02/shot.ecproj">Native</a> — present<br><a href="../runs/episode1-picture-motion/reviews/editorial-motion-r1/review.json">Review</a> — present</p><details><summary>Script and remaining work</summary><pre>`00:04:00 → 00:09:00` (120f) · FIX · text card · rate 3s
+- **Action:** Cream serif, wide tracking: ELLOS CUENTAN. / NOSOTROS RECORDAMOS. Small gold sub-line: They count. We remember. — ABUELA.
+- **FX:** `DISSOLVE(24f); FILM_GRAIN`
+- **Sound:** Abuela VO, old, unhurried, no music. Spanish only; English as subtitle.</pre><h3>Recorded unvalidated action / drawings</h3><pre>dissolve type
+hold readable card</pre><p>Voice: not_recorded</p></details></article><article id="S01-01"><h2>S01-01</h2><p>144 frames · starts at 216 · Saved status: unreviewed</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-01.png">Artwork</a> — present<br><a href="../runs/episode1-picture-motion/tasks/water-motion-r1/S01-01-silent-preview.mp4">Motion</a> — lfs_pointer<br><a href="../runs/episode1-picture-motion/tasks/water-motion-r1/S01-01-water-motion.filmcraft">Native</a> — present<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`00:09:00 → 00:15:00` (144f) · FIX · ECU low on waterline · rate 3s
+- **Action:** Black water, a hand-width of surface. A paddle blade enters, leaves, rings spread. Lower-left small caps: BEFORE.
+- **FX:** `PAINTED_BG(night_water); WATER_CEL(rings); TEXT_SUPER(BEFORE); VIGNETTE(0.7)`
+- **Sound:** Water drip, insects. A frog stops mid-call. No music.</pre><h3>Recorded unvalidated action / drawings</h3><pre>plant blade
+pull and release
+drop droplets
+expand late ring
+paddler hand offscreen — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-02"><h2>S01-02</h2><p>288 frames · starts at 360 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-02.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`00:15:00 → 00:27:00` (288f) · CRANE DOWN · WS · rate 3s
+- **Action:** Three dugout canoes in single file down a moonless mangrove channel. Lead: Dairon paddling, Yara behind him with the cemí in stiff cloth against her chest. Amaia with her sleeping son (not yet two). Second: Beheto, drum between his knees, chest whistling every breath. Third: three children, a faint blue breath on their forearms.
+- **FX:** `MULTIPLANE(5 painted layers); TRANSMITTED_LIGHT(blue,children,0.15); FILM_GRAIN`
+- **Sound:** Paddles, hull creak. Beheto&#x27;s whistling breath is the only tempo (about 2s cycle).</pre><h3>Recorded unvalidated action / drawings</h3><pre>establish single file
+plant pull recover
+continue travel
+Dairon stroke Yara clutch Amaia cradle Beheto breathe children quiet — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-03"><h2>S01-03</h2><p>192 frames · starts at 648 · Saved status: partial</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-03.png">Artwork</a> — present<br><a href="../runs/episode1-picture-motion-continuation/tasks/amaia-registration/S01-03-partial-silent-v2.mp4">Motion</a> — lfs_pointer<br><a href="../runs/episode1-picture-motion-continuation/tasks/amaia-registration/edit-v2.filmcraft">Native</a> — present<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`00:27:00 → 00:35:00` (192f) · MCU → CU Amaia · rate 3s
+- **Action:** Amaia&#x27;s lips count the heads ahead. Each count lands on an empty seat. Pale outlines sit in the empty seats and fade as she looks at them (exactly three losses: two lost at the channel and the old man who asked for water, then nothing).
+- **FX:** `GHOST_SEATS(alpha .25→0); DOUBLE_EXPOSURE; CEL_SHADE(2-tone)`
+- **Sound:** VO Amaia (spare): “Amaia had fourteen when they put the canoes in. By the third night she had eleven.”</pre><h3>Recorded unvalidated action / drawings</h3><pre>look toward seat
+outline appears
+count and fade
+look beyond
+Amaia eyes scan counting lips sleeping toddler ghost outlines — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-04"><h2>S01-04</h2><p>168 frames · starts at 840 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-04.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`00:35:00 → 00:42:00` (168f) · FIX · three hard cuts · rate 2s
+- **Action:** Memory inserts of the blue: children in fever; a flash of lightning; the color itself, &#x27;the inside of a shell&#x27;. Each gone before she can point at it.
+- **FX:** `TRANSMITTED_LIGHT(shell_blue); FLASH_FRAME(1f); AIRBRUSH_GLOW`
+- **Sound:** Held breath. One high glass-like partial, cut dead.</pre><h3>Recorded unvalidated action / drawings</h3><pre>fever bodies
+lightning insert
+shell blue insert
+three fever children — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-05"><h2>S01-05</h2><p>168 frames · starts at 1008 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-05.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-05.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`00:42:00 → 00:49:00` (168f) · POV Amaia → CU bell · rate 3s
+- **Action:** Behind them on the bank the soldier torches have stopped. One soldier lifts a pole with a brass bell and rings it, hard. Cut to the bell swinging, close.
+- **FX:** `CAMERA_SHAKE(2f); SPEED_LINES(bell); CHROMA_BLEED`
+- **Sound:** The BELL: dry, inharmonic brass, no reverb tail, 3–5 kHz bite. Amaia feels it &#x27;in her back teeth&#x27;. There is no song in it.</pre><h3>Recorded unvalidated action / drawings</h3><pre>soldier lift
+cut bell
+bell swing
+clapper lag and settle
+soldier raises pole arm and wrist — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-06"><h2>S01-06</h2><p>240 frames · starts at 1176 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-06.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-06.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`00:49:00 → 00:59:00` (240f) · MS → CU hands · rate 2s
+- **Action:** The three children lift the blue off their arms; it peels away like vapor and leans out over the black water toward the bank. They lean with it. Amaia wants to hear one of them cry.
+- **FX:** `TRANSMITTED_LIGHT; AIRBRUSH_RIBBONS(blue,8); PULL_TOWARD(bank)`
+- **Sound:** Bell rings again, thinner. Children silent.</pre><h3>Recorded unvalidated action / drawings</h3><pre>arms rise
+blue separates
+lean follows
+hands close insert
+three children lift forearms lean from hips — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-07"><h2>S01-07</h2><p>168 frames · starts at 1416 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-07.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-07.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`00:59:00 → 01:06:00` (168f) · MS low angle · rate 3s
+- **Action:** A second man sits on a stump, ledger open on his knee. He never looks at the canoes. He writes one line, then another under it.
+- **FX:** `FIX_HOLD; CEL_SHADE(lantern); INSERT_CU(pen,page)`
+- **Sound:** Pen scratch placed forward in the mix, louder than it should be.
+- **Note:** Ledger-man is the first &#x27;Counter&#x27;. Same pose language as the thin man (S12) and Vale&#x27;s notebook (S14).</pre><h3>Recorded unvalidated action / drawings</h3><pre>first line
+reposition nib
+second line
+pen close insert
+clerk shoulder wrist two writing strokes eyes down — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-08"><h2>S01-08</h2><p>144 frames · starts at 1584 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-08.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-08.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`01:06:00 → 01:12:00` (144f) · MS side · rate 3s
+- **Action:** The girl of seven says to the water: “There&#x27;s a way under the roots.” Dairon turns the bow without asking how she knew.
+- **FX:** `HOLD(cel bank)`
+- **Sound:** Her voice small and certain. Hull turn.</pre><h3>Recorded unvalidated action / drawings</h3><pre>girl speaks to water
+Dairon plants
+bow turns
+girl speaks Dairon turns torso — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-09"><h2>S01-09</h2><p>336 frames · starts at 1728 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-09.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-09.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`01:12:00 → 01:26:00` (336f) · POV bow · tunnel · rate 2s
+- **Action:** The canoe shrieks through mangrove roots on both sides; a paddle snaps; wood chips. The roots open into air that smells of salt &#x27;from the wrong direction&#x27;. Cloth and hair flutter the opposite way.
+- **FX:** `MULTIPLANE_RUSH(root layers z1–z5); SPEED_BG; SPLINTER_CEL; WIND_REVERSE`
+- **Sound:** Wood scream on hull. Snap. Then sudden wide air and a wind change.</pre><h3>Recorded unvalidated action / drawings</h3><pre>squeeze roots
+shaft bends only at break
+chips release
+emerge and reverse wind
+Dairon grips brace hair cloth wind reversal — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-10"><h2>S01-10</h2><p>144 frames · starts at 2064 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-10.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-10.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`01:26:00 → 01:32:00` (144f) · MCU boy · bell offscreen · rate 3s
+- **Action:** The boy of nine, head tilted toward the bell: “They know where we were. They don&#x27;t know where we are.”
+- **FX:** `TRANSMITTED_LIGHT(blue,rim)`
+- **Sound:** Bell far behind, now hollow.</pre><h3>Recorded unvalidated action / drawings</h3><pre>tilt toward bell
+speak first phrase
+speak second phrase
+hold
+boy head tilt small assured mouth — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-11"><h2>S01-11</h2><p>240 frames · starts at 2208 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-11.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-11.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`01:32:00 → 01:42:00` (240f) · CU Beheto → WS · rate 2s
+- **Action:** Beheto puts both palms on the drum and leans his weight into it. The sound goes through hull, water and roots.
+- **FX:** `SHOCKWAVE_RING(water, subtle); ROOT_VEINS(gold, 0.4); WOOD_GRAIN_PULSE`
+- **Sound:** Not a boom. A deep skin-and-wood note with no attack, felt as sub.
+- **Note:** SHOWCASE CUT 0 begins.</pre><h3>Recorded unvalidated action / drawings</h3><pre>hover
+palms contact
+weight transfer
+settle and ring
+Beheto hovering palms contact weight lean settle — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-12"><h2>S01-12</h2><p>336 frames · starts at 2448 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-12.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-12.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`01:42:00 → 01:56:00` (336f) · WS → MS paddles · rate 2s
+- **Action:** &#x27;Nothing rose up and nothing parted.&#x27; The canoes simply move a little faster than the paddles. Blades drag and lift. Surface foam turns 90 degrees.
+- **FX:** `FLOW_TURN(foam,90deg); WATER_STREAK_CEL; WIND_STREAKS`
+- **Sound:** Water hiss rising.</pre><h3>Recorded unvalidated action / drawings</h3><pre>canoes overtake strokes
+blades drag
+lift and recovery
+foam turn settles
+Dairon drag lift recover passengers counterbalance — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-13"><h2>S01-13</h2><p>144 frames · starts at 2784 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-13.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-13.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`01:56:00 → 02:02:00` (144f) · CU Amaia&#x27;s ribs · rate 3s
+- **Action:** Her son, asleep, says into her ribs in a voice too old for him: “It&#x27;s turning with us. Turn with it.”
+- **FX:** `HOLD; EYES_CLOSED`
+- **Sound:** Child&#x27;s voice with a quiet adult register layered under it.</pre><h3>Recorded unvalidated action / drawings</h3><pre>closed eyes inhale
+murmur
+settle asleep
+sleeping toddler murmurs Amaia support breath — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-14"><h2>S01-14</h2><p>216 frames · starts at 2928 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-14.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-14.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`02:02:00 → 02:11:00` (216f) · ROLL 12° · WS · rate 3s
+- **Action:** She turns with it. Every body leans into the turn; the camera rolls with them. Behind them on the bank the ledger man finishes his line and closes the book.
+- **FX:** `CAMERA_ROLL(0→12deg); CROSS_DISSOLVE_TO(book)`
+- **Sound:** Wood and water. Book closing: a flat clap.</pre><h3>Recorded unvalidated action / drawings</h3><pre>counterbalance
+roll with lean
+dissolve clerk
+book shuts
+all bodies lean clerk finishes closes ledger — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S01-15"><h2>S01-15</h2><p>96 frames · starts at 3144 · Saved status: technical-approved</p><p><a href="../../projects/cemi_episode_01/data/shots/S01-15.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S01-15.png">Artwork</a> — present<br><a href="../runs/episode1-picture-motion/tasks/editorial-motion-r1/S01-15/preview.mp4">Motion</a> — lfs_pointer<br><a href="../runs/episode1-picture-motion/tasks/editorial-motion-r1/S01-15/shot.ecproj">Native</a> — present<br><a href="../runs/episode1-picture-motion/reviews/editorial-motion-r1/review.json">Review</a> — present</p><details><summary>Script and remaining work</summary><pre>`02:11:00 → 02:15:00` (96f) · FIX · black · rate —
+- **Action:** Black. The clap of the book rings into a keyboard clack (match to S03).
+- **FX:** `MATCH_SOUND`
+- **Sound:** Book clap → keyboard key.</pre><h3>Recorded unvalidated action / drawings</h3><pre>See the exact-file review; no final approval inferred.</pre><p>Voice: not_recorded</p></details></article><article id="S02-01"><h2>S02-01</h2><p>288 frames · starts at 3240 · Saved status: technical-approved</p><p><a href="../../projects/cemi_episode_01/data/shots/S02-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S02-01.png">Artwork</a> — present<br><a href="../runs/episode1-picture-motion/tasks/editorial-motion-r1/S02-01/preview.mp4">Motion</a> — lfs_pointer<br><a href="../runs/episode1-picture-motion/tasks/editorial-motion-r1/S02-01/shot.ecproj">Native</a> — present<br><a href="../runs/episode1-picture-motion/reviews/editorial-motion-r1/review.json">Review</a> — present</p><details><summary>Script and remaining work</summary><pre>`02:15:00 → 02:27:00` (288f) · FIX · title card · rate 3s
+- **Action:** Navy field. Sigil draws in gold. HERALDS OF THE CEMÍ in cream serif caps; below, EPISODE 1 · 3:07.
+- **FX:** `SPIRAL_SIGIL; FILM_GRAIN; TITLE_SHIMMER(1 pass)`
+- **Sound:** Silence, then a low drone swells under the title and stops on the cut.</pre><h3>Recorded unvalidated action / drawings</h3><pre>sigil draw
+title reveal
+single shimmer
+hold</pre><p>Voice: not_recorded</p></details></article><article id="S03-01"><h2>S03-01</h2><p>168 frames · starts at 3528 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S03-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S03-01.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`02:27:00 → 02:34:00` (168f) · CRANE UP · WS · rate 3s
+- **Action:** Jerome Ave at night. The elevated 4 train rumbles past in strobing window-light bars across the street. Crane up the brick back wall of JC&#x27;s building to a lit fourth-floor window. Super: 3:07 AM · TUESDAY · MARCH.
+- **FX:** `PAINTED_BG(night_street); TRAIN_STROBE(bars on street, 24fps); TEXT_SUPER`
+- **Sound:** The 4: rail scream, rising and falling. VO JC: “I&#x27;ll start with the part I&#x27;m not proud of, because my mother says if you start with the part you&#x27;re proud of, God stops listening.”</pre><h3>Recorded unvalidated action / drawings</h3><pre>train passes
+crane wall
+land fourth floor
+super hold
+distant residents optional holds — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S03-02"><h2>S03-02</h2><p>96 frames · starts at 3696 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S03-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S03-02.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`02:34:00 → 02:38:00` (96f) · FIX · MS window · rate 2s
+- **Action:** Gag: the window is so close to the El that JC extends a sandwich toward the passing conductor. Frame holds on the arm as the train blurs by.
+- **FX:** `SPEED_LINES(horizontal); CEL_SMEAR(arm)`
+- **Sound:** VO: “...I could pass a sandwich to the conductor.” Mamá VO: pneumonia warning.</pre><h3>Recorded unvalidated action / drawings</h3><pre>arm anticipation
+extend
+hold gag
+train clears
+JC extends shoulder elbow wrist holds sandwich — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S03-03"><h2>S03-03</h2><p>288 frames · starts at 3792 · Saved status: technical-approved</p><p><a href="../../projects/cemi_episode_01/data/shots/S03-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S03-03.png">Artwork</a> — present<br><a href="../runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S03-03/review.mp4">Motion</a> — lfs_pointer<br><a href="../runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S03-03/native/shot.ecproj">Native</a> — present<br><a href="../runs/episode1-insert-finish/reviews/native-inserts/review.json">Review</a> — present</p><details><summary>Script and remaining work</summary><pre>`02:38:00 → 02:50:00` (288f) · PAN L→R · interior · rate 3s
+- **Action:** Room inventory pan on a single wide painted BG: radiator banging with little steam puffs; dev boards and cable; a Pyrex of arroz con habichuelas that belongs to the lady on three; a chair buried in laundry; the nightstand with the coin.
+- **FX:** `PAINTED_BG(room_wide); PAN_STILL; CEL_OVERLAYS(steam,fan)`
+- **Sound:** Radiator bang. Bachata from the bodega radio. A rosary clicking through the wall.</pre><h3>Recorded unvalidated action / drawings</h3><pre>pan radiator
+pass desk and dish
+pass laundry
+land coin</pre><p>Voice: not_recorded</p></details></article><article id="S03-04"><h2>S03-04</h2><p>264 frames · starts at 4080 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S03-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S03-04.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`02:50:00 → 03:01:00` (264f) · CUTAWAY · building section · rate 3s
+- **Action:** Dollhouse cross-section of the whole building. Colored ribbons rise through the floors: the 4 (steel white), radiator (rust), bachata (magenta), rosary (gold dots), a trumpet on six playing the same solo &#x27;since the Obama administration&#x27;. All of them end at JC&#x27;s closet.
+- **FX:** `CUTAWAY_BG(building_section); SOUND_RIBBON(5 sources); LABEL_CELS`
+- **Sound:** Each ribbon&#x27;s sound mixes in as it&#x27;s labelled. Trumpet solo repeats and cuts off mid-phrase.</pre><h3>Recorded unvalidated action / drawings</h3><pre>reveal building
+activate five sources
+converge closet
+rosary hand trumpet player small banks — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S03-05"><h2>S03-05</h2><p>168 frames · starts at 4344 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S03-05.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S03-05.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`03:01:00 → 03:08:00` (168f) · INSERT · closet · rate 3s
+- **Action:** ECU: a contact mic clamped to the iron steam riser. Follow the pipe up through the wall to the roof. JC&#x27;s laptop: a diegetic HUD. The mapping reads like a legend: pitch → color, rhythm → motion, loud → big. Name card: CHISMOSA.
+- **FX:** `UI_LAPTOP(chismosa); SOUND_RIBBON; TEXT_SUPER(CHISMOSA)`
+- **Sound:** Pipe hum; VO JC: “...all it did was listen through the walls and tell me everybody&#x27;s business.”</pre><h3>Recorded unvalidated action / drawings</h3><pre>mic insert
+follow riser
+roof continuation
+UI legend
+JC pointing optional offscreen — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S03-06"><h2>S03-06</h2><p>240 frames · starts at 4512 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S03-06.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S03-06.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`03:08:00 → 03:18:00` (240f) · MACRO → CU · rate 3s
+- **Action:** The coin on the nightstand: copper, spirals and hooked triangles. He picks it up; faint warm shimmer like a seat someone just left. Flash cut: JC at 12 asleep, fever, dirt under his fingernails on the fourth floor of a building with no dirt in it; Abuela sets the coin in his hand.
+- **FX:** `HEAT_SHIMMER(low); FLASHBACK_GRADE(sepia, 3s); FILM_GRAIN(↑)`
+- **Sound:** VO: “The coin is copper, heavy for its size...it runs warm.”</pre><h3>Recorded unvalidated action / drawings</h3><pre>coin warmth
+pick up
+flash fever
+Abuela places coin
+present JC picks coin child12 asleep Abuela hands only — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S03-07"><h2>S03-07</h2><p>144 frames · starts at 4752 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S03-07.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S03-07.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`03:18:00 → 03:24:00` (144f) · INSERT · list · rate 3s
+- **Action:** A hand-lettered list of things he can&#x27;t explain, scrolling past. #47 circled: THE COIN.
+- **FX:** `HANDWRITING_CEL; SCROLL_CARD`
+- **Sound:** Pen on paper.</pre><h3>Recorded unvalidated action / drawings</h3><pre>scroll entries
+arrive47
+draw circle
+hold
+writing hand if shown — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S03-08"><h2>S03-08</h2><p>144 frames · starts at 4896 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S03-08.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S03-08.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`03:24:00 → 03:30:00` (144f) · FIX · MS desk · rate 3s
+- **Action:** The 4 goes by; he types one line. A small diegetic timer reads 8:00 and counts down to the next train: &#x27;the train comes, I get eight minutes&#x27;.
+- **FX:** `UI_TIMER(8:00); TRAIN_STROBE`
+- **Sound:** The 4, then keystrokes.</pre><h3>Recorded unvalidated action / drawings</h3><pre>train pass
+typing
+timer countdown
+JC types one line — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S03-09"><h2>S03-09</h2><p>216 frames · starts at 5040 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S03-09.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S03-09.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`03:30:00 → 03:39:00` (216f) · DISSOLVES · facade · rate 3s
+- **Action:** The ground floor of the building, four dissolves in order: Ballroom (1957 sign and doors) → laundromat → church → vape shop → current community arts space. An AR mural test is seen on a phone screen over brick.
+- **FX:** `FADE_BETWEEN(5 painted facades); UI_PHONE(AR_overlay)`
+- **Sound:** VO JC on the &#x27;Ballroom&#x27; history. Dance-hall brass ghosted under each dissolve.</pre><h3>Recorded unvalidated action / drawings</h3><pre>1957
+laundromat
+church
+vape shop
+arts space and AR
+period passers restrained cycles — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S03-10"><h2>S03-10</h2><p>216 frames · starts at 5256 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S03-10.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S03-10.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`03:39:00 → 03:48:00` (216f) · SPLIT · laptop UI · rate 3s
+- **Action:** First anomaly: a spiral that opens into a triangle, folded in itself. It resolves from static in three places with the same proportions each time: the screech of the 4, the heater upstairs, the hiss between radio stations. Match-cuts between the three. JC loses a whole Saturday (&#x27;I fall in and send a postcard&#x27;).
+- **FX:** `SIGIL_FROM_STATIC; MATCH_CUT(x3); SPECTRAL_UI`
+- **Sound:** Static resolves toward a tone, three times.</pre><h3>Recorded unvalidated action / drawings</h3><pre>train sigil
+heater sigil
+radio sigil
+JC gaze on screen — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S03-11"><h2>S03-11</h2><p>192 frames · starts at 5472 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S03-11.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S03-11.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`03:48:00 → 03:56:00` (192f) · FIX · laptop UI · rate 3s
+- **Action:** Second anomaly: under everything, an 8-second pressed band repeating. He hits DEL; the band returns. He deleted it &#x27;a dozen times as garbage&#x27;. A counter of DEL presses ticks up to 12.
+- **FX:** `UI_LAPTOP(wave_lanes); PRESS(0.15 on UI only); UI_COUNTER`
+- **Sound:** A dry, low 8s texture under the room. Key taps.
+- **Note:** Introduces the 192-frame loop; lock LOOP_FRAMES in all later cues.</pre><h3>Recorded unvalidated action / drawings</h3><pre>band present
+delete disappear
+return
+counter reaches12
+JC repeated DEL fingers — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S03-12"><h2>S03-12</h2><p>192 frames · starts at 5664 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S03-12.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S03-12.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`03:56:00 → 04:04:00` (192f) · MONTAGE · Jerome Ave · rate 3s
+- **Action:** The block&#x27;s been mean lately: (1) Friday fight outside the bodega over a scratch-off; (2) two men who haven&#x27;t spoken since JC was nine, not speaking, with reasons they can&#x27;t give; (3) the super&#x27;s dog bites a delivery guy, the super calls it &#x27;a misunderstanding&#x27; as if the dog had misheard the order.
+- **FX:** `HOLD_FLASH(3 cards); SPEED_LINES(fight); PRESS(0.1)`
+- **Sound:** Each vignette has the loop at -30 dB under it.</pre><h3>Recorded unvalidated action / drawings</h3><pre>scratchoff dispute
+silent feud
+dog bite recoil
+fighters gestures feuding men turn away dog lunge delivery recoil — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S03-13"><h2>S03-13</h2><p>192 frames · starts at 5856 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S03-13.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S03-13.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`04:04:00 → 04:12:00` (192f) · UI · phone · rate 3s
+- **Action:** 2:41 AM. Manny texts from the 6 train: u alive / define alive / breathing + bad decision energy / then yes / send the kid his EP / it&#x27;s not done / it&#x27;s been done for a week gremlin. JC turns the phone face down: &#x27;Nobody should be known that well at three in the morning.&#x27;
+- **FX:** `UI_PHONE(chat bubbles typed on); CUT_TO_BACK_OF_PHONE`
+- **Sound:** Phone buzz; keyclicks.</pre><h3>Recorded unvalidated action / drawings</h3><pre>messages one to three
+messages four to seven
+turn face down
+JC thumb types then flips phone — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S04-01"><h2>S04-01</h2><p>144 frames · starts at 6048 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S04-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S04-01.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`04:12:00 → 04:18:00` (144f) · FIX · desk, time-lapse · rate 3s
+- **Action:** Digital clock flips 12:07 → 3:07. Three demitasse cups appear and empty, one per hour. The train passes three times.
+- **FX:** `CLOCK_FLIP; CUP_APPEAR(3); TRAIN_STROBE`
+- **Sound:** Cafecito stir. The clock ticks faster each hour.</pre><h3>Recorded unvalidated action / drawings</h3><pre>12:07 first cup
+1:07 second cup
+2:07 third cup
+3:07 empty cups
+JC tired pose changes optional — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S04-02"><h2>S04-02</h2><p>144 frames · starts at 6192 · Saved status: technical-approved</p><p><a href="../../projects/cemi_episode_01/data/shots/S04-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S04-02.png">Artwork</a> — present<br><a href="../runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/review-matte.mp4">Motion</a> — lfs_pointer<br><a href="../runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S04-02/native-matte/shot.ecproj">Native</a> — present<br><a href="../runs/episode1-insert-finish/reviews/native-inserts/review.json">Review</a> — present</p><details><summary>Script and remaining work</summary><pre>`04:18:00 → 04:24:00` (144f) · ABSTRACT · UI · rate 3s
+- **Action:** The filter stack as three gauze panes between the pipe and the projector: SMOOTHING (a comb), GATING (a door), NOISE FLOOR (a line). The shape and the loop pass through all three unchanged.
+- **FX:** `PANES_CEL(3); PASS_THROUGH(sigil,loop)`
+- **Sound:** Muffled filter hum. The sigil tone passes clear.</pre><h3>Recorded unvalidated action / drawings</h3><pre>comb pass
+door pass
+line pass</pre><p>Voice: not_recorded</p></details></article><article id="S04-03"><h2>S04-03</h2><p>144 frames · starts at 6336 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S04-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S04-03.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`04:24:00 → 04:30:00` (144f) · CU hands · screen · rate 2s
+- **Action:** JC selects the config and deletes all of it. The three panes shatter into dust and vanish.
+- **FX:** `PANE_SHATTER_CEL; CAMERA_SHAKE(2f)`
+- **Sound:** Glass without reverb.</pre><h3>Recorded unvalidated action / drawings</h3><pre>select config
+press delete
+three panes fracture
+dust vanishes
+JC selects deletes config — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S04-04"><h2>S04-04</h2><p>144 frames · starts at 6480 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S04-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S04-04.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`04:30:00 → 04:36:00` (144f) · WS room · rate 3s
+- **Action:** The projector, aimed at his bedroom wall, throws his cobalt handle test loop. The fan hums. Small reasonable voice (VO): this could fry the board.
+- **FX:** `COBALT_HANDLE_UI; PROJECTOR_BEAM(dust)`
+- **Sound:** Fan hum. VO is JC&#x27;s own voice, a half-step higher and tidy.</pre><h3>Recorded unvalidated action / drawings</h3><pre>test loop cycles
+fan and dust continue
+JC watching screen subtle breath — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S04-05"><h2>S04-05</h2><p>168 frames · starts at 6624 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S04-05.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/opening/generated/S04-05.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`04:36:00 → 04:43:00` (168f) · ECU finger → CU face · rate 3s
+- **Action:** A finger above the Enter key. The 4 is about to pass. His reflection in the dark screen. He hits Enter. The fan clicks. The 4 goes by.
+- **FX:** `HOLD(4s); FLASH_FRAME(1f on keypress)`
+- **Sound:** Silence. One key. Fan click.</pre><h3>Recorded unvalidated action / drawings</h3><pre>four second hover
+press Enter
+reflection reaction
+train passes
+finger hover press face reflection — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-01"><h2>S05-01</h2><p>72 frames · starts at 6792 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-01.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`04:43:00 → 04:46:00` (72f) · DOLLY-ZOOM · CU JC · rate 3s
+- **Action:** His ears pop &#x27;like an elevator dropping a floor&#x27;. Air thickens at the edges of the frame.
+- **FX:** `DOLLY_ZOOM(3s); VIGNETTE_PUMP; HEAT_WAVE(edges)`
+- **Sound:** Pitch-fall pop. Fan click.</pre><h3>Recorded unvalidated action / drawings</h3><pre>anticipate
+pop recoil
+settle
+JC ears pop brows recoil — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-02"><h2>S05-02</h2><p>120 frames · starts at 6864 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-02.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`04:46:00 → 04:51:00` (120f) · WS room → CU wall · rate 2s
+- **Action:** The projector coughs. The cobalt &#x27;JC&#x27; test loop breaks into static, which pulls toward the middle of the wall. The plaster surface ripples in concentric rings.
+- **FX:** `STATIC_PULL(center); SHOCKWAVE_RING(wall); PLASTER_CRACK(hand-drawn, 2s)`
+- **Sound:** Static sucks inward; plaster creak.</pre><h3>Recorded unvalidated action / drawings</h3><pre>cobalt cough
+static pull
+concentric rings
+wall crack cels
+JC offscreen or reaction hold — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-03"><h2>S05-03</h2><p>144 frames · starts at 6984 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-03-r2.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`04:51:00 → 04:57:00` (144f) · PUSH THROUGH WALL · rate 3s
+- **Action:** &#x27;It was a room.&#x27; The wall gives way. The plaster goes back and back: a long hall, a floor with a shine, chandeliers that don&#x27;t hang from JC&#x27;s ceiling, a bandstand far away.
+- **FX:** `PERSPECTIVE_TUNNEL(painted BG, 6 layers); PLASTER_PEEL_CEL; FLASH_FRAME(1f)`
+- **Sound:** Air rush. Orchestral brass fades up from inside the headphones around his neck.</pre><h3>Recorded unvalidated action / drawings</h3><pre>wall light opens depth
+push perspective
+reveal distant hall
+JC offscreen — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-04"><h2>S05-04</h2><p>216 frames · starts at 7128 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-04-r2.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`04:57:00 → 05:06:00` (216f) · CRANE &amp; PAN · WS reveal · rate 3s
+- **Action:** The Ballroom, 1957. About forty couples made of light (blue and gold), two-tone shoes, skirts catching air; horn section on the bandstand; a cowbell ridden &#x27;with no hurry at all&#x27;. Date super: THE BALLROOM · 1957.
+- **FX:** `LIGHT_FIGURE(dancers, bank cycles x3); PAINTED_BG(ballroom); GLOW_AIRBRUSH; FILM_GRAIN`
+- **Sound:** Horns, cowbell, shoe leather on maple, a woman laughing at the end of a phrase.</pre><h3>Recorded unvalidated action / drawings</h3><pre>reveal near couples
+crane deeper
+bandstand
+date super
+about40 couples light figures horn section cowbell — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-05"><h2>S05-05</h2><p>72 frames · starts at 7344 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-05.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-05.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`05:06:00 → 05:09:00` (72f) · INSERT · neck · rate 3s
+- **Action:** The headphones around his neck, leaking music, tiny sound-lines. He has not put them on.
+- **FX:** `SOUND_LEAK_CEL`
+- **Sound:** Tinny, small, then opens to full range as the hall appears.</pre><h3>Recorded unvalidated action / drawings</h3><pre>headphone hold
+lines grow
+hold leak
+JC neck breath only — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-06"><h2>S05-06</h2><p>192 frames · starts at 7416 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-06.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-06.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`05:09:00 → 05:17:00` (192f) · TRACK · hero dancers · rate 2s
+- **Action:** Hero pass: three couples in quick cuts. Footwork, a spin, a skirt flare. The cowbell hits the shoe strikes; the maple floor reflects them.
+- **FX:** `SKIRT_FLARE_CEL(2s); FLOOR_REFLECTION; SPEED_LINES(spin)`
+- **Sound:** Two-tone shoes on wood, in time with the cowbell.
+- **Note:** The one passage allowed on 2s full dance animation; everything else here holds on 3s.</pre><h3>Recorded unvalidated action / drawings</h3><pre>couple1 footwork
+couple2 spin
+couple3 flare
+three hero couples partnered footwork spin settle — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-07"><h2>S05-07</h2><p>120 frames · starts at 7608 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-07.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-07-r2.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`05:17:00 → 05:22:00` (120f) · TOP SHOT · floor inlay · rate 3s
+- **Action:** The floor inlay in darker wood: the spiral opening into a triangle. Dancers circle it without ever looking down. Insert: the coin on the nightstand, glinting.
+- **FX:** `TOP_DOWN_ROTATE(slow); SIGIL_INLAY(gold edge); MATCH_INSERT(coin)`
+- **Sound:** Cowbell fades under JC&#x27;s whisper: “It was the mark on my coin.”</pre><h3>Recorded unvalidated action / drawings</h3><pre>circle center
+slow rotation
+coin match insert
+couples circle mark — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-08"><h2>S05-08</h2><p>120 frames · starts at 7728 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-08.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-08.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`05:22:00 → 05:27:00` (120f) · FALLING CAMERA · section · rate 2s
+- **Action:** Camera drops through the floors of the building, 4th to ground, as the year numerals tick down: 2026 … 1957. The Ballroom glows at the bottom. &#x27;One floor under my feet and almost seventy years down.&#x27;
+- **FX:** `BUILDING_SECTION_BG; YEAR_COUNTER(rapid); SPEED_BG(vertical)`
+- **Sound:** Whoosh without Doppler; music stays centered.</pre><h3>Recorded unvalidated action / drawings</h3><pre>drop fourth to third
+second to first
+ground ballroom
+small occupants optional holds — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-09"><h2>S05-09</h2><p>144 frames · starts at 7848 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-09.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-09.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`05:27:00 → 05:33:00` (144f) · INSERT → CROSSCUT · rate 3s
+- **Action:** &#x27;I felt it before I heard it&#x27;: a pulse climbs the iron riser into JC&#x27;s soles. Cut to a long dark window across the street. &#x27;Across the street, I thought.&#x27; The loop arrives: dry, tuneless, the loudest thing on the block.
+- **FX:** `PIPE_PULSE_CEL; MATCH_CUT(window across); PRESS(0.25 on audio only)`
+- **Sound:** Sub pulse up the pipe, then the 8s loop: no reverb, mono.</pre><h3>Recorded unvalidated action / drawings</h3><pre>pulse climbs
+feet react
+crosscut window
+JC sole pressure reaction — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-10"><h2>S05-10</h2><p>192 frames · starts at 7992 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-10.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-10.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`05:33:00 → 05:41:00` (192f) · MS ×3 → CU · rate 3s
+- **Action:** The band keeps playing. One couple loses the step, then the next. A woman&#x27;s smile goes slack mid-turn. A man puts his hand on his partner&#x27;s back and stands still.
+- **FX:** `HOLD_FRAMES(drop to 6s on couples); SLACK_CEL_SEQ(see keys); PRESS(0.3 → 0.6 over the shot)`
+- **Sound:** Brass loses high end and stereo width as the loop rises.
+- **Note:** SHOWCASE CUT 1 begins.</pre><h3>Recorded unvalidated action / drawings</h3><pre>first lost step
+next couple
+smile slack
+hand back still
+couple1 stumble couple2 slack woman smile dies man stops — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-11"><h2>S05-11</h2><p>240 frames · starts at 8184 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-11.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-11.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`05:41:00 → 05:51:00` (240f) · WS · long frame · rate 3s
+- **Action:** Pair by pair down the floor the shoulders drop and the faces empty, until the band is playing for a hall of people standing in their good clothes. The wave of stillness crosses toward the bandstand. The horns keep going.
+- **FX:** `STILL_WAVE(near→far, 6s); PRESS(0.6→0.9); DEPTH_FLATTEN(parallax→0)`
+- **Sound:** Music continues, drier each second; loop fills the gap.</pre><h3>Recorded unvalidated action / drawings</h3><pre>near rows stop
+middle rows stop
+far rows stop
+band remains
+pairs shoulders drop near to far band keeps playing — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-12"><h2>S05-12</h2><p>288 frames · starts at 8424 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-12.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-12.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`05:51:00 → 06:03:00` (288f) · WHIP · WS · rate 2s
+- **Action:** &#x27;The color didn&#x27;t fade. It ran.&#x27; Blue and gold stream off the dancers as airbrushed ribbons, all leaning one way, across the hall and out through JC&#x27;s window toward the empty building. Dancers turn gray-white. The floor mark goes as dark as the boards.
+- **FX:** `AIRBRUSH_RIBBONS(blue,gold; count 40; 2s); STREAK_CEL; WHIP_PAN(follow river); SIGIL_GOES_DARK`
+- **Sound:** A long exhale made of brass partials, falling in pitch.</pre><h3>Recorded unvalidated action / drawings</h3><pre>color detaches
+streams align
+whip follows exit
+mark dark
+gray white dancer hold poses — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-13"><h2>S05-13</h2><p>96 frames · starts at 8712 · Saved status: technical-approved</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-13.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-13.png">Artwork</a> — present<br><a href="../runs/episode1-insert-finish/tasks/native-inserts/S05-13/review.mp4">Motion</a> — lfs_pointer<br><a href="../runs/episode1-insert-finish/tasks/native-inserts/S05-13/native/shot.ecproj">Native</a> — present<br><a href="../runs/episode1-insert-finish/reviews/native-inserts/review.json">Review</a> — present</p><details><summary>Script and remaining work</summary><pre>`06:03:00 → 06:07:00` (96f) · ECU · nightstand · rate 1s
+- **Action:** &#x27;Something ticked on the nightstand.&#x27; The coin lifts half an inch, hangs, drops. Impact on wood.
+- **FX:** `COIN_LIFT(see keys); FLASH_FRAME(1f at contact)`
+- **Sound:** Single metallic tick.
+- **Note:** A 1s moment, used sparingly.</pre><h3>Recorded unvalidated action / drawings</h3><pre>rest
+lift
+hang
+drop
+impact settle</pre><p>Voice: not_recorded</p></details></article><article id="S05-14"><h2>S05-14</h2><p>96 frames · starts at 8808 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-14.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-14-r2.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`06:07:00 → 06:11:00` (96f) · JUMP CUT · CU palm · rate 2s
+- **Action:** He is already against the door; the chair is on its side. He did not decide to move. The coin is in his hand, hot now; his fingers recoil but hold.
+- **FX:** `JUMP_CUT(no inbetween); SPEED_LINES; HEAT_SHIMMER(red)`
+- **Sound:** Chair clatters. Coin sizzle.</pre><h3>Recorded unvalidated action / drawings</h3><pre>hard jump cut
+hand recoil
+grip retained
+JC jump to door fingers recoil but keep grip — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-15"><h2>S05-15</h2><p>96 frames · starts at 8904 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-15.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-15-r2.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`06:11:00 → 06:15:00` (96f) · FIX · room · rate —
+- **Action:** Everything in the apartment goes out at once: laptop, lamp, router LEDs, fan spin-down. Black.
+- **FX:** `BLACKOUT_POP(sequential 3f gaps)`
+- **Sound:** Fan whine falls. Total silence for 1s.</pre><h3>Recorded unvalidated action / drawings</h3><pre>laptop off
+lamp off
+router off
+fan decelerates
+black
+JC silhouette holds — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S05-16"><h2>S05-16</h2><p>144 frames · starts at 9000 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S05-16.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S05-16.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`06:15:00 → 06:21:00` (144f) · FIX · wall in darkness · rate 3s
+- **Action:** For two more seconds the dancers hang on the wall, blue and gold, with no projector under them. Then they go. The radiators tick back to normal, &#x27;because as far as the radiators were concerned nothing had happened&#x27;.
+- **FX:** `TRANSMITTED_LIGHT_ONLY; FADE_OUT(48f); HOLD_BLACK`
+- **Sound:** One last cowbell. Radiator ticks.</pre><h3>Recorded unvalidated action / drawings</h3><pre>residual dancers
+fade48f
+dark hold radiator normal
+light dancers hang then fade — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S06-01"><h2>S06-01</h2><p>120 frames · starts at 9144 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S06-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-01.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`06:21:00 → 06:26:00` (120f) · FIX · door · rate 3s
+- **Action:** Darkness. Two taps on the door: one to ask, one to tell you what she decided. Slippers show as shadows under the door.
+- **FX:** `SHADOW_CEL(door gap); CHROMA_BLEED`
+- **Sound:** Two taps: first rising, second falling. Rosary clicks.</pre><h3>Recorded unvalidated action / drawings</h3><pre>first tap
+second tap
+slipper hold
+Mama unseen tapping hand slippers shadows — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S06-02"><h2>S06-02</h2><p>384 frames · starts at 9264 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S06-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-02-r2.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`06:26:00 → 06:42:00` (384f) · TWO-SHOT split door · rate 3s
+- **Action:** Mamá: “Juan Carlos. Se fue la luz.” JC: “It&#x27;s the whole block, Má.” (He hadn&#x27;t checked; said with &#x27;total confidence and no evidence&#x27;.) The rosary clicks in her fist; he can hear her decide not to ask. “Acuéstate.” Her slippers go down the hall and stop; she stands at the end of the hall, as she does.
+- **FX:** `HOLD(bank cel); MOUTH_FLAP(3 drawings); DOOR_CROSS_CUT`
+- **Sound:** Muffled Spanish through wood. Rosary. Slippers.</pre><h3>Recorded unvalidated action / drawings</h3><pre>Mama line
+JC answer
+decision and command
+slippers recede
+stop hall end
+Mama speaks JC answers rosary decision retreat stop — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S06-03"><h2>S06-03</h2><p>144 frames · starts at 9648 · Saved status: technical-approved</p><p><a href="../../projects/cemi_episode_01/data/shots/S06-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-03.png">Artwork</a> — present<br><a href="../runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/review.mp4">Motion</a> — lfs_pointer<br><a href="../runs/episode1-native-inserts/tasks/room-filters-coin-blackout/S06-03/native/shot.ecproj">Native</a> — present<br><a href="../runs/episode1-insert-finish/reviews/native-inserts/review.json">Review</a> — present</p><details><summary>Script and remaining work</summary><pre>`06:42:00 → 06:48:00` (144f) · WS · window POV · rate 3s
+- **Action:** The block is out: streetlights, bodega sign, the laundromat on Jerome, every window up and down. Distant city skyline glows normally beyond the block&#x27;s edge.
+- **FX:** `PAINTED_BG(night_block_dark); AMBIENT_GLOW(far skyline)`
+- **Sound:** Distant city hum; none on the block.
+- **Note:** [ADAPT] The far skyline lit makes the blackout read as block-sized.</pre><h3>Recorded unvalidated action / drawings</h3><pre>reveal local outage
+hold skyline contrast</pre><p>Voice: not_recorded</p></details></article><article id="S06-04"><h2>S06-04</h2><p>192 frames · starts at 9792 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S06-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-04.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`06:48:00 → 06:56:00` (192f) · RACK FOCUS · PUSH-IN · rate 3s
+- **Action:** Foreground sill → across the street: one window on the third floor of the empty building (blue construction netting) is lit, flat white, no flicker. A man in headphones stands there facing JC&#x27;s building.
+- **FX:** `RACK_FOCUS; PUSH_IN(5% over 8s); FLAT_LIGHT_CEL`
+- **Sound:** Room tone. The loop is almost gone: a thread at -40 dB.</pre><h3>Recorded unvalidated action / drawings</h3><pre>foreground sill
+focus shifts
+five percent push
+hold man
+window man immobile headphones — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S06-05"><h2>S06-05</h2><p>144 frames · starts at 9984 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S06-05.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S06-05.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`06:56:00 → 07:02:00` (144f) · MCU JC → WS window · rate 3s
+- **Action:** When he steps back from the glass the man does not move. Hold. Smash to black.
+- **FX:** `HOLD(4s); SMASH_CUT_BLACK`
+- **Sound:** Cut to silence, then rosary click fades.
+- **Note:** Do not identify the man. See flags in the closing section.</pre><h3>Recorded unvalidated action / drawings</h3><pre>JC retreats
+four second hold
+smash black
+JC steps away shoulders recede man does not — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S07-01"><h2>S07-01</h2><p>96 frames · starts at 10128 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S07-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-01.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`07:02:00 → 07:06:00` (96f) · FIX · title super · rate 3s
+- **Action:** Super: TUESDAY · MORNING. Kitchen, dawn light through the window. Radio on low, a merengue. Chair rocks on a short leg propped by a folded Con Ed bill (since 2011).
+- **FX:** `PAINTED_BG(kitchen_dawn); TEXT_SUPER; INSERT_CU(chair)`
+- **Sound:** Merengue on radio; the chair&#x27;s rock clicks.</pre><h3>Recorded unvalidated action / drawings</h3><pre>morning super
+chair rocking insert
+settle</pre><p>Voice: not_recorded</p></details></article><article id="S07-02"><h2>S07-02</h2><p>144 frames · starts at 10224 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S07-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-02.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`07:06:00 → 07:12:00` (144f) · ECU series · rate 3s
+- **Action:** Mamá turns salami with a fork. Queso frito sizzles. Mangú steam. Real food painting: background-grade cels for the food.
+- **FX:** `FOOD_PAINT_CEL; STEAM_LOOP(bank)`
+- **Sound:** Sizzle, radio, fork on pan.</pre><h3>Recorded unvalidated action / drawings</h3><pre>fork contacts salami
+flip
+cheese sizzle
+steam insert
+Mama wrist fork turn — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S07-03"><h2>S07-03</h2><p>528 frames · starts at 10368 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S07-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-03.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`07:12:00 → 07:34:00` (528f) · TWO-SHOT / OTS · rate 3s
+- **Action:** Mamá: “La luz se fue a las tres y volvió a las cuatro. Con Ed says transformer. The super says Con Ed. Doña Fela on five says it was the Lord.” “What do you say?” “I say the keyboard stopped at three-oh-seven. I look at the clock when you don&#x27;t sleep. Siéntate.” (Los tres golpes.)
+- **FX:** `HOLD(bank cel); MOUTH_FLAP`
+- **Sound:** Pan, kitchen sounds, Mamá&#x27;s dry voice.</pre><h3>Recorded unvalidated action / drawings</h3><pre>Mama report
+JC question
+Mama clock observation
+JC sits
+Mama serves explains JC asks then sits — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S07-04"><h2>S07-04</h2><p>336 frames · starts at 10896 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S07-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-04.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`07:34:00 → 07:48:00` (336f) · MCU · slow · rate 3s
+- **Action:** Mamá gives him &#x27;the slow inspection that doesn&#x27;t miss anything.&#x27; “Tu abuela llamó anoche. Antes de que se fuera la luz.” “She good?” “She&#x27;s old, she&#x27;s stubborn, she&#x27;s good.” (practiced pause) “She asked if it already started.” The mangú turns to wet sand in his mouth.
+- **FX:** `FOOD_DESATURATE(to wet sand, 3s); LOOK_HOLD(2s)`
+- **Sound:** Radio drops away on &#x27;started&#x27;.</pre><h3>Recorded unvalidated action / drawings</h3><pre>inspection
+practiced pause
+question started
+chewing stops
+Mama slow eye scan JC chews swallow stalls — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S07-05"><h2>S07-05</h2><p>240 frames · starts at 11232 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S07-05.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-05.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`07:48:00 → 07:58:00` (240f) · TRIPTYCH · dissolves · rate —
+- **Action:** &#x27;The Look&#x27;: Mamá looks over her coffee and decides not to answer. Dissolve through JC at nine (asking where Papá goes on nights he doesn&#x27;t come home) and after the fever at twelve. Same pose, same angle, three eras of warm light.
+- **FX:** `HARMONY_CUT(freeze + pastel posterize); DISSOLVE_TRIPTYCH`
+- **Sound:** Silence except coffee cup on saucer. Each time: her &#x27;Mm&#x27; with a sermon folded inside.
+- **Note:** [ADAPT] The Dezaki-style freeze + hatched pastel still is the 90s answer to a flashback.</pre><h3>Recorded unvalidated action / drawings</h3><pre>present look
+nine year memory
+twelve year memory
+present freeze
+Mama present37/40 coffee look JC25/9/12 — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S07-06"><h2>S07-06</h2><p>288 frames · starts at 11472 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S07-06.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-06.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`07:58:00 → 08:10:00` (288f) · CU · pocket · rate 3s
+- **Action:** “Eat lunch. A real one. Not coffee.” “Promise.” “You said that yesterday.” “I&#x27;ll mean it harder today.” The coin is warm against his hip; something that kept its mouth shut for twenty-five years clears its throat.
+- **FX:** `HEAT_SHIMMER(pocket); LIST_APPEND(Ballroom, dancers, man in window, grandmother&#x27;s question); GLOW_AIRBRUSH(low)`
+- **Sound:** Under radio and Mamá&#x27;s back, a low throat-clear rumble.</pre><h3>Recorded unvalidated action / drawings</h3><pre>exchange
+promise joke
+pocket warmth
+append four items
+Mama admonishes JC promises — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S07-07"><h2>S07-07</h2><p>144 frames · starts at 11760 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S07-07.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S07-07-r2.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`08:10:00 → 08:16:00` (144f) · TRACK · stairwell · rate 3s
+- **Action:** He heads for work down four flights. At the fourth-floor stairwell wall his hand brushes the plaster; for a frame he almost listens.
+- **FX:** `PAINTED_BG(stairwell); HAND_BRUSH_CEL`
+- **Sound:** Stairwell echo; a very faint wall hum that isn&#x27;t there.
+- **Note:** [ADAPT] Plants Mikey (S14).</pre><h3>Recorded unvalidated action / drawings</h3><pre>descend
+brush fourth floor wall
+near listen
+continue down
+JC descending step cycles hand brushes pauses — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S08-01"><h2>S08-01</h2><p>120 frames · starts at 11904 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S08-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-01-r2.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`08:16:00 → 08:21:00` (120f) · TILT UP · WS · rate 3s
+- **Action:** Banner on the netting, four stories tall: smiling mural people, &#x27;A CALMER BLOCK STARTS HERE.&#x27; in rounded friendly type.
+- **FX:** `PAINTED_BG(banner); STOCK_PHOTO_STYLE(flat vector, deliberately bland)`
+- **Sound:** Street ambience. Light jingle ghost.</pre><h3>Recorded unvalidated action / drawings</h3><pre>tilt bottom
+travel banner
+hold slogan
+banner smiling mural figures static — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S08-02"><h2>S08-02</h2><p>120 frames · starts at 12024 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S08-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-02-r2.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`08:21:00 → 08:26:00` (120f) · CU logo · rate 3s
+- **Action:** Logo: a camera iris. As JC&#x27;s eyes trace the blades, the overlapped curve lines up with the cemí spiral for exactly 3 frames, then un-aligns. Text: Aperture Civic. Community Spaces, Coming Soon.
+- **FX:** `SIGIL_RHYME(3f overlay, 40% alpha); FLASH_FRAME(1f)`
+- **Sound:** A tiny soft &#x27;click&#x27; like a shutter.</pre><h3>Recorded unvalidated action / drawings</h3><pre>trace blades
+three frame alignment
+unalign
+hold logo
+JC eye trace insert optional — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S08-03"><h2>S08-03</h2><p>384 frames · starts at 12144 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S08-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-03.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`08:26:00 → 08:42:00` (384f) · TWO-SHOT · rate 3s
+- **Action:** Two guys in hi-vis bolting the last corner to the scaffold. The one with the ladder has headphones around his neck. “Morning.” “You guys work late?” “Nights? Nah. Union. We clock out at three-thirty. Daylight only.” JC glances at the third-floor window: dark.
+- **FX:** `HOLD(bank cel); MOUTH_FLAP; INSERT_CU(window dark)`
+- **Sound:** Wrench clicks; elevated train in distance.
+- **Note:** Give him a distinct face. The headphone silhouette is a deliberate rhyme, not the window man.</pre><h3>Recorded unvalidated action / drawings</h3><pre>bolt corner
+greeting
+nightwork denial
+JC glance window
+two workers wrench ladder JC asks glances — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S08-04"><h2>S08-04</h2><p>144 frames · starts at 12528 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S08-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/ballroom-morning/frames/S08-04.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`08:42:00 → 08:48:00` (144f) · TRACK · walk · rate 3s
+- **Action:** JC thanks him &#x27;like a normal person&#x27; and walks toward the train. His heart does something rude: a heartbeat pulse in the frame edges.
+- **FX:** `HEARTBEAT_PUMP(vignette); PAN_WITH_WALK`
+- **Sound:** Footsteps; heartbeat low.</pre><h3>Recorded unvalidated action / drawings</h3><pre>thanks
+turn
+walk toward train
+JC thanks turns walks — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S09-01"><h2>S09-01</h2><p>120 frames · starts at 12672 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S09-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S09-01.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`08:48:00 → 08:53:00` (120f) · WS · exterior · rate 3s
+- **Action:** El Disco Café under the El. A train passes overhead and the sign shakes. Where the paint has worn, older letters come through: DISCOS QUISQUEYA.
+- **FX:** `PAINTED_BG(cafe_exterior); TRAIN_SHAKE(CAMERA); PALIMPSEST_TEXT(fade)`
+- **Sound:** Train roar; shake; everyone inside keeps talking.</pre><h3>Recorded unvalidated action / drawings</h3><pre>train enters
+sign shakes
+old text appears
+distant cafe pedestrians optional — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S09-02"><h2>S09-02</h2><p>120 frames · starts at 12792 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S09-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S09-02.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`08:53:00 → 08:58:00` (120f) · PAN · interior · rate 3s
+- **Action:** Narrow room, tin ceiling, no two chairs from the same family, back wall where record bins used to run. The whole place shakes; cups rattle.
+- **FX:** `PAINTED_BG(cafe_interior); CUP_RATTLE_CEL`
+- **Sound:** Background chatter loop; steamer; grinder.</pre><h3>Recorded unvalidated action / drawings</h3><pre>pan room
+train tremor
+cups settle
+cafe occupants subtle activity — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S09-03"><h2>S09-03</h2><p>480 frames · starts at 12912 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S09-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S09-03.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`08:58:00 → 09:18:00` (480f) · OTS · eyebrows insert · rate 3s
+- **Action:** Mr. Rodríguez, not looking up: “Dime a ver, poeta. And that face.” “What face?” “That one. You look like you&#x27;re getting a station the rest of us don&#x27;t get.” “Long night. The power went out.” “The whole block, sí. Doña Fela says the Lord. Go. It&#x27;s Tuesday, three gigs, no lunch. I&#x27;m not paying you to look haunted. Although it&#x27;s good for the brand.”
+- **FX:** `EYEBROW_GAG(CU, 2s); HOLD(bank cel); MOUTH_FLAP`
+- **Sound:** Tray on counter; his dry delivery.</pre><h3>Recorded unvalidated action / drawings</h3><pre>Rodriguez greeting
+JC denial
+eyebrow gag
+work instruction
+Rodriguez work glance eyebrows JC tired reply — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S09-04"><h2>S09-04</h2><p>144 frames · starts at 13392 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S09-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S09-04.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`09:18:00 → 09:24:00` (144f) · OVERLAY · JC · rate 3s
+- **Action:** JC&#x27;s rent math as floating numbers: café pays Friday, mural milestone, kid pays his half. Nine days. Sums orbit, cross each other out; &#x27;it has never once come out even.&#x27; Tigueraje.
+- **FX:** `NUMBER_ORBIT(handwritten); CROSS_OUT_CEL`
+- **Sound:** Calculator tick; his mouth moves silently.</pre><h3>Recorded unvalidated action / drawings</h3><pre>numbers appear
+orbit
+cross out
+failed total
+JC silently counts mouth brow — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S09-05"><h2>S09-05</h2><p>216 frames · starts at 13536 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S09-05.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S09-05-r2.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`09:24:00 → 09:33:00` (216f) · PAN · map · rate 3s
+- **Action:** The map on butcher paper: Jerome Ave from 161st to 170th in pencil and marker, covered in index cards: Casa Fela, shoe repair, 1968–1994. Don Chino&#x27;s barbershop (the line went out the door on Sundays). The Rialto, 25¢ Saturdays. A new card each week. One corner is blank.
+- **FX:** `PAN_STILL(painted map); CARD_POP(8 cards, hand-drawn icons)`
+- **Sound:** Pencil on paper over the café hum.</pre><h3>Recorded unvalidated action / drawings</h3><pre>pan161st
+cards appear
+reach170th
+blank corner</pre><p>Voice: not_recorded</p></details></article><article id="S09-06"><h2>S09-06</h2><p>264 frames · starts at 13752 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S09-06.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S09-06.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`09:33:00 → 09:44:00` (264f) · CU · blank card · rate 3s
+- **Action:** “Your building&#x27;s empty. The Ballroom. Saturday nights, mambo bands, my mother in her best shoes. I have the dates wrong, I know I do. You live upstairs. Ask your mother.” Hands over a blank card and marker. “Because when they change the block they change the story, and I want the story on paper first.” The 4 goes through, the cups rattle, he&#x27;s gone to a table.
+- **FX:** `TRAIN_SHAKE; HOLD; PUSH_IN(blank card)`
+- **Sound:** Train roar punctuates the line; cups.</pre><h3>Recorded unvalidated action / drawings</h3><pre>history explanation
+handoff
+story on paper
+depart
+Rodriguez hands card marker JC receives boss walks away — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S10-01"><h2>S10-01</h2><p>120 frames · starts at 14016 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S10-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S10-01.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`09:44:00 → 09:49:00` (120f) · WS door → MS · rate 3s
+- **Action:** 9:30. Manny enters backward, shouldering the door with a drum case in one hand and two iced coffees in the other. “For the labor. I&#x27;m management now. I delegate hydration.”
+- **FX:** `DOOR_BUMP_CEL; SMEAR_CEL(1f)`
+- **Sound:** Door bell. Ice rattles.</pre><h3>Recorded unvalidated action / drawings</h3><pre>back into door
+shoulder push
+step through
+settle
+Manny backwards step shoulder door hand carries — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S10-02"><h2>S10-02</h2><p>216 frames · starts at 14136 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S10-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S10-02.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`09:49:00 → 09:58:00` (216f) · BIO CARDS · rate 2s
+- **Action:** Quick intro vignettes: nine-year-old Manny hits a city trash can with two pencils so clean a grown man stops to listen; Manny at six-three doing a salsa step like a refrigerator; “allergic to emotions.”
+- **FX:** `VIGNETTE_CARDS(3); SPEED_LINES; SMEAR_CEL`
+- **Sound:** Pencil-on-trash-can groove, tight.</pre><h3>Recorded unvalidated action / drawings</h3><pre>child groove
+adult refrigerator salsa
+allergic emotions gag
+Manny9 pencil drumming adult salsa emotional dodge — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S10-03"><h2>S10-03</h2><p>336 frames · starts at 14352 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S10-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S10-03.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`09:58:00 → 10:12:00` (336f) · CU palm → WS · rate 3s
+- **Action:** Manny rests one palm flat on the drum case. The café has six noises (grinder, steamer, a stroller with a squeaky wheel, two guys on the Yankees bullpen, the freelancer&#x27;s keyboard, Jerome traffic). They quit arguing and fall into one groove; you can almost hear a window click into its track; the baby, about to scream, sighs and closes her eyes. Manny doesn&#x27;t notice. JC watches.
+- **FX:** `SOUND_RIBBON(6; amber,white,lime,red,cyan,violet); RIBBONS_BRAID(1.5s); WINDOW_CLICK_INSERT; BABY_SIGH_CU`
+- **Sound:** The six sounds start as noise, then lock into one pocket tempo. The steamer whistle sits on a clean A (440 Hz).</pre><h3>Recorded unvalidated action / drawings</h3><pre>palm settles
+six sources
+braid36f
+baby closes eyes
+Manny palm on case baby inhale sigh JC notices — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S10-04"><h2>S10-04</h2><p>432 frames · starts at 14688 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S10-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S10-04.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`10:12:00 → 10:30:00` (432f) · OTS dialogue · rate 3s
+- **Action:** “You good?” “Long night.” “You always say long night. You ever have a short one?” “Twice. 2019. It was great.” “How&#x27;s the kid&#x27;s EP?” “Done.” “So send it.” “It needs one more pass.” “It&#x27;s needed one more pass for a week, gremlin. Sunday. Rafa&#x27;s circle in the park, you coming? Bring nothing. Stand in the back.” “I&#x27;ll try.” “That&#x27;s a no in a nicer shirt.”
+- **FX:** `HOLD(bank cel); MOUTH_FLAP; CHEEK_SMEAR(laugh)`
+- **Sound:** Warm café ambience; Manny&#x27;s easy bass voice.</pre><h3>Recorded unvalidated action / drawings</h3><pre>check in
+long night joke
+EP confrontation
+park invite
+Manny teasing JC defenses laugh settle — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S10-05"><h2>S10-05</h2><p>192 frames · starts at 15120 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S10-05.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S10-05.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`10:30:00 → 10:38:00` (192f) · UI · phone · rate 3s
+- **Action:** Yari&#x27;s daily text: did you eat / define eat / juan carlos. He sends a photo of the iced coffee; she replies with one skull.
+- **FX:** `UI_PHONE(bubbles); EMOJI_CEL`
+- **Sound:** Phone buzz and whoosh.</pre><h3>Recorded unvalidated action / drawings</h3><pre>Yari messages
+JC coffee photo
+skull reply
+JC thumb reply photographs coffee — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S11-01"><h2>S11-01</h2><p>120 frames · starts at 15312 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S11-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S11-01.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`10:38:00 → 10:43:00` (120f) · CU phone · rate 3s
+- **Action:** 10:40. Email: From: Partnerships Team, Aperture Civic. Subject: Juan Carlos — we&#x27;ve been watching your work.
+- **FX:** `UI_PHONE(email)`
+- **Sound:** Buzz.</pre><h3>Recorded unvalidated action / drawings</h3><pre>buzz reaction
+header readable hold
+JC hand holds phone — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S11-02"><h2>S11-02</h2><p>336 frames · starts at 15432 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S11-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S11-02.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`10:43:00 → 10:57:00` (336f) · CU phone · push · rate 3s
+- **Action:** The email body scrolls, key phrases glowing slightly: &#x27;building-listening practice&#x27;, &#x27;real resources&#x27;, &#x27;Founders&#x27; Night … Kingsbridge Armory&#x27;, &#x27;no strings on the creative&#x27;, &#x27;We&#x27;d like to take it off you.&#x27; Signed Adrian Vale, Director of Community Partnerships.
+- **FX:** `TEXT_HIGHLIGHT(CEL); READ_TWICE_CUT(2x)`
+- **Sound:** Voice read: neutral, warm. Behind it the café quiets.</pre><h3>Recorded unvalidated action / drawings</h3><pre>first read
+highlight resource offer
+take it off you
+second read
+JC reading glance — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S11-03"><h2>S11-03</h2><p>192 frames · starts at 15768 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S11-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S11-03.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`10:57:00 → 11:05:00` (192f) · MS counter · rate 3s
+- **Action:** JC reads it twice; the second reading is worse because they are right. Flattery he can shrug off. This named the thing he is proud of. Nine days from rent, on cafecito and spite.
+- **FX:** `OVERLAY_SUMS(callback S09); FLATTEN(0.15)`
+- **Sound:** VO as in the book, trimmed.</pre><h3>Recorded unvalidated action / drawings</h3><pre>pride response
+rent numbers
+unease
+JC reading twice pride then discomfort — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S11-04"><h2>S11-04</h2><p>216 frames · starts at 15960 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S11-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S11-04.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`11:05:00 → 11:14:00` (216f) · ECU pocket · rate 3s
+- **Action:** On the third read, at &#x27;take it off you&#x27;: the coin goes from warm to a heat he feels through the denim. The steamer whistle, sitting on a clean A (440 Hz), sags half a step flat (≈415 Hz). Manny&#x27;s palm is still on the case: the note comes back.
+- **FX:** `HEAT_SHIMMER(pocket ↑); PITCH_SAG(audio -100 cents, 2s → recover 1s); PRESS(0.12)`
+- **Sound:** Whistle sag and recovery are the sound cue.</pre><h3>Recorded unvalidated action / drawings</h3><pre>third read
+heat rises
+whistle sag cue
+recover
+JC thigh reaction Manny palm stays case — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S11-05"><h2>S11-05</h2><p>192 frames · starts at 16176 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S11-05.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S11-05.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`11:14:00 → 11:22:00` (192f) · CU thumb → flash · rate 3s
+- **Action:** Thumb above the screen: open it, read the rest, see the number. He forwards the preview to Sofía (is this anything) and flips the phone face down. Flash: a hand gripping a small child&#x27;s sleeve at a curb as a car passes. &#x27;No. Not them.&#x27;
+- **FX:** `FLASH_CUT(3 cards, 4f each); PHONE_FACE_DOWN`
+- **Sound:** Car horn dopplering; one breath.
+- **Note:** Don&#x27;t show the face of whoever held the sleeve.</pre><h3>Recorded unvalidated action / drawings</h3><pre>hover
+forward preview
+flip
+three4frame curb flashes
+JC thumb hover forward flip anonymous adult grips child sleeve — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S11-06"><h2>S11-06</h2><p>576 frames · starts at 16368 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S11-06.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S11-06.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`11:22:00 → 11:46:00` (576f) · OTS dialogue · rate 3s
+- **Action:** “What was that face?” “Spam.” Manny holds out his hand. JC lets him read it. “Bro. Hardware? A budget? A commission at the Armory? That&#x27;s a real stage, JC.” “I&#x27;m not calling them back.” “Why.” “I can&#x27;t explain it. I&#x27;m not doing it.” “Last time you couldn&#x27;t explain it, it was the dude selling Hennessy out a Honda, and you were right. It&#x27;ll cost you, though. Real money.” “I know.” “Just so the record reflects I tried to make you rich. Sofía&#x27;s gonna make a spreadsheet. It&#x27;s gonna have tabs.”
+- **FX:** `HOLD(bank cel); MOUTH_FLAP; HONDA_FLASH_CEL(2f)`
+- **Sound:** Warm café ambience; the train arrives at the end.
+- **Note:** The Honda flash plants Ch.5.</pre><h3>Recorded unvalidated action / drawings</h3><pre>phone transfer
+offer debate
+Honda flash
+cost acknowledgement
+Manny hand asks JC hands phone debate — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S12-01"><h2>S12-01</h2><p>120 frames · starts at 16944 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S12-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S12-01.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`11:46:00 → 11:51:00` (120f) · WS street · ECU rail · rate 3s
+- **Action:** 11:12. The 4 hits the curve up the block and screams on the rail. Inside the café the steamer whistle lands on the same note. Two sound-ribbons merge into one line.
+- **FX:** `RIBBON_MERGE(steel_white + brass_gold); SPARKS_CEL; TEXT_SUPER(11:12)`
+- **Sound:** Train + whistle unison, then a shimmer on top.</pre><h3>Recorded unvalidated action / drawings</h3><pre>rail approach
+squeal sparks
+steamer line
+merge</pre><p>Voice: not_recorded</p></details></article><article id="S12-02"><h2>S12-02</h2><p>120 frames · starts at 17064 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S12-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S12-02.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`11:51:00 → 11:56:00` (120f) · ECU puck → ear · rate 3s
+- **Action:** The contact-mic puck on the steel counter edge takes the train, the steamer and everything the old counter ever stood next to, and pours it into his left ear: a luminous ribbon travels counter → earbud.
+- **FX:** `SOUND_STREAM_CEL; HOLD(puck)`
+- **Sound:** Left channel loaded: stereo mix goes hard left.</pre><h3>Recorded unvalidated action / drawings</h3><pre>counter pickup
+stream travels
+left ear arrives
+JC left ear held — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S12-03"><h2>S12-03</h2><p>96 frames · starts at 17184 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S12-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S12-03.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`11:56:00 → 12:00:00` (96f) · ECU eyes · rate 3s
+- **Action:** The building shakes the way it always does. His eyes, which had no vote, go where his ear went.
+- **FX:** `EYELINE_SHIFT; REFLECT_CEL(tin ceiling)`
+- **Sound:** A held train bed.</pre><h3>Recorded unvalidated action / drawings</h3><pre>eyes lead
+head follows
+hold eyeline
+JC pupils shift head small follow — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S12-04"><h2>S12-04</h2><p>168 frames · starts at 17280 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S12-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S12-04.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`12:00:00 → 12:07:00` (168f) · WIPE_ERA · interior · rate 3s
+- **Action:** The tin ceiling stays as the anchor. Everything else changes front-to-back: mismatched chairs → a uniform set; empty bins fill with 45s in paper sleeves; two box fans appear; the air shimmers with heat. Color grade swings to warm 1973.
+- **FX:** `WIPE_ERA(anchor=ceiling); BIN_FILL_STAGGER(1s); LIGHT_FIGURE(0.4); FILM_GRAIN↑; HALATION`
+- **Sound:** Mambo from a lunchbox radio fades in; fan whir.</pre><h3>Recorded unvalidated action / drawings</h3><pre>present anchor
+chairs replace
+records fill
+fans heat
+period customers light appear — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S12-05"><h2>S12-05</h2><p>192 frames · starts at 17448 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S12-05.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S12-05-r2.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`12:07:00 → 12:15:00` (192f) · MS · counterman · rate 3s
+- **Action:** Sign: HOY NO SE FÍA, MAÑANA SÍ. Behind the register a man with a mustache, a good shirt, Mr. Rodríguez&#x27;s eyebrows &#x27;half a century early&#x27;. Flyer in the window: BACK TO SCHOOL JAM — SEDGWICK — SAT.
+- **FX:** `EYEBROW_MATCH_CUT(S09); PAINTED_BG(shop_1973); DUST_IN_LIGHT`
+- **Sound:** Mambo; register bell.</pre><h3>Recorded unvalidated action / drawings</h3><pre>shop reveal
+brow match
+sign inserts
+counterman father45 slight brow lift — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S12-06"><h2>S12-06</h2><p>384 frames · starts at 17640 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S12-06.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S12-06.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`12:15:00 → 12:31:00` (384f) · LOW ANGLE counter · rate 3s
+- **Action:** A kid, fifteen or sixteen, shell-toe Adidas, a milk crate on his hip, puts down two copies of the same record. “Dos iguales? You got two turntables?” “Todavía no.” He pays in quarters and leaves with the crate. The counterman shakes his head, smiling, as if told a good lie.
+- **FX:** `QUARTERS_SPIN_CEL; MOUTH_FLAP; SHOE_INSERT`
+- **Sound:** Quarters on the counter, spinning.</pre><h3>Recorded unvalidated action / drawings</h3><pre>place records
+dialogue
+pay quarters
+leave
+father shake smile
+teen sets two records pays carries crate leaves father smiles — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S12-07"><h2>S12-07</h2><p>240 frames · starts at 18024 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S12-07.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S12-07.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`12:31:00 → 12:41:00` (240f) · WHIP-PAN · MS · rate 3s
+- **Action:** At the far end, where the sun doesn&#x27;t reach, a thin man in a brown suit with a small notebook. He bought nothing. He writes quickly, one mark at a time. His eyes follow the kid to the door, then the street, &#x27;as if the street were part of the sale&#x27;. He ticks something. Then he looks up past the register, at the exact spot in the air where JC stands.
+- **FX:** `WHIP_PAN(eyeline to street); PUSH_IN(thin man, 6%); FLASH_FRAME(2f at eye-lock); DOUBLE_EXPOSURE(window man, 8f)`
+- **Sound:** Pen tick placed forward. At the eye-lock, a cut to silence.
+- **Note:** SHOWCASE CUT 2 climaxes here. Show the window man for 8 frames in double exposure, not a clear reveal.</pre><h3>Recorded unvalidated action / drawings</h3><pre>write ticks
+follow door
+follow street
+look JC
+eye lock
+thin man writes eyes follow kid street then JC — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S12-08"><h2>S12-08</h2><p>192 frames · starts at 18264 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S12-08.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S12-08.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`12:41:00 → 12:49:00` (192f) · CU milk → CU Manny · rate 2s
+- **Action:** Snap back. The pitcher is overflowing; milk runs over JC&#x27;s knuckles, hot, and he didn&#x27;t feel it. “JC. JC.” Manny&#x27;s hand on his shoulder; the freelancer is staring; Mr. Rodríguez is already halfway across the room. JC&#x27;s voice comes from &#x27;the far side of a wall&#x27;.
+- **FX:** `MILK_OVERFLOW_CEL(see keys); FLASH_FRAME(1f); VOICE_MUFFLE → CLEAR`
+- **Sound:** Sound returns with a slam; JC&#x27;s voice delayed and muffled, then clear.</pre><h3>Recorded unvalidated action / drawings</h3><pre>overflow
+Manny touch
+JC hears
+Rodriguez approaches
+JC late reaction Manny shoulder touch Rodriguez crosses freelancer stares — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S12-09"><h2>S12-09</h2><p>432 frames · starts at 18456 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S12-09.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S12-09.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`12:49:00 → 13:07:00` (432f) · OTS dialogue · rate 3s
+- **Action:** “You went somewhere.” Low, just for him; his other palm is still flat on the case and the room comes back together around it. “That wasn&#x27;t a tired thing.” “It was a tired thing.” “JC.” “It was a tired thing, Manny.” He wipes the milk: his skin is pink and fine. He dumps the latte and starts another, &#x27;performing steady&#x27;. “I didn&#x27;t eat. I told my mom I&#x27;d eaten. I didn&#x27;t eat.” Manny takes his hand off slowly, watches from the side of his eye.
+- **FX:** `SIX_NOISES_REKNIT; HOLD; MOUTH_FLAP`
+- **Sound:** Café noises braiding back together.</pre><h3>Recorded unvalidated action / drawings</h3><pre>private concern
+wipe hand
+dump latte
+start fresh
+Manny releases
+JC denies wipes pours fresh Manny removes palm — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S12-10"><h2>S12-10</h2><p>192 frames · starts at 18888 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S12-10.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S12-10.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`13:07:00 → 13:15:00` (192f) · MONTAGE · rate 2s
+- **Action:** Twenty cortados in a rhythm montage with the 4 passing and the steamer on a clean A. On number fourteen, JC realizes what bothered him about the email: it said &#x27;building-listening&#x27;. Nobody had ever called it that. Inserts: closet, raw feed, one laptop on the fourth floor.
+- **FX:** `COUNTER_TICKER(1→20); INSERT_CLOSET; TEXT_HIGHLIGHT(&#x27;building-listening&#x27;)`
+- **Sound:** Rhythmic cup-and-steam beat; sudden quiet on the realization.</pre><h3>Recorded unvalidated action / drawings</h3><pre>cups1to13
+realize14
+closet inserts
+finish20
+JC repeated cortado work realization14 — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S12-11"><h2>S12-11</h2><p>216 frames · starts at 19080 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S12-11.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S12-11.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`13:15:00 → 13:24:00` (216f) · CU card → PUSH-IN map · rate 3s
+- **Action:** He takes a blank card and writes: Ballroom, Saturday nights, mambo bands. Ask Mamá. A yellow pushpin pins it to the empty corner of Jerome. The 4 comes through, the whole room shakes, and everybody keeps talking.
+- **FX:** `HANDWRITING_CEL; PUSHPIN_INSERT; TRAIN_SHAKE`
+- **Sound:** Pen. Pin. Train. Chatter continues.</pre><h3>Recorded unvalidated action / drawings</h3><pre>write text
+lift card
+pin blank corner
+room shakes
+JC writes pins map — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S13-01"><h2>S13-01</h2><p>120 frames · starts at 19296 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S13-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-01.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`13:24:00 → 13:29:00` (120f) · WS · vending machine · rate 3s
+- **Action:** Super: 2:15 PM. Library vending machine: platanitos and a ginger ale. &#x27;That counts.&#x27; Mamá&#x27;s disapproving VO: she would call it a funeral for a lunch.
+- **FX:** `PAINTED_BG(library_hall); TEXT_SUPER`
+- **Sound:** Machine thump; ginger-ale hiss.</pre><h3>Recorded unvalidated action / drawings</h3><pre>2:15PM super
+vending fall
+retrieve
+drink hiss motion
+JC retrieves snack opens drink — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S13-02"><h2>S13-02</h2><p>120 frames · starts at 19416 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S13-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-02.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`13:29:00 → 13:34:00` (120f) · WS · reading room · rate 3s
+- **Action:** The old branch on the Concourse: green-shaded lamps, oak tables rubbed shiny by ninety years of elbows, a radiator that knocks, a man in a Mets jacket snoring in &#x27;long, generous phrases&#x27; (JC calls him a public service).
+- **FX:** `PAINTED_BG(library_interior); LAMP_GLOW`
+- **Sound:** Radiator knock; snore; lamp buzz.</pre><h3>Recorded unvalidated action / drawings</h3><pre>establish
+snore cycle
+radiator knock
+Mets man snore chest head bank readers quiet — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S13-03"><h2>S13-03</h2><p>240 frames · starts at 19536 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S13-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-03.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`13:34:00 → 13:44:00` (240f) · UI · phone · rate 3s
+- **Action:** Sofía&#x27;s text flood: that &#x27;is this anything&#x27; email / JC / where are you / ok i&#x27;m not waiting. it&#x27;s not spam. it&#x27;s so much worse than spam / you in a hole. you&#x27;re in a hole aren&#x27;t you / i can see your location you absolute bobo. don&#x27;t move. Then Denise: Hi JC! Quick heads up, the board is holding your milestone payment until our partner review next week. Just process!
+- **FX:** `UI_PHONE(chat typed fast); EXCLAMATION_CEL; OVERLAY_SUMS`
+- **Sound:** Rapid buzzes; Denise&#x27;s text read in a chirpy VO.</pre><h3>Recorded unvalidated action / drawings</h3><pre>Sofia flood
+location rebuke
+Denise message
+rent sums
+JC thumb scroll stressed glance — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S13-04"><h2>S13-04</h2><p>216 frames · starts at 19776 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S13-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-04.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`13:44:00 → 13:53:00` (216f) · CU laptop · rate 3s
+- **Action:** Four searches and a museum site that looks like 2003. A glass-case photo from three angles: a three-pointed dark stone, size of a fist, a face carved on the front, on the back a spiral opening into a triangle. Card: Zemí (cemí), Dominican Republic, c. 1000–1500. The Taíno thought of a cemí as a spirit and the thing the spirit lived in, both at once.
+- **FX:** `WEB_1999_UI(frames, tiled bg); STONE_ROTATE_3VIEWS; TEXT_SUPER(card)`
+- **Sound:** Dial-up-adjacent modem texture, tastefully; VO reads the card.</pre><h3>Recorded unvalidated action / drawings</h3><pre>searches
+museum page
+front side rear
+label
+JC search hand — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S13-05"><h2>S13-05</h2><p>168 frames · starts at 19992 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S13-05.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-05.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`13:53:00 → 14:00:00` (168f) · CU coin vs screen · rate 3s
+- **Action:** He lays the coin beside the screen. The hooks match; the spiral turns the same way and opens in the same place. A pen draws both with one stroke: &#x27;same handwriting&#x27;.
+- **FX:** `OVERLAY_ALIGN(coin ↔ stone, gold glow); HANDWRITING_CEL(single stroke)`
+- **Sound:** A very soft chime on alignment.</pre><h3>Recorded unvalidated action / drawings</h3><pre>coin set
+align hooks
+single pen stroke
+hold
+JC lays coin pen traces — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S13-06"><h2>S13-06</h2><p>240 frames · starts at 20160 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S13-06.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-06.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`14:00:00 → 14:10:00` (240f) · FLASHBACK · Santo Domingo · rate 3s
+- **Action:** JC at eight, the only visit he remembers: bright room, a closet, a bundle wrapped in old cloth the size of two cupped hands. He reaches. Abuela&#x27;s hand catches his wrist, quick and not hard, the way you stop a glass going off a counter. “No se toca a la Madre.” Then she gives him a mango and that ends the discussion.
+- **FX:** `FLASHBACK_PALETTE(saturated tropical, watercolor BG); HOLD; HANDS_ONLY(Abuela, face withheld); HARMONY_CUT(end freeze)`
+- **Sound:** Ceiling fan, distant moto, no score.
+- **Note:** [ADAPT] Abuela&#x27;s face withheld on purpose; reveal later.</pre><h3>Recorded unvalidated action / drawings</h3><pre>reach bundle
+gentle stop
+warning
+mango exchange
+freeze
+JC8 reaches Abuela hands catch wrist offers mango — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S13-07"><h2>S13-07</h2><p>120 frames · starts at 20400 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S13-07.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-07.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`14:10:00 → 14:15:00` (120f) · CU phone · back to library · rate 3s
+- **Action:** He doesn&#x27;t call her. Calling would make it a thing, and she&#x27;d pick up on the first ring. He takes out the contact mic puck instead and sets it on the oak.
+- **FX:** `PHONE_GLOW_THEN_DARK; PUCK_ON_TABLE`
+- **Sound:** Phantom first-ring sound that never comes.</pre><h3>Recorded unvalidated action / drawings</h3><pre>phone hesitation
+screen dark
+puck out
+place
+JC decides not call takes puck places — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S13-08"><h2>S13-08</h2><p>144 frames · starts at 20520 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S13-08.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-08.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`14:15:00 → 14:21:00` (144f) · ECU puck · rate 3s
+- **Action:** Quiet check. Three sounds agree with each other: the radiator knock, the Mets fan&#x27;s snore, the lamp&#x27;s thin buzz. They snap together into one chord. He has never worked out why.
+- **FX:** `SOUND_RIBBON(3); RIBBON_CHORD_LOCK; PITCH_LABELS(root, major-third, fifth)`
+- **Sound:** The three real sounds tune into 4:5:6.
+- **Note:** [ADAPT] Chord as a hint that &#x27;alive&#x27; sound is consonant.</pre><h3>Recorded unvalidated action / drawings</h3><pre>three separate sources
+converge
+lock chord
+Mets man snore motion in insert — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S13-09"><h2>S13-09</h2><p>168 frames · starts at 20664 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S13-09.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-09-r2.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`14:21:00 → 14:28:00` (168f) · DISSOLVE · ECHO · rate 3s
+- **Action:** Lamp buzz expands to full orchestral lamps; tables fill with people made of light. Super: SATURDAY, 1934, judging by the hats. A pan of hats.
+- **FX:** `WIPE_ERA(anchor=oak table); LIGHT_FIGURE; PERIOD_GRADE(1934: amber+green lamp tint, low sat)`
+- **Sound:** Lamp buzz fades into five languages.</pre><h3>Recorded unvalidated action / drawings</h3><pre>lamp buzz expands
+period room
+light figures
+pan hats
+1934 figures appear hats — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S13-10"><h2>S13-10</h2><p>432 frames · starts at 20832 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S13-10.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-10.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`14:28:00 → 14:46:00` (432f) · LONG LATERAL TRACK · rate 3s
+- **Action:** A single left-to-right move past each table: a grandfather reading a Yiddish paper with his lips moving; two Irish girls splitting an apple under the table, passing a penknife; a man in a porter&#x27;s cap, one finger under the line; a Puerto Rican mother steering two kids to picture books by the backs of their collars; a boy copying a world map from an atlas, tongue between teeth, while a boy a shade darker borrows his eraser without asking and returns it without thanks, and neither looks up; a librarian with spectacles on a chain stamping due dates hard enough to make the pencils jump; a hand-lettered card: FREE CONCERT, CONCOURSE PLAZA, SUNDAY, ALL WELCOME.
+- **FX:** `MULTIPLANE_LATERAL(painted BG strip, 5 layers); LANE_FIELD(6 lanes); LIGHT_FIGURE; PENCIL_JUMP_CEL; FILM_GRAIN`
+- **Sound:** Each table&#x27;s sound pans in as the camera passes: Yiddish murmur, giggle, pencil, rumba through the wall, stamp.
+- **Note:** SHOWCASE CUT 3. See keys.</pre><h3>Recorded unvalidated action / drawings</h3><pre>grandfather
+girls apple
+porter
+mother kids
+atlas eraser exchange
+librarian stamp and notice
+grandfather lips girls split apple porter trace mother collars boys eraser librarian stamp — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S13-11"><h2>S13-11</h2><p>192 frames · starts at 21264 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S13-11.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-11.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`14:46:00 → 14:54:00` (192f) · CU JC · rate 3s
+- **Action:** He goes looking for the &#x27;pressed place&#x27;, pushing on the bruise to see if it&#x27;s still there. Nothing. He listens until his ear hurts. His eyes sting over a rumba and an eraser. Super over his face: TEN BLOCKS FROM MY BUILDING. &#x27;Nobody had ever mentioned it used to sound like this.&#x27;
+- **FX:** `LANE_FIELD(empty floor lane); EAR_PAIN_PULSE; TEARS_CEL(sting)`
+- **Sound:** Reading-room sound thins to the quietest one thing.</pre><h3>Recorded unvalidated action / drawings</h3><pre>search for plate
+strain
+tears sting
+super hold
+JC listens eyes sting tense ear — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S13-12"><h2>S13-12</h2><p>96 frames · starts at 21456 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S13-12.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/cafe-library/frames/S13-12.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`14:54:00 → 14:58:00` (96f) · WIPE_ERA · rate 3s
+- **Action:** Back to the present: fluorescent tubes, a water stain on the ceiling shaped like Staten Island, the Mets fan going strong.
+- **FX:** `WIPE_ERA(reverse); PAINTED_BG(library_present)`
+- **Sound:** Fluorescent hum replaces the lamps.</pre><h3>Recorded unvalidated action / drawings</h3><pre>1934 recedes
+present furniture
+stain/snorer hold
+Mets man continues snore — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S14-01"><h2>S14-01</h2><p>120 frames · starts at 21552 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S14-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S14-01.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`14:58:00 → 15:03:00` (120f) · MS · behind JC · rate 3s
+- **Action:** “You&#x27;re doing the thing.” Sofía&#x27;s hand hovers over his shoulder without landing. She&#x27;s got the laptop open before she&#x27;s sat. Gag: split card: SOFÍA (ASLEEP) / SOFÍA (PROSECUTING).
+- **FX:** `SPLIT_CARD_GAG; SMEAR_CEL(sitting)`
+- **Sound:** Chair scrape; laptop open chime.</pre><h3>Recorded unvalidated action / drawings</h3><pre>arrive hover
+open before sitting
+sit
+asleep/prosecuting gag
+Sofia hand hovers opens laptop sits — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S14-02"><h2>S14-02</h2><p>120 frames · starts at 21672 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S14-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S14-02.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`15:03:00 → 15:08:00` (120f) · CU Sofía · rate 3s
+- **Action:** “Where&#x27;d you go?” “Nowhere. Library. I&#x27;m researching.” “With a face like somebody ran over your dog.” Flash: Sofía reading a lease aloud to a landlord; by page four he&#x27;s changed the lock on his own door. &#x27;She looks at a system and sees what it&#x27;s for, and then she tells it.&#x27;
+- **FX:** `FLASH_VIGNETTE(lease); HOLD`
+- **Sound:** Landlord gulp.</pre><h3>Recorded unvalidated action / drawings</h3><pre>question
+JC denial
+lease flash
+return
+Sofia questions JC deflects flash lease reading landlord gulp — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S14-03"><h2>S14-03</h2><p>384 frames · starts at 21792 · Saved status: technical-approved</p><p><a href="../../projects/cemi_episode_01/data/shots/S14-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S14-03-r2.png">Artwork</a> — present<br><a href="../runs/episode1-picture-motion/tasks/research-graph-r1/preview.mp4">Motion</a> — lfs_pointer<br><a href="../runs/episode1-picture-motion/tasks/research-graph-r1/native-r1/shot.ecproj">Native</a> — present<br><a href="../runs/episode1-picture-motion/reviews/research-graph-r1/review.json">Review</a> — present</p><details><summary>Script and remaining work</summary><pre>`15:08:00 → 15:24:00` (384f) · UI GRAPH · rate 3s
+- **Action:** Aperture Civic: registered 2024; five-month-old gorgeous website; no employees on any record. The shell tree builds itself on screen: three shells → paper that &#x27;turns into a lawyer&#x27;s lunch&#x27; (sandwich icon) → a holding company → a youth digital-wellness nonprofit, a music-licensing outfit, a development group with permits on four buildings, including his. The Ballroom, the arts space, the mural: his. Eleven tabs; a pie chart; &#x27;Manny owes me a dollar.&#x27;
+- **FX:** `UI_GRAPH_CEL(nodes+lines, draw-on); BUILDING_PINS(block map); SANDWICH_GAG`
+- **Sound:** Trackpad taps; each node pings once.</pre><h3>Recorded unvalidated action / drawings</h3><pre>three shells
+lawyer lunch
+holding company
+three arms
+four permits
+Sofia trackpad gestures JC watches — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S14-04"><h2>S14-04</h2><p>240 frames · starts at 22176 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S14-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S14-04.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`15:24:00 → 15:34:00` (240f) · CU laptop → grid · rate 3s
+- **Action:** The date: JUNE THIRTEENTH, FOUNDERS&#x27; NIGHT, the Armory. A photo of Adrian Vale (tall, gray, courteous, good coat) with giant scissors in one hand and a small black notebook in the other. A grid of nine photos: the notebook in all nine. &#x27;Who brings a notebook to a ribbon-cutting?&#x27; JC looks at it longer than he wants. Triptych flash: ledger man&#x27;s book / thin man&#x27;s notebook / Vale&#x27;s notebook.
+- **FX:** `PHOTO_GRID(9); NOTEBOOK_TRIPTYCH(3x 6f); HOLD`
+- **Sound:** Pen tick ×3, once for each notebook.
+- **Note:** Visual rhyme only. Do not confirm they are the same person.</pre><h3>Recorded unvalidated action / drawings</h3><pre>date event
+hero photo
+grid9
+three6frame notebook flashes
+JC gaze lingers Vale still photos only — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S14-05"><h2>S14-05</h2><p>480 frames · starts at 22416 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S14-05.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S14-05.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`15:34:00 → 15:54:00` (480f) · OTS · earbud · rate 3s
+- **Action:** JC tells her about the loop and puts an earbud in her hand. “That&#x27;s a loop. That&#x27;s every hold music in America.” “It&#x27;s under everything on the block. No tune. It makes whatever it&#x27;s under feel pressed flat. And the block&#x27;s been mean lately.” “I&#x27;ve noticed it&#x27;s been a long winter and the landlord on Creston is a monster.” She sets the earbud down &#x27;like evidence&#x27;. “What I don&#x27;t have is a number... I need a control. A block without it.”
+- **FX:** `HOLD; MOUTH_FLAP; EARBUD_INSERT; HOLD_MUSIC_GAG(2s)`
+- **Sound:** The loop in the earbud; mid-line cut to bland hold-music for the gag.</pre><h3>Recorded unvalidated action / drawings</h3><pre>handoff
+Sofia listens
+skeptic debate
+sets evidence
+control request
+JC hand earbud Sofia receives listens sets down — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S14-06"><h2>S14-06</h2><p>480 frames · starts at 22896 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S14-06.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S14-06.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`15:54:00 → 16:14:00` (480f) · MONTAGE · storefronts · rate 3s
+- **Action:** SOUND OF THE BLOCK: in January the licensing arm gave away free in-store systems: bodega, laundromat, barbershop, two nail salons, the dentist. One page-and-a-half contract; &#x27;community partner&#x27; decal in each window. “Name me the one inside a mile that didn&#x27;t sign.” Cut to Mr. Rodríguez telling the rep to take the speaker back &#x27;to whatever planet it came from&#x27;. He plays his own records. The radiator knocks twice, as an answer. “A control.” Sofía looks &#x27;completely, unfairly happy&#x27;: “I&#x27;m in love with a coffee shop.”
+- **FX:** `STOREFRONT_CARDS(6, speaker glow); DECAL_INSERT; CAFE_CUTAWAY; HARMONY_CUT(Sofía joy freeze)`
+- **Sound:** Six bland playlists overlap into slurry; then the café record player alone.</pre><h3>Recorded unvalidated action / drawings</h3><pre>six storefronts
+contract decal
+Rodriguez refuses
+record player
+Sofia joy
+Rodriguez rejects rep Sofia joy freeze — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S14-07"><h2>S14-07</h2><p>216 frames · starts at 23376 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S14-07.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S14-07.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`16:14:00 → 16:23:00` (216f) · UI · rewind · rate 3s
+- **Action:** The registered-agent address &#x27;has had other names&#x27;. Rewind: Aperture Civic ← a data startup ← a consultancy ← Quiet Hours Foundation. A grainy scanned PDF: state seal; Early Calm Pilot: Final Report, 2007. A grant: four elementary schools, all in this zip code; a &#x27;calm environment&#x27; program: ambient tones in the classrooms plus a screening tool. JC&#x27;s hand stops on the table.
+- **FX:** `NAME_REWIND_CEL; SCAN_PDF_FX(grain, skew); HAND_FREEZE`
+- **Sound:** Typewriter rewind; a flat drone as the PDF comes up.</pre><h3>Recorded unvalidated action / drawings</h3><pre>names rewind
+2007 report
+four schools
+hand stops
+Sofia scroll JC hand freezes — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S14-08"><h2>S14-08</h2><p>672 frames · starts at 23592 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S14-08.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S14-08-r3.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`16:23:00 → 16:51:00` (672f) · FLASHBACK · classroom · rate 3s → 6s as p rises
+- **Action:** A supply closet, a beige mesh-faced box above the cubbies, a rug shaped like the United States (JC always got Nebraska). After lunch is &#x27;quiet time&#x27;: lights off, heads down. The box puts out one low even tone, like a dentist&#x27;s waiting room with nobody in it. Everyone puts their heads on their arms. For six-year-old JC the whole room goes flat: air, light, his own hands. He taps the desk leg, a little rhythm, because it&#x27;s the only thing his body has to push back with. A teacher writes it down; a woman with a lanyard watches with a clipboard; a letter comes home. Father reads it standing in the kitchen with his careful electric-bill face. One word: “Nivel dos.” Mamá puts the letter in the drawer for papers that matter: the lease, his father&#x27;s death certificate in a folder she still hasn&#x27;t opened, the school letters nobody answered. The drawer shuts from the other room.
+- **FX:** `PRESS(0→0.9 over 6s; ONLY the tapping hand keeps color; see keys); BEIGE_PALETTE; HOLD(6s fps); FILM_GRAIN↑; HARMONY_CUT(letter)`
+- **Sound:** A dental-waiting-room tone: mono, dry, no stereo. His tapping is the only reverb in the room.
+- **Note:** SHOWCASE CUT 4. The first time PRESS is applied to a person&#x27;s memory.</pre><h3>Recorded unvalidated action / drawings</h3><pre>quiet classroom
+PRESS rises6seconds
+colored hand taps
+teacher observer
+father letter
+Mama drawer
+JC6 heads down taps teacher writes observer clipboard father reads Mama files — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S14-09"><h2>S14-09</h2><p>216 frames · starts at 24264 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S14-09.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S14-09.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`16:51:00 → 17:00:00` (216f) · OTS · laptop rubric · rate 3s
+- **Action:** “Level two,” the letter said. Sofía scrolls: the Calm Index, one to four. Level 2: &#x27;Atypical response to ambient stimulus.&#x27; Hand-tapping, vocalizing, agitation during rest periods. “That&#x27;s you.” “That&#x27;s a sentence you write when you&#x27;re looking for the kids who react. We need the screening records.”
+- **FX:** `RUBRIC_UI(highlight line); NECK_CHILL_FX(ring); HOLD`
+- **Sound:** Quiet UI; the loop thin and far.</pre><h3>Recorded unvalidated action / drawings</h3><pre>scroll rubric
+highlight Level2
+recognition
+records request
+Sofia points JC recognizes — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S14-10"><h2>S14-10</h2><p>360 frames · starts at 24480 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S14-10.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S14-10.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`17:00:00 → 17:15:00` (360f) · FLASHBACK · stairwell · rate 3s
+- **Action:** Mikey lived on four and was in JC&#x27;s class. JC can&#x27;t remember his score; he remembers what the mothers called it: &#x27;the three&#x27;, low, in the voice they used for a man who&#x27;d gone upstate. Mikey&#x27;s mother said it most. Eight-year-old Mikey puts his ear to the fourth-floor stairwell wall and says the building is humming; he stays there long after a joke would be over. “Listen,” he says. JC listens to a wall and laughs at him. The wall hums in concentric gold rings. Present: JC has a microphone clamped to his own wall.
+- **FX:** `STAIRWELL_BG; WALL_RING_CEL(gold, 4 rings); HARMONY_CUT(Mikey freeze); MATCH_CUT(mic on riser)`
+- **Sound:** Wall hum, soft and musical; a hush from the building.</pre><h3>Recorded unvalidated action / drawings</h3><pre>Mikey listens
+JC joins
+JC laughs
+harmony hold
+present mic match
+Mikey8 ear wall JC8 listens laughs — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S14-11"><h2>S14-11</h2><p>480 frames · starts at 24840 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S14-11.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S14-11.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`17:15:00 → 17:35:00` (480f) · CU Sofía · rate 3s
+- **Action:** “Every shell on this screen is trying to predict something. The grant, the playlists, the permits. Somebody&#x27;s got a model of this block, and I think they&#x27;ve been checking it since you were six. Nineteen years.” She half-closes the laptop (which, from Sofía, is a gesture of love on the order of a kidney). “We need to find out what they did with the children who kept reacting. Don&#x27;t answer the email. Don&#x27;t delete it. And don&#x27;t walk home past the bodega.” “Why?” “Because I just spent an hour telling you I don&#x27;t believe in your loop, and I&#x27;d like to still be wrong tomorrow. Also eat a vegetable. Platanitos don&#x27;t count.”
+- **FX:** `HOLD; MOUTH_FLAP; LAPTOP_HALF_CLOSE_CEL; PUSH_IN(slow)`
+- **Sound:** Library quiet; her voice drops as she gets scared.</pre><h3>Recorded unvalidated action / drawings</h3><pre>model explanation
+half close
+warning
+why
+vegetable joke
+Sofia concerned half closes laptop JC question — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S15-01"><h2>S15-01</h2><p>120 frames · starts at 25320 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S15-01.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S15-01.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`17:35:00 → 17:40:00` (120f) · MAP GAG · track · rate 3s
+- **Action:** A tiny route map: library → home, avoiding the El. The bodega is on the only route. JC rationalizes; an insert of a stove burner glows red and a finger approaches. &#x27;I am somebody who has to touch the stove to find out.&#x27;
+- **FX:** `ROUTE_MAP_CEL; STOVE_GAG(2s)`
+- **Sound:** VO as in the book, deadpan.</pre><h3>Recorded unvalidated action / drawings</h3><pre>route avoiding El
+bodega unavoidable
+48frame stove insert
+finger approaches hot burner gag — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S15-02"><h2>S15-02</h2><p>144 frames · starts at 25440 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S15-02.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S15-02.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`17:40:00 → 17:46:00` (144f) · WS · bodega · rate 3s
+- **Action:** Don Chino&#x27;s bodega: an awning the color of orange soda left too long in a window; a speaker over the door he had never looked up at; two guys on milk crates at a domino table, slapping tiles in the mood to argue.
+- **FX:** `PAINTED_BG(bodega); SPEAKER_INSERT; AWNING_ORANGE(#F26B2A)`
+- **Sound:** Merengue, bright: accordion, güira, horns.</pre><h3>Recorded unvalidated action / drawings</h3><pre>establish
+tile slap
+speaker insert
+two domino men seated slap gestures — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S15-03"><h2>S15-03</h2><p>192 frames · starts at 25584 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S15-03.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S15-03.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`17:46:00 → 17:54:00` (192f) · CU JC · eyes closed · rate 3s
+- **Action:** He stands on the sidewalk and listens on purpose. Under the song, bar after bar, a flat gray plate: the same spot, eight seconds wide, again.
+- **FX:** `SOUND_RIBBON(accordion yellow, guira green, horn red); PLATE_CEL(gray, 192f cycle); LOOP_RING(speaker)`
+- **Sound:** The song continues; the 8s plate is nearly inaudible but felt.</pre><h3>Recorded unvalidated action / drawings</h3><pre>settle eyes closed
+ribbons emerge
+192frame plate persists
+JC shuts eyes deliberate listening — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S15-04"><h2>S15-04</h2><p>288 frames · starts at 25776 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S15-04.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S15-04.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`17:54:00 → 18:06:00` (288f) · MS tiles · rate 3s
+- **Action:** Cycle after cycle the men&#x27;s faces dull a little (PRESS +0.08 per cycle). One slaps a tile too hard and says something he&#x27;d have been ashamed of on a normal Tuesday. The other says something back.
+- **FX:** `PRESS(per cycle +0.08); IMPACT_FLASH(1f on slap); MOUTH_FLAP(indistinct)`
+- **Sound:** Tile slap; the words are masked by the merengue.</pre><h3>Recorded unvalidated action / drawings</h3><pre>dull first cycle
+tile slap
+retort
+next cycle
+two men dull anger slap answer — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S15-05"><h2>S15-05</h2><p>192 frames · starts at 26064 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S15-05.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S15-05.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`18:06:00 → 18:14:00` (192f) · ORBIT · three men · rate 3s
+- **Action:** A third guy comes out of the store and tells them both to lower their voices, in a voice that isn&#x27;t lower. Camera circles the three; outlines go uniform, shading flattens, motion drops toward holds.
+- **FX:** `ORBIT(120°); PRESS(0.5→0.85); HOLD_FRAMES(6s)`
+- **Sound:** Merengue loses reverb as the loop rises.</pre><h3>Recorded unvalidated action / drawings</h3><pre>third emerges
+gestures louder
+faces flatten
+holds
+third exits scolds two turn then hold — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S15-06"><h2>S15-06</h2><p>192 frames · starts at 26256 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S15-06.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S15-06.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`18:14:00 → 18:22:00` (192f) · WS · sidewalk · rate 3s
+- **Action:** Inside a minute it goes out of all three of them: red-brown anger visible as a smoke that drains down into the pavement and across to the speaker. Nobody apologizes. They sit like men who&#x27;ve hauled groceries up four flights and stare at the tiles. The third goes back inside.
+- **FX:** `ANGER_SMOKE_CEL(2s); DRAIN_TO_SPEAKER; PRESS(0.9)`
+- **Sound:** A sigh with no voice in it.</pre><h3>Recorded unvalidated action / drawings</h3><pre>anger detaches
+smoke sinks
+two stare
+third exits
+three shoulders slump two sit third returns inside — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S15-07"><h2>S15-07</h2><p>192 frames · starts at 26448 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S15-07.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S15-07-r2.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`18:22:00 → 18:30:00` (192f) · CU JC → CU speaker · rate 3s
+- **Action:** The merengue keeps going. The next song starts. The plate is there, in the same spot. JC looks up at the speaker over the door.
+- **FX:** `SONG_CHANGE(cut on downbeat); PLATE_CEL(same position); PUSH_IN(speaker, decal)`
+- **Sound:** Next track cut in; loop unchanged.</pre><h3>Recorded unvalidated action / drawings</h3><pre>new song ribbons
+plate unchanged
+JC looks
+speaker push
+JC opens eyes looks up — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S15-08"><h2>S15-08</h2><p>288 frames · starts at 26640 · Saved status: missing</p><p><a href="../../projects/cemi_episode_01/data/shots/S15-08.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S15-08.png">Artwork</a> — present<br>Motion (unavailable) — unassigned<br>Native (unavailable) — unassigned<br>Review (unavailable) — unassigned</p><details><summary>Script and remaining work</summary><pre>`18:30:00 → 18:42:00` (288f) · PULL-BACK · crane · rate 3s
+- **Action:** He is small under the orange awning. Camera rises up the building to the dark third-floor window across the street; the netting moves. Cut to black.
+- **FX:** `CRANE_UP; PAINTED_BG(facade); DARK_WINDOW_HOLD(2s)`
+- **Sound:** The song fades out, leaving only the loop.</pre><h3>Recorded unvalidated action / drawings</h3><pre>pull from JC
+rise facade
+cross street window
+48frame dark hold
+black cut
+JC small stationary — action-specific keys/breakdowns on fixed model and shot canvas; separate eyes/mouth/hands when contact needs them</pre><p>Voice: not_recorded</p></details></article><article id="S15-09"><h2>S15-09</h2><p>192 frames · starts at 26928 · Saved status: technical-approved</p><p><a href="../../projects/cemi_episode_01/data/shots/S15-09.json">Shot spec</a><br><a href="../runs/episode1-anime90s-scenes/tasks/research-ending/S15-09.png">Artwork</a> — present<br><a href="../runs/episode1-picture-motion/tasks/editorial-motion-r1/S15-09/preview.mp4">Motion</a> — lfs_pointer<br><a href="../runs/episode1-picture-motion/tasks/editorial-motion-r1/S15-09/shot.ecproj">Native</a> — present<br><a href="../runs/episode1-picture-motion/reviews/editorial-motion-r1/review.json">Review</a> — present</p><details><summary>Script and remaining work</summary><pre>`18:42:00 → 18:50:00` (192f) · BLACK · rate —
+- **Action:** Black. The 8-second loop plays once, unmasked, exactly 192 frames. At the start of the next cycle, hard cut to silence.
+- **FX:** `HOLD_BLACK; LOOP_PLAY(192f); HARD_SILENCE`
+- **Sound:** THE LOOP, once. Then nothing.
+- **Note:** The only time the audience hears it clean.</pre><h3>Recorded unvalidated action / drawings</h3><pre>See the exact-file review; no final approval inferred.</pre><p>Voice: not_recorded</p></details></article><script>document.querySelector("#search").addEventListener("input",e=>{const q=e.target.value.toLowerCase();document.querySelectorAll("article").forEach(a=>a.hidden=!a.textContent.toLowerCase().includes(q));});</script></html>
