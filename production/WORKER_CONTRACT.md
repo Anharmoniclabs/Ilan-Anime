@@ -84,6 +84,24 @@ hand/prop clearance, or other geometry. See `studio/drawing/separation.py`
 and `docs/DRAWING_SEPARATION.md`. This is a local constraint tool, not an
 artistic-quality or author-approval gate.
 
+### Full-shot canvas control and whole-episode preflight
+
+The **coordinator or author** can inspect all 128 episode shots through the
+real compositor with `python -m studio canvas` (see
+`docs/CANVAS_CONTROL.md`). This supports full-frame previews, multi-layer
+stack controls, shot camera adjustments, timeline scrubbing and structural
+episode inventory. `Audit all shots` checks recorded assets and multiple
+drawings; it does not establish completed animation. Canvas layout edits
+are saved only as new exploratory draft takes.
+
+Bounded workers must still obey the task envelope: only write inside their
+assigned `output_dir`, never save through the interactive canvas tool
+to bypass that scope. They may use its exported geometry diagnostics as
+inputs or return proposed corrections to the coordinator. A full-frame
+transform preview is not replacement cel animation; character identities,
+contact accuracy, background coverage and actual acting must be reviewed
+against the specific shot before any technical approval.
+
 ## 8. Result
 
 Write `result.json` in `output_dir` and return the same object:
