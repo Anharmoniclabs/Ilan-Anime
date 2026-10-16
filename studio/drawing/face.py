@@ -264,7 +264,7 @@ def _quad(a, m, b, n=64):
     return (1 - t) ** 2 * a + 2 * (1 - t) * t * c + t * t * b
 
 
-def warp_feature(source, old3, new3, band, *, dark_luma, light_luma):
+def warp_feature(source, old3, new3, band, *, dark_luma, light_luma, key_color=None, key_range=40.0):
     """Bend the source pixels of a stroke-like feature (brow, closed lips) from one curve to another.
 
     old3/new3: (outer, middle, inner) points. ``band``: half-thickness in px of the
@@ -288,6 +288,9 @@ def warp_feature(source, old3, new3, band, *, dark_luma, light_luma):
     crop = cv2.remap(src, map_x, map_y, cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT)
     luma = crop[..., :3] @ np.array([0.299, 0.587, 0.114], np.float32)
     alpha = np.clip((light_luma - luma) / max(1.0, light_luma - dark_luma), 0, 1)
+    if key_color is not None:  # features that differ from skin in hue, not just darkness (lips)
+        diff = np.linalg.norm(crop[..., :3] - np.asarray(key_color, np.float32), axis=-1)
+        alpha = np.maximum(alpha, np.clip((diff - 6) / key_range, 0, 1))
     endfade = np.minimum(t, len(new) - 1 - t) / 4.0  # soften the cut at both ends of the feature
     alpha *= np.clip((band - dist) / 2.0 + 0.5, 0, 1) * np.clip(endfade, 0, 1)
     layer = np.zeros((h, w, 4), np.float32)
@@ -346,7 +349,8 @@ def compose(identity, expr, source=None, plate=None):
         lips_mid = (top + bot) / 2
         # warp a full-lip band, keyed on lip darkness vs skin so both lips come along
         layer = warp_feature(source, (ml, lips_mid, mr), (center - half + drop, lips_mid, center + half + drop),
-                             band=float(np.linalg.norm(bot - top)) * 0.75, dark_luma=20, light_luma=skin * 1.02)
+                             band=float(np.linalg.norm(bot - top)) * 0.75, dark_luma=20, light_luma=skin * 0.95,
+                             key_color=_hex(identity["palette"]["skin"]), key_range=22.0)
         canvas.alpha_composite(layer)
         authorship["face.mouth"] = "source-warped"
     drawing["primitives"] = keep

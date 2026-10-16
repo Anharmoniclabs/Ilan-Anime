@@ -26,7 +26,7 @@ Action line: "{line}"
 Choose the facial expression for this moment.
 expression: one of {names}
 intensity: number from 0.0 to 1.0
-gaze: one of {gazes}
+gaze: one of {gazes} (if the character turns or looks toward something, use left or right, not center)
 Reply with only JSON, for example: {{"expression": "fear", "intensity": 0.8, "gaze": "left"}}"""
 
 
