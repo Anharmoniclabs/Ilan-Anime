@@ -152,7 +152,7 @@ function drawBounds(){
       selected=b.name;renderInspector();drawBounds();
       const rect=svg.getBoundingClientRect();
       drag={name:b.name,x:e.clientX,y:e.clientY,w:rect.width,h:rect.height,
-            originalX:valueAt(choice().keys,frame,"x",0),originalY:valueAt(choice().keys,frame,"y",0)};
+            basis:b.translation_basis, originalX:b.params.x,originalY:b.params.y};
     });
     svg.append(poly);
   }
@@ -165,11 +165,15 @@ function drawBounds(){
 window.addEventListener("pointerup",async e=>{
   if(!drag)return;
   const d=drag;drag=null;
-  const dx=(e.clientX-d.x)*state.size[0]/d.w,dy=(e.clientY-d.y)*state.size[1]/d.h;
-  if(Math.hypot(dx,dy)<1)return;
+  const px=(e.clientX-d.x)*(state.size[0]*.5)/d.w,py=(e.clientY-d.y)*(state.size[1]*.5)/d.h;
+  if(Math.hypot(px,py)<1)return;
+  const [[ax,ay],[bx,by]]=d.basis;
+  const det=ax*by-ay*bx;
+  if(Math.abs(det)<1e-9){notify("This layer transform is not invertible",true);return}
+  const dx=(px*by-py*bx)/det,dy=(py*ax-px*ay)/det;
   try{
-    state=await api("/api/edit",{target:"layer",layer:d.name,frame,property:"x",value:Math.round(d.originalX+dx)});
-    state=await api("/api/edit",{target:"layer",layer:d.name,frame,property:"y",value:Math.round(d.originalY+dy)});
+    state=await api("/api/edit",{target:"layer",layer:d.name,frame,property:"x",value:Number((d.originalX+dx).toFixed(2))});
+    state=await api("/api/edit",{target:"layer",layer:d.name,frame,property:"y",value:Number((d.originalY+dy).toFixed(2))});
     await updateFrame();notify("Layer moved in draft at frame "+frame);
   }catch(err){notify(err.message,true)}
 });
