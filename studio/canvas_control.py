@@ -66,8 +66,16 @@ def layer_geometry(comp, frame):
         token, _, params = state
         if token[0] == "gen":
             size = comp.spec_size
+            painted_box = (0, 0, size[0], size[1])
+            has_alpha = False
         else:
-            size = comp._load(token[1], layer["fit"]).size
+            source_image = comp._load(token[1], layer["fit"])
+            size = source_image.size
+            has_alpha = source_image.mode == "RGBA"
+            painted_box = (source_image.getchannel("A").getbbox() if has_alpha
+                           else (0, 0, size[0], size[1]))
+            if painted_box is None:
+                continue  # transparent empty cel cannot cause visible clipping
         matrix = comp._matrix(layer, size, params, camera, press, f)
         # Exact pixel-to-key translation basis including parent chain and camera.
         px = dict(params, x=float(params["x"]) + 1)
@@ -78,8 +86,8 @@ def layer_geometry(comp, frame):
             [round(mx[2] - matrix[2], 7), round(mx[5] - matrix[5], 7)],
             [round(my[2] - matrix[2], 7), round(my[5] - matrix[5], 7)],
         ]
-        w, h = size
-        polygon = [_point(matrix, p) for p in ((0, 0), (w, 0), (w, h), (0, h))]
+        x0, y0, x1, y1 = painted_box
+        polygon = [_point(matrix, p) for p in ((x0, y0), (x1, y0), (x1, y1), (x0, y1))]
         xs, ys = [p[0] for p in polygon], [p[1] for p in polygon]
         left, top, right, bottom = min(xs), min(ys), max(xs), max(ys)
         cw, ch = comp.size
@@ -92,6 +100,7 @@ def layer_geometry(comp, frame):
             "partial": left < 0 or top < 0 or right > cw or bottom > ch,
             "source": token[1] if token[0] == "img" else "[generated]",
             "params": params, "translation_basis": basis, "parallax": layer["parallax"],
+            "painted_source_bounds": list(painted_box), "alpha_registered": has_alpha,
         })
     return result
 
@@ -509,7 +518,8 @@ class CanvasHandler(BaseHTTPRequestHandler):
             if url.path in ("/api/frame", "/api/bounds"):
                 frame = int(query.get("frame", ["0"])[0])
                 if url.path == "/api/bounds":
-                    return self._send(200, {"bounds": self.session.bounds(frame)})
+                    return self._send(200, {"bounds": self.session.bounds(frame),
+                                             "size": list(self.session._comp().size)})
                 frame_bytes, _ = self.session.preview(frame)
                 return self._send(200, frame_bytes, "image/png")
             if url.path == "/api/audit":
