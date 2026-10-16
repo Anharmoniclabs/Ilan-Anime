@@ -92,3 +92,67 @@ changes to a fixed authored drawing as a new pose.
   provenance-recorded take is mandatory for the CLI path.
 
 Tests: `python -m unittest tests.test_drawing_separation -v`.
+
+
+## Frame-by-frame sequence integration (experimental)
+
+The native tool now accepts a manifest containing existing *frame-local drawing IR*
+files and a common list of explicit point-pair rules. It checks and corrects
+each frame independently, preserves source files, validates pair midpoint and
+gap after correction, and writes new registered RGBA drawings.
+
+Run an existing, **unapproved** drawing sequence:
+
+```bash
+.venv/bin/python -m studio.drawing sequence \
+  --manifest production/engineering/my-sequence/sequence.json \
+  --out production/engineering/drawing-takes/SEPARATION-REAL-001
+```
+
+Minimal manifest:
+
+```json
+{
+  "fps": 24,
+  "source_kind": "production-draft",
+  "frames": [
+    {"drawing": "pose-0000.drawing.json"},
+    {"drawing": "pose-0001.drawing.json"}
+  ],
+  "rules": [{
+    "upper": {"id": "cloth.sleeve", "segment": 0, "point": 1},
+    "lower": {"id": "cloth.sleeve", "segment": 2, "point": 2},
+    "minimum": 28,
+    "axis": [0, -1]
+  }]
+}
+```
+
+The optional synthetic demonstration generates 48 *new*, deliberately
+collapsing sleeve test frames (not from Amaia or any approved shot):
+
+```bash
+.venv/bin/python -m studio.drawing.sequence_fixture \
+  --out production/engineering/drawing-takes/SEPARATION-DEMO-001
+```
+
+Files: `before.mp4`, `after.mp4`, `comparison.mp4`,
+`before-motion.json`, `after-motion.json`, `measurement.png`,
+`report.json`, per-frame PNGs and `corrected_ir/*.drawing.json`.
+`studio.motion.compile_spec` must reject the uncorrected motion spec
+and accept the corrected one when all named-point clearances pass.
+
+Demonstration run (48 frames, 24 fps, minimum 28 px):
+**38/48 violating frames before, 0/48 afterward;**
+maximum required gap correction 18.3317 px; maximum
+frame-to-frame change in the gap correction 1.33361 px.
+These are deterministic *synthetic-test* measurements. They do not
+establish correct character anatomy, rendered stroke quality, identity
+preservation or author approval.
+
+**Actual Amaia movement is not yet demonstrated.** The latest existing Amaia
+rig's articulated arm movement was previously rejected for doubled source
+contours; its accepted scope was restricted to neutral body plus face
+controls. Never use that rejected movement as an approved input. A real
+character test requires newly approved/action-specific replacement drawings
+and actual per-frame/pose correspondence points.
