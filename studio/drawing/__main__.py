@@ -83,6 +83,12 @@ def cmd_constrain(a):
                       "approved": False}, indent=2))
 
 
+def cmd_sequence(a):
+    from studio.drawing.sequence import run
+    result = run(a.manifest, a.out)
+    print(json.dumps({k: v for k, v in result.items() if k != "frames"}, indent=2))
+
+
 def cmd_gate(a):
     from studio.drawing.review import gate_file
     result = gate_file(a.image)
@@ -130,6 +136,11 @@ def main(argv=None):
     s.add_argument("--rules", help="optional JSON list of explicit pairs; overrides embedded rules")
     s.add_argument("--out", required=True, help="new empty take directory (never overwrite)")
     s.set_defaults(func=cmd_constrain)
+
+    s = sub.add_parser("sequence", help="correct and compare an entire animation drawing sequence")
+    s.add_argument("--manifest", required=True, help="sequence manifest of draft IR frames and constraints")
+    s.add_argument("--out", required=True, help="new output directory; never overwrites source cels")
+    s.set_defaults(func=cmd_sequence)
 
     s = sub.add_parser("gate", help="structural plausibility gate (fails the one-square benchmark)")
     s.add_argument("image")
