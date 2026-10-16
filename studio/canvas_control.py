@@ -327,7 +327,7 @@ class CanvasSession:
                 frames = sorted(f for f in sample if 0 <= f < count)
                 # Always include first/middle/last; cap remaining boundary samples.
                 essentials = {0, count // 2, count - 1}
-                frames = sorted(essentials | set((f for f in frames if f not in essentials)[:21]))
+                frames = sorted(essentials | set([f for f in frames if f not in essentials][:21]))
                 for frame in frames:
                     rendered = comp.draw(frame)
                     if rendered.size != comp.size or rendered.mode != "RGB":
