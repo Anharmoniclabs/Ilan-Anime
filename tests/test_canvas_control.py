@@ -140,7 +140,7 @@ class FullCanvasControlTest(unittest.TestCase):
     def test_video_review_rejects_truncated_decode(self):
         from unittest.mock import patch
         class FakeWriter:
-            def __init__(self, out, **kwargs):
+            def __init__(self, out, size, mode, fps):
                 self.out = Path(out)
             def __enter__(self):
                 return self
