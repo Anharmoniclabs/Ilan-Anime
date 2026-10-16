@@ -185,6 +185,25 @@ def check(motion: dict, base: Path = PROJECT) -> dict:
         warnings.append("no character has two or more drawings: the shot has no acting yet")
     if not environment:
         warnings.append("no environmental or prop action (water, wakes, props) is animated")
+    # Shared art/animation minimum-separation gate. CHECK ONLY: never silently
+    # warp approved cels or replace missing action drawings with transforms.
+    for element in motion.get("elements", []):
+        rules = element.get("separation_constraints", [])
+        if not rules:
+            continue
+        from studio.drawing.separation import check_pose_points, SeparationError
+        all_points = _drawing_points(element)
+        drawings = {d for _, d, _ in _drawings(element)}
+        if not drawings:
+            drawings = set(all_points)
+        if not drawings:
+            errors.append(f"{element.get('name')}: separation constraints have no named drawing points")
+        for drawing in sorted(drawings):
+            try:
+                violations = check_pose_points(all_points.get(drawing, {}), rules)
+                errors.extend(f"{element.get('name')}: {drawing}: {v}" for v in violations)
+            except SeparationError as exc:
+                errors.append(f"{element.get('name')}: invalid separation rule: {exc}")
     contact_report = []
     if not errors:
         try:
