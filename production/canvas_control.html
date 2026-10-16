@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ilan-Anime | Full Canvas Control</title>
+<style>
+:root{color-scheme:dark;--bg:#0b111b;--panel:#151f2b;--line:#2e4150;--ink:#f1f3ef;--muted:#95a8b8;--gold:#e7b771;--aqua:#67d4c5;--error:#ff8f7e}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:14px system-ui,Segoe UI,sans-serif}
+header{padding:14px 20px;display:flex;align-items:center;gap:18px;border-bottom:1px solid var(--line);background:#111c26}
+h1{font-size:18px;margin:0;letter-spacing:.045em}h2{font-size:13px;text-transform:uppercase;letter-spacing:.13em;color:var(--aqua);margin:0 0 12px}
+small,.hint{color:var(--muted)}.status{margin-left:auto;color:var(--muted);max-width:44%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+button,input,select{font:inherit;color:inherit}select,input{background:#101a24;border:1px solid #3d5361;border-radius:7px;padding:8px}
+button{cursor:pointer;padding:8px 12px;background:#263b4b;border:1px solid #426173;border-radius:7px}
+button:hover{background:#325266}button.primary{background:#266d62;border-color:#4ab09d;font-weight:700}
+button:disabled{opacity:.4;cursor:not-allowed}
+.shell{display:grid;grid-template-columns:205px minmax(360px,1fr) 295px;height:calc(100vh - 67px);min-height:540px}
+aside{min-width:0;overflow:auto;border-right:1px solid var(--line);background:var(--panel);padding:15px}
+.right{border-left:1px solid var(--line);border-right:0}
+.scene-list{display:grid;gap:5px;margin-top:12px}.scene{width:100%;text-align:left;border-color:transparent;background:transparent;color:#b9c9d4}
+.scene.sel{background:#345466;color:white;border-color:#5a8192}.scene:hover{background:#263948}
+main{padding:16px;overflow:auto;display:flex;flex-direction:column;gap:12px;min-width:0}
+.toolbar{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.chip{font-size:11px;border-radius:14px;padding:5px 9px;background:#253a47;color:#c1d4e1}
+.stage{width:100%;position:relative;aspect-ratio:16/9;background:#060b11;border:1px solid #42566a;overflow:hidden}
+.stage img{width:100%;height:100%;object-fit:fill;display:block}
+.stage svg{position:absolute;inset:0;width:100%;height:100%;touch-action:none}
+.stage .guide{stroke:#e8be82;stroke-dasharray:8 8;stroke-width:1;fill:none;pointer-events:none;opacity:.75}
+.poly{fill:rgba(88,199,192,.05);stroke:#8fd8ca;stroke-width:1.5;cursor:grab;vector-effect:non-scaling-stroke;pointer-events:auto}
+.poly.selected{fill:rgba(241,180,97,.12);stroke:#f5bc6d;stroke-width:3}
+.frame{display:flex;align-items:center;gap:10px}
+.frame input{flex:1}.frame label{white-space:nowrap;min-width:75px}
+.timeline{width:100%;accent-color:var(--aqua)}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.field{display:grid;gap:4px}.field label{font-size:11px;text-transform:uppercase;color:var(--muted)}
+.field input{width:100%;min-width:0}
+.layers{display:grid;gap:6px;max-height:28vh;overflow:auto}
+.layer{width:100%;text-align:left;font-size:12px;padding:8px;display:flex;justify-content:space-between;gap:6px}
+.layer .meta{color:#b4c2ce;font-size:10px}
+.layer.active{background:#2d5c5b;border-color:#58c3b5}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+pre{white-space:pre-wrap;word-break:break-word;background:#0c1721;border:1px solid var(--line);padding:10px;border-radius:7px;line-height:1.55;font-size:11px;max-height:25vh;overflow:auto}
+.banner{color:#f8d6a8;background:#3a2b1d;padding:10px;border-radius:7px;font-size:12px}
+footer{margin-top:auto;color:var(--muted);font-size:11px}
+@media(max-width:980px){.shell{grid-template-columns:145px minmax(310px,1fr)}.right{grid-column:1/-1;border-top:1px solid var(--line);max-height:none}.shell{height:auto}aside{max-height:390px}}
+</style>
+</head>
+<body>
+<header><h1>ILAN–ANIME <small>/ Full Canvas Control</small></h1><span class="chip">ALL SHOTS · ALL LAYERS · CAMERA</span><span class="status" id="status">Loading local studio…</span></header>
+<div class="shell">
+<aside><h2>Episode shots</h2><input id="search" placeholder="Filter shot IDs" style="width:100%"><div class="scene-list" id="shots"></div></aside>
+<main>
+<div class="toolbar"><div><strong id="shotTitle">Choose a shot</strong> <span class="chip" id="shotMeta">—</span></div>
+<div class="actions"><button id="toggleBounds">Hide bounds</button><button id="auditBtn">Audit full shot</button><button class="primary" id="saveBtn">Save NEW draft take</button></div></div>
+<div class="stage" id="stage">
+<img id="preview" alt="Actual shot composition rendered from local source layers">
+<svg id="overlays" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg"></svg>
+</div>
+<div class="frame"><button id="previous">◀</button><input class="timeline" type="range" min="0" max="1" value="0" id="scrub"><button id="next">▶</button><label id="timecode">0 / 0</label></div>
+<div class="banner">This edits the whole composited shot, not a two-point bell/sleeve overlay. Camera, layers and timing are inspectable. Changing layer transforms does not create missing character poses or guarantee perfect animation.</div>
+<h2>Shot-wide inspection</h2><pre id="report">Select a shot, scrub its frames, choose a layer or camera, change a property, and inspect the complete render. Click “Audit full shot” for coverage and acting diagnostics.</pre>
+<footer>Existing artwork is never overwritten. Edited layouts are saved as exploratory shot specs only. Keep this Codespaces port PRIVATE.</footer>
+</main>
+<aside class="right">
+<h2>Scene graph · back to front</h2>
+<div class="layers"><button id="camBtn" class="layer active"><strong>◎ CAMERA</strong><span class="meta">shot-wide</span></button><div id="layers"></div></div>
+<div class="actions"><button id="up">Move ↑ stack</button><button id="down">Move ↓ stack</button></div>
+<hr style="border:0;border-top:1px solid var(--line);margin:17px 0">
+<h2 id="selectedTitle">Camera transform</h2>
+<div class="grid" id="fields"></div>
+<div id="extra" style="margin-top:13px"></div>
+<p class="hint">Values are keyed at the current frame. Select any layer and drag its bounding outline on the canvas to change placement. Use camera controls for the complete composition.</p>
+</aside>
+</div>
+<script>
+"use strict";
+let state=null,frame=0,selected="camera",bounds=[],shotIds=[],showBounds=true,requestCount=0,drag=null;
+const $=id=>document.getElementById(id);
+const notify=(message,error=false)=>{const node=$("status");node.textContent=message;node.style.color=error?"#ff8f7e":"#a8c5c5"};
+async function api(path,data) {
+  const res=await fetch(path,data?{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(data)}:{});
+  const type=res.headers.get("content-type")||"";
+  const result=type.includes("application/json")?await res.json():res;
+  if(!res.ok)throw Error(result.error||res.statusText);
+  return result;
+}
+function valueAt(keys,frame,key,fallback) {
+  const k=(keys||[]).slice().sort((a,b)=>a.frame-b.frame);
+  if(!k.length)return fallback;
+  let a=k[0],b=k[k.length-1];
+  if(frame<=a.frame)b=a;
+  else if(frame>=b.frame)a=b;
+  else {for(let i=0;i<k.length-1;i++)if(k[i].frame<=frame&&k[i+1].frame>=frame){a=k[i];b=k[i+1];break}}
+  let t=a.frame===b.frame?0:(frame-a.frame)/(b.frame-a.frame);
+  if(a.ease==="hold")t=0; else if(a.ease==="smooth")t=t*t*(3-2*t);
+  else if(a.ease==="ease_in")t=t*t; else if(a.ease==="ease_out")t=1-(1-t)*(1-t);
+  return (a[key]??fallback)+((b[key]??fallback)-(a[key]??fallback))*t;
+}
+function choice(){return selected==="camera"?null:(state.layers.find(x=>x.name===selected)||null)}
+function options(){let c=choice(); return selected==="camera"?
+  [["x",-5000,5000,1,0],["y",-5000,5000,1,0],["scale",.25,4,.01,1],["angle",-360,360,1,0]]:
+  [["x",-5000,5000,1,0],["y",-5000,5000,1,0],["scale",.1,5,.01,1],["angle",-360,360,1,0],["opacity",0,1,.05,1]];
+}
+function renderInspector(){
+  const c=choice();
+  $("selectedTitle").textContent=selected==="camera"?"Camera · complete scene":selected;
+  $("camBtn").classList.toggle("active",selected==="camera");
+  [...$("layers").children].forEach(el=>el.classList.toggle("active",el.dataset.name===selected));
+  $("up").disabled=$("down").disabled=!c;
+  $("fields").replaceChildren();
+  for(const [key,min,max,step,defaultValue] of options()){
+    const wrapper=document.createElement("div");wrapper.className="field";
+    const label=document.createElement("label");label.textContent=key;
+    const input=document.createElement("input");input.type="number";input.min=min;input.max=max;input.step=step;
+    const keys=selected==="camera"?state.camera:c.keys;
+    input.value=Number(valueAt(keys,frame,key,defaultValue).toFixed(3));
+    if(c&&c.tags.includes("character")&&(key==="angle"||key==="scale")){input.disabled=true;label.textContent+=" · redraw pose"}
+    input.addEventListener("change",async()=>{try{notify("Applying "+key+"…");state=await api("/api/edit",{target:selected==="camera"?"camera":"layer",layer:selected,frame,property:key,value:Number(input.value)});await updateFrame();notify("Draft updated · original unchanged")}catch(e){notify(e.message,true)}});
+    wrapper.append(label,input);$("fields").append(wrapper);
+  }
+  $("extra").replaceChildren();
+  if(c){
+    for(const [key,title,v,min,max,step] of [["parallax","Parallax",c.parallax,0,3,.1],["base_opacity","Whole-layer opacity",c.opacity,0,1,.05]]){
+      const box=document.createElement("div");box.className="field";box.style.marginBottom="8px";
+      const label=document.createElement("label");label.textContent=title;const input=document.createElement("input");
+      input.type="number";input.value=v;input.min=min;input.max=max;input.step=step;
+      input.addEventListener("change",async()=>{try{state=await api("/api/edit",{target:"layer",layer:selected,frame,property:key,value:Number(input.value)});await updateFrame()}catch(e){notify(e.message,true)}});
+      box.append(label,input);$("extra").append(box);
+    }
+  }
+}
+function renderLayers(){
+  const node=$("layers");node.replaceChildren();
+  for(const layer of state.layers.slice().reverse()){
+    const el=document.createElement("button");el.className="layer";el.dataset.name=layer.name;
+    const title=document.createElement("strong");title.textContent=layer.name;
+    const meta=document.createElement("span");meta.className="meta";meta.textContent=layer.source_type+" · "+layer.drawings+" drawing(s)";
+    el.append(title,meta);el.onclick=()=>{selected=layer.name;renderInspector();drawBounds()};node.append(el);
+  }
+  renderInspector();
+}
+function drawBounds(){
+  const svg=$("overlays");svg.replaceChildren();
+  if(!showBounds)return;
+  const ns="http://www.w3.org/2000/svg";
+  for(const [i,b] of bounds.entries()){
+    let poly=document.createElementNS(ns,"polygon");
+    poly.setAttribute("points",b.polygon.map(p=>p.join(",")).join(" "));
+    poly.setAttribute("class","poly"+(selected===b.name?" selected":""));
+    poly.dataset.name=b.name;poly.style.opacity=selected===b.name?".9":".45";
+    poly.addEventListener("pointerdown",e=>{
+      e.preventDefault();e.stopPropagation();
+      selected=b.name;renderInspector();drawBounds();
+      const rect=svg.getBoundingClientRect();
+      drag={name:b.name,x:e.clientX,y:e.clientY,w:rect.width,h:rect.height,
+            originalX:valueAt(choice().keys,frame,"x",0),originalY:valueAt(choice().keys,frame,"y",0)};
+    });
+    svg.append(poly);
+  }
+  const rect=document.createElementNS(ns,"rect");
+  const w=state.size[0]*.5,h=state.size[1]*.5;
+  rect.setAttribute("x",w*.05);rect.setAttribute("y",h*.05);
+  rect.setAttribute("width",w*.9);rect.setAttribute("height",h*.9);
+  rect.setAttribute("class","guide");svg.append(rect);
+}
+window.addEventListener("pointerup",async e=>{
+  if(!drag)return;
+  const d=drag;drag=null;
+  const dx=(e.clientX-d.x)*state.size[0]/d.w,dy=(e.clientY-d.y)*state.size[1]/d.h;
+  if(Math.hypot(dx,dy)<1)return;
+  try{
+    state=await api("/api/edit",{target:"layer",layer:d.name,frame,property:"x",value:Math.round(d.originalX+dx)});
+    state=await api("/api/edit",{target:"layer",layer:d.name,frame,property:"y",value:Math.round(d.originalY+dy)});
+    await updateFrame();notify("Layer moved in draft at frame "+frame);
+  }catch(err){notify(err.message,true)}
+});
+async function updateFrame(){
+  if(!state)return;
+  const current=++requestCount;
+  $("timecode").textContent=frame+" / "+(state.frames-1);
+  $("scrub").value=frame;
+  $("overlays").setAttribute("viewBox","0 0 "+(state.size[0]*.5)+" "+(state.size[1]*.5));
+  $("stage").style.aspectRatio=state.size[0]+"/"+state.size[1];
+  try{
+    const [img,b]=await Promise.all([api("/api/frame?frame="+frame+"&v="+state.revision),api("/api/bounds?frame="+frame)]);
+    if(current!==requestCount)return;
+    const blob=await img.blob(),url=URL.createObjectURL(blob),prev=$("preview").dataset.url;
+    $("preview").src=url;$("preview").dataset.url=url;if(prev)URL.revokeObjectURL(prev);
+    bounds=b.bounds;drawBounds();renderInspector();
+  }catch(e){notify("Preview issue: "+e.message,true)}
+}
+async function selectShot(shot){
+  try{notify("Loading entire shot "+shot+"…");state=await api("/api/select?shot="+encodeURIComponent(shot));
+    frame=0;selected="camera";$("scrub").max=state.frames-1;
+    $("shotTitle").textContent=state.shot;
+    $("shotMeta").textContent=state.size.join("×")+" · "+state.frames+" frames · "+state.stage;
+    $("report").textContent="Full-scene preview. All layers, camera and transform keys are available. Run Audit full shot to inspect screen-space layer bounds and missing acting.";
+    [...$("shots").children].forEach(el=>el.classList.toggle("sel",el.dataset.shot===shot));
+    renderLayers();await updateFrame();notify("Full shot loaded · preview is live compositing");
+  }catch(e){notify(e.message,true)}
+}
+async function loadShots(){
+  try{const data=await api("/api/shots");shotIds=data.shots;const list=$("shots");list.replaceChildren();
+    for(const id of shotIds){const b=document.createElement("button");b.className="scene";b.dataset.shot=id;b.textContent=id;b.onclick=()=>selectShot(id);list.append(b)}
+    if(shotIds.length)await selectShot(shotIds[0]);else notify("No episode shot specs found",true);
+  }catch(e){notify(e.message,true)}
+}
+$("search").oninput=()=>{const q=$("search").value.trim().toLowerCase();[...$("shots").children].forEach(b=>b.hidden=!b.dataset.shot.toLowerCase().includes(q))};
+$("camBtn").onclick=()=>{selected="camera";renderInspector();drawBounds()};
+$("scrub").oninput=e=>{frame=Number(e.target.value);updateFrame()};
+$("previous").onclick=()=>{frame=Math.max(0,frame-1);updateFrame()};
+$("next").onclick=()=>{frame=Math.min(state.frames-1,frame+1);updateFrame()};
+$("toggleBounds").onclick=()=>{showBounds=!showBounds;$("toggleBounds").textContent=showBounds?"Hide bounds":"Show bounds";drawBounds()};
+async function moveLayer(direction){try{state=await api("/api/reorder",{layer:selected,direction});renderLayers();await updateFrame()}catch(e){notify(e.message,true)}}
+$("up").onclick=()=>moveLayer(1);$("down").onclick=()=>moveLayer(-1);
+$("auditBtn").onclick=async()=>{try{notify("Measuring layer bounds across shot…");const a=await api("/api/audit?step=24");
+  const off=a.samples.filter(x=>x.off_canvas.length),parts=a.samples.filter(x=>x.partial.length);
+  $("report").textContent=JSON.stringify({shot:a.shot,frames_sampled:a.samples.length,
+    off_canvas_samples:off.length,partially_clipped_samples:parts.length,
+    acting_warnings:a.no_acting,render_errors:a.errors,
+    note:"Bounds are conservative rectangles, not alpha-accurate collision detection. This does not validate acting, anatomy or character identity."},null,2);
+  notify("Audit complete · "+a.samples.length+" sampled frames")}catch(e){notify(e.message,true)}};
+$("saveBtn").onclick=async()=>{try{const result=await api("/api/save",{});$("report").textContent=JSON.stringify(result,null,2);notify("NEW exploratory take saved · original unchanged")}catch(e){notify(e.message,true)}};
+loadShots();
+</script>
+</body></html>
