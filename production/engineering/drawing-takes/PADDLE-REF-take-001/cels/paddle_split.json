@@ -1,0 +1,19 @@
+{
+  "atlas": "episode-01/assets/cels/paddle-sheet.png",
+  "grid": "4x2",
+  "cell_size": [
+    443,
+    443
+  ],
+  "cels": [
+    "production/engineering/drawing-takes/PADDLE-REF-take-001/cels/paddle_01.png",
+    "production/engineering/drawing-takes/PADDLE-REF-take-001/cels/paddle_02.png",
+    "production/engineering/drawing-takes/PADDLE-REF-take-001/cels/paddle_03.png",
+    "production/engineering/drawing-takes/PADDLE-REF-take-001/cels/paddle_04.png",
+    "production/engineering/drawing-takes/PADDLE-REF-take-001/cels/paddle_05.png",
+    "production/engineering/drawing-takes/PADDLE-REF-take-001/cels/paddle_06.png",
+    "production/engineering/drawing-takes/PADDLE-REF-take-001/cels/paddle_07.png",
+    "production/engineering/drawing-takes/PADDLE-REF-take-001/cels/paddle_08.png"
+  ],
+  "note": "Cells are cut on a uniform grid; registration and matte review still required."
+}

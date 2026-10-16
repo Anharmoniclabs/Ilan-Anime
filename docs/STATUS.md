@@ -19,6 +19,10 @@ The full episode remains unfinished. Counts below were checked against the saved
 
 Open the [local episode browser](../production/runs/episode1-full-picture/tasks/episode-wiring/index.html) for shot-by-shot sources and limits. Use [the repository map](REPOSITORY_MAP.md) for editable sources, all runs and archives. Saved ledgers/checkpoints describe recorded work, not live process activity; inspect them before any authorized recovery.
 
+## Drawing engine — 16 October 2026
+
+Branch `feature/reference-drawing-engine` adds `studio/drawing/` ([manual](DRAWING_ENGINE.md)). Verified locally: the 8 approved paddle cels reconstruct into editable layers (layered mean color error 1.5–5.1/255); Amaia front-view expressions are drawn procedurally from a candidate identity model; Qwen picks expressions from script lines (8/8 valid); S01-01 re-renders byte-identically from its approved plan; and FLUX.2 Klein produced a three-quarter Amaia on CPU in ~23 min with some identity drift. No new shot animation, independent review or author approval is claimed.
+
 The dated sections below preserve earlier implementation and production history. Their earlier coverage counts and descriptions of running/paused tasks are snapshots; use the current checkpoint above and the latest exact task evidence for present work.
 
 ## New shot illustrations — 14 October 2026

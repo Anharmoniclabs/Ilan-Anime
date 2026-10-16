@@ -1,0 +1,63 @@
+{
+  "take": "AMAIA-QWEN-take-001",
+  "results": [
+    {
+      "line": "Amaia turns toward the riverbank in fear",
+      "plan": {
+        "expression": "fear",
+        "intensity": 0.8,
+        "gaze": "center"
+      },
+      "face": "production/engineering/drawing-takes/AMAIA-QWEN-take-001/line-1/face.png",
+      "face_sha256": "e4f8add2bcace103c5328a1b49679091214dff6b435a793b6c1cd14f8c2699b2",
+      "attempts": 1,
+      "seconds": [
+        3.83
+      ]
+    },
+    {
+      "line": "Amaia counts the empty seats in the canoe, grieving the missing",
+      "plan": {
+        "expression": "sorrow",
+        "intensity": 0.9,
+        "gaze": "center"
+      },
+      "face": "production/engineering/drawing-takes/AMAIA-QWEN-take-001/line-2/face.png",
+      "face_sha256": "0eea55a993b004e211aebd7c71acf66da74e1570ef7bd368e01bbfab379ec1c0",
+      "attempts": 1,
+      "seconds": [
+        1.95
+      ]
+    },
+    {
+      "line": "Amaia hears the brass bell ring across the mangroves and freezes",
+      "plan": {
+        "expression": "fear",
+        "intensity": 0.8,
+        "gaze": "center"
+      },
+      "face": "production/engineering/drawing-takes/AMAIA-QWEN-take-001/line-3/face.png",
+      "face_sha256": "e4f8add2bcace103c5328a1b49679091214dff6b435a793b6c1cd14f8c2699b2",
+      "attempts": 1,
+      "seconds": [
+        2.02
+      ]
+    },
+    {
+      "line": "Amaia grips the paddle and sets her jaw, ready to lead the canoe",
+      "plan": {
+        "expression": "resolve",
+        "intensity": 1.0,
+        "gaze": "center"
+      },
+      "face": "production/engineering/drawing-takes/AMAIA-QWEN-take-001/line-4/face.png",
+      "face_sha256": "ede55500a8e2ac83861e9e246bd52e9685770bf186f914d33d43a53741ebd355",
+      "attempts": 1,
+      "seconds": [
+        1.96
+      ]
+    }
+  ],
+  "status": "awaiting-author-review",
+  "approved": false
+}

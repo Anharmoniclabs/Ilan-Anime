@@ -1,0 +1,127 @@
+{
+  "character": "amaia",
+  "view": "front",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "source": "production/runs/cemi-90s-production/tasks/amaia-assets/amaia-master.png",
+  "source_sha256": "bbfa41e8693615838e187e2cd3cb5045ebeb51db548358bc22a78e1ef24370aa",
+  "status": "candidate",
+  "landmarks": {
+    "eye_l.outer": [
+      453,
+      145
+    ],
+    "eye_l.inner": [
+      486,
+      147
+    ],
+    "eye_l.top": [
+      470,
+      137
+    ],
+    "eye_l.bottom": [
+      470,
+      151
+    ],
+    "eye_l.iris": [
+      470,
+      145
+    ],
+    "eye_r.inner": [
+      517,
+      146
+    ],
+    "eye_r.outer": [
+      549,
+      144
+    ],
+    "eye_r.top": [
+      533,
+      136
+    ],
+    "eye_r.bottom": [
+      533,
+      150
+    ],
+    "eye_r.iris": [
+      532,
+      144
+    ],
+    "brow_l.outer": [
+      448,
+      131
+    ],
+    "brow_l.peak": [
+      468,
+      127
+    ],
+    "brow_l.inner": [
+      494,
+      134
+    ],
+    "brow_r.inner": [
+      509,
+      133
+    ],
+    "brow_r.peak": [
+      533,
+      126
+    ],
+    "brow_r.outer": [
+      556,
+      129
+    ],
+    "nose.tip": [
+      502,
+      171
+    ],
+    "mouth.l": [
+      482,
+      198
+    ],
+    "mouth.r": [
+      521,
+      198
+    ],
+    "mouth.top": [
+      502,
+      194
+    ],
+    "mouth.bottom": [
+      502,
+      206
+    ],
+    "chin": [
+      500,
+      232
+    ]
+  },
+  "palette": {
+    "skin": "#b16a3c",
+    "brow": "#000000",
+    "ink": "#010000",
+    "ink_soft": "#814d2b",
+    "eye_white": "#e3d7cc",
+    "iris": "#663820",
+    "iris_dark": "#2a1409",
+    "pupil": "#120806",
+    "mouth_dark": "#3b1712",
+    "teeth": "#efe4d8",
+    "lip_shadow": "#532914",
+    "lip_upper": "#7a3c22",
+    "lip_lower": "#a15b36"
+  },
+  "provenance": {
+    "landmarks": "engineer-annotated by hand from zoomed source grid, 2026-10-16",
+    "palette": "median-sampled from source pixels; iris/lip re-sampled at ring/lip points 2026-10-16 (v2)"
+  },
+  "note": "Source is an exploratory generated master (master-review.json), not author-approved identity canon.",
+  "skin_patch": [
+    455,
+    163,
+    477,
+    185
+  ]
+}

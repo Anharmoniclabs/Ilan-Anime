@@ -1,0 +1,146 @@
+{
+  "take": "AMAIA-QWEN-take-002",
+  "layout": "source, then lines 1-4",
+  "results": [
+    {
+      "line": "Amaia turns toward the riverbank in fear",
+      "plan": {
+        "expression": "fear",
+        "intensity": 0.8,
+        "gaze": "left"
+      },
+      "face_sha256": "f69cc2053c7653c646775113a16afdc088f54d094c30c0dc6db5806231d8f0df",
+      "authorship": {
+        "face.brow.l": "source-warped",
+        "face.brow.r": "source-warped",
+        "face.eye.l.white": "procedural",
+        "face.eye.l.iris": "procedural",
+        "face.eye.l.iris_shadow": "procedural",
+        "face.eye.l.pupil": "procedural",
+        "face.eye.l.highlight": "procedural",
+        "face.eye.l.lash": "procedural",
+        "face.eye.l.flick": "procedural",
+        "face.eye.l.lower": "procedural",
+        "face.eye.l.crease": "procedural",
+        "face.eye.r.white": "procedural",
+        "face.eye.r.iris": "procedural",
+        "face.eye.r.iris_shadow": "procedural",
+        "face.eye.r.pupil": "procedural",
+        "face.eye.r.highlight": "procedural",
+        "face.eye.r.lash": "procedural",
+        "face.eye.r.flick": "procedural",
+        "face.eye.r.lower": "procedural",
+        "face.eye.r.crease": "procedural",
+        "face.mouth.interior": "procedural",
+        "face.mouth.teeth": "procedural",
+        "face.mouth.lower_lip": "procedural",
+        "face.mouth.upper_line": "procedural",
+        "face.mouth.lower_line": "procedural",
+        "face.mouth.lower_lip_shade": "procedural"
+      }
+    },
+    {
+      "line": "Amaia counts the empty seats in the canoe, grieving the missing",
+      "plan": {
+        "expression": "sorrow",
+        "intensity": 0.9,
+        "gaze": "right"
+      },
+      "face_sha256": "d6e5b900325236dfd06d591e85edcab05ccb787034b2d64556a984e255687e0f",
+      "authorship": {
+        "face.brow.l": "source-warped",
+        "face.brow.r": "source-warped",
+        "face.eye.l.white": "procedural",
+        "face.eye.l.iris": "procedural",
+        "face.eye.l.iris_shadow": "procedural",
+        "face.eye.l.pupil": "procedural",
+        "face.eye.l.highlight": "procedural",
+        "face.eye.l.lash": "procedural",
+        "face.eye.l.flick": "procedural",
+        "face.eye.l.lower": "procedural",
+        "face.eye.l.crease": "procedural",
+        "face.eye.r.white": "procedural",
+        "face.eye.r.iris": "procedural",
+        "face.eye.r.iris_shadow": "procedural",
+        "face.eye.r.pupil": "procedural",
+        "face.eye.r.highlight": "procedural",
+        "face.eye.r.lash": "procedural",
+        "face.eye.r.flick": "procedural",
+        "face.eye.r.lower": "procedural",
+        "face.eye.r.crease": "procedural",
+        "face.mouth": "source-warped"
+      }
+    },
+    {
+      "line": "Amaia hears the brass bell ring across the mangroves and freezes",
+      "plan": {
+        "expression": "fear",
+        "intensity": 0.8,
+        "gaze": "left"
+      },
+      "face_sha256": "f69cc2053c7653c646775113a16afdc088f54d094c30c0dc6db5806231d8f0df",
+      "authorship": {
+        "face.brow.l": "source-warped",
+        "face.brow.r": "source-warped",
+        "face.eye.l.white": "procedural",
+        "face.eye.l.iris": "procedural",
+        "face.eye.l.iris_shadow": "procedural",
+        "face.eye.l.pupil": "procedural",
+        "face.eye.l.highlight": "procedural",
+        "face.eye.l.lash": "procedural",
+        "face.eye.l.flick": "procedural",
+        "face.eye.l.lower": "procedural",
+        "face.eye.l.crease": "procedural",
+        "face.eye.r.white": "procedural",
+        "face.eye.r.iris": "procedural",
+        "face.eye.r.iris_shadow": "procedural",
+        "face.eye.r.pupil": "procedural",
+        "face.eye.r.highlight": "procedural",
+        "face.eye.r.lash": "procedural",
+        "face.eye.r.flick": "procedural",
+        "face.eye.r.lower": "procedural",
+        "face.eye.r.crease": "procedural",
+        "face.mouth.interior": "procedural",
+        "face.mouth.teeth": "procedural",
+        "face.mouth.lower_lip": "procedural",
+        "face.mouth.upper_line": "procedural",
+        "face.mouth.lower_line": "procedural",
+        "face.mouth.lower_lip_shade": "procedural"
+      }
+    },
+    {
+      "line": "Amaia grips the paddle and sets her jaw, ready to lead the canoe",
+      "plan": {
+        "expression": "resolve",
+        "intensity": 1.0,
+        "gaze": "center"
+      },
+      "face_sha256": "130b3a269abbc052c7f21aac34fcc9acca2d55233fda3bad129389a6cea29a02",
+      "authorship": {
+        "face.brow.l": "source-warped",
+        "face.brow.r": "source-warped",
+        "face.eye.l.white": "procedural",
+        "face.eye.l.iris": "procedural",
+        "face.eye.l.iris_shadow": "procedural",
+        "face.eye.l.pupil": "procedural",
+        "face.eye.l.highlight": "procedural",
+        "face.eye.l.lash": "procedural",
+        "face.eye.l.flick": "procedural",
+        "face.eye.l.lower": "procedural",
+        "face.eye.l.crease": "procedural",
+        "face.eye.r.white": "procedural",
+        "face.eye.r.iris": "procedural",
+        "face.eye.r.iris_shadow": "procedural",
+        "face.eye.r.pupil": "procedural",
+        "face.eye.r.highlight": "procedural",
+        "face.eye.r.lash": "procedural",
+        "face.eye.r.flick": "procedural",
+        "face.eye.r.lower": "procedural",
+        "face.eye.r.crease": "procedural",
+        "face.mouth": "source-warped"
+      }
+    }
+  ],
+  "status": "awaiting-author-review",
+  "approved": false
+}

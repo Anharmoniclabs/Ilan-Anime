@@ -17,6 +17,7 @@ Full-repo explainer for engineers: what the project is, how the code works, wher
 11. [Command cookbook](#11-command-cookbook)
 12. [Status and known gaps](#12-status-and-known-gaps)
 13. [Rules to respect](#13-rules-to-respect)
+14. [Drawing engine](#14-drawing-engine)
 
 ---
 
@@ -128,7 +129,8 @@ Two planes:
 | `generate.py` | Opt-in image/voice generation, gated by policy and budget |
 | `runner.py` | `CodexRunner`: dispatches ready tasks to Codex workers and independent reviewers |
 | `reference_lock.py` | Binds shots to locked reference images |
-| `scan.py`, `navigate.py` | Media scan; searchable shot navigator and local-media audit |
+| `scan.py`, `navigate.py` | Drawing scan to editable ink strokes + cel fills (reused by `drawing/`); searchable shot navigator and local-media audit |
+| `drawing/` | Reference-grounded drawing engine: reconstruct, construct, Qwen-direct, optional FLUX; see [DRAWING_ENGINE.md](DRAWING_ENGINE.md) |
 | `episode.py` | Persistent episode draft queue (init, run, status, assemble, recover-clip) |
 | `picture.py` | Specialist picture-draft catalog (plan, start, status, handoff) |
 | `demand.py` | On-demand image workflow (ensure, need, work, collect, status, video) |
@@ -246,6 +248,7 @@ An audit of 18,299 media files found **2,449 groups of byte-identical files, abo
 - Blocked: S01-07 writing (pose jumps, matte seams), S01-02 canoes (grip and paddle geometry), S01-03 Amaia (scale/seating, contacts).
 - Open author decisions: S01-11/12 timing conflicts (24 s vs 22 s, 2s vs 3s exposure policy, frame mapping), canonical keyframes, original pencil portraits as identity source, spending/provider changes.
 - Technical approval is not author approval; nothing here is a finished episode.
+- Drawing engine (16 Oct 2026, branch `feature/reference-drawing-engine`): reconstruction, front-view Amaia expressions, Qwen expression planning and a FLUX.2 Klein CPU backend (~23 min/image) exist. Body poses, in-betweens and Craft round-trips of drawing takes are not built yet. See [DRAWING_ENGINE.md §13](DRAWING_ENGINE.md#13-known-gaps-and-next-work).
 
 Always check the newest run `ledger.json` and [STATUS.md](STATUS.md) before trusting this section.
 
@@ -257,3 +260,9 @@ Always check the newest run `ledger.json` and [STATUS.md](STATUS.md) before trus
 - Respect generation policy and budget (`production/policy.json`); only the author approves final use.
 - Do not hand-edit generated files (`.agents/skills`, ledgers, registry); use the tools.
 - Absolute paths in `production/current/` links are machine-specific.
+
+## 14. Drawing engine
+
+`studio/drawing/` makes the drawings that animation needs. It has four routes: **reconstruct** approved cels into editable layers (flats, shade, ink, matte) via `scan.py`; **construct** same-view changes such as facial expressions from a per-character identity model; let **Qwen direct** them by choosing only from fixed menus; and optionally **generate** new angles with FLUX.2 Klein through stable-diffusion.cpp. Every feature is tagged `source`, `source-warped`, `procedural` or `model`, and only the author approves art. Run `python -m studio.drawing --help`.
+
+Full engineering and developer manual: [DRAWING_ENGINE.md](DRAWING_ENGINE.md). It covers the architecture decision, build methodology, routes, modules, data formats, commands, measured results, the engineering subagents in `.claude/agents/`, tests and gaps.
