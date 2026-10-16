@@ -22,7 +22,7 @@ main{padding:16px;overflow:auto;display:flex;flex-direction:column;gap:12px;min-
 .toolbar{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
 .chip{font-size:11px;border-radius:14px;padding:5px 9px;background:#253a47;color:#c1d4e1}
 .stage{width:100%;position:relative;aspect-ratio:16/9;background:#060b11;border:1px solid #42566a;overflow:hidden}
-.stage img{width:100%;height:100%;object-fit:fill;display:block}
+.stage img,.stage video{width:100%;height:100%;object-fit:fill;display:block}
 .stage svg{position:absolute;inset:0;width:100%;height:100%;touch-action:none}
 .stage .guide{stroke:#e8be82;stroke-dasharray:8 8;stroke-width:1;fill:none;pointer-events:none;opacity:.75}
 .poly{fill:rgba(88,199,192,.05);stroke:#8fd8ca;stroke-width:1.5;cursor:grab;vector-effect:non-scaling-stroke;pointer-events:auto}
@@ -50,9 +50,9 @@ footer{margin-top:auto;color:var(--muted);font-size:11px}
 <aside><h2>Episode shots</h2><input id="search" placeholder="Filter shot IDs" style="width:100%"><div class="scene-list" id="shots"></div></aside>
 <main>
 <div class="toolbar"><div><strong id="shotTitle">Choose a shot</strong> <span class="chip" id="shotMeta">—</span></div>
-<div class="actions"><button id="toggleBounds">Hide bounds</button><button id="inventoryBtn">Audit all shots</button><button id="auditBtn">Audit this shot</button><button class="primary" id="saveBtn">Save NEW draft take</button></div></div>
+<div class="actions"><button id="toggleBounds">Hide bounds</button><button class="primary" id="reviewBtn">Render playable shot</button><button id="backBtn" hidden>Back to editor</button><button id="inventoryBtn">Audit all shots</button><button id="auditBtn">Audit this shot</button><button class="primary" id="saveBtn">Save NEW draft take</button></div></div>
 <div class="stage" id="stage">
-<img id="preview" alt="Actual shot composition rendered from local source layers">
+<img id="preview" alt="Actual shot composition rendered from local source layers"><video id="reviewVideo" controls playsinline preload="metadata" style="display:none" aria-label="Playable complete shot review"></video>
 <svg id="overlays" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg"></svg>
 </div>
 <div class="frame"><button id="previous">◀</button><input class="timeline" type="range" min="0" max="1" value="0" id="scrub"><button id="next">▶</button><label id="timecode">0 / 0</label></div>
@@ -73,7 +73,7 @@ footer{margin-top:auto;color:var(--muted);font-size:11px}
 </div>
 <script>
 "use strict";
-let state=null,frame=0,selected="camera",bounds=[],shotIds=[],showBounds=true,requestCount=0,drag=null;
+let state=null,frame=0,selected="camera",bounds=[],shotIds=[],showBounds=true,requestCount=0,drag=null,reviewUrl=null;
 const $=id=>document.getElementById(id);
 const notify=(message,error=false)=>{const node=$("status");node.textContent=message;node.style.color=error?"#ff8f7e":"#a8c5c5"};
 async function api(path,data) {
@@ -99,6 +99,16 @@ function choice(){return selected==="camera"?null:(state.layers.find(x=>x.name==
 function options(){let c=choice(); return selected==="camera"?
   [["x",-5000,5000,1,0],["y",-5000,5000,1,0],["scale",.25,4,.01,1],["angle",-360,360,1,0]]:
   [["x",-5000,5000,1,0],["y",-5000,5000,1,0],["scale",.1,5,.01,1],["angle",-360,360,1,0],["opacity",0,1,.05,1]];
+}
+function editorMode(){
+  const video=$("reviewVideo");
+  if(!video.paused)video.pause();
+  video.style.display="none";$("preview").style.display="block";
+  $("overlays").style.display="block";$("backBtn").hidden=true;
+}
+function clearReview(){
+  editorMode();$("reviewVideo").removeAttribute("src");$("reviewVideo").load();
+  if(reviewUrl){URL.revokeObjectURL(reviewUrl);reviewUrl=null}
 }
 function renderInspector(){
   const c=choice();
@@ -179,6 +189,7 @@ window.addEventListener("pointerup",async e=>{
 });
 async function updateFrame(){
   if(!state)return;
+  editorMode();
   const current=++requestCount;
   $("timecode").textContent=frame+" / "+(state.frames-1);
   $("scrub").value=frame;
@@ -193,7 +204,7 @@ async function updateFrame(){
   }catch(e){notify("Preview issue: "+e.message,true)}
 }
 async function selectShot(shot){
-  try{notify("Loading entire shot "+shot+"…");state=await api("/api/select?shot="+encodeURIComponent(shot));
+  try{notify("Loading entire shot "+shot+"…");clearReview();state=await api("/api/select?shot="+encodeURIComponent(shot));
     frame=0;selected="camera";$("scrub").max=state.frames-1;
     $("shotTitle").textContent=state.shot;
     $("shotMeta").textContent=state.size.join("×")+" · "+state.frames+" frames · "+state.stage;
@@ -236,6 +247,32 @@ $("auditBtn").onclick=async()=>{try{notify("Measuring layer bounds across shot�
     acting_warnings:a.no_acting,render_errors:a.errors,
     note:"Bounds are conservative rectangles, not alpha-accurate collision detection. This does not validate acting, anatomy or character identity."},null,2);
   notify("Audit complete · "+a.samples.length+" sampled frames")}catch(e){notify(e.message,true)}};
+$("reviewBtn").onclick=async()=>{
+  try{
+    if(!state)throw Error("Select a shot first");
+    notify("Rendering every frame of "+state.shot+" as a playable review…");
+    $("reviewBtn").disabled=true;
+    const meta=await api("/api/render-review",{});
+    const response=await fetch("/api/review-video",{cache:"no-store"});
+    if(!response.ok)throw Error("Could not fetch rendered review: "+response.status);
+    const blob=await response.blob();
+    if(!blob.size)throw Error("Review video is empty");
+    clearReview();
+    reviewUrl=URL.createObjectURL(blob);
+    const video=$("reviewVideo");video.src=reviewUrl;video.style.display="block";
+    $("preview").style.display="none";$("overlays").style.display="none";
+    $("backBtn").hidden=false;
+    $("report").textContent=JSON.stringify({
+      review:meta.shot,full_shot_frames:meta.frames,decoded_frames:meta.decoded_frames,
+      fps:meta.fps,preview_size:meta.size,approval:meta.author_approved,
+      note:"This is a real composed MP4 of every shot frame, not newly generated acting or proof of visual quality."
+    },null,2);
+    notify("Playable review: "+meta.frames+"/"+meta.decoded_frames+" frames decoded at "+meta.fps+" fps");
+    video.play().catch(()=>{});
+  }catch(e){notify("Review error: "+e.message,true)}
+  finally{$("reviewBtn").disabled=false}
+};
+$("backBtn").onclick=()=>editorMode();
 $("saveBtn").onclick=async()=>{try{const result=await api("/api/save",{});$("report").textContent=JSON.stringify(result,null,2);notify("NEW exploratory take saved · original unchanged")}catch(e){notify(e.message,true)}};
 loadShots();
 </script>
