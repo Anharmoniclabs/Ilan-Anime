@@ -52,7 +52,7 @@ class FullCanvasControlTest(unittest.TestCase):
         self.session.select("S01-05")
         original = self.source.read_bytes()
         before, geom = self.session.preview(0)
-        self.assertTrue(before.startswith(b"\\x89PNG".replace(b"\\", b"\\") if False else b"\x89PNG"))
+        self.assertEqual(before[:8], bytes((137, 80, 78, 71, 13, 10, 26, 10)))
         self.assertEqual(len(geom), 3)
         self.session.edit({"target": "camera", "frame": 12, "property": "x", "value": 15})
         self.session.edit({"target": "layer", "layer": "night", "frame": 12,
