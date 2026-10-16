@@ -281,6 +281,9 @@ def main(argv=None):
     if video_args and video_args[0] == "video":
         from studio.video import main as video_main
         return video_main(video_args[1:])
+    if video_args and video_args[0] == "canvas":
+        from studio.canvas_control import main as canvas_main
+        return canvas_main(video_args[1:])
     if video_args and video_args[0] == "workspace":
         from production.workspace import main as workspace_main
         return workspace_main(video_args[1:])
@@ -293,6 +296,7 @@ def main(argv=None):
     sub.add_parser("video", help="HF video prepare | submit | import | plan | doctor")
     sub.add_parser("demand", help="one needed image: ensure | need | work | collect | status | video")
     sub.add_parser("workspace", help="interactive local scene workspace")
+    sub.add_parser("canvas", help="live full-shot camera and layer editor for every episode shot")
     sub.add_parser("navigate", help="build searchable shot navigator and audit local media")
 
     sub.add_parser("status", help="episode, runs, registry and spend summary").set_defaults(func=cmd_status)
