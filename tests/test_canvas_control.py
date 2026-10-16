@@ -104,6 +104,59 @@ class FullCanvasControlTest(unittest.TestCase):
         self.assertEqual(inventory["shots"][0]["motion_evidence"], "not demonstrated")
         self.assertFalse(inventory["author_approved"])
 
+    def test_full_shot_video_is_frame_verified_and_cache_invalidates(self):
+        from unittest.mock import patch
+
+        written = []
+        class FakeWriter:
+            def __init__(self, out, size, mode, fps):
+                self.path, self.size, self.mode, self.fps = Path(out), size, mode, fps
+            def __enter__(self):
+                return self
+            def write(self, image):
+                written.append((image.size, image.mode))
+            def __exit__(self, *_):
+                self.path.write_bytes(b"FAKE-MP4-FOR-TESTS")
+
+        self.session.select("S01-05")
+        with patch("studio.canvas_control.Writer", FakeWriter), patch(
+            "studio.canvas_control.probe_frames", return_value=48
+        ) as probe:
+            meta = self.session.render_review()
+            self.assertEqual(meta["frames"], 48)
+            self.assertEqual(meta["decoded_frames"], 48)
+            self.assertEqual(meta["fps"], 24)
+            self.assertEqual(len(written), 48)
+            self.assertTrue(all(mode == "RGB" for _, mode in written))
+            self.assertEqual(self.session.video_bytes(), b"FAKE-MP4-FOR-TESTS")
+            self.assertFalse(meta["author_approved"])
+            self.session.render_review()
+            self.assertEqual(len(written), 48, "same revision uses cached video")
+            probe.assert_called_once()
+        self.session.edit({"target": "camera", "frame": 10, "property": "x", "value": 5})
+        with self.assertRaisesRegex(CanvasError, "stale or missing"):
+            self.session.video_bytes()
+
+    def test_video_review_rejects_truncated_decode(self):
+        from unittest.mock import patch
+        class FakeWriter:
+            def __init__(self, out, **kwargs):
+                self.out = Path(out)
+            def __enter__(self):
+                return self
+            def write(self, image):
+                pass
+            def __exit__(self, *_):
+                self.out.write_bytes(b"partial")
+        self.session.select("S01-05")
+        with patch("studio.canvas_control.Writer", FakeWriter), patch(
+            "studio.canvas_control.probe_frames", return_value=47
+        ):
+            with self.assertRaisesRegex(CanvasError, "review incomplete"):
+                self.session.render_review()
+        with self.assertRaises(CanvasError):
+            self.session.video_bytes()
+
     def test_new_take_contains_actual_full_canvas_spec_and_audit(self):
         self.session.select("S01-05")
         self.session.edit({"target": "camera", "frame": 24, "property": "scale", "value": 1.1})
