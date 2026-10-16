@@ -46,6 +46,9 @@ def _drawings(element):
 
 def compile_spec(motion: dict) -> dict:
     """Motion spec -> engine spec (layers with exposures, parents, keys)."""
+    separation_errors = _separation_errors(motion)
+    if separation_errors:
+        raise MotionError("; ".join(separation_errors))
     frames = int(motion["frames"])
     layers = []
     for element in motion["elements"]:
@@ -123,6 +126,27 @@ def _point_on_screen(comp: Compositor, layer, frame, point):
             ch / 2 + z * (-sr * dx + cr * dy + cam["y"] * k))
 
 
+def _separation_errors(motion):
+    """Pure QA over named pose points; fail production compile on violated gaps."""
+    from studio.drawing.separation import check_pose_points, SeparationError
+    issues = []
+    for element in motion.get("elements", []):
+        rules = element.get("separation_constraints", [])
+        if not rules:
+            continue
+        all_points = _drawing_points(element)
+        drawings = {d for _, d, _ in _drawings(element)} or set(all_points)
+        if not drawings:
+            issues.append(f"{element.get('name')}: separation constraints have no named drawing points")
+        for drawing in sorted(drawings):
+            try:
+                violations = check_pose_points(all_points.get(drawing, {}), rules)
+                issues.extend(f"{element.get('name')}: {drawing}: {v}" for v in violations)
+            except SeparationError as exc:
+                issues.append(f"{element.get('name')}: invalid separation rule: {exc}")
+    return issues
+
+
 def _drawing_points(element):
     """{drawing path: {point name: [x, y]}} from pose entries."""
     points = {}
@@ -185,25 +209,7 @@ def check(motion: dict, base: Path = PROJECT) -> dict:
         warnings.append("no character has two or more drawings: the shot has no acting yet")
     if not environment:
         warnings.append("no environmental or prop action (water, wakes, props) is animated")
-    # Shared art/animation minimum-separation gate. CHECK ONLY: never silently
-    # warp approved cels or replace missing action drawings with transforms.
-    for element in motion.get("elements", []):
-        rules = element.get("separation_constraints", [])
-        if not rules:
-            continue
-        from studio.drawing.separation import check_pose_points, SeparationError
-        all_points = _drawing_points(element)
-        drawings = {d for _, d, _ in _drawings(element)}
-        if not drawings:
-            drawings = set(all_points)
-        if not drawings:
-            errors.append(f"{element.get('name')}: separation constraints have no named drawing points")
-        for drawing in sorted(drawings):
-            try:
-                violations = check_pose_points(all_points.get(drawing, {}), rules)
-                errors.extend(f"{element.get('name')}: {drawing}: {v}" for v in violations)
-            except SeparationError as exc:
-                errors.append(f"{element.get('name')}: invalid separation rule: {exc}")
+    errors.extend(_separation_errors(motion))
     contact_report = []
     if not errors:
         try:
