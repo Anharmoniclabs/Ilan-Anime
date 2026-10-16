@@ -25,7 +25,7 @@ server and renders the local repository's actual shot layers.
 - Left: all shot IDs; search/filter and select a shot.
 - Center: real composed image, always the **full frame**, with pan/zoom and
   shot-specific framing handled by the compositor. Scrub any frame.
-- SVG outlines: transformed source bounds for **each active layer**, not a
+- SVG outlines: transformed painted-alpha bounding extents for **each active layer** when the cel has an alpha channel, or source bounds for opaque plates; not a
   hand-placed debugging dot. Click a layer or drag an outline to adjust its
   whole-layer placement at the current frame. A bounding rectangle is NOT an
   alpha-accurate silhouette or collision result.
@@ -33,6 +33,18 @@ server and renders the local repository's actual shot layers.
   keyed X/Y, scale, angle, opacity, base opacity, or parallax. Reorder stack.
   Character scaling/rotation is deliberately blocked: replacement drawings
   are required for new acting.
+- **Render playable shot** makes an actual MP4 from **every frame** of the
+  selected shot using the current camera/layers/grades; it checks the decoded
+  frame count against the shot spec before allowing playback inside this
+  editor. It uses ffmpeg/ffprobe locally and caches only the current revision.
+  Any edit invalidates the generated review. This is a review of recorded
+  layers, NOT automatic character animation, paint correction or artistic QA.
+- **Test all shot renders** is an explicit opt-in episode-wide job. It opens
+  each saved episode spec through the real compositor and renders low-resolution
+  head/middle/tail plus selected layer and cel exposure boundary frames.
+  Progress and per-shot failures appear inside the editor. A passing
+  result means only the **sampled frames** rendered; it does not certify all
+  frames, anatomy, continuity, contacts, or finished acting.
 - **Audit this shot** samples transformed layer bounds through time, records
   off-canvas/partially clipped layers, and invokes the existing
   `studio.qa.acting_flags` check. Does NOT certify anatomy, overlap, pixels,
@@ -60,6 +72,11 @@ or guarantee 128 completed shots. The renderable shot editor and broad
 inventory are engineering infrastructure. Real art-production completion
 still needs valid replacement poses, contacts, independent visual review,
 source-quality checks, and exact-file author approval.
+
+The browser clip renderer requires ffmpeg and ffprobe available on PATH.
+A locally rendered MP4 plays in-browser under the full-canvas stage; use
+"Back to editor" to return to scrubbing, transform keying and layer inspection.
+No paid generation or cloud provider is involved.
 
 The new browser preview renders drafts at half resolution for responsiveness,
 without cropping the authored full frame. Final output still goes through
