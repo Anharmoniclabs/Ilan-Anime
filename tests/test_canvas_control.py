@@ -54,6 +54,12 @@ class FullCanvasControlTest(unittest.TestCase):
         before, geom = self.session.preview(0)
         self.assertEqual(before[:8], bytes((137, 80, 78, 71, 13, 10, 26, 10)))
         self.assertEqual(len(geom), 3)
+        self.assertEqual(len(next(x for x in geom if x["name"] == "bell")["translation_basis"]), 2)
+        # Held character drawing on 2s: editing frame 13 targets frame 12.
+        self.session.edit({"target": "layer", "layer": "amaia",
+                           "frame": 13, "property": "y", "value": 24})
+        self.assertTrue(any(k["frame"] == 12 for k in self.session.spec["layers"][1]["keys"]))
+        self.assertFalse(any(k["frame"] == 13 for k in self.session.spec["layers"][1]["keys"]))
         self.session.edit({"target": "camera", "frame": 12, "property": "x", "value": 15})
         self.session.edit({"target": "layer", "layer": "night", "frame": 12,
                            "property": "parallax", "value": 0.8})
