@@ -150,7 +150,7 @@ function renderLayers(){
 }
 function drawBounds(){
   const svg=$("overlays");svg.replaceChildren();
-  if(!showBounds)return;
+  if(!showBounds||!previewSize)return;
   const ns="http://www.w3.org/2000/svg";
   for(const [i,b] of bounds.entries()){
     let poly=document.createElementNS(ns,"polygon");
