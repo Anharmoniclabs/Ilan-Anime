@@ -67,6 +67,15 @@ def layer_geometry(comp, frame):
         else:
             size = comp._load(token[1], layer["fit"]).size
         matrix = comp._matrix(layer, size, params, camera, press, f)
+        # Exact pixel-to-key translation basis including parent chain and camera.
+        px = dict(params, x=float(params["x"]) + 1)
+        py = dict(params, y=float(params["y"]) + 1)
+        mx = comp._matrix(layer, size, px, camera, press, f)
+        my = comp._matrix(layer, size, py, camera, press, f)
+        basis = [
+            [round(mx[2] - matrix[2], 7), round(mx[5] - matrix[5], 7)],
+            [round(my[2] - matrix[2], 7), round(my[5] - matrix[5], 7)],
+        ]
         w, h = size
         polygon = [_point(matrix, p) for p in ((0, 0), (w, 0), (w, h), (0, h))]
         xs, ys = [p[0] for p in polygon], [p[1] for p in polygon]
@@ -80,7 +89,7 @@ def layer_geometry(comp, frame):
             "off_canvas": visible == 0,
             "partial": left < 0 or top < 0 or right > cw or bottom > ch,
             "source": token[1] if token[0] == "img" else "[generated]",
-            "params": params, "parallax": layer["parallax"],
+            "params": params, "translation_basis": basis, "parallax": layer["parallax"],
         })
     return result
 
@@ -182,6 +191,17 @@ class CanvasSession:
                     self.edits.append({"layer": layer["name"], "property": prop, "value": value})
                     self.revision += 1
                     return self.state()
+                # Held cels do not read keys off their exposure clock.
+                # Snap edits to the active layer's frame grid; camera is 1s.
+                start = int(layer.get("in", 0))
+                end = int(layer.get("out", self.spec["frames"]))
+                if not start <= frame < end:
+                    raise CanvasError("cannot key an inactive layer at this frame")
+                rate = int(layer.get("rate", 3))
+                if rate < 1:
+                    raise CanvasError("invalid drawing exposure rate")
+                if not layer.get("smooth"):
+                    frame = start + ((frame - start) // rate) * rate
                 keys = layer.setdefault("keys", [])
                 defaults = LAYER_DEFAULTS
             value = _number(patch.get("value"), prop, target == "camera")
