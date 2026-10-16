@@ -50,7 +50,7 @@ footer{margin-top:auto;color:var(--muted);font-size:11px}
 <aside><h2>Episode shots</h2><input id="search" placeholder="Filter shot IDs" style="width:100%"><div class="scene-list" id="shots"></div></aside>
 <main>
 <div class="toolbar"><div><strong id="shotTitle">Choose a shot</strong> <span class="chip" id="shotMeta">—</span></div>
-<div class="actions"><button id="toggleBounds">Hide bounds</button><button class="primary" id="reviewBtn">Render playable shot</button><button id="backBtn" hidden>Back to editor</button><button id="inventoryBtn">Audit all shots</button><button id="auditBtn">Audit this shot</button><button class="primary" id="saveBtn">Save NEW draft take</button></div></div>
+<div class="actions"><button id="toggleBounds">Hide bounds</button><button class="primary" id="reviewBtn">Render playable shot</button><button id="backBtn" hidden>Back to editor</button><button id="inventoryBtn">Inventory all shots</button><button id="deepAuditBtn">Test all shot renders</button><button id="auditBtn">Audit this shot</button><button class="primary" id="saveBtn">Save NEW draft take</button></div></div>
 <div class="stage" id="stage">
 <img id="preview" alt="Actual shot composition rendered from local source layers"><video id="reviewVideo" controls playsinline preload="metadata" style="display:none" aria-label="Playable complete shot review"></video>
 <svg id="overlays" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg"></svg>
@@ -73,7 +73,7 @@ footer{margin-top:auto;color:var(--muted);font-size:11px}
 </div>
 <script>
 "use strict";
-let state=null,frame=0,selected="camera",bounds=[],shotIds=[],showBounds=true,requestCount=0,drag=null,reviewUrl=null;
+let state=null,frame=0,selected="camera",bounds=[],shotIds=[],showBounds=true,requestCount=0,drag=null,reviewUrl=null,episodePoll=null;
 const $=id=>document.getElementById(id);
 const notify=(message,error=false)=>{const node=$("status");node.textContent=message;node.style.color=error?"#ff8f7e":"#a8c5c5"};
 async function api(path,data) {
@@ -240,6 +240,35 @@ $("inventoryBtn").onclick=async()=>{try{
   },null,2);
   notify("Episode inventory: "+a.shot_count+" shots inspected · "+blocked.length+" require investigation");
 }catch(e){notify(e.message,true)}};
+async function pollEpisodeAudit(){
+  try{
+    const a=await api("/api/episode-audit");
+    const failures=a.shots.filter(x=>x.state==="render_failed");
+    $("report").textContent=JSON.stringify({
+      scope:a.scope,checked:a.completed,total:a.total,rendered_frames:a.rendered_samples,
+      failed_shots:a.render_failures,failures,progress:a.state,
+      limitation:"Sampled full compositions only. A passing sample is not fully animated acting or author approval."
+    },null,2);
+    notify("Rendered samples "+a.completed+"/"+a.total+" shots · "+a.render_failures+" failed");
+    if(a.state==="completed"){
+      clearInterval(episodePoll);episodePoll=null;$("deepAuditBtn").disabled=false;
+      notify("Shot render sample test finished · inspect failures and review videos");
+    }
+  }catch(e){
+    if(episodePoll){clearInterval(episodePoll);episodePoll=null}
+    $("deepAuditBtn").disabled=false;notify(e.message,true);
+  }
+}
+$("deepAuditBtn").onclick=async()=>{
+  try{
+    $("deepAuditBtn").disabled=true;
+    notify("Starting sampled real-frame render on every episode shot…");
+    await api("/api/start-episode-audit",{});
+    if(episodePoll)clearInterval(episodePoll);
+    await pollEpisodeAudit();
+    if($("deepAuditBtn").disabled)episodePoll=setInterval(pollEpisodeAudit,1200);
+  }catch(e){$("deepAuditBtn").disabled=false;notify(e.message,true)}
+};
 $("auditBtn").onclick=async()=>{try{notify("Measuring layer bounds across shot…");const a=await api("/api/audit?step=24");
   const off=a.samples.filter(x=>x.off_canvas.length),parts=a.samples.filter(x=>x.partial.length);
   $("report").textContent=JSON.stringify({shot:a.shot,frames_sampled:a.samples.length,
