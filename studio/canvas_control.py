@@ -215,6 +215,46 @@ class CanvasSession:
             self.revision += 1
             return self.state()
 
+    def inventory(self):
+        """Fast structural preflight of EVERY episode shot. No rendered-acting claims."""
+        rows = []
+        for shot in self.shots():
+            try:
+                spec = load_json(self.spec_root / f"{shot}.json")
+                layers = spec.get("layers", [])
+                missing = []
+                drawing_counts = {}
+                for layer in layers:
+                    paths = ([layer["source"]] if layer.get("source") else []) + (
+                        list(layer.get("sequence") or [])) + [
+                        e["source"] for e in layer.get("exposures", [])
+                    ]
+                    distinct = len(set(paths))
+                    drawing_counts[layer.get("name", "?")] = distinct
+                    for name in set(paths):
+                        if not resolve(name, self.project).is_file():
+                            missing.append(name)
+                characters = [l for l in layers if "character" in l.get("tags", [])]
+                acting = sum(drawing_counts.get(l.get("name"), 0) >= 2 for l in characters)
+                rows.append({"shot": shot, "frames": spec.get("frames"),
+                             "stage": spec.get("stage", "unknown"),
+                             "layers": len(layers), "characters": len(characters),
+                             "characters_with_multiple_drawings": acting,
+                             "missing_sources": sorted(set(missing)),
+                             "motion_evidence": "multi-drawing present" if acting else "not demonstrated"})
+            except (OSError, ValueError, KeyError, TypeError) as exc:
+                rows.append({"shot": shot, "error": str(exc),
+                             "missing_sources": [], "motion_evidence": "invalid spec"})
+        return {
+            "shot_count": len(rows), "shots": rows,
+            "invalid_specs": sum(bool(x.get("error")) for x in rows),
+            "shots_with_missing_files": sum(bool(x["missing_sources"]) for x in rows),
+            "shots_without_character_action_evidence":
+                sum(x["motion_evidence"] != "multi-drawing present" for x in rows),
+            "scope": "structural source/drawing inventory only; not per-shot artwork certification",
+            "author_approved": False,
+        }
+
     def _comp(self):
         return Compositor(copy.deepcopy(self.spec), base=self.project, quality="draft", scale=0.5)
 
@@ -321,6 +361,8 @@ class CanvasHandler(BaseHTTPRequestHandler):
                 return self._send(200, self.session.select(query.get("shot", [""])[0]))
             if url.path == "/api/state":
                 return self._send(200, self.session.state())
+            if url.path == "/api/inventory":
+                return self._send(200, self.session.inventory())
             if url.path in ("/api/frame", "/api/bounds"):
                 frame = int(query.get("frame", ["0"])[0])
                 if url.path == "/api/bounds":
