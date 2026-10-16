@@ -16,12 +16,14 @@ import math
 import re
 import secrets
 import threading
+import tempfile
 from datetime import datetime, timezone
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
 
 from studio.engine.compositor import Compositor, CAMERA_DEFAULTS, LAYER_DEFAULTS, interpolate
+from studio.engine.io import Writer, probe_frames, ExportError
 from studio.paths import PROJECT, ROOT, load_json, resolve, write_json
 
 SHOT_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9_-]{0,55}$")
@@ -105,6 +107,7 @@ class CanvasSession:
         self.edits = []
         self.revision = 0
         self._lock = threading.RLock()
+        self._video = None  # (shot, revision, metadata, validated MP4 bytes)
 
     def shots(self):
         return [p.stem for p in sorted(self.spec_root.glob("*.json")) if SHOT_RE.fullmatch(p.stem)]
@@ -123,6 +126,7 @@ class CanvasSession:
         with self._lock:
             self.shot, self.original, self.spec = shot, copy.deepcopy(spec), spec
             self.edits, self.revision = [], self.revision + 1
+            self._video = None
             return self.state()
 
     def state(self):
@@ -184,12 +188,14 @@ class CanvasSession:
                     layer["parallax"] = float(value)
                     self.edits.append({"layer": layer["name"], "property": prop, "value": value})
                     self.revision += 1
+                    self._video = None
                     return self.state()
                 if prop == "base_opacity":
                     value = _number(patch.get("value"), "opacity")
                     layer["opacity"] = value
                     self.edits.append({"layer": layer["name"], "property": prop, "value": value})
                     self.revision += 1
+                    self._video = None
                     return self.state()
                 # Held cels do not read keys off their exposure clock.
                 # Snap edits to the active layer's frame grid; camera is 1s.
@@ -219,6 +225,7 @@ class CanvasSession:
             self.edits.append({"target": target, "layer": layer["name"] if layer else None,
                                "frame": frame, "property": prop, "value": value})
             self.revision += 1
+            self._video = None
             return self.state()
 
     def reorder(self, name, direction):
@@ -233,6 +240,7 @@ class CanvasSession:
                 self.spec["layers"][neighbor], self.spec["layers"][idx])
             self.edits.append({"target": "stack", "layer": name, "direction": direction})
             self.revision += 1
+            self._video = None
             return self.state()
 
     def inventory(self):
@@ -332,6 +340,54 @@ class CanvasSession:
                 "status": "technical_preflight_only", "author_approved": False,
             }
 
+
+    def render_review(self):
+        """Render EVERY shot frame, verify decoded count and cache a playable draft MP4.
+
+        Uses the exact active edited spec; rejects truncated renders. This is
+        not an acting/identity/anatomy quality judgment or author approval.
+        """
+        with self._lock:
+            if self.spec is None:
+                raise CanvasError("select a shot first")
+            key = (self.shot, self.revision)
+            if self._video and self._video[:2] == key:
+                return dict(self._video[2])
+            comp = self._comp()
+            if not 1 <= comp.frames <= 2400:
+                raise CanvasError("shot outside playable-review limit (1..2400 frames)")
+            fps = int(self.spec.get("fps", 24))
+            if fps <= 0 or fps > 120:
+                raise CanvasError("invalid review frame rate")
+            with tempfile.TemporaryDirectory(prefix="ilan-canvas-review-") as tmp:
+                path = Path(tmp) / "review.mp4"
+                with Writer(path, comp.size, mode="review", fps=fps) as writer:
+                    for index in range(comp.frames):
+                        writer.write(comp.draw(index))
+                decoded = probe_frames(path)
+                if decoded != comp.frames:
+                    raise CanvasError(f"review incomplete: decoded {decoded} of {comp.frames} frames")
+                payload = path.read_bytes()
+            if not payload:
+                raise CanvasError("review render returned an empty video")
+            meta = {
+                "shot": self.shot, "frames": comp.frames, "decoded_frames": decoded,
+                "fps": fps, "size": list(comp.size), "revision": self.revision,
+                "bytes": len(payload), "status": "exploratory-preview",
+                "author_approved": False, "limitations": [
+                    "motion is the recorded source cels and shot transforms only",
+                    "visual quality, acting, anatomy and identity are not certified",
+                ],
+            }
+            self._video = (self.shot, self.revision, meta, payload)
+            return dict(meta)
+
+    def video_bytes(self):
+        with self._lock:
+            if not self._video or self._video[:2] != (self.shot, self.revision):
+                raise CanvasError("review is stale or missing; render the current shot first")
+            return self._video[3]
+
     def save(self):
         """Save an explicit NEW exploratory take; never rewrite shot inputs."""
         with self._lock:
@@ -381,6 +437,8 @@ class CanvasHandler(BaseHTTPRequestHandler):
                 return self._send(200, self.session.select(query.get("shot", [""])[0]))
             if url.path == "/api/state":
                 return self._send(200, self.session.state())
+            if url.path == "/api/review-video":
+                return self._send(200, self.session.video_bytes(), "video/mp4")
             if url.path == "/api/inventory":
                 return self._send(200, self.session.inventory())
             if url.path in ("/api/frame", "/api/bounds"):
@@ -392,7 +450,7 @@ class CanvasHandler(BaseHTTPRequestHandler):
             if url.path == "/api/audit":
                 return self._send(200, self.session.audit(sample=int(query.get("step", ["24"])[0])))
             return self._send(404, {"error": "not found"})
-        except (CanvasError, ValueError, OSError, KeyError, TypeError) as exc:
+        except (CanvasError, ExportError, ValueError, OSError, KeyError, TypeError) as exc:
             return self._send(400, {"error": str(exc)})
 
     def do_POST(self):
@@ -412,10 +470,12 @@ class CanvasHandler(BaseHTTPRequestHandler):
                 return self._send(200, self.session.edit(data))
             if path == "/api/reorder":
                 return self._send(200, self.session.reorder(data.get("layer"), data.get("direction")))
+            if path == "/api/render-review":
+                return self._send(200, self.session.render_review())
             if path == "/api/save":
                 return self._send(200, self.session.save())
             return self._send(404, {"error": "not found"})
-        except (CanvasError, ValueError, OSError, KeyError, TypeError) as exc:
+        except (CanvasError, ExportError, ValueError, OSError, KeyError, TypeError) as exc:
             return self._send(400, {"error": str(exc)})
 
     def log_message(self, fmt, *args):
