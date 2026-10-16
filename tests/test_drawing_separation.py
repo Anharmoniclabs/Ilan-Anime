@@ -90,6 +90,10 @@ class SeparationTest(unittest.TestCase):
         report = check(shot)
         self.assertEqual(shot, before)
         self.assertTrue(any("need 4.000px more separation" in x for x in report["errors"]))
+        from studio.motion import compile_spec, MotionError
+        with self.assertRaises(MotionError):
+            compile_spec(shot)
+
 
 
 if __name__ == "__main__":
