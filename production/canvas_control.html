@@ -50,7 +50,7 @@ footer{margin-top:auto;color:var(--muted);font-size:11px}
 <aside><h2>Episode shots</h2><input id="search" placeholder="Filter shot IDs" style="width:100%"><div class="scene-list" id="shots"></div></aside>
 <main>
 <div class="toolbar"><div><strong id="shotTitle">Choose a shot</strong> <span class="chip" id="shotMeta">—</span></div>
-<div class="actions"><button id="toggleBounds">Hide bounds</button><button id="auditBtn">Audit full shot</button><button class="primary" id="saveBtn">Save NEW draft take</button></div></div>
+<div class="actions"><button id="toggleBounds">Hide bounds</button><button id="inventoryBtn">Audit all shots</button><button id="auditBtn">Audit this shot</button><button class="primary" id="saveBtn">Save NEW draft take</button></div></div>
 <div class="stage" id="stage">
 <img id="preview" alt="Actual shot composition rendered from local source layers">
 <svg id="overlays" viewBox="0 0 640 360" xmlns="http://www.w3.org/2000/svg"></svg>
@@ -212,6 +212,19 @@ $("next").onclick=()=>{frame=Math.min(state.frames-1,frame+1);updateFrame()};
 $("toggleBounds").onclick=()=>{showBounds=!showBounds;$("toggleBounds").textContent=showBounds?"Hide bounds":"Show bounds";drawBounds()};
 async function moveLayer(direction){try{state=await api("/api/reorder",{layer:selected,direction});renderLayers();await updateFrame()}catch(e){notify(e.message,true)}}
 $("up").onclick=()=>moveLayer(1);$("down").onclick=()=>moveLayer(-1);
+$("inventoryBtn").onclick=async()=>{try{
+  notify("Checking all episode shot specs…");
+  const a=await api("/api/inventory");
+  const blocked=a.shots.filter(x=>x.error||x.missing_sources.length||x.motion_evidence!=="multi-drawing present");
+  $("report").textContent=JSON.stringify({
+    shots_inspected:a.shot_count,invalid_specs:a.invalid_specs,
+    shots_with_missing_files:a.shots_with_missing_files,
+    shots_without_character_action_evidence:a.shots_without_character_action_evidence,
+    first_blockers:blocked.slice(0,24),
+    limitation:a.scope
+  },null,2);
+  notify("Episode inventory: "+a.shot_count+" shots inspected · "+blocked.length+" require investigation");
+}catch(e){notify(e.message,true)}};
 $("auditBtn").onclick=async()=>{try{notify("Measuring layer bounds across shot…");const a=await api("/api/audit?step=24");
   const off=a.samples.filter(x=>x.off_canvas.length),parts=a.samples.filter(x=>x.partial.length);
   $("report").textContent=JSON.stringify({shot:a.shot,frames_sampled:a.samples.length,
